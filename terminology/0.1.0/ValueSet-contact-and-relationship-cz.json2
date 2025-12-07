@@ -1,0 +1,40 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "contact-and-relationship-cz",
+  "language" : "cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"cs\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"cs\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet contact-and-relationship-cz</b></p><a name=\"contact-and-relationship-cz\"> </a><a name=\"hccontact-and-relationship-cz\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: cs</p></div><p>This value set includes codes based on the following rules:</p><ul><li>Import all the codes that are contained in <a href=\"ValueSet-contactrole-cz.html\">Contact Role (CZ)</a></li><li>Import all the codes that are contained in <a href=\"ValueSet-personal-relationship-cz.html\">Role code (CZ)</a></li></ul></div>"
+  },
+  "url" : "https://hl7.cz/terminology/ValueSet/contact-and-relationship-cz",
+  "version" : "0.1.0",
+  "name" : "Hl7vsContactAndRelationshipCz100",
+  "title" : "Contact and Relationship (CZ)",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2025-04-03T08:40:10.799745Z",
+  "publisher" : "HL7 Czech Republic",
+  "contact" : [{
+    "name" : "HL7 Czech Republic",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.hl7.cz/"
+    }]
+  }],
+  "description" : "Číselník vztahů a rolí kontaktních osob k pacientovi. Číselník zahrnuje dva samostatné číselníky: relationship a contact role.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CZ",
+      "display" : "Czechia"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "valueSet" : ["https://hl7.cz/terminology/ValueSet/contactrole-cz"]
+    },
+    {
+      "valueSet" : ["https://hl7.cz/terminology/ValueSet/personal-relationship-cz"]
+    }]
+  }
+}

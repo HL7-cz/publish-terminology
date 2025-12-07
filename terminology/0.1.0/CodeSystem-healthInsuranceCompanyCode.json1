@@ -1,0 +1,171 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "healthInsuranceCompanyCode",
+  "language" : "cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"cs\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"cs\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem healthInsuranceCompanyCode</b></p><a name=\"healthInsuranceCompanyCode\"> </a><a name=\"hchealthInsuranceCompanyCode\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: cs</p></div><p>This case-sensitive code system <code>https://ncez.mzcr.cz/terminology/CodeSystem/healthInsuranceCompanyCode</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">111<a name=\"healthInsuranceCompanyCode-111\"> </a></td><td>Všeobecná zdravotní pojišťovna ČR</td></tr><tr><td style=\"white-space:nowrap\">201<a name=\"healthInsuranceCompanyCode-201\"> </a></td><td>Vojenská zdravotní pojišťovna ČR</td></tr><tr><td style=\"white-space:nowrap\">202<a name=\"healthInsuranceCompanyCode-202\"> </a></td><td>Hornická zaměstnanecká zdrav.pojišťovna</td></tr><tr><td style=\"white-space:nowrap\">203<a name=\"healthInsuranceCompanyCode-203\"> </a></td><td>GRÁL-Železniční zdravotní pojišťovna</td></tr><tr><td style=\"white-space:nowrap\">204<a name=\"healthInsuranceCompanyCode-204\"> </a></td><td>Pojišťovna GARANT-HOSPITAL</td></tr><tr><td style=\"white-space:nowrap\">205<a name=\"healthInsuranceCompanyCode-205\"> </a></td><td>Česká průmyslová zdravotní pojišťovna</td></tr><tr><td style=\"white-space:nowrap\">206<a name=\"healthInsuranceCompanyCode-206\"> </a></td><td>Moravská zdravotní pojišťovna</td></tr><tr><td style=\"white-space:nowrap\">207<a name=\"healthInsuranceCompanyCode-207\"> </a></td><td>Obor.zdravot.poj.zam.bank,pojiš. a stav.</td></tr><tr><td style=\"white-space:nowrap\">208<a name=\"healthInsuranceCompanyCode-208\"> </a></td><td>Zaměstnanecká zdravotní pojišťov.ATLAS</td></tr><tr><td style=\"white-space:nowrap\">209<a name=\"healthInsuranceCompanyCode-209\"> </a></td><td>Zaměstnanecká pojišťovna ŠKODA</td></tr><tr><td style=\"white-space:nowrap\">210<a name=\"healthInsuranceCompanyCode-210\"> </a></td><td>Zdravotní pokladna škodováků</td></tr><tr><td style=\"white-space:nowrap\">211<a name=\"healthInsuranceCompanyCode-211\"> </a></td><td>Zdravotní pojišťovna minister.vnitra ČR</td></tr><tr><td style=\"white-space:nowrap\">212<a name=\"healthInsuranceCompanyCode-212\"> </a></td><td>STAZPO - Stavební zdravotní pojišťovna</td></tr><tr><td style=\"white-space:nowrap\">213<a name=\"healthInsuranceCompanyCode-213\"> </a></td><td>Revírní bratrská pokladna, zdravot.poj.</td></tr><tr><td style=\"white-space:nowrap\">214<a name=\"healthInsuranceCompanyCode-214\"> </a></td><td>Regionální zdravotní pojišťovna REZAPO</td></tr><tr><td style=\"white-space:nowrap\">215<a name=\"healthInsuranceCompanyCode-215\"> </a></td><td>IMPULS-Moravskoslezská zdravotní pojišť.</td></tr><tr><td style=\"white-space:nowrap\">216<a name=\"healthInsuranceCompanyCode-216\"> </a></td><td>Sdruž.dopr.a zem.-podnik.zdr.poj.SALVUS</td></tr><tr><td style=\"white-space:nowrap\">217<a name=\"healthInsuranceCompanyCode-217\"> </a></td><td>Zdravotní pojišťovna METAL-ALIANCE</td></tr><tr><td style=\"white-space:nowrap\">218<a name=\"healthInsuranceCompanyCode-218\"> </a></td><td>Zdravotní pojišťovna CRYSTAL</td></tr><tr><td style=\"white-space:nowrap\">219<a name=\"healthInsuranceCompanyCode-219\"> </a></td><td>Prostějovská zdravotní pojišťovna</td></tr><tr><td style=\"white-space:nowrap\">220<a name=\"healthInsuranceCompanyCode-220\"> </a></td><td>Zaměstnanecká zdravot.pojišťovna PRIMA</td></tr><tr><td style=\"white-space:nowrap\">221<a name=\"healthInsuranceCompanyCode-221\"> </a></td><td>Mendlova zdravotní pojišťovna</td></tr><tr><td style=\"white-space:nowrap\">222<a name=\"healthInsuranceCompanyCode-222\"> </a></td><td>Česká národní zdravotní pojišťovna</td></tr><tr><td style=\"white-space:nowrap\">223<a name=\"healthInsuranceCompanyCode-223\"> </a></td><td>Zemědělsko-potravinářská zdrav.pojišť.</td></tr><tr><td style=\"white-space:nowrap\">224<a name=\"healthInsuranceCompanyCode-224\"> </a></td><td>Zaměstnanecká zdravotní pojišťovna RADIX</td></tr><tr><td style=\"white-space:nowrap\">225<a name=\"healthInsuranceCompanyCode-225\"> </a></td><td>Zdravotní pojišťovna SPORT</td></tr><tr><td style=\"white-space:nowrap\">226<a name=\"healthInsuranceCompanyCode-226\"> </a></td><td>Zdrav.pojišť.chemie,zdravot. a farmacie</td></tr><tr><td style=\"white-space:nowrap\">227<a name=\"healthInsuranceCompanyCode-227\"> </a></td><td>Zdravotní pojišťovna AGEL</td></tr><tr><td style=\"white-space:nowrap\">228<a name=\"healthInsuranceCompanyCode-228\"> </a></td><td>Zdravotní pojišťovna Média</td></tr><tr><td style=\"white-space:nowrap\">333<a name=\"healthInsuranceCompanyCode-333\"> </a></td><td>Všeobecná zdravotní pojišťovna - pojištění cizinců</td></tr><tr><td style=\"white-space:nowrap\">800<a name=\"healthInsuranceCompanyCode-800\"> </a></td><td>Vládní stipendista - hradí MZ ČR</td></tr><tr><td style=\"white-space:nowrap\">000<a name=\"healthInsuranceCompanyCode-000\"> </a></td><td>Bez smlouvy se zdravotní pojišťovnou</td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 2
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "trial-use"
+  }],
+  "url" : "https://ncez.mzcr.cz/terminology/CodeSystem/healthInsuranceCompanyCode",
+  "version" : "0.1.0",
+  "name" : "CS_HealthInsuranceCompanyCode",
+  "title" : "Codesystem of Health Insurance Companies",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2025-01-17",
+  "publisher" : "HL7 Czech Republic",
+  "contact" : [{
+    "name" : "HL7 Czech Republic",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.hl7.cz/"
+    }]
+  }],
+  "description" : "National codes of health insurance companies.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CZ",
+      "display" : "Czechia"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 32,
+  "concept" : [{
+    "code" : "111",
+    "display" : "Všeobecná zdravotní pojišťovna ČR"
+  },
+  {
+    "code" : "201",
+    "display" : "Vojenská zdravotní pojišťovna ČR"
+  },
+  {
+    "code" : "202",
+    "display" : "Hornická zaměstnanecká zdrav.pojišťovna"
+  },
+  {
+    "code" : "203",
+    "display" : "GRÁL-Železniční zdravotní pojišťovna"
+  },
+  {
+    "code" : "204",
+    "display" : "Pojišťovna GARANT-HOSPITAL"
+  },
+  {
+    "code" : "205",
+    "display" : "Česká průmyslová zdravotní pojišťovna"
+  },
+  {
+    "code" : "206",
+    "display" : "Moravská zdravotní pojišťovna"
+  },
+  {
+    "code" : "207",
+    "display" : "Obor.zdravot.poj.zam.bank,pojiš. a stav."
+  },
+  {
+    "code" : "208",
+    "display" : "Zaměstnanecká zdravotní pojišťov.ATLAS"
+  },
+  {
+    "code" : "209",
+    "display" : "Zaměstnanecká pojišťovna ŠKODA"
+  },
+  {
+    "code" : "210",
+    "display" : "Zdravotní pokladna škodováků"
+  },
+  {
+    "code" : "211",
+    "display" : "Zdravotní pojišťovna minister.vnitra ČR"
+  },
+  {
+    "code" : "212",
+    "display" : "STAZPO - Stavební zdravotní pojišťovna"
+  },
+  {
+    "code" : "213",
+    "display" : "Revírní bratrská pokladna, zdravot.poj."
+  },
+  {
+    "code" : "214",
+    "display" : "Regionální zdravotní pojišťovna REZAPO"
+  },
+  {
+    "code" : "215",
+    "display" : "IMPULS-Moravskoslezská zdravotní pojišť."
+  },
+  {
+    "code" : "216",
+    "display" : "Sdruž.dopr.a zem.-podnik.zdr.poj.SALVUS"
+  },
+  {
+    "code" : "217",
+    "display" : "Zdravotní pojišťovna METAL-ALIANCE"
+  },
+  {
+    "code" : "218",
+    "display" : "Zdravotní pojišťovna CRYSTAL"
+  },
+  {
+    "code" : "219",
+    "display" : "Prostějovská zdravotní pojišťovna"
+  },
+  {
+    "code" : "220",
+    "display" : "Zaměstnanecká zdravot.pojišťovna PRIMA"
+  },
+  {
+    "code" : "221",
+    "display" : "Mendlova zdravotní pojišťovna"
+  },
+  {
+    "code" : "222",
+    "display" : "Česká národní zdravotní pojišťovna"
+  },
+  {
+    "code" : "223",
+    "display" : "Zemědělsko-potravinářská zdrav.pojišť."
+  },
+  {
+    "code" : "224",
+    "display" : "Zaměstnanecká zdravotní pojišťovna RADIX"
+  },
+  {
+    "code" : "225",
+    "display" : "Zdravotní pojišťovna SPORT"
+  },
+  {
+    "code" : "226",
+    "display" : "Zdrav.pojišť.chemie,zdravot. a farmacie"
+  },
+  {
+    "code" : "227",
+    "display" : "Zdravotní pojišťovna AGEL"
+  },
+  {
+    "code" : "228",
+    "display" : "Zdravotní pojišťovna Média"
+  },
+  {
+    "code" : "333",
+    "display" : "Všeobecná zdravotní pojišťovna - pojištění cizinců"
+  },
+  {
+    "code" : "800",
+    "display" : "Vládní stipendista - hradí MZ ČR"
+  },
+  {
+    "code" : "000",
+    "display" : "Bez smlouvy se zdravotní pojišťovnou"
+  }]
+}

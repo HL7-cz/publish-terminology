@@ -1,0 +1,99 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hl7.cz/terminology/ValueSet/eHDSIAbsentOrUnknownAllergy-cz> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "eHDSIAbsentOrUnknownAllergy-cz"] ; # 
+  fhir:language [ fhir:v "cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div [ fhir:v "<div xml:lang=\"cs\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"cs\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet eHDSIAbsentOrUnknownAllergy-cz</b></p><a name=\"eHDSIAbsentOrUnknownAllergy-cz\"> </a><a name=\"hceHDSIAbsentOrUnknownAllergy-cz\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: cs</p></div><ul><li>Include these codes as defined in <a href=\"http://hl7.org/fhir/uv/ips/STU1.1/CodeSystem-absent-unknown-uv-ips.html\"><code>http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips</code></a><span title=\"Version is explicitly stated to be 1.1.0\"> version ?1.1.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><code>no-allergy-info</code></td><td>žádné informace o alergiích</td><td>There is no information available regarding the subject's allergy conditions.</td></tr><tr><td><code>no-known-allergies</code></td><td>žádné známé alergie</td><td>The subject has no known allergy conditions.</td></tr><tr><td><code>no-known-medication-allergies</code></td><td>žádné známé alergie na léky</td><td>The subject has no known medication allergy conditions.</td></tr><tr><td><code>no-known-environmental-allergies</code></td><td>žádné známé alergie na vnější prostředí</td><td>The subject has no known environmental allergy conditions.</td></tr><tr><td><code>no-known-food-allergies</code></td><td>žádné známé alergie na potraviny</td><td>The subject has no known food allergy conditions.</td></tr></table></li></ul></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 1
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "draft"
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "https://ncez.mzcr.cz/terminology/ValueSet/eHDSIAbsentOrUnknownAllergy-cz"^^xsd:anyURI ;
+     fhir:l <https://ncez.mzcr.cz/terminology/ValueSet/eHDSIAbsentOrUnknownAllergy-cz>
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [
+       fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
+       fhir:l <urn:ietf:rfc:3986>
+     ] ;
+     fhir:value [ fhir:v "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.47" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "EHDSIAbsentOrUnknownAllergyCZ"] ; # 
+  fhir:title [ fhir:v "eHDSI Absent Or Unknown Allergy"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2025-12-02T17:10:03+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 Czech Republic"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HL7 Czech Republic" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://www.hl7.cz/" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "The Value set is used to encode absent or unknown medical allergies."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
+         fhir:l <urn:iso:std:iso:3166>
+       ] ;
+       fhir:code [ fhir:v "CZ" ] ;
+       fhir:display [ fhir:v "Czechia" ]
+     ] )
+  ] ) ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips>
+       ] ;
+       fhir:version [ fhir:v "1.1.0" ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "no-allergy-info" ] ;
+         fhir:display [ fhir:v "žádné informace o alergiích" ]
+       ] [
+         fhir:code [ fhir:v "no-known-allergies" ] ;
+         fhir:display [ fhir:v "žádné známé alergie" ]
+       ] [
+         fhir:code [ fhir:v "no-known-medication-allergies" ] ;
+         fhir:display [ fhir:v "žádné známé alergie na léky" ]
+       ] [
+         fhir:code [ fhir:v "no-known-environmental-allergies" ] ;
+         fhir:display [ fhir:v "žádné známé alergie na vnější prostředí" ]
+       ] [
+         fhir:code [ fhir:v "no-known-food-allergies" ] ;
+         fhir:display [ fhir:v "žádné známé alergie na potraviny" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

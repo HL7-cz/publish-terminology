@@ -1,0 +1,251 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "nrzp-povolani",
+  "language" : "cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"cs\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"cs\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem nrzp-povolani</b></p><a name=\"nrzp-povolani\"> </a><a name=\"hcnrzp-povolani\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: cs</p></div><p>This case-sensitive code system <code>https://ncez.mzcr.cz/terminology/CodeSystem/nrzp-povolani</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">L1<a name=\"nrzp-povolani-L1\"> </a></td><td>Lékař po absolvování odborné způsobilosti (L1)</td></tr><tr><td style=\"white-space:nowrap\">L2<a name=\"nrzp-povolani-L2\"> </a></td><td>Lékař po absolvování základního kmene (L2)</td></tr><tr><td style=\"white-space:nowrap\">L3<a name=\"nrzp-povolani-L3\"> </a></td><td>Lékař po absolvování specializačního vzdělání (L3)</td></tr><tr><td style=\"white-space:nowrap\">Z00<a name=\"nrzp-povolani-Z00\"> </a></td><td>Zubní lékař</td></tr><tr><td style=\"white-space:nowrap\">F00<a name=\"nrzp-povolani-F00\"> </a></td><td>Farmaceut</td></tr><tr><td style=\"white-space:nowrap\">NL01<a name=\"nrzp-povolani-NL01\"> </a></td><td>Všeobecná sestra</td></tr><tr><td style=\"white-space:nowrap\">NL013<a name=\"nrzp-povolani-NL013\"> </a></td><td>Dětská sestra</td></tr><tr><td style=\"white-space:nowrap\">NL02<a name=\"nrzp-povolani-NL02\"> </a></td><td>Porodní asistentka</td></tr><tr><td style=\"white-space:nowrap\">NL03<a name=\"nrzp-povolani-NL03\"> </a></td><td>Ergoterapeut</td></tr><tr><td style=\"white-space:nowrap\">NL04<a name=\"nrzp-povolani-NL04\"> </a></td><td>Radiologický asistent</td></tr><tr><td style=\"white-space:nowrap\">NL05<a name=\"nrzp-povolani-NL05\"> </a></td><td>Zdravotní laborant</td></tr><tr><td style=\"white-space:nowrap\">NL06<a name=\"nrzp-povolani-NL06\"> </a></td><td>Zdravotně-sociální pracovník</td></tr><tr><td style=\"white-space:nowrap\">NL07<a name=\"nrzp-povolani-NL07\"> </a></td><td>Optometrista</td></tr><tr><td style=\"white-space:nowrap\">NL08<a name=\"nrzp-povolani-NL08\"> </a></td><td>Ortoptista</td></tr><tr><td style=\"white-space:nowrap\">NL09<a name=\"nrzp-povolani-NL09\"> </a></td><td>Asistent ochrany a podpory veřejného zdraví</td></tr><tr><td style=\"white-space:nowrap\">NL10<a name=\"nrzp-povolani-NL10\"> </a></td><td>Ortotik-protetik</td></tr><tr><td style=\"white-space:nowrap\">NL11<a name=\"nrzp-povolani-NL11\"> </a></td><td>Nutriční terapeut</td></tr><tr><td style=\"white-space:nowrap\">NL12<a name=\"nrzp-povolani-NL12\"> </a></td><td>Zubní technik</td></tr><tr><td style=\"white-space:nowrap\">NL13<a name=\"nrzp-povolani-NL13\"> </a></td><td>Dentální hygienistka</td></tr><tr><td style=\"white-space:nowrap\">NL14<a name=\"nrzp-povolani-NL14\"> </a></td><td>Zdravotnický záchranář</td></tr><tr><td style=\"white-space:nowrap\">NL15<a name=\"nrzp-povolani-NL15\"> </a></td><td>Farmaceutický asistent</td></tr><tr><td style=\"white-space:nowrap\">NL16<a name=\"nrzp-povolani-NL16\"> </a></td><td>Biomedicínský technik</td></tr><tr><td style=\"white-space:nowrap\">NL24<a name=\"nrzp-povolani-NL24\"> </a></td><td>Radiologický fyzik</td></tr><tr><td style=\"white-space:nowrap\">NL19<a name=\"nrzp-povolani-NL19\"> </a></td><td>Adiktolog</td></tr><tr><td style=\"white-space:nowrap\">NL20<a name=\"nrzp-povolani-NL20\"> </a></td><td>Psycholog ve zdravotnictví</td></tr><tr><td style=\"white-space:nowrap\">NL21<a name=\"nrzp-povolani-NL21\"> </a></td><td>Logoped ve zdravotnictví</td></tr><tr><td style=\"white-space:nowrap\">NL22<a name=\"nrzp-povolani-NL22\"> </a></td><td>Zrakový terapeut</td></tr><tr><td style=\"white-space:nowrap\">NL23<a name=\"nrzp-povolani-NL23\"> </a></td><td>Fyzioterapeut</td></tr><tr><td style=\"white-space:nowrap\">NL18<a name=\"nrzp-povolani-NL18\"> </a></td><td>Radiologický technik</td></tr><tr><td style=\"white-space:nowrap\">NL25<a name=\"nrzp-povolani-NL25\"> </a></td><td>Odborný pracovník v laboratorních metodách a v přípravě léčivých přípravků</td></tr><tr><td style=\"white-space:nowrap\">NL26<a name=\"nrzp-povolani-NL26\"> </a></td><td>Biomedicínský inženýr</td></tr><tr><td style=\"white-space:nowrap\">NL27<a name=\"nrzp-povolani-NL27\"> </a></td><td>Odborný pracovník v ochraně a podpoře veřejného zdraví</td></tr><tr><td style=\"white-space:nowrap\">NL28<a name=\"nrzp-povolani-NL28\"> </a></td><td>Praktická sestra</td></tr><tr><td style=\"white-space:nowrap\">NL29<a name=\"nrzp-povolani-NL29\"> </a></td><td>Behaviorální analytik</td></tr><tr><td style=\"white-space:nowrap\">NL31<a name=\"nrzp-povolani-NL31\"> </a></td><td>Specialista tradiční čínské medicíny</td></tr><tr><td style=\"white-space:nowrap\">NL30<a name=\"nrzp-povolani-NL30\"> </a></td><td>Terapeut tradiční čínské medicíny</td></tr><tr><td style=\"white-space:nowrap\">NL60<a name=\"nrzp-povolani-NL60\"> </a></td><td>Asistent behaviorálního analytika</td></tr><tr><td style=\"white-space:nowrap\">NL61<a name=\"nrzp-povolani-NL61\"> </a></td><td>Behaviorální technik</td></tr><tr><td style=\"white-space:nowrap\">NL63<a name=\"nrzp-povolani-NL63\"> </a></td><td>Laboratorní asistent</td></tr><tr><td style=\"white-space:nowrap\">NL64<a name=\"nrzp-povolani-NL64\"> </a></td><td>Ortoticko-protetický technik</td></tr><tr><td style=\"white-space:nowrap\">NL65<a name=\"nrzp-povolani-NL65\"> </a></td><td>Nutriční asistent</td></tr><tr><td style=\"white-space:nowrap\">NL66<a name=\"nrzp-povolani-NL66\"> </a></td><td>Asistent zubního technika</td></tr><tr><td style=\"white-space:nowrap\">NL68<a name=\"nrzp-povolani-NL68\"> </a></td><td>Řidič vozidla zdravotnické záchranné služby</td></tr><tr><td style=\"white-space:nowrap\">NL69<a name=\"nrzp-povolani-NL69\"> </a></td><td>Ošetřovatel</td></tr><tr><td style=\"white-space:nowrap\">NL70<a name=\"nrzp-povolani-NL70\"> </a></td><td>Masér ve zdravotnictví, nevidomý a slabozraký masér ve zdravotnictví</td></tr><tr><td style=\"white-space:nowrap\">NL73<a name=\"nrzp-povolani-NL73\"> </a></td><td>Zubní instrumentářka</td></tr><tr><td style=\"white-space:nowrap\">NL74<a name=\"nrzp-povolani-NL74\"> </a></td><td>Řidič zdravotnické dopravní služby</td></tr><tr><td style=\"white-space:nowrap\">NL75<a name=\"nrzp-povolani-NL75\"> </a></td><td>Autoptický laborant</td></tr><tr><td style=\"white-space:nowrap\">NL76<a name=\"nrzp-povolani-NL76\"> </a></td><td>Sanitář</td></tr><tr><td style=\"white-space:nowrap\">L00<a name=\"nrzp-povolani-L00\"> </a></td><td>Lékař</td></tr><tr><td style=\"white-space:nowrap\">LA<a name=\"nrzp-povolani-LA\"> </a></td><td>Lékař po absolvování studijního oboru v anglickém jazyce</td></tr><tr><td style=\"white-space:nowrap\">FA<a name=\"nrzp-povolani-FA\"> </a></td><td>Farmaceut po absolvování studijního oboru v anglickém jazyce</td></tr><tr><td style=\"white-space:nowrap\">ZA<a name=\"nrzp-povolani-ZA\"> </a></td><td>Zubní lékař po absolvování studijního oboru v anglickém jazyce</td></tr></table></div>"
+  },
+  "url" : "https://ncez.mzcr.cz/terminology/CodeSystem/nrzp-povolani",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.203.24341.11.2.10.2.1"
+  }],
+  "version" : "0.1.0",
+  "name" : "NRZP_Povolani",
+  "title" : "NRZP - Czech health professional occupation",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "1980-01-01",
+  "publisher" : "HL7 Czech Republic",
+  "contact" : [{
+    "name" : "HL7 Czech Republic",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.hl7.cz/"
+    }]
+  }],
+  "description" : "Czech national code system for health professional occupation used in the national registry of healthcare practicioners.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CZ",
+      "display" : "Czechia"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 53,
+  "concept" : [{
+    "code" : "L1",
+    "display" : "Lékař po absolvování odborné způsobilosti (L1)"
+  },
+  {
+    "code" : "L2",
+    "display" : "Lékař po absolvování základního kmene (L2)"
+  },
+  {
+    "code" : "L3",
+    "display" : "Lékař po absolvování specializačního vzdělání (L3)"
+  },
+  {
+    "code" : "Z00",
+    "display" : "Zubní lékař"
+  },
+  {
+    "code" : "F00",
+    "display" : "Farmaceut"
+  },
+  {
+    "code" : "NL01",
+    "display" : "Všeobecná sestra"
+  },
+  {
+    "code" : "NL013",
+    "display" : "Dětská sestra"
+  },
+  {
+    "code" : "NL02",
+    "display" : "Porodní asistentka"
+  },
+  {
+    "code" : "NL03",
+    "display" : "Ergoterapeut"
+  },
+  {
+    "code" : "NL04",
+    "display" : "Radiologický asistent"
+  },
+  {
+    "code" : "NL05",
+    "display" : "Zdravotní laborant"
+  },
+  {
+    "code" : "NL06",
+    "display" : "Zdravotně-sociální pracovník"
+  },
+  {
+    "code" : "NL07",
+    "display" : "Optometrista"
+  },
+  {
+    "code" : "NL08",
+    "display" : "Ortoptista"
+  },
+  {
+    "code" : "NL09",
+    "display" : "Asistent ochrany a podpory veřejného zdraví"
+  },
+  {
+    "code" : "NL10",
+    "display" : "Ortotik-protetik"
+  },
+  {
+    "code" : "NL11",
+    "display" : "Nutriční terapeut"
+  },
+  {
+    "code" : "NL12",
+    "display" : "Zubní technik"
+  },
+  {
+    "code" : "NL13",
+    "display" : "Dentální hygienistka"
+  },
+  {
+    "code" : "NL14",
+    "display" : "Zdravotnický záchranář"
+  },
+  {
+    "code" : "NL15",
+    "display" : "Farmaceutický asistent"
+  },
+  {
+    "code" : "NL16",
+    "display" : "Biomedicínský technik"
+  },
+  {
+    "code" : "NL24",
+    "display" : "Radiologický fyzik"
+  },
+  {
+    "code" : "NL19",
+    "display" : "Adiktolog"
+  },
+  {
+    "code" : "NL20",
+    "display" : "Psycholog ve zdravotnictví"
+  },
+  {
+    "code" : "NL21",
+    "display" : "Logoped ve zdravotnictví"
+  },
+  {
+    "code" : "NL22",
+    "display" : "Zrakový terapeut"
+  },
+  {
+    "code" : "NL23",
+    "display" : "Fyzioterapeut"
+  },
+  {
+    "code" : "NL18",
+    "display" : "Radiologický technik"
+  },
+  {
+    "code" : "NL25",
+    "display" : "Odborný pracovník v laboratorních metodách a v přípravě léčivých přípravků"
+  },
+  {
+    "code" : "NL26",
+    "display" : "Biomedicínský inženýr"
+  },
+  {
+    "code" : "NL27",
+    "display" : "Odborný pracovník v ochraně a podpoře veřejného zdraví"
+  },
+  {
+    "code" : "NL28",
+    "display" : "Praktická sestra"
+  },
+  {
+    "code" : "NL29",
+    "display" : "Behaviorální analytik"
+  },
+  {
+    "code" : "NL31",
+    "display" : "Specialista tradiční čínské medicíny"
+  },
+  {
+    "code" : "NL30",
+    "display" : "Terapeut tradiční čínské medicíny"
+  },
+  {
+    "code" : "NL60",
+    "display" : "Asistent behaviorálního analytika"
+  },
+  {
+    "code" : "NL61",
+    "display" : "Behaviorální technik"
+  },
+  {
+    "code" : "NL63",
+    "display" : "Laboratorní asistent"
+  },
+  {
+    "code" : "NL64",
+    "display" : "Ortoticko-protetický technik"
+  },
+  {
+    "code" : "NL65",
+    "display" : "Nutriční asistent"
+  },
+  {
+    "code" : "NL66",
+    "display" : "Asistent zubního technika"
+  },
+  {
+    "code" : "NL68",
+    "display" : "Řidič vozidla zdravotnické záchranné služby"
+  },
+  {
+    "code" : "NL69",
+    "display" : "Ošetřovatel"
+  },
+  {
+    "code" : "NL70",
+    "display" : "Masér ve zdravotnictví, nevidomý a slabozraký masér ve zdravotnictví"
+  },
+  {
+    "code" : "NL73",
+    "display" : "Zubní instrumentářka"
+  },
+  {
+    "code" : "NL74",
+    "display" : "Řidič zdravotnické dopravní služby"
+  },
+  {
+    "code" : "NL75",
+    "display" : "Autoptický laborant"
+  },
+  {
+    "code" : "NL76",
+    "display" : "Sanitář"
+  },
+  {
+    "code" : "L00",
+    "display" : "Lékař"
+  },
+  {
+    "code" : "LA",
+    "display" : "Lékař po absolvování studijního oboru v anglickém jazyce"
+  },
+  {
+    "code" : "FA",
+    "display" : "Farmaceut po absolvování studijního oboru v anglickém jazyce"
+  },
+  {
+    "code" : "ZA",
+    "display" : "Zubní lékař po absolvování studijního oboru v anglickém jazyce"
+  }]
+}

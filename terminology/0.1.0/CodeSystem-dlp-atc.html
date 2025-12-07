@@ -1,0 +1,1672 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>ATC CZ - HL7 Czech Terminology Implementation Guide v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <link href="assets/css/cz-core.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"5.39"}
+    h3,h4,h5,h6{--heading-prefix:"5.39"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <!-- Placeholder for child template header declarations -->
+<div id="hl7-nav">
+  <a id="hl7-logo" no-external="true" href="https://www.hl7cr.eu/">
+    <img height="60" alt="Visit the HL7 Czech website" src="assets/images/hl7cz-logo.png" />
+  </a>
+</div>
+<div id="project-nav">
+  <a id="project-logo" no-external="true" href="https://ncez.mzcr.cz/cs/node/573"><img height="60" alt="MZCR"
+      src="assets/images/NPO_logo.png" /> </a>
+</div>
+<div id="family-nav">
+  <a id="family-logo" no-external="true" href="https://ncez.mzcr.cz/"><img height="60" alt="NCEZ MZCR"
+      src="assets/images/logo.png" /> </a>
+</div>
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">HL7 Czech Terminology Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - release
+
+
+
+  <img alt="Czechia flag" src="assets/images/cze.svg" height="16" title="Czechia"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="artifactsPage.html">Terminologies</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>ATC CZ</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">This page is part of the HL7 Czech FHIR Terminology (v0.1.0: Release) based on <a data-no-external="true" href="http://hl7.org/fhir/R4">FHIR (HL7® FHIR® Standard) R4</a>. No current official version has been published yet.  For a full list of available versions, see the <a data-no-external="true" href="https://hl7.cz/terminology/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li class="active">
+    <a href="#">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="CodeSystem-dlp-atc.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="CodeSystem-dlp-atc.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="CodeSystem-dlp-atc.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+  <a name="root"> </a>
+  <h2 id="root">CodeSystem: ATC CZ
+
+  </h2>
+
+  <table class="colsd">
+
+    <tr>
+      <td colspan="4"><i>Official URL</i>: <span class="copy-text">https://sukl.cz/terminology/CodeSystem/dlp-atc<button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://sukl.cz/terminology/CodeSystem/dlp-atc"/></span>
+      </td>
+      <td><i>Version</i>:
+      <span class="copy-text">0.1.0<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="https://sukl.cz/terminology/CodeSystem/dlp-atc|0.1.0"/></span>
+      </td>
+    </tr>
+
+    <tr>
+
+
+
+
+
+
+
+      <td colspan="4">
+        
+          Draft
+          
+            as of 2025-12-02
+          
+        
+      </td>
+
+
+
+      <td><i>Computable Name</i>: <span style="font-family: monospace;">CS_DLP_atc</span></td>
+    </tr>
+
+
+
+
+  </table>
+
+<p>
+<p>Czech national version of the Anatomical Therapeutical Chemical (ATC) code system.</p>
+
+</p>
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <p>
+  This Code system is referenced in the content logical definition of the following value sets:
+  </p>
+
+  
+<ul>
+ <li><a href="ValueSet-dlp-atc.html">DLP_atc</a></li>
+</ul>
+
+
+  <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="cs" lang="cs"><p class="res-header-id"></p><a name="dlp-atc"> </a><a name="hcdlp-atc"> </a>
+<div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: cs</p></div><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p>
+<table class="grid" data-fhir="generated"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr>
+<tr><td>NT</td>
+<td>NT</td>
+<td>string</td>
+<td>N-podle ATC-WHO, C-podle SÚKL</td></tr></table><p><b>Concepts</b></p><p>This case-sensitive code system <code>https://sukl.cz/terminology/CodeSystem/dlp-atc</code> provides <b>a fragment</b> that includes following codes in a Grouped By hierarchy:</p>
+<table class="codes" data-fhir="generated"><tr><td><b>Lvl</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>NT</b></td><td><b>English (English, en)</b></td></tr>
+<tr><td>1</td>
+<td style="white-space:nowrap">A<a name="dlp-atc-A"> </a></td>
+<td>TRÁVICÍ TRAKT A METABOLISMUS</td>
+<td>N</td>
+<td>ALIMENTARY TRACT AND METABOLISM</td></tr>
+<tr><td>2</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;A01<a name="dlp-atc-A01"> </a></td>
+<td>STOMATOLOGICKÉ PŘÍPRAVKY</td>
+<td>N</td>
+<td>STOMATOLOGICAL PREPARATIONS</td></tr>
+<tr><td>3</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;A01A<a name="dlp-atc-A01A"> </a></td>
+<td>STOMATOLOGICKÉ PŘÍPRAVKY</td>
+<td>N</td>
+<td>STOMATOLOGICAL PREPARATIONS</td></tr>
+<tr><td>4</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A01AA<a name="dlp-atc-A01AA"> </a></td>
+<td>Látky k prevenci zubního kazu</td>
+<td>N</td>
+<td>Caries prophylactic agents</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A01AA01<a name="dlp-atc-A01AA01"> </a></td>
+<td>fluorid sodný</td>
+<td>N</td>
+<td>sodium fluoride</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A01AA02<a name="dlp-atc-A01AA02"> </a></td>
+<td>monofluorofosforečnan sodný</td>
+<td>N</td>
+<td>sodium monofluorophosphate</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A01AA03<a name="dlp-atc-A01AA03"> </a></td>
+<td>olaflur</td>
+<td>N</td>
+<td>olaflur</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A01AA04<a name="dlp-atc-A01AA04"> </a></td>
+<td>fluorid cínatý</td>
+<td>N</td>
+<td>stannous fluoride</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A01AA30<a name="dlp-atc-A01AA30"> </a></td>
+<td>látky k prevenci zubního kazu, kombinace</td>
+<td>N</td>
+<td>combinations</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A01AA51<a name="dlp-atc-A01AA51"> </a></td>
+<td>fluorid sodný, kombinace</td>
+<td>N</td>
+<td>sodium fluoride, combinations</td></tr>
+<tr><td>4</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A01AB<a name="dlp-atc-A01AB"> </a></td>
+<td>Antiinfektiva a antiseptika pro lokální léčbu v dutině ústní</td>
+<td>N</td>
+<td>Antiinfectives and antiseptics for local oral treatment</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A01AB02<a name="dlp-atc-A01AB02"> </a></td>
+<td>peroxid vodíku</td>
+<td>N</td>
+<td>hydrogen peroxide</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A01AB03<a name="dlp-atc-A01AB03"> </a></td>
+<td>chlorhexidin</td>
+<td>N</td>
+<td>chlorhexidine</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A01AB04<a name="dlp-atc-A01AB04"> </a></td>
+<td>amfotericin B</td>
+<td>N</td>
+<td>amphotericin B</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A01AB05<a name="dlp-atc-A01AB05"> </a></td>
+<td>polynoxylin</td>
+<td>N</td>
+<td>polynoxylin</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A01AB06<a name="dlp-atc-A01AB06"> </a></td>
+<td>domifen</td>
+<td>N</td>
+<td>domiphen</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A01AB07<a name="dlp-atc-A01AB07"> </a></td>
+<td>oxychinolin</td>
+<td>N</td>
+<td>oxyquinoline</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A01AB08<a name="dlp-atc-A01AB08"> </a></td>
+<td>neomycin</td>
+<td>N</td>
+<td>neomycin</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A01AB09<a name="dlp-atc-A01AB09"> </a></td>
+<td>mikonazol</td>
+<td>N</td>
+<td>miconazole</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A01AB10<a name="dlp-atc-A01AB10"> </a></td>
+<td>natamycin</td>
+<td>N</td>
+<td>natamycin</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A01AB11<a name="dlp-atc-A01AB11"> </a></td>
+<td>různá jiná antiinfektiva a antiseptika</td>
+<td>N</td>
+<td>various</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A01AB12<a name="dlp-atc-A01AB12"> </a></td>
+<td>hexetidin</td>
+<td>N</td>
+<td>hexetidine</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A01AB13<a name="dlp-atc-A01AB13"> </a></td>
+<td>tetracyklin</td>
+<td>N</td>
+<td>tetracycline</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A01AB14<a name="dlp-atc-A01AB14"> </a></td>
+<td>benzoxonium-chlorid</td>
+<td>N</td>
+<td>benzoxonium chloride</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A01AB15<a name="dlp-atc-A01AB15"> </a></td>
+<td>tibezonium-jodid</td>
+<td>N</td>
+<td>tibezonium iodide</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A01AB16<a name="dlp-atc-A01AB16"> </a></td>
+<td>mepartricin</td>
+<td>N</td>
+<td>mepartricin</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A01AB17<a name="dlp-atc-A01AB17"> </a></td>
+<td>metronidazol</td>
+<td>N</td>
+<td>metronidazole</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A01AB18<a name="dlp-atc-A01AB18"> </a></td>
+<td>klotrimazol</td>
+<td>N</td>
+<td>clotrimazole</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A01AB19<a name="dlp-atc-A01AB19"> </a></td>
+<td>peroxoboritan sodný</td>
+<td>N</td>
+<td>sodium perborate</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A01AB21<a name="dlp-atc-A01AB21"> </a></td>
+<td>chlortetracyklin</td>
+<td>N</td>
+<td>chlortetracycline</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A01AB22<a name="dlp-atc-A01AB22"> </a></td>
+<td>doxycyklin</td>
+<td>N</td>
+<td>doxycycline</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A01AB23<a name="dlp-atc-A01AB23"> </a></td>
+<td>minocyklin</td>
+<td>N</td>
+<td>minocycline</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A01AB24<a name="dlp-atc-A01AB24"> </a></td>
+<td>oktenidin</td>
+<td>N</td>
+<td>octenidine</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A01AB25<a name="dlp-atc-A01AB25"> </a></td>
+<td>oxytetracyklin</td>
+<td>N</td>
+<td>oxytetracycline</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A01AB53<a name="dlp-atc-A01AB53"> </a></td>
+<td>chlorhexidin a cetylpyridinium</td>
+<td>N</td>
+<td>chlorhexidine and cetylpyridinium</td></tr>
+<tr><td>4</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A01AC<a name="dlp-atc-A01AC"> </a></td>
+<td>Kortikosteroidy pro lokální léčbu v dutině ústní</td>
+<td>N</td>
+<td>Corticosteroids for local oral treatment</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A01AC01<a name="dlp-atc-A01AC01"> </a></td>
+<td>triamcinolon</td>
+<td>N</td>
+<td>triamcinolone</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A01AC02<a name="dlp-atc-A01AC02"> </a></td>
+<td>dexamethason</td>
+<td>N</td>
+<td>dexamethasone</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A01AC03<a name="dlp-atc-A01AC03"> </a></td>
+<td>hydrokortison</td>
+<td>N</td>
+<td>hydrocortisone</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A01AC04<a name="dlp-atc-A01AC04"> </a></td>
+<td>prednisolon</td>
+<td>N</td>
+<td>prednisolone</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A01AC54<a name="dlp-atc-A01AC54"> </a></td>
+<td>prednisolon, kombinace</td>
+<td>N</td>
+<td>prednisolone, combinations</td></tr>
+<tr><td>4</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A01AD<a name="dlp-atc-A01AD"> </a></td>
+<td>Jiná léčiva pro lokální léčbu v dutině ústní</td>
+<td>N</td>
+<td>Other agents for local oral treatment</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A01AD01<a name="dlp-atc-A01AD01"> </a></td>
+<td>epinefrin</td>
+<td>N</td>
+<td>epinephrine</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A01AD02<a name="dlp-atc-A01AD02"> </a></td>
+<td>benzydamin</td>
+<td>N</td>
+<td>benzydamine</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A01AD05<a name="dlp-atc-A01AD05"> </a></td>
+<td>kyselina acetylsalicylová</td>
+<td>N</td>
+<td>acetylsalicylic acid</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A01AD06<a name="dlp-atc-A01AD06"> </a></td>
+<td>adrenalon</td>
+<td>N</td>
+<td>adrenalone</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A01AD07<a name="dlp-atc-A01AD07"> </a></td>
+<td>amlexanox</td>
+<td>N</td>
+<td>amlexanox</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A01AD08<a name="dlp-atc-A01AD08"> </a></td>
+<td>bekaplermin</td>
+<td>N</td>
+<td>becaplermin</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A01AD11<a name="dlp-atc-A01AD11"> </a></td>
+<td>různá jiná léčiva pro lokální léčbu v dutině ústní</td>
+<td>N</td>
+<td>various</td></tr>
+<tr><td>2</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;A02<a name="dlp-atc-A02"> </a></td>
+<td>LÉČIVA K TERAPII ONEMOCNĚNÍ SPOJENÝCH S PORUCHOU ACIDITY</td>
+<td>N</td>
+<td>DRUGS FOR ACID RELATED DISORDERS</td></tr>
+<tr><td>3</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;A02A<a name="dlp-atc-A02A"> </a></td>
+<td>ANTACIDA</td>
+<td>N</td>
+<td>ANTACIDS</td></tr>
+<tr><td>4</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02AA<a name="dlp-atc-A02AA"> </a></td>
+<td>Sloučeniny hořčíku</td>
+<td>N</td>
+<td>Magnesium compounds</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02AA01<a name="dlp-atc-A02AA01"> </a></td>
+<td>uhličitan hořečnatý</td>
+<td>N</td>
+<td>magnesium carbonate</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02AA02<a name="dlp-atc-A02AA02"> </a></td>
+<td>oxid hořečnatý</td>
+<td>N</td>
+<td>magnesium oxide</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02AA03<a name="dlp-atc-A02AA03"> </a></td>
+<td>peroxid hořečnatý</td>
+<td>N</td>
+<td>magnesium peroxide</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02AA04<a name="dlp-atc-A02AA04"> </a></td>
+<td>hydroxid hořečnatý</td>
+<td>N</td>
+<td>magnesium hydroxide</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02AA05<a name="dlp-atc-A02AA05"> </a></td>
+<td>křemičitan hořečnatý</td>
+<td>N</td>
+<td>magnesium silicate</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02AA10<a name="dlp-atc-A02AA10"> </a></td>
+<td>sloučeniny hořčíku, kombinace</td>
+<td>N</td>
+<td>combinations</td></tr>
+<tr><td>4</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02AB<a name="dlp-atc-A02AB"> </a></td>
+<td>Sloučeniny hliníku</td>
+<td>N</td>
+<td>Aluminium compounds</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02AB01<a name="dlp-atc-A02AB01"> </a></td>
+<td>hydroxid hlinitý</td>
+<td>N</td>
+<td>aluminium hydroxide</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02AB02<a name="dlp-atc-A02AB02"> </a></td>
+<td>algeldrát</td>
+<td>N</td>
+<td>algeldrate</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02AB03<a name="dlp-atc-A02AB03"> </a></td>
+<td>fosforečnan hlinitý</td>
+<td>N</td>
+<td>aluminium phosphate</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02AB04<a name="dlp-atc-A02AB04"> </a></td>
+<td>uhličitan dihydroxyhlinito-sodný</td>
+<td>N</td>
+<td>dihydroxialumini sodium carbonate</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02AB05<a name="dlp-atc-A02AB05"> </a></td>
+<td>aluminium-acetylacetonát</td>
+<td>N</td>
+<td>aluminium acetoacetate</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02AB06<a name="dlp-atc-A02AB06"> </a></td>
+<td>aloglutamol</td>
+<td>N</td>
+<td>aloglutamol</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02AB07<a name="dlp-atc-A02AB07"> </a></td>
+<td>dihydroxyaluminium-glycinát</td>
+<td>N</td>
+<td>aluminium glycinate</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02AB10<a name="dlp-atc-A02AB10"> </a></td>
+<td>sloučeniny hliníku, kombinace</td>
+<td>N</td>
+<td>combinations</td></tr>
+<tr><td>4</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02AC<a name="dlp-atc-A02AC"> </a></td>
+<td>Sloučeniny vápníku</td>
+<td>N</td>
+<td>Calcium compounds</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02AC01<a name="dlp-atc-A02AC01"> </a></td>
+<td>uhličitan vápenatý</td>
+<td>N</td>
+<td>calcium carbonate</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02AC02<a name="dlp-atc-A02AC02"> </a></td>
+<td>křemičitan vápenatý</td>
+<td>N</td>
+<td>calcium silicate</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02AC10<a name="dlp-atc-A02AC10"> </a></td>
+<td>sloučeniny vápníku, kombinace</td>
+<td>N</td>
+<td>combinations</td></tr>
+<tr><td>4</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02AD<a name="dlp-atc-A02AD"> </a></td>
+<td>Kombinace a komplexy sloučenin hliníku, vápníku a hořčíku</td>
+<td>N</td>
+<td>Combinations and complexes of aluminium, calcium and magnesium compounds</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02AD01<a name="dlp-atc-A02AD01"> </a></td>
+<td>kombinace běžných solí</td>
+<td>N</td>
+<td>ordinary salt combinations</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02AD02<a name="dlp-atc-A02AD02"> </a></td>
+<td>magaldrát</td>
+<td>N</td>
+<td>magaldrate</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02AD03<a name="dlp-atc-A02AD03"> </a></td>
+<td>almagát</td>
+<td>N</td>
+<td>almagate</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02AD04<a name="dlp-atc-A02AD04"> </a></td>
+<td>hydrotalcit</td>
+<td>N</td>
+<td>hydrotalcite</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02AD05<a name="dlp-atc-A02AD05"> </a></td>
+<td>almasilát</td>
+<td>N</td>
+<td>almasilate</td></tr>
+<tr><td>4</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02AF<a name="dlp-atc-A02AF"> </a></td>
+<td>Antacida s antiflatulencii</td>
+<td>N</td>
+<td>Antacids with antiflatulents</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02AF01<a name="dlp-atc-A02AF01"> </a></td>
+<td>magaldrát a antiflatulencia</td>
+<td>N</td>
+<td>magaldrate and antiflatulents</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02AF02<a name="dlp-atc-A02AF02"> </a></td>
+<td>kombinace běžných solí s antiflatulencii</td>
+<td>N</td>
+<td>ordinary salt combinations and antiflatulents</td></tr>
+<tr><td>4</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02AG<a name="dlp-atc-A02AG"> </a></td>
+<td>Antacida se spazmolytiky</td>
+<td>N</td>
+<td>Antacids with antispasmodics</td></tr>
+<tr><td>4</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02AH<a name="dlp-atc-A02AH"> </a></td>
+<td>Antacida s uhličitanem sodným</td>
+<td>N</td>
+<td>Antacids with sodium bicarbonate</td></tr>
+<tr><td>4</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02AX<a name="dlp-atc-A02AX"> </a></td>
+<td>Antacida, jiné kombinace</td>
+<td>N</td>
+<td>Antacids, other combinations</td></tr>
+<tr><td>3</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;A02B<a name="dlp-atc-A02B"> </a></td>
+<td>LÉČIVA K TERAPII PEPTICKÉHO VŘEDU A REFLUXNÍ CHOROBY JÍCNU</td>
+<td>N</td>
+<td>DRUGS FOR PEPTIC ULCER AND GASTRO-OESOPHAGEAL REFLUX DISEASE (GORD)</td></tr>
+<tr><td>4</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02BA<a name="dlp-atc-A02BA"> </a></td>
+<td>Antagonisté H2-receptorů</td>
+<td>N</td>
+<td>H2-receptor antagonists</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02BA01<a name="dlp-atc-A02BA01"> </a></td>
+<td>cimetidin</td>
+<td>N</td>
+<td>cimetidine</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02BA02<a name="dlp-atc-A02BA02"> </a></td>
+<td>ranitidin</td>
+<td>N</td>
+<td>ranitidine</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02BA03<a name="dlp-atc-A02BA03"> </a></td>
+<td>famotidin</td>
+<td>N</td>
+<td>famotidine</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02BA04<a name="dlp-atc-A02BA04"> </a></td>
+<td>nizatidin</td>
+<td>N</td>
+<td>nizatidine</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02BA05<a name="dlp-atc-A02BA05"> </a></td>
+<td>niperotidin</td>
+<td>N</td>
+<td>niperotidine</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02BA06<a name="dlp-atc-A02BA06"> </a></td>
+<td>roxatidin</td>
+<td>N</td>
+<td>roxatidine</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02BA07<a name="dlp-atc-A02BA07"> </a></td>
+<td>ranitidin-bismut-citrát</td>
+<td>N</td>
+<td>ranitidine bismuth citrate</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02BA08<a name="dlp-atc-A02BA08"> </a></td>
+<td>lafutidin</td>
+<td>N</td>
+<td>lafutidine</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02BA51<a name="dlp-atc-A02BA51"> </a></td>
+<td>cimetidin, kombinace</td>
+<td>N</td>
+<td>cimetidine, combinations</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02BA53<a name="dlp-atc-A02BA53"> </a></td>
+<td>famotidin, kombinace</td>
+<td>N</td>
+<td>famotidine, combinations</td></tr>
+<tr><td>4</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02BB<a name="dlp-atc-A02BB"> </a></td>
+<td>Prostaglandiny</td>
+<td>N</td>
+<td>Prostaglandins</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02BB01<a name="dlp-atc-A02BB01"> </a></td>
+<td>misoprostol</td>
+<td>N</td>
+<td>misoprostol</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02BB02<a name="dlp-atc-A02BB02"> </a></td>
+<td>enprostil</td>
+<td>N</td>
+<td>enprostil</td></tr>
+<tr><td>4</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02BC<a name="dlp-atc-A02BC"> </a></td>
+<td>Inhibitory protonové pumpy</td>
+<td>N</td>
+<td>Proton pump inhibitors</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02BC01<a name="dlp-atc-A02BC01"> </a></td>
+<td>omeprazol</td>
+<td>N</td>
+<td>omeprazole</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02BC02<a name="dlp-atc-A02BC02"> </a></td>
+<td>pantoprazol</td>
+<td>N</td>
+<td>pantoprazole</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02BC03<a name="dlp-atc-A02BC03"> </a></td>
+<td>lansoprazol</td>
+<td>N</td>
+<td>lansoprazole</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02BC04<a name="dlp-atc-A02BC04"> </a></td>
+<td>rabeprazol</td>
+<td>N</td>
+<td>rabeprazole</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02BC05<a name="dlp-atc-A02BC05"> </a></td>
+<td>esomeprazol</td>
+<td>N</td>
+<td>esomeprazole</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02BC06<a name="dlp-atc-A02BC06"> </a></td>
+<td>dexlansoprazol</td>
+<td>N</td>
+<td>dexlansoprazole</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02BC07<a name="dlp-atc-A02BC07"> </a></td>
+<td>dexrabeprazol</td>
+<td>N</td>
+<td>dexrabeprazole</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02BC08<a name="dlp-atc-A02BC08"> </a></td>
+<td>vonoprazan</td>
+<td>N</td>
+<td>vonoprazan</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02BC09<a name="dlp-atc-A02BC09"> </a></td>
+<td>tegoprazan</td>
+<td>N</td>
+<td>tegoprazan</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02BC10<a name="dlp-atc-A02BC10"> </a></td>
+<td>fexuprazan</td>
+<td>N</td>
+<td>fexuprazan</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02BC11<a name="dlp-atc-A02BC11"> </a></td>
+<td>ilaprazol</td>
+<td>N</td>
+<td>ilaprazole</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02BC51<a name="dlp-atc-A02BC51"> </a></td>
+<td>omeprazol, kombinace</td>
+<td>N</td>
+<td>omeprazole, combinations</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02BC53<a name="dlp-atc-A02BC53"> </a></td>
+<td>lansoprazol, kombinace</td>
+<td>N</td>
+<td>lansoprazole, combinations</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02BC54<a name="dlp-atc-A02BC54"> </a></td>
+<td>rabeprazol, kombinace</td>
+<td>N</td>
+<td>rabeprazole, combinations</td></tr>
+<tr><td>4</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02BD<a name="dlp-atc-A02BD"> </a></td>
+<td>Kombinace k eradikaci helicobacter pylori</td>
+<td>N</td>
+<td>Combinations for eradication of Helicobacter pylori</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02BD01<a name="dlp-atc-A02BD01"> </a></td>
+<td>omeprazol, amoxicilin a metronidazol</td>
+<td>N</td>
+<td>omeprazole, amoxicillin and metronidazole</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02BD02<a name="dlp-atc-A02BD02"> </a></td>
+<td>lansoprazol, tetracyklin a metronidazol</td>
+<td>N</td>
+<td>lansoprazole, tetracycline and metronidazole</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02BD03<a name="dlp-atc-A02BD03"> </a></td>
+<td>lansoprazol, amoxicilin a metronidazol</td>
+<td>N</td>
+<td>lansoprazole, amoxicillin and metronidazole</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02BD04<a name="dlp-atc-A02BD04"> </a></td>
+<td>pantoprazol, amoxicilin a klarithromycin</td>
+<td>N</td>
+<td>pantoprazole, amoxicillin and clarithromycin</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02BD05<a name="dlp-atc-A02BD05"> </a></td>
+<td>omeprazol, amoxicilin a klarithromycin</td>
+<td>N</td>
+<td>omeprazole, amoxicillin and clarithromycin</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02BD06<a name="dlp-atc-A02BD06"> </a></td>
+<td>esomeprazol, amoxicilin a klarithromycin</td>
+<td>N</td>
+<td>esomeprazole, amoxicillin and clarithromycin</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02BD07<a name="dlp-atc-A02BD07"> </a></td>
+<td>lansoprazol, amoxicilin a klarithromycin</td>
+<td>N</td>
+<td>lansoprazole, amoxicillin and clarithromycin</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02BD08<a name="dlp-atc-A02BD08"> </a></td>
+<td>zásaditý citronan bismutitý, tetracyklin a metronidazol</td>
+<td>N</td>
+<td>bismuth subcitrate, tetracycline and metronidazole</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02BD09<a name="dlp-atc-A02BD09"> </a></td>
+<td>lansoprazol, klarithromycin a tinidazol</td>
+<td>N</td>
+<td>lansoprazole, clarithromycin and tinidazole</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02BD10<a name="dlp-atc-A02BD10"> </a></td>
+<td>lansoprazol, amoxicilin a levofloxacin</td>
+<td>N</td>
+<td>lansoprazole, amoxicillin and levofloxacin</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02BD11<a name="dlp-atc-A02BD11"> </a></td>
+<td>pantoprazol, amoxicilin, klarithromycin a metronidazol</td>
+<td>N</td>
+<td>pantoprazole, amoxicillin, clarithromycin and metronidazole</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02BD12<a name="dlp-atc-A02BD12"> </a></td>
+<td>rabeprazol, amoxicilin a klarithromycin</td>
+<td>N</td>
+<td>rabeprazole, amoxicillin and clarithromycin</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02BD13<a name="dlp-atc-A02BD13"> </a></td>
+<td>rabeprazol, amoxicilin a metronidazol</td>
+<td>N</td>
+<td>rabeprazole, amoxicillin and metronidazole</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02BD14<a name="dlp-atc-A02BD14"> </a></td>
+<td>vonoprazan, amoxicilin a klarithromycin</td>
+<td>N</td>
+<td>vonoprazan, amoxicillin and clarithromycin</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02BD15<a name="dlp-atc-A02BD15"> </a></td>
+<td>vonoprazan, amoxicilin a metronidazol</td>
+<td>N</td>
+<td>vonoprazan, amoxicillin and metronidazole</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02BD16<a name="dlp-atc-A02BD16"> </a></td>
+<td>omeprazol, amoxicilin a rifabutin</td>
+<td>N</td>
+<td>omeprazole, amoxicillin and rifabutin</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02BD17<a name="dlp-atc-A02BD17"> </a></td>
+<td>vonoprazan a amoxicilin</td>
+<td>N</td>
+<td>vonoprazan and amoxicillin</td></tr>
+<tr><td>4</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02BX<a name="dlp-atc-A02BX"> </a></td>
+<td>Jiná léčiva k terapii peptického vředu a refluxní choroby jícnu</td>
+<td>N</td>
+<td>Other drugs for peptic ulcer and gastro-oesophageal reflux disease (GORD)</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02BX01<a name="dlp-atc-A02BX01"> </a></td>
+<td>karbenoxolon</td>
+<td>N</td>
+<td>carbenoxolone</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02BX02<a name="dlp-atc-A02BX02"> </a></td>
+<td>sukralfát</td>
+<td>N</td>
+<td>sucralfate</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02BX03<a name="dlp-atc-A02BX03"> </a></td>
+<td>pirenzepin</td>
+<td>N</td>
+<td>pirenzepine</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02BX04<a name="dlp-atc-A02BX04"> </a></td>
+<td>methiosulfonium-chlorid</td>
+<td>N</td>
+<td>methiosulfonium chloride</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02BX05<a name="dlp-atc-A02BX05"> </a></td>
+<td>zásaditý bismutum(III)-citrát</td>
+<td>N</td>
+<td>bismuth subcitrate</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02BX06<a name="dlp-atc-A02BX06"> </a></td>
+<td>proglumid</td>
+<td>N</td>
+<td>proglumide</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02BX07<a name="dlp-atc-A02BX07"> </a></td>
+<td>gefarnát</td>
+<td>N</td>
+<td>gefarnate</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02BX08<a name="dlp-atc-A02BX08"> </a></td>
+<td>sulglikotid</td>
+<td>N</td>
+<td>sulglicotide</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02BX09<a name="dlp-atc-A02BX09"> </a></td>
+<td>acetoxolon</td>
+<td>N</td>
+<td>acetoxolone</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02BX10<a name="dlp-atc-A02BX10"> </a></td>
+<td>zolimidin</td>
+<td>N</td>
+<td>zolimidine</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02BX11<a name="dlp-atc-A02BX11"> </a></td>
+<td>troxipid</td>
+<td>N</td>
+<td>troxipide</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02BX12<a name="dlp-atc-A02BX12"> </a></td>
+<td>zásaditý dusičnan bismutitý</td>
+<td>N</td>
+<td>bismuth subnitrate</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02BX13<a name="dlp-atc-A02BX13"> </a></td>
+<td>kyselina alginová</td>
+<td>N</td>
+<td>alginic acid</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02BX14<a name="dlp-atc-A02BX14"> </a></td>
+<td>rebamipid</td>
+<td>N</td>
+<td>rebamipide</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02BX15<a name="dlp-atc-A02BX15"> </a></td>
+<td>teprenon</td>
+<td>N</td>
+<td>teprenone</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02BX16<a name="dlp-atc-A02BX16"> </a></td>
+<td>irsogladin</td>
+<td>N</td>
+<td>irsogladine</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02BX51<a name="dlp-atc-A02BX51"> </a></td>
+<td>karbenoxolon, kombinace kromě psycholeptik</td>
+<td>N</td>
+<td>carbenoxolone, combinations excl. psycholeptics</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02BX71<a name="dlp-atc-A02BX71"> </a></td>
+<td>karbenoxolon, kombinace s psycholeptiky</td>
+<td>N</td>
+<td>carbenoxolone, combinations with psycholeptics</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A02BX77<a name="dlp-atc-A02BX77"> </a></td>
+<td>gefarnát, kombinace s psycholeptiky</td>
+<td>N</td>
+<td>gefarnate, combinations with psycholeptics</td></tr>
+<tr><td>3</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;A02X<a name="dlp-atc-A02X"> </a></td>
+<td>JINÁ LÉČIVA K TERAPII ONEMOCNĚNÍ SPOJENÝCH S PORUCHOU ACIDITY</td>
+<td>N</td>
+<td>OTHER DRUGS FOR ACID RELATED DISORDERS</td></tr>
+<tr><td>2</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;A03<a name="dlp-atc-A03"> </a></td>
+<td>LÉČIVA K TERAPII FUNKČNÍCH PORUCH GASTROINTESTINÁLNÍHO TRAKTU</td>
+<td>N</td>
+<td>DRUGS FOR FUNCTIONAL GASTROINTESTINAL DISORDERS</td></tr>
+<tr><td>3</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;A03A<a name="dlp-atc-A03A"> </a></td>
+<td>LÉČIVA K TERAPII FUNKČNÍCH PORUCH GASTROINTESTINÁLNÍHO TRAKTU</td>
+<td>N</td>
+<td>DRUGS FOR FUNCTIONAL GASTROINTESTINAL DISORDERS</td></tr>
+<tr><td>4</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03AA<a name="dlp-atc-A03AA"> </a></td>
+<td>Syntetická anticholinergika, estery s terciární aminoskupinou</td>
+<td>N</td>
+<td>Synthetic anticholinergics, esters with tertiary amino group</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03AA01<a name="dlp-atc-A03AA01"> </a></td>
+<td>oxyfencyklimin</td>
+<td>N</td>
+<td>oxyphencyclimine</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03AA03<a name="dlp-atc-A03AA03"> </a></td>
+<td>kamylofin</td>
+<td>N</td>
+<td>camylofin</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03AA04<a name="dlp-atc-A03AA04"> </a></td>
+<td>mebeverin</td>
+<td>N</td>
+<td>mebeverine</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03AA05<a name="dlp-atc-A03AA05"> </a></td>
+<td>trimebutin</td>
+<td>N</td>
+<td>trimebutine</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03AA06<a name="dlp-atc-A03AA06"> </a></td>
+<td>rociverin</td>
+<td>N</td>
+<td>rociverine</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03AA07<a name="dlp-atc-A03AA07"> </a></td>
+<td>dicykloverin</td>
+<td>N</td>
+<td>dicycloverine</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03AA08<a name="dlp-atc-A03AA08"> </a></td>
+<td>dihexyverin</td>
+<td>N</td>
+<td>dihexyverine</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03AA09<a name="dlp-atc-A03AA09"> </a></td>
+<td>difemerin</td>
+<td>N</td>
+<td>difemerine</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03AA30<a name="dlp-atc-A03AA30"> </a></td>
+<td>piperidolát</td>
+<td>N</td>
+<td>piperidolate</td></tr>
+<tr><td>4</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03AB<a name="dlp-atc-A03AB"> </a></td>
+<td>Syntetická anticholinergika, kvarterní amoniové sloučeniny</td>
+<td>N</td>
+<td>Synthetic anticholinergics, quaternary ammonium compounds</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03AB01<a name="dlp-atc-A03AB01"> </a></td>
+<td>benzilonium</td>
+<td>N</td>
+<td>benzilone</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03AB02<a name="dlp-atc-A03AB02"> </a></td>
+<td>glykopyrronium-bromid</td>
+<td>N</td>
+<td>glycopyrronium bromide</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03AB03<a name="dlp-atc-A03AB03"> </a></td>
+<td>oxyfenonium</td>
+<td>N</td>
+<td>oxyphenonium</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03AB04<a name="dlp-atc-A03AB04"> </a></td>
+<td>penthienacium</td>
+<td>N</td>
+<td>penthienate</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03AB05<a name="dlp-atc-A03AB05"> </a></td>
+<td>propanthelinium</td>
+<td>N</td>
+<td>propantheline</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03AB06<a name="dlp-atc-A03AB06"> </a></td>
+<td>otilonium-bromid</td>
+<td>N</td>
+<td>otilonium bromide</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03AB07<a name="dlp-atc-A03AB07"> </a></td>
+<td>methanthelinium</td>
+<td>N</td>
+<td>methantheline</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03AB08<a name="dlp-atc-A03AB08"> </a></td>
+<td>tridihexethylium</td>
+<td>N</td>
+<td>tridihexethyl</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03AB09<a name="dlp-atc-A03AB09"> </a></td>
+<td>isopropamid</td>
+<td>N</td>
+<td>isopropamide</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03AB10<a name="dlp-atc-A03AB10"> </a></td>
+<td>hexocyklium</td>
+<td>N</td>
+<td>hexocyclium</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03AB11<a name="dlp-atc-A03AB11"> </a></td>
+<td>poldinium</td>
+<td>N</td>
+<td>poldine</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03AB12<a name="dlp-atc-A03AB12"> </a></td>
+<td>mepenzolacium</td>
+<td>N</td>
+<td>mepenzolate</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03AB13<a name="dlp-atc-A03AB13"> </a></td>
+<td>bevonium</td>
+<td>N</td>
+<td>bevonium</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03AB14<a name="dlp-atc-A03AB14"> </a></td>
+<td>pipenzolacium</td>
+<td>N</td>
+<td>pipenzolate</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03AB15<a name="dlp-atc-A03AB15"> </a></td>
+<td>difemanilium</td>
+<td>N</td>
+<td>diphemanil</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03AB16<a name="dlp-atc-A03AB16"> </a></td>
+<td>difenhydramin-jodid</td>
+<td>N</td>
+<td>(2-benzhydryloxyethyl)diethyl-methylammonium iodide</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03AB17<a name="dlp-atc-A03AB17"> </a></td>
+<td>tiemonium-jodid</td>
+<td>N</td>
+<td>tiemonium iodide</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03AB18<a name="dlp-atc-A03AB18"> </a></td>
+<td>prifinium-bromid</td>
+<td>N</td>
+<td>prifinium bromide</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03AB19<a name="dlp-atc-A03AB19"> </a></td>
+<td>timepidium-bromid</td>
+<td>N</td>
+<td>timepidium bromide</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03AB21<a name="dlp-atc-A03AB21"> </a></td>
+<td>fenpiverinium</td>
+<td>N</td>
+<td>fenpiverinium</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03AB53<a name="dlp-atc-A03AB53"> </a></td>
+<td>oxyfenonium, kombinace</td>
+<td>N</td>
+<td>oxyphenonium, combinations</td></tr>
+<tr><td>4</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03AC<a name="dlp-atc-A03AC"> </a></td>
+<td>Syntetická spazmolytika, amidy s terciárními aminy</td>
+<td>N</td>
+<td>Synthetic antispasmodics, amides with tertiary amines</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03AC02<a name="dlp-atc-A03AC02"> </a></td>
+<td>dimethylaminopropionylfenothiazin</td>
+<td>N</td>
+<td>dimethylaminopropionylphenothiazine</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03AC04<a name="dlp-atc-A03AC04"> </a></td>
+<td>nikofetamid</td>
+<td>N</td>
+<td>nicofetamide</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03AC05<a name="dlp-atc-A03AC05"> </a></td>
+<td>tiropramid</td>
+<td>N</td>
+<td>tiropramide</td></tr>
+<tr><td>4</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03AD<a name="dlp-atc-A03AD"> </a></td>
+<td>Papaverin a deriváty</td>
+<td>N</td>
+<td>Papaverine and derivatives</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03AD01<a name="dlp-atc-A03AD01"> </a></td>
+<td>papaverin</td>
+<td>N</td>
+<td>papaverine</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03AD02<a name="dlp-atc-A03AD02"> </a></td>
+<td>drotaverin</td>
+<td>N</td>
+<td>drotaverine</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03AD30<a name="dlp-atc-A03AD30"> </a></td>
+<td>moxaverin</td>
+<td>N</td>
+<td>moxaverine</td></tr>
+<tr><td>4</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03AE<a name="dlp-atc-A03AE"> </a></td>
+<td>Antagonisté serotoninových receptorů</td>
+<td>N</td>
+<td>Serotonin receptor antagonists</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03AE01<a name="dlp-atc-A03AE01"> </a></td>
+<td>alosetron</td>
+<td>N</td>
+<td>alosetron</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03AE03<a name="dlp-atc-A03AE03"> </a></td>
+<td>cilansetron</td>
+<td>N</td>
+<td>cilansetron</td></tr>
+<tr><td>4</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03AX<a name="dlp-atc-A03AX"> </a></td>
+<td>Jiná léčiva k terapii funkčních poruch gastrointestinálního traktu</td>
+<td>N</td>
+<td>Other drugs for functional gastrointestinal disorders</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03AX01<a name="dlp-atc-A03AX01"> </a></td>
+<td>fenpipran</td>
+<td>N</td>
+<td>fenpiprane</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03AX02<a name="dlp-atc-A03AX02"> </a></td>
+<td>diisopromin</td>
+<td>N</td>
+<td>diisopromine</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03AX03<a name="dlp-atc-A03AX03"> </a></td>
+<td>chlorbenzoxamin</td>
+<td>N</td>
+<td>chlorbenzoxamine</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03AX04<a name="dlp-atc-A03AX04"> </a></td>
+<td>pinaverium</td>
+<td>N</td>
+<td>pinaverium</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03AX05<a name="dlp-atc-A03AX05"> </a></td>
+<td>fenoverin</td>
+<td>N</td>
+<td>fenoverine</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03AX06<a name="dlp-atc-A03AX06"> </a></td>
+<td>idanpramin</td>
+<td>N</td>
+<td>idanpramine</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03AX07<a name="dlp-atc-A03AX07"> </a></td>
+<td>proxazol</td>
+<td>N</td>
+<td>proxazole</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03AX08<a name="dlp-atc-A03AX08"> </a></td>
+<td>alverin</td>
+<td>N</td>
+<td>alverine</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03AX09<a name="dlp-atc-A03AX09"> </a></td>
+<td>trepibuton</td>
+<td>N</td>
+<td>trepibutone</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03AX10<a name="dlp-atc-A03AX10"> </a></td>
+<td>isomethepten</td>
+<td>N</td>
+<td>isometheptene</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03AX11<a name="dlp-atc-A03AX11"> </a></td>
+<td>karoverin</td>
+<td>N</td>
+<td>caroverine</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03AX12<a name="dlp-atc-A03AX12"> </a></td>
+<td>floroglucinol</td>
+<td>N</td>
+<td>phloroglucinol</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03AX13<a name="dlp-atc-A03AX13"> </a></td>
+<td>silikony</td>
+<td>N</td>
+<td>silicones</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03AX14<a name="dlp-atc-A03AX14"> </a></td>
+<td>valethamát</td>
+<td>N</td>
+<td>valethamate</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03AX15<a name="dlp-atc-A03AX15"> </a></td>
+<td>silice máty peprné</td>
+<td>N</td>
+<td>menthae piperitae aetheroleum</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03AX30<a name="dlp-atc-A03AX30"> </a></td>
+<td>trimethyldifenylpropylamin</td>
+<td>N</td>
+<td>trimethyldiphenylpropylamine</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03AX58<a name="dlp-atc-A03AX58"> </a></td>
+<td>alverin, kombinace</td>
+<td>N</td>
+<td>alverine, combinations</td></tr>
+<tr><td>3</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;A03B<a name="dlp-atc-A03B"> </a></td>
+<td>ALKALOIDY RULÍKU A DERIVÁTY, SAMOTNÉ</td>
+<td>N</td>
+<td>BELLADONNA AND DERIVATIVES, PLAIN</td></tr>
+<tr><td>4</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03BA<a name="dlp-atc-A03BA"> </a></td>
+<td>Alkaloidy rulíku, terciární aminy</td>
+<td>N</td>
+<td>Belladonna alkaloids, tertiary amines</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03BA01<a name="dlp-atc-A03BA01"> </a></td>
+<td>atropin</td>
+<td>N</td>
+<td>atropine</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03BA03<a name="dlp-atc-A03BA03"> </a></td>
+<td>hyoscyamin</td>
+<td>N</td>
+<td>hyoscyamine</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03BA04<a name="dlp-atc-A03BA04"> </a></td>
+<td>všechny alkaloidy rulíku</td>
+<td>N</td>
+<td>belladonna total alkaloids</td></tr>
+<tr><td>4</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03BB<a name="dlp-atc-A03BB"> </a></td>
+<td>Alkaloidy rulíku, semisyntetické kvarterní amoniové sloučeniny</td>
+<td>N</td>
+<td>Belladonna alkaloids, semisynthetic, quaternary ammonium compounds</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03BB01<a name="dlp-atc-A03BB01"> </a></td>
+<td>butylskopolaminium</td>
+<td>N</td>
+<td>butylscopolamine</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03BB02<a name="dlp-atc-A03BB02"> </a></td>
+<td>methylatropinium</td>
+<td>N</td>
+<td>methylatropine</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03BB03<a name="dlp-atc-A03BB03"> </a></td>
+<td>methylskopolaminium</td>
+<td>N</td>
+<td>methylscopolamine</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03BB04<a name="dlp-atc-A03BB04"> </a></td>
+<td>fentonium</td>
+<td>N</td>
+<td>fentonium</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03BB05<a name="dlp-atc-A03BB05"> </a></td>
+<td>cimetropium-bromid</td>
+<td>N</td>
+<td>cimetropium bromide</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03BB06<a name="dlp-atc-A03BB06"> </a></td>
+<td>homatropin-methylbromid</td>
+<td>N</td>
+<td>homatropine methylbromide</td></tr>
+<tr><td>3</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;A03C<a name="dlp-atc-A03C"> </a></td>
+<td>SPAZMOLYTIKA V KOMBINACI S PSYCHOLEPTIKY</td>
+<td>N</td>
+<td>ANTISPASMODICS IN COMBINATION WITH PSYCHOLEPTICS</td></tr>
+<tr><td>4</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03CA<a name="dlp-atc-A03CA"> </a></td>
+<td>Syntetická anticholinergika v kombinaci s psycholeptiky</td>
+<td>N</td>
+<td>Synthetic anticholinergic agents in combination with psycholeptics</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03CA01<a name="dlp-atc-A03CA01"> </a></td>
+<td>isopropamid a psycholeptika</td>
+<td>N</td>
+<td>isopropamide and psycholeptics</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03CA02<a name="dlp-atc-A03CA02"> </a></td>
+<td>klidinium a psycholeptika</td>
+<td>N</td>
+<td>clidinium and psycholeptics</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03CA03<a name="dlp-atc-A03CA03"> </a></td>
+<td>oxyfencyklimin a psycholeptika</td>
+<td>N</td>
+<td>oxyphencyclimine and psycholeptics</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03CA04<a name="dlp-atc-A03CA04"> </a></td>
+<td>otilonium-bromid a psycholeptika</td>
+<td>N</td>
+<td>otilonium bromide and psycholeptics</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03CA05<a name="dlp-atc-A03CA05"> </a></td>
+<td>glykopyrronium-bromid a psycholeptika</td>
+<td>N</td>
+<td>glycopyrronium bromide and psycholeptics</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03CA06<a name="dlp-atc-A03CA06"> </a></td>
+<td>bevonium a psycholeptika</td>
+<td>N</td>
+<td>bevonium and psycholeptics</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03CA07<a name="dlp-atc-A03CA07"> </a></td>
+<td>ambutonium a psycholeptika</td>
+<td>N</td>
+<td>ambutonium and psycholeptics</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03CA08<a name="dlp-atc-A03CA08"> </a></td>
+<td>difemanilium a psycholeptika</td>
+<td>N</td>
+<td>diphemanil and psycholeptics</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03CA09<a name="dlp-atc-A03CA09"> </a></td>
+<td>pipenzolacium a psycholeptika</td>
+<td>N</td>
+<td>pipenzolate and psycholeptics</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03CA30<a name="dlp-atc-A03CA30"> </a></td>
+<td>emepronium a psycholeptika</td>
+<td>N</td>
+<td>emepronium and psycholeptics</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03CA34<a name="dlp-atc-A03CA34"> </a></td>
+<td>propanthelinium a psycholeptika</td>
+<td>N</td>
+<td>propantheline and psycholeptics</td></tr>
+<tr><td>4</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03CB<a name="dlp-atc-A03CB"> </a></td>
+<td>Alkaloidy rulíku a deriváty v kombinaci s psycholeptiky</td>
+<td>N</td>
+<td>Belladonna and derivatives in combination with psycholeptics</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03CB01<a name="dlp-atc-A03CB01"> </a></td>
+<td>methylskopolaminium a psycholeptika</td>
+<td>N</td>
+<td>methylscopolamine and psycholeptics</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03CB02<a name="dlp-atc-A03CB02"> </a></td>
+<td>všechny alkaloidy rulíku a psycholeptika</td>
+<td>N</td>
+<td>belladonna total alkaloids and psycholeptics</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03CB03<a name="dlp-atc-A03CB03"> </a></td>
+<td>atropin a psycholeptika</td>
+<td>N</td>
+<td>atropine and psycholeptics</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03CB04<a name="dlp-atc-A03CB04"> </a></td>
+<td>homatropin-methylbromid a psycholeptika</td>
+<td>N</td>
+<td>homatropine methylbromide and psycholeptics</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03CB31<a name="dlp-atc-A03CB31"> </a></td>
+<td>hyoscyamin a psycholeptika</td>
+<td>N</td>
+<td>hyoscyamine and psycholeptics</td></tr>
+<tr><td>4</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03CC<a name="dlp-atc-A03CC"> </a></td>
+<td>Jiná spazmolytika v kombinaci s psycholeptiky</td>
+<td>N</td>
+<td>Other antispasmodics in combination with psycholeptics</td></tr>
+<tr><td>3</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;A03D<a name="dlp-atc-A03D"> </a></td>
+<td>SPAZMOLYTIKA V KOMBINACI S ANALGETIKY</td>
+<td>N</td>
+<td>ANTISPASMODICS IN COMBINATION WITH ANALGESICS</td></tr>
+<tr><td>4</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03DA<a name="dlp-atc-A03DA"> </a></td>
+<td>Syntetická anticholinergika v kombinaci s analgetiky</td>
+<td>N</td>
+<td>Synthetic anticholinergic agents in combination with analgesics</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03DA01<a name="dlp-atc-A03DA01"> </a></td>
+<td>tropenzilinium a analgetika</td>
+<td>N</td>
+<td>tropenzilone and analgesics</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03DA02<a name="dlp-atc-A03DA02"> </a></td>
+<td>pitofenon a analgetika</td>
+<td>N</td>
+<td>pitofenone and analgesics</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03DA03<a name="dlp-atc-A03DA03"> </a></td>
+<td>bevonium a analgetika</td>
+<td>N</td>
+<td>bevonium and analgesics</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03DA04<a name="dlp-atc-A03DA04"> </a></td>
+<td>ciklonium a analgetika</td>
+<td>N</td>
+<td>ciclonium and analgesics</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03DA05<a name="dlp-atc-A03DA05"> </a></td>
+<td>kamylofin a analgetika</td>
+<td>N</td>
+<td>camylofin and analgesics</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03DA06<a name="dlp-atc-A03DA06"> </a></td>
+<td>trospium a anagetika</td>
+<td>N</td>
+<td>trospium and analgesics</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03DA07<a name="dlp-atc-A03DA07"> </a></td>
+<td>tiemonium-jodid a analgetika</td>
+<td>N</td>
+<td>tiemonium iodide and analgesics</td></tr>
+<tr><td>4</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03DB<a name="dlp-atc-A03DB"> </a></td>
+<td>Alkaloidy rulíku a deriváty v kombinaci s analgetiky</td>
+<td>N</td>
+<td>Belladonna and derivatives in combination with analgesics</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03DB04<a name="dlp-atc-A03DB04"> </a></td>
+<td>butylskopolaminium a analgetika</td>
+<td>N</td>
+<td>butylscopolamine and analgesics</td></tr>
+<tr><td>4</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03DC<a name="dlp-atc-A03DC"> </a></td>
+<td>Jiná spazmolytika v kombinaci s analgetiky</td>
+<td>N</td>
+<td>Other antispasmodics in combination with analgesics</td></tr>
+<tr><td>3</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;A03E<a name="dlp-atc-A03E"> </a></td>
+<td>SPAZMOLYTIKA A ANTICHOLINERGIKA V KOMBINACI S DALŠÍMI LÉČIVY</td>
+<td>N</td>
+<td>ANTISPASMODICS AND ANTICHOLINERGICS IN COMBINATION WITH OTHER DRUGS</td></tr>
+<tr><td>4</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03EA<a name="dlp-atc-A03EA"> </a></td>
+<td>Spazmolytika, psycholeptika a analgetika v kombinaci</td>
+<td>N</td>
+<td>Antispasmodics, psycholeptics and analgesics in combination</td></tr>
+<tr><td>4</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03ED<a name="dlp-atc-A03ED"> </a></td>
+<td>Spazmolytika v kombinaci s jinými léčivy</td>
+<td>N</td>
+<td>Antispasmodics in combination with other drugs</td></tr>
+<tr><td>3</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;A03F<a name="dlp-atc-A03F"> </a></td>
+<td>PROKINETIKA</td>
+<td>N</td>
+<td>PROPULSIVES</td></tr>
+<tr><td>4</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03FA<a name="dlp-atc-A03FA"> </a></td>
+<td>Prokinetika</td>
+<td>N</td>
+<td>Propulsives</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03FA01<a name="dlp-atc-A03FA01"> </a></td>
+<td>metoklopramid</td>
+<td>N</td>
+<td>metoclopramide</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03FA02<a name="dlp-atc-A03FA02"> </a></td>
+<td>cisaprid</td>
+<td>N</td>
+<td>cisapride</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03FA03<a name="dlp-atc-A03FA03"> </a></td>
+<td>domperidon</td>
+<td>N</td>
+<td>domperidone</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03FA04<a name="dlp-atc-A03FA04"> </a></td>
+<td>bromoprid</td>
+<td>N</td>
+<td>bromopride</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03FA05<a name="dlp-atc-A03FA05"> </a></td>
+<td>alizaprid</td>
+<td>N</td>
+<td>alizapride</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03FA06<a name="dlp-atc-A03FA06"> </a></td>
+<td>kleboprid</td>
+<td>N</td>
+<td>clebopride</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03FA07<a name="dlp-atc-A03FA07"> </a></td>
+<td>itoprid</td>
+<td>N</td>
+<td>itopride</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03FA08<a name="dlp-atc-A03FA08"> </a></td>
+<td>cinitaprid</td>
+<td>N</td>
+<td>cinitapride</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03FA09<a name="dlp-atc-A03FA09"> </a></td>
+<td>mosaprid</td>
+<td>N</td>
+<td>mosapride</td></tr>
+<tr><td>5</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A03FA10<a name="dlp-atc-A03FA10"> </a></td>
+<td>akotiamid</td>
+<td>N</td>
+<td>acotiamide</td></tr></table></div>
+
+  
+
+  <!-- insert notes if present -->
+  
+
+
+
+  
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hl7.cz/">HL7 Czech Republic</a>.  Package hl7.fhir.cz.terminology#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Dec 2, 2025 17:10+0100">2025-12-02</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

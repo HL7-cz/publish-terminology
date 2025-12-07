@@ -1,0 +1,347 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "drzar",
+  "language" : "cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"cs\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"cs\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem drzar</b></p><a name=\"drzar\"> </a><a name=\"hcdrzar\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: cs</p></div><p>This case-sensitive code system <code>https://ncez.mzcr.cz/terminology/CodeSystem/drzar</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">010<a name=\"drzar-010\"> </a></td><td>Sdružení zdravotnických zařízení</td></tr><tr><td style=\"white-space:nowrap\">101<a name=\"drzar-101\"> </a></td><td>Fakultní nemocnice</td></tr><tr><td style=\"white-space:nowrap\">102<a name=\"drzar-102\"> </a></td><td>Nemocnice</td></tr><tr><td style=\"white-space:nowrap\">103<a name=\"drzar-103\"> </a></td><td>Specializovaná nemocnice</td></tr><tr><td style=\"white-space:nowrap\">104<a name=\"drzar-104\"> </a></td><td>Psychiatrická nemocnice</td></tr><tr><td style=\"white-space:nowrap\">105<a name=\"drzar-105\"> </a></td><td>Nemocnice následné péče</td></tr><tr><td style=\"white-space:nowrap\">109<a name=\"drzar-109\"> </a></td><td>Porodnice</td></tr><tr><td style=\"white-space:nowrap\">110<a name=\"drzar-110\"> </a></td><td>Léčebna pro dlouhodobě nemocné (LDN)</td></tr><tr><td style=\"white-space:nowrap\">111<a name=\"drzar-111\"> </a></td><td>Léčebna tuberkul.a respir.nemocí (TRN)</td></tr><tr><td style=\"white-space:nowrap\">112<a name=\"drzar-112\"> </a></td><td>Psychiatrická léčebna</td></tr><tr><td style=\"white-space:nowrap\">113<a name=\"drzar-113\"> </a></td><td>Rehabilitační ústav</td></tr><tr><td style=\"white-space:nowrap\">119<a name=\"drzar-119\"> </a></td><td>Ostatní odborné léčebné ústavy</td></tr><tr><td style=\"white-space:nowrap\">122<a name=\"drzar-122\"> </a></td><td>Dětská psychiatrická léčebna</td></tr><tr><td style=\"white-space:nowrap\">129<a name=\"drzar-129\"> </a></td><td>Ostatní dětské odborné léčebné ústavy</td></tr><tr><td style=\"white-space:nowrap\">130<a name=\"drzar-130\"> </a></td><td>Lázeňská léčebna</td></tr><tr><td style=\"white-space:nowrap\">141<a name=\"drzar-141\"> </a></td><td>Dětská ozdravovna</td></tr><tr><td style=\"white-space:nowrap\">180<a name=\"drzar-180\"> </a></td><td>Hospic</td></tr><tr><td style=\"white-space:nowrap\">190<a name=\"drzar-190\"> </a></td><td>Další lůžkové zařízení</td></tr><tr><td style=\"white-space:nowrap\">300<a name=\"drzar-300\"> </a></td><td>Sdružení ambulantních zařízení</td></tr><tr><td style=\"white-space:nowrap\">301<a name=\"drzar-301\"> </a></td><td>Poskytovatel amb. služeb (nad 5 oborů)</td></tr><tr><td style=\"white-space:nowrap\">302<a name=\"drzar-302\"> </a></td><td>Poskytovatel amb. služeb (do 5 oborů)</td></tr><tr><td style=\"white-space:nowrap\">310<a name=\"drzar-310\"> </a></td><td>Zdravotnické středisko</td></tr><tr><td style=\"white-space:nowrap\">312<a name=\"drzar-312\"> </a></td><td>Zařízení závodní preventivní péče</td></tr><tr><td style=\"white-space:nowrap\">320<a name=\"drzar-320\"> </a></td><td>Samost. ordinace všeob. prakt. lékaře</td></tr><tr><td style=\"white-space:nowrap\">321<a name=\"drzar-321\"> </a></td><td>Sam.ord.prakt.lékaře pro děti a dorost</td></tr><tr><td style=\"white-space:nowrap\">322<a name=\"drzar-322\"> </a></td><td>Samostatná ordinace PL - stomatologa</td></tr><tr><td style=\"white-space:nowrap\">323<a name=\"drzar-323\"> </a></td><td>Samostatná ordinace PL - gynekologa</td></tr><tr><td style=\"white-space:nowrap\">324<a name=\"drzar-324\"> </a></td><td>Samostatná ordinace lékaře specialisty</td></tr><tr><td style=\"white-space:nowrap\">340<a name=\"drzar-340\"> </a></td><td>Samostatné zařízení psychologa</td></tr><tr><td style=\"white-space:nowrap\">341<a name=\"drzar-341\"> </a></td><td>Samostatné zařízení logopeda</td></tr><tr><td style=\"white-space:nowrap\">350<a name=\"drzar-350\"> </a></td><td>Domácí zdravotní péče</td></tr><tr><td style=\"white-space:nowrap\">351<a name=\"drzar-351\"> </a></td><td>Samostatné zařízení fyzioterapeuta</td></tr><tr><td style=\"white-space:nowrap\">354<a name=\"drzar-354\"> </a></td><td>Zdravotní péče v ústavech sociální p.</td></tr><tr><td style=\"white-space:nowrap\">359<a name=\"drzar-359\"> </a></td><td>Samostatné zařízení nelékaře - jiné</td></tr><tr><td style=\"white-space:nowrap\">360<a name=\"drzar-360\"> </a></td><td>Samostatná stomatologická laboratoř</td></tr><tr><td style=\"white-space:nowrap\">361<a name=\"drzar-361\"> </a></td><td>Samostatná odborná laboratoř</td></tr><tr><td style=\"white-space:nowrap\">362<a name=\"drzar-362\"> </a></td><td>Odběrová místnost</td></tr><tr><td style=\"white-space:nowrap\">370<a name=\"drzar-370\"> </a></td><td>Samostatná transfuzní stanice</td></tr><tr><td style=\"white-space:nowrap\">380<a name=\"drzar-380\"> </a></td><td>Zařízení LPS</td></tr><tr><td style=\"white-space:nowrap\">389<a name=\"drzar-389\"> </a></td><td>Koroner</td></tr><tr><td style=\"white-space:nowrap\">390<a name=\"drzar-390\"> </a></td><td>Hemodialyzační středisko</td></tr><tr><td style=\"white-space:nowrap\">398<a name=\"drzar-398\"> </a></td><td>Zařízení pro léčbu závislostí</td></tr><tr><td style=\"white-space:nowrap\">399<a name=\"drzar-399\"> </a></td><td>Ostatní ambulantní zařízení</td></tr><tr><td style=\"white-space:nowrap\">400<a name=\"drzar-400\"> </a></td><td>Sdružení dětských zařízení</td></tr><tr><td style=\"white-space:nowrap\">420<a name=\"drzar-420\"> </a></td><td>Dětský domov pro děti do 3 let</td></tr><tr><td style=\"white-space:nowrap\">430<a name=\"drzar-430\"> </a></td><td>Dětské centrum</td></tr><tr><td style=\"white-space:nowrap\">431<a name=\"drzar-431\"> </a></td><td>Dětský stacionář</td></tr><tr><td style=\"white-space:nowrap\">460<a name=\"drzar-460\"> </a></td><td>Stacionář</td></tr><tr><td style=\"white-space:nowrap\">461<a name=\"drzar-461\"> </a></td><td>Psychoterapeutický stacionář</td></tr><tr><td style=\"white-space:nowrap\">465<a name=\"drzar-465\"> </a></td><td>Krizové centrum</td></tr><tr><td style=\"white-space:nowrap\">466<a name=\"drzar-466\"> </a></td><td>Centrum duševního zdraví</td></tr><tr><td style=\"white-space:nowrap\">476<a name=\"drzar-476\"> </a></td><td>Záchytná stanice</td></tr><tr><td style=\"white-space:nowrap\">480<a name=\"drzar-480\"> </a></td><td>Zdravotnická dopravní služba</td></tr><tr><td style=\"white-space:nowrap\">481<a name=\"drzar-481\"> </a></td><td>Zdravotnická zachranná služba</td></tr><tr><td style=\"white-space:nowrap\">483<a name=\"drzar-483\"> </a></td><td>Výjezdová skupina záchranné služby</td></tr><tr><td style=\"white-space:nowrap\">484<a name=\"drzar-484\"> </a></td><td>Další zařízení záchranné služby</td></tr><tr><td style=\"white-space:nowrap\">485<a name=\"drzar-485\"> </a></td><td>Přeprava pacientů neodkladné péče</td></tr><tr><td style=\"white-space:nowrap\">499<a name=\"drzar-499\"> </a></td><td>Ostatní zvláštní zdravotnická zařízení</td></tr><tr><td style=\"white-space:nowrap\">501<a name=\"drzar-501\"> </a></td><td>Sdružení lékáren</td></tr><tr><td style=\"white-space:nowrap\">510<a name=\"drzar-510\"> </a></td><td>Lékárna</td></tr><tr><td style=\"white-space:nowrap\">521<a name=\"drzar-521\"> </a></td><td>Oční optika</td></tr><tr><td style=\"white-space:nowrap\">530<a name=\"drzar-530\"> </a></td><td>Státní ústav pro kontrolu léčiv</td></tr><tr><td style=\"white-space:nowrap\">600<a name=\"drzar-600\"> </a></td><td>Státní zdravotní ústav</td></tr><tr><td style=\"white-space:nowrap\">601<a name=\"drzar-601\"> </a></td><td>Krajská hygienická stanice</td></tr><tr><td style=\"white-space:nowrap\">605<a name=\"drzar-605\"> </a></td><td>Zdravotní ústav</td></tr><tr><td style=\"white-space:nowrap\">609<a name=\"drzar-609\"> </a></td><td>Další zařízení hygienické služby</td></tr><tr><td style=\"white-space:nowrap\">831<a name=\"drzar-831\"> </a></td><td>IPVZ</td></tr><tr><td style=\"white-space:nowrap\">832<a name=\"drzar-832\"> </a></td><td>NCONZO</td></tr><tr><td style=\"white-space:nowrap\">900<a name=\"drzar-900\"> </a></td><td>Ostatní organizace MZ</td></tr><tr><td style=\"white-space:nowrap\">950<a name=\"drzar-950\"> </a></td><td>Ostatní zdravotnická zařízení</td></tr><tr><td style=\"white-space:nowrap\">952<a name=\"drzar-952\"> </a></td><td>Lázeňský dům (jen ubyt. hotel. typu)</td></tr><tr><td style=\"white-space:nowrap\">961<a name=\"drzar-961\"> </a></td><td>Zdravotnické zařízení v likvidaci</td></tr><tr><td style=\"white-space:nowrap\">962<a name=\"drzar-962\"> </a></td><td>Hospodářská org. neposkyt. zdrav. péči</td></tr><tr><td style=\"white-space:nowrap\">963<a name=\"drzar-963\"> </a></td><td>Servisní organizace</td></tr><tr><td style=\"white-space:nowrap\">964<a name=\"drzar-964\"> </a></td><td>COVID zařízení</td></tr><tr><td style=\"white-space:nowrap\">368<a name=\"drzar-368\"> </a></td><td>Centrum očkování COVID</td></tr><tr><td style=\"white-space:nowrap\">363<a name=\"drzar-363\"> </a></td><td>Odběr krevní plasmy</td></tr></table></div>"
+  },
+  "url" : "https://ncez.mzcr.cz/terminology/CodeSystem/drzar",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.203.24341.11.2.10.1"
+  }],
+  "version" : "0.1.0",
+  "name" : "CS_Drzar",
+  "title" : "Type of healthcare facility",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "1980-01-01",
+  "publisher" : "HL7 Czech Republic",
+  "contact" : [{
+    "name" : "HL7 Czech Republic",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.hl7.cz/"
+    }]
+  }],
+  "description" : "Czech national code system for type of healthcare facility.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CZ",
+      "display" : "Czechia"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 77,
+  "concept" : [{
+    "code" : "010",
+    "display" : "Sdružení zdravotnických zařízení"
+  },
+  {
+    "code" : "101",
+    "display" : "Fakultní nemocnice"
+  },
+  {
+    "code" : "102",
+    "display" : "Nemocnice"
+  },
+  {
+    "code" : "103",
+    "display" : "Specializovaná nemocnice"
+  },
+  {
+    "code" : "104",
+    "display" : "Psychiatrická nemocnice"
+  },
+  {
+    "code" : "105",
+    "display" : "Nemocnice následné péče"
+  },
+  {
+    "code" : "109",
+    "display" : "Porodnice"
+  },
+  {
+    "code" : "110",
+    "display" : "Léčebna pro dlouhodobě nemocné (LDN)"
+  },
+  {
+    "code" : "111",
+    "display" : "Léčebna tuberkul.a respir.nemocí (TRN)"
+  },
+  {
+    "code" : "112",
+    "display" : "Psychiatrická léčebna"
+  },
+  {
+    "code" : "113",
+    "display" : "Rehabilitační ústav"
+  },
+  {
+    "code" : "119",
+    "display" : "Ostatní odborné léčebné ústavy"
+  },
+  {
+    "code" : "122",
+    "display" : "Dětská psychiatrická léčebna"
+  },
+  {
+    "code" : "129",
+    "display" : "Ostatní dětské odborné léčebné ústavy"
+  },
+  {
+    "code" : "130",
+    "display" : "Lázeňská léčebna"
+  },
+  {
+    "code" : "141",
+    "display" : "Dětská ozdravovna"
+  },
+  {
+    "code" : "180",
+    "display" : "Hospic"
+  },
+  {
+    "code" : "190",
+    "display" : "Další lůžkové zařízení"
+  },
+  {
+    "code" : "300",
+    "display" : "Sdružení ambulantních zařízení"
+  },
+  {
+    "code" : "301",
+    "display" : "Poskytovatel amb. služeb (nad 5 oborů)"
+  },
+  {
+    "code" : "302",
+    "display" : "Poskytovatel amb. služeb (do 5 oborů)"
+  },
+  {
+    "code" : "310",
+    "display" : "Zdravotnické středisko"
+  },
+  {
+    "code" : "312",
+    "display" : "Zařízení závodní preventivní péče"
+  },
+  {
+    "code" : "320",
+    "display" : "Samost. ordinace všeob. prakt. lékaře"
+  },
+  {
+    "code" : "321",
+    "display" : "Sam.ord.prakt.lékaře pro děti a dorost"
+  },
+  {
+    "code" : "322",
+    "display" : "Samostatná ordinace PL - stomatologa"
+  },
+  {
+    "code" : "323",
+    "display" : "Samostatná ordinace PL - gynekologa"
+  },
+  {
+    "code" : "324",
+    "display" : "Samostatná ordinace lékaře specialisty"
+  },
+  {
+    "code" : "340",
+    "display" : "Samostatné zařízení psychologa"
+  },
+  {
+    "code" : "341",
+    "display" : "Samostatné zařízení logopeda"
+  },
+  {
+    "code" : "350",
+    "display" : "Domácí zdravotní péče"
+  },
+  {
+    "code" : "351",
+    "display" : "Samostatné zařízení fyzioterapeuta"
+  },
+  {
+    "code" : "354",
+    "display" : "Zdravotní péče v ústavech sociální p."
+  },
+  {
+    "code" : "359",
+    "display" : "Samostatné zařízení nelékaře - jiné"
+  },
+  {
+    "code" : "360",
+    "display" : "Samostatná stomatologická laboratoř"
+  },
+  {
+    "code" : "361",
+    "display" : "Samostatná odborná laboratoř"
+  },
+  {
+    "code" : "362",
+    "display" : "Odběrová místnost"
+  },
+  {
+    "code" : "370",
+    "display" : "Samostatná transfuzní stanice"
+  },
+  {
+    "code" : "380",
+    "display" : "Zařízení LPS"
+  },
+  {
+    "code" : "389",
+    "display" : "Koroner"
+  },
+  {
+    "code" : "390",
+    "display" : "Hemodialyzační středisko"
+  },
+  {
+    "code" : "398",
+    "display" : "Zařízení pro léčbu závislostí"
+  },
+  {
+    "code" : "399",
+    "display" : "Ostatní ambulantní zařízení"
+  },
+  {
+    "code" : "400",
+    "display" : "Sdružení dětských zařízení"
+  },
+  {
+    "code" : "420",
+    "display" : "Dětský domov pro děti do 3 let"
+  },
+  {
+    "code" : "430",
+    "display" : "Dětské centrum"
+  },
+  {
+    "code" : "431",
+    "display" : "Dětský stacionář"
+  },
+  {
+    "code" : "460",
+    "display" : "Stacionář"
+  },
+  {
+    "code" : "461",
+    "display" : "Psychoterapeutický stacionář"
+  },
+  {
+    "code" : "465",
+    "display" : "Krizové centrum"
+  },
+  {
+    "code" : "466",
+    "display" : "Centrum duševního zdraví"
+  },
+  {
+    "code" : "476",
+    "display" : "Záchytná stanice"
+  },
+  {
+    "code" : "480",
+    "display" : "Zdravotnická dopravní služba"
+  },
+  {
+    "code" : "481",
+    "display" : "Zdravotnická zachranná služba"
+  },
+  {
+    "code" : "483",
+    "display" : "Výjezdová skupina záchranné služby"
+  },
+  {
+    "code" : "484",
+    "display" : "Další zařízení záchranné služby"
+  },
+  {
+    "code" : "485",
+    "display" : "Přeprava pacientů neodkladné péče"
+  },
+  {
+    "code" : "499",
+    "display" : "Ostatní zvláštní zdravotnická zařízení"
+  },
+  {
+    "code" : "501",
+    "display" : "Sdružení lékáren"
+  },
+  {
+    "code" : "510",
+    "display" : "Lékárna"
+  },
+  {
+    "code" : "521",
+    "display" : "Oční optika"
+  },
+  {
+    "code" : "530",
+    "display" : "Státní ústav pro kontrolu léčiv"
+  },
+  {
+    "code" : "600",
+    "display" : "Státní zdravotní ústav"
+  },
+  {
+    "code" : "601",
+    "display" : "Krajská hygienická stanice"
+  },
+  {
+    "code" : "605",
+    "display" : "Zdravotní ústav"
+  },
+  {
+    "code" : "609",
+    "display" : "Další zařízení hygienické služby"
+  },
+  {
+    "code" : "831",
+    "display" : "IPVZ"
+  },
+  {
+    "code" : "832",
+    "display" : "NCONZO"
+  },
+  {
+    "code" : "900",
+    "display" : "Ostatní organizace MZ"
+  },
+  {
+    "code" : "950",
+    "display" : "Ostatní zdravotnická zařízení"
+  },
+  {
+    "code" : "952",
+    "display" : "Lázeňský dům (jen ubyt. hotel. typu)"
+  },
+  {
+    "code" : "961",
+    "display" : "Zdravotnické zařízení v likvidaci"
+  },
+  {
+    "code" : "962",
+    "display" : "Hospodářská org. neposkyt. zdrav. péči"
+  },
+  {
+    "code" : "963",
+    "display" : "Servisní organizace"
+  },
+  {
+    "code" : "964",
+    "display" : "COVID zařízení"
+  },
+  {
+    "code" : "368",
+    "display" : "Centrum očkování COVID"
+  },
+  {
+    "code" : "363",
+    "display" : "Odběr krevní plasmy"
+  }]
+}

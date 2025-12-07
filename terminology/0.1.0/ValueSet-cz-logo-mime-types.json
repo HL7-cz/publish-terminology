@@ -1,0 +1,53 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "cz-logo-mime-types",
+  "language" : "cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"cs\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"cs\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet cz-logo-mime-types</b></p><a name=\"cz-logo-mime-types\"> </a><a name=\"hccz-logo-mime-types\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: cs</p></div><ul><li>Include these codes as defined in <code>urn:ietf:bcp:13</code><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>image/png</td><td>PNG image</td></tr><tr><td>image/jpeg</td><td>JPEG image</td></tr><tr><td>image/gif</td><td>GIF image</td></tr><tr><td>image/svg+xml</td><td>SVG image</td></tr></table></li></ul></div>"
+  },
+  "url" : "https://hl7.cz/terminology/ValueSet/cz-logo-mime-types",
+  "version" : "0.1.0",
+  "name" : "CZ_LogoMimeTypesVs",
+  "title" : "Mime types permissible for logo attachment",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2022-12-26",
+  "publisher" : "HL7 Czech Republic",
+  "contact" : [{
+    "name" : "HL7 Czech Republic",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.hl7.cz/"
+    }]
+  }],
+  "description" : "Mime types for logo attachment. It is used in OrganizationLogo extension to restrict the mime type of the logo image.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CZ",
+      "display" : "Czechia"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "urn:ietf:bcp:13",
+      "concept" : [{
+        "code" : "image/png",
+        "display" : "PNG image"
+      },
+      {
+        "code" : "image/jpeg",
+        "display" : "JPEG image"
+      },
+      {
+        "code" : "image/gif",
+        "display" : "GIF image"
+      },
+      {
+        "code" : "image/svg+xml",
+        "display" : "SVG image"
+      }]
+    }]
+  }
+}

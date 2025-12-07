@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="lab-document-types"/>
+  <language value="cs"/>
+  <text>
+    <status value="generated"/><div xml:lang="cs" xmlns="http://www.w3.org/1999/xhtml" lang="cs"><p class="res-header-id"><b>Generated Narrative: ValueSet lab-document-types</b></p><a name="lab-document-types"> </a><a name="hclab-document-types"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: cs</p></div><ul><li>Include these codes as defined in <a href="http://loinc.org"><code>http://loinc.org</code></a><span title="Version is not explicitly stated. No matching Code System found"> version Not Stated (use latest from terminology server)</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="https://loinc.org/18716-1/">18716-1</a></td><td>Laboratorní zpráva alergologická</td></tr><tr><td><a href="https://loinc.org/18717-9/">18717-9</a></td><td>Laboratorní zpráva transfůzní</td></tr><tr><td><a href="https://loinc.org/18719-5/">18719-5</a></td><td>Laboratorní zpráva biochemická</td></tr><tr><td><a href="https://loinc.org/18722-9/">18722-9</a></td><td>Laboratorní zpráva reprodukční</td></tr><tr><td><a href="https://loinc.org/18723-7/">18723-7</a></td><td>Laboratorní zpráva hematologická</td></tr><tr><td><a href="https://loinc.org/18725-2/">18725-2</a></td><td>Laboratorní zpráva mikrobiologická</td></tr><tr><td><a href="https://loinc.org/18728-6/">18728-6</a></td><td>Laboratorní zpráva toxikologická</td></tr><tr><td><a href="https://loinc.org/26436-6/">26436-6</a></td><td>Laboratorní zpráva</td></tr></table></li></ul></div>
+  </text>
+  <url value="https://ncez.mzcr.cz/terminology/ValueSet/lab-document-types"/>
+  <version value="0.1.0"/>
+  <name value="LabDocumentTypes"/>
+  <title value="Typy laboratorních dokumentů"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2025-11-19T13:46:00.42162Z"/>
+  <publisher value="HL7 Czech Republic"/>
+  <contact>
+    <name value="HL7 Czech Republic"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hl7.cz/"/>
+    </telecom>
+  </contact>
+  <description value="Číselník typů laboratorních dokumentů."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CZ"/>
+      <display value="Czechia"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc"/>
+  <compose>
+    <include>
+      <system value="http://loinc.org"/>
+      <concept>
+        <code value="18716-1"/>
+        <display value="Laboratorní zpráva alergologická"/>
+      </concept>
+      <concept>
+        <code value="18717-9"/>
+        <display value="Laboratorní zpráva transfůzní"/>
+      </concept>
+      <concept>
+        <code value="18719-5"/>
+        <display value="Laboratorní zpráva biochemická"/>
+      </concept>
+      <concept>
+        <code value="18722-9"/>
+        <display value="Laboratorní zpráva reprodukční"/>
+      </concept>
+      <concept>
+        <code value="18723-7"/>
+        <display value="Laboratorní zpráva hematologická"/>
+      </concept>
+      <concept>
+        <code value="18725-2"/>
+        <display value="Laboratorní zpráva mikrobiologická"/>
+      </concept>
+      <concept>
+        <code value="18728-6"/>
+        <display value="Laboratorní zpráva toxikologická"/>
+      </concept>
+      <concept>
+        <code value="26436-6"/>
+        <display value="Laboratorní zpráva"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

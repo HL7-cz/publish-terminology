@@ -1,0 +1,290 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hl7.cz/terminology/CodeSystem/drzar> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "drzar"] ; # 
+  fhir:language [ fhir:v "cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xml:lang=\"cs\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"cs\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem drzar</b></p><a name=\"drzar\"> </a><a name=\"hcdrzar\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: cs</p></div><p>This case-sensitive code system <code>https://ncez.mzcr.cz/terminology/CodeSystem/drzar</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">010<a name=\"drzar-010\"> </a></td><td>Sdružení zdravotnických zařízení</td></tr><tr><td style=\"white-space:nowrap\">101<a name=\"drzar-101\"> </a></td><td>Fakultní nemocnice</td></tr><tr><td style=\"white-space:nowrap\">102<a name=\"drzar-102\"> </a></td><td>Nemocnice</td></tr><tr><td style=\"white-space:nowrap\">103<a name=\"drzar-103\"> </a></td><td>Specializovaná nemocnice</td></tr><tr><td style=\"white-space:nowrap\">104<a name=\"drzar-104\"> </a></td><td>Psychiatrická nemocnice</td></tr><tr><td style=\"white-space:nowrap\">105<a name=\"drzar-105\"> </a></td><td>Nemocnice následné péče</td></tr><tr><td style=\"white-space:nowrap\">109<a name=\"drzar-109\"> </a></td><td>Porodnice</td></tr><tr><td style=\"white-space:nowrap\">110<a name=\"drzar-110\"> </a></td><td>Léčebna pro dlouhodobě nemocné (LDN)</td></tr><tr><td style=\"white-space:nowrap\">111<a name=\"drzar-111\"> </a></td><td>Léčebna tuberkul.a respir.nemocí (TRN)</td></tr><tr><td style=\"white-space:nowrap\">112<a name=\"drzar-112\"> </a></td><td>Psychiatrická léčebna</td></tr><tr><td style=\"white-space:nowrap\">113<a name=\"drzar-113\"> </a></td><td>Rehabilitační ústav</td></tr><tr><td style=\"white-space:nowrap\">119<a name=\"drzar-119\"> </a></td><td>Ostatní odborné léčebné ústavy</td></tr><tr><td style=\"white-space:nowrap\">122<a name=\"drzar-122\"> </a></td><td>Dětská psychiatrická léčebna</td></tr><tr><td style=\"white-space:nowrap\">129<a name=\"drzar-129\"> </a></td><td>Ostatní dětské odborné léčebné ústavy</td></tr><tr><td style=\"white-space:nowrap\">130<a name=\"drzar-130\"> </a></td><td>Lázeňská léčebna</td></tr><tr><td style=\"white-space:nowrap\">141<a name=\"drzar-141\"> </a></td><td>Dětská ozdravovna</td></tr><tr><td style=\"white-space:nowrap\">180<a name=\"drzar-180\"> </a></td><td>Hospic</td></tr><tr><td style=\"white-space:nowrap\">190<a name=\"drzar-190\"> </a></td><td>Další lůžkové zařízení</td></tr><tr><td style=\"white-space:nowrap\">300<a name=\"drzar-300\"> </a></td><td>Sdružení ambulantních zařízení</td></tr><tr><td style=\"white-space:nowrap\">301<a name=\"drzar-301\"> </a></td><td>Poskytovatel amb. služeb (nad 5 oborů)</td></tr><tr><td style=\"white-space:nowrap\">302<a name=\"drzar-302\"> </a></td><td>Poskytovatel amb. služeb (do 5 oborů)</td></tr><tr><td style=\"white-space:nowrap\">310<a name=\"drzar-310\"> </a></td><td>Zdravotnické středisko</td></tr><tr><td style=\"white-space:nowrap\">312<a name=\"drzar-312\"> </a></td><td>Zařízení závodní preventivní péče</td></tr><tr><td style=\"white-space:nowrap\">320<a name=\"drzar-320\"> </a></td><td>Samost. ordinace všeob. prakt. lékaře</td></tr><tr><td style=\"white-space:nowrap\">321<a name=\"drzar-321\"> </a></td><td>Sam.ord.prakt.lékaře pro děti a dorost</td></tr><tr><td style=\"white-space:nowrap\">322<a name=\"drzar-322\"> </a></td><td>Samostatná ordinace PL - stomatologa</td></tr><tr><td style=\"white-space:nowrap\">323<a name=\"drzar-323\"> </a></td><td>Samostatná ordinace PL - gynekologa</td></tr><tr><td style=\"white-space:nowrap\">324<a name=\"drzar-324\"> </a></td><td>Samostatná ordinace lékaře specialisty</td></tr><tr><td style=\"white-space:nowrap\">340<a name=\"drzar-340\"> </a></td><td>Samostatné zařízení psychologa</td></tr><tr><td style=\"white-space:nowrap\">341<a name=\"drzar-341\"> </a></td><td>Samostatné zařízení logopeda</td></tr><tr><td style=\"white-space:nowrap\">350<a name=\"drzar-350\"> </a></td><td>Domácí zdravotní péče</td></tr><tr><td style=\"white-space:nowrap\">351<a name=\"drzar-351\"> </a></td><td>Samostatné zařízení fyzioterapeuta</td></tr><tr><td style=\"white-space:nowrap\">354<a name=\"drzar-354\"> </a></td><td>Zdravotní péče v ústavech sociální p.</td></tr><tr><td style=\"white-space:nowrap\">359<a name=\"drzar-359\"> </a></td><td>Samostatné zařízení nelékaře - jiné</td></tr><tr><td style=\"white-space:nowrap\">360<a name=\"drzar-360\"> </a></td><td>Samostatná stomatologická laboratoř</td></tr><tr><td style=\"white-space:nowrap\">361<a name=\"drzar-361\"> </a></td><td>Samostatná odborná laboratoř</td></tr><tr><td style=\"white-space:nowrap\">362<a name=\"drzar-362\"> </a></td><td>Odběrová místnost</td></tr><tr><td style=\"white-space:nowrap\">370<a name=\"drzar-370\"> </a></td><td>Samostatná transfuzní stanice</td></tr><tr><td style=\"white-space:nowrap\">380<a name=\"drzar-380\"> </a></td><td>Zařízení LPS</td></tr><tr><td style=\"white-space:nowrap\">389<a name=\"drzar-389\"> </a></td><td>Koroner</td></tr><tr><td style=\"white-space:nowrap\">390<a name=\"drzar-390\"> </a></td><td>Hemodialyzační středisko</td></tr><tr><td style=\"white-space:nowrap\">398<a name=\"drzar-398\"> </a></td><td>Zařízení pro léčbu závislostí</td></tr><tr><td style=\"white-space:nowrap\">399<a name=\"drzar-399\"> </a></td><td>Ostatní ambulantní zařízení</td></tr><tr><td style=\"white-space:nowrap\">400<a name=\"drzar-400\"> </a></td><td>Sdružení dětských zařízení</td></tr><tr><td style=\"white-space:nowrap\">420<a name=\"drzar-420\"> </a></td><td>Dětský domov pro děti do 3 let</td></tr><tr><td style=\"white-space:nowrap\">430<a name=\"drzar-430\"> </a></td><td>Dětské centrum</td></tr><tr><td style=\"white-space:nowrap\">431<a name=\"drzar-431\"> </a></td><td>Dětský stacionář</td></tr><tr><td style=\"white-space:nowrap\">460<a name=\"drzar-460\"> </a></td><td>Stacionář</td></tr><tr><td style=\"white-space:nowrap\">461<a name=\"drzar-461\"> </a></td><td>Psychoterapeutický stacionář</td></tr><tr><td style=\"white-space:nowrap\">465<a name=\"drzar-465\"> </a></td><td>Krizové centrum</td></tr><tr><td style=\"white-space:nowrap\">466<a name=\"drzar-466\"> </a></td><td>Centrum duševního zdraví</td></tr><tr><td style=\"white-space:nowrap\">476<a name=\"drzar-476\"> </a></td><td>Záchytná stanice</td></tr><tr><td style=\"white-space:nowrap\">480<a name=\"drzar-480\"> </a></td><td>Zdravotnická dopravní služba</td></tr><tr><td style=\"white-space:nowrap\">481<a name=\"drzar-481\"> </a></td><td>Zdravotnická zachranná služba</td></tr><tr><td style=\"white-space:nowrap\">483<a name=\"drzar-483\"> </a></td><td>Výjezdová skupina záchranné služby</td></tr><tr><td style=\"white-space:nowrap\">484<a name=\"drzar-484\"> </a></td><td>Další zařízení záchranné služby</td></tr><tr><td style=\"white-space:nowrap\">485<a name=\"drzar-485\"> </a></td><td>Přeprava pacientů neodkladné péče</td></tr><tr><td style=\"white-space:nowrap\">499<a name=\"drzar-499\"> </a></td><td>Ostatní zvláštní zdravotnická zařízení</td></tr><tr><td style=\"white-space:nowrap\">501<a name=\"drzar-501\"> </a></td><td>Sdružení lékáren</td></tr><tr><td style=\"white-space:nowrap\">510<a name=\"drzar-510\"> </a></td><td>Lékárna</td></tr><tr><td style=\"white-space:nowrap\">521<a name=\"drzar-521\"> </a></td><td>Oční optika</td></tr><tr><td style=\"white-space:nowrap\">530<a name=\"drzar-530\"> </a></td><td>Státní ústav pro kontrolu léčiv</td></tr><tr><td style=\"white-space:nowrap\">600<a name=\"drzar-600\"> </a></td><td>Státní zdravotní ústav</td></tr><tr><td style=\"white-space:nowrap\">601<a name=\"drzar-601\"> </a></td><td>Krajská hygienická stanice</td></tr><tr><td style=\"white-space:nowrap\">605<a name=\"drzar-605\"> </a></td><td>Zdravotní ústav</td></tr><tr><td style=\"white-space:nowrap\">609<a name=\"drzar-609\"> </a></td><td>Další zařízení hygienické služby</td></tr><tr><td style=\"white-space:nowrap\">831<a name=\"drzar-831\"> </a></td><td>IPVZ</td></tr><tr><td style=\"white-space:nowrap\">832<a name=\"drzar-832\"> </a></td><td>NCONZO</td></tr><tr><td style=\"white-space:nowrap\">900<a name=\"drzar-900\"> </a></td><td>Ostatní organizace MZ</td></tr><tr><td style=\"white-space:nowrap\">950<a name=\"drzar-950\"> </a></td><td>Ostatní zdravotnická zařízení</td></tr><tr><td style=\"white-space:nowrap\">952<a name=\"drzar-952\"> </a></td><td>Lázeňský dům (jen ubyt. hotel. typu)</td></tr><tr><td style=\"white-space:nowrap\">961<a name=\"drzar-961\"> </a></td><td>Zdravotnické zařízení v likvidaci</td></tr><tr><td style=\"white-space:nowrap\">962<a name=\"drzar-962\"> </a></td><td>Hospodářská org. neposkyt. zdrav. péči</td></tr><tr><td style=\"white-space:nowrap\">963<a name=\"drzar-963\"> </a></td><td>Servisní organizace</td></tr><tr><td style=\"white-space:nowrap\">964<a name=\"drzar-964\"> </a></td><td>COVID zařízení</td></tr><tr><td style=\"white-space:nowrap\">368<a name=\"drzar-368\"> </a></td><td>Centrum očkování COVID</td></tr><tr><td style=\"white-space:nowrap\">363<a name=\"drzar-363\"> </a></td><td>Odběr krevní plasmy</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [
+     fhir:v "https://ncez.mzcr.cz/terminology/CodeSystem/drzar"^^xsd:anyURI ;
+     fhir:l <https://ncez.mzcr.cz/terminology/CodeSystem/drzar>
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [
+       fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
+       fhir:l <urn:ietf:rfc:3986>
+     ] ;
+     fhir:value [ fhir:v "urn:oid:1.2.203.24341.11.2.10.1" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "CS_Drzar"] ; # 
+  fhir:title [ fhir:v "Type of healthcare facility"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "1980-01-01"^^xsd:date] ; # 
+  fhir:publisher [ fhir:v "HL7 Czech Republic"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HL7 Czech Republic" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://www.hl7.cz/" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Czech national code system for type of healthcare facility."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
+         fhir:l <urn:iso:std:iso:3166>
+       ] ;
+       fhir:code [ fhir:v "CZ" ] ;
+       fhir:display [ fhir:v "Czechia" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "77"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "010" ] ;
+     fhir:display [ fhir:v "Sdružení zdravotnických zařízení" ]
+  ] [
+     fhir:code [ fhir:v "101" ] ;
+     fhir:display [ fhir:v "Fakultní nemocnice" ]
+  ] [
+     fhir:code [ fhir:v "102" ] ;
+     fhir:display [ fhir:v "Nemocnice" ]
+  ] [
+     fhir:code [ fhir:v "103" ] ;
+     fhir:display [ fhir:v "Specializovaná nemocnice" ]
+  ] [
+     fhir:code [ fhir:v "104" ] ;
+     fhir:display [ fhir:v "Psychiatrická nemocnice" ]
+  ] [
+     fhir:code [ fhir:v "105" ] ;
+     fhir:display [ fhir:v "Nemocnice následné péče" ]
+  ] [
+     fhir:code [ fhir:v "109" ] ;
+     fhir:display [ fhir:v "Porodnice" ]
+  ] [
+     fhir:code [ fhir:v "110" ] ;
+     fhir:display [ fhir:v "Léčebna pro dlouhodobě nemocné (LDN)" ]
+  ] [
+     fhir:code [ fhir:v "111" ] ;
+     fhir:display [ fhir:v "Léčebna tuberkul.a respir.nemocí (TRN)" ]
+  ] [
+     fhir:code [ fhir:v "112" ] ;
+     fhir:display [ fhir:v "Psychiatrická léčebna" ]
+  ] [
+     fhir:code [ fhir:v "113" ] ;
+     fhir:display [ fhir:v "Rehabilitační ústav" ]
+  ] [
+     fhir:code [ fhir:v "119" ] ;
+     fhir:display [ fhir:v "Ostatní odborné léčebné ústavy" ]
+  ] [
+     fhir:code [ fhir:v "122" ] ;
+     fhir:display [ fhir:v "Dětská psychiatrická léčebna" ]
+  ] [
+     fhir:code [ fhir:v "129" ] ;
+     fhir:display [ fhir:v "Ostatní dětské odborné léčebné ústavy" ]
+  ] [
+     fhir:code [ fhir:v "130" ] ;
+     fhir:display [ fhir:v "Lázeňská léčebna" ]
+  ] [
+     fhir:code [ fhir:v "141" ] ;
+     fhir:display [ fhir:v "Dětská ozdravovna" ]
+  ] [
+     fhir:code [ fhir:v "180" ] ;
+     fhir:display [ fhir:v "Hospic" ]
+  ] [
+     fhir:code [ fhir:v "190" ] ;
+     fhir:display [ fhir:v "Další lůžkové zařízení" ]
+  ] [
+     fhir:code [ fhir:v "300" ] ;
+     fhir:display [ fhir:v "Sdružení ambulantních zařízení" ]
+  ] [
+     fhir:code [ fhir:v "301" ] ;
+     fhir:display [ fhir:v "Poskytovatel amb. služeb (nad 5 oborů)" ]
+  ] [
+     fhir:code [ fhir:v "302" ] ;
+     fhir:display [ fhir:v "Poskytovatel amb. služeb (do 5 oborů)" ]
+  ] [
+     fhir:code [ fhir:v "310" ] ;
+     fhir:display [ fhir:v "Zdravotnické středisko" ]
+  ] [
+     fhir:code [ fhir:v "312" ] ;
+     fhir:display [ fhir:v "Zařízení závodní preventivní péče" ]
+  ] [
+     fhir:code [ fhir:v "320" ] ;
+     fhir:display [ fhir:v "Samost. ordinace všeob. prakt. lékaře" ]
+  ] [
+     fhir:code [ fhir:v "321" ] ;
+     fhir:display [ fhir:v "Sam.ord.prakt.lékaře pro děti a dorost" ]
+  ] [
+     fhir:code [ fhir:v "322" ] ;
+     fhir:display [ fhir:v "Samostatná ordinace PL - stomatologa" ]
+  ] [
+     fhir:code [ fhir:v "323" ] ;
+     fhir:display [ fhir:v "Samostatná ordinace PL - gynekologa" ]
+  ] [
+     fhir:code [ fhir:v "324" ] ;
+     fhir:display [ fhir:v "Samostatná ordinace lékaře specialisty" ]
+  ] [
+     fhir:code [ fhir:v "340" ] ;
+     fhir:display [ fhir:v "Samostatné zařízení psychologa" ]
+  ] [
+     fhir:code [ fhir:v "341" ] ;
+     fhir:display [ fhir:v "Samostatné zařízení logopeda" ]
+  ] [
+     fhir:code [ fhir:v "350" ] ;
+     fhir:display [ fhir:v "Domácí zdravotní péče" ]
+  ] [
+     fhir:code [ fhir:v "351" ] ;
+     fhir:display [ fhir:v "Samostatné zařízení fyzioterapeuta" ]
+  ] [
+     fhir:code [ fhir:v "354" ] ;
+     fhir:display [ fhir:v "Zdravotní péče v ústavech sociální p." ]
+  ] [
+     fhir:code [ fhir:v "359" ] ;
+     fhir:display [ fhir:v "Samostatné zařízení nelékaře - jiné" ]
+  ] [
+     fhir:code [ fhir:v "360" ] ;
+     fhir:display [ fhir:v "Samostatná stomatologická laboratoř" ]
+  ] [
+     fhir:code [ fhir:v "361" ] ;
+     fhir:display [ fhir:v "Samostatná odborná laboratoř" ]
+  ] [
+     fhir:code [ fhir:v "362" ] ;
+     fhir:display [ fhir:v "Odběrová místnost" ]
+  ] [
+     fhir:code [ fhir:v "370" ] ;
+     fhir:display [ fhir:v "Samostatná transfuzní stanice" ]
+  ] [
+     fhir:code [ fhir:v "380" ] ;
+     fhir:display [ fhir:v "Zařízení LPS" ]
+  ] [
+     fhir:code [ fhir:v "389" ] ;
+     fhir:display [ fhir:v "Koroner" ]
+  ] [
+     fhir:code [ fhir:v "390" ] ;
+     fhir:display [ fhir:v "Hemodialyzační středisko" ]
+  ] [
+     fhir:code [ fhir:v "398" ] ;
+     fhir:display [ fhir:v "Zařízení pro léčbu závislostí" ]
+  ] [
+     fhir:code [ fhir:v "399" ] ;
+     fhir:display [ fhir:v "Ostatní ambulantní zařízení" ]
+  ] [
+     fhir:code [ fhir:v "400" ] ;
+     fhir:display [ fhir:v "Sdružení dětských zařízení" ]
+  ] [
+     fhir:code [ fhir:v "420" ] ;
+     fhir:display [ fhir:v "Dětský domov pro děti do 3 let" ]
+  ] [
+     fhir:code [ fhir:v "430" ] ;
+     fhir:display [ fhir:v "Dětské centrum" ]
+  ] [
+     fhir:code [ fhir:v "431" ] ;
+     fhir:display [ fhir:v "Dětský stacionář" ]
+  ] [
+     fhir:code [ fhir:v "460" ] ;
+     fhir:display [ fhir:v "Stacionář" ]
+  ] [
+     fhir:code [ fhir:v "461" ] ;
+     fhir:display [ fhir:v "Psychoterapeutický stacionář" ]
+  ] [
+     fhir:code [ fhir:v "465" ] ;
+     fhir:display [ fhir:v "Krizové centrum" ]
+  ] [
+     fhir:code [ fhir:v "466" ] ;
+     fhir:display [ fhir:v "Centrum duševního zdraví" ]
+  ] [
+     fhir:code [ fhir:v "476" ] ;
+     fhir:display [ fhir:v "Záchytná stanice" ]
+  ] [
+     fhir:code [ fhir:v "480" ] ;
+     fhir:display [ fhir:v "Zdravotnická dopravní služba" ]
+  ] [
+     fhir:code [ fhir:v "481" ] ;
+     fhir:display [ fhir:v "Zdravotnická zachranná služba" ]
+  ] [
+     fhir:code [ fhir:v "483" ] ;
+     fhir:display [ fhir:v "Výjezdová skupina záchranné služby" ]
+  ] [
+     fhir:code [ fhir:v "484" ] ;
+     fhir:display [ fhir:v "Další zařízení záchranné služby" ]
+  ] [
+     fhir:code [ fhir:v "485" ] ;
+     fhir:display [ fhir:v "Přeprava pacientů neodkladné péče" ]
+  ] [
+     fhir:code [ fhir:v "499" ] ;
+     fhir:display [ fhir:v "Ostatní zvláštní zdravotnická zařízení" ]
+  ] [
+     fhir:code [ fhir:v "501" ] ;
+     fhir:display [ fhir:v "Sdružení lékáren" ]
+  ] [
+     fhir:code [ fhir:v "510" ] ;
+     fhir:display [ fhir:v "Lékárna" ]
+  ] [
+     fhir:code [ fhir:v "521" ] ;
+     fhir:display [ fhir:v "Oční optika" ]
+  ] [
+     fhir:code [ fhir:v "530" ] ;
+     fhir:display [ fhir:v "Státní ústav pro kontrolu léčiv" ]
+  ] [
+     fhir:code [ fhir:v "600" ] ;
+     fhir:display [ fhir:v "Státní zdravotní ústav" ]
+  ] [
+     fhir:code [ fhir:v "601" ] ;
+     fhir:display [ fhir:v "Krajská hygienická stanice" ]
+  ] [
+     fhir:code [ fhir:v "605" ] ;
+     fhir:display [ fhir:v "Zdravotní ústav" ]
+  ] [
+     fhir:code [ fhir:v "609" ] ;
+     fhir:display [ fhir:v "Další zařízení hygienické služby" ]
+  ] [
+     fhir:code [ fhir:v "831" ] ;
+     fhir:display [ fhir:v "IPVZ" ]
+  ] [
+     fhir:code [ fhir:v "832" ] ;
+     fhir:display [ fhir:v "NCONZO" ]
+  ] [
+     fhir:code [ fhir:v "900" ] ;
+     fhir:display [ fhir:v "Ostatní organizace MZ" ]
+  ] [
+     fhir:code [ fhir:v "950" ] ;
+     fhir:display [ fhir:v "Ostatní zdravotnická zařízení" ]
+  ] [
+     fhir:code [ fhir:v "952" ] ;
+     fhir:display [ fhir:v "Lázeňský dům (jen ubyt. hotel. typu)" ]
+  ] [
+     fhir:code [ fhir:v "961" ] ;
+     fhir:display [ fhir:v "Zdravotnické zařízení v likvidaci" ]
+  ] [
+     fhir:code [ fhir:v "962" ] ;
+     fhir:display [ fhir:v "Hospodářská org. neposkyt. zdrav. péči" ]
+  ] [
+     fhir:code [ fhir:v "963" ] ;
+     fhir:display [ fhir:v "Servisní organizace" ]
+  ] [
+     fhir:code [ fhir:v "964" ] ;
+     fhir:display [ fhir:v "COVID zařízení" ]
+  ] [
+     fhir:code [ fhir:v "368" ] ;
+     fhir:display [ fhir:v "Centrum očkování COVID" ]
+  ] [
+     fhir:code [ fhir:v "363" ] ;
+     fhir:display [ fhir:v "Odběr krevní plasmy" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

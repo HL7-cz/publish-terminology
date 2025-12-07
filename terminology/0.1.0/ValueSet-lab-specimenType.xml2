@@ -1,0 +1,1846 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="lab-specimenType"/>
+  <language value="cs"/>
+  <text>
+    <status value="generated"/><div xml:lang="cs" xmlns="http://www.w3.org/1999/xhtml" lang="cs"><p class="res-header-id"><b>Generated Narrative: ValueSet lab-specimenType</b></p><a name="lab-specimenType"> </a><a name="hclab-specimenType"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: cs</p></div><ul><li>Include these codes as defined in <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a><span title="Version is not explicitly stated. No matching Code System found"> version Not Stated (use latest from terminology server)</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="http://snomed.info/id/258497007">258497007</a></td><td>Stěr z abscesu</td></tr><tr><td><a href="http://snomed.info/id/258407001">258407001</a></td><td>Tkáně z abscesu</td></tr><tr><td><a href="http://snomed.info/id/119373006">119373006</a></td><td>Vzorek plodové vody</td></tr><tr><td><a href="http://snomed.info/id/122552005">122552005</a></td><td>Vzorek arteriální krve</td></tr><tr><td><a href="http://snomed.info/id/309201001">309201001</a></td><td>Vzorek ascitické tekutiny</td></tr><tr><td><a href="http://snomed.info/id/119341000">119341000</a></td><td>Vzorek žluči</td></tr><tr><td><a href="http://snomed.info/id/258493006">258493006</a></td><td>Vzorek močového kamene</td></tr><tr><td><a href="http://snomed.info/id/258582006">258582006</a></td><td>Vzorek krevní sraženiny</td></tr><tr><td><a href="http://snomed.info/id/119297000">119297000</a></td><td>Vzorek krve</td></tr><tr><td><a href="http://snomed.info/id/309051001">309051001</a></td><td>Vzorek tělesné tekutiny</td></tr><tr><td><a href="http://snomed.info/id/432825001">432825001</a></td><td>Vzorek tělesného sekretu</td></tr><tr><td><a href="http://snomed.info/id/258583001">258583001</a></td><td>Vzorek sraženiny kostní dřeně</td></tr><tr><td><a href="http://snomed.info/id/119359002">119359002</a></td><td>Vzorek kostní dřeně</td></tr><tr><td><a href="http://snomed.info/id/258417006">258417006</a></td><td>Vzorek kostní tkáně</td></tr><tr><td><a href="http://snomed.info/id/309176002">309176002</a></td><td>Kartáčkový odběr z bronchů</td></tr><tr><td><a href="http://snomed.info/id/258446004">258446004</a></td><td>Vzorek bronchální tekutiny</td></tr><tr><td><a href="http://snomed.info/id/258564008">258564008</a></td><td>Stěr z bukální sliznice</td></tr><tr><td><a href="http://snomed.info/id/258418001">258418001</a></td><td>Tkáně z popáleniny</td></tr><tr><td><a href="http://snomed.info/id/258448003">258448003</a></td><td>Vzorek tekutiny z burzy</td></tr><tr><td><a href="http://snomed.info/id/309110000">309110000</a></td><td>Vzorek tkáně burzy</td></tr><tr><td><a href="http://snomed.info/id/119350003">119350003</a></td><td>Vzorek konkrementu</td></tr><tr><td><a href="http://snomed.info/id/258627009">258627009</a></td><td>Špička kanyly jako vzorek</td></tr><tr><td><a href="http://snomed.info/id/122554006">122554006</a></td><td>Kapilární krevní vzorek</td></tr><tr><td><a href="http://snomed.info/id/309101008">309101008</a></td><td>Vzorek chrupavky</td></tr><tr><td><a href="http://snomed.info/id/119312009">119312009</a></td><td>Špička katétru jako vzorek</td></tr><tr><td><a href="http://snomed.info/id/258450006">258450006</a></td><td>Vzorek mozkomíšního moku</td></tr><tr><td><a href="http://snomed.info/id/122580007">122580007</a></td><td>Vzorek ušního mazu</td></tr><tr><td><a href="http://snomed.info/id/258452003">258452003</a></td><td>Vzorek chylózní tekutiny</td></tr><tr><td><a href="http://snomed.info/id/258581004">258581004</a></td><td>Vzorek sražené krve</td></tr><tr><td><a href="http://snomed.info/id/168136008">168136008</a></td><td>Vzorek tekutiny z kolostomie</td></tr><tr><td><a href="http://snomed.info/id/119329007">119329007</a></td><td>Vzorek mleziva</td></tr><tr><td><a href="http://snomed.info/id/258498002">258498002</a></td><td>Stěr ze spojivky</td></tr><tr><td><a href="http://snomed.info/id/122556008">122556008</a></td><td>Vzorek pupečníkové krve</td></tr><tr><td><a href="http://snomed.info/id/258499005">258499005</a></td><td>Stěr po kašli</td></tr><tr><td><a href="http://snomed.info/id/258419009">258419009</a></td><td>Kyretážní materiál</td></tr><tr><td><a href="http://snomed.info/id/258453008">258453008</a></td><td>Vzorek tekutiny z cysty</td></tr><tr><td><a href="http://snomed.info/id/258420003">258420003</a></td><td>Tkáně z cysty</td></tr><tr><td><a href="http://snomed.info/id/119338009">119338009</a></td><td>Vzorek dentinu</td></tr><tr><td><a href="http://snomed.info/id/472919007">472919007</a></td><td>Zdravotnická pomůcka jako vzorek</td></tr><tr><td><a href="http://snomed.info/id/258454002">258454002</a></td><td>Vzorek dialyzátu</td></tr><tr><td><a href="http://snomed.info/id/258439008">258439008</a></td><td>Vzorek sekretu</td></tr><tr><td><a href="http://snomed.info/id/258566005">258566005</a></td><td>Vzorek DNA</td></tr><tr><td><a href="http://snomed.info/id/1003705007">1003705007</a></td><td>Špička drénu jako vzorek</td></tr><tr><td><a href="http://snomed.info/id/258455001">258455001</a></td><td>Vzorek drenážní tekutiny</td></tr><tr><td><a href="http://snomed.info/id/119294007">119294007</a></td><td>Vzorek zaschlé krve</td></tr><tr><td><a href="http://snomed.info/id/258440005">258440005</a></td><td>Vzorek výpotku</td></tr><tr><td><a href="http://snomed.info/id/258456000">258456000</a></td><td>Vzorek tekutiny z empyému</td></tr><tr><td><a href="http://snomed.info/id/119336008">119336008</a></td><td>Vzorek vydechovaného vzduchu</td></tr><tr><td><a href="http://snomed.info/id/258470000">258470000</a></td><td>Vzorek prostatického sekretu</td></tr><tr><td><a href="http://snomed.info/id/258441009">258441009</a></td><td>Vzorek exsudátu</td></tr><tr><td><a href="http://snomed.info/id/309128003">309128003</a></td><td>Vzorek nitrooční tekutiny</td></tr><tr><td><a href="http://snomed.info/id/258487003">258487003</a></td><td>Stěr stolice</td></tr><tr><td><a href="http://snomed.info/id/119339001">119339001</a></td><td>Vzorek stolice</td></tr><tr><td><a href="http://snomed.info/id/309117002">309117002</a></td><td>Vzorek fascie</td></tr><tr><td><a href="http://snomed.info/id/258458004">258458004</a></td><td>Vzorek tekutiny z píštěle</td></tr><tr><td><a href="http://snomed.info/id/258442002">258442002</a></td><td>Vzorek tekutiny</td></tr><tr><td><a href="http://snomed.info/id/445744006">445744006</a></td><td>Vzorek tekutiny ze seromu</td></tr><tr><td><a href="http://snomed.info/id/309502007">309502007</a></td><td>Vzorek z plodu</td></tr><tr><td><a href="http://snomed.info/id/447103002">447103002</a></td><td>Cizí těleso jako vzorek</td></tr><tr><td><a href="http://snomed.info/id/258492001">258492001</a></td><td>Vzorek žlučového kamene</td></tr><tr><td><a href="http://snomed.info/id/432657002">432657002</a></td><td>Vzorek gangliové cysty</td></tr><tr><td><a href="http://snomed.info/id/309213006">309213006</a></td><td>Kartáčkový odběr ze žaludku</td></tr><tr><td><a href="http://snomed.info/id/309199003">309199003</a></td><td>Vzorek gastrointestinální tekutiny</td></tr><tr><td><a href="http://snomed.info/id/258562007">258562007</a></td><td>Genetický vzorek</td></tr><tr><td><a href="http://snomed.info/id/258508008">258508008</a></td><td>Genitální stěr</td></tr><tr><td><a href="http://snomed.info/id/258559009">258559009</a></td><td>Vzorek tekutiny z gingivální rýhy</td></tr><tr><td><a href="http://snomed.info/id/440493002">440493002</a></td><td>Štěp od pacienta jako vzorek</td></tr><tr><td><a href="http://snomed.info/id/258588005">258588005</a></td><td>Vzorek hematomu</td></tr><tr><td><a href="http://snomed.info/id/119326000">119326000</a></td><td>Vzorek vlasů</td></tr><tr><td><a href="http://snomed.info/id/258424007">258424007</a></td><td>Tkáně srdeční chlopně</td></tr><tr><td><a href="http://snomed.info/id/258521001">258521001</a></td><td>Stěr z horní části pochvy</td></tr><tr><td><a href="http://snomed.info/id/258461003">258461003</a></td><td>Vzorek tekutiny z hydrokély</td></tr><tr><td><a href="http://snomed.info/id/258462005">258462005</a></td><td>Vzorek tekutiny z ileostomie</td></tr><tr><td><a href="http://snomed.info/id/258479004">258479004</a></td><td>Vzorek intersticiální tekutiny</td></tr><tr><td><a href="http://snomed.info/id/309114009">309114009</a></td><td>Vzorek vazu</td></tr><tr><td><a href="http://snomed.info/id/258522008">258522008</a></td><td>Stěr z dolní části pochvy</td></tr><tr><td><a href="http://snomed.info/id/309171007">309171007</a></td><td>Vzorek tekutiny z dolních dýchacích cest</td></tr><tr><td><a href="http://snomed.info/id/302795002">302795002</a></td><td>Aspirát z lymfatické uzliny</td></tr><tr><td><a href="http://snomed.info/id/258488008">258488008</a></td><td>Nátěr z lymfatické uzliny</td></tr><tr><td><a href="http://snomed.info/id/309078004">309078004</a></td><td>Vzorek tkáně lymfatické uzliny</td></tr><tr><td><a href="http://snomed.info/id/119340004">119340004</a></td><td>Vzorek smolky</td></tr><tr><td><a href="http://snomed.info/id/119345009">119345009</a></td><td>Vzorek menstruační krve</td></tr><tr><td><a href="http://snomed.info/id/119303007">119303007</a></td><td>Mikrobiální izolát</td></tr><tr><td><a href="http://snomed.info/id/119328004">119328004</a></td><td>Vzorek mateřského mléka</td></tr><tr><td><a href="http://snomed.info/id/258483004">258483004</a></td><td>Vzorek hlenu</td></tr><tr><td><a href="http://snomed.info/id/119327009">119327009</a></td><td>Vzorek nehtu</td></tr><tr><td><a href="http://snomed.info/id/168141000">168141000</a></td><td>Vzorek nosní tekutiny</td></tr><tr><td><a href="http://snomed.info/id/258467004">258467004</a></td><td>Výplach nosohltanu</td></tr><tr><td><a href="http://snomed.info/id/433799002">433799002</a></td><td>Vzorek nervového ganglia</td></tr><tr><td><a href="http://snomed.info/id/309129006">309129006</a></td><td>Vzorek nervové tkáně</td></tr><tr><td><a href="http://snomed.info/id/309131002">309131002</a></td><td>Vzorek neuromu</td></tr><tr><td><a href="http://snomed.info/id/258468009">258468009</a></td><td>Vzorek edémové tekutiny</td></tr><tr><td><a href="http://snomed.info/id/309210009">309210009</a></td><td>Kartáčkový odběr z jícnu</td></tr><tr><td><a href="http://snomed.info/id/258494000">258494000</a></td><td>Vzorek pankreatického kamene</td></tr><tr><td><a href="http://snomed.info/id/122571007">122571007</a></td><td>Vzorek perikardiální tekutiny</td></tr><tr><td><a href="http://snomed.info/id/168139001">168139001</a></td><td>Vzorek peritoneální tekutiny</td></tr><tr><td><a href="http://snomed.info/id/258469001">258469001</a></td><td>Výplach hltanu</td></tr><tr><td><a href="http://snomed.info/id/119361006">119361006</a></td><td>Vzorek plazmy</td></tr><tr><td><a href="http://snomed.info/id/110913002">110913002</a></td><td>Cytologický materiál z pleurální tekutiny</td></tr><tr><td><a href="http://snomed.info/id/418564007">418564007</a></td><td>Vzorek pleurální tekutiny</td></tr><tr><td><a href="http://snomed.info/id/258484005">258484005</a></td><td>Posmrtný tkáňový vzorek</td></tr><tr><td><a href="http://snomed.info/id/258428005">258428005</a></td><td>Tkáně produktů početí</td></tr><tr><td><a href="http://snomed.info/id/119323008">119323008</a></td><td>Vzorek hnisu</td></tr><tr><td><a href="http://snomed.info/id/258502009">258502009</a></td><td>Stěr z hnisu</td></tr><tr><td><a href="http://snomed.info/id/119351004">119351004</a></td><td>Vzorek erytrocytů</td></tr><tr><td><a href="http://snomed.info/id/258495004">258495004</a></td><td>Vzorek ledvinového kamene</td></tr><tr><td><a href="http://snomed.info/id/119342007">119342007</a></td><td>Vzorek slin</td></tr><tr><td><a href="http://snomed.info/id/258431006">258431006</a></td><td>Seškrab</td></tr><tr><td><a href="http://snomed.info/id/258432004">258432004</a></td><td>Vzorek kožního mazu</td></tr><tr><td><a href="http://snomed.info/id/119347001">119347001</a></td><td>Vzorek semenné tekutiny</td></tr><tr><td><a href="http://snomed.info/id/119364003">119364003</a></td><td>Vzorek séra</td></tr><tr><td><a href="http://snomed.info/id/309261004">309261004</a></td><td>Kartáčkový odběr ze sigmatu</td></tr><tr><td><a href="http://snomed.info/id/258475005">258475005</a></td><td>Výplach z paranazálních dutin</td></tr><tr><td><a href="http://snomed.info/id/119331003">119331003</a></td><td>Vzorek kosterního svalu</td></tr><tr><td><a href="http://snomed.info/id/119325001">119325001</a></td><td>Vzorek kožní tkáně</td></tr><tr><td><a href="http://snomed.info/id/258505006">258505006</a></td><td>Stěr z kožního vředu</td></tr><tr><td><a href="http://snomed.info/id/258433009">258433009</a></td><td>Nátěrový vzorek</td></tr><tr><td><a href="http://snomed.info/id/309072003">309072003</a></td><td>Vzorek měkké tkáně</td></tr><tr><td><a href="http://snomed.info/id/119300005">119300005</a></td><td>Vzorek z krevního přípravku</td></tr><tr><td><a href="http://snomed.info/id/898201001">898201001</a></td><td>Vzorek ze zdravotnického prostředku</td></tr><tr><td><a href="http://snomed.info/id/1003706008">1003706008</a></td><td>Vzorek ze špičky drénu</td></tr><tr><td><a href="http://snomed.info/id/119305000">119305000</a></td><td>Vzorek z vaku s plazmou</td></tr><tr><td><a href="http://snomed.info/id/119349003">119349003</a></td><td>Vzorek spermií</td></tr><tr><td><a href="http://snomed.info/id/258434003">258434003</a></td><td>Vycentrovaný močový sediment</td></tr><tr><td><a href="http://snomed.info/id/119334006">119334006</a></td><td>Vzorek sputa</td></tr><tr><td><a href="http://snomed.info/id/257261003">257261003</a></td><td>Stěr</td></tr><tr><td><a href="http://snomed.info/id/445160003">445160003</a></td><td>Stěr z oka</td></tr><tr><td><a href="http://snomed.info/id/122569007">122569007</a></td><td>Vzorek potu</td></tr><tr><td><a href="http://snomed.info/id/119332005">119332005</a></td><td>Vzorek synoviální tekutiny</td></tr><tr><td><a href="http://snomed.info/id/309123007">309123007</a></td><td>Vzorek synovie</td></tr><tr><td><a href="http://snomed.info/id/309121009">309121009</a></td><td>Vzorek synoviální tkáně</td></tr><tr><td><a href="http://snomed.info/id/440468004">440468004</a></td><td>Tampon jako vzorek</td></tr><tr><td><a href="http://snomed.info/id/258465007">258465007</a></td><td>Vzorek slzné tekutiny</td></tr><tr><td><a href="http://snomed.info/id/122594008">122594008</a></td><td>Vzorek slz</td></tr><tr><td><a href="http://snomed.info/id/309481000">309481000</a></td><td>Vzorek temporální arterie</td></tr><tr><td><a href="http://snomed.info/id/309107007">309107007</a></td><td>Vzorek šlachy</td></tr><tr><td><a href="http://snomed.info/id/258529004">258529004</a></td><td>Stěr z krku</td></tr><tr><td><a href="http://snomed.info/id/119376003">119376003</a></td><td>Tkáňový vzorek</td></tr><tr><td><a href="http://snomed.info/id/258538002">258538002</a></td><td>Vzorek transudátu</td></tr><tr><td><a href="http://snomed.info/id/258435002">258435002</a></td><td>Vzorek nádorové tkáně</td></tr><tr><td><a href="http://snomed.info/id/441479001">441479001</a></td><td>Vzorek čerstvé tkáně</td></tr><tr><td><a href="http://snomed.info/id/439628000">439628000</a></td><td>Močový sběrný sáček jako vzorek</td></tr><tr><td><a href="http://snomed.info/id/439580004">439580004</a></td><td>Močová savá podložka jako vzorek</td></tr><tr><td><a href="http://snomed.info/id/122567009">122567009</a></td><td>Vzorek močového sedimentu</td></tr><tr><td><a href="http://snomed.info/id/122575003">122575003</a></td><td>Vzorek moči</td></tr><tr><td><a href="http://snomed.info/id/258437005">258437005</a></td><td>Vegetace ze srdeční chlopně</td></tr><tr><td><a href="http://snomed.info/id/122555007">122555007</a></td><td>Vzorek žilní krve</td></tr><tr><td><a href="http://snomed.info/id/122572000">122572000</a></td><td>Vzorek zvratků</td></tr><tr><td><a href="http://snomed.info/id/258591005">258591005</a></td><td>Vzorek leukocytů</td></tr><tr><td><a href="http://snomed.info/id/258580003">258580003</a></td><td>Vzorek plné krve</td></tr><tr><td><a href="http://snomed.info/id/438805006">438805006</a></td><td>Vzorek celého zubu</td></tr><tr><td><a href="http://snomed.info/id/122566000">122566000</a></td><td>Vzorek tekutiny z rány</td></tr><tr><td><a href="http://snomed.info/id/258531008">258531008</a></td><td>Stěr z rány</td></tr><tr><td><a href="http://snomed.info/id/446302006">446302006</a></td><td>Vzorek vzduchu</td></tr><tr><td><a href="http://snomed.info/id/33631000087102">33631000087102</a></td><td>Alogenní kostní štěp jako vzorek</td></tr><tr><td><a href="http://snomed.info/id/703430008">703430008</a></td><td>Vzorek arteriální pupečníkové krve</td></tr><tr><td><a href="http://snomed.info/id/16215211000119100">16215211000119100</a></td><td>Vzorek tekutiny z Bartholiniho žlázy</td></tr><tr><td><a href="http://snomed.info/id/446129006">446129006</a></td><td>Vzorek žluči ze společného žlučovodu</td></tr><tr><td><a href="http://snomed.info/id/446817004">446817004</a></td><td>Vzorek žluči ze žlučníku</td></tr><tr><td><a href="http://snomed.info/id/258490009">258490009</a></td><td>Vzorek biliárního kamene</td></tr><tr><td><a href="http://snomed.info/id/309105004">309105004</a></td><td>Bioptický vzorek kosti</td></tr><tr><td><a href="http://snomed.info/id/258607008">258607008</a></td><td>Vzorek bronchoalveolární laváže</td></tr><tr><td><a href="http://snomed.info/id/122577006">122577006</a></td><td>Vzorek cervikálního hlenu</td></tr><tr><td><a href="http://snomed.info/id/16216411000119106">16216411000119106</a></td><td>Nátěr ze spojivky</td></tr><tr><td><a href="http://snomed.info/id/1003707004">1003707004</a></td><td>Drén jako vzorek</td></tr><tr><td><a href="http://snomed.info/id/309216003">309216003</a></td><td>Bioptický vzorek duodena</td></tr><tr><td><a href="http://snomed.info/id/122574004">122574004</a></td><td>Vzorek duodenální tekutiny</td></tr><tr><td><a href="http://snomed.info/id/309166000">309166000</a></td><td>Stěr z ucha</td></tr><tr><td><a href="http://snomed.info/id/119314005">119314005</a></td><td>Elektroda jako vzorek</td></tr><tr><td><a href="http://snomed.info/id/419695002">419695002</a></td><td>Stěr z prostředí</td></tr><tr><td><a href="http://snomed.info/id/309211008">309211008</a></td><td>Bioptický vzorek žaludku</td></tr><tr><td><a href="http://snomed.info/id/122573005">122573005</a></td><td>Vzorek žaludečního obsahu</td></tr><tr><td><a href="http://snomed.info/id/258459007">258459007</a></td><td>Vzorek žaludeční tekutiny</td></tr><tr><td><a href="http://snomed.info/id/122579009">122579009</a></td><td>Vzorek lochií</td></tr><tr><td><a href="http://snomed.info/id/258512002">258512002</a></td><td>Stěr z glans penis</td></tr><tr><td><a href="http://snomed.info/id/473415003">473415003</a></td><td>Nitroděložní tělísko jako vzorek</td></tr><tr><td><a href="http://snomed.info/id/258649003">258649003</a></td><td>Vzorek infuzní tekutiny</td></tr><tr><td><a href="http://snomed.info/id/309049000">309049000</a></td><td>Vzorek z léze</td></tr><tr><td><a href="http://snomed.info/id/309203003">309203003</a></td><td>Bioptický vzorek jater</td></tr><tr><td><a href="http://snomed.info/id/258589002">258589002</a></td><td>Vzorek lymfatické uzliny</td></tr><tr><td><a href="http://snomed.info/id/258466008">258466008</a></td><td>Vzorek tekutiny ze středního ucha</td></tr><tr><td><a href="http://snomed.info/id/119298005">119298005</a></td><td>Vzorek smíšené žilní krve</td></tr><tr><td><a href="http://snomed.info/id/705054005">705054005</a></td><td>Vzorek svalu</td></tr><tr><td><a href="http://snomed.info/id/309104000">309104000</a></td><td>Vzorek pohybového aparátu</td></tr><tr><td><a href="http://snomed.info/id/447339001">447339001</a></td><td>Nátěr z nosu</td></tr><tr><td><a href="http://snomed.info/id/258500001">258500001</a></td><td>Stěr z nosohltanu</td></tr><tr><td><a href="http://snomed.info/id/16220931000119104">16220931000119104</a></td><td>Vzorek tekutiny z cysty pankreatu</td></tr><tr><td><a href="http://snomed.info/id/119343002">119343002</a></td><td>Vzorek pankreatické tekutiny</td></tr><tr><td><a href="http://snomed.info/id/309154006">309154006</a></td><td>Vzorek hypofýzy</td></tr><tr><td><a href="http://snomed.info/id/708317005">708317005</a></td><td>Smíšený vzorek z introitu a rektálního stěru</td></tr><tr><td><a href="http://snomed.info/id/258513007">258513007</a></td><td>Stěr z předkožky</td></tr><tr><td><a href="http://snomed.info/id/258528007">258528007</a></td><td>Rektální stěr</td></tr><tr><td><a href="http://snomed.info/id/410580001">410580001</a></td><td>Vzorek respirační tekutiny</td></tr><tr><td><a href="http://snomed.info/id/732293002">732293002</a></td><td>Vzorek slinného kamene</td></tr><tr><td><a href="http://snomed.info/id/309066003">309066003</a></td><td>Bioptický vzorek kůže</td></tr><tr><td><a href="http://snomed.info/id/430268003">430268003</a></td><td>Vzorek z kosti</td></tr><tr><td><a href="http://snomed.info/id/119398007">119398007</a></td><td>Vzorek z mozku</td></tr><tr><td><a href="http://snomed.info/id/122601001">122601001</a></td><td>Bioptický vzorek z prsu</td></tr><tr><td><a href="http://snomed.info/id/119307008">119307008</a></td><td>Vzorek z endotracheální kanyly</td></tr><tr><td><a href="http://snomed.info/id/119399004">119399004</a></td><td>Vzorek z oka</td></tr><tr><td><a href="http://snomed.info/id/127476006">127476006</a></td><td>Vzorek z vejcovodu</td></tr><tr><td><a href="http://snomed.info/id/446951004">446951004</a></td><td>Vzorek z granulační tkáně</td></tr><tr><td><a href="http://snomed.info/id/127473003">127473003</a></td><td>Vzorek z ledviny</td></tr><tr><td><a href="http://snomed.info/id/119383005">119383005</a></td><td>Vzorek z jater</td></tr><tr><td><a href="http://snomed.info/id/122610009">122610009</a></td><td>Bioptický vzorek z plic</td></tr><tr><td><a href="http://snomed.info/id/447407009">447407009</a></td><td>Vzorek z nekrotické tkáně</td></tr><tr><td><a href="http://snomed.info/id/127469001">127469001</a></td><td>Vzorek z pankreatu</td></tr><tr><td><a href="http://snomed.info/id/119403008">119403008</a></td><td>Vzorek z placenty</td></tr><tr><td><a href="http://snomed.info/id/1003711005">1003711005</a></td><td>Vzorek z náhrady kloubu</td></tr><tr><td><a href="http://snomed.info/id/608969007">608969007</a></td><td>Vzorek z kůže</td></tr><tr><td><a href="http://snomed.info/id/433308004">433308004</a></td><td>Vzorek ze sleziny</td></tr><tr><td><a href="http://snomed.info/id/119379005">119379005</a></td><td>Vzorek ze žaludku</td></tr><tr><td><a href="http://snomed.info/id/445447003">445447003</a></td><td>Aspirát z trachey</td></tr><tr><td><a href="http://snomed.info/id/441903006">441903006</a></td><td>Vzorek z bronchální aspirace</td></tr><tr><td><a href="http://snomed.info/id/440674008">440674008</a></td><td>Vzorek získaný laváží</td></tr><tr><td><a href="http://snomed.info/id/57711000052109">57711000052109</a></td><td>Vzorek získaný punkcí</td></tr><tr><td><a href="http://snomed.info/id/16220971000119101">16220971000119101</a></td><td>Vzorek tekutiny z cysty ledviny</td></tr><tr><td><a href="http://snomed.info/id/278020009">278020009</a></td><td>Jednorázový vzorek moči</td></tr><tr><td><a href="http://snomed.info/id/271514008">271514008</a></td><td>Vzorek kostní dřeně ze sterna</td></tr><tr><td><a href="http://snomed.info/id/472894002">472894002</a></td><td>Stěr z rohovky</td></tr><tr><td><a href="http://snomed.info/id/472900002">472900002</a></td><td>Stěr z dásně</td></tr><tr><td><a href="http://snomed.info/id/472888005">472888005</a></td><td>Stěr z hrtanu</td></tr><tr><td><a href="http://snomed.info/id/16210971000119108">16210971000119108</a></td><td>Stěr z léze</td></tr><tr><td><a href="http://snomed.info/id/472862007">472862007</a></td><td>Stěr z kožní léze</td></tr><tr><td><a href="http://snomed.info/id/472879001">472879001</a></td><td>Stěr z placenty</td></tr><tr><td><a href="http://snomed.info/id/472885008">472885008</a></td><td>Stěr z dekubitu</td></tr><tr><td><a href="http://snomed.info/id/472883001">472883001</a></td><td>Stěr z chirurgické rány</td></tr><tr><td><a href="http://snomed.info/id/472866005">472866005</a></td><td>Stěr z jazyka</td></tr><tr><td><a href="http://snomed.info/id/472867001">472867001</a></td><td>Stěr z tonsily</td></tr><tr><td><a href="http://snomed.info/id/461911000124106">461911000124106</a></td><td>Orofaryngeální stěr</td></tr><tr><td><a href="http://snomed.info/id/309478005">309478005</a></td><td>Vzorek trombu</td></tr><tr><td><a href="http://snomed.info/id/258480001">258480001</a></td><td>Transtracheální aspirát</td></tr><tr><td><a href="http://snomed.info/id/258436001">258436001</a></td><td>Vzorek tkáně pupečníku</td></tr><tr><td><a href="http://snomed.info/id/258530009">258530009</a></td><td>Uretrální stěr</td></tr><tr><td><a href="http://snomed.info/id/444937002">444937002</a></td><td>Vzorek moči z ureteru</td></tr><tr><td><a href="http://snomed.info/id/447589008">447589008</a></td><td>Moč po jednorázové katetrizaci</td></tr><tr><td><a href="http://snomed.info/id/446907008">446907008</a></td><td>Vzorek moči z ledviny</td></tr><tr><td><a href="http://snomed.info/id/258520000">258520000</a></td><td>Vaginální stěr</td></tr><tr><td><a href="http://snomed.info/id/703431007">703431007</a></td><td>Vzorek žilní pupečníkové krve</td></tr><tr><td><a href="http://snomed.info/id/258482009">258482009</a></td><td>Vzorek tekutiny z puchýře</td></tr><tr><td><a href="http://snomed.info/id/258523003">258523003</a></td><td>Stěr z vulvy</td></tr><tr><td><a href="http://snomed.info/id/258662004">258662004</a></td><td>Vzorek na adhezním sklíčku</td></tr><tr><td><a href="http://snomed.info/id/258527002">258527002</a></td><td>Anální stěr</td></tr><tr><td><a href="http://snomed.info/id/258415003">258415003</a></td><td>Bioptický vzorek</td></tr><tr><td><a href="http://snomed.info/id/303248007">303248007</a></td><td>Krevní nátěr</td></tr><tr><td><a href="http://snomed.info/id/737535000">737535000</a></td><td>Krevní nátěr</td></tr><tr><td><a href="http://snomed.info/id/122560006">122560006</a></td><td>Krevní vzorek dárce</td></tr><tr><td><a href="http://snomed.info/id/866033003">866033003</a></td><td>Krev v aerobní hemokultivační lahvi</td></tr><tr><td><a href="http://snomed.info/id/866032008">866032008</a></td><td>Krev v anaerobní hemokultivační lahvi</td></tr><tr><td><a href="http://snomed.info/id/878861003">878861003</a></td><td>Krev v hemokultivační lahvi</td></tr><tr><td><a href="http://snomed.info/id/445295009">445295009</a></td><td>Krevní vzorek v EDTA</td></tr><tr><td><a href="http://snomed.info/id/309061008">309061008</a></td><td>Aspirát z prsu tenkou jehlou</td></tr><tr><td><a href="http://snomed.info/id/309503002">309503002</a></td><td>Sekret z bradavky</td></tr><tr><td><a href="http://snomed.info/id/309174004">309174004</a></td><td>Biopsie bronchu</td></tr><tr><td><a href="http://snomed.info/id/119308003">119308003</a></td><td>Kanyla jako vzorek</td></tr><tr><td><a href="http://snomed.info/id/473409003">473409003</a></td><td>Centrální žilní katétr jako vzorek</td></tr><tr><td><a href="http://snomed.info/id/472929000">472929000</a></td><td>Špička centrálního žilního katétru</td></tr><tr><td><a href="http://snomed.info/id/445372002">445372002</a></td><td>Mozkomíšní mok z mozkové komory</td></tr><tr><td><a href="http://snomed.info/id/258524009">258524009</a></td><td>Cervikální stěr</td></tr><tr><td><a href="http://snomed.info/id/440473005">440473005</a></td><td>Kontaktní čočka jako vzorek</td></tr><tr><td><a href="http://snomed.info/id/440500007">440500007</a></td><td>Suchá kapka krve</td></tr><tr><td><a href="http://snomed.info/id/119319000">119319000</a></td><td>Vzorek léčiva</td></tr><tr><td><a href="http://snomed.info/id/309165001">309165001</a></td><td>Vzorek ucha</td></tr><tr><td><a href="http://snomed.info/id/258575007">258575007</a></td><td>Ranní moč</td></tr><tr><td><a href="http://snomed.info/id/446676001">446676001</a></td><td>Odsáté mateřské mléko</td></tr><tr><td><a href="http://snomed.info/id/122568004">122568004</a></td><td>Exsudát z rány</td></tr><tr><td><a href="http://snomed.info/id/258519006">258519006</a></td><td>Stěr z ženského genitálu</td></tr><tr><td><a href="http://snomed.info/id/737357006">737357006</a></td><td>Vzorek fetální krve</td></tr><tr><td><a href="http://snomed.info/id/698276005">698276005</a></td><td>První proud moči</td></tr><tr><td><a href="http://snomed.info/id/733056005">733056005</a></td><td>Vzorek tekutiny z ucha</td></tr><tr><td><a href="http://snomed.info/id/732976006">732976006</a></td><td>Vzorek tekutiny ze zevního zvukovodu</td></tr><tr><td><a href="http://snomed.info/id/16214171000119101">16214171000119101</a></td><td>Vzorek genitální tekutiny</td></tr><tr><td><a href="http://snomed.info/id/258570002">258570002</a></td><td>Urogenitální vzorek</td></tr><tr><td><a href="http://snomed.info/id/309124001">309124001</a></td><td>Biopsie kloubu</td></tr><tr><td><a href="http://snomed.info/id/431361003">431361003</a></td><td>Kloubní tekutina</td></tr><tr><td><a href="http://snomed.info/id/309079007">309079007</a></td><td>Biopsie lymfatické uzliny</td></tr><tr><td><a href="http://snomed.info/id/309052008">309052008</a></td><td>Vzorek mužského genitálu</td></tr><tr><td><a href="http://snomed.info/id/258574006">258574006</a></td><td>Střední proud moči</td></tr><tr><td><a href="http://snomed.info/id/119321005">119321005</a></td><td>Vzorek mléka</td></tr><tr><td><a href="http://snomed.info/id/119377007">119377007</a></td><td>Vzorek myokardu</td></tr><tr><td><a href="http://snomed.info/id/16224371000119105">16224371000119105</a></td><td>Výplach nosu</td></tr><tr><td><a href="http://snomed.info/id/16223051000119101">16223051000119101</a></td><td>Obsah paranazální dutiny</td></tr><tr><td><a href="http://snomed.info/id/258411007">258411007</a></td><td>Aspirát z nosohltanu</td></tr><tr><td><a href="http://snomed.info/id/441620008">441620008</a></td><td>Orální tekutina</td></tr><tr><td><a href="http://snomed.info/id/418932006">418932006</a></td><td>Orální stěr</td></tr><tr><td><a href="http://snomed.info/id/258511009">258511009</a></td><td>Uretrální stěr u muže</td></tr><tr><td><a href="http://snomed.info/id/258510005">258510005</a></td><td>Stěr z penisu</td></tr><tr><td><a href="http://snomed.info/id/258526006">258526006</a></td><td>Perianální stěr</td></tr><tr><td><a href="http://snomed.info/id/258525005">258525005</a></td><td>Perineální stěr</td></tr><tr><td><a href="http://snomed.info/id/472923004">472923004</a></td><td>Špička periferního katétru</td></tr><tr><td><a href="http://snomed.info/id/168140004">168140004</a></td><td>Peritoneální dialyzát</td></tr><tr><td><a href="http://snomed.info/id/788707000">788707000</a></td><td>Plazma / sérum / plná krev</td></tr><tr><td><a href="http://snomed.info/id/708049000">708049000</a></td><td>Plazma s EDTA</td></tr><tr><td><a href="http://snomed.info/id/309172000">309172000</a></td><td>Biopsie pleury</td></tr><tr><td><a href="http://snomed.info/id/258471001">258471001</a></td><td>Sekret po masáži prostaty</td></tr><tr><td><a href="http://snomed.info/id/708112008">708112008</a></td><td>Aspirát z Douglasova prostoru</td></tr><tr><td><a href="http://snomed.info/id/258664003">258664003</a></td><td>Vzorek pomocí lepicí pásky</td></tr><tr><td><a href="http://snomed.info/id/119348006">119348006</a></td><td>Semenná plazma</td></tr><tr><td><a href="http://snomed.info/id/122589008">122589008</a></td><td>Sérum od dárce krve</td></tr><tr><td><a href="http://snomed.info/id/122590004">122590004</a></td><td>Sérum od pacienta</td></tr><tr><td><a href="http://snomed.info/id/258549008">258549008</a></td><td>Kožní šupina</td></tr><tr><td><a href="http://snomed.info/id/258503004">258503004</a></td><td>Kožní stěr</td></tr><tr><td><a href="http://snomed.info/id/1179252003">1179252003</a></td><td>Mikroskopické sklíčko jako vzorek</td></tr><tr><td><a href="http://snomed.info/id/119371008">119371008</a></td><td>Vzorek z abscesu</td></tr><tr><td><a href="http://snomed.info/id/446972001">446972001</a></td><td>Aspirát z abscesu</td></tr><tr><td><a href="http://snomed.info/id/119392008">119392008</a></td><td>Vzorek z anu</td></tr><tr><td><a href="http://snomed.info/id/127456000">127456000</a></td><td>Vzorek z prsu</td></tr><tr><td><a href="http://snomed.info/id/16211051000119109">16211051000119109</a></td><td>Vzorek z hluboké rány</td></tr><tr><td><a href="http://snomed.info/id/119396006">119396006</a></td><td>Vzorek z endometria</td></tr><tr><td><a href="http://snomed.info/id/440229008">440229008</a></td><td>Vzorek z prostředí</td></tr><tr><td><a href="http://snomed.info/id/16212771000119105">16212771000119105</a></td><td>Biopsie z víčka</td></tr><tr><td><a href="http://snomed.info/id/449446003">449446003</a></td><td>Vzorek ze žlučníku</td></tr><tr><td><a href="http://snomed.info/id/119344008">119344008</a></td><td>Vzorek z genitálního systému</td></tr><tr><td><a href="http://snomed.info/id/447098004">447098004</a></td><td>Seškrab z nehtu</td></tr><tr><td><a href="http://snomed.info/id/430248009">430248009</a></td><td>Vzorek z nosohltanu</td></tr><tr><td><a href="http://snomed.info/id/447154002">447154002</a></td><td>Vzorek z nosu</td></tr><tr><td><a href="http://snomed.info/id/119397002">119397002</a></td><td>Vzorek z penisu</td></tr><tr><td><a href="http://snomed.info/id/434250007">434250007</a></td><td>Biopsie perikardu</td></tr><tr><td><a href="http://snomed.info/id/438660002">438660002</a></td><td>Vzorek z implantátu</td></tr><tr><td><a href="http://snomed.info/id/446952006">446952006</a></td><td>Seškrab z kůže</td></tr><tr><td><a href="http://snomed.info/id/119295008">119295008</a></td><td>Aspirát</td></tr><tr><td><a href="http://snomed.info/id/119324002">119324002</a></td><td>Vzorek neznámého materiálu</td></tr><tr><td><a href="http://snomed.info/id/703691002">703691002</a></td><td>Vycentrovaný mozkomíšní mok</td></tr><tr><td><a href="http://snomed.info/id/258609006">258609006</a></td><td>Aspirát sputa z trachey</td></tr><tr><td><a href="http://snomed.info/id/447488002">447488002</a></td><td>Suprapubická moč</td></tr><tr><td><a href="http://snomed.info/id/373826004">373826004</a></td><td>Chirurgicky odstraněná tkáň</td></tr><tr><td><a href="http://snomed.info/id/472896000">472896000</a></td><td>Stěr z puchýře</td></tr><tr><td><a href="http://snomed.info/id/733104004">733104004</a></td><td>Stěr z bukální sliznice</td></tr><tr><td><a href="http://snomed.info/id/472884007">472884007</a></td><td>Stěr z hluboké rány</td></tr><tr><td><a href="http://snomed.info/id/472886009">472886009</a></td><td>Stěr z gastrostomie</td></tr><tr><td><a href="http://snomed.info/id/472901003">472901003</a></td><td>Stěr z paranazální dutiny</td></tr><tr><td><a href="http://snomed.info/id/472881004">472881004</a></td><td>Stěr z hltanu</td></tr><tr><td><a href="http://snomed.info/id/472882006">472882006</a></td><td>Stěr z povrchové rány</td></tr><tr><td><a href="http://snomed.info/id/33901000087104">33901000087104</a></td><td>Stěr z tracheostomie</td></tr><tr><td><a href="http://snomed.info/id/472871003">472871003</a></td><td>Stěr z vředu</td></tr><tr><td><a href="http://snomed.info/id/445364004">445364004</a></td><td>Stěr z axily</td></tr><tr><td><a href="http://snomed.info/id/445444005">445444005</a></td><td>Stěr z třísla</td></tr><tr><td><a href="http://snomed.info/id/445367006">445367006</a></td><td>Stěr z pupku</td></tr><tr><td><a href="http://snomed.info/id/710069003">710069003</a></td><td>Vzorek klíštěte</td></tr><tr><td><a href="http://snomed.info/id/128157004">128157004</a></td><td>Tkáně z mozku</td></tr><tr><td><a href="http://snomed.info/id/399492000">399492000</a></td><td>Tkáně z plic</td></tr><tr><td><a href="http://snomed.info/id/699874006">699874006</a></td><td>Tkáně z perikardu</td></tr><tr><td><a href="http://snomed.info/id/57741000052105">57741000052105</a></td><td>Tracheální sekret</td></tr><tr><td><a href="http://snomed.info/id/472938003">472938003</a></td><td>Tracheální kanyla jako vzorek</td></tr><tr><td><a href="http://snomed.info/id/122877000">122877000</a></td><td>Aspirát z horních dýchacích cest</td></tr><tr><td><a href="http://snomed.info/id/258604001">258604001</a></td><td>Vzorek z horních dýchacích cest</td></tr><tr><td><a href="http://snomed.info/id/122565001">122565001</a></td><td>Vzorek z močového katétru</td></tr><tr><td><a href="http://snomed.info/id/446130001">446130001</a></td><td>Vzorek moči z močového měchýře</td></tr><tr><td><a href="http://snomed.info/id/442173007">442173007</a></td><td>Vzorek moči z nefrostomie</td></tr><tr><td><a href="http://snomed.info/id/446306009">446306009</a></td><td>Vzorek moči ze sběrného sáčku</td></tr><tr><td><a href="http://snomed.info/id/446846006">446846006</a></td><td>Moč z permanentního katétru</td></tr><tr><td><a href="http://snomed.info/id/16221251000119108">16221251000119108</a></td><td>Moč z jednorázového katétru</td></tr><tr><td><a href="http://snomed.info/id/258577004">258577004</a></td><td>Vaginální sekret</td></tr><tr><td><a href="http://snomed.info/id/472932002">472932002</a></td><td>Vaskulární katétr jako vzorek</td></tr><tr><td><a href="http://snomed.info/id/703432000">703432000</a></td><td>Vzorek žilní plazmy</td></tr><tr><td><a href="http://snomed.info/id/472942000">472942000</a></td><td>Ventrikuloperitoneální shunt jako vzorek</td></tr><tr><td><a href="http://snomed.info/id/258438000">258438000</a></td><td>Vzorek sklivce</td></tr><tr><td><a href="http://snomed.info/id/119318008">119318008</a></td><td>Vzorek vody</td></tr><tr><td><a href="http://snomed.info/id/57921000052103">57921000052103</a></td><td>Plná krev s edetovou kyselinou</td></tr><tr><td><a href="http://snomed.info/id/258565009">258565009</a></td><td>Vzorek choriových klků</td></tr><tr><td><a href="http://snomed.info/id/258599007">258599007</a></td><td>Roztok z kontaktní čočky</td></tr><tr><td><a href="http://snomed.info/id/439961009">439961009</a></td><td>Implantát jako vzorek</td></tr><tr><td><a href="http://snomed.info/id/258603007">258603007</a></td><td>Vzorek z dýchacího systému</td></tr><tr><td><a href="http://snomed.info/id/119368000">119368000</a></td><td>Vzorek z cysty</td></tr><tr><td><a href="http://snomed.info/id/433861002">433861002</a></td><td>FNAB z paranazální dutiny</td></tr><tr><td><a href="http://snomed.info/id/734379005">734379005</a></td><td>Vzorek z periodoncia</td></tr><tr><td><a href="http://snomed.info/id/119369008">119369008</a></td><td>Vzorek z vředu</td></tr><tr><td><a href="http://snomed.info/id/430304001">430304001</a></td><td>Vzorek z neurčené lokalizace</td></tr><tr><td><a href="http://snomed.info/id/127479004">127479004</a></td><td>Vzorek z dělohy</td></tr><tr><td><a href="http://snomed.info/id/122550002">122550002</a></td><td>FNAB vzorek</td></tr><tr><td><a href="http://snomed.info/id/258576008">258576008</a></td><td>Suprapubický aspirát</td></tr><tr><td><a href="http://snomed.info/id/445297001">445297001</a></td><td>Stěr z vnitřní části nosu</td></tr><tr><td><a href="http://snomed.info/id/699287008">699287008</a></td><td>Moč ze suprapubického permanentního katétru</td></tr><tr><td><a href="http://snomed.info/id/444946008">444946008</a></td><td>Dialyzační tekutina před dialýzou</td></tr><tr><td><a href="http://snomed.info/id/122592007">122592007</a></td><td>Sérum nebo plazma</td></tr><tr><td><a href="http://snomed.info/id/309141004">309141004</a></td><td>Vzorek nadledvin</td></tr><tr><td><a href="http://snomed.info/id/309479002">309479002</a></td><td>Vzorek tepny</td></tr><tr><td><a href="http://snomed.info/id/122558009">122558009</a></td><td>Vzorek krve z krevního přípravku</td></tr><tr><td><a href="http://snomed.info/id/122559001">122559001</a></td><td>Kontrolní krevní vzorek</td></tr><tr><td><a href="http://snomed.info/id/122562003">122562003</a></td><td>Krevní vzorek novorozence</td></tr><tr><td><a href="http://snomed.info/id/258587000">258587000</a></td><td>Buffy coat (vrstva leukocytů)</td></tr><tr><td><a href="http://snomed.info/id/433116003">433116003</a></td><td>FNAB z jater</td></tr><tr><td><a href="http://snomed.info/id/119346005">119346005</a></td><td>Vzorek vaječného žloutku</td></tr><tr><td><a href="http://snomed.info/id/122582004">122582004</a></td><td>Vzorek erytrocytů z krevního přípravku</td></tr><tr><td><a href="http://snomed.info/id/119333000">119333000</a></td><td>Vzorek fibroblastů</td></tr><tr><td><a href="http://snomed.info/id/119320006">119320006</a></td><td>Vzorek potraviny</td></tr><tr><td><a href="http://snomed.info/id/122576002">122576002</a></td><td>Genitální hlen</td></tr><tr><td><a href="http://snomed.info/id/119337004">119337004</a></td><td>Vzorek vdechovaného plynu</td></tr><tr><td><a href="http://snomed.info/id/258606004">258606004</a></td><td>Vzorek z dolních dýchacích cest</td></tr><tr><td><a href="http://snomed.info/id/119316007">119316007</a></td><td>Nebuněčná (nebiologická) tekutina</td></tr><tr><td><a href="http://snomed.info/id/122551003">122551003</a></td><td>Vzorek periferní krve</td></tr><tr><td><a href="http://snomed.info/id/119301009">119301009</a></td><td>Vzorek rostliny</td></tr><tr><td><a href="http://snomed.info/id/119362004">119362004</a></td><td>Plazma chudá na trombocyty</td></tr><tr><td><a href="http://snomed.info/id/119363009">119363009</a></td><td>Plazma bohatá na trombocyty</td></tr><tr><td><a href="http://snomed.info/id/119358005">119358005</a></td><td>Vzorek trombocytů</td></tr><tr><td><a href="http://snomed.info/id/725946000">725946000</a></td><td>Vzorek retikulocytů</td></tr><tr><td><a href="http://snomed.info/id/309508006">309508006</a></td><td>FNAB z léze měkkých tkání</td></tr><tr><td><a href="http://snomed.info/id/119391001">119391001</a></td><td>Vzorek z bronchu</td></tr><tr><td><a href="http://snomed.info/id/119367005">119367005</a></td><td>Vzorek z popáleniny</td></tr><tr><td><a href="http://snomed.info/id/702701006">702701006</a></td><td>Vzorek z čípku nebo pochvy</td></tr><tr><td><a href="http://snomed.info/id/119400006">119400006</a></td><td>Vzorek z rohovky</td></tr><tr><td><a href="http://snomed.info/id/1003708009">1003708009</a></td><td>Vzorek z drénu</td></tr><tr><td><a href="http://snomed.info/id/127462005">127462005</a></td><td>Vzorek ze srdce</td></tr><tr><td><a href="http://snomed.info/id/127458004">127458004</a></td><td>Vzorek z plic</td></tr><tr><td><a href="http://snomed.info/id/122614000">122614000</a></td><td>FNAB z plic</td></tr><tr><td><a href="http://snomed.info/id/432382007">432382007</a></td><td>FNAB z lymfatické uzliny</td></tr><tr><td><a href="http://snomed.info/id/128155007">128155007</a></td><td>Vzorek z ovaria</td></tr><tr><td><a href="http://snomed.info/id/431406009">431406009</a></td><td>FNAB z pankreatu</td></tr><tr><td><a href="http://snomed.info/id/441695007">441695007</a></td><td>FNAB z příušní žlázy</td></tr><tr><td><a href="http://snomed.info/id/430250001">430250001</a></td><td>Vzorek z peritonea</td></tr><tr><td><a href="http://snomed.info/id/127459007">127459007</a></td><td>Vzorek z pleury</td></tr><tr><td><a href="http://snomed.info/id/119386002">119386002</a></td><td>Vzorek z prostaty</td></tr><tr><td><a href="http://snomed.info/id/384819001">384819001</a></td><td>Jehlová biopsie prostaty</td></tr><tr><td><a href="http://snomed.info/id/434406008">434406008</a></td><td>FNAB ze slinné žlázy</td></tr><tr><td><a href="http://snomed.info/id/441810001">441810001</a></td><td>FNAB z měkké tkáně</td></tr><tr><td><a href="http://snomed.info/id/441749007">441749007</a></td><td>FNAB z podčelistní žlázy</td></tr><tr><td><a href="http://snomed.info/id/128154006">128154006</a></td><td>Vzorek z varlete</td></tr><tr><td><a href="http://snomed.info/id/119389009">119389009</a></td><td>Vzorek z hrdla</td></tr><tr><td><a href="http://snomed.info/id/399680007">399680007</a></td><td>Vzorek ze štítné žlázy</td></tr><tr><td><a href="http://snomed.info/id/119390000">119390000</a></td><td>Vzorek z trachey</td></tr><tr><td><a href="http://snomed.info/id/399411006">399411006</a></td><td>Vzorek z trofoblastu</td></tr><tr><td><a href="http://snomed.info/id/119393003">119393003</a></td><td>Vzorek z uretry</td></tr><tr><td><a href="http://snomed.info/id/450872001">450872001</a></td><td>Vzorek z močového měchýře</td></tr><tr><td><a href="http://snomed.info/id/119395005">119395005</a></td><td>Vzorek z děložního čípku</td></tr><tr><td><a href="http://snomed.info/id/119394009">119394009</a></td><td>Vzorek z pochvy</td></tr><tr><td><a href="http://snomed.info/id/119365002">119365002</a></td><td>Vzorek z rány</td></tr><tr><td><a href="http://snomed.info/id/309146009">309146009</a></td><td>FNAB štítné žlázy</td></tr><tr><td><a href="http://snomed.info/id/122638001">122638001</a></td><td>Tkáně z tenkého střeva</td></tr><tr><td><a href="http://snomed.info/id/258444001">258444001</a></td><td>Vzorek komorové vody</td></tr><tr><td><a href="http://snomed.info/id/258485006">258485006</a></td><td>Seškrab z rohovky</td></tr><tr><td><a href="http://snomed.info/id/168137004">168137004</a></td><td>Gastrický aspirát</td></tr><tr><td><a href="http://snomed.info/id/1259931002">1259931002</a></td><td>Vzorek vousů</td></tr><tr><td><a href="http://snomed.info/id/168145009">168145009</a></td><td>Vzorek lymfy</td></tr><tr><td><a href="http://snomed.info/id/309507001">309507001</a></td><td>Biopsie svalu</td></tr><tr><td><a href="http://snomed.info/id/16224171000119108">16224171000119108</a></td><td>Nasotracheální aspirát</td></tr><tr><td><a href="http://snomed.info/id/309068002">309068002</a></td><td>Vzorek kožní léze</td></tr><tr><td><a href="http://snomed.info/id/396997002">396997002</a></td><td>Aspirát z kostní dřeně</td></tr><tr><td><a href="http://snomed.info/id/16215771000119101">16215771000119101</a></td><td>FNAB z tříselné uzliny</td></tr><tr><td><a href="http://snomed.info/id/430236006">430236006</a></td><td>Vzorek z nervu</td></tr><tr><td><a href="http://snomed.info/id/472898004">472898004</a></td><td>Stěr z ruky</td></tr><tr><td><a href="http://snomed.info/id/472868006">472868006</a></td><td>Stěr z peritoneální dutiny</td></tr><tr><td><a href="http://snomed.info/id/444787003">444787003</a></td><td>Stěr z endocervixu</td></tr><tr><td><a href="http://snomed.info/id/16223971000119109">16223971000119109</a></td><td>FNAB synoviální tekutiny</td></tr><tr><td><a href="http://snomed.info/id/122656001">122656001</a></td><td>Tkáně ze žlučníku</td></tr><tr><td><a href="http://snomed.info/id/122736005">122736005</a></td><td>Tkáně z placenty</td></tr><tr><td><a href="http://snomed.info/id/369611008">369611008</a></td><td>Biopsie tenkého střeva</td></tr><tr><td><a href="http://snomed.info/id/309191000">309191000</a></td><td>Biopsie tonsily</td></tr><tr><td><a href="http://snomed.info/id/697989009">697989009</a></td><td>Stěr z přední části nosu</td></tr><tr><td><a href="http://snomed.info/id/57931000052101">57931000052101</a></td><td>Kombinovaný vzorek cervikálního hlenu a moči</td></tr><tr><td><a href="http://snomed.info/id/433324003">433324003</a></td><td>Vzorek z oční krajiny</td></tr><tr><td><a href="http://snomed.info/id/16216171000119108">16216171000119108</a></td><td>Aspirát z jater</td></tr><tr><td><a href="http://snomed.info/id/16221491000119104">16221491000119104</a></td><td>Samovolně vyloučená moč</td></tr></table></li></ul></div>
+  </text>
+  <url value="https://ncez.mzcr.cz/terminology/ValueSet/lab-specimenType"/>
+  <version value="0.1.0"/>
+  <name value="LabSpecimentype"/>
+  <title value="Materiál vzorků"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2025-12-02T17:10:03+01:00"/>
+  <publisher value="HL7 Czech Republic"/>
+  <contact>
+    <name value="HL7 Czech Republic"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hl7.cz/"/>
+    </telecom>
+  </contact>
+  <description value="Materiál laboratorního vzorku/vzorku pro obrazová vyšetření. Číselník využívá terminologii SNOMED CT."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CZ"/>
+      <display value="Czechia"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"/>
+  <compose>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <concept>
+        <code value="258497007"/>
+        <display value="Stěr z abscesu"/>
+      </concept>
+      <concept>
+        <code value="258407001"/>
+        <display value="Tkáně z abscesu"/>
+      </concept>
+      <concept>
+        <code value="119373006"/>
+        <display value="Vzorek plodové vody"/>
+      </concept>
+      <concept>
+        <code value="122552005"/>
+        <display value="Vzorek arteriální krve"/>
+      </concept>
+      <concept>
+        <code value="309201001"/>
+        <display value="Vzorek ascitické tekutiny"/>
+      </concept>
+      <concept>
+        <code value="119341000"/>
+        <display value="Vzorek žluči"/>
+      </concept>
+      <concept>
+        <code value="258493006"/>
+        <display value="Vzorek močového kamene"/>
+      </concept>
+      <concept>
+        <code value="258582006"/>
+        <display value="Vzorek krevní sraženiny"/>
+      </concept>
+      <concept>
+        <code value="119297000"/>
+        <display value="Vzorek krve"/>
+      </concept>
+      <concept>
+        <code value="309051001"/>
+        <display value="Vzorek tělesné tekutiny"/>
+      </concept>
+      <concept>
+        <code value="432825001"/>
+        <display value="Vzorek tělesného sekretu"/>
+      </concept>
+      <concept>
+        <code value="258583001"/>
+        <display value="Vzorek sraženiny kostní dřeně"/>
+      </concept>
+      <concept>
+        <code value="119359002"/>
+        <display value="Vzorek kostní dřeně"/>
+      </concept>
+      <concept>
+        <code value="258417006"/>
+        <display value="Vzorek kostní tkáně"/>
+      </concept>
+      <concept>
+        <code value="309176002"/>
+        <display value="Kartáčkový odběr z bronchů"/>
+      </concept>
+      <concept>
+        <code value="258446004"/>
+        <display value="Vzorek bronchální tekutiny"/>
+      </concept>
+      <concept>
+        <code value="258564008"/>
+        <display value="Stěr z bukální sliznice"/>
+      </concept>
+      <concept>
+        <code value="258418001"/>
+        <display value="Tkáně z popáleniny"/>
+      </concept>
+      <concept>
+        <code value="258448003"/>
+        <display value="Vzorek tekutiny z burzy"/>
+      </concept>
+      <concept>
+        <code value="309110000"/>
+        <display value="Vzorek tkáně burzy"/>
+      </concept>
+      <concept>
+        <code value="119350003"/>
+        <display value="Vzorek konkrementu"/>
+      </concept>
+      <concept>
+        <code value="258627009"/>
+        <display value="Špička kanyly jako vzorek"/>
+      </concept>
+      <concept>
+        <code value="122554006"/>
+        <display value="Kapilární krevní vzorek"/>
+      </concept>
+      <concept>
+        <code value="309101008"/>
+        <display value="Vzorek chrupavky"/>
+      </concept>
+      <concept>
+        <code value="119312009"/>
+        <display value="Špička katétru jako vzorek"/>
+      </concept>
+      <concept>
+        <code value="258450006"/>
+        <display value="Vzorek mozkomíšního moku"/>
+      </concept>
+      <concept>
+        <code value="122580007"/>
+        <display value="Vzorek ušního mazu"/>
+      </concept>
+      <concept>
+        <code value="258452003"/>
+        <display value="Vzorek chylózní tekutiny"/>
+      </concept>
+      <concept>
+        <code value="258581004"/>
+        <display value="Vzorek sražené krve"/>
+      </concept>
+      <concept>
+        <code value="168136008"/>
+        <display value="Vzorek tekutiny z kolostomie"/>
+      </concept>
+      <concept>
+        <code value="119329007"/>
+        <display value="Vzorek mleziva"/>
+      </concept>
+      <concept>
+        <code value="258498002"/>
+        <display value="Stěr ze spojivky"/>
+      </concept>
+      <concept>
+        <code value="122556008"/>
+        <display value="Vzorek pupečníkové krve"/>
+      </concept>
+      <concept>
+        <code value="258499005"/>
+        <display value="Stěr po kašli"/>
+      </concept>
+      <concept>
+        <code value="258419009"/>
+        <display value="Kyretážní materiál"/>
+      </concept>
+      <concept>
+        <code value="258453008"/>
+        <display value="Vzorek tekutiny z cysty"/>
+      </concept>
+      <concept>
+        <code value="258420003"/>
+        <display value="Tkáně z cysty"/>
+      </concept>
+      <concept>
+        <code value="119338009"/>
+        <display value="Vzorek dentinu"/>
+      </concept>
+      <concept>
+        <code value="472919007"/>
+        <display value="Zdravotnická pomůcka jako vzorek"/>
+      </concept>
+      <concept>
+        <code value="258454002"/>
+        <display value="Vzorek dialyzátu"/>
+      </concept>
+      <concept>
+        <code value="258439008"/>
+        <display value="Vzorek sekretu"/>
+      </concept>
+      <concept>
+        <code value="258566005"/>
+        <display value="Vzorek DNA"/>
+      </concept>
+      <concept>
+        <code value="1003705007"/>
+        <display value="Špička drénu jako vzorek"/>
+      </concept>
+      <concept>
+        <code value="258455001"/>
+        <display value="Vzorek drenážní tekutiny"/>
+      </concept>
+      <concept>
+        <code value="119294007"/>
+        <display value="Vzorek zaschlé krve"/>
+      </concept>
+      <concept>
+        <code value="258440005"/>
+        <display value="Vzorek výpotku"/>
+      </concept>
+      <concept>
+        <code value="258456000"/>
+        <display value="Vzorek tekutiny z empyému"/>
+      </concept>
+      <concept>
+        <code value="119336008"/>
+        <display value="Vzorek vydechovaného vzduchu"/>
+      </concept>
+      <concept>
+        <code value="258470000"/>
+        <display value="Vzorek prostatického sekretu"/>
+      </concept>
+      <concept>
+        <code value="258441009"/>
+        <display value="Vzorek exsudátu"/>
+      </concept>
+      <concept>
+        <code value="309128003"/>
+        <display value="Vzorek nitrooční tekutiny"/>
+      </concept>
+      <concept>
+        <code value="258487003"/>
+        <display value="Stěr stolice"/>
+      </concept>
+      <concept>
+        <code value="119339001"/>
+        <display value="Vzorek stolice"/>
+      </concept>
+      <concept>
+        <code value="309117002"/>
+        <display value="Vzorek fascie"/>
+      </concept>
+      <concept>
+        <code value="258458004"/>
+        <display value="Vzorek tekutiny z píštěle"/>
+      </concept>
+      <concept>
+        <code value="258442002"/>
+        <display value="Vzorek tekutiny"/>
+      </concept>
+      <concept>
+        <code value="445744006"/>
+        <display value="Vzorek tekutiny ze seromu"/>
+      </concept>
+      <concept>
+        <code value="309502007"/>
+        <display value="Vzorek z plodu"/>
+      </concept>
+      <concept>
+        <code value="447103002"/>
+        <display value="Cizí těleso jako vzorek"/>
+      </concept>
+      <concept>
+        <code value="258492001"/>
+        <display value="Vzorek žlučového kamene"/>
+      </concept>
+      <concept>
+        <code value="432657002"/>
+        <display value="Vzorek gangliové cysty"/>
+      </concept>
+      <concept>
+        <code value="309213006"/>
+        <display value="Kartáčkový odběr ze žaludku"/>
+      </concept>
+      <concept>
+        <code value="309199003"/>
+        <display value="Vzorek gastrointestinální tekutiny"/>
+      </concept>
+      <concept>
+        <code value="258562007"/>
+        <display value="Genetický vzorek"/>
+      </concept>
+      <concept>
+        <code value="258508008"/>
+        <display value="Genitální stěr"/>
+      </concept>
+      <concept>
+        <code value="258559009"/>
+        <display value="Vzorek tekutiny z gingivální rýhy"/>
+      </concept>
+      <concept>
+        <code value="440493002"/>
+        <display value="Štěp od pacienta jako vzorek"/>
+      </concept>
+      <concept>
+        <code value="258588005"/>
+        <display value="Vzorek hematomu"/>
+      </concept>
+      <concept>
+        <code value="119326000"/>
+        <display value="Vzorek vlasů"/>
+      </concept>
+      <concept>
+        <code value="258424007"/>
+        <display value="Tkáně srdeční chlopně"/>
+      </concept>
+      <concept>
+        <code value="258521001"/>
+        <display value="Stěr z horní části pochvy"/>
+      </concept>
+      <concept>
+        <code value="258461003"/>
+        <display value="Vzorek tekutiny z hydrokély"/>
+      </concept>
+      <concept>
+        <code value="258462005"/>
+        <display value="Vzorek tekutiny z ileostomie"/>
+      </concept>
+      <concept>
+        <code value="258479004"/>
+        <display value="Vzorek intersticiální tekutiny"/>
+      </concept>
+      <concept>
+        <code value="309114009"/>
+        <display value="Vzorek vazu"/>
+      </concept>
+      <concept>
+        <code value="258522008"/>
+        <display value="Stěr z dolní části pochvy"/>
+      </concept>
+      <concept>
+        <code value="309171007"/>
+        <display value="Vzorek tekutiny z dolních dýchacích cest"/>
+      </concept>
+      <concept>
+        <code value="302795002"/>
+        <display value="Aspirát z lymfatické uzliny"/>
+      </concept>
+      <concept>
+        <code value="258488008"/>
+        <display value="Nátěr z lymfatické uzliny"/>
+      </concept>
+      <concept>
+        <code value="309078004"/>
+        <display value="Vzorek tkáně lymfatické uzliny"/>
+      </concept>
+      <concept>
+        <code value="119340004"/>
+        <display value="Vzorek smolky"/>
+      </concept>
+      <concept>
+        <code value="119345009"/>
+        <display value="Vzorek menstruační krve"/>
+      </concept>
+      <concept>
+        <code value="119303007"/>
+        <display value="Mikrobiální izolát"/>
+      </concept>
+      <concept>
+        <code value="119328004"/>
+        <display value="Vzorek mateřského mléka"/>
+      </concept>
+      <concept>
+        <code value="258483004"/>
+        <display value="Vzorek hlenu"/>
+      </concept>
+      <concept>
+        <code value="119327009"/>
+        <display value="Vzorek nehtu"/>
+      </concept>
+      <concept>
+        <code value="168141000"/>
+        <display value="Vzorek nosní tekutiny"/>
+      </concept>
+      <concept>
+        <code value="258467004"/>
+        <display value="Výplach nosohltanu"/>
+      </concept>
+      <concept>
+        <code value="433799002"/>
+        <display value="Vzorek nervového ganglia"/>
+      </concept>
+      <concept>
+        <code value="309129006"/>
+        <display value="Vzorek nervové tkáně"/>
+      </concept>
+      <concept>
+        <code value="309131002"/>
+        <display value="Vzorek neuromu"/>
+      </concept>
+      <concept>
+        <code value="258468009"/>
+        <display value="Vzorek edémové tekutiny"/>
+      </concept>
+      <concept>
+        <code value="309210009"/>
+        <display value="Kartáčkový odběr z jícnu"/>
+      </concept>
+      <concept>
+        <code value="258494000"/>
+        <display value="Vzorek pankreatického kamene"/>
+      </concept>
+      <concept>
+        <code value="122571007"/>
+        <display value="Vzorek perikardiální tekutiny"/>
+      </concept>
+      <concept>
+        <code value="168139001"/>
+        <display value="Vzorek peritoneální tekutiny"/>
+      </concept>
+      <concept>
+        <code value="258469001"/>
+        <display value="Výplach hltanu"/>
+      </concept>
+      <concept>
+        <code value="119361006"/>
+        <display value="Vzorek plazmy"/>
+      </concept>
+      <concept>
+        <code value="110913002"/>
+        <display value="Cytologický materiál z pleurální tekutiny"/>
+      </concept>
+      <concept>
+        <code value="418564007"/>
+        <display value="Vzorek pleurální tekutiny"/>
+      </concept>
+      <concept>
+        <code value="258484005"/>
+        <display value="Posmrtný tkáňový vzorek"/>
+      </concept>
+      <concept>
+        <code value="258428005"/>
+        <display value="Tkáně produktů početí"/>
+      </concept>
+      <concept>
+        <code value="119323008"/>
+        <display value="Vzorek hnisu"/>
+      </concept>
+      <concept>
+        <code value="258502009"/>
+        <display value="Stěr z hnisu"/>
+      </concept>
+      <concept>
+        <code value="119351004"/>
+        <display value="Vzorek erytrocytů"/>
+      </concept>
+      <concept>
+        <code value="258495004"/>
+        <display value="Vzorek ledvinového kamene"/>
+      </concept>
+      <concept>
+        <code value="119342007"/>
+        <display value="Vzorek slin"/>
+      </concept>
+      <concept>
+        <code value="258431006"/>
+        <display value="Seškrab"/>
+      </concept>
+      <concept>
+        <code value="258432004"/>
+        <display value="Vzorek kožního mazu"/>
+      </concept>
+      <concept>
+        <code value="119347001"/>
+        <display value="Vzorek semenné tekutiny"/>
+      </concept>
+      <concept>
+        <code value="119364003"/>
+        <display value="Vzorek séra"/>
+      </concept>
+      <concept>
+        <code value="309261004"/>
+        <display value="Kartáčkový odběr ze sigmatu"/>
+      </concept>
+      <concept>
+        <code value="258475005"/>
+        <display value="Výplach z paranazálních dutin"/>
+      </concept>
+      <concept>
+        <code value="119331003"/>
+        <display value="Vzorek kosterního svalu"/>
+      </concept>
+      <concept>
+        <code value="119325001"/>
+        <display value="Vzorek kožní tkáně"/>
+      </concept>
+      <concept>
+        <code value="258505006"/>
+        <display value="Stěr z kožního vředu"/>
+      </concept>
+      <concept>
+        <code value="258433009"/>
+        <display value="Nátěrový vzorek"/>
+      </concept>
+      <concept>
+        <code value="309072003"/>
+        <display value="Vzorek měkké tkáně"/>
+      </concept>
+      <concept>
+        <code value="119300005"/>
+        <display value="Vzorek z krevního přípravku"/>
+      </concept>
+      <concept>
+        <code value="898201001"/>
+        <display value="Vzorek ze zdravotnického prostředku"/>
+      </concept>
+      <concept>
+        <code value="1003706008"/>
+        <display value="Vzorek ze špičky drénu"/>
+      </concept>
+      <concept>
+        <code value="119305000"/>
+        <display value="Vzorek z vaku s plazmou"/>
+      </concept>
+      <concept>
+        <code value="119349003"/>
+        <display value="Vzorek spermií"/>
+      </concept>
+      <concept>
+        <code value="258434003"/>
+        <display value="Vycentrovaný močový sediment"/>
+      </concept>
+      <concept>
+        <code value="119334006"/>
+        <display value="Vzorek sputa"/>
+      </concept>
+      <concept>
+        <code value="257261003"/>
+        <display value="Stěr"/>
+      </concept>
+      <concept>
+        <code value="445160003"/>
+        <display value="Stěr z oka"/>
+      </concept>
+      <concept>
+        <code value="122569007"/>
+        <display value="Vzorek potu"/>
+      </concept>
+      <concept>
+        <code value="119332005"/>
+        <display value="Vzorek synoviální tekutiny"/>
+      </concept>
+      <concept>
+        <code value="309123007"/>
+        <display value="Vzorek synovie"/>
+      </concept>
+      <concept>
+        <code value="309121009"/>
+        <display value="Vzorek synoviální tkáně"/>
+      </concept>
+      <concept>
+        <code value="440468004"/>
+        <display value="Tampon jako vzorek"/>
+      </concept>
+      <concept>
+        <code value="258465007"/>
+        <display value="Vzorek slzné tekutiny"/>
+      </concept>
+      <concept>
+        <code value="122594008"/>
+        <display value="Vzorek slz"/>
+      </concept>
+      <concept>
+        <code value="309481000"/>
+        <display value="Vzorek temporální arterie"/>
+      </concept>
+      <concept>
+        <code value="309107007"/>
+        <display value="Vzorek šlachy"/>
+      </concept>
+      <concept>
+        <code value="258529004"/>
+        <display value="Stěr z krku"/>
+      </concept>
+      <concept>
+        <code value="119376003"/>
+        <display value="Tkáňový vzorek"/>
+      </concept>
+      <concept>
+        <code value="258538002"/>
+        <display value="Vzorek transudátu"/>
+      </concept>
+      <concept>
+        <code value="258435002"/>
+        <display value="Vzorek nádorové tkáně"/>
+      </concept>
+      <concept>
+        <code value="441479001"/>
+        <display value="Vzorek čerstvé tkáně"/>
+      </concept>
+      <concept>
+        <code value="439628000"/>
+        <display value="Močový sběrný sáček jako vzorek"/>
+      </concept>
+      <concept>
+        <code value="439580004"/>
+        <display value="Močová savá podložka jako vzorek"/>
+      </concept>
+      <concept>
+        <code value="122567009"/>
+        <display value="Vzorek močového sedimentu"/>
+      </concept>
+      <concept>
+        <code value="122575003"/>
+        <display value="Vzorek moči"/>
+      </concept>
+      <concept>
+        <code value="258437005"/>
+        <display value="Vegetace ze srdeční chlopně"/>
+      </concept>
+      <concept>
+        <code value="122555007"/>
+        <display value="Vzorek žilní krve"/>
+      </concept>
+      <concept>
+        <code value="122572000"/>
+        <display value="Vzorek zvratků"/>
+      </concept>
+      <concept>
+        <code value="258591005"/>
+        <display value="Vzorek leukocytů"/>
+      </concept>
+      <concept>
+        <code value="258580003"/>
+        <display value="Vzorek plné krve"/>
+      </concept>
+      <concept>
+        <code value="438805006"/>
+        <display value="Vzorek celého zubu"/>
+      </concept>
+      <concept>
+        <code value="122566000"/>
+        <display value="Vzorek tekutiny z rány"/>
+      </concept>
+      <concept>
+        <code value="258531008"/>
+        <display value="Stěr z rány"/>
+      </concept>
+      <concept>
+        <code value="446302006"/>
+        <display value="Vzorek vzduchu"/>
+      </concept>
+      <concept>
+        <code value="33631000087102"/>
+        <display value="Alogenní kostní štěp jako vzorek"/>
+      </concept>
+      <concept>
+        <code value="703430008"/>
+        <display value="Vzorek arteriální pupečníkové krve"/>
+      </concept>
+      <concept>
+        <code value="16215211000119100"/>
+        <display value="Vzorek tekutiny z Bartholiniho žlázy"/>
+      </concept>
+      <concept>
+        <code value="446129006"/>
+        <display value="Vzorek žluči ze společného žlučovodu"/>
+      </concept>
+      <concept>
+        <code value="446817004"/>
+        <display value="Vzorek žluči ze žlučníku"/>
+      </concept>
+      <concept>
+        <code value="258490009"/>
+        <display value="Vzorek biliárního kamene"/>
+      </concept>
+      <concept>
+        <code value="309105004"/>
+        <display value="Bioptický vzorek kosti"/>
+      </concept>
+      <concept>
+        <code value="258607008"/>
+        <display value="Vzorek bronchoalveolární laváže"/>
+      </concept>
+      <concept>
+        <code value="122577006"/>
+        <display value="Vzorek cervikálního hlenu"/>
+      </concept>
+      <concept>
+        <code value="16216411000119106"/>
+        <display value="Nátěr ze spojivky"/>
+      </concept>
+      <concept>
+        <code value="1003707004"/>
+        <display value="Drén jako vzorek"/>
+      </concept>
+      <concept>
+        <code value="309216003"/>
+        <display value="Bioptický vzorek duodena"/>
+      </concept>
+      <concept>
+        <code value="122574004"/>
+        <display value="Vzorek duodenální tekutiny"/>
+      </concept>
+      <concept>
+        <code value="309166000"/>
+        <display value="Stěr z ucha"/>
+      </concept>
+      <concept>
+        <code value="119314005"/>
+        <display value="Elektroda jako vzorek"/>
+      </concept>
+      <concept>
+        <code value="419695002"/>
+        <display value="Stěr z prostředí"/>
+      </concept>
+      <concept>
+        <code value="309211008"/>
+        <display value="Bioptický vzorek žaludku"/>
+      </concept>
+      <concept>
+        <code value="122573005"/>
+        <display value="Vzorek žaludečního obsahu"/>
+      </concept>
+      <concept>
+        <code value="258459007"/>
+        <display value="Vzorek žaludeční tekutiny"/>
+      </concept>
+      <concept>
+        <code value="122579009"/>
+        <display value="Vzorek lochií"/>
+      </concept>
+      <concept>
+        <code value="258512002"/>
+        <display value="Stěr z glans penis"/>
+      </concept>
+      <concept>
+        <code value="473415003"/>
+        <display value="Nitroděložní tělísko jako vzorek"/>
+      </concept>
+      <concept>
+        <code value="258649003"/>
+        <display value="Vzorek infuzní tekutiny"/>
+      </concept>
+      <concept>
+        <code value="309049000"/>
+        <display value="Vzorek z léze"/>
+      </concept>
+      <concept>
+        <code value="309203003"/>
+        <display value="Bioptický vzorek jater"/>
+      </concept>
+      <concept>
+        <code value="258589002"/>
+        <display value="Vzorek lymfatické uzliny"/>
+      </concept>
+      <concept>
+        <code value="258466008"/>
+        <display value="Vzorek tekutiny ze středního ucha"/>
+      </concept>
+      <concept>
+        <code value="119298005"/>
+        <display value="Vzorek smíšené žilní krve"/>
+      </concept>
+      <concept>
+        <code value="705054005"/>
+        <display value="Vzorek svalu"/>
+      </concept>
+      <concept>
+        <code value="309104000"/>
+        <display value="Vzorek pohybového aparátu"/>
+      </concept>
+      <concept>
+        <code value="447339001"/>
+        <display value="Nátěr z nosu"/>
+      </concept>
+      <concept>
+        <code value="258500001"/>
+        <display value="Stěr z nosohltanu"/>
+      </concept>
+      <concept>
+        <code value="16220931000119104"/>
+        <display value="Vzorek tekutiny z cysty pankreatu"/>
+      </concept>
+      <concept>
+        <code value="119343002"/>
+        <display value="Vzorek pankreatické tekutiny"/>
+      </concept>
+      <concept>
+        <code value="309154006"/>
+        <display value="Vzorek hypofýzy"/>
+      </concept>
+      <concept>
+        <code value="708317005"/>
+        <display value="Smíšený vzorek z introitu a rektálního stěru"/>
+      </concept>
+      <concept>
+        <code value="258513007"/>
+        <display value="Stěr z předkožky"/>
+      </concept>
+      <concept>
+        <code value="258528007"/>
+        <display value="Rektální stěr"/>
+      </concept>
+      <concept>
+        <code value="410580001"/>
+        <display value="Vzorek respirační tekutiny"/>
+      </concept>
+      <concept>
+        <code value="732293002"/>
+        <display value="Vzorek slinného kamene"/>
+      </concept>
+      <concept>
+        <code value="309066003"/>
+        <display value="Bioptický vzorek kůže"/>
+      </concept>
+      <concept>
+        <code value="430268003"/>
+        <display value="Vzorek z kosti"/>
+      </concept>
+      <concept>
+        <code value="119398007"/>
+        <display value="Vzorek z mozku"/>
+      </concept>
+      <concept>
+        <code value="122601001"/>
+        <display value="Bioptický vzorek z prsu"/>
+      </concept>
+      <concept>
+        <code value="119307008"/>
+        <display value="Vzorek z endotracheální kanyly"/>
+      </concept>
+      <concept>
+        <code value="119399004"/>
+        <display value="Vzorek z oka"/>
+      </concept>
+      <concept>
+        <code value="127476006"/>
+        <display value="Vzorek z vejcovodu"/>
+      </concept>
+      <concept>
+        <code value="446951004"/>
+        <display value="Vzorek z granulační tkáně"/>
+      </concept>
+      <concept>
+        <code value="127473003"/>
+        <display value="Vzorek z ledviny"/>
+      </concept>
+      <concept>
+        <code value="119383005"/>
+        <display value="Vzorek z jater"/>
+      </concept>
+      <concept>
+        <code value="122610009"/>
+        <display value="Bioptický vzorek z plic"/>
+      </concept>
+      <concept>
+        <code value="447407009"/>
+        <display value="Vzorek z nekrotické tkáně"/>
+      </concept>
+      <concept>
+        <code value="127469001"/>
+        <display value="Vzorek z pankreatu"/>
+      </concept>
+      <concept>
+        <code value="119403008"/>
+        <display value="Vzorek z placenty"/>
+      </concept>
+      <concept>
+        <code value="1003711005"/>
+        <display value="Vzorek z náhrady kloubu"/>
+      </concept>
+      <concept>
+        <code value="608969007"/>
+        <display value="Vzorek z kůže"/>
+      </concept>
+      <concept>
+        <code value="433308004"/>
+        <display value="Vzorek ze sleziny"/>
+      </concept>
+      <concept>
+        <code value="119379005"/>
+        <display value="Vzorek ze žaludku"/>
+      </concept>
+      <concept>
+        <code value="445447003"/>
+        <display value="Aspirát z trachey"/>
+      </concept>
+      <concept>
+        <code value="441903006"/>
+        <display value="Vzorek z bronchální aspirace"/>
+      </concept>
+      <concept>
+        <code value="440674008"/>
+        <display value="Vzorek získaný laváží"/>
+      </concept>
+      <concept>
+        <code value="57711000052109"/>
+        <display value="Vzorek získaný punkcí"/>
+      </concept>
+      <concept>
+        <code value="16220971000119101"/>
+        <display value="Vzorek tekutiny z cysty ledviny"/>
+      </concept>
+      <concept>
+        <code value="278020009"/>
+        <display value="Jednorázový vzorek moči"/>
+      </concept>
+      <concept>
+        <code value="271514008"/>
+        <display value="Vzorek kostní dřeně ze sterna"/>
+      </concept>
+      <concept>
+        <code value="472894002"/>
+        <display value="Stěr z rohovky"/>
+      </concept>
+      <concept>
+        <code value="472900002"/>
+        <display value="Stěr z dásně"/>
+      </concept>
+      <concept>
+        <code value="472888005"/>
+        <display value="Stěr z hrtanu"/>
+      </concept>
+      <concept>
+        <code value="16210971000119108"/>
+        <display value="Stěr z léze"/>
+      </concept>
+      <concept>
+        <code value="472862007"/>
+        <display value="Stěr z kožní léze"/>
+      </concept>
+      <concept>
+        <code value="472879001"/>
+        <display value="Stěr z placenty"/>
+      </concept>
+      <concept>
+        <code value="472885008"/>
+        <display value="Stěr z dekubitu"/>
+      </concept>
+      <concept>
+        <code value="472883001"/>
+        <display value="Stěr z chirurgické rány"/>
+      </concept>
+      <concept>
+        <code value="472866005"/>
+        <display value="Stěr z jazyka"/>
+      </concept>
+      <concept>
+        <code value="472867001"/>
+        <display value="Stěr z tonsily"/>
+      </concept>
+      <concept>
+        <code value="461911000124106"/>
+        <display value="Orofaryngeální stěr"/>
+      </concept>
+      <concept>
+        <code value="309478005"/>
+        <display value="Vzorek trombu"/>
+      </concept>
+      <concept>
+        <code value="258480001"/>
+        <display value="Transtracheální aspirát"/>
+      </concept>
+      <concept>
+        <code value="258436001"/>
+        <display value="Vzorek tkáně pupečníku"/>
+      </concept>
+      <concept>
+        <code value="258530009"/>
+        <display value="Uretrální stěr"/>
+      </concept>
+      <concept>
+        <code value="444937002"/>
+        <display value="Vzorek moči z ureteru"/>
+      </concept>
+      <concept>
+        <code value="447589008"/>
+        <display value="Moč po jednorázové katetrizaci"/>
+      </concept>
+      <concept>
+        <code value="446907008"/>
+        <display value="Vzorek moči z ledviny"/>
+      </concept>
+      <concept>
+        <code value="258520000"/>
+        <display value="Vaginální stěr"/>
+      </concept>
+      <concept>
+        <code value="703431007"/>
+        <display value="Vzorek žilní pupečníkové krve"/>
+      </concept>
+      <concept>
+        <code value="258482009"/>
+        <display value="Vzorek tekutiny z puchýře"/>
+      </concept>
+      <concept>
+        <code value="258523003"/>
+        <display value="Stěr z vulvy"/>
+      </concept>
+      <concept>
+        <code value="258662004"/>
+        <display value="Vzorek na adhezním sklíčku"/>
+      </concept>
+      <concept>
+        <code value="258527002"/>
+        <display value="Anální stěr"/>
+      </concept>
+      <concept>
+        <code value="258415003"/>
+        <display value="Bioptický vzorek"/>
+      </concept>
+      <concept>
+        <code value="303248007"/>
+        <display value="Krevní nátěr"/>
+      </concept>
+      <concept>
+        <code value="737535000"/>
+        <display value="Krevní nátěr"/>
+      </concept>
+      <concept>
+        <code value="122560006"/>
+        <display value="Krevní vzorek dárce"/>
+      </concept>
+      <concept>
+        <code value="866033003"/>
+        <display value="Krev v aerobní hemokultivační lahvi"/>
+      </concept>
+      <concept>
+        <code value="866032008"/>
+        <display value="Krev v anaerobní hemokultivační lahvi"/>
+      </concept>
+      <concept>
+        <code value="878861003"/>
+        <display value="Krev v hemokultivační lahvi"/>
+      </concept>
+      <concept>
+        <code value="445295009"/>
+        <display value="Krevní vzorek v EDTA"/>
+      </concept>
+      <concept>
+        <code value="309061008"/>
+        <display value="Aspirát z prsu tenkou jehlou"/>
+      </concept>
+      <concept>
+        <code value="309503002"/>
+        <display value="Sekret z bradavky"/>
+      </concept>
+      <concept>
+        <code value="309174004"/>
+        <display value="Biopsie bronchu"/>
+      </concept>
+      <concept>
+        <code value="119308003"/>
+        <display value="Kanyla jako vzorek"/>
+      </concept>
+      <concept>
+        <code value="473409003"/>
+        <display value="Centrální žilní katétr jako vzorek"/>
+      </concept>
+      <concept>
+        <code value="472929000"/>
+        <display value="Špička centrálního žilního katétru"/>
+      </concept>
+      <concept>
+        <code value="445372002"/>
+        <display value="Mozkomíšní mok z mozkové komory"/>
+      </concept>
+      <concept>
+        <code value="258524009"/>
+        <display value="Cervikální stěr"/>
+      </concept>
+      <concept>
+        <code value="440473005"/>
+        <display value="Kontaktní čočka jako vzorek"/>
+      </concept>
+      <concept>
+        <code value="440500007"/>
+        <display value="Suchá kapka krve"/>
+      </concept>
+      <concept>
+        <code value="119319000"/>
+        <display value="Vzorek léčiva"/>
+      </concept>
+      <concept>
+        <code value="309165001"/>
+        <display value="Vzorek ucha"/>
+      </concept>
+      <concept>
+        <code value="258575007"/>
+        <display value="Ranní moč"/>
+      </concept>
+      <concept>
+        <code value="446676001"/>
+        <display value="Odsáté mateřské mléko"/>
+      </concept>
+      <concept>
+        <code value="122568004"/>
+        <display value="Exsudát z rány"/>
+      </concept>
+      <concept>
+        <code value="258519006"/>
+        <display value="Stěr z ženského genitálu"/>
+      </concept>
+      <concept>
+        <code value="737357006"/>
+        <display value="Vzorek fetální krve"/>
+      </concept>
+      <concept>
+        <code value="698276005"/>
+        <display value="První proud moči"/>
+      </concept>
+      <concept>
+        <code value="733056005"/>
+        <display value="Vzorek tekutiny z ucha"/>
+      </concept>
+      <concept>
+        <code value="732976006"/>
+        <display value="Vzorek tekutiny ze zevního zvukovodu"/>
+      </concept>
+      <concept>
+        <code value="16214171000119101"/>
+        <display value="Vzorek genitální tekutiny"/>
+      </concept>
+      <concept>
+        <code value="258570002"/>
+        <display value="Urogenitální vzorek"/>
+      </concept>
+      <concept>
+        <code value="309124001"/>
+        <display value="Biopsie kloubu"/>
+      </concept>
+      <concept>
+        <code value="431361003"/>
+        <display value="Kloubní tekutina"/>
+      </concept>
+      <concept>
+        <code value="309079007"/>
+        <display value="Biopsie lymfatické uzliny"/>
+      </concept>
+      <concept>
+        <code value="309052008"/>
+        <display value="Vzorek mužského genitálu"/>
+      </concept>
+      <concept>
+        <code value="258574006"/>
+        <display value="Střední proud moči"/>
+      </concept>
+      <concept>
+        <code value="119321005"/>
+        <display value="Vzorek mléka"/>
+      </concept>
+      <concept>
+        <code value="119377007"/>
+        <display value="Vzorek myokardu"/>
+      </concept>
+      <concept>
+        <code value="16224371000119105"/>
+        <display value="Výplach nosu"/>
+      </concept>
+      <concept>
+        <code value="16223051000119101"/>
+        <display value="Obsah paranazální dutiny"/>
+      </concept>
+      <concept>
+        <code value="258411007"/>
+        <display value="Aspirát z nosohltanu"/>
+      </concept>
+      <concept>
+        <code value="441620008"/>
+        <display value="Orální tekutina"/>
+      </concept>
+      <concept>
+        <code value="418932006"/>
+        <display value="Orální stěr"/>
+      </concept>
+      <concept>
+        <code value="258511009"/>
+        <display value="Uretrální stěr u muže"/>
+      </concept>
+      <concept>
+        <code value="258510005"/>
+        <display value="Stěr z penisu"/>
+      </concept>
+      <concept>
+        <code value="258526006"/>
+        <display value="Perianální stěr"/>
+      </concept>
+      <concept>
+        <code value="258525005"/>
+        <display value="Perineální stěr"/>
+      </concept>
+      <concept>
+        <code value="472923004"/>
+        <display value="Špička periferního katétru"/>
+      </concept>
+      <concept>
+        <code value="168140004"/>
+        <display value="Peritoneální dialyzát"/>
+      </concept>
+      <concept>
+        <code value="788707000"/>
+        <display value="Plazma / sérum / plná krev"/>
+      </concept>
+      <concept>
+        <code value="708049000"/>
+        <display value="Plazma s EDTA"/>
+      </concept>
+      <concept>
+        <code value="309172000"/>
+        <display value="Biopsie pleury"/>
+      </concept>
+      <concept>
+        <code value="258471001"/>
+        <display value="Sekret po masáži prostaty"/>
+      </concept>
+      <concept>
+        <code value="708112008"/>
+        <display value="Aspirát z Douglasova prostoru"/>
+      </concept>
+      <concept>
+        <code value="258664003"/>
+        <display value="Vzorek pomocí lepicí pásky"/>
+      </concept>
+      <concept>
+        <code value="119348006"/>
+        <display value="Semenná plazma"/>
+      </concept>
+      <concept>
+        <code value="122589008"/>
+        <display value="Sérum od dárce krve"/>
+      </concept>
+      <concept>
+        <code value="122590004"/>
+        <display value="Sérum od pacienta"/>
+      </concept>
+      <concept>
+        <code value="258549008"/>
+        <display value="Kožní šupina"/>
+      </concept>
+      <concept>
+        <code value="258503004"/>
+        <display value="Kožní stěr"/>
+      </concept>
+      <concept>
+        <code value="1179252003"/>
+        <display value="Mikroskopické sklíčko jako vzorek"/>
+      </concept>
+      <concept>
+        <code value="119371008"/>
+        <display value="Vzorek z abscesu"/>
+      </concept>
+      <concept>
+        <code value="446972001"/>
+        <display value="Aspirát z abscesu"/>
+      </concept>
+      <concept>
+        <code value="119392008"/>
+        <display value="Vzorek z anu"/>
+      </concept>
+      <concept>
+        <code value="127456000"/>
+        <display value="Vzorek z prsu"/>
+      </concept>
+      <concept>
+        <code value="16211051000119109"/>
+        <display value="Vzorek z hluboké rány"/>
+      </concept>
+      <concept>
+        <code value="119396006"/>
+        <display value="Vzorek z endometria"/>
+      </concept>
+      <concept>
+        <code value="440229008"/>
+        <display value="Vzorek z prostředí"/>
+      </concept>
+      <concept>
+        <code value="16212771000119105"/>
+        <display value="Biopsie z víčka"/>
+      </concept>
+      <concept>
+        <code value="449446003"/>
+        <display value="Vzorek ze žlučníku"/>
+      </concept>
+      <concept>
+        <code value="119344008"/>
+        <display value="Vzorek z genitálního systému"/>
+      </concept>
+      <concept>
+        <code value="447098004"/>
+        <display value="Seškrab z nehtu"/>
+      </concept>
+      <concept>
+        <code value="430248009"/>
+        <display value="Vzorek z nosohltanu"/>
+      </concept>
+      <concept>
+        <code value="447154002"/>
+        <display value="Vzorek z nosu"/>
+      </concept>
+      <concept>
+        <code value="119397002"/>
+        <display value="Vzorek z penisu"/>
+      </concept>
+      <concept>
+        <code value="434250007"/>
+        <display value="Biopsie perikardu"/>
+      </concept>
+      <concept>
+        <code value="438660002"/>
+        <display value="Vzorek z implantátu"/>
+      </concept>
+      <concept>
+        <code value="446952006"/>
+        <display value="Seškrab z kůže"/>
+      </concept>
+      <concept>
+        <code value="119295008"/>
+        <display value="Aspirát"/>
+      </concept>
+      <concept>
+        <code value="119324002"/>
+        <display value="Vzorek neznámého materiálu"/>
+      </concept>
+      <concept>
+        <code value="703691002"/>
+        <display value="Vycentrovaný mozkomíšní mok"/>
+      </concept>
+      <concept>
+        <code value="258609006"/>
+        <display value="Aspirát sputa z trachey"/>
+      </concept>
+      <concept>
+        <code value="447488002"/>
+        <display value="Suprapubická moč"/>
+      </concept>
+      <concept>
+        <code value="373826004"/>
+        <display value="Chirurgicky odstraněná tkáň"/>
+      </concept>
+      <concept>
+        <code value="472896000"/>
+        <display value="Stěr z puchýře"/>
+      </concept>
+      <concept>
+        <code value="733104004"/>
+        <display value="Stěr z bukální sliznice"/>
+      </concept>
+      <concept>
+        <code value="472884007"/>
+        <display value="Stěr z hluboké rány"/>
+      </concept>
+      <concept>
+        <code value="472886009"/>
+        <display value="Stěr z gastrostomie"/>
+      </concept>
+      <concept>
+        <code value="472901003"/>
+        <display value="Stěr z paranazální dutiny"/>
+      </concept>
+      <concept>
+        <code value="472881004"/>
+        <display value="Stěr z hltanu"/>
+      </concept>
+      <concept>
+        <code value="472882006"/>
+        <display value="Stěr z povrchové rány"/>
+      </concept>
+      <concept>
+        <code value="33901000087104"/>
+        <display value="Stěr z tracheostomie"/>
+      </concept>
+      <concept>
+        <code value="472871003"/>
+        <display value="Stěr z vředu"/>
+      </concept>
+      <concept>
+        <code value="445364004"/>
+        <display value="Stěr z axily"/>
+      </concept>
+      <concept>
+        <code value="445444005"/>
+        <display value="Stěr z třísla"/>
+      </concept>
+      <concept>
+        <code value="445367006"/>
+        <display value="Stěr z pupku"/>
+      </concept>
+      <concept>
+        <code value="710069003"/>
+        <display value="Vzorek klíštěte"/>
+      </concept>
+      <concept>
+        <code value="128157004"/>
+        <display value="Tkáně z mozku"/>
+      </concept>
+      <concept>
+        <code value="399492000"/>
+        <display value="Tkáně z plic"/>
+      </concept>
+      <concept>
+        <code value="699874006"/>
+        <display value="Tkáně z perikardu"/>
+      </concept>
+      <concept>
+        <code value="57741000052105"/>
+        <display value="Tracheální sekret"/>
+      </concept>
+      <concept>
+        <code value="472938003"/>
+        <display value="Tracheální kanyla jako vzorek"/>
+      </concept>
+      <concept>
+        <code value="122877000"/>
+        <display value="Aspirát z horních dýchacích cest"/>
+      </concept>
+      <concept>
+        <code value="258604001"/>
+        <display value="Vzorek z horních dýchacích cest"/>
+      </concept>
+      <concept>
+        <code value="122565001"/>
+        <display value="Vzorek z močového katétru"/>
+      </concept>
+      <concept>
+        <code value="446130001"/>
+        <display value="Vzorek moči z močového měchýře"/>
+      </concept>
+      <concept>
+        <code value="442173007"/>
+        <display value="Vzorek moči z nefrostomie"/>
+      </concept>
+      <concept>
+        <code value="446306009"/>
+        <display value="Vzorek moči ze sběrného sáčku"/>
+      </concept>
+      <concept>
+        <code value="446846006"/>
+        <display value="Moč z permanentního katétru"/>
+      </concept>
+      <concept>
+        <code value="16221251000119108"/>
+        <display value="Moč z jednorázového katétru"/>
+      </concept>
+      <concept>
+        <code value="258577004"/>
+        <display value="Vaginální sekret"/>
+      </concept>
+      <concept>
+        <code value="472932002"/>
+        <display value="Vaskulární katétr jako vzorek"/>
+      </concept>
+      <concept>
+        <code value="703432000"/>
+        <display value="Vzorek žilní plazmy"/>
+      </concept>
+      <concept>
+        <code value="472942000"/>
+        <display value="Ventrikuloperitoneální shunt jako vzorek"/>
+      </concept>
+      <concept>
+        <code value="258438000"/>
+        <display value="Vzorek sklivce"/>
+      </concept>
+      <concept>
+        <code value="119318008"/>
+        <display value="Vzorek vody"/>
+      </concept>
+      <concept>
+        <code value="57921000052103"/>
+        <display value="Plná krev s edetovou kyselinou"/>
+      </concept>
+      <concept>
+        <code value="258565009"/>
+        <display value="Vzorek choriových klků"/>
+      </concept>
+      <concept>
+        <code value="258599007"/>
+        <display value="Roztok z kontaktní čočky"/>
+      </concept>
+      <concept>
+        <code value="439961009"/>
+        <display value="Implantát jako vzorek"/>
+      </concept>
+      <concept>
+        <code value="258603007"/>
+        <display value="Vzorek z dýchacího systému"/>
+      </concept>
+      <concept>
+        <code value="119368000"/>
+        <display value="Vzorek z cysty"/>
+      </concept>
+      <concept>
+        <code value="433861002"/>
+        <display value="FNAB z paranazální dutiny"/>
+      </concept>
+      <concept>
+        <code value="734379005"/>
+        <display value="Vzorek z periodoncia"/>
+      </concept>
+      <concept>
+        <code value="119369008"/>
+        <display value="Vzorek z vředu"/>
+      </concept>
+      <concept>
+        <code value="430304001"/>
+        <display value="Vzorek z neurčené lokalizace"/>
+      </concept>
+      <concept>
+        <code value="127479004"/>
+        <display value="Vzorek z dělohy"/>
+      </concept>
+      <concept>
+        <code value="122550002"/>
+        <display value="FNAB vzorek"/>
+      </concept>
+      <concept>
+        <code value="258576008"/>
+        <display value="Suprapubický aspirát"/>
+      </concept>
+      <concept>
+        <code value="445297001"/>
+        <display value="Stěr z vnitřní části nosu"/>
+      </concept>
+      <concept>
+        <code value="699287008"/>
+        <display value="Moč ze suprapubického permanentního katétru"/>
+      </concept>
+      <concept>
+        <code value="444946008"/>
+        <display value="Dialyzační tekutina před dialýzou"/>
+      </concept>
+      <concept>
+        <code value="122592007"/>
+        <display value="Sérum nebo plazma"/>
+      </concept>
+      <concept>
+        <code value="309141004"/>
+        <display value="Vzorek nadledvin"/>
+      </concept>
+      <concept>
+        <code value="309479002"/>
+        <display value="Vzorek tepny"/>
+      </concept>
+      <concept>
+        <code value="122558009"/>
+        <display value="Vzorek krve z krevního přípravku"/>
+      </concept>
+      <concept>
+        <code value="122559001"/>
+        <display value="Kontrolní krevní vzorek"/>
+      </concept>
+      <concept>
+        <code value="122562003"/>
+        <display value="Krevní vzorek novorozence"/>
+      </concept>
+      <concept>
+        <code value="258587000"/>
+        <display value="Buffy coat (vrstva leukocytů)"/>
+      </concept>
+      <concept>
+        <code value="433116003"/>
+        <display value="FNAB z jater"/>
+      </concept>
+      <concept>
+        <code value="119346005"/>
+        <display value="Vzorek vaječného žloutku"/>
+      </concept>
+      <concept>
+        <code value="122582004"/>
+        <display value="Vzorek erytrocytů z krevního přípravku"/>
+      </concept>
+      <concept>
+        <code value="119333000"/>
+        <display value="Vzorek fibroblastů"/>
+      </concept>
+      <concept>
+        <code value="119320006"/>
+        <display value="Vzorek potraviny"/>
+      </concept>
+      <concept>
+        <code value="122576002"/>
+        <display value="Genitální hlen"/>
+      </concept>
+      <concept>
+        <code value="119337004"/>
+        <display value="Vzorek vdechovaného plynu"/>
+      </concept>
+      <concept>
+        <code value="258606004"/>
+        <display value="Vzorek z dolních dýchacích cest"/>
+      </concept>
+      <concept>
+        <code value="119316007"/>
+        <display value="Nebuněčná (nebiologická) tekutina"/>
+      </concept>
+      <concept>
+        <code value="122551003"/>
+        <display value="Vzorek periferní krve"/>
+      </concept>
+      <concept>
+        <code value="119301009"/>
+        <display value="Vzorek rostliny"/>
+      </concept>
+      <concept>
+        <code value="119362004"/>
+        <display value="Plazma chudá na trombocyty"/>
+      </concept>
+      <concept>
+        <code value="119363009"/>
+        <display value="Plazma bohatá na trombocyty"/>
+      </concept>
+      <concept>
+        <code value="119358005"/>
+        <display value="Vzorek trombocytů"/>
+      </concept>
+      <concept>
+        <code value="725946000"/>
+        <display value="Vzorek retikulocytů"/>
+      </concept>
+      <concept>
+        <code value="309508006"/>
+        <display value="FNAB z léze měkkých tkání"/>
+      </concept>
+      <concept>
+        <code value="119391001"/>
+        <display value="Vzorek z bronchu"/>
+      </concept>
+      <concept>
+        <code value="119367005"/>
+        <display value="Vzorek z popáleniny"/>
+      </concept>
+      <concept>
+        <code value="702701006"/>
+        <display value="Vzorek z čípku nebo pochvy"/>
+      </concept>
+      <concept>
+        <code value="119400006"/>
+        <display value="Vzorek z rohovky"/>
+      </concept>
+      <concept>
+        <code value="1003708009"/>
+        <display value="Vzorek z drénu"/>
+      </concept>
+      <concept>
+        <code value="127462005"/>
+        <display value="Vzorek ze srdce"/>
+      </concept>
+      <concept>
+        <code value="127458004"/>
+        <display value="Vzorek z plic"/>
+      </concept>
+      <concept>
+        <code value="122614000"/>
+        <display value="FNAB z plic"/>
+      </concept>
+      <concept>
+        <code value="432382007"/>
+        <display value="FNAB z lymfatické uzliny"/>
+      </concept>
+      <concept>
+        <code value="128155007"/>
+        <display value="Vzorek z ovaria"/>
+      </concept>
+      <concept>
+        <code value="431406009"/>
+        <display value="FNAB z pankreatu"/>
+      </concept>
+      <concept>
+        <code value="441695007"/>
+        <display value="FNAB z příušní žlázy"/>
+      </concept>
+      <concept>
+        <code value="430250001"/>
+        <display value="Vzorek z peritonea"/>
+      </concept>
+      <concept>
+        <code value="127459007"/>
+        <display value="Vzorek z pleury"/>
+      </concept>
+      <concept>
+        <code value="119386002"/>
+        <display value="Vzorek z prostaty"/>
+      </concept>
+      <concept>
+        <code value="384819001"/>
+        <display value="Jehlová biopsie prostaty"/>
+      </concept>
+      <concept>
+        <code value="434406008"/>
+        <display value="FNAB ze slinné žlázy"/>
+      </concept>
+      <concept>
+        <code value="441810001"/>
+        <display value="FNAB z měkké tkáně"/>
+      </concept>
+      <concept>
+        <code value="441749007"/>
+        <display value="FNAB z podčelistní žlázy"/>
+      </concept>
+      <concept>
+        <code value="128154006"/>
+        <display value="Vzorek z varlete"/>
+      </concept>
+      <concept>
+        <code value="119389009"/>
+        <display value="Vzorek z hrdla"/>
+      </concept>
+      <concept>
+        <code value="399680007"/>
+        <display value="Vzorek ze štítné žlázy"/>
+      </concept>
+      <concept>
+        <code value="119390000"/>
+        <display value="Vzorek z trachey"/>
+      </concept>
+      <concept>
+        <code value="399411006"/>
+        <display value="Vzorek z trofoblastu"/>
+      </concept>
+      <concept>
+        <code value="119393003"/>
+        <display value="Vzorek z uretry"/>
+      </concept>
+      <concept>
+        <code value="450872001"/>
+        <display value="Vzorek z močového měchýře"/>
+      </concept>
+      <concept>
+        <code value="119395005"/>
+        <display value="Vzorek z děložního čípku"/>
+      </concept>
+      <concept>
+        <code value="119394009"/>
+        <display value="Vzorek z pochvy"/>
+      </concept>
+      <concept>
+        <code value="119365002"/>
+        <display value="Vzorek z rány"/>
+      </concept>
+      <concept>
+        <code value="309146009"/>
+        <display value="FNAB štítné žlázy"/>
+      </concept>
+      <concept>
+        <code value="122638001"/>
+        <display value="Tkáně z tenkého střeva"/>
+      </concept>
+      <concept>
+        <code value="258444001"/>
+        <display value="Vzorek komorové vody"/>
+      </concept>
+      <concept>
+        <code value="258485006"/>
+        <display value="Seškrab z rohovky"/>
+      </concept>
+      <concept>
+        <code value="168137004"/>
+        <display value="Gastrický aspirát"/>
+      </concept>
+      <concept>
+        <code value="1259931002"/>
+        <display value="Vzorek vousů"/>
+      </concept>
+      <concept>
+        <code value="168145009"/>
+        <display value="Vzorek lymfy"/>
+      </concept>
+      <concept>
+        <code value="309507001"/>
+        <display value="Biopsie svalu"/>
+      </concept>
+      <concept>
+        <code value="16224171000119108"/>
+        <display value="Nasotracheální aspirát"/>
+      </concept>
+      <concept>
+        <code value="309068002"/>
+        <display value="Vzorek kožní léze"/>
+      </concept>
+      <concept>
+        <code value="396997002"/>
+        <display value="Aspirát z kostní dřeně"/>
+      </concept>
+      <concept>
+        <code value="16215771000119101"/>
+        <display value="FNAB z tříselné uzliny"/>
+      </concept>
+      <concept>
+        <code value="430236006"/>
+        <display value="Vzorek z nervu"/>
+      </concept>
+      <concept>
+        <code value="472898004"/>
+        <display value="Stěr z ruky"/>
+      </concept>
+      <concept>
+        <code value="472868006"/>
+        <display value="Stěr z peritoneální dutiny"/>
+      </concept>
+      <concept>
+        <code value="444787003"/>
+        <display value="Stěr z endocervixu"/>
+      </concept>
+      <concept>
+        <code value="16223971000119109"/>
+        <display value="FNAB synoviální tekutiny"/>
+      </concept>
+      <concept>
+        <code value="122656001"/>
+        <display value="Tkáně ze žlučníku"/>
+      </concept>
+      <concept>
+        <code value="122736005"/>
+        <display value="Tkáně z placenty"/>
+      </concept>
+      <concept>
+        <code value="369611008"/>
+        <display value="Biopsie tenkého střeva"/>
+      </concept>
+      <concept>
+        <code value="309191000"/>
+        <display value="Biopsie tonsily"/>
+      </concept>
+      <concept>
+        <code value="697989009"/>
+        <display value="Stěr z přední části nosu"/>
+      </concept>
+      <concept>
+        <code value="57931000052101"/>
+        <display value="Kombinovaný vzorek cervikálního hlenu a moči"/>
+      </concept>
+      <concept>
+        <code value="433324003"/>
+        <display value="Vzorek z oční krajiny"/>
+      </concept>
+      <concept>
+        <code value="16216171000119108"/>
+        <display value="Aspirát z jater"/>
+      </concept>
+      <concept>
+        <code value="16221491000119104"/>
+        <display value="Samovolně vyloučená moč"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

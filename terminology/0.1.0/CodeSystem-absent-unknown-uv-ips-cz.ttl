@@ -1,0 +1,331 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hl7.cz/terminology/CodeSystem/absent-unknown-uv-ips-cz> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "absent-unknown-uv-ips-cz"] ; # 
+  fhir:language [ fhir:v "cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xml:lang=\"cs\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"cs\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem absent-unknown-uv-ips-cz</b></p><a name=\"absent-unknown-uv-ips-cz\"> </a><a name=\"hcabsent-unknown-uv-ips-cz\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: cs</p></div><p>This code system supplement <code>https://ncez.mzcr.cz/terminology/CodeSystem/absent-unknown-uv-ips-cz</code> defines displays on the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://hl7.org/fhir/uv/ips/STU1.1/CodeSystem-absent-unknown-uv-ips.html#absent-unknown-uv-ips-no-allergy-info\">no-allergy-info</a><a name=\"absent-unknown-uv-ips-cz-no-allergy-info\"> </a></td><td>žádné informace o alergiích</td><td>Nejsou známy žádné informace o alergiích pacienta.</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://hl7.org/fhir/uv/ips/STU1.1/CodeSystem-absent-unknown-uv-ips.html#absent-unknown-uv-ips-no-device-info\">no-device-info</a><a name=\"absent-unknown-uv-ips-cz-no-device-info\"> </a></td><td>žádné informace o používaných zdravotnických prostředcích a implantátech</td><td>Nejsou k dispozici žádné informace o implantátech nebo externích zdravotnických prostředcích používaných pacientem.</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://hl7.org/fhir/uv/ips/STU1.1/CodeSystem-absent-unknown-uv-ips.html#absent-unknown-uv-ips-no-immunization-info\">no-immunization-info</a><a name=\"absent-unknown-uv-ips-cz-no-immunization-info\"> </a></td><td>žádné informace o očkování</td><td>Historie očkování není známa.</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://hl7.org/fhir/uv/ips/STU1.1/CodeSystem-absent-unknown-uv-ips.html#absent-unknown-uv-ips-no-known-allergies\">no-known-allergies</a><a name=\"absent-unknown-uv-ips-cz-no-known-allergies\"> </a></td><td>žádné známé alergie</td><td>Nejsou známy žádné alergie pacienta.</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://hl7.org/fhir/uv/ips/STU1.1/CodeSystem-absent-unknown-uv-ips.html#absent-unknown-uv-ips-no-known-devices\">no-known-devices</a><a name=\"absent-unknown-uv-ips-cz-no-known-devices\"> </a></td><td>žádné implantáty ani jiné zdravotnické prostředky</td><td>Nejsou známy žádné významné implantáty či externí zdravotnické prostředky které pacient používá. To znamená, že pacient žádné zdravotnické prostředky nepoužívá nebo že nejsou pro účel tohoto záznamu relevantní.</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://hl7.org/fhir/uv/ips/STU1.1/CodeSystem-absent-unknown-uv-ips.html#absent-unknown-uv-ips-no-known-immunizations\">no-known-immunizations</a><a name=\"absent-unknown-uv-ips-cz-no-known-immunizations\"> </a></td><td>žádné známé očkování</td><td>Historie očkování neobsahuje žádné záznamy. To znamená, že pacient buď nebyl v minulosti očkován nebo údaje o provedeném očkování nejsou pro účely tohoto záznamu relevantní.</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://hl7.org/fhir/uv/ips/STU1.1/CodeSystem-absent-unknown-uv-ips.html#absent-unknown-uv-ips-no-known-medications\">no-known-medications</a><a name=\"absent-unknown-uv-ips-cz-no-known-medications\"> </a></td><td>žádná známá medikace</td><td>Žádná známá medikace. To znamená, že pacient buď nemá žádnou medikaci, či medikace není pro účely tohoto záznamu relevantní.</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://hl7.org/fhir/uv/ips/STU1.1/CodeSystem-absent-unknown-uv-ips.html#absent-unknown-uv-ips-no-known-problems\">no-known-problems</a><a name=\"absent-unknown-uv-ips-cz-no-known-problems\"> </a></td><td>žádné známé zdravotní problémy</td><td>Pacient nemá žádné známé zdravotní problémy či onemocnění, která by byla relevantní pro účely tohoto záznamu.</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://hl7.org/fhir/uv/ips/STU1.1/CodeSystem-absent-unknown-uv-ips.html#absent-unknown-uv-ips-no-known-procedures\">no-known-procedures</a><a name=\"absent-unknown-uv-ips-cz-no-known-procedures\"> </a></td><td>žádné provedené výkony</td><td>Pacientovy nebyly provedeny žádné zdravotní výkony relevantní pro účely tohoto záznamu.</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://hl7.org/fhir/uv/ips/STU1.1/CodeSystem-absent-unknown-uv-ips.html#absent-unknown-uv-ips-no-medication-info\">no-medication-info</a><a name=\"absent-unknown-uv-ips-cz-no-medication-info\"> </a></td><td>žádné informace o medikaci</td><td>Nejsou k dispozici žádné informace o medikaci či o podávání léků pacientovi.</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://hl7.org/fhir/uv/ips/STU1.1/CodeSystem-absent-unknown-uv-ips.html#absent-unknown-uv-ips-no-problem-info\">no-problem-info</a><a name=\"absent-unknown-uv-ips-cz-no-problem-info\"> </a></td><td>žádné informace o zdravotních problémech</td><td>Nejsou k dispozici žádné informace o zdravotních problémech či onemocněních pacienta.</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://hl7.org/fhir/uv/ips/STU1.1/CodeSystem-absent-unknown-uv-ips.html#absent-unknown-uv-ips-no-procedure-info\">no-procedure-info</a><a name=\"absent-unknown-uv-ips-cz-no-procedure-info\"> </a></td><td>žádné informace o provedených výkonech</td><td>Nejsou k dispozici žádné informace o provedených výkonech.</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>English (English, en)</b></td><td><b>Italian (Italy) (it)</b></td></tr><tr><td>no-allergy-info</td><td>No information about allergies</td><td>Nessuna informazione sulle allergie</td></tr><tr><td>no-device-info</td><td>No information about devices</td><td>Nessuna informazione sui dispositivi medici</td></tr><tr><td>no-immunization-info</td><td>No information about immunizations</td><td>Nessuna informazione sulle vaccinazioni</td></tr><tr><td>no-known-allergies</td><td>No known allergies</td><td>Nessuna allergia nota</td></tr><tr><td>no-known-devices</td><td>No known devices in use</td><td>Non sono noti dispositivi medici in uso</td></tr><tr><td>no-known-immunizations</td><td>No known immunizations</td><td>Nessuna vaccinazione nota</td></tr><tr><td>no-known-medications</td><td>No known medications</td><td>Nessuna terapia farmacologica nota</td></tr><tr><td>no-known-problems</td><td>No known problems</td><td>Nessun problema o disabilità rilevante nota</td></tr><tr><td>no-known-procedures</td><td>No known procedures</td><td>Nessuna procedure pregressa rilevante nota</td></tr><tr><td>no-medication-info</td><td>No information about medications</td><td>Nessuna informazione disponibile su terapie farmacologiche</td></tr><tr><td>no-problem-info</td><td>No information about problems</td><td>Nessuna informazione disponibile su problemi o disabilità</td></tr><tr><td>no-procedure-info</td><td>No information about past history of procedures</td><td>Nessuna informazione disponibile su procedure pregresse</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [
+     fhir:v "https://ncez.mzcr.cz/terminology/CodeSystem/absent-unknown-uv-ips-cz"^^xsd:anyURI ;
+     fhir:l <https://ncez.mzcr.cz/terminology/CodeSystem/absent-unknown-uv-ips-cz>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "AbsentAndUnknownDataUvIps"] ; # 
+  fhir:title [ fhir:v "Absent a Unknown Data - IPS"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2025-11-26T13:38:57.738896Z"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 Czech Republic"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HL7 Czech Republic" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://www.hl7.cz/" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Kódový systém pro označení nepřítomnosti nebo neznalosti údajů. Doplněk kódového systému hl7-IPS (International patient Summary)."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
+         fhir:l <urn:iso:std:iso:3166>
+       ] ;
+       fhir:code [ fhir:v "CZ" ] ;
+       fhir:display [ fhir:v "Czechia" ]
+     ] )
+  ] ) ; # 
+  fhir:hierarchyMeaning [ fhir:v "is-a"] ; # 
+  fhir:content [ fhir:v "supplement"] ; # 
+  fhir:supplements [
+     fhir:v "http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips|1.1.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips?version=1.1.0>
+  ] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "no-allergy-info" ] ;
+     fhir:display [ fhir:v "žádné informace o alergiích" ] ;
+     fhir:definition [ fhir:v "Nejsou známy žádné informace o alergiích pacienta." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "There is no information available regarding the subject's allergy conditions." ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "No information about allergies" ]
+     ] [
+       fhir:language [ fhir:v "it-IT" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "Nessuna informazione sulle allergie" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "no-device-info" ] ;
+     fhir:display [ fhir:v "žádné informace o používaných zdravotnických prostředcích a implantátech" ] ;
+     fhir:definition [ fhir:v "Nejsou k dispozici žádné informace o implantátech nebo externích zdravotnických prostředcích používaných pacientem." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "There is no information available regarding implanted or external devices for the subject." ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "No information about devices" ]
+     ] [
+       fhir:language [ fhir:v "it-IT" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "Nessuna informazione sui dispositivi medici" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "no-immunization-info" ] ;
+     fhir:display [ fhir:v "žádné informace o očkování" ] ;
+     fhir:definition [ fhir:v "Historie očkování není známa." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "The subject's history of previous immunizations is not known." ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "No information about immunizations" ]
+     ] [
+       fhir:language [ fhir:v "it-IT" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "Nessuna informazione sulle vaccinazioni" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "no-known-allergies" ] ;
+     fhir:display [ fhir:v "žádné známé alergie" ] ;
+     fhir:definition [ fhir:v "Nejsou známy žádné alergie pacienta." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "The subject has no known allergy conditions." ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "No known allergies" ]
+     ] [
+       fhir:language [ fhir:v "it-IT" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "Nessuna allergia nota" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "no-known-devices" ] ;
+     fhir:display [ fhir:v "žádné implantáty ani jiné zdravotnické prostředky" ] ;
+     fhir:definition [ fhir:v "Nejsou známy žádné významné implantáty či externí zdravotnické prostředky které pacient používá. To znamená, že pacient žádné zdravotnické prostředky nepoužívá nebo že nejsou pro účel tohoto záznamu relevantní." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "There are no devices known to be implanted in or used by the subject that have to be reported in this record. This can mean either that there are none known, or that those known are not relevant for the purpose of this record." ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "No known devices in use" ]
+     ] [
+       fhir:language [ fhir:v "it-IT" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "Non sono noti dispositivi medici in uso" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "no-known-immunizations" ] ;
+     fhir:display [ fhir:v "žádné známé očkování" ] ;
+     fhir:definition [ fhir:v "Historie očkování neobsahuje žádné záznamy. To znamená, že pacient buď nebyl v minulosti očkován nebo údaje o provedeném očkování nejsou pro účely tohoto záznamu relevantní." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "There is no history of previous immunizations for the subject that have to be reported in this record. This can mean either that there are none known, or that those known are not relevant for the purpose of this record." ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "No known immunizations" ]
+     ] [
+       fhir:language [ fhir:v "it-IT" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "Nessuna vaccinazione nota" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "no-known-medications" ] ;
+     fhir:display [ fhir:v "žádná známá medikace" ] ;
+     fhir:definition [ fhir:v "Žádná známá medikace. To znamená, že pacient buď nemá žádnou medikaci, či medikace není pro účely tohoto záznamu relevantní." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "There are no medications for the subject that have to be reported in this record. This can mean either that there are none known, or that those known are not relevant for the purpose of this record." ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "No known medications" ]
+     ] [
+       fhir:language [ fhir:v "it-IT" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "Nessuna terapia farmacologica nota" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "no-known-problems" ] ;
+     fhir:display [ fhir:v "žádné známé zdravotní problémy" ] ;
+     fhir:definition [ fhir:v "Pacient nemá žádné známé zdravotní problémy či onemocnění, která by byla relevantní pro účely tohoto záznamu." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "The subject is not known to have any health problems or disabilities that have to be reported in this record. This can mean either that there are none known, or that those known are not relevant for the purpose of this record." ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "No known problems" ]
+     ] [
+       fhir:language [ fhir:v "it-IT" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "Nessun problema o disabilità rilevante nota" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "no-known-procedures" ] ;
+     fhir:display [ fhir:v "žádné provedené výkony" ] ;
+     fhir:definition [ fhir:v "Pacientovy nebyly provedeny žádné zdravotní výkony relevantní pro účely tohoto záznamu." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "The subject has no history of procedures that have to be reported in this record. This can mean either that there are none known, or that those known are not relevant for the purpose of this record." ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "No known procedures" ]
+     ] [
+       fhir:language [ fhir:v "it-IT" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "Nessuna procedure pregressa rilevante nota" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "no-medication-info" ] ;
+     fhir:display [ fhir:v "žádné informace o medikaci" ] ;
+     fhir:definition [ fhir:v "Nejsou k dispozici žádné informace o medikaci či o podávání léků pacientovi." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "There is no information available about the subject's medication use or administration." ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "No information about medications" ]
+     ] [
+       fhir:language [ fhir:v "it-IT" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "Nessuna informazione disponibile su terapie farmacologiche" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "no-problem-info" ] ;
+     fhir:display [ fhir:v "žádné informace o zdravotních problémech" ] ;
+     fhir:definition [ fhir:v "Nejsou k dispozici žádné informace o zdravotních problémech či onemocněních pacienta." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "There is no information available about the subject's health problems or disabilities." ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "No information about problems" ]
+     ] [
+       fhir:language [ fhir:v "it-IT" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "Nessuna informazione disponibile su problemi o disabilità" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "no-procedure-info" ] ;
+     fhir:display [ fhir:v "žádné informace o provedených výkonech" ] ;
+     fhir:definition [ fhir:v "Nejsou k dispozici žádné informace o provedených výkonech." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "There is no information available about the subject's past history of procedures." ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "No information about past history of procedures" ]
+     ] [
+       fhir:language [ fhir:v "it-IT" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "Nessuna informazione disponibile su procedure pregresse" ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

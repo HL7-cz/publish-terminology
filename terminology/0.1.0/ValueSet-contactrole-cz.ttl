@@ -1,0 +1,85 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hl7.cz/terminology/ValueSet/contactrole-cz> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "contactrole-cz"] ; # 
+  fhir:language [ fhir:v "cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div [ fhir:v "<div xml:lang=\"cs\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"cs\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet contactrole-cz</b></p><a name=\"contactrole-cz\"> </a><a name=\"hccontactrole-cz\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: cs</p></div><p>This ValueSet requires the Code system Supplement <a href=\"CodeSystem-v2-0131-cz.html\">Contact Role (CZ supplement)</a>.</p><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v2-0131.html\"><code>http://terminology.hl7.org/CodeSystem/v2-0131</code></a><span title=\"Version is not explicitly stated, which means it is fixed to 2.1.0, the version found through the package references\"> version ?2.1.0</span></li></ul><p>This value set excludes codes based on the following rules:</p><ul><li>Exclude these codes as defined in <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v2-0131.html\"><code>http://terminology.hl7.org/CodeSystem/v2-0131</code></a><span title=\"Version is not explicitly stated, which means it is fixed to 2.1.0, the version found through the package references\"> version ?2.1.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><code>O</code></td><td style=\"color: #cccccc\">Other</td><td>Other</td></tr><tr><td><code>BP</code></td><td style=\"color: #cccccc\">Billing contact person</td><td>Billing contact person</td></tr><tr><td><code>EP</code></td><td style=\"color: #cccccc\">Emergency contact person</td><td>Emergency contact person</td></tr><tr><td><code>PR</code></td><td style=\"color: #cccccc\">Person preparing referral</td><td>Person preparing referral</td></tr><tr><td><code>CP</code></td><td style=\"color: #cccccc\">Contact person</td><td>Contact person</td></tr></table></li></ul></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/valueset-supplement"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/valueset-supplement>
+     ] ;
+     fhir:value [
+       a fhir:Canonical ;
+       fhir:v "https://hl7.cz/terminology/CodeSystem/v2-0131-cz"^^xsd:anyURI ;
+       fhir:l <https://hl7.cz/terminology/CodeSystem/v2-0131-cz>
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "https://hl7.cz/terminology/ValueSet/contactrole-cz"^^xsd:anyURI ;
+     fhir:l <https://hl7.cz/terminology/ValueSet/contactrole-cz>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "Hl7vs_contactrole_cz"] ; # 
+  fhir:title [ fhir:v "Contact Role (CZ)"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2025-04-03T08:19:42.070148Z"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 Czech Republic"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HL7 Czech Republic" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://www.hl7.cz/" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Číselník rolí kontaktních osob ve vztahu k pacientovi. (Concepts specifying role of contact person.)"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
+         fhir:l <urn:iso:std:iso:3166>
+       ] ;
+       fhir:code [ fhir:v "CZ" ] ;
+       fhir:display [ fhir:v "Czechia" ]
+     ] )
+  ] ) ; # 
+  fhir:copyright [ fhir:v "HL7 International"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0131"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0131>
+       ]
+     ] ) ;
+     fhir:exclude ( [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0131"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0131>
+       ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "O" ]
+       ] [
+         fhir:code [ fhir:v "BP" ]
+       ] [
+         fhir:code [ fhir:v "EP" ]
+       ] [
+         fhir:code [ fhir:v "PR" ]
+       ] [
+         fhir:code [ fhir:v "CP" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

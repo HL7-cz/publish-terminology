@@ -1,0 +1,119 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "https://hl7.cz/terminology/CodeSystem/administrative-gender-cz",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "AdministrativeGenderCz",
+      "title" : "Administrative Gender (CZ supplement)",
+      "description" : "Pohlaví osoby používané pro administrativní účely. The gender of a person used for administrative purposes."
+    },
+    {
+      "url" : "https://hl7.cz/terminology/CodeSystem/coverage-selfpay-cz",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "CoverageSelfPayCodesCZ",
+      "title" : "Coverage SelfPay Codes (CZ supplement)",
+      "description" : "This code system supplements Coverage SelfPay."
+    },
+    {
+      "url" : "https://hl7.cz/terminology/CodeSystem/v2-0131-cz",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "ContactRole2Cz",
+      "title" : "Contact Role (CZ supplement)",
+      "description" : "Role kontaktní osoby. FHIR Code system definition for HL7 v2 table 0131 (Contact Role)."
+    },
+    {
+      "url" : "https://hl7.cz/terminology/CodeSystem/v3-ActCode-cz",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "v3-ActCode",
+      "title" : "v3 Code System ActCode",
+      "description" : "This code system supplements v3 ActCode."
+    },
+    {
+      "url" : "https://hl7.cz/terminology/CodeSystem/v3-RoleCode-cz",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "RoleCodeCz",
+      "title" : "RoleCode (CZ Supplement)",
+      "description" : "Český doplněk kódového systému v3-RoleCode, který je souborem kódů blíže specifikujících druh Role; obsahuje specifické klasifikační kódy pro další upřesnění kódů RoleClass. A Czech supplement to the v3-RoleCode code system which is a set of codes further specifying the kind of Role; specific classification codes for further qualifying RoleClass codes."
+    },
+    {
+      "url" : "https://ncez.mzcr.cz/nclp/CodeSystem/nclpmat",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "NCLPMAT",
+      "title" : "NCLPMAT",
+      "description" : "NCLP - Číselník materiálů pro laboratoře."
+    },
+    {
+      "url" : "https://ncez.mzcr.cz/terminology/CodeSystem/absent-unknown-uv-ips-cz",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "AbsentAndUnknownDataUvIps",
+      "title" : "Absent a Unknown Data - IPS",
+      "description" : "Kódový systém pro označení nepřítomnosti nebo neznalosti údajů. Doplněk kódového systému hl7-IPS (International patient Summary)."
+    },
+    {
+      "url" : "https://ncez.mzcr.cz/terminology/CodeSystem/drzar",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "CS_Drzar",
+      "title" : "Type of healthcare facility",
+      "description" : "Czech national code system for type of healthcare facility.",
+      "oids" : ["1.2.203.24341.11.2.10.1"]
+    },
+    {
+      "url" : "https://ncez.mzcr.cz/terminology/CodeSystem/healthInsuranceCompanyCode",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "CS_HealthInsuranceCompanyCode",
+      "title" : "Codesystem of Health Insurance Companies",
+      "description" : "National codes of health insurance companies."
+    },
+    {
+      "url" : "https://ncez.mzcr.cz/terminology/CodeSystem/nrzp-povolani",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "NRZP_Povolani",
+      "title" : "NRZP - Czech health professional occupation",
+      "description" : "Czech national code system for health professional occupation used in the national registry of healthcare practicioners.",
+      "oids" : ["1.2.203.24341.11.2.10.2.1"]
+    },
+    {
+      "url" : "https://sukl.cz/terminology/CodeSystem/dlp-atc",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "CS_DLP_atc",
+      "title" : "ATC CZ",
+      "description" : "Czech national version of the Anatomical Therapeutical Chemical (ATC) code system."
+    },
+    {
+      "url" : "https://sukl.cz/terminology/CodeSystem/dlp-formy",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "CS_DLP_formy",
+      "title" : "DLP formy",
+      "description" : "Lékové formy dle DLP."
+    },
+    {
+      "url" : "https://sukl.cz/terminology/CodeSystem/dlp-lecivelatky",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "CS_DLP_lecivelatky",
+      "title" : "Codesystem of DLP Lecive latky",
+      "description" : "Codesystem of DLP Lecive latky. Identification ingredient.",
+      "oids" : ["1.2.203.24341.11.2.7.5"]
+    },
+    {
+      "url" : "https://sukl.cz/terminology/CodeSystem/dlp-lecivepripravky",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "CS_DLP_lecivepripravky",
+      "title" : "Codesystem of DLP Lecive pripravky",
+      "description" : "Codesystem of DLP Lecive pripravky. Identification medication."
+    }
+  ]
+}

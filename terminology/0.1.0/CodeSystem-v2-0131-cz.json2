@@ -1,0 +1,196 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "v2-0131-cz",
+  "language" : "cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"cs\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"cs\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem v2-0131-cz</b></p><a name=\"v2-0131-cz\"> </a><a name=\"hcv2-0131-cz\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: cs</p></div><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>Not Selectable</td><td>notSelectable</td><td>http://hl7.org/fhir/concept-properties#notSelectable</td><td>boolean</td><td>Not Selectable</td></tr></table><p><b>Concepts</b></p><p>This code system supplement <code>https://hl7.cz/terminology/CodeSystem/v2-0131-cz</code> defines displays and properties on the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>Not Selectable</b></td><td><b>English (English, en)</b></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v2-0131.html#v2-0131-C\">C</a><a name=\"v2-0131-cz-C\"> </a></td><td>emergentní kontakt</td><td>Emergentní kontakt</td><td/><td>Emergency Contact</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v2-0131.html#v2-0131-E\">E</a><a name=\"v2-0131-cz-E\"> </a></td><td>zaměstnavatel</td><td>Zaměstnavatel</td><td/><td>Employer</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v2-0131.html#v2-0131-F\">F</a><a name=\"v2-0131-cz-F\"> </a></td><td>federální orgán</td><td>Federální orgán</td><td>true</td><td>Federal Agency</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v2-0131.html#v2-0131-I\">I</a><a name=\"v2-0131-cz-I\"> </a></td><td>pojišťovna</td><td>Pojišťovna</td><td/><td>Insurance Company</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v2-0131.html#v2-0131-N\">N</a><a name=\"v2-0131-cz-N\"> </a></td><td>příbuzný</td><td>Příbuzný</td><td/><td>Next-of-Kin</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v2-0131.html#v2-0131-O\">O</a><a name=\"v2-0131-cz-O\"> </a></td><td>ostatní</td><td>Ostatní</td><td/><td>Other</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v2-0131.html#v2-0131-S\">S</a><a name=\"v2-0131-cz-S\"> </a></td><td>státní orgán</td><td>Státní orgán</td><td/><td>State Agency</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v2-0131.html#v2-0131-U\">U</a><a name=\"v2-0131-cz-U\"> </a></td><td>neznámý</td><td>Neznámý</td><td/><td>Unknown</td></tr></table></div>"
+  },
+  "url" : "https://hl7.cz/terminology/CodeSystem/v2-0131-cz",
+  "version" : "0.1.0",
+  "name" : "ContactRole2Cz",
+  "title" : "Contact Role (CZ supplement)",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2025-03-03T10:36:45.465879Z",
+  "publisher" : "HL7 Czech Republic",
+  "contact" : [{
+    "name" : "HL7 Czech Republic",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.hl7.cz/"
+    }]
+  }],
+  "description" : "Role kontaktní osoby. FHIR Code system definition for HL7 v2 table 0131 (Contact Role).",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CZ",
+      "display" : "Czechia"
+    }]
+  }],
+  "content" : "supplement",
+  "supplements" : "http://terminology.hl7.org/CodeSystem/v2-0131",
+  "property" : [{
+    "code" : "notSelectable",
+    "uri" : "http://hl7.org/fhir/concept-properties#notSelectable",
+    "description" : "Not Selectable",
+    "type" : "boolean"
+  }],
+  "concept" : [{
+    "code" : "C",
+    "display" : "emergentní kontakt",
+    "definition" : "Emergentní kontakt",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "Emergency Contact"
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "Emergency Contact"
+    }]
+  },
+  {
+    "code" : "E",
+    "display" : "zaměstnavatel",
+    "definition" : "Zaměstnavatel",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "Employer"
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "Employer"
+    }]
+  },
+  {
+    "code" : "F",
+    "display" : "federální orgán",
+    "definition" : "Federální orgán",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "Federal Agency"
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "Federal Agency"
+    }],
+    "property" : [{
+      "code" : "notSelectable",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "I",
+    "display" : "pojišťovna",
+    "definition" : "Pojišťovna",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "Insurance Company"
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "Insurance Company"
+    }]
+  },
+  {
+    "code" : "N",
+    "display" : "příbuzný",
+    "definition" : "Příbuzný",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "Next-of-Kin"
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "Next-of-Kin"
+    }]
+  },
+  {
+    "code" : "O",
+    "display" : "ostatní",
+    "definition" : "Ostatní",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "Other"
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "Other"
+    }]
+  },
+  {
+    "code" : "S",
+    "display" : "státní orgán",
+    "definition" : "Státní orgán",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "State Agency"
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "State Agency"
+    }]
+  },
+  {
+    "code" : "U",
+    "display" : "neznámý",
+    "definition" : "Neznámý",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "Unknown"
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "Unknown"
+    }]
+  }]
+}

@@ -1,0 +1,66 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "document-category",
+  "language" : "cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"cs\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"cs\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet document-category</b></p><a name=\"document-category\"> </a><a name=\"hcdocument-category\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: cs</p></div><ul><li>Include these codes as defined in <a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"https://loinc.org/107904-5/\">107904-5</a></td><td>Administrativní záznamy</td></tr><tr><td><a href=\"https://loinc.org/18682-5/\">18682-5</a></td><td>Záznamy zdravotnické záchranné služby</td></tr><tr><td><a href=\"https://loinc.org/11503-0/\">11503-0</a></td><td>Lékařské záznamy</td></tr><tr><td><a href=\"https://loinc.org/11543-6/\">11543-6</a></td><td>Ošetřovatelské záznamy</td></tr><tr><td><a href=\"https://loinc.org/26436-6/\">26436-6</a></td><td>Laboratorní nálezy</td></tr><tr><td><a href=\"https://loinc.org/18726-0/\">18726-0</a></td><td>Nálezy zobrazovacího komplementu</td></tr><tr><td><a href=\"https://loinc.org/57133-1/\">57133-1</a></td><td>Žádanky</td></tr></table></li></ul></div>"
+  },
+  "url" : "https://ncez.mzcr.cz/terminology/ValueSet/document-category",
+  "version" : "0.1.0",
+  "name" : "DocumentCategory",
+  "title" : "Kategorie dokumentů",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2025-11-19T14:36:29.065962Z",
+  "publisher" : "HL7 Czech Republic",
+  "contact" : [{
+    "name" : "HL7 Czech Republic",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.hl7.cz/"
+    }]
+  }],
+  "description" : "Kategorie dokumentů pro vyhledávání",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CZ",
+      "display" : "Czechia"
+    }]
+  }],
+  "copyright" : "This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc",
+  "compose" : {
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "107904-5",
+        "display" : "Administrativní záznamy"
+      },
+      {
+        "code" : "18682-5",
+        "display" : "Záznamy zdravotnické záchranné služby"
+      },
+      {
+        "code" : "11503-0",
+        "display" : "Lékařské záznamy"
+      },
+      {
+        "code" : "11543-6",
+        "display" : "Ošetřovatelské záznamy"
+      },
+      {
+        "code" : "26436-6",
+        "display" : "Laboratorní nálezy"
+      },
+      {
+        "code" : "18726-0",
+        "display" : "Nálezy zobrazovacího komplementu"
+      },
+      {
+        "code" : "57133-1",
+        "display" : "Žádanky"
+      }]
+    }]
+  }
+}

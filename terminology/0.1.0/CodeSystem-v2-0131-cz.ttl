@@ -1,0 +1,206 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hl7.cz/terminology/CodeSystem/v2-0131-cz> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "v2-0131-cz"] ; # 
+  fhir:language [ fhir:v "cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xml:lang=\"cs\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"cs\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem v2-0131-cz</b></p><a name=\"v2-0131-cz\"> </a><a name=\"hcv2-0131-cz\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: cs</p></div><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>Not Selectable</td><td>notSelectable</td><td>http://hl7.org/fhir/concept-properties#notSelectable</td><td>boolean</td><td>Not Selectable</td></tr></table><p><b>Concepts</b></p><p>This code system supplement <code>https://hl7.cz/terminology/CodeSystem/v2-0131-cz</code> defines displays and properties on the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>Not Selectable</b></td><td><b>English (English, en)</b></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v2-0131.html#v2-0131-C\">C</a><a name=\"v2-0131-cz-C\"> </a></td><td>emergentní kontakt</td><td>Emergentní kontakt</td><td/><td>Emergency Contact</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v2-0131.html#v2-0131-E\">E</a><a name=\"v2-0131-cz-E\"> </a></td><td>zaměstnavatel</td><td>Zaměstnavatel</td><td/><td>Employer</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v2-0131.html#v2-0131-F\">F</a><a name=\"v2-0131-cz-F\"> </a></td><td>federální orgán</td><td>Federální orgán</td><td>true</td><td>Federal Agency</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v2-0131.html#v2-0131-I\">I</a><a name=\"v2-0131-cz-I\"> </a></td><td>pojišťovna</td><td>Pojišťovna</td><td/><td>Insurance Company</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v2-0131.html#v2-0131-N\">N</a><a name=\"v2-0131-cz-N\"> </a></td><td>příbuzný</td><td>Příbuzný</td><td/><td>Next-of-Kin</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v2-0131.html#v2-0131-O\">O</a><a name=\"v2-0131-cz-O\"> </a></td><td>ostatní</td><td>Ostatní</td><td/><td>Other</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v2-0131.html#v2-0131-S\">S</a><a name=\"v2-0131-cz-S\"> </a></td><td>státní orgán</td><td>Státní orgán</td><td/><td>State Agency</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v2-0131.html#v2-0131-U\">U</a><a name=\"v2-0131-cz-U\"> </a></td><td>neznámý</td><td>Neznámý</td><td/><td>Unknown</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [
+     fhir:v "https://hl7.cz/terminology/CodeSystem/v2-0131-cz"^^xsd:anyURI ;
+     fhir:l <https://hl7.cz/terminology/CodeSystem/v2-0131-cz>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "ContactRole2Cz"] ; # 
+  fhir:title [ fhir:v "Contact Role (CZ supplement)"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2025-03-03T10:36:45.465879Z"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 Czech Republic"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HL7 Czech Republic" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://www.hl7.cz/" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Role kontaktní osoby. FHIR Code system definition for HL7 v2 table 0131 (Contact Role)."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
+         fhir:l <urn:iso:std:iso:3166>
+       ] ;
+       fhir:code [ fhir:v "CZ" ] ;
+       fhir:display [ fhir:v "Czechia" ]
+     ] )
+  ] ) ; # 
+  fhir:content [ fhir:v "supplement"] ; # 
+  fhir:supplements [
+     fhir:v "http://terminology.hl7.org/CodeSystem/v2-0131"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/CodeSystem/v2-0131>
+  ] ; # 
+  fhir:property ( [
+     fhir:code [ fhir:v "notSelectable" ] ;
+     fhir:uri [
+       fhir:v "http://hl7.org/fhir/concept-properties#notSelectable"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/concept-properties#notSelectable>
+     ] ;
+     fhir:description [ fhir:v "Not Selectable" ] ;
+     fhir:type [ fhir:v "boolean" ]
+  ] ) ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "C" ] ;
+     fhir:display [ fhir:v "emergentní kontakt" ] ;
+     fhir:definition [ fhir:v "Emergentní kontakt" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "Emergency Contact" ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "Emergency Contact" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "E" ] ;
+     fhir:display [ fhir:v "zaměstnavatel" ] ;
+     fhir:definition [ fhir:v "Zaměstnavatel" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "Employer" ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "Employer" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "F" ] ;
+     fhir:display [ fhir:v "federální orgán" ] ;
+     fhir:definition [ fhir:v "Federální orgán" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "Federal Agency" ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "Federal Agency" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "notSelectable" ] ;
+       fhir:value [
+         a fhir:Boolean ;
+         fhir:v true
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "I" ] ;
+     fhir:display [ fhir:v "pojišťovna" ] ;
+     fhir:definition [ fhir:v "Pojišťovna" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "Insurance Company" ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "Insurance Company" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "N" ] ;
+     fhir:display [ fhir:v "příbuzný" ] ;
+     fhir:definition [ fhir:v "Příbuzný" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "Next-of-Kin" ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "Next-of-Kin" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "O" ] ;
+     fhir:display [ fhir:v "ostatní" ] ;
+     fhir:definition [ fhir:v "Ostatní" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "Other" ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "Other" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "S" ] ;
+     fhir:display [ fhir:v "státní orgán" ] ;
+     fhir:definition [ fhir:v "Státní orgán" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "State Agency" ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "State Agency" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "U" ] ;
+     fhir:display [ fhir:v "neznámý" ] ;
+     fhir:definition [ fhir:v "Neznámý" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "Unknown" ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "Unknown" ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

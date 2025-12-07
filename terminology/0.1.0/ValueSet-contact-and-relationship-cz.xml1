@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="contact-and-relationship-cz"/>
+  <language value="cs"/>
+  <text>
+    <status value="generated"/><div xml:lang="cs" xmlns="http://www.w3.org/1999/xhtml" lang="cs"><p class="res-header-id"><b>Generated Narrative: ValueSet contact-and-relationship-cz</b></p><a name="contact-and-relationship-cz"> </a><a name="hccontact-and-relationship-cz"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: cs</p></div><p>This value set includes codes based on the following rules:</p><ul><li>Import all the codes that are contained in <a href="ValueSet-contactrole-cz.html">Contact Role (CZ)</a></li><li>Import all the codes that are contained in <a href="ValueSet-personal-relationship-cz.html">Role code (CZ)</a></li></ul></div>
+  </text>
+  <url value="https://hl7.cz/terminology/ValueSet/contact-and-relationship-cz"/>
+  <version value="0.1.0"/>
+  <name value="Hl7vsContactAndRelationshipCz100"/>
+  <title value="Contact and Relationship (CZ)"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-04-03T08:40:10.799745Z"/>
+  <publisher value="HL7 Czech Republic"/>
+  <contact>
+    <name value="HL7 Czech Republic"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hl7.cz/"/>
+    </telecom>
+  </contact>
+  <description value="Číselník vztahů a rolí kontaktních osob k pacientovi. Číselník zahrnuje dva samostatné číselníky: relationship a contact role."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CZ"/>
+      <display value="Czechia"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <valueSet value="https://hl7.cz/terminology/ValueSet/contactrole-cz"/>
+    </include>
+    <include>
+      <valueSet value="https://hl7.cz/terminology/ValueSet/personal-relationship-cz"/>
+    </include>
+  </compose>
+</ValueSet>

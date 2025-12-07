@@ -1,0 +1,829 @@
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>Standard namespaces for passports - TTL Representation - HL7 Czech Terminology Implementation Guide v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <link href="assets/css/cz-core.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"5.25"}
+    h3,h4,h5,h6{--heading-prefix:"5.25"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <!-- Placeholder for child template header declarations -->
+<div id="hl7-nav">
+  <a id="hl7-logo" no-external="true" href="https://www.hl7cr.eu/">
+    <img height="60" alt="Visit the HL7 Czech website" src="assets/images/hl7cz-logo.png" />
+  </a>
+</div>
+<div id="project-nav">
+  <a id="project-logo" no-external="true" href="https://ncez.mzcr.cz/cs/node/573"><img height="60" alt="MZCR"
+      src="assets/images/NPO_logo.png" /> </a>
+</div>
+<div id="family-nav">
+  <a id="family-logo" no-external="true" href="https://ncez.mzcr.cz/"><img height="60" alt="NCEZ MZCR"
+      src="assets/images/logo.png" /> </a>
+</div>
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">HL7 Czech Terminology Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - release
+
+
+
+  <img alt="Czechia flag" src="assets/images/cze.svg" height="16" title="Czechia"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="artifactsPage.html">Terminologies</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Standard namespaces for passports</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div style="counter-reset: section 9" class="col-12">
+<!--ReleaseHeader--><p id="publish-box">This page is part of the HL7 Czech FHIR Terminology (v0.1.0: Release) based on <a data-no-external="true" href="http://hl7.org/fhir/R4">FHIR (HL7® FHIR® Standard) R4</a>. No current official version has been published yet.  For a full list of available versions, see the <a data-no-external="true" href="https://hl7.cz/terminology/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li>
+    <a href="ValueSet-passport-NS.html">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="ValueSet-passport-NS.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="ValueSet-passport-NS.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li class="active">
+      <a href="#">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+<a name="root"> </a>
+
+
+<h2 id="root">: Standard namespaces for passports - TTL Representation</h2>
+
+  <table class="colsd">
+    <tr>
+
+      <td colspan="1">
+        
+          <i>Page standards status:</i> <a href="http://hl7.org/fhir/R4/versions.html#std-process" title="Standard Status">Draft</a>
+          
+        
+      </td>
+
+      <td>
+        <a href="http://hl7.org/fhir/versions.html#maturity">Maturity Level</a>: 1
+        
+      </td>
+
+    </tr>
+  </table>
+
+
+<p><a href="ValueSet-passport-NS.ttl" no-download="true">Raw ttl</a> | <a href="ValueSet-passport-NS.ttl" download>Download</a></p>
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <pre class="rdf" data-fhir="generated" style="white-space: pre; overflow: hidden">
+@prefix fhir: &lt;http://hl7.org/fhir/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+
+# - resource -------------------------------------------------------------------
+
+ a fhir:ValueSet ;
+  <a href="http://hl7.org/fhir/R4/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot ;
+  <a href="http://hl7.org/fhir/R4/resource.html#ValueSet.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;passport-NS&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/resource.html#ValueSet.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;cs&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/domainresource.html#ValueSet.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R4/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xml:lang=\&quot;cs\&quot; xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot; lang=\&quot;cs\&quot;&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: ValueSet passport-NS&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;passport-NS\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcpassport-NS\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Language: cs&lt;/p&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Include these codes as defined in &lt;code&gt;urn:ietf:rfc:3986&lt;/code&gt;&lt;span title=\&quot;Version is not explicitly stated. No matching Code System found\&quot;&gt; version Not Stated (use latest from terminology server)&lt;/span&gt;&lt;table class=\&quot;none\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-AFG&lt;/td&gt;&lt;td&gt;Pas: Afghánistán&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-ALB&lt;/td&gt;&lt;td&gt;Pas: Albánie&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-DZA&lt;/td&gt;&lt;td&gt;Pas: Alžírsko&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-ASM&lt;/td&gt;&lt;td&gt;Pas: Americká Samoa&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-AND&lt;/td&gt;&lt;td&gt;Pas: Andorra&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-AGO&lt;/td&gt;&lt;td&gt;Pas: Angola&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-AIA&lt;/td&gt;&lt;td&gt;Pas: Anguilla&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-ATA&lt;/td&gt;&lt;td&gt;Pas: Antarktida&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-ATG&lt;/td&gt;&lt;td&gt;Pas: Antigua a Barbuda&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-ARG&lt;/td&gt;&lt;td&gt;Pas: Argentina&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-ARM&lt;/td&gt;&lt;td&gt;Pas: Arménie&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-ABW&lt;/td&gt;&lt;td&gt;Pas: Aruba&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-AUS&lt;/td&gt;&lt;td&gt;Pas: Austrálie&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-AUT&lt;/td&gt;&lt;td&gt;Pas: Rakousko&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-AZE&lt;/td&gt;&lt;td&gt;Pas: Ázerbájdžán&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-BHS&lt;/td&gt;&lt;td&gt;Pas: Bahamy&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-BHR&lt;/td&gt;&lt;td&gt;Pas: Bahrajn&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-BGD&lt;/td&gt;&lt;td&gt;Pas: Bangladéš&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-BRB&lt;/td&gt;&lt;td&gt;Pas: Barbados&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-BLR&lt;/td&gt;&lt;td&gt;Pas: Bělorusko&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-BEL&lt;/td&gt;&lt;td&gt;Pas: Belgie&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-BLZ&lt;/td&gt;&lt;td&gt;Pas: Belize&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-BEN&lt;/td&gt;&lt;td&gt;Pas: Benin&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-BMU&lt;/td&gt;&lt;td&gt;Pas: Bermudy&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-BTN&lt;/td&gt;&lt;td&gt;Pas: Bhútán&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-BOL&lt;/td&gt;&lt;td&gt;Pas: Bolívie&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-BES&lt;/td&gt;&lt;td&gt;Pas: Bonaire, Svatý Eustach a Saba&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-BIH&lt;/td&gt;&lt;td&gt;Pas: Bosna a Hercegovina&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-BWA&lt;/td&gt;&lt;td&gt;Pas: Botswana&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-BVT&lt;/td&gt;&lt;td&gt;Pas: Bouvetův ostrov&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-BRA&lt;/td&gt;&lt;td&gt;Pas: Brazílie&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-IOT&lt;/td&gt;&lt;td&gt;Pas: Britské indickooceánské území&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-BRN&lt;/td&gt;&lt;td&gt;Pas: Brunej&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-BGR&lt;/td&gt;&lt;td&gt;Pas: Bulharsko&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-BFA&lt;/td&gt;&lt;td&gt;Pas: Burkina Faso&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-BDI&lt;/td&gt;&lt;td&gt;Pas: Burundi&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-CPV&lt;/td&gt;&lt;td&gt;Pas: Burundi&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-KHM&lt;/td&gt;&lt;td&gt;Pas: Kambodža&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-CMR&lt;/td&gt;&lt;td&gt;Pas: Kamerun&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-CAN&lt;/td&gt;&lt;td&gt;Pas: Kanada&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-CYM&lt;/td&gt;&lt;td&gt;Pas: Kajmanské ostrovy&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-CAF&lt;/td&gt;&lt;td&gt;Pas: Středoafrická republika&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-TCD&lt;/td&gt;&lt;td&gt;Pas: Čad&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-CHL&lt;/td&gt;&lt;td&gt;Pas: Chile&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-CHN&lt;/td&gt;&lt;td&gt;Pas: Čína&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-CXR&lt;/td&gt;&lt;td&gt;Pas: Vánoční ostrov&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-CCK&lt;/td&gt;&lt;td&gt;Pas: Kokosové (Keelingovy) ostrovy&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-COL&lt;/td&gt;&lt;td&gt;Pas: Kolumbie&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-COM&lt;/td&gt;&lt;td&gt;Pas: Komory&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-COD&lt;/td&gt;&lt;td&gt;Pas: Konžská republika&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-COG&lt;/td&gt;&lt;td&gt;Pas: Konžská republika&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-COK&lt;/td&gt;&lt;td&gt;Pas: Cookovy ostrovy&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-CRI&lt;/td&gt;&lt;td&gt;Pas: Kostarika&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-HRV&lt;/td&gt;&lt;td&gt;Pas: Chorvatsko&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-CUB&lt;/td&gt;&lt;td&gt;Pas: Kuba&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-CUW&lt;/td&gt;&lt;td&gt;Pas: Curaçao&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-CYP&lt;/td&gt;&lt;td&gt;Pas: Kypr&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-CZE&lt;/td&gt;&lt;td&gt;Pas: Česko&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-CIV&lt;/td&gt;&lt;td&gt;Pas: Pobřeží slonoviny&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-DNK&lt;/td&gt;&lt;td&gt;Pas: Dánsko&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-DJI&lt;/td&gt;&lt;td&gt;Pas: Džibutsko&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-DMA&lt;/td&gt;&lt;td&gt;Pas: Dominika&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-DOM&lt;/td&gt;&lt;td&gt;Pas: Dominikánská republika&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-ECU&lt;/td&gt;&lt;td&gt;Pas: Ekvádor&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-EGY&lt;/td&gt;&lt;td&gt;Pas: Egypt&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-SLV&lt;/td&gt;&lt;td&gt;Pas: Salvador&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-GNQ&lt;/td&gt;&lt;td&gt;Pas: Rovníková Guinea&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-ERI&lt;/td&gt;&lt;td&gt;Pas: Eritrea&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-EST&lt;/td&gt;&lt;td&gt;Pas: Estonsko&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-SWZ&lt;/td&gt;&lt;td&gt;Pas: Estonsko&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-ETH&lt;/td&gt;&lt;td&gt;Pas: Etiopie&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-FLK&lt;/td&gt;&lt;td&gt;Pas: Falklandy&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-FRO&lt;/td&gt;&lt;td&gt;Pas: Faerské ostrovy&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-FJI&lt;/td&gt;&lt;td&gt;Pas: Fidži&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-FIN&lt;/td&gt;&lt;td&gt;Pas: Finsko&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-FRA&lt;/td&gt;&lt;td&gt;Pas: Francie&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-GUF&lt;/td&gt;&lt;td&gt;Pas: Francouzská Guyana&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-PYF&lt;/td&gt;&lt;td&gt;Pas: Francouzská Polynésie&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-ATF&lt;/td&gt;&lt;td&gt;Pas: Francouzská jižní a antarktická území&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-GAB&lt;/td&gt;&lt;td&gt;Pas: Gabon&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-GMB&lt;/td&gt;&lt;td&gt;Pas: Gambie&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-GEO&lt;/td&gt;&lt;td&gt;Pas: Gruzie&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-DEU&lt;/td&gt;&lt;td&gt;Pas: Německo&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-GHA&lt;/td&gt;&lt;td&gt;Pas: Ghana&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-GIB&lt;/td&gt;&lt;td&gt;Pas: Gibraltar&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-GRC&lt;/td&gt;&lt;td&gt;Pas: Řecko&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-GRL&lt;/td&gt;&lt;td&gt;Pas: Grónsko&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-GRD&lt;/td&gt;&lt;td&gt;Pas: Grenada&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-GLP&lt;/td&gt;&lt;td&gt;Pas: Guadeloupe&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-GUM&lt;/td&gt;&lt;td&gt;Pas: Guam&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-GTM&lt;/td&gt;&lt;td&gt;Pas: Guatemala&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-GGY&lt;/td&gt;&lt;td&gt;Pas: Guernsey&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-GIN&lt;/td&gt;&lt;td&gt;Pas: Guinea&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-GNB&lt;/td&gt;&lt;td&gt;Pas: Guinea-Bissau&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-GUY&lt;/td&gt;&lt;td&gt;Pas: Guyana&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-HTI&lt;/td&gt;&lt;td&gt;Pas: Haiti&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-HMD&lt;/td&gt;&lt;td&gt;Pas: Heardův ostrov a MacDonaldovy ostrovy&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-VAT&lt;/td&gt;&lt;td&gt;Pas: Vatikán&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-HND&lt;/td&gt;&lt;td&gt;Pas: Honduras&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-HKG&lt;/td&gt;&lt;td&gt;Pas: Hongkong&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-HUN&lt;/td&gt;&lt;td&gt;Pas: Maďarsko&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-ISL&lt;/td&gt;&lt;td&gt;Pas: Island&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-IND&lt;/td&gt;&lt;td&gt;Pas: Indie&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-IDN&lt;/td&gt;&lt;td&gt;Pas: Indonésie&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-IRN&lt;/td&gt;&lt;td&gt;Pas: Írán&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-IRQ&lt;/td&gt;&lt;td&gt;Pas: Irák&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-IRL&lt;/td&gt;&lt;td&gt;Pas: Irsko&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-IMN&lt;/td&gt;&lt;td&gt;Pas: Man&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-ISR&lt;/td&gt;&lt;td&gt;Pas: Izrael&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-ITA&lt;/td&gt;&lt;td&gt;Pas: Itálie&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-JAM&lt;/td&gt;&lt;td&gt;Pas: Jamajka&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-JPN&lt;/td&gt;&lt;td&gt;Pas: Japonsko&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-JEY&lt;/td&gt;&lt;td&gt;Pas: Jersey&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-JOR&lt;/td&gt;&lt;td&gt;Pas: Jordánsko&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-KAZ&lt;/td&gt;&lt;td&gt;Pas: Kazachstán&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-KEN&lt;/td&gt;&lt;td&gt;Pas: Keňa&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-KIR&lt;/td&gt;&lt;td&gt;Pas: Kiribati&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-PRK&lt;/td&gt;&lt;td&gt;Pas: Korejská lidově demokratická republika&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-KOR&lt;/td&gt;&lt;td&gt;Pas: Korejská lidově demokratická republika&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-KWT&lt;/td&gt;&lt;td&gt;Pas: Kuvajt&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-KGZ&lt;/td&gt;&lt;td&gt;Pas: Kyrgyzstán&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-LAO&lt;/td&gt;&lt;td&gt;Pas: Laos&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-LVA&lt;/td&gt;&lt;td&gt;Pas: Lotyšsko&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-LBN&lt;/td&gt;&lt;td&gt;Pas: Libanon&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-LSO&lt;/td&gt;&lt;td&gt;Pas: Lesotho&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-LBR&lt;/td&gt;&lt;td&gt;Pas: Libérie&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-LBY&lt;/td&gt;&lt;td&gt;Pas: Libye&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-LIE&lt;/td&gt;&lt;td&gt;Pas: Lichtenštejnsko&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-LTU&lt;/td&gt;&lt;td&gt;Pas: Litva&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-LUX&lt;/td&gt;&lt;td&gt;Pas: Lucembursko&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-MAC&lt;/td&gt;&lt;td&gt;Pas: Macao&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-MDG&lt;/td&gt;&lt;td&gt;Pas: Madagaskar&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-MWI&lt;/td&gt;&lt;td&gt;Pas: Malawi&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-MYS&lt;/td&gt;&lt;td&gt;Pas: Malajsie&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-MDV&lt;/td&gt;&lt;td&gt;Pas: Maledivy&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-MLI&lt;/td&gt;&lt;td&gt;Pas: Mali&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-MLT&lt;/td&gt;&lt;td&gt;Pas: Malta&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-MHL&lt;/td&gt;&lt;td&gt;Pas: Marshallovy ostrovy&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-MTQ&lt;/td&gt;&lt;td&gt;Pas: Martinik&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-MRT&lt;/td&gt;&lt;td&gt;Pas: Mauritánie&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-MUS&lt;/td&gt;&lt;td&gt;Pas: Mauricius&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-MYT&lt;/td&gt;&lt;td&gt;Pas: Mayotte&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-MEX&lt;/td&gt;&lt;td&gt;Pas: Mexiko&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-FSM&lt;/td&gt;&lt;td&gt;Pas: Mikronésie&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-MDA&lt;/td&gt;&lt;td&gt;Pas: Mikronésie&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-MCO&lt;/td&gt;&lt;td&gt;Pas: Monako&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-MNG&lt;/td&gt;&lt;td&gt;Pas: Mongolsko&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-MNE&lt;/td&gt;&lt;td&gt;Pas: Černá Hora&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-MSR&lt;/td&gt;&lt;td&gt;Pas: Montserrat&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-MAR&lt;/td&gt;&lt;td&gt;Pas: Maroko&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-MOZ&lt;/td&gt;&lt;td&gt;Pas: Mosambik&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-MMR&lt;/td&gt;&lt;td&gt;Pas: Myanmar&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-NAM&lt;/td&gt;&lt;td&gt;Pas: Namibie&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-NRU&lt;/td&gt;&lt;td&gt;Pas: Nauru&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-NPL&lt;/td&gt;&lt;td&gt;Pas: Nepál&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-NLD&lt;/td&gt;&lt;td&gt;Pas: Nizozemsko&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-NCL&lt;/td&gt;&lt;td&gt;Pas: Nová Kaledonie&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-NZL&lt;/td&gt;&lt;td&gt;Pas: Nový Zéland&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-NIC&lt;/td&gt;&lt;td&gt;Pas: Nikaragua&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-NER&lt;/td&gt;&lt;td&gt;Pas: Niger&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-NGA&lt;/td&gt;&lt;td&gt;Pas: Nigérie&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-NIU&lt;/td&gt;&lt;td&gt;Pas: Niue&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-NFK&lt;/td&gt;&lt;td&gt;Pas: Norfolk&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-MKD&lt;/td&gt;&lt;td&gt;Pas: Norfolk&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-MNP&lt;/td&gt;&lt;td&gt;Pas: Severní Mariany&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-NOR&lt;/td&gt;&lt;td&gt;Pas: Norsko&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-OMN&lt;/td&gt;&lt;td&gt;Pas: Omán&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-PAK&lt;/td&gt;&lt;td&gt;Pas: Pákistán&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-PLW&lt;/td&gt;&lt;td&gt;Pas: Palau&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-PSE&lt;/td&gt;&lt;td&gt;Pas: Palestina&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-PAN&lt;/td&gt;&lt;td&gt;Pas: Panama&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-PNG&lt;/td&gt;&lt;td&gt;Pas: Papua Nová Guinea&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-PRY&lt;/td&gt;&lt;td&gt;Pas: Paraguay&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-PER&lt;/td&gt;&lt;td&gt;Pas: Peru&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-PHL&lt;/td&gt;&lt;td&gt;Pas: Filipíny&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-PCN&lt;/td&gt;&lt;td&gt;Pas: Pitcairn&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-POL&lt;/td&gt;&lt;td&gt;Pas: Polsko&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-PRT&lt;/td&gt;&lt;td&gt;Pas: Portugalsko&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-PRI&lt;/td&gt;&lt;td&gt;Pas: Portoriko&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-QAT&lt;/td&gt;&lt;td&gt;Pas: Katar&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-ROU&lt;/td&gt;&lt;td&gt;Pas: Rumunsko&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-RUS&lt;/td&gt;&lt;td&gt;Pas: Rusko&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-RWA&lt;/td&gt;&lt;td&gt;Pas: Rwanda&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-REU&lt;/td&gt;&lt;td&gt;Pas: Réunion&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-BLM&lt;/td&gt;&lt;td&gt;Pas: Svatý Bartoloměj&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-SHN&lt;/td&gt;&lt;td&gt;Pas: Svatá Helena&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-KNA&lt;/td&gt;&lt;td&gt;Pas: Svatý Kryštof a Nevis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-LCA&lt;/td&gt;&lt;td&gt;Pas: Svatá Lucie&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-MAF&lt;/td&gt;&lt;td&gt;Pas: Svatý Martin (FR)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-SPM&lt;/td&gt;&lt;td&gt;Pas: Saint Pierre a Miquelon&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-VCT&lt;/td&gt;&lt;td&gt;Pas: Svatý Vincenc a Grenadiny&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-WSM&lt;/td&gt;&lt;td&gt;Pas: Samoa&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-SMR&lt;/td&gt;&lt;td&gt;Pas: San Marino&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-STP&lt;/td&gt;&lt;td&gt;Pas: Svatý Tomáš a Princův ostrov&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-SAU&lt;/td&gt;&lt;td&gt;Pas: Saúdská Arábie&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-SEN&lt;/td&gt;&lt;td&gt;Pas: Senegal&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-SRB&lt;/td&gt;&lt;td&gt;Pas: Srbsko&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-SYC&lt;/td&gt;&lt;td&gt;Pas: Seychely&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-SLE&lt;/td&gt;&lt;td&gt;Pas: Sierra Leone&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-SGP&lt;/td&gt;&lt;td&gt;Pas: Singapur&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-SXM&lt;/td&gt;&lt;td&gt;Pas: Svatý Martin (NL)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-SVK&lt;/td&gt;&lt;td&gt;Pas: Slovensko&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-SVN&lt;/td&gt;&lt;td&gt;Pas: Slovinsko&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-SLB&lt;/td&gt;&lt;td&gt;Pas: Šalomounovy ostrovy&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-SOM&lt;/td&gt;&lt;td&gt;Pas: Somálsko&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-ZAF&lt;/td&gt;&lt;td&gt;Pas: Jižní Afrika&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-SGS&lt;/td&gt;&lt;td&gt;Pas: Jižní Georgie a Jižní Sandwichovy ostrovy&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-SSD&lt;/td&gt;&lt;td&gt;Pas: Jižní Súdán&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-ESP&lt;/td&gt;&lt;td&gt;Pas: Španělsko&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-LKA&lt;/td&gt;&lt;td&gt;Pas: Šrí Lanka&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-SDN&lt;/td&gt;&lt;td&gt;Pas: Súdán&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-SUR&lt;/td&gt;&lt;td&gt;Pas: Surinam&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-SJM&lt;/td&gt;&lt;td&gt;Pas: Špicberky a Jan Mayen&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-SWE&lt;/td&gt;&lt;td&gt;Pas: Švédsko&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-CHE&lt;/td&gt;&lt;td&gt;Pas: Švýcarsko&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-SYR&lt;/td&gt;&lt;td&gt;Pas: Sýrie&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-TWN&lt;/td&gt;&lt;td&gt;Pas: Sýrie&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-TJK&lt;/td&gt;&lt;td&gt;Pas: Tádžikistán&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-TZA&lt;/td&gt;&lt;td&gt;Pas: Tádžikistán&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-THA&lt;/td&gt;&lt;td&gt;Pas: Thajsko&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-TLS&lt;/td&gt;&lt;td&gt;Pas: Východní Timor&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-TGO&lt;/td&gt;&lt;td&gt;Pas: Togo&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-TKL&lt;/td&gt;&lt;td&gt;Pas: Tokelau&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-TON&lt;/td&gt;&lt;td&gt;Pas: Tonga&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-TTO&lt;/td&gt;&lt;td&gt;Pas: Trinidad a Tobago&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-TUN&lt;/td&gt;&lt;td&gt;Pas: Tunisko&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-TKM&lt;/td&gt;&lt;td&gt;Pas: Turkmenistán&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-TCA&lt;/td&gt;&lt;td&gt;Pas: Turks a Caicos&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-TUV&lt;/td&gt;&lt;td&gt;Pas: Tuvalu&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-TUR&lt;/td&gt;&lt;td&gt;Pas: Turecko&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-UGA&lt;/td&gt;&lt;td&gt;Pas: Uganda&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-UKR&lt;/td&gt;&lt;td&gt;Pas: Ukrajina&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-ARE&lt;/td&gt;&lt;td&gt;Pas: Spojené arabské emiráty&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-GBR&lt;/td&gt;&lt;td&gt;Pas: Velká Británie&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-UMI&lt;/td&gt;&lt;td&gt;Pas: Menší odlehlé ostrovy USA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-USA&lt;/td&gt;&lt;td&gt;Pas: Spojené státy&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-URY&lt;/td&gt;&lt;td&gt;Pas: Uruguay&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-UZB&lt;/td&gt;&lt;td&gt;Pas: Uzbekistán&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-VUT&lt;/td&gt;&lt;td&gt;Pas: Vanuatu&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-VEN&lt;/td&gt;&lt;td&gt;Pas: Venezuela&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-VNM&lt;/td&gt;&lt;td&gt;Pas: Vietnam&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-VGB&lt;/td&gt;&lt;td&gt;Pas: Vietnam&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-VIR&lt;/td&gt;&lt;td&gt;Pas: Vietnam&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-WLF&lt;/td&gt;&lt;td&gt;Pas: Wallis a Futuna&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-ESH&lt;/td&gt;&lt;td&gt;Pas: Západní Sahara&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-YEM&lt;/td&gt;&lt;td&gt;Pas: Jemen&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-ZMB&lt;/td&gt;&lt;td&gt;Pas: Zambie&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-ZWE&lt;/td&gt;&lt;td&gt;Pas: Zimbabwe&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/NamingSystem/passportNumNS-ALA&lt;/td&gt;&lt;td&gt;Pas: Alandy&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+  ] ; # 
+  <a href="http://hl7.org/fhir/R4/domainresource.html#ValueSet.extension">fhir:extension</a> ( [
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm&gt;     ] ;
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#integer">a</a> fhir:Integer ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#integer">fhir:v</a> 1     ]
+  ] [
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status&gt;     ] ;
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;draft&quot;     ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.url">fhir:url</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://hl7.cz/terminology/ValueSet/passport-NS&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;https://hl7.cz/terminology/ValueSet/passport-NS&gt;
+  ] ; # 
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.version">fhir:version</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;0.1.0&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;PassportNSVS&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Standard namespaces for passports&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;draft&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.experimental">fhir:experimental</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">fhir:v</a> false] ; # 
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.date">fhir:date</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;2023-01-01&quot;^^xsd:date] ; # 
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.publisher">fhir:publisher</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;HL7 Czech Republic&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.contact">fhir:contact</a> ( [
+<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;HL7 Czech Republic&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.telecom">fhir:telecom</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;url&quot; ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;https://www.hl7.cz/&quot; ]     ] )
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.description">fhir:description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">fhir:v</a> &quot;Číselník jmenných prostorů pro pasy. (Passport namespaces.)&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.jurisdiction">fhir:jurisdiction</a> ( [
+    ( <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;urn:iso:std:iso:3166&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;urn:iso:std:iso:3166&gt;       ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;CZ&quot; ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Czechia&quot; ]     ] )
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose">fhir:compose</a> [
+    ( <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include">fhir:include</a> [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.system">fhir:system</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;urn:ietf:rfc:3986&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;urn:ietf:rfc:3986&gt;       ] ;
+      ( <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">fhir:concept</a> [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-AFG&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Afghánistán&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-ALB&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Albánie&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-DZA&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Alžírsko&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-ASM&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Americká Samoa&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-AND&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Andorra&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-AGO&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Angola&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-AIA&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Anguilla&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-ATA&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Antarktida&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-ATG&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Antigua a Barbuda&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-ARG&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Argentina&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-ARM&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Arménie&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-ABW&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Aruba&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-AUS&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Austrálie&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-AUT&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Rakousko&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-AZE&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Ázerbájdžán&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-BHS&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Bahamy&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-BHR&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Bahrajn&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-BGD&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Bangladéš&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-BRB&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Barbados&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-BLR&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Bělorusko&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-BEL&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Belgie&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-BLZ&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Belize&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-BEN&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Benin&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-BMU&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Bermudy&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-BTN&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Bhútán&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-BOL&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Bolívie&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-BES&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Bonaire, Svatý Eustach a Saba&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-BIH&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Bosna a Hercegovina&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-BWA&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Botswana&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-BVT&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Bouvetův ostrov&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-BRA&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Brazílie&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-IOT&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Britské indickooceánské území&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-BRN&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Brunej&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-BGR&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Bulharsko&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-BFA&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Burkina Faso&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-BDI&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Burundi&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-CPV&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Burundi&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-KHM&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Kambodža&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-CMR&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Kamerun&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-CAN&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Kanada&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-CYM&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Kajmanské ostrovy&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-CAF&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Středoafrická republika&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-TCD&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Čad&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-CHL&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Chile&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-CHN&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Čína&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-CXR&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Vánoční ostrov&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-CCK&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Kokosové (Keelingovy) ostrovy&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-COL&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Kolumbie&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-COM&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Komory&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-COD&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Konžská republika&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-COG&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Konžská republika&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-COK&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Cookovy ostrovy&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-CRI&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Kostarika&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-HRV&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Chorvatsko&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-CUB&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Kuba&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-CUW&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Curaçao&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-CYP&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Kypr&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-CZE&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Česko&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-CIV&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Pobřeží slonoviny&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-DNK&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Dánsko&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-DJI&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Džibutsko&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-DMA&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Dominika&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-DOM&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Dominikánská republika&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-ECU&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Ekvádor&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-EGY&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Egypt&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-SLV&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Salvador&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-GNQ&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Rovníková Guinea&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-ERI&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Eritrea&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-EST&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Estonsko&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-SWZ&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Estonsko&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-ETH&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Etiopie&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-FLK&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Falklandy&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-FRO&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Faerské ostrovy&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-FJI&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Fidži&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-FIN&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Finsko&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-FRA&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Francie&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-GUF&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Francouzská Guyana&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-PYF&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Francouzská Polynésie&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-ATF&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Francouzská jižní a antarktická území&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-GAB&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Gabon&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-GMB&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Gambie&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-GEO&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Gruzie&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-DEU&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Německo&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-GHA&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Ghana&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-GIB&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Gibraltar&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-GRC&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Řecko&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-GRL&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Grónsko&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-GRD&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Grenada&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-GLP&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Guadeloupe&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-GUM&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Guam&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-GTM&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Guatemala&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-GGY&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Guernsey&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-GIN&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Guinea&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-GNB&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Guinea-Bissau&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-GUY&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Guyana&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-HTI&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Haiti&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-HMD&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Heardův ostrov a MacDonaldovy ostrovy&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-VAT&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Vatikán&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-HND&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Honduras&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-HKG&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Hongkong&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-HUN&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Maďarsko&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-ISL&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Island&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-IND&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Indie&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-IDN&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Indonésie&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-IRN&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Írán&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-IRQ&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Irák&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-IRL&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Irsko&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-IMN&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Man&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-ISR&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Izrael&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-ITA&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Itálie&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-JAM&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Jamajka&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-JPN&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Japonsko&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-JEY&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Jersey&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-JOR&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Jordánsko&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-KAZ&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Kazachstán&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-KEN&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Keňa&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-KIR&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Kiribati&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-PRK&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Korejská lidově demokratická republika&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-KOR&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Korejská lidově demokratická republika&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-KWT&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Kuvajt&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-KGZ&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Kyrgyzstán&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-LAO&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Laos&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-LVA&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Lotyšsko&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-LBN&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Libanon&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-LSO&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Lesotho&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-LBR&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Libérie&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-LBY&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Libye&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-LIE&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Lichtenštejnsko&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-LTU&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Litva&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-LUX&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Lucembursko&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-MAC&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Macao&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-MDG&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Madagaskar&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-MWI&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Malawi&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-MYS&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Malajsie&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-MDV&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Maledivy&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-MLI&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Mali&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-MLT&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Malta&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-MHL&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Marshallovy ostrovy&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-MTQ&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Martinik&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-MRT&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Mauritánie&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-MUS&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Mauricius&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-MYT&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Mayotte&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-MEX&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Mexiko&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-FSM&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Mikronésie&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-MDA&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Mikronésie&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-MCO&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Monako&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-MNG&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Mongolsko&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-MNE&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Černá Hora&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-MSR&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Montserrat&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-MAR&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Maroko&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-MOZ&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Mosambik&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-MMR&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Myanmar&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-NAM&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Namibie&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-NRU&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Nauru&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-NPL&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Nepál&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-NLD&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Nizozemsko&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-NCL&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Nová Kaledonie&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-NZL&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Nový Zéland&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-NIC&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Nikaragua&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-NER&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Niger&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-NGA&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Nigérie&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-NIU&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Niue&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-NFK&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Norfolk&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-MKD&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Norfolk&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-MNP&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Severní Mariany&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-NOR&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Norsko&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-OMN&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Omán&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-PAK&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Pákistán&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-PLW&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Palau&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-PSE&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Palestina&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-PAN&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Panama&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-PNG&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Papua Nová Guinea&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-PRY&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Paraguay&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-PER&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Peru&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-PHL&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Filipíny&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-PCN&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Pitcairn&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-POL&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Polsko&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-PRT&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Portugalsko&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-PRI&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Portoriko&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-QAT&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Katar&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-ROU&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Rumunsko&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-RUS&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Rusko&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-RWA&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Rwanda&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-REU&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Réunion&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-BLM&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Svatý Bartoloměj&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-SHN&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Svatá Helena&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-KNA&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Svatý Kryštof a Nevis&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-LCA&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Svatá Lucie&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-MAF&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Svatý Martin (FR)&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-SPM&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Saint Pierre a Miquelon&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-VCT&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Svatý Vincenc a Grenadiny&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-WSM&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Samoa&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-SMR&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: San Marino&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-STP&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Svatý Tomáš a Princův ostrov&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-SAU&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Saúdská Arábie&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-SEN&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Senegal&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-SRB&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Srbsko&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-SYC&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Seychely&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-SLE&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Sierra Leone&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-SGP&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Singapur&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-SXM&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Svatý Martin (NL)&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-SVK&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Slovensko&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-SVN&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Slovinsko&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-SLB&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Šalomounovy ostrovy&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-SOM&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Somálsko&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-ZAF&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Jižní Afrika&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-SGS&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Jižní Georgie a Jižní Sandwichovy ostrovy&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-SSD&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Jižní Súdán&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-ESP&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Španělsko&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-LKA&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Šrí Lanka&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-SDN&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Súdán&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-SUR&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Surinam&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-SJM&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Špicberky a Jan Mayen&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-SWE&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Švédsko&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-CHE&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Švýcarsko&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-SYR&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Sýrie&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-TWN&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Sýrie&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-TJK&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Tádžikistán&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-TZA&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Tádžikistán&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-THA&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Thajsko&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-TLS&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Východní Timor&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-TGO&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Togo&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-TKL&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Tokelau&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-TON&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Tonga&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-TTO&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Trinidad a Tobago&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-TUN&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Tunisko&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-TKM&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Turkmenistán&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-TCA&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Turks a Caicos&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-TUV&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Tuvalu&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-TUR&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Turecko&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-UGA&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Uganda&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-UKR&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Ukrajina&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-ARE&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Spojené arabské emiráty&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-GBR&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Velká Británie&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-UMI&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Menší odlehlé ostrovy USA&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-USA&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Spojené státy&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-URY&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Uruguay&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-UZB&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Uzbekistán&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-VUT&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Vanuatu&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-VEN&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Venezuela&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-VNM&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Vietnam&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-VGB&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Vietnam&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-VIR&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Vietnam&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-WLF&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Wallis a Futuna&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-ESH&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Západní Sahara&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-YEM&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Jemen&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-ZMB&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Zambie&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-ZWE&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Zimbabwe&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/passportNumNS-ALA&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas: Alandy&quot; ]       ] )     ] )
+  ] . # 
+
+</pre>
+
+
+
+  <!-- insert notes if present -->
+  
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hl7.cz/">HL7 Czech Republic</a>.  Package hl7.fhir.cz.terminology#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Dec 2, 2025 17:10+0100">2025-12-02</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

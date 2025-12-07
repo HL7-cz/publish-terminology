@@ -1,0 +1,79 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hl7.cz/terminology/ValueSet/document-category> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "document-category"] ; # 
+  fhir:language [ fhir:v "cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xml:lang=\"cs\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"cs\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet document-category</b></p><a name=\"document-category\"> </a><a name=\"hcdocument-category\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: cs</p></div><ul><li>Include these codes as defined in <a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"https://loinc.org/107904-5/\">107904-5</a></td><td>Administrativní záznamy</td></tr><tr><td><a href=\"https://loinc.org/18682-5/\">18682-5</a></td><td>Záznamy zdravotnické záchranné služby</td></tr><tr><td><a href=\"https://loinc.org/11503-0/\">11503-0</a></td><td>Lékařské záznamy</td></tr><tr><td><a href=\"https://loinc.org/11543-6/\">11543-6</a></td><td>Ošetřovatelské záznamy</td></tr><tr><td><a href=\"https://loinc.org/26436-6/\">26436-6</a></td><td>Laboratorní nálezy</td></tr><tr><td><a href=\"https://loinc.org/18726-0/\">18726-0</a></td><td>Nálezy zobrazovacího komplementu</td></tr><tr><td><a href=\"https://loinc.org/57133-1/\">57133-1</a></td><td>Žádanky</td></tr></table></li></ul></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [
+     fhir:v "https://ncez.mzcr.cz/terminology/ValueSet/document-category"^^xsd:anyURI ;
+     fhir:l <https://ncez.mzcr.cz/terminology/ValueSet/document-category>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "DocumentCategory"] ; # 
+  fhir:title [ fhir:v "Kategorie dokumentů"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2025-11-19T14:36:29.065962Z"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 Czech Republic"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HL7 Czech Republic" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://www.hl7.cz/" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Kategorie dokumentů pro vyhledávání"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
+         fhir:l <urn:iso:std:iso:3166>
+       ] ;
+       fhir:code [ fhir:v "CZ" ] ;
+       fhir:display [ fhir:v "Czechia" ]
+     ] )
+  ] ) ; # 
+  fhir:copyright [ fhir:v "This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://loinc.org"^^xsd:anyURI ;
+         fhir:l <http://loinc.org>
+       ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "107904-5" ] ;
+         fhir:display [ fhir:v "Administrativní záznamy" ]
+       ] [
+         fhir:code [ fhir:v "18682-5" ] ;
+         fhir:display [ fhir:v "Záznamy zdravotnické záchranné služby" ]
+       ] [
+         fhir:code [ fhir:v "11503-0" ] ;
+         fhir:display [ fhir:v "Lékařské záznamy" ]
+       ] [
+         fhir:code [ fhir:v "11543-6" ] ;
+         fhir:display [ fhir:v "Ošetřovatelské záznamy" ]
+       ] [
+         fhir:code [ fhir:v "26436-6" ] ;
+         fhir:display [ fhir:v "Laboratorní nálezy" ]
+       ] [
+         fhir:code [ fhir:v "18726-0" ] ;
+         fhir:display [ fhir:v "Nálezy zobrazovacího komplementu" ]
+       ] [
+         fhir:code [ fhir:v "57133-1" ] ;
+         fhir:display [ fhir:v "Žádanky" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

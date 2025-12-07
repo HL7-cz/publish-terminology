@@ -1,0 +1,71 @@
+# hl7.fhir.cz.terminology#0.1.0: HL7 Czech Terminology Implementation Guide
+
+## Pages
+
+* [Home](index.md)
+* [Artifacts Summary](artifacts.md)
+* [Terminologies](artifactsPage.md)
+* [Code Systems](codeSystems.md)
+* [Value Sets](valueSets.md)
+
+## Resources
+
+### CodeSystems
+
+* [Absent a Unknown Data - IPS](CodeSystem-absent-unknown-uv-ips-cz.md)
+* [Administrative Gender (CZ supplement)](CodeSystem-administrative-gender-cz.md)
+* [Coverage SelfPay Codes (CZ supplement)](CodeSystem-coverage-selfpay-cz.md)
+* [ATC CZ](CodeSystem-dlp-atc.md)
+* [DLP formy](CodeSystem-dlp-formy.md)
+* [Codesystem of DLP Lecive latky](CodeSystem-dlp-lecivelatky.md)
+* [Codesystem of DLP Lecive pripravky](CodeSystem-dlp-lecivepripravky.md)
+* [Type of healthcare facility](CodeSystem-drzar.md)
+* [Codesystem of Health Insurance Companies](CodeSystem-healthInsuranceCompanyCode.md)
+* [NCLPMAT](CodeSystem-nclp-NCLPMAT.md)
+* [NRZP - Czech health professional occupation](CodeSystem-nrzp-povolani.md)
+* [Contact Role (CZ supplement)](CodeSystem-v2-0131-cz.md)
+* [v3 Code System ActCode](CodeSystem-v3-ActCode-cz.md)
+* [RoleCode (CZ Supplement)](CodeSystem-v3-RoleCode-cz.md)
+
+### ValueSets
+
+* [eHDSI Agent or Allergen With Exceptions](ValueSet-AllergenWithExceptions.md)
+* [Medical Device with exceptions](ValueSet-MedicalDeviceWithExceptions.md)
+* [Standard namespaces for national identity card](ValueSet-OP-NS.md)
+* [Gender for administrative purposes](ValueSet-administrative-gender-cz.md)
+* [Contact and Relationship (CZ)](ValueSet-contact-and-relationship-cz.md)
+* [Contact Role (CZ)](ValueSet-contactrole-cz.md)
+* [Číselník typů úhrady](ValueSet-cz-coverage-type.md)
+* [Mime types permissible for logo attachment](ValueSet-cz-logo-mime-types.md)
+* [Body Structure Qualifier](ValueSet-cz-sitequalifier.md)
+* [Body Structure Laterality for specimen.](ValueSet-cz-specimen-laterality.md)
+* [Specimen Additive](ValueSet-cz-specimenAdditive.md)
+* [Specimen Container](ValueSet-cz-specimencontainer.md)
+* [Český číselník ATC skupin](ValueSet-dlp-atc.md)
+* [Lékové formy](ValueSet-dlp-formy.md)
+* [Value set of DLP Lecive latky](ValueSet-dlp-lecivelatky.md)
+* [Léčivé přípravky](ValueSet-dlp-lecivepripravky.md)
+* [Kategorie dokumentů](ValueSet-document-category.md)
+* [Drzar (CZ)](ValueSet-drzar.md)
+* [eHDSI Absent Or Unknown Allergy](ValueSet-eHDSIAbsentOrUnknownAllergy-cz.md)
+* [eHDSI Absent Or Unknown Device](ValueSet-eHDSIAbsentOrUnknownDevice-cz.md)
+* [eHDSI Allergen No Drug](ValueSet-eHDSIAllergenNoDrug-cz.md)
+* [eHDSI Exceptional Value](ValueSet-eHDSIExceptionalValue-cz.md)
+* [ValueSet of Health Insurance Company Code](ValueSet-healthInsuranceCompanyCode.md)
+* [Typy dokumentů obrazového komplementu](ValueSet-imaging-document-types.md)
+* [Typy laboratorních dokumentů](ValueSet-lab-document-types.md)
+* [Materiál vzorků](ValueSet-lab-specimenType.md)
+* [Medical Device](ValueSet-medical-device.md)
+* [Typy lékařské dokumentace](ValueSet-medical-document-type.md)
+* [Číselník NCLPMAT](ValueSet-nclpmat.md)
+* [Occupation of healthcare practitioner (CZ)](ValueSet-nrzp-povolani-vs.md)
+* [Typ ošetřovatelské dokumentace](ValueSet-nursing-document-type.md)
+* [Standard namespaces for passports](ValueSet-passport-NS.md)
+* [Role code (CZ)](ValueSet-personal-relationship-cz.md)
+* [Typy žádanek](ValueSet-referralorder-types.md)
+* [Registering Provider Service Type (CZ)](ValueSet-registering-provider-service-type-cz.md)
+* [Všechny typy dokumentů](ValueSet-search-document-types.md)
+
+### ImplementationGuides
+
+* [HL7 Czech Terminology Implementation Guide](index.md)

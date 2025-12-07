@@ -1,0 +1,163 @@
+FHIR IG Publisher Version 2.0.27 (Git# 07050daf807f). Built 2025-11-28T20:03:59.255Z (3 days old)
+Detected Java version: 21.0.1 from /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home on x86_64 (64bit). 4096MB available
+dir = /Users/kruzik/dev/FHIR_publication, path = /Users/kruzik/.gem/ruby/3.1.3/bin:/Users/kruzik/.rubies/ruby-3.1.3/lib/ruby/gems/3.1.0/bin:/Users/kruzik/.rubies/ruby-3.1.3/bin:/Users/kruzik/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand:/Users/kruzik/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli:/Library/Frameworks/Python.framework/Versions/3.13/bin:/usr/local/opt/tomcat@8/bin:/Users/kruzik/.gem/ruby/2.6.0/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/opt/pmk/env/global/bin:/opt/X11/bin:/Library/Apple/usr/bin:/usr/local/MacGPG2/bin:/usr/local/go/bin:/Users/kruzik/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand:/Users/kruzik/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli:/Library/Frameworks/Python.framework/Versions/3.13/bin:/usr/local/opt/tomcat@8/bin:/Users/kruzik/.gem/ruby/2.6.0/bin:/Users/kruzik/.cargo/bin:/opt/apache-maven-3.3.9/bin:/Library/Frameworks/firebird.framework/Resources/bin:/Users/kruzik/Library/Python/2.7/bin:/usr/local/apache-log4j-2.20.0-bin:/opt/apache-maven-3.3.9/bin:/Library/Frameworks/firebird.framework/Resources/bin:/Users/kruzik/Library/Python/2.7/bin:/usr/local/apache-log4j-2.20.0-bin
+Parameters: -Dfile.encoding=UTF-8 -go-publish -source /Users/kruzik/dev/FHIR_publication/terminology -web /Users/kruzik/dev/FHIR_publication/webroot -temp /Users/kruzik/dev/FHIR_publication/temp -registry /Users/kruzik/dev/FHIR_publication/ig-registry/fhir-ig-list.json -history /Users/kruzik/dev/FHIR_publication/fhir-ig-history-template -templates /Users/kruzik/dev/FHIR_publication/webroot/template
+---------------
+Publication Run: publish /Users/kruzik/dev/FHIR_publication/terminology to /Users/kruzik/dev/FHIR_publication/webroot
+Relative directory for IG is '/terminology'
+===== Web Publication Run Details ===============================
+ Source IG: hl7.fhir.cz.terminology#0.1.0 : https://hl7.cz/terminology (R4) from /Users/kruzik/dev/FHIR_publication/terminology
+All checks passed. Do the publication build from /Users/kruzik/dev/FHIR_publication/terminology and publish to /Users/kruzik/dev/FHIR_publication/temp/web-root/run-20251202/terminology
+Prepare Build space in /Users/kruzik/dev/FHIR_publication/temp/ig-builds/hl7.fhir.cz.terminology#0.1.0
+Build IG at /Users/kruzik/dev/FHIR_publication/terminology: final copy suitable for publication (in /Users/kruzik/dev/FHIR_publication/temp/ig-builds/hl7.fhir.cz.terminology#0.1.0)
+FHIR IG Publisher Version 2.0.27 (Git# 07050daf807f). Built 2025-11-28T20:03:59.255Z (3 days old)   
+Detected Java version: 21.0.1 from /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home on Mac OS X/x86_64 (64bit). 4096MB available
+dir = /Users/kruzik/dev/FHIR_publication, path = /Users/kruzik/.gem/ruby/3.1.3/bin:/Users/kruzik/.rubies/ruby-3.1.3/lib/ruby/gems/3.1.0/bin:/Users/kruzik/.rubies/ruby-3.1.3/bin:/Users/kruzik/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand:/Users/kruzik/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli:/Library/Frameworks/Python.framework/Versions/3.13/bin:/usr/local/opt/tomcat@8/bin:/Users/kruzik/.gem/ruby/2.6.0/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/opt/pmk/env/global/bin:/opt/X11/bin:/Library/Apple/usr/bin:/usr/local/MacGPG2/bin:/usr/local/go/bin:/Users/kruzik/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand:/Users/kruzik/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli:/Library/Frameworks/Python.framework/Versions/3.13/bin:/usr/local/opt/tomcat@8/bin:/Users/kruzik/.gem/ruby/2.6.0/bin:/Users/kruzik/.cargo/bin:/opt/apache-maven-3.3.9/bin:/Library/Frameworks/firebird.framework/Resources/bin:/Users/kruzik/Library/Python/2.7/bin:/usr/local/apache-log4j-2.20.0-bin:/opt/apache-maven-3.3.9/bin:/Library/Frameworks/firebird.framework/Resources/bin:/Users/kruzik/Library/Python/2.7/bin:/usr/local/apache-log4j-2.20.0-bin
+Parameters: -publish https://hl7.cz/terminology/0.1.0 -no-exit -ig /Users/kruzik/dev/FHIR_publication/temp/ig-builds/hl7.fhir.cz.terminology#0.1.0 -resetTx
+Character encoding = UTF-8 / UTF-8                                                                  
+Start Clock @ Tuesday, December 2, 2025, 5:10:03 PM Central European Standard Time (2025-12-02T17:10:03+01:00)
+                                                                                                    
+Build FHIR IG from /Users/kruzik/dev/FHIR_publication/temp/ig-builds/hl7.fhir.cz.terminology#0.1.0   (00:00.065 / 00:00.067, 39Mb)
+Build Formal Publication package, intended for https://hl7.cz/terminology/0.1.0                      (00:00.007 / 00:00.072, 39Mb)
+API keys loaded from /Users/kruzik/.fhir/fhir-settings.json                                          (00:00.002 / 00:00.075, 39Mb)
+Package Cache: /Users/kruzik/.fhir/packages                                                          (00:00.011 / 00:00.086, 39Mb)
+Run Sushi on /Users/kruzik/dev/FHIR_publication/temp/ig-builds/hl7.fhir.cz.terminology#0.1.0         (00:00.009 / 00:00.095, 40Mb)
+Sushi: info  Running SUSHI v3.16.5 (implements FHIR Shorthand specification v3.0.0)                  (00:01.462 / 00:01.557, 21Mb)
+Sushi: info  Arguments:                                                                              (00:00.001 / 00:01.559, 21Mb)
+Sushi: info    --require-latest                                                                      (00:00.001 / 00:01.561, 21Mb)
+Sushi: info    --out /Users/kruzik/dev/FHIR_publication/temp/ig-builds/hl7.fhir.cz.terminology#0.1.0 (00:00.001 / 00:01.562, 21Mb)
+Sushi: info    /Users/kruzik/dev/FHIR_publication/temp/ig-builds/hl7.fhir.cz.terminology#0.1.0       (00:00.001 / 00:01.564, 21Mb)
+Sushi: info  Using configuration file: /Users/kruzik/dev/FHIR_publication/temp/ig-builds/hl7.fhir.cz.terminology#0.1.0/sushi-config.yaml (00:01.287 / 00:02.851, 21Mb)
+Sushi: info  Importing FSH text...                                                                   (00:00.156 / 00:03.008, 21Mb)
+Sushi: info  Preprocessed 52 documents with 24 aliases.                                              (00:02.234 / 00:05.242, 21Mb)
+Sushi: info  Imported 50 definitions and 0 instances.                                                (00:00.324 / 00:05.567, 21Mb)
+Sushi: info  Loaded virtual package sushi-r5forR4#1.0.0 with 7 resources                             (00:00.128 / 00:05.695, 21Mb)
+Sushi: info  Resolved hl7.fhir.uv.tools.r4#latest to concrete version 0.8.0                          (00:00.241 / 00:05.937, 21Mb)
+Sushi: info  Loaded hl7.fhir.uv.tools.r4#0.8.0 with 110 resources                                    (00:00.108 / 00:06.045, 21Mb)
+Sushi: info  Resolved hl7.terminology.r4#latest to concrete version 7.0.0                            (00:00.035 / 00:06.081, 21Mb)
+Sushi: info  Loaded hl7.terminology.r4#7.0.0 with 4096 resources                                     (00:02.517 / 00:08.598, 21Mb)
+Sushi: info  Resolved hl7.fhir.uv.extensions.r4#latest to concrete version 5.2.0                     (00:00.045 / 00:08.643, 21Mb)
+Sushi: info  Loaded hl7.fhir.uv.extensions.r4#5.2.0 with 759 resources                               (00:00.527 / 00:09.171, 21Mb)
+Sushi: info  Loaded hl7.fhir.uv.ips#1.1.0 with 104 resources                                         (00:00.133 / 00:09.304, 21Mb)
+Sushi: info  Loaded hl7.fhir.r4.core#4.0.1 with 4581 resources                                       (00:02.602 / 00:11.907, 21Mb)
+Sushi: info  Loaded virtual package sushi-local#LOCAL with 0 resources                               (00:00.010 / 00:11.918, 21Mb)
+Sushi: info  Converting FSH to FHIR resources...                                                     (00:00.023 / 00:11.941, 21Mb)
+Sushi: warn  The name "v3-ActCode" may not be suitable for machine processing applications such as code generation. Valid names start with an upper-case ASCII letter ('A'..'Z') followed by any combination of upper- or lower-case ASCII letters ('A'..'Z', and 'a'..'z'), numerals ('0'..'9') and '_', with a length limit of 255 characters. (00:56.026 / 01:07.967, 21Mb)
+Sushi:   File: /Users/kruzik/dev/FHIR_publication/temp/ig-builds/hl7.fhir.cz.terminology#0.1.0/input/fsh/code-systems/HL7/CS-v3-ActCode-cz--2018-08-12.fsh (00:00.007 / 01:07.975, 21Mb)
+Sushi:   Line: 1 - 52                                                                                (00:00.002 / 01:07.978, 21Mb)
+Sushi: info  Converted 14 FHIR CodeSystems.                                                          (00:14.622 / 01:22.601, 21Mb)
+Sushi: info  Converted 36 FHIR ValueSets.                                                            (00:03.074 / 01:25.675, 21Mb)
+Sushi: info  Exporting FHIR resources as JSON...                                                     (00:00.002 / 01:25.678, 21Mb)
+Sushi: info  Exported 50 FHIR resources as JSON.                                                     (00:00.055 / 01:25.734, 21Mb)
+Sushi: info  Assembling Implementation Guide sources...                                              (00:00.005 / 01:25.739, 21Mb)
+Sushi: info  Generated ImplementationGuide-hl7.fhir.cz.terminology.json                              (00:00.043 / 01:25.782, 21Mb)
+Sushi: info  Assembled Implementation Guide sources; ready for IG Publisher.                         (00:00.001 / 01:25.784, 21Mb)
+Sushi: ========================= SUSHI RESULTS ===========================                           (00:00.001 / 01:25.786, 21Mb)
+Sushi: |  -------------------------------------------------------------  |                           (00:00.001 / 01:25.788, 21Mb)
+Sushi: | |    Profiles   |  Extensions  |   Logicals   |   Resources   | |                           (00:00.001 / 01:25.790, 21Mb)
+Sushi: | |-------------------------------------------------------------| |                           (00:00.001 / 01:25.791, 21Mb)
+Sushi: | |       0       |      0       |      0       |       0       | |                           (00:00.002 / 01:25.793, 21Mb)
+Sushi: |  -------------------------------------------------------------  |                           (00:00.001 / 01:25.795, 21Mb)
+Sushi: |  -------------------------------------------------------------  |                           (00:00.001 / 01:25.797, 21Mb)
+Sushi: | |      ValueSets     |    CodeSystems    |     Instances      | |                           (00:00.001 / 01:25.799, 21Mb)
+Sushi: | |-------------------------------------------------------------| |                           (00:00.001 / 01:25.801, 21Mb)
+Sushi: | |         36         |        14         |         0          | |                           (00:00.002 / 01:25.803, 21Mb)
+Sushi: |  -------------------------------------------------------------  |                           (00:00.001 / 01:25.805, 21Mb)
+Sushi: |                                                                 |                           (00:00.001 / 01:25.806, 21Mb)
+Sushi: ===================================================================                           (00:00.001 / 01:25.808, 21Mb)
+Sushi: | Warnings... Water those about?         0 Errors       1 Warning |                           (00:00.001 / 01:25.810, 21Mb)
+Sushi: ===================================================================                           (00:00.001 / 01:25.812, 21Mb)
+Root directory: /Users/kruzik/dev/FHIR_publication/temp/ig-builds/hl7.fhir.cz.terminology#0.1.0      (00:00.027 / 01:25.839, 21Mb)
+Unable to load IG as an r5 IG - try R4 (property code is a class com.google.gson.JsonPrimitive looking for an object) (00:00.671 / 01:26.510, 41Mb)
+Load Template from #ig-template                                                                      (00:00.594 / 01:27.105, 33Mb)
+ Load Template from fhir.base.template#current                                                       (00:00.006 / 01:27.111, 33Mb)
+Scanning directory: /Users/kruzik/dev/FHIR_publication/temp/ig-builds/hl7.fhir.cz.terminology#0.1.0/template
+======================================================================
+Terminology Cache is at /Users/kruzik/dev/FHIR_publication/temp/ig-builds/hl7.fhir.cz.terminology#0.1.0/input-cache/txcache. Clearing now (00:08.666 / 01:35.778, 89Mb)
+Core Package hl7.fhir.r4.core#4.0.1                                                                  (00:00.006 / 01:35.784, 89Mb)
+Running Terminology Log: /var/folders/84/grf4jj9s4kn6zs9gw1k9zxwm0000gn/T/ohfu-fhir-ig-1115206538596768694.html
+Connect to Terminology Server at http://tx.fhir.org                                                  (00:04.525 / 01:40.310, 205Mb)
+[39mLoad Package hl7.fhir.pubpack#0.2.3
+[0;39m[39mLoad Package hl7.fhir.xver-extensions#0.1.0
+[0;39m[39mLoad Package hl7.terminology.r4#7.0.0
+[0;39m[39mLoad Package hl7.fhir.uv.extensions.r4#5.2.0
+[0;39m[39mLoad Package hl7.terminology.r4#5.0.0
+[0;39m[39mLoad Package fhir.dicom#2022.4.20221006
+[0;39m[39mLoad Package hl7.fhir.uv.ips#1.1.0
+[0;39m[39mLoad Package hl7.fhir.uv.tools.r4#0.8.0
+[0;39mLoad R5 Specials
+Initialization complete                                                                              (00:11.111 / 01:51.421, 628Mb)
+Load IG                                                                                              (00:00.001 / 01:51.423, 628Mb)
+Load Content                                                                                         (00:00.024 / 01:51.447, 339Mb)
+Using cs_CZ as the default narrative language. (inferred from ImplementationGuide.jurisdiction=CZ)   (00:00.057 / 01:51.505, 346Mb)
+Process Loaded Resources                                                                             (00:01.021 / 01:52.526, 575Mb)
+Generating Snapshots                                                                                 (00:00.511 / 01:53.038, 539Mb)
+
+Signing Certificate: RSA key for Subject: OU=IG Publisher, L=Ann Arbor, CN=hl7.org, O=HL7, ST=Missouri, C=us from: OU=IG Publisher, L=Ann Arbor, CN=hl7.org, O=HL7, ST=Missouri, C=us
+Fetch https://hl7.cz/terminology/package-list.json for version check                                 (00:00.057 / 01:53.096, 542Mb)
+Checking Language                                                                                    (00:00.139 / 01:53.235, 544Mb)
+Load Dependency Info                                                                                 (00:00.003 / 01:53.238, 544Mb)
+Load Info                                                                                            (00:00.002 / 01:53.240, 544Mb)
+Load Paths                                                                                           (00:00.002 / 01:53.243, 545Mb)
+Check R4 / R4B                                                                                       (00:00.001 / 01:53.244, 545Mb)
+[33mThe locale cs-CZ is not supported. Messages will default to en-US.
+[0;39mAssign Comparison Ids                                                                                (00:00.153 / 01:53.398, 609Mb)
+Propagating status                                                                                   (00:00.001 / 01:53.399, 609Mb)
+Generating Narratives                                                                                (00:00.001 / 01:53.400, 610Mb)
+Validating Conformance Resources                                                                     (00:12.788 / 02:06.189, 544Mb)
+Check profiles & code systems                                                                        (01:02.255 / 03:08.445, 1Gb)
+Check realm rules                                                                                    (00:00.008 / 03:08.453, 1Gb)
+Previous Version Comparison                                                                          (00:00.001 / 03:08.455, 1Gb)
+Checking for Bundles to sign                                                                         (00:00.022 / 03:08.477, 1Gb)
+Validating Resources                                                                                 (00:00.001 / 03:08.479, 1Gb)
+Processing Provenance Records                                                                        (00:00.001 / 03:08.481, 1Gb)
+Generating Outputs in /Users/kruzik/dev/FHIR_publication/temp/ig-builds/hl7.fhir.cz.terminology#0.1.0/output (00:00.001 / 03:08.482, 1Gb)
+Generate Native Outputs                                                                              (00:00.595 / 03:09.078, 1Gb)
+Run Template                                                                                         (00:19.609 / 03:28.688, 1Gb)
+Generate HTML Outputs                                                                                (00:05.534 / 03:34.221, 1Gb)
+Generate Spreadsheets                                                                                (00:46.051 / 04:20.272, 1Gb)
+Generate Summaries                                                                                   (00:00.002 / 04:20.275, 1Gb)
+Generating Summary Outputs                                                                           (00:00.002 / 04:20.277, 1Gb)
+DB Cumulative Time invested: 00:00:17.99
+Sending Usage Stats to Server                                                                        (00:16.571 / 04:36.849, 782Mb)
+## Memory (MB): Use = 782, Free = 1111, Total = 1894, Max = 4096                                     (00:00.009 / 04:36.859, 783Mb)
+Reclaiming memory...                                                                                 (00:00.002 / 04:36.861, 783Mb)
+## Memory (MB): Use = 545, Free = 1314, Total = 1860, Max = 4096                                     (00:00.407 / 04:37.269, 546Mb)
+Run jekyll: jekyll build --destination "/Users/kruzik/dev/FHIR_publication/temp/ig-builds/hl7.fhir.cz.terminology#0.1.0/output" (in folder /Users/kruzik/dev/FHIR_publication/temp/ig-builds/hl7.fhir.cz.terminology#0.1.0/temp/pages) (00:00.005 / 04:37.274, 546Mb)
+Troubleshooting Note: usual cases for Jekyll to fail are:                                            (00:00.005 / 04:37.279, 546Mb)
+* A failure to produce a fragment that is already logged in the output above                         (00:00.002 / 04:37.281, 546Mb)
+* A reference to a manually edited file that hasn't been provided                                    (00:00.001 / 04:37.283, 546Mb)
+Jekyll: Source: /Users/kruzik/dev/FHIR_publication/temp/ig-builds/hl7.fhir.cz.terminology#0.1.0/temp/pages (00:01.099 / 04:38.382, 550Mb)
+Jekyll: Generating...                                                                                (00:00.002 / 04:38.385, 550Mb)
+Jekyll: done in 2.997 seconds.                                                                       (00:02.994 / 04:41.380, 550Mb)
+[39m
+[0;39m[39mInstalling hl7.fhir.cz.terminology#0.1.0
+[0;39mChecking Output HTML                                                                                 (00:02.786 / 04:44.166, 1Gb)
+Processed /Users/kruzik/dev/FHIR_publication/temp/ig-builds/hl7.fhir.cz.terminology#0.1.0/output - % reduction = 97 (40264384 ==> 1266513)
+found 1121 files                                                                                     (00:01.552 / 04:45.719, 1Gb)
+........................................
+........................................
+  ... 1121 html files, 0 pages invalid xhtml (0%)                                                    (00:15.274 / 05:00.993, 770Mb)
+  ... 137650 links, 0 broken links (0%)                                                              (00:00.003 / 05:00.996, 770Mb)
+Generate fragment-usage-analysis.csv                                                                 (00:00.001 / 05:00.998, 770Mb)
+Build final .zip                                                                                     (00:00.009 / 05:01.008, 770Mb)
+Final .zip built                                                                                     (00:01.980 / 05:02.988, 1Gb)
+Built. Times: loading: 00:01.787, generate: 03:13.785, narrative generation: 00:12.787, realm-rules: 00:00.001, previous-version: 00:00.001, jekyll: 00:04.127, validation: 01:02.246 (#51), template: 00:05.230 (#3) (00:04.032 / 05:07.021, 1Gb)
+Generating QA                                                                                        (00:00.003 / 05:07.024, 1Gb)
+Validation output in /Users/kruzik/dev/FHIR_publication/temp/ig-builds/hl7.fhir.cz.terminology#0.1.0/output/qa.html
+Errors: 4, Warnings: 14, Info: 914, Broken Links: 0 (00:00.790 / 05:07.814, 2Gb)
+Finished @ 02.12.25 17:15. Max Memory Used = 2Gb. Log file saved in /var/folders/84/grf4jj9s4kn6zs9gw1k9zxwm0000gn/T/fhir-ig-publisher-tmp.log (00:00.032 / 05:07.847, 2Gb)
+Keep a copy of the build directory at /Users/kruzik/dev/FHIR_publication/temp/web-root/run-20251202/ig-build-zips/hl7.fhir.cz.terminology#0.1.0.zip
+
+ok. All checks passed. Publish v0.1.0 to /Users/kruzik/dev/FHIR_publication/temp/web-root/run-20251202/terminology/0.1.0
+Copy the IG to /Users/kruzik/dev/FHIR_publication/temp/web-root/run-20251202/terminology/0.1.0
+Update /Users/kruzik/dev/FHIR_publication/temp/web-root/run-20251202/terminology/package-list.json
+Publish Box Statement: This page is part of the HL7 Czech FHIR Terminology (v0.1.0: Release) based on <a data-no-external="true" href="http://hl7.org/fhir/R4">FHIR (HL7® FHIR® Standard) R4</a>. No current official version has been published yet.  For a full list of available versions, see the <a data-no-external="true" href="https://hl7.cz/terminology/history.html">Directory of published versions</a>
+  .. 306 files checked, 306 updated
+  .. 105 clones checked, 210 updated
+  .. 51 redirections (51 created/updated)
+Error in package-list.json:path to build.fhir.org should not use https://
+hl7.fhir.cz.terminology (https://hl7.cz/terminology): HL7 Czech FHIR Terminology @ http://build.fhir.org/ig/HL7-cz/terminology
+  release: Release 1 0.1.0/4.0.1 @ https://hl7.cz/terminology/0.1.0
+Build is complete. Copy from /Users/kruzik/dev/FHIR_publication/temp/web-root/run-20251202
+Update history page at /Users/kruzik/dev/FHIR_publication/temp/web-root/run-20251202/terminology from /Users/kruzik/dev/FHIR_publication/fhir-ig-history-template and /Users/kruzik/dev/FHIR_publication/webroot/template

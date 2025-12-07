@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="cz-logo-mime-types"/>
+  <language value="cs"/>
+  <text>
+    <status value="generated"/><div xml:lang="cs" xmlns="http://www.w3.org/1999/xhtml" lang="cs"><p class="res-header-id"><b>Generated Narrative: ValueSet cz-logo-mime-types</b></p><a name="cz-logo-mime-types"> </a><a name="hccz-logo-mime-types"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: cs</p></div><ul><li>Include these codes as defined in <code>urn:ietf:bcp:13</code><span title="Version is not explicitly stated. No matching Code System found"> version Not Stated (use latest from terminology server)</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>image/png</td><td>PNG image</td></tr><tr><td>image/jpeg</td><td>JPEG image</td></tr><tr><td>image/gif</td><td>GIF image</td></tr><tr><td>image/svg+xml</td><td>SVG image</td></tr></table></li></ul></div>
+  </text>
+  <url value="https://hl7.cz/terminology/ValueSet/cz-logo-mime-types"/>
+  <version value="0.1.0"/>
+  <name value="CZ_LogoMimeTypesVs"/>
+  <title value="Mime types permissible for logo attachment"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2022-12-26"/>
+  <publisher value="HL7 Czech Republic"/>
+  <contact>
+    <name value="HL7 Czech Republic"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hl7.cz/"/>
+    </telecom>
+  </contact>
+  <description value="Mime types for logo attachment. It is used in OrganizationLogo extension to restrict the mime type of the logo image."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CZ"/>
+      <display value="Czechia"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="urn:ietf:bcp:13"/>
+      <concept>
+        <code value="image/png"/>
+        <display value="PNG image"/>
+      </concept>
+      <concept>
+        <code value="image/jpeg"/>
+        <display value="JPEG image"/>
+      </concept>
+      <concept>
+        <code value="image/gif"/>
+        <display value="GIF image"/>
+      </concept>
+      <concept>
+        <code value="image/svg+xml"/>
+        <display value="SVG image"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>
