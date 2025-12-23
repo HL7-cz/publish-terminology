@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="mkn-10"/>
+  <language value="cs"/>
+  <text>
+    <status value="generated"/><div xml:lang="cs" xmlns="http://www.w3.org/1999/xhtml" lang="cs"><p class="res-header-id"><b>Generated Narrative: ValueSet mkn-10</b></p><a name="mkn-10"> </a><a name="hcmkn-10"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: cs</p></div><ul><li>Include all codes defined in <a href="CodeSystem-mkn-10.html"><code>https://uzis.cz/terminology/CodeSystem/mkn-10</code></a><span title="Version is not explicitly stated. No matching Code System found"> version Not Stated (use latest from terminology server)</span></li></ul></div>
+  </text>
+  <url value="https://uzis.cz/terminology/ValueSet/mkn-10"/>
+  <version value="0.2.0"/>
+  <name value="Mkn105"/>
+  <title value="Mkn10_5"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-12-07T21:43:29.076594Z"/>
+  <publisher value="HL7 Czech Republic"/>
+  <contact>
+    <name value="HL7 Czech Republic"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hl7.cz/"/>
+    </telecom>
+  </contact>
+  <description value="Číselník obsahující koncepty z kódového systému Mkn10_5. Ciselnik pouzity v HOSP, NRROD, NRNAR, NRVV, NRPOT, NRU, NSHNU, NRPATV, RIP"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CZ"/>
+      <display value="Czechia"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="https://uzis.cz/terminology/CodeSystem/mkn-10"/>
+    </include>
+  </compose>
+</ValueSet>

@@ -1,0 +1,2018 @@
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>RoleCode (CZ Supplement) - JSON Representation - HL7 Czech Terminology Implementation Guide v0.2.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <link href="assets/css/cz-core.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"5.56"}
+    h3,h4,h5,h6{--heading-prefix:"5.56"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <!-- Placeholder for child template header declarations -->
+<div id="hl7-nav">
+  <a id="hl7-logo" no-external="true" href="https://www.hl7.cz">
+    <img height="60" alt="Visit the HL7 Czech website" src="assets/images/hl7cz-logo.png" />
+  </a>
+</div>
+<div id="project-nav">
+  <a id="project-logo" no-external="true" href="https://mzd.gov.cz"><img height="60" alt="MZCR"
+      src="assets/images/NPO_logo.png" /> </a>
+</div>
+<div id="family-nav">
+  <a id="family-logo" no-external="true" href="https://ncez.mzcr.cz/cs"><img height="60" alt="NCEZ MZCR"
+      src="assets/images/logo.png" /> </a>
+</div>
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">HL7 Czech Terminology Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.2.0 - release
+
+
+
+  <img alt="Czechia flag" src="assets/images/cze.svg" height="16" title="Czechia"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="artifactsPage.html">Terminologies</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>RoleCode (CZ Supplement)</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div style="counter-reset: section 8" class="col-12">
+<!--ReleaseHeader--><p id="publish-box">This page is part of the Czech FHIR Terminology Package (v0.2.0: Release) based on <a data-no-external="true" href="http://hl7.org/fhir/R4">FHIR (HL7® FHIR® Standard) R4</a>. This is the current published version.  For a full list of available versions, see the <a data-no-external="true" href="https://hl7.cz/terminology/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li>
+    <a href="CodeSystem-v3-RoleCode-cz.html">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="CodeSystem-v3-RoleCode-cz.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li class="active">
+      <a href="#">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="CodeSystem-v3-RoleCode-cz.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+<a name="root"> </a>
+
+
+<h2 id="root">: RoleCode (CZ Supplement) - JSON Representation</h2>
+
+  <table class="colsd">
+    <tr>
+
+      <td colspan="2">
+        
+          Draft
+          
+            as of 2025-02-09
+          
+        
+      </td>
+
+    </tr>
+  </table>
+
+
+<p><a href="CodeSystem-v3-RoleCode-cz.json" no-download="true">Raw json</a> | <a href="CodeSystem-v3-RoleCode-cz.json" download>Download</a></p>
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <pre class="json" data-fhir="generated" style="white-space: pre; text-wrap: nowrap; width: auto;"><code style="white-space: pre; text-wrap: nowrap;">{
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem">resourceType</a>" : "CodeSystem",
+  "<a href="http://hl7.org/fhir/R4/resource.html#CodeSystem.id">id</a>" : "v3-RoleCode-cz",
+  "<a href="http://hl7.org/fhir/R4/resource.html#CodeSystem.language">language</a>" : "cs",
+  "<a href="http://hl7.org/fhir/R4/domainresource.html#CodeSystem.text">text</a>" : {
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xml:lang=\&quot;cs\&quot; xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot; lang=\&quot;cs\&quot;&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: CodeSystem v3-RoleCode-cz&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;v3-RoleCode-cz\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcv3-RoleCode-cz\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Language: cs&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;Properties&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;This code system defines the following properties for its concepts&lt;/b&gt;&lt;/p&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Name&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;URI&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Type&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Description&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Not Selectable&lt;/td&gt;&lt;td&gt;notSelectable&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/concept-properties#notSelectable&lt;/td&gt;&lt;td&gt;boolean&lt;/td&gt;&lt;td&gt;Not Selectable&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Concept Domain that classifies a RIM Class Code&lt;/td&gt;&lt;td&gt;rim-ClassifiesClassCode&lt;/td&gt;&lt;td&gt;http://terminology.hl7.org/CodeSystem/utg-concept-properties#rim-ClassifiesClassCode&lt;/td&gt;&lt;td&gt;Coding&lt;/td&gt;&lt;td&gt;The child code is a classification of the particular class group identified by the 'classCode' in a RIM class as the parent code.  Used only in RIM backbone classes to link the code and classCode values.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Parent&lt;/td&gt;&lt;td&gt;subsumedBy&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/concept-properties#parent&lt;/td&gt;&lt;td&gt;code&lt;/td&gt;&lt;td&gt;The concept code of a parent concept&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;synonymCode&lt;/td&gt;&lt;td&gt;synonymCode&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/concept-properties#synonym&lt;/td&gt;&lt;td&gt;code&lt;/td&gt;&lt;td&gt;An additional concept code that was also attributed to a concept&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;b&gt;Concepts&lt;/b&gt;&lt;/p&gt;&lt;p&gt;This code system supplement &lt;code&gt;https://hl7.cz/terminology/CodeSystem/v3-RoleCode-cz&lt;/code&gt; defines displays and properties on the following codes:&lt;/p&gt;&lt;table class=\&quot;codes\&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Lvl&lt;/b&gt;&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Definition&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Not Selectable&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Parent&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;synonymCode&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;English (English, en)&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;&lt;a style=\&quot;white-space:nowrap\&quot; href=\&quot;http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-_ContactRoleType\&quot;&gt;_ContactRoleType&lt;/a&gt;&lt;a name=\&quot;v3-RoleCode-cz-_ContactRoleType\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ContactRoleType&lt;/td&gt;&lt;td&gt;Typy kontaktů pro kód role \\&amp;quot;CON\\“&lt;/td&gt;&lt;td&gt;true&lt;/td&gt;&lt;td/&gt;&lt;td/&gt;&lt;td&gt;Types of contact for Role code &amp;quot;CON&amp;quot;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;\u00a0\u00a0&lt;a style=\&quot;white-space:nowrap\&quot; href=\&quot;http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-NOK\&quot;&gt;NOK&lt;/a&gt;&lt;a name=\&quot;v3-RoleCode-cz-NOK\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;příbuzný&lt;/td&gt;&lt;td&gt;Nejbližší příbuzný dotčené osoby.&lt;/td&gt;&lt;td/&gt;&lt;td&gt;_ContactRoleType&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Played by an individual who is designated as the next of kin for another individual which scopes the role.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;&lt;a style=\&quot;white-space:nowrap\&quot; href=\&quot;http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-_PersonalRelationshipRoleType\&quot;&gt;_PersonalRelationshipRoleType&lt;/a&gt;&lt;a name=\&quot;v3-RoleCode-cz-_PersonalRelationshipRoleType\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;PersonalRelationshipRoleType&lt;/td&gt;&lt;td&gt;Typy osobních vztahů pro kód role \\&amp;quot;PRN\\“&lt;/td&gt;&lt;td&gt;true&lt;/td&gt;&lt;td/&gt;&lt;td/&gt;&lt;td&gt;PersonalRelationshipRoleType&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;\u00a0\u00a0&lt;a style=\&quot;white-space:nowrap\&quot; href=\&quot;http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-FAMMEMB\&quot;&gt;FAMMEMB&lt;/a&gt;&lt;a name=\&quot;v3-RoleCode-cz-FAMMEMB\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;rodinný příslušník&lt;/td&gt;&lt;td&gt;Vztah mezi dvěma osobami, který je charakterizován jako vztah \\&amp;quot;rodinný\\&amp;quot;.&lt;/td&gt;&lt;td/&gt;&lt;td&gt;_PersonalRelationshipRoleType&lt;/td&gt;&lt;td/&gt;&lt;td&gt;A relationship between two people characterizing their &amp;quot;familial&amp;quot; relationship&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;\u00a0\u00a0\u00a0\u00a0&lt;a style=\&quot;white-space:nowrap\&quot; href=\&quot;http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-CHILD\&quot;&gt;CHILD&lt;/a&gt;&lt;a name=\&quot;v3-RoleCode-cz-CHILD\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;dítě&lt;/td&gt;&lt;td&gt;Dítě dotčené osoby.&lt;/td&gt;&lt;td/&gt;&lt;td&gt;FAMMEMB&lt;/td&gt;&lt;td/&gt;&lt;td&gt;The player of the role is a child of the scoping entity.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0&lt;a style=\&quot;white-space:nowrap\&quot; href=\&quot;http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-CHLDADOPT\&quot;&gt;CHLDADOPT&lt;/a&gt;&lt;a name=\&quot;v3-RoleCode-cz-CHLDADOPT\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;osvojené dítě&lt;/td&gt;&lt;td&gt;Dítě dotčené osoby, které bylo přijato do rodiny prostřednictvím právních prostředků a vychováváno dotčenou osobou (rodičem) jako vlastní dítě.&lt;/td&gt;&lt;td/&gt;&lt;td&gt;CHILD&lt;/td&gt;&lt;td/&gt;&lt;td&gt;The player of the role is a child taken into a family through legal means and raised by the scoping person (parent) as his or her own child.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0&lt;a style=\&quot;white-space:nowrap\&quot; href=\&quot;http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-DAUADOPT\&quot;&gt;DAUADOPT&lt;/a&gt;&lt;a name=\&quot;v3-RoleCode-cz-DAUADOPT\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;osvojená dcera&lt;/td&gt;&lt;td&gt;Ženský potomek dotčené entity (rodiče), který byl přijat do rodiny prostřednictvím právních prostředků a vychováván dotčenou osobou (rodičem) jako vlastní dítě.&lt;/td&gt;&lt;td/&gt;&lt;td&gt;CHLDADOPT, DAUC&lt;/td&gt;&lt;td/&gt;&lt;td&gt;The player of the role is a female child taken into a family through legal means and raised by the scoping person (parent) as his or her own child.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0&lt;a style=\&quot;white-space:nowrap\&quot; href=\&quot;http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-SONADOPT\&quot;&gt;SONADOPT&lt;/a&gt;&lt;a name=\&quot;v3-RoleCode-cz-SONADOPT\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;osvojený syn&lt;/td&gt;&lt;td&gt;Mužský potomek dotčené entity (rodiče), který byl přijat do rodiny prostřednictvím právních prostředků a vychováván dotčenou osobou (rodičem) jako vlastní dítě.&lt;/td&gt;&lt;td/&gt;&lt;td&gt;CHLDADOPT, SONC&lt;/td&gt;&lt;td/&gt;&lt;td&gt;The player of the role is a male child taken into a family through legal means and raised by the scoping person (parent) as his or her own child.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0&lt;a style=\&quot;white-space:nowrap\&quot; href=\&quot;http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-CHLDFOST\&quot;&gt;CHLDFOST&lt;/a&gt;&lt;a name=\&quot;v3-RoleCode-cz-CHLDFOST\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;dítě v náhradní péči (kromě osvojení)&lt;/td&gt;&lt;td&gt;Dítě dotčené osoby, které přijímá rodičovskou péči a výchovu od dotčené osoby (rodiče), ale není s ním nebo s ní spojeno právními nebo pokrevními vazbami.&lt;/td&gt;&lt;td/&gt;&lt;td&gt;CHILD&lt;/td&gt;&lt;td/&gt;&lt;td&gt;The player of the role is a child receiving parental care and nurture from the scoping person (parent) but not related to him or her through legal or blood ties.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0&lt;a style=\&quot;white-space:nowrap\&quot; href=\&quot;http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-DAUFOST\&quot;&gt;DAUFOST&lt;/a&gt;&lt;a name=\&quot;v3-RoleCode-cz-DAUFOST\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;dcera v náhradní péči (kromě osvojení)&lt;/td&gt;&lt;td&gt;Ženský potomek dotčené entity (rodiče), který přijímá rodičovskou péči a výchovu od dotčené osoby (rodiče), ale není s ním nebo s ní spojeno právními nebo pokrevními vazbami.&lt;/td&gt;&lt;td/&gt;&lt;td&gt;CHLDFOST, DAUC&lt;/td&gt;&lt;td/&gt;&lt;td&gt;The player of the role is a female child receiving parental care and nurture from the scoping person (parent) but not related to him or her through legal or blood ties.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0&lt;a style=\&quot;white-space:nowrap\&quot; href=\&quot;http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-SONFOST\&quot;&gt;SONFOST&lt;/a&gt;&lt;a name=\&quot;v3-RoleCode-cz-SONFOST\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;syn v náhradní péči (kromě osvojení)&lt;/td&gt;&lt;td&gt;Mužský potomek dotčené entity (rodiče), který je v náhradní péči a výchově dotčené osoby (rodiče), ale není s ní spojen právními nebo biologickými vazbami.&lt;/td&gt;&lt;td/&gt;&lt;td&gt;CHLDFOST, SONC&lt;/td&gt;&lt;td/&gt;&lt;td&gt;The player of the role is a male child receiving parental care and nurture from the scoping person (parent) but not related to him or her through legal or blood ties.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0&lt;a style=\&quot;white-space:nowrap\&quot; href=\&quot;http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-DAUC\&quot;&gt;DAUC&lt;/a&gt;&lt;a name=\&quot;v3-RoleCode-cz-DAUC\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;dcera&lt;/td&gt;&lt;td&gt;**Popis:** Ženský potomek (jakéhokoliv typu) dotčené entity (rodiče).&lt;/td&gt;&lt;td/&gt;&lt;td&gt;CHILD&lt;/td&gt;&lt;td/&gt;&lt;td&gt;**Description:** The player of the role is a female child (of any type) of scoping entity (parent)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0&lt;a style=\&quot;white-space:nowrap\&quot; href=\&quot;http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-DAU\&quot;&gt;DAU&lt;/a&gt;&lt;a name=\&quot;v3-RoleCode-cz-DAU\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;vlastní dcera&lt;/td&gt;&lt;td&gt;Ženský potomek dotčené entity (rodiče).&lt;/td&gt;&lt;td/&gt;&lt;td&gt;DAUC, NCHILD&lt;/td&gt;&lt;td/&gt;&lt;td&gt;The player of the role is a female offspring of the scoping entity (parent).&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0&lt;a style=\&quot;white-space:nowrap\&quot; href=\&quot;http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-STPDAU\&quot;&gt;STPDAU&lt;/a&gt;&lt;a name=\&quot;v3-RoleCode-cz-STPDAU\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;nevlastní dcera&lt;/td&gt;&lt;td&gt;Ženský potomek manžela/manželky dotčené osoby z předchozího manželství.&lt;/td&gt;&lt;td/&gt;&lt;td&gt;DAUC, STPCHLD&lt;/td&gt;&lt;td/&gt;&lt;td&gt;The player of the role is a daughter of the scoping person's spouse by a previous union.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;5&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0&lt;a href=\&quot;#v3-RoleCode-cz-DAUADOPT\&quot;&gt;DAUADOPT&lt;/a&gt;&lt;/td&gt;&lt;td&gt;osvojená dcera&lt;/td&gt;&lt;td colspan=\&quot;4\&quot;/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;5&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0&lt;a href=\&quot;#v3-RoleCode-cz-DAUFOST\&quot;&gt;DAUFOST&lt;/a&gt;&lt;/td&gt;&lt;td&gt;dcera v náhradní péči (kromě osvojení)&lt;/td&gt;&lt;td colspan=\&quot;4\&quot;/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0&lt;a style=\&quot;white-space:nowrap\&quot; href=\&quot;http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-NCHILD\&quot;&gt;NCHILD&lt;/a&gt;&lt;a name=\&quot;v3-RoleCode-cz-NCHILD\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;potomek&lt;/td&gt;&lt;td&gt;Potomek dotčené entity (rodiče).&lt;/td&gt;&lt;td/&gt;&lt;td&gt;CHILD&lt;/td&gt;&lt;td/&gt;&lt;td&gt;The player of the role is an offspring of the scoping entity as determined by birth.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0&lt;a style=\&quot;white-space:nowrap\&quot; href=\&quot;http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-SON\&quot;&gt;SON&lt;/a&gt;&lt;a name=\&quot;v3-RoleCode-cz-SON\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;vlastní syn&lt;/td&gt;&lt;td&gt;Mužský potomek dotčené entity (rodiče).&lt;/td&gt;&lt;td/&gt;&lt;td&gt;NCHILD, SONC&lt;/td&gt;&lt;td/&gt;&lt;td&gt;The player of the role is a male offspring of the scoping entity (parent).&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;5&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0&lt;a href=\&quot;#v3-RoleCode-cz-DAU\&quot;&gt;DAU&lt;/a&gt;&lt;/td&gt;&lt;td&gt;vlastní dcera&lt;/td&gt;&lt;td colspan=\&quot;4\&quot;/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0&lt;a style=\&quot;white-space:nowrap\&quot; href=\&quot;http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-SONC\&quot;&gt;SONC&lt;/a&gt;&lt;a name=\&quot;v3-RoleCode-cz-SONC\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;syn&lt;/td&gt;&lt;td&gt;**Popis:** Mužský potomek (jakéhokoli typu) dotčené osoby (rodiče).&lt;/td&gt;&lt;td/&gt;&lt;td&gt;CHILD&lt;/td&gt;&lt;td/&gt;&lt;td&gt;**Description:** The player of the role is a male child (of any type) of scoping entity (parent)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0&lt;a style=\&quot;white-space:nowrap\&quot; href=\&quot;http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-STPSON\&quot;&gt;STPSON&lt;/a&gt;&lt;a name=\&quot;v3-RoleCode-cz-STPSON\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;nevlastní syn&lt;/td&gt;&lt;td&gt;Mužský potomek manžela/manželky dotčené osoby z předchozího manželství.&lt;/td&gt;&lt;td/&gt;&lt;td&gt;SONC, STPCHLD&lt;/td&gt;&lt;td/&gt;&lt;td&gt;The player of the role is a son of the scoping person's spouse by a previous union.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;5&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0&lt;a href=\&quot;#v3-RoleCode-cz-SON\&quot;&gt;SON&lt;/a&gt;&lt;/td&gt;&lt;td&gt;vlastní syn&lt;/td&gt;&lt;td colspan=\&quot;4\&quot;/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;5&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0&lt;a href=\&quot;#v3-RoleCode-cz-SONADOPT\&quot;&gt;SONADOPT&lt;/a&gt;&lt;/td&gt;&lt;td&gt;osvojený syn&lt;/td&gt;&lt;td colspan=\&quot;4\&quot;/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;5&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0&lt;a href=\&quot;#v3-RoleCode-cz-SONFOST\&quot;&gt;SONFOST&lt;/a&gt;&lt;/td&gt;&lt;td&gt;syn v náhradní péči (kromě osvojení)&lt;/td&gt;&lt;td colspan=\&quot;4\&quot;/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0&lt;a style=\&quot;white-space:nowrap\&quot; href=\&quot;http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-STPCHLD\&quot;&gt;STPCHLD&lt;/a&gt;&lt;a name=\&quot;v3-RoleCode-cz-STPCHLD\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;nevlastní dítě&lt;/td&gt;&lt;td&gt;Dítě manžela/manželky dotčené osoby z předchozího manželství.&lt;/td&gt;&lt;td/&gt;&lt;td&gt;CHILD&lt;/td&gt;&lt;td/&gt;&lt;td&gt;The player of the role is a child of the scoping person's spouse by a previous union.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;5&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0&lt;a href=\&quot;#v3-RoleCode-cz-STPDAU\&quot;&gt;STPDAU&lt;/a&gt;&lt;/td&gt;&lt;td&gt;nevlastní dcera&lt;/td&gt;&lt;td colspan=\&quot;4\&quot;/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;5&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0&lt;a href=\&quot;#v3-RoleCode-cz-STPSON\&quot;&gt;STPSON&lt;/a&gt;&lt;/td&gt;&lt;td&gt;nevlastní syn&lt;/td&gt;&lt;td colspan=\&quot;4\&quot;/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;\u00a0\u00a0\u00a0\u00a0&lt;a style=\&quot;white-space:nowrap\&quot; href=\&quot;http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-EXT\&quot;&gt;EXT&lt;/a&gt;&lt;a name=\&quot;v3-RoleCode-cz-EXT\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;člen širší rodiny&lt;/td&gt;&lt;td&gt;**Popis:** Rodinný příslušník, který není v bezprostředním genetickém nebo právním vztahu k dotčené osobě, např. teta, bratranec, sestřenice, prarodič, vnuk, praprarodič, neteř, synovec nebo strýc.&lt;/td&gt;&lt;td/&gt;&lt;td&gt;FAMMEMB&lt;/td&gt;&lt;td/&gt;&lt;td&gt;**Description:** A family member not having an immediate genetic or legal relationship e.g. Aunt, cousin, great grandparent, grandchild, grandparent, niece, nephew or uncle.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0&lt;a style=\&quot;white-space:nowrap\&quot; href=\&quot;http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-AUNT\&quot;&gt;AUNT&lt;/a&gt;&lt;a name=\&quot;v3-RoleCode-cz-AUNT\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;teta&lt;/td&gt;&lt;td&gt;Sestra matky nebo otce dotčené osoby.&lt;/td&gt;&lt;td/&gt;&lt;td&gt;EXT&lt;/td&gt;&lt;td/&gt;&lt;td&gt;The player of the role is a sister of the scoping person's mother or father.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0&lt;a style=\&quot;white-space:nowrap\&quot; href=\&quot;http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-COUSN\&quot;&gt;COUSN&lt;/a&gt;&lt;a name=\&quot;v3-RoleCode-cz-COUSN\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;sestřenice/bratranec&lt;/td&gt;&lt;td&gt;Příbuzný dotčené osoby, který pochází ze společného předka, jako je prarodič, po dvou nebo více krocích v rodové linii.&lt;/td&gt;&lt;td/&gt;&lt;td&gt;EXT&lt;/td&gt;&lt;td/&gt;&lt;td&gt;The player of the role is a relative of the scoping person descended from a common ancestor, such as a grandparent, by two or more steps in a diverging line.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0&lt;a style=\&quot;white-space:nowrap\&quot; href=\&quot;http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-GGRPRN\&quot;&gt;GGRPRN&lt;/a&gt;&lt;a name=\&quot;v3-RoleCode-cz-GGRPRN\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;praprarodič&lt;/td&gt;&lt;td&gt;Osoba, která je rodičem prarodiče dotčené osoby.&lt;/td&gt;&lt;td/&gt;&lt;td&gt;EXT&lt;/td&gt;&lt;td/&gt;&lt;td&gt;The player of the role is a parent of the scoping person's grandparent.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0&lt;a style=\&quot;white-space:nowrap\&quot; href=\&quot;http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-GGRFTH\&quot;&gt;GGRFTH&lt;/a&gt;&lt;a name=\&quot;v3-RoleCode-cz-GGRFTH\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;pradědeček&lt;/td&gt;&lt;td&gt;Muž, který je otcem prarodiče dotčené osoby.&lt;/td&gt;&lt;td/&gt;&lt;td&gt;GGRPRN&lt;/td&gt;&lt;td/&gt;&lt;td&gt;The player of the role is the father of the scoping person's grandparent.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0&lt;a style=\&quot;white-space:nowrap\&quot; href=\&quot;http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-GGRMTH\&quot;&gt;GGRMTH&lt;/a&gt;&lt;a name=\&quot;v3-RoleCode-cz-GGRMTH\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;prababička&lt;/td&gt;&lt;td&gt;Žena, která je matkou prarodiče dotčené osoby.&lt;/td&gt;&lt;td/&gt;&lt;td&gt;GGRPRN&lt;/td&gt;&lt;td/&gt;&lt;td&gt;The player of the role is the mother of the scoping person's grandparent.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0&lt;a style=\&quot;white-space:nowrap\&quot; href=\&quot;http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-GRNDCHILD\&quot;&gt;GRNDCHILD&lt;/a&gt;&lt;a name=\&quot;v3-RoleCode-cz-GRNDCHILD\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;vnouče&lt;/td&gt;&lt;td&gt;Potomek, který je dítětem syna nebo dcery dotčené osoby.&lt;/td&gt;&lt;td/&gt;&lt;td&gt;EXT&lt;/td&gt;&lt;td/&gt;&lt;td&gt;The player of the role is a child of the scoping person's son or daughter.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0&lt;a style=\&quot;white-space:nowrap\&quot; href=\&quot;http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-GRNDDAU\&quot;&gt;GRNDDAU&lt;/a&gt;&lt;a name=\&quot;v3-RoleCode-cz-GRNDDAU\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;vnučka&lt;/td&gt;&lt;td&gt;Dcera syna nebo dcery dotčené osoby.&lt;/td&gt;&lt;td/&gt;&lt;td&gt;GRNDCHILD&lt;/td&gt;&lt;td/&gt;&lt;td&gt;The player of the role is a daughter of the scoping person's son or daughter.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0&lt;a style=\&quot;white-space:nowrap\&quot; href=\&quot;http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-GRNDSON\&quot;&gt;GRNDSON&lt;/a&gt;&lt;a name=\&quot;v3-RoleCode-cz-GRNDSON\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;vnuk&lt;/td&gt;&lt;td&gt;Syn syna nebo dcery dotčené osoby.&lt;/td&gt;&lt;td/&gt;&lt;td&gt;GRNDCHILD&lt;/td&gt;&lt;td/&gt;&lt;td&gt;The player of the role is a son of the scoping person's son or daughter.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0&lt;a style=\&quot;white-space:nowrap\&quot; href=\&quot;http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-GRPRN\&quot;&gt;GRPRN&lt;/a&gt;&lt;a name=\&quot;v3-RoleCode-cz-GRPRN\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;prarodič&lt;/td&gt;&lt;td&gt;Osoba, která je rodičem rodiče dotčené osoby.&lt;/td&gt;&lt;td/&gt;&lt;td&gt;EXT&lt;/td&gt;&lt;td/&gt;&lt;td&gt;The player of the role is a parent of the scoping person's mother or father.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0&lt;a style=\&quot;white-space:nowrap\&quot; href=\&quot;http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-GRFTH\&quot;&gt;GRFTH&lt;/a&gt;&lt;a name=\&quot;v3-RoleCode-cz-GRFTH\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;dědeček&lt;/td&gt;&lt;td&gt;Muž, který je otcem rodiče dotčené osoby.&lt;/td&gt;&lt;td/&gt;&lt;td&gt;GRPRN&lt;/td&gt;&lt;td/&gt;&lt;td&gt;The player of the role is the father of the scoping person's mother or father.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0&lt;a style=\&quot;white-space:nowrap\&quot; href=\&quot;http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-GRMTH\&quot;&gt;GRMTH&lt;/a&gt;&lt;a name=\&quot;v3-RoleCode-cz-GRMTH\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;babička&lt;/td&gt;&lt;td&gt;Žena, která je matkou rodiče dotčené osoby.&lt;/td&gt;&lt;td/&gt;&lt;td&gt;GRPRN&lt;/td&gt;&lt;td/&gt;&lt;td&gt;The player of the role is the mother of the scoping person's mother or father.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0&lt;a style=\&quot;white-space:nowrap\&quot; href=\&quot;http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-INLAW\&quot;&gt;INLAW&lt;/a&gt;&lt;a name=\&quot;v3-RoleCode-cz-INLAW\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;příbuzní ze strany manžela/manželky&lt;/td&gt;&lt;td&gt;Vztah mezi jednotlivcem a členem nejbližší rodiny jeho manželského partnera.&lt;/td&gt;&lt;td/&gt;&lt;td&gt;EXT&lt;/td&gt;&lt;td/&gt;&lt;td&gt;A relationship between an individual and a member of their spousal partner's immediate family.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0&lt;a style=\&quot;white-space:nowrap\&quot; href=\&quot;http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-CHLDINLAW\&quot;&gt;CHLDINLAW&lt;/a&gt;&lt;a name=\&quot;v3-RoleCode-cz-CHLDINLAW\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;zeť/snacha&lt;/td&gt;&lt;td&gt;Manžel nebo manželka dítěte dotčené osoby.&lt;/td&gt;&lt;td/&gt;&lt;td&gt;INLAW&lt;/td&gt;&lt;td/&gt;&lt;td&gt;The player of the role is the spouse of scoping person's child.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;6&lt;/td&gt;&lt;td&gt;\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0&lt;a style=\&quot;white-space:nowrap\&quot; href=\&quot;http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-DAUINLAW\&quot;&gt;DAUINLAW&lt;/a&gt;&lt;a name=\&quot;v3-RoleCode-cz-DAUINLAW\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;snacha&lt;/td&gt;&lt;td&gt;Manželka syna dotčené osoby.&lt;/td&gt;&lt;td/&gt;&lt;td&gt;CHLDINLAW&lt;/td&gt;&lt;td/&gt;&lt;td&gt;The player of the role is the wife of scoping person's son.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;6&lt;/td&gt;&lt;td&gt;\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0&lt;a style=\&quot;white-space:nowrap\&quot; href=\&quot;http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-SONINLAW\&quot;&gt;SONINLAW&lt;/a&gt;&lt;a name=\&quot;v3-RoleCode-cz-SONINLAW\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;zeť&lt;/td&gt;&lt;td&gt;Manžel dcery dotčené osoby.&lt;/td&gt;&lt;td/&gt;&lt;td&gt;CHLDINLAW&lt;/td&gt;&lt;td/&gt;&lt;td&gt;The player of the role is the husband of scoping person's daughter.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0&lt;a style=\&quot;white-space:nowrap\&quot; href=\&quot;http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-PRNINLAW\&quot;&gt;PRNINLAW&lt;/a&gt;&lt;a name=\&quot;v3-RoleCode-cz-PRNINLAW\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;tchyně/tchán&lt;/td&gt;&lt;td&gt;Rodič manžela nebo manželky dotčené osoby.&lt;/td&gt;&lt;td/&gt;&lt;td&gt;INLAW&lt;/td&gt;&lt;td/&gt;&lt;td&gt;The player of the role is the parent of scoping person's husband or wife.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;6&lt;/td&gt;&lt;td&gt;\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0&lt;a style=\&quot;white-space:nowrap\&quot; href=\&quot;http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-FTHINLAW\&quot;&gt;FTHINLAW&lt;/a&gt;&lt;a name=\&quot;v3-RoleCode-cz-FTHINLAW\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;tchán&lt;/td&gt;&lt;td&gt;Muž, který je otcem manžela nebo manželky dotčené osoby.&lt;/td&gt;&lt;td/&gt;&lt;td&gt;PRNINLAW&lt;/td&gt;&lt;td/&gt;&lt;td&gt;The player of the role is the father of the scoping person's husband or wife.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;6&lt;/td&gt;&lt;td&gt;\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0&lt;a style=\&quot;white-space:nowrap\&quot; href=\&quot;http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-MTHINLAW\&quot;&gt;MTHINLAW&lt;/a&gt;&lt;a name=\&quot;v3-RoleCode-cz-MTHINLAW\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;tchýně&lt;/td&gt;&lt;td&gt;Žena, která je matkou manžela nebo manželky dotčené osoby.&lt;/td&gt;&lt;td/&gt;&lt;td&gt;PRNINLAW&lt;/td&gt;&lt;td&gt;MTHINLOAW&lt;/td&gt;&lt;td&gt;The player of the role is the mother of the scoping person's husband or wife.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;6&lt;/td&gt;&lt;td&gt;\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0&lt;a style=\&quot;white-space:nowrap\&quot; href=\&quot;http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-MTHINLOAW\&quot;&gt;MTHINLOAW&lt;/a&gt;&lt;a name=\&quot;v3-RoleCode-cz-MTHINLOAW\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;tchýně&lt;/td&gt;&lt;td&gt;Žena, která je matkou manžela nebo manželky dotčené osoby.&lt;/td&gt;&lt;td/&gt;&lt;td&gt;PRNINLAW&lt;/td&gt;&lt;td&gt;MTHINLAW&lt;/td&gt;&lt;td&gt;The player of the role is the mother of the scoping person's husband or wife.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0&lt;a style=\&quot;white-space:nowrap\&quot; href=\&quot;http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-SIBINLAW\&quot;&gt;SIBINLAW&lt;/a&gt;&lt;a name=\&quot;v3-RoleCode-cz-SIBINLAW\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;švagr/švagrová&lt;/td&gt;&lt;td&gt;Osoba, která je: (1) sourozencem manžela/manželky dotčené osoby, nebo (2) manželem/manželkou sourozence dotčené osoby, nebo (3) manželem/manželkou sourozence manžela/manželky dotčené osoby.&lt;/td&gt;&lt;td/&gt;&lt;td&gt;INLAW&lt;/td&gt;&lt;td/&gt;&lt;td&gt;The player of the role is: (1) a sibling of the scoping person's spouse, or (2) the spouse of the scoping person's sibling, or (3) the spouse of a sibling of the scoping person's spouse.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;6&lt;/td&gt;&lt;td&gt;\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0&lt;a style=\&quot;white-space:nowrap\&quot; href=\&quot;http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-BROINLAW\&quot;&gt;BROINLAW&lt;/a&gt;&lt;a name=\&quot;v3-RoleCode-cz-BROINLAW\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;švagr&lt;/td&gt;&lt;td&gt;(1) bratr manžela nebo manželky dotčené osoby, nebo (2) manžel sestry dotčené osoby, nebo (3) manžel sestry manžela nebo manželky dotčené osoby.&lt;/td&gt;&lt;td/&gt;&lt;td&gt;SIBINLAW&lt;/td&gt;&lt;td/&gt;&lt;td&gt;The player of the role is: (1) a brother of the scoping person's spouse, or (2) the husband of the scoping person's sister, or (3) the husband of a sister of the scoping person's spouse.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;6&lt;/td&gt;&lt;td&gt;\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0&lt;a style=\&quot;white-space:nowrap\&quot; href=\&quot;http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-SISINLAW\&quot;&gt;SISINLAW&lt;/a&gt;&lt;a name=\&quot;v3-RoleCode-cz-SISINLAW\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;švagrová&lt;/td&gt;&lt;td&gt;Osoba, která je: (1) sestrou manžela/manželky dotčené osoby, nebo (2) manželkou bratra dotčené osoby, nebo (3) manželkou bratra manžela/manželky dotčené osoby.&lt;/td&gt;&lt;td/&gt;&lt;td&gt;SIBINLAW&lt;/td&gt;&lt;td&gt;SISLINLAW&lt;/td&gt;&lt;td&gt;The player of the role is: (1) a sister of the scoping person's spouse, or (2) the wife of the scoping person's brother, or (3) the wife of a brother of the scoping person's spouse.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;6&lt;/td&gt;&lt;td&gt;\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0&lt;a style=\&quot;white-space:nowrap\&quot; href=\&quot;http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-SISLINLAW\&quot;&gt;SISLINLAW&lt;/a&gt;&lt;a name=\&quot;v3-RoleCode-cz-SISLINLAW\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;švagrová&lt;/td&gt;&lt;td&gt;Osoba, která je: (1) sestrou manžela/manželky dotčené osoby, nebo (2) manželkou bratra dotčené osoby, nebo (3) manželkou bratra manžela/manželky dotčené osoby.&lt;/td&gt;&lt;td/&gt;&lt;td&gt;SIBINLAW&lt;/td&gt;&lt;td&gt;SISINLAW&lt;/td&gt;&lt;td&gt;The player of the role is: (1) a sister of the scoping person's spouse, or (2) the wife of the scoping person's brother, or (3) the wife of a brother of the scoping person's spouse.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0&lt;a style=\&quot;white-space:nowrap\&quot; href=\&quot;http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-NIENEPH\&quot;&gt;NIENEPH&lt;/a&gt;&lt;a name=\&quot;v3-RoleCode-cz-NIENEPH\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;neteř/synovec&lt;/td&gt;&lt;td&gt;Potomek bratra nebo sestry dotčené osoby nebo bratra nebo sestry manžela/manželky dotčené osoby.&lt;/td&gt;&lt;td/&gt;&lt;td&gt;EXT&lt;/td&gt;&lt;td/&gt;&lt;td&gt;The player of the role is a child of scoping person's brother or sister or of the brother or sister of the scoping person's spouse.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0&lt;a style=\&quot;white-space:nowrap\&quot; href=\&quot;http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-NEPHEW\&quot;&gt;NEPHEW&lt;/a&gt;&lt;a name=\&quot;v3-RoleCode-cz-NEPHEW\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;synovec&lt;/td&gt;&lt;td&gt;Syn bratra nebo sestry dotčené osoby.&lt;/td&gt;&lt;td/&gt;&lt;td&gt;NIENEPH&lt;/td&gt;&lt;td/&gt;&lt;td&gt;The player of the role is a son of the scoping person's brother or sister or of the brother or sister of the scoping person's spouse.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0&lt;a style=\&quot;white-space:nowrap\&quot; href=\&quot;http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-NIECE\&quot;&gt;NIECE&lt;/a&gt;&lt;a name=\&quot;v3-RoleCode-cz-NIECE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;neteř&lt;/td&gt;&lt;td&gt;Dcera bratra nebo sestry dotčené osoby.&lt;/td&gt;&lt;td/&gt;&lt;td&gt;NIENEPH&lt;/td&gt;&lt;td/&gt;&lt;td&gt;The player of the role is a daughter of the scoping person's brother or sister or of the brother or sister of the scoping person's spouse.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0&lt;a style=\&quot;white-space:nowrap\&quot; href=\&quot;http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-UNCLE\&quot;&gt;UNCLE&lt;/a&gt;&lt;a name=\&quot;v3-RoleCode-cz-UNCLE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;strýc&lt;/td&gt;&lt;td&gt;Bratr matky nebo otce dotčené osoby.&lt;/td&gt;&lt;td/&gt;&lt;td&gt;EXT&lt;/td&gt;&lt;td/&gt;&lt;td&gt;The player of the role is a brother of the scoping person's mother or father.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;\u00a0\u00a0\u00a0\u00a0&lt;a style=\&quot;white-space:nowrap\&quot; href=\&quot;http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-PRN\&quot;&gt;PRN&lt;/a&gt;&lt;a name=\&quot;v3-RoleCode-cz-PRN\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;rodič&lt;/td&gt;&lt;td&gt;Osoba, která zplodila, porodila nebo vychovala a pečuje o dotčenou osobu (dítě).&lt;/td&gt;&lt;td/&gt;&lt;td&gt;FAMMEMB&lt;/td&gt;&lt;td/&gt;&lt;td&gt;The player of the role is one who begets, gives birth to, or nurtures and raises the scoping entity (child).&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0&lt;a style=\&quot;white-space:nowrap\&quot; href=\&quot;http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-FTH\&quot;&gt;FTH&lt;/a&gt;&lt;a name=\&quot;v3-RoleCode-cz-FTH\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;otec&lt;/td&gt;&lt;td&gt;Muž, který zplodil, vychoval nebo pečuje o dotčenou osobu (dítě).&lt;/td&gt;&lt;td/&gt;&lt;td&gt;PRN&lt;/td&gt;&lt;td/&gt;&lt;td&gt;The player of the role is a male who begets or raises or nurtures the scoping entity (child).&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0&lt;a style=\&quot;white-space:nowrap\&quot; href=\&quot;http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-MTH\&quot;&gt;MTH&lt;/a&gt;&lt;a name=\&quot;v3-RoleCode-cz-MTH\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;matka&lt;/td&gt;&lt;td&gt;Žena, která zplodila, porodila nebo vychovala a pečuje o dotčenou osobu (dítě).&lt;/td&gt;&lt;td/&gt;&lt;td&gt;PRN&lt;/td&gt;&lt;td/&gt;&lt;td&gt;The player of the role is a female who conceives, gives birth to, or raises and nurtures the scoping entity (child).&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;\u00a0\u00a0\u00a0\u00a0&lt;a style=\&quot;white-space:nowrap\&quot; href=\&quot;http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-SIB\&quot;&gt;SIB&lt;/a&gt;&lt;a name=\&quot;v3-RoleCode-cz-SIB\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;sourozenec&lt;/td&gt;&lt;td&gt;Osoba, která sdílí jednoho nebo oba rodiče s dotčenou osobou.&lt;/td&gt;&lt;td/&gt;&lt;td&gt;FAMMEMB&lt;/td&gt;&lt;td/&gt;&lt;td&gt;The player of the role shares one or both parents in common with the scoping entity.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0&lt;a style=\&quot;white-space:nowrap\&quot; href=\&quot;http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-BRO\&quot;&gt;BRO&lt;/a&gt;&lt;a name=\&quot;v3-RoleCode-cz-BRO\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;bratr&lt;/td&gt;&lt;td&gt;Muž, který sdílí jednoho nebo oba společné rodiče s dotčenou osobou.&lt;/td&gt;&lt;td/&gt;&lt;td&gt;SIB&lt;/td&gt;&lt;td/&gt;&lt;td&gt;The player of the role is a male sharing one or both parents in common with the scoping entity.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0&lt;a style=\&quot;white-space:nowrap\&quot; href=\&quot;http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-SIS\&quot;&gt;SIS&lt;/a&gt;&lt;a name=\&quot;v3-RoleCode-cz-SIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;sestra&lt;/td&gt;&lt;td&gt;Žena, která sdílí jednoho nebo oba rodiče s dotčenou osobou.&lt;/td&gt;&lt;td/&gt;&lt;td&gt;SIB&lt;/td&gt;&lt;td/&gt;&lt;td&gt;The player of the role is a female sharing one or both parents in common with the scoping entity.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;\u00a0\u00a0\u00a0\u00a0&lt;a style=\&quot;white-space:nowrap\&quot; href=\&quot;http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-SIGOTHR\&quot;&gt;SIGOTHR&lt;/a&gt;&lt;a name=\&quot;v3-RoleCode-cz-SIGOTHR\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;osoba blízká&lt;/td&gt;&lt;td&gt;Osoba, která je důležitá pro blaho dotčené osoby; zejména manžel nebo osoba ve obdobném vztahu.&lt;/td&gt;&lt;td/&gt;&lt;td&gt;FAMMEMB&lt;/td&gt;&lt;td/&gt;&lt;td&gt;A person who is important to one's well being; especially a spouse or one in a similar relationship. (The player is the one who is important)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0&lt;a style=\&quot;white-space:nowrap\&quot; href=\&quot;http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-DOMPART\&quot;&gt;DOMPART&lt;/a&gt;&lt;a name=\&quot;v3-RoleCode-cz-DOMPART\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;druh/družka&lt;/td&gt;&lt;td&gt;Osoba žijící s dotčenou osobou, která není manželem nebo manželkou dotčené osoby.&lt;/td&gt;&lt;td/&gt;&lt;td&gt;SIGOTHR&lt;/td&gt;&lt;td/&gt;&lt;td&gt;The player of the role cohabits with the scoping person but is not the scoping person's spouse.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0&lt;a style=\&quot;white-space:nowrap\&quot; href=\&quot;http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-SPS\&quot;&gt;SPS&lt;/a&gt;&lt;a name=\&quot;v3-RoleCode-cz-SPS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;manžel/maželka&lt;/td&gt;&lt;td&gt;Osoba, která je manželským partnerem dotčené osoby.&lt;/td&gt;&lt;td/&gt;&lt;td&gt;SIGOTHR&lt;/td&gt;&lt;td/&gt;&lt;td&gt;The player of the role is a marriage partner of the scoping person.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0&lt;a style=\&quot;white-space:nowrap\&quot; href=\&quot;http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-HUSB\&quot;&gt;HUSB&lt;/a&gt;&lt;a name=\&quot;v3-RoleCode-cz-HUSB\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;manžel&lt;/td&gt;&lt;td&gt;Muž, který je spojen s dotčenou ženou v manželství.&lt;/td&gt;&lt;td/&gt;&lt;td&gt;SPS&lt;/td&gt;&lt;td/&gt;&lt;td&gt;The player of the role is a man joined to a woman (scoping person) in marriage.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0&lt;a style=\&quot;white-space:nowrap\&quot; href=\&quot;http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-WIFE\&quot;&gt;WIFE&lt;/a&gt;&lt;a name=\&quot;v3-RoleCode-cz-WIFE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;manželka&lt;/td&gt;&lt;td&gt;Žena, která je manželským partnerem dotčené osoby.&lt;/td&gt;&lt;td/&gt;&lt;td&gt;SPS&lt;/td&gt;&lt;td/&gt;&lt;td&gt;The player of the role is a woman joined to a man (scoping person) in marriage.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;\u00a0\u00a0&lt;a style=\&quot;white-space:nowrap\&quot; href=\&quot;http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-FRND\&quot;&gt;FRND&lt;/a&gt;&lt;a name=\&quot;v3-RoleCode-cz-FRND\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;přítel/přítelkyně&lt;/td&gt;&lt;td&gt;Osoba, která je známá, oblíbená a důvěryhodná pro dotčenou osobu.&lt;/td&gt;&lt;td/&gt;&lt;td&gt;_PersonalRelationshipRoleType&lt;/td&gt;&lt;td/&gt;&lt;td&gt;The player of the role is a person who is known, liked, and trusted by the scoping person.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;\u00a0\u00a0&lt;a style=\&quot;white-space:nowrap\&quot; href=\&quot;http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-NBOR\&quot;&gt;NBOR&lt;/a&gt;&lt;a name=\&quot;v3-RoleCode-cz-NBOR\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;soused/sousedka&lt;/td&gt;&lt;td&gt;Osoba, která žije v blízkosti nebo vedle dotčené osoby.&lt;/td&gt;&lt;td/&gt;&lt;td&gt;_PersonalRelationshipRoleType&lt;/td&gt;&lt;td/&gt;&lt;td&gt;The player of the role lives near or next to the scoping person.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;\u00a0\u00a0&lt;a style=\&quot;white-space:nowrap\&quot; href=\&quot;http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-ROOM\&quot;&gt;ROOM&lt;/a&gt;&lt;a name=\&quot;v3-RoleCode-cz-ROOM\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;spolubydlící&lt;/td&gt;&lt;td&gt;Osoba, která sdílí obytné prostory s dotčenou osobou.&lt;/td&gt;&lt;td/&gt;&lt;td&gt;_PersonalRelationshipRoleType&lt;/td&gt;&lt;td/&gt;&lt;td&gt;One who shares living quarters with the subject.&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"
+  },
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.url">url</a>" : "https://hl7.cz/terminology/CodeSystem/v3-RoleCode-cz",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.version">version</a>" : "0.2.0",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.name">name</a>" : "RoleCodeCz",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.title">title</a>" : "RoleCode (CZ Supplement)",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.status">status</a>" : "draft",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.experimental">experimental</a>" : false,
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.date">date</a>" : "2025-02-09T10:38:00.271394Z",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.publisher">publisher</a>" : "HL7 Czech Republic",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.contact">contact</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.name">name</a>" : "HL7 Czech Republic",
+      "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.telecom">telecom</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "url",
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "https://www.hl7.cz/"
+        }
+      ]
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.description">description</a>" : "Český doplněk kódového systému v3-RoleCode, který je souborem kódů blíže specifikujících druh Role; obsahuje specifické klasifikační kódy pro další upřesnění kódů RoleClass. A Czech supplement to the v3-RoleCode code system which is a set of codes further specifying the kind of Role; specific classification codes for further qualifying RoleClass codes.",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.jurisdiction">jurisdiction</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "urn:iso:std:iso:3166",
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "CZ",
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>" : "Czechia"
+        }
+      ]
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.content">content</a>" : "supplement",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.supplements">supplements</a>" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode|3.0.0",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property">property</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.code">code</a>" : "notSelectable",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.uri">uri</a>" : "http://hl7.org/fhir/concept-properties#notSelectable",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.description">description</a>" : "Not Selectable",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.type">type</a>" : "boolean"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.code">code</a>" : "rim-ClassifiesClassCode",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.uri">uri</a>" : "http://terminology.hl7.org/CodeSystem/utg-concept-properties#rim-ClassifiesClassCode",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.description">description</a>" : "The child code is a classification of the particular class group identified by the 'classCode' in a RIM class as the parent code.  Used only in RIM backbone classes to link the code and classCode values.",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.type">type</a>" : "Coding"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.code">code</a>" : "subsumedBy",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.uri">uri</a>" : "http://hl7.org/fhir/concept-properties#parent",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.description">description</a>" : "The concept code of a parent concept",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.type">type</a>" : "code"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.code">code</a>" : "synonymCode",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.uri">uri</a>" : "http://hl7.org/fhir/concept-properties#synonym",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.description">description</a>" : "An additional concept code that was also attributed to a concept",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.type">type</a>" : "code"
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "AUNT",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "teta",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Sestra matky nebo otce dotčené osoby.",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "definition"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "The player of the role is a sister of the scoping person's mother or father."
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "display"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "aunt"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "subsumedBy",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "EXT"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "BRO",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "bratr",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Muž, který sdílí jednoho nebo oba společné rodiče s dotčenou osobou.",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "definition"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "The player of the role is a male sharing one or both parents in common with the scoping entity."
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "display"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "brother"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "subsumedBy",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "SIB"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "BROINLAW",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "švagr",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>" : "(1) bratr manžela nebo manželky dotčené osoby, nebo (2) manžel sestry dotčené osoby, nebo (3) manžel sestry manžela nebo manželky dotčené osoby.",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "definition"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "The player of the role is: (1) a brother of the scoping person's spouse, or (2) the husband of the scoping person's sister, or (3) the husband of a sister of the scoping person's spouse."
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "display"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "brother-in-law"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "subsumedBy",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "SIBINLAW"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "CHILD",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "dítě",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Dítě dotčené osoby.",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "definition"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "The player of the role is a child of the scoping entity."
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "display"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "child"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "subsumedBy",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "FAMMEMB"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "CHLDADOPT",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "osvojené dítě",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Dítě dotčené osoby, které bylo přijato do rodiny prostřednictvím právních prostředků a vychováváno dotčenou osobou (rodičem) jako vlastní dítě.",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "definition"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "The player of the role is a child taken into a family through legal means and raised by the scoping person (parent) as his or her own child."
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "display"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "adopted child"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "subsumedBy",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "CHILD"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "CHLDFOST",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "dítě v náhradní péči (kromě osvojení)",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Dítě dotčené osoby, které přijímá rodičovskou péči a výchovu od dotčené osoby (rodiče), ale není s ním nebo s ní spojeno právními nebo pokrevními vazbami.",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "definition"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "The player of the role is a child receiving parental care and nurture from the scoping person (parent) but not related to him or her through legal or blood ties."
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "display"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "foster child"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "subsumedBy",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "CHILD"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "CHLDINLAW",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "zeť/snacha",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Manžel nebo manželka dítěte dotčené osoby.",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "definition"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "The player of the role is the spouse of scoping person's child."
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "display"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "child-in-law"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "subsumedBy",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "INLAW"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "COUSN",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "sestřenice/bratranec",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Příbuzný dotčené osoby, který pochází ze společného předka, jako je prarodič, po dvou nebo více krocích v rodové linii.",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "definition"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "The player of the role is a relative of the scoping person descended from a common ancestor, such as a grandparent, by two or more steps in a diverging line."
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "display"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "cousin"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "subsumedBy",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "EXT"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "DAU",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "vlastní dcera",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Ženský potomek dotčené entity (rodiče).",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "definition"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "The player of the role is a female offspring of the scoping entity (parent)."
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "display"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "natural daughter"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "subsumedBy",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "DAUC"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "subsumedBy",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "NCHILD"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "DAUADOPT",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "osvojená dcera",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Ženský potomek dotčené entity (rodiče), který byl přijat do rodiny prostřednictvím právních prostředků a vychováván dotčenou osobou (rodičem) jako vlastní dítě.",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "definition"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "The player of the role is a female child taken into a family through legal means and raised by the scoping person (parent) as his or her own child."
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "display"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "adopted daughter"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "subsumedBy",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "CHLDADOPT"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "subsumedBy",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "DAUC"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "DAUC",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "dcera",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>" : "**Popis:** Ženský potomek (jakéhokoliv typu) dotčené entity (rodiče).",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "definition"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "**Description:** The player of the role is a female child (of any type) of scoping entity (parent)"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "display"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "daughter"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "subsumedBy",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "CHILD"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "DAUFOST",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "dcera v náhradní péči (kromě osvojení)",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Ženský potomek dotčené entity (rodiče), který přijímá rodičovskou péči a výchovu od dotčené osoby (rodiče), ale není s ním nebo s ní spojeno právními nebo pokrevními vazbami.",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "definition"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "The player of the role is a female child receiving parental care and nurture from the scoping person (parent) but not related to him or her through legal or blood ties."
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "display"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "foster daughter"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "subsumedBy",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "CHLDFOST"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "subsumedBy",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "DAUC"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "DAUINLAW",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "snacha",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Manželka syna dotčené osoby.",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "definition"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "The player of the role is the wife of scoping person's son."
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "display"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "daughter in-law"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "subsumedBy",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "CHLDINLAW"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "DOMPART",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "druh/družka",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Osoba žijící s dotčenou osobou, která není manželem nebo manželkou dotčené osoby.",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "definition"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "The player of the role cohabits with the scoping person but is not the scoping person's spouse."
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "display"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "domestic partner"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "subsumedBy",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "SIGOTHR"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "EXT",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "člen širší rodiny",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>" : "**Popis:** Rodinný příslušník, který není v bezprostředním genetickém nebo právním vztahu k dotčené osobě, např. teta, bratranec, sestřenice, prarodič, vnuk, praprarodič, neteř, synovec nebo strýc.",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "definition"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "**Description:** A family member not having an immediate genetic or legal relationship e.g. Aunt, cousin, great grandparent, grandchild, grandparent, niece, nephew or uncle."
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "display"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "extended family member"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "subsumedBy",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "FAMMEMB"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "FAMMEMB",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "rodinný příslušník",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Vztah mezi dvěma osobami, který je charakterizován jako vztah \\\&quot;rodinný\\\&quot;.",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "definition"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "A relationship between two people characterizing their \&quot;familial\&quot; relationship"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "display"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "family member"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "subsumedBy",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "_PersonalRelationshipRoleType"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "FRND",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "přítel/přítelkyně",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Osoba, která je známá, oblíbená a důvěryhodná pro dotčenou osobu.",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "definition"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "The player of the role is a person who is known, liked, and trusted by the scoping person."
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "display"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "unrelated friend"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "subsumedBy",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "_PersonalRelationshipRoleType"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "FTH",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "otec",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Muž, který zplodil, vychoval nebo pečuje o dotčenou osobu (dítě).",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "definition"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "The player of the role is a male who begets or raises or nurtures the scoping entity (child)."
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "display"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "father"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "subsumedBy",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "PRN"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "FTHINLAW",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "tchán",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Muž, který je otcem manžela nebo manželky dotčené osoby.",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "definition"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "The player of the role is the father of the scoping person's husband or wife."
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "display"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "father-in-law"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "subsumedBy",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "PRNINLAW"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "GGRFTH",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "pradědeček",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Muž, který je otcem prarodiče dotčené osoby.",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "definition"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "The player of the role is the father of the scoping person's grandparent."
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "display"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "great grandfather"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "subsumedBy",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "GGRPRN"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "GGRMTH",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "prababička",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Žena, která je matkou prarodiče dotčené osoby.",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "definition"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "The player of the role is the mother of the scoping person's grandparent."
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "display"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "great grandmother"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "subsumedBy",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "GGRPRN"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "GGRPRN",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "praprarodič",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Osoba, která je rodičem prarodiče dotčené osoby.",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "definition"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "The player of the role is a parent of the scoping person's grandparent."
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "display"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "great grandparent"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "subsumedBy",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "EXT"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "GRFTH",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "dědeček",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Muž, který je otcem rodiče dotčené osoby.",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "definition"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "The player of the role is the father of the scoping person's mother or father."
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "display"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "grandfather"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "subsumedBy",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "GRPRN"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "GRMTH",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "babička",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Žena, která je matkou rodiče dotčené osoby.",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "definition"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "The player of the role is the mother of the scoping person's mother or father."
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "display"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "grandmother"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "subsumedBy",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "GRPRN"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "GRNDCHILD",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "vnouče",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Potomek, který je dítětem syna nebo dcery dotčené osoby.",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "definition"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "The player of the role is a child of the scoping person's son or daughter."
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "display"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "grandchild"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "subsumedBy",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "EXT"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "GRNDDAU",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "vnučka",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Dcera syna nebo dcery dotčené osoby.",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "definition"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "The player of the role is a daughter of the scoping person's son or daughter."
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "display"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "granddaughter"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "subsumedBy",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "GRNDCHILD"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "GRNDSON",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "vnuk",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Syn syna nebo dcery dotčené osoby.",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "definition"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "The player of the role is a son of the scoping person's son or daughter."
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "display"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "grandson"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "subsumedBy",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "GRNDCHILD"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "GRPRN",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "prarodič",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Osoba, která je rodičem rodiče dotčené osoby.",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "definition"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "The player of the role is a parent of the scoping person's mother or father."
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "display"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "grandparent"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "subsumedBy",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "EXT"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "HUSB",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "manžel",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Muž, který je spojen s dotčenou ženou v manželství.",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "definition"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "The player of the role is a man joined to a woman (scoping person) in marriage."
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "display"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "husband"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "subsumedBy",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "SPS"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "INLAW",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "příbuzní ze strany manžela/manželky",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Vztah mezi jednotlivcem a členem nejbližší rodiny jeho manželského partnera.",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "definition"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "A relationship between an individual and a member of their spousal partner's immediate family."
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "display"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "inlaw"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "subsumedBy",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "EXT"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "MTH",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "matka",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Žena, která zplodila, porodila nebo vychovala a pečuje o dotčenou osobu (dítě).",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "definition"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "The player of the role is a female who conceives, gives birth to, or raises and nurtures the scoping entity (child)."
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "display"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "mother"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "subsumedBy",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "PRN"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "MTHINLAW",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "tchýně",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Žena, která je matkou manžela nebo manželky dotčené osoby.",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "definition"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "The player of the role is the mother of the scoping person's husband or wife."
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "display"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "mother-in-law"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "subsumedBy",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "PRNINLAW"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "synonymCode",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "MTHINLOAW"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "MTHINLOAW",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "tchýně",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Žena, která je matkou manžela nebo manželky dotčené osoby.",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "definition"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "The player of the role is the mother of the scoping person's husband or wife."
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "display"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "mother-in-law"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "subsumedBy",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "PRNINLAW"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "synonymCode",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "MTHINLAW"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "NBOR",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "soused/sousedka",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Osoba, která žije v blízkosti nebo vedle dotčené osoby.",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "definition"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "The player of the role lives near or next to the scoping person."
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "display"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "neighbor"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "subsumedBy",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "_PersonalRelationshipRoleType"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "NCHILD",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "potomek",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Potomek dotčené entity (rodiče).",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "definition"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "The player of the role is an offspring of the scoping entity as determined by birth."
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "display"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "natural child"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "subsumedBy",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "CHILD"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "NEPHEW",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "synovec",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Syn bratra nebo sestry dotčené osoby.",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "definition"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "The player of the role is a son of the scoping person's brother or sister or of the brother or sister of the scoping person's spouse."
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "display"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "nephew"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "subsumedBy",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "NIENEPH"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "NIECE",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "neteř",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Dcera bratra nebo sestry dotčené osoby.",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "definition"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "The player of the role is a daughter of the scoping person's brother or sister or of the brother or sister of the scoping person's spouse."
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "display"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "niece"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "subsumedBy",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "NIENEPH"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "NIENEPH",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "neteř/synovec",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Potomek bratra nebo sestry dotčené osoby nebo bratra nebo sestry manžela/manželky dotčené osoby.",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "definition"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "The player of the role is a child of scoping person's brother or sister or of the brother or sister of the scoping person's spouse."
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "display"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "niece/nephew"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "subsumedBy",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "EXT"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "NOK",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "příbuzný",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Nejbližší příbuzný dotčené osoby.",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "definition"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "Played by an individual who is designated as the next of kin for another individual which scopes the role."
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "display"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "next of kin"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "subsumedBy",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "_ContactRoleType"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "PRN",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "rodič",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Osoba, která zplodila, porodila nebo vychovala a pečuje o dotčenou osobu (dítě).",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "definition"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "The player of the role is one who begets, gives birth to, or nurtures and raises the scoping entity (child)."
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "display"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "parent"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "subsumedBy",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "FAMMEMB"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "PRNINLAW",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "tchyně/tchán",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Rodič manžela nebo manželky dotčené osoby.",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "definition"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "The player of the role is the parent of scoping person's husband or wife."
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "display"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "parent in-law"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "subsumedBy",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "INLAW"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "ROOM",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "spolubydlící",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Osoba, která sdílí obytné prostory s dotčenou osobou.",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "definition"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "One who shares living quarters with the subject."
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "display"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "Roommate"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "subsumedBy",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "_PersonalRelationshipRoleType"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "SIB",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "sourozenec",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Osoba, která sdílí jednoho nebo oba rodiče s dotčenou osobou.",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "definition"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "The player of the role shares one or both parents in common with the scoping entity."
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "display"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "sibling"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "subsumedBy",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "FAMMEMB"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "SIBINLAW",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "švagr/švagrová",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Osoba, která je: (1) sourozencem manžela/manželky dotčené osoby, nebo (2) manželem/manželkou sourozence dotčené osoby, nebo (3) manželem/manželkou sourozence manžela/manželky dotčené osoby.",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "definition"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "The player of the role is: (1) a sibling of the scoping person's spouse, or (2) the spouse of the scoping person's sibling, or (3) the spouse of a sibling of the scoping person's spouse."
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "display"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "sibling in-law"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "subsumedBy",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "INLAW"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "SIGOTHR",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "osoba blízká",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Osoba, která je důležitá pro blaho dotčené osoby; zejména manžel nebo osoba ve obdobném vztahu.",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "definition"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "A person who is important to one's well being; especially a spouse or one in a similar relationship. (The player is the one who is important)"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "display"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "significant other"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "subsumedBy",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "FAMMEMB"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "SIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "sestra",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Žena, která sdílí jednoho nebo oba rodiče s dotčenou osobou.",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "definition"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "The player of the role is a female sharing one or both parents in common with the scoping entity."
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "display"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "sister"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "subsumedBy",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "SIB"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "SISINLAW",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "švagrová",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Osoba, která je: (1) sestrou manžela/manželky dotčené osoby, nebo (2) manželkou bratra dotčené osoby, nebo (3) manželkou bratra manžela/manželky dotčené osoby.",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "definition"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "The player of the role is: (1) a sister of the scoping person's spouse, or (2) the wife of the scoping person's brother, or (3) the wife of a brother of the scoping person's spouse."
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "display"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "sister-in-law"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "subsumedBy",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "SIBINLAW"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "synonymCode",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "SISLINLAW"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "SISLINLAW",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "švagrová",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Osoba, která je: (1) sestrou manžela/manželky dotčené osoby, nebo (2) manželkou bratra dotčené osoby, nebo (3) manželkou bratra manžela/manželky dotčené osoby.",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "definition"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "The player of the role is: (1) a sister of the scoping person's spouse, or (2) the wife of the scoping person's brother, or (3) the wife of a brother of the scoping person's spouse."
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "display"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "sister-in-law"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "subsumedBy",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "SIBINLAW"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "synonymCode",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "SISINLAW"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "SON",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "vlastní syn",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Mužský potomek dotčené entity (rodiče).",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "definition"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "The player of the role is a male offspring of the scoping entity (parent)."
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "display"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "natural son"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "subsumedBy",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "NCHILD"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "subsumedBy",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "SONC"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "SONADOPT",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "osvojený syn",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Mužský potomek dotčené entity (rodiče), který byl přijat do rodiny prostřednictvím právních prostředků a vychováván dotčenou osobou (rodičem) jako vlastní dítě.",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "definition"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "The player of the role is a male child taken into a family through legal means and raised by the scoping person (parent) as his or her own child."
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "display"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "adopted son"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "subsumedBy",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "CHLDADOPT"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "subsumedBy",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "SONC"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "SONC",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "syn",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>" : "**Popis:** Mužský potomek (jakéhokoli typu) dotčené osoby (rodiče).",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "definition"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "**Description:** The player of the role is a male child (of any type) of scoping entity (parent)"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "display"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "son"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "subsumedBy",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "CHILD"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "SONFOST",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "syn v náhradní péči (kromě osvojení)",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Mužský potomek dotčené entity (rodiče), který je v náhradní péči a výchově dotčené osoby (rodiče), ale není s ní spojen právními nebo biologickými vazbami.",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "definition"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "The player of the role is a male child receiving parental care and nurture from the scoping person (parent) but not related to him or her through legal or blood ties."
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "display"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "foster son"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "subsumedBy",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "CHLDFOST"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "subsumedBy",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "SONC"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "SONINLAW",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "zeť",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Manžel dcery dotčené osoby.",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "definition"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "The player of the role is the husband of scoping person's daughter."
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "display"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "son in-law"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "subsumedBy",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "CHLDINLAW"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "SPS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "manžel/maželka",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Osoba, která je manželským partnerem dotčené osoby.",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "definition"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "The player of the role is a marriage partner of the scoping person."
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "display"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "spouse"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "subsumedBy",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "SIGOTHR"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "STPCHLD",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "nevlastní dítě",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Dítě manžela/manželky dotčené osoby z předchozího manželství.",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "definition"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "The player of the role is a child of the scoping person's spouse by a previous union."
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "display"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "step child"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "subsumedBy",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "CHILD"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "STPDAU",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "nevlastní dcera",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Ženský potomek manžela/manželky dotčené osoby z předchozího manželství.",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "definition"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "The player of the role is a daughter of the scoping person's spouse by a previous union."
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "display"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "stepdaughter"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "subsumedBy",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "DAUC"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "subsumedBy",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "STPCHLD"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "STPSON",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "nevlastní syn",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Mužský potomek manžela/manželky dotčené osoby z předchozího manželství.",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "definition"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "The player of the role is a son of the scoping person's spouse by a previous union."
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "display"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "stepson"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "subsumedBy",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "SONC"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "subsumedBy",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "STPCHLD"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "UNCLE",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "strýc",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Bratr matky nebo otce dotčené osoby.",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "definition"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "The player of the role is a brother of the scoping person's mother or father."
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "display"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "uncle"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "subsumedBy",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "EXT"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "WIFE",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "manželka",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Žena, která je manželským partnerem dotčené osoby.",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "definition"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "The player of the role is a woman joined to a man (scoping person) in marriage."
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "display"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "wife"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "subsumedBy",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "SPS"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "_ContactRoleType",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ContactRoleType",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Typy kontaktů pro kód role \\\&quot;CON\\“",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "definition"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "Types of contact for Role code \&quot;CON\&quot;"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "display"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "ContactRoleType"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "notSelectable",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueBoolean</a>" : true
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "_PersonalRelationshipRoleType",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "PersonalRelationshipRoleType",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Typy osobních vztahů pro kód role \\\&quot;PRN\\“",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">designation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">language</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.use">use</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "display"
+          },
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">value</a>" : "PersonalRelationshipRoleType"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "notSelectable",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueBoolean</a>" : true
+        }
+      ]
+    }
+  ]
+}</code></pre>
+
+
+  <!-- insert notes if present -->
+  
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hl7.cz/">HL7 Czech Republic</a>.  Package hl7.fhir.cz.terminology#0.2.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Dec 23, 2025 18:33+0100">2025-12-23</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

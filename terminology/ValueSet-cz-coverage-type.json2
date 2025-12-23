@@ -1,0 +1,58 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "cz-coverage-type",
+  "language" : "cs",
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xml:lang=\"cs\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"cs\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet cz-coverage-type</b></p><a name=\"cz-coverage-type\"> </a><a name=\"hccz-coverage-type\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: cs</p></div><p>This ValueSet requires the Code system Supplements <a href=\"CodeSystem-coverage-selfpay-cz.html\">Coverage SelfPay Codes (CZ supplement)</a> and <a href=\"CodeSystem-v3-ActCode-cz.html\">v3 Code System ActCode</a>.</p><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-ActCode.html\"><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></a><span title=\"Version is explicitly stated to be 9.0.0\"> version &#x1F4CD;9.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><code>HIP</code></td><td>zdravotní pojištění</td><td>**Definition:** A health insurance policy that covers healthcare benefits by protecting covered parties from medical expenses arising from health conditions, sickness, or accidental injury as well as preventive care. Health insurance policies explicitly exclude coverage for losses insured under a disability policy, workers' compensation program, liability insurance (including automobile insurance); or for medical expenses, coverage for on-site medical clinics or for limited dental or vision benefits when these are provided under a separate policy.<br/><br/>*Discussion:* Health insurance policies are offered by health insurance plans that typically reimburse providers for covered services on a fee-for-service basis, that is, a fee that is the allowable amount that a provider may charge. This is in contrast to managed care plans, which typically prepay providers a per-member/per-month amount or capitation as reimbursement for all covered services rendered. Health insurance plans include indemnity and healthcare services plans.</td></tr></table></li><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/7.0.1/CodeSystem-coverage-selfpay.html\"><code>http://terminology.hl7.org/CodeSystem/coverage-selfpay</code></a><span title=\"Version is explicitly stated to be 1.0.1\"> version &#x1F4CD;1.0.1</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><code>pay</code></td><td>samoplátce</td><td>An individual or organization is paying directly for goods and services.</td></tr></table></li></ul></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/valueset-supplement",
+    "valueCanonical" : "https://hl7.cz/terminology/CodeSystem/coverage-selfpay-cz"
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/valueset-supplement",
+    "valueCanonical" : "https://hl7.cz/terminology/CodeSystem/v3-ActCode-cz"
+  }],
+  "url" : "https://ncez.mzcr.cz/terminology/ValueSet/cz-coverage-type",
+  "version" : "0.2.0",
+  "name" : "CZ_CoverageType",
+  "title" : "Číselník typů úhrady",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2025-01-01",
+  "publisher" : "HL7 Czech Republic",
+  "contact" : [{
+    "name" : "HL7 Czech Republic",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.hl7.cz/"
+    }]
+  }],
+  "description" : "Číselník typů úhrady zdravotní péče.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CZ",
+      "display" : "Czechia"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "version" : "9.0.0",
+      "concept" : [{
+        "code" : "HIP",
+        "display" : "zdravotní pojištění"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.org/CodeSystem/coverage-selfpay",
+      "version" : "1.0.1",
+      "concept" : [{
+        "code" : "pay",
+        "display" : "samoplátce"
+      }]
+    }]
+  }
+}

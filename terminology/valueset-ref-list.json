@@ -1,0 +1,449 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "https://hl7.cz/terminology/ValueSet/OP-NS",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "OPNSVS",
+      "title" : "Standard namespaces for national identity card",
+      "description" : "National identity card's namespaces (CZ)",
+      "systems" : ["urn:ietf:rfc:3986"]
+    },
+    {
+      "url" : "https://hl7.cz/terminology/ValueSet/administrative-gender-cz",
+      "version" : "0.2.0",
+      "status" : "active",
+      "name" : "AdministrativeGenderCzVs",
+      "title" : "Gender for administrative purposes",
+      "description" : "Pohlaví pro administrativní účely. (Gender for administrative purposes)",
+      "systems" : ["http://hl7.org/fhir/administrative-gender"]
+    },
+    {
+      "url" : "https://hl7.cz/terminology/ValueSet/allergy-intolerance-category-cz",
+      "version" : "0.2.0",
+      "status" : "active",
+      "name" : "AllergyIntoleranceCategory",
+      "title" : "Allergy Intolerance Category (CZ supplement)",
+      "description" : "Category of an identified substance associated with allergies or intolerances.",
+      "systems" : ["http://hl7.org/fhir/allergy-intolerance-category"]
+    },
+    {
+      "url" : "https://hl7.cz/terminology/ValueSet/allergy-intolerance-criticality-cz",
+      "version" : "0.2.0",
+      "status" : "active",
+      "name" : "AllergyIntoleranceCriticality",
+      "title" : "AllergyIntoleranceCriticality (CZ supplement)",
+      "description" : "Estimate of the potential clinical harm, or seriousness, of a reaction to an identified substance.",
+      "systems" : ["http://hl7.org/fhir/allergy-intolerance-criticality"]
+    },
+    {
+      "url" : "https://hl7.cz/terminology/ValueSet/contact-and-relationship-cz",
+      "version" : "0.2.0",
+      "status" : "active",
+      "name" : "Hl7vsContactAndRelationshipCz100",
+      "title" : "Contact and Relationship (CZ)",
+      "description" : "Číselník vztahů a rolí kontaktních osob k pacientovi. Číselník zahrnuje dva samostatné číselníky: relationship a contact role.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+        "http://terminology.hl7.org/CodeSystem/v2-0131"
+      ]
+    },
+    {
+      "url" : "https://hl7.cz/terminology/ValueSet/contactrole-cz",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "Hl7vs_contactrole_cz",
+      "title" : "Contact Role (CZ)",
+      "description" : "Číselník rolí kontaktních osob ve vztahu k pacientovi. (Concepts specifying role of contact person.)",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0131"],
+      "uses" : {
+      },
+      "ValueSet-contact-and-relationship-cz.html" : "Contact and Relationship (CZ)"
+    },
+    {
+      "url" : "https://hl7.cz/terminology/ValueSet/cz-logo-mime-types",
+      "version" : "0.2.0",
+      "status" : "active",
+      "name" : "CZ_LogoMimeTypesVs",
+      "title" : "Mime types permissible for logo attachment",
+      "description" : "Mime types for logo attachment. It is used in OrganizationLogo extension to restrict the mime type of the logo image.",
+      "systems" : ["urn:ietf:bcp:13"]
+    },
+    {
+      "url" : "https://hl7.cz/terminology/ValueSet/passport-NS",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "PassportNSVS",
+      "title" : "Standard namespaces for passports",
+      "description" : "Číselník jmenných prostorů pro pasy. (Passport namespaces.)",
+      "systems" : ["urn:ietf:rfc:3986"]
+    },
+    {
+      "url" : "https://hl7.cz/terminology/ValueSet/personal-relationship-cz",
+      "version" : "0.2.0",
+      "status" : "active",
+      "name" : "PersonalRelationshipCzVS",
+      "title" : "Role code (CZ)",
+      "description" : "Vztah kontaktní osoby k subjektu. (Relationship between subject and contact person.)",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v3-RoleCode"],
+      "oids" : ["1.2.203.24341.11.1.8"],
+      "sources" : ["1.2.203.24341.11.1.8"],
+      "uses" : {
+      },
+      "ValueSet-contact-and-relationship-cz.html" : "Contact and Relationship (CZ)"
+    },
+    {
+      "url" : "https://ncez.mzcr.cz/terminology/ValueSet/AllergenWithExceptions",
+      "version" : "0.2.0",
+      "status" : "active",
+      "name" : "AllergenWithExceptions",
+      "title" : "eHDSI Agent or Allergen With Exceptions",
+      "description" : "The Value Set is used for coding s specific allergen or other agent/substance (drug, food, chemical agent, etc.) to which the patient has an adverse reaction propensity.\nIt is defined as the union of:\n(a) eHDSIAllergenNoDrug\n(b) DLP_lecivePripravky\n(c) DLP_ATC\n(d) eHDSIAbsentOrUnknownAllergy\n(e) eHDSIExceptionalValue",
+      "systems" : [
+        "http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips",
+        "https://sukl.cz/terminology/CodeSystem/dlp-lecivepripravky",
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "http://snomed.info/sct",
+        "https://sukl.cz/terminology/CodeSystem/dlp-atc"
+      ]
+    },
+    {
+      "url" : "https://ncez.mzcr.cz/terminology/ValueSet/MedicalDeviceWithExceptions",
+      "version" : "0.2.0",
+      "status" : "active",
+      "name" : "MedicalDeviceWithExceptionsVS",
+      "title" : "Medical Device with exceptions",
+      "description" : "The Value Set is used for coding implanted and external medical devices and equipment.\nIt also includes exceptional values.",
+      "systems" : [
+        "http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips",
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "http://snomed.info/sct"
+      ]
+    },
+    {
+      "url" : "https://ncez.mzcr.cz/terminology/ValueSet/condition-cz",
+      "version" : "0.2.0",
+      "status" : "active",
+      "name" : "ConditionVS",
+      "title" : "Condition Value Set",
+      "description" : "Condition value set includes selected codes from national and recommended EU code systems for health conditions (MKN-10, SNOMED CT and Orphacodes).",
+      "systems" : [
+        "http://www.orpha.net",
+        "https://uzis.cz/terminology/CodeSystem/mkn-10",
+        "http://snomed.info/sct"
+      ]
+    },
+    {
+      "url" : "https://ncez.mzcr.cz/terminology/ValueSet/cz-coverage-type",
+      "version" : "0.2.0",
+      "status" : "active",
+      "name" : "CZ_CoverageType",
+      "title" : "Číselník typů úhrady",
+      "description" : "Číselník typů úhrady zdravotní péče.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/coverage-selfpay",
+        "http://terminology.hl7.org/CodeSystem/v3-ActCode"
+      ]
+    },
+    {
+      "url" : "https://ncez.mzcr.cz/terminology/ValueSet/cz-sitequalifier",
+      "version" : "0.2.0",
+      "status" : "active",
+      "name" : "CZ_SiteQualifier",
+      "title" : "Body Structure Qualifier",
+      "description" : "Body Structure site qualifier. It indicates the body site qualifier from which a specimen is collected. (based on SNOMED CT)",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
+      "url" : "https://ncez.mzcr.cz/terminology/ValueSet/cz-specimen-laterality",
+      "version" : "0.2.0",
+      "status" : "active",
+      "name" : "CZ_LateralityVs",
+      "title" : "Body Structure Laterality for specimen.",
+      "description" : "Body Structure site laterality qualifier. It indicates the body site laterality from which a specimen is collected. (based on SNOMED CT)",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
+      "url" : "https://ncez.mzcr.cz/terminology/ValueSet/cz-specimenAdditive",
+      "version" : "0.2.0",
+      "status" : "active",
+      "name" : "CZ_SpecimenAdditive",
+      "title" : "Specimen Additive",
+      "description" : "List of the specimen additives. Additives are commonly added to the vacutainer tubes to preserve the specimen for analysis",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
+      "url" : "https://ncez.mzcr.cz/terminology/ValueSet/cz-specimencontainer",
+      "version" : "0.2.0",
+      "status" : "active",
+      "name" : "CZ_SpecimenContainer",
+      "title" : "Specimen Container",
+      "description" : "List of the containers commonly used to collect specimens (e.g. urine, blood,..).",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
+      "url" : "https://ncez.mzcr.cz/terminology/ValueSet/document-category",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "DocumentCategory",
+      "title" : "Kategorie dokumentů",
+      "description" : "Kategorie dokumentů pro vyhledávání",
+      "systems" : ["http://loinc.org"]
+    },
+    {
+      "url" : "https://ncez.mzcr.cz/terminology/ValueSet/drzar",
+      "version" : "0.2.0",
+      "status" : "active",
+      "name" : "Drzar",
+      "title" : "Drzar (CZ)",
+      "description" : "Číselník druhů zdravotnických zařízení. (Type of healthcare provider facility.)",
+      "systems" : ["https://ncez.mzcr.cz/terminology/CodeSystem/drzar"],
+      "oids" : ["1.2.203.24341.11.1.7"],
+      "sources" : ["1.2.203.24341.11.1.7"]
+    },
+    {
+      "url" : "https://ncez.mzcr.cz/terminology/ValueSet/eHDSIAbsentOrUnknownAllergy-cz",
+      "version" : "0.2.0",
+      "status" : "active",
+      "name" : "EHDSIAbsentOrUnknownAllergyCZ",
+      "title" : "eHDSI Absent Or Unknown Allergy",
+      "description" : "The Value set is used to encode absent or unknown medical allergies.",
+      "systems" : [
+        "http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips"
+      ],
+      "oids" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.47"],
+      "sources" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.47"],
+      "uses" : {
+      },
+      "ValueSet-AllergenWithExceptions.html" : "eHDSI Agent or Allergen With Exceptions"
+    },
+    {
+      "url" : "https://ncez.mzcr.cz/terminology/ValueSet/eHDSIAbsentOrUnknownDevice-cz",
+      "version" : "0.2.0",
+      "status" : "active",
+      "name" : "EHDSIAbsentOrUnknownDeviceCZ",
+      "title" : "eHDSI Absent Or Unknown Device",
+      "description" : "The Value set is used to encode absent or unknown medical devices.",
+      "systems" : [
+        "http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips"
+      ],
+      "oids" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.48"],
+      "sources" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.48"],
+      "uses" : {
+      },
+      "ValueSet-MedicalDeviceWithExceptions.html" : "Medical Device with exceptions"
+    },
+    {
+      "url" : "https://ncez.mzcr.cz/terminology/ValueSet/eHDSIAllergenNoDrug-cz",
+      "version" : "0.2.0",
+      "status" : "active",
+      "name" : "EHDSIAllergenNoDrugCZ",
+      "title" : "eHDSI Allergen No Drug",
+      "description" : "The value set is used to code the patient's kind of adverse reactions against substance, food or drugs",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.19"],
+      "sources" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.19"],
+      "uses" : {
+      },
+      "ValueSet-AllergenWithExceptions.html" : "eHDSI Agent or Allergen With Exceptions"
+    },
+    {
+      "url" : "https://ncez.mzcr.cz/terminology/ValueSet/eHDSIExceptionalValue-cz",
+      "version" : "0.2.0",
+      "status" : "active",
+      "name" : "EHDSIExceptionalValueCZ",
+      "title" : "eHDSI Exceptional Value",
+      "description" : "The Value Set is used to code exceptional values for the required binding in FHIR IGs",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v3-NullFlavor"],
+      "oids" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.81"],
+      "sources" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.81"],
+      "uses" : {
+      },
+      "ValueSet-AllergenWithExceptions.html" : "eHDSI Agent or Allergen With Exceptions",
+      "ValueSet-MedicalDeviceWithExceptions.html" : "Medical Device with exceptions"
+    },
+    {
+      "url" : "https://ncez.mzcr.cz/terminology/ValueSet/healthInsuranceCompanyCode",
+      "version" : "0.2.0",
+      "status" : "active",
+      "name" : "HealthInsuranceCompanyCode",
+      "title" : "ValueSet of Health Insurance Company Code",
+      "description" : "Číselník kódů zdravotních pojišťoven.",
+      "systems" : [
+        "https://ncez.mzcr.cz/terminology/CodeSystem/healthInsuranceCompanyCode"
+      ]
+    },
+    {
+      "url" : "https://ncez.mzcr.cz/terminology/ValueSet/imaging-document-types",
+      "version" : "0.2.0",
+      "status" : "active",
+      "name" : "ImagingDocumentTypes",
+      "title" : "Typy dokumentů obrazového komplementu",
+      "description" : "Typy dokumentů obrazového komplementu",
+      "systems" : ["http://loinc.org"],
+      "uses" : {
+      },
+      "ValueSet-search-document-types.html" : "Všechny typy dokumentů"
+    },
+    {
+      "url" : "https://ncez.mzcr.cz/terminology/ValueSet/lab-document-types",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "LabDocumentTypes",
+      "title" : "Typy laboratorních dokumentů",
+      "description" : "Číselník typů laboratorních dokumentů.",
+      "systems" : ["http://loinc.org"],
+      "uses" : {
+      },
+      "ValueSet-search-document-types.html" : "Všechny typy dokumentů"
+    },
+    {
+      "url" : "https://ncez.mzcr.cz/terminology/ValueSet/lab-specimenType",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "LabSpecimentype",
+      "title" : "Materiál vzorků",
+      "description" : "Materiál laboratorního vzorku/vzorku pro obrazová vyšetření. Číselník využívá terminologii SNOMED CT.",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
+      "url" : "https://ncez.mzcr.cz/terminology/ValueSet/medical-device",
+      "version" : "0.2.0",
+      "status" : "active",
+      "name" : "MedicalDeviceVS",
+      "title" : "Medical Device",
+      "description" : "Medical Device value set is used for coding implanted and external medical devices and equipment.",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "ValueSet-MedicalDeviceWithExceptions.html" : "Medical Device with exceptions"
+    },
+    {
+      "url" : "https://ncez.mzcr.cz/terminology/ValueSet/medical-document-type",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "MedicalDocumentType",
+      "title" : "Typy lékařské dokumentace",
+      "description" : "Číselník typů medicínských dokumentů.",
+      "systems" : ["http://loinc.org"],
+      "uses" : {
+      },
+      "ValueSet-search-document-types.html" : "Všechny typy dokumentů"
+    },
+    {
+      "url" : "https://ncez.mzcr.cz/terminology/ValueSet/nclpmat",
+      "version" : "0.2.0",
+      "status" : "active",
+      "name" : "NCLPMatVs",
+      "title" : "Číselník NCLPMAT",
+      "description" : "Číselník laboratorních materiálů NČLP",
+      "systems" : ["https://ncez.mzcr.cz/nclp/CodeSystem/nclpmat"]
+    },
+    {
+      "url" : "https://ncez.mzcr.cz/terminology/ValueSet/nrzp-povolani-vs",
+      "version" : "0.2.0",
+      "status" : "active",
+      "name" : "NRZP_PovolaniVS",
+      "title" : "Occupation of healthcare practitioner (CZ)",
+      "description" : "Povolání zdravotnických pracovníků dle registru NRZP. (Occupation of health practitioner registered in the national register of health practitioners (NRZP).)",
+      "systems" : ["https://ncez.mzcr.cz/terminology/CodeSystem/nrzp-povolani"]
+    },
+    {
+      "url" : "https://ncez.mzcr.cz/terminology/ValueSet/nursing-document-type",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "NursingDocumentType",
+      "title" : "Typ ošetřovatelské dokumentace",
+      "description" : "Číselník typů ošetřovatelské dokumentace",
+      "systems" : ["http://loinc.org"],
+      "uses" : {
+      },
+      "ValueSet-search-document-types.html" : "Všechny typy dokumentů"
+    },
+    {
+      "url" : "https://ncez.mzcr.cz/terminology/ValueSet/referralorder-types",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "ReferralorderTypes",
+      "title" : "Typy žádanek",
+      "description" : "Číselník typů žádanek",
+      "systems" : ["http://loinc.org", "http://snomed.info/sct"],
+      "uses" : {
+      },
+      "ValueSet-search-document-types.html" : "Všechny typy dokumentů"
+    },
+    {
+      "url" : "https://ncez.mzcr.cz/terminology/ValueSet/registering-provider-service-type-cz",
+      "version" : "0.2.0",
+      "status" : "active",
+      "name" : "RegisteringProviderServiceTypeCz",
+      "title" : "Registering Provider Service Type (CZ)",
+      "description" : "Typ registrujícího lékaře. (Registering healthcare provider service type value set.)",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["1.2.203.24341.11.1.10"],
+      "sources" : ["1.2.203.24341.11.1.10"]
+    },
+    {
+      "url" : "https://ncez.mzcr.cz/terminology/ValueSet/search-document-types",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "SearchDocumentTypes",
+      "title" : "Všechny typy dokumentů",
+      "description" : "Typy dokumentů zejména pro účely vyhledávání.",
+      "systems" : ["http://loinc.org", "http://snomed.info/sct"]
+    },
+    {
+      "url" : "https://sukl.cz/terminology/ValueSet/dlp-atc",
+      "version" : "0.2.0",
+      "status" : "active",
+      "name" : "DLP_atc",
+      "title" : "Český číselník ATC skupin",
+      "description" : "Value set of DLP ATC",
+      "systems" : ["https://sukl.cz/terminology/CodeSystem/dlp-atc"],
+      "uses" : {
+      },
+      "ValueSet-AllergenWithExceptions.html" : "eHDSI Agent or Allergen With Exceptions"
+    },
+    {
+      "url" : "https://sukl.cz/terminology/ValueSet/dlp-formy",
+      "version" : "0.2.0",
+      "status" : "active",
+      "name" : "DLP_formy",
+      "title" : "Lékové formy",
+      "description" : "Číselník lékových forem dle DLP.",
+      "systems" : ["https://sukl.cz/terminology/CodeSystem/dlp-formy"]
+    },
+    {
+      "url" : "https://sukl.cz/terminology/ValueSet/dlp-lecivelatky",
+      "version" : "0.2.0",
+      "status" : "active",
+      "name" : "DLP_lecivelatky",
+      "title" : "Value set of DLP Lecive latky",
+      "description" : "Value set of DLP Lecive latky (Substances)",
+      "systems" : ["https://sukl.cz/terminology/CodeSystem/dlp-lecivelatky"],
+      "oids" : ["1.2.203.24341.11.1.11"],
+      "sources" : ["1.2.203.24341.11.1.11"]
+    },
+    {
+      "url" : "https://sukl.cz/terminology/ValueSet/dlp-lecivepripravky",
+      "version" : "0.2.0",
+      "status" : "active",
+      "name" : "DLP_lecivepripravky",
+      "title" : "Léčivé přípravky",
+      "description" : "Číselník léčivých přípravků dle DLP.",
+      "systems" : ["https://sukl.cz/terminology/CodeSystem/dlp-lecivepripravky"],
+      "uses" : {
+      },
+      "ValueSet-AllergenWithExceptions.html" : "eHDSI Agent or Allergen With Exceptions"
+    },
+    {
+      "url" : "https://uzis.cz/terminology/ValueSet/mkn-10",
+      "version" : "0.2.0",
+      "status" : "active",
+      "name" : "Mkn105",
+      "title" : "Mkn10_5",
+      "description" : "Číselník obsahující koncepty z kódového systému Mkn10_5. Ciselnik pouzity v HOSP, NRROD, NRNAR, NRVV, NRPOT, NRU, NSHNU, NRPATV, RIP",
+      "systems" : ["https://uzis.cz/terminology/CodeSystem/mkn-10"]
+    }
+  ]
+}

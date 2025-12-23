@@ -1,0 +1,288 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "imaging-document-types",
+  "language" : "cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"cs\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"cs\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet imaging-document-types</b></p><a name=\"imaging-document-types\"> </a><a name=\"hcimaging-document-types\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: cs</p></div><p>This value set includes codes based on the following rules:</p><ul><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span> where CLASS  = LP29684-5 (RAD), SCALE_TYP  = LP32888-7 (Doc) and STATUS  = ACTIVE</li><li>Include these codes as defined in <a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"https://loinc.org/41806-1/\">41806-1</a></td><td>CT břicha</td></tr><tr><td><a href=\"https://loinc.org/24627-2/\">24627-2</a></td><td>CT hrudníku</td></tr><tr><td><a href=\"https://loinc.org/24690-0/\">24690-0</a></td><td>CT končetiny</td></tr><tr><td><a href=\"https://loinc.org/25043-1/\">25043-1</a></td><td>CT-řízená aspirace tekutin</td></tr><tr><td><a href=\"https://loinc.org/25044-9/\">25044-9</a></td><td>CT-řízená biopsie</td></tr><tr><td><a href=\"https://loinc.org/24725-4/\">24725-4</a></td><td>CT hlavy</td></tr><tr><td><a href=\"https://loinc.org/24866-6/\">24866-6</a></td><td>CT pánve s IV kontrastem</td></tr><tr><td><a href=\"https://loinc.org/106848-5/\">106848-5</a></td><td>CT páteře</td></tr><tr><td><a href=\"https://loinc.org/24932-6/\">24932-6</a></td><td>CT krční páteře</td></tr><tr><td><a href=\"https://loinc.org/24963-1/\">24963-1</a></td><td>CT bederní páteře</td></tr><tr><td><a href=\"https://loinc.org/24978-9/\">24978-9</a></td><td>CT hrudní páteře</td></tr><tr><td><a href=\"https://loinc.org/25045-6/\">25045-6</a></td><td>CT neupřesněné oblasti těla</td></tr><tr><td><a href=\"https://loinc.org/18748-4/\">18748-4</a></td><td>Zobrazovací vyšetření</td></tr><tr><td><a href=\"https://loinc.org/25069-6/\">25069-6</a></td><td>RF-řízená biopsie – lokalita neupřesněna</td></tr><tr><td><a href=\"https://loinc.org/24605-8/\">24605-8</a></td><td>Diagnostická mamografie</td></tr><tr><td><a href=\"https://loinc.org/24606-6/\">24606-6</a></td><td>Screeningová mamografie</td></tr><tr><td><a href=\"https://loinc.org/24590-2/\">24590-2</a></td><td>MR mozku</td></tr><tr><td><a href=\"https://loinc.org/25056-3/\">25056-3</a></td><td>MR neupřesněné oblasti těla</td></tr><tr><td><a href=\"https://loinc.org/24556-3/\">24556-3</a></td><td>MR břicha</td></tr><tr><td><a href=\"https://loinc.org/24629-8/\">24629-8</a></td><td>MR hrudníku</td></tr><tr><td><a href=\"https://loinc.org/24707-2/\">24707-2</a></td><td>MR nohy</td></tr><tr><td><a href=\"https://loinc.org/24710-6/\">24710-6</a></td><td>MR předloktí</td></tr><tr><td><a href=\"https://loinc.org/24720-5/\">24720-5</a></td><td>MR ruky</td></tr><tr><td><a href=\"https://loinc.org/28576-7/\">28576-7</a></td><td>MR kloubu</td></tr><tr><td><a href=\"https://loinc.org/24872-4/\">24872-4</a></td><td>MR pánve a kyčle</td></tr><tr><td><a href=\"https://loinc.org/24935-9/\">24935-9</a></td><td>MR krční páteře</td></tr><tr><td><a href=\"https://loinc.org/24968-0/\">24968-0</a></td><td>MR bederní páteře</td></tr><tr><td><a href=\"https://loinc.org/42698-1/\">42698-1</a></td><td>MR krční, hrudní a bederní páteře</td></tr><tr><td><a href=\"https://loinc.org/24980-5/\">24980-5</a></td><td>MR hrudní páteře</td></tr><tr><td><a href=\"https://loinc.org/24888-0/\">24888-0</a></td><td>NM plicního systému – ventilace a perfuze s Xe-133 IH a s Tc-99m MAA IV</td></tr><tr><td><a href=\"https://loinc.org/30695-1/\">30695-1</a></td><td>NM štítné žlázy – projekce</td></tr><tr><td><a href=\"https://loinc.org/44136-0/\">44136-0</a></td><td>PET neupřesněné tělové oblasti</td></tr><tr><td><a href=\"https://loinc.org/25059-7/\">25059-7</a></td><td>UZ vedení biopsie neupřesněné tělové oblasti</td></tr><tr><td><a href=\"https://loinc.org/24558-9/\">24558-9</a></td><td>UZ břicha</td></tr><tr><td><a href=\"https://loinc.org/24601-7/\">24601-7</a></td><td>UZ prsu</td></tr><tr><td><a href=\"https://loinc.org/24731-2/\">24731-2</a></td><td>UZ hlavy</td></tr><tr><td><a href=\"https://loinc.org/28614-6/\">28614-6</a></td><td>UZ jater</td></tr><tr><td><a href=\"https://loinc.org/24842-7/\">24842-7</a></td><td>UZ krku</td></tr><tr><td><a href=\"https://loinc.org/24869-0/\">24869-0</a></td><td>UZ pánve</td></tr><tr><td><a href=\"https://loinc.org/25061-3/\">25061-3</a></td><td>UZ neupřesněné tělové oblasti</td></tr><tr><td><a href=\"https://loinc.org/24541-5/\">24541-5</a></td><td>RTG hlezna – projekce</td></tr><tr><td><a href=\"https://loinc.org/24676-9/\">24676-9</a></td><td>RTG lokte – projekce</td></tr><tr><td><a href=\"https://loinc.org/24704-9/\">24704-9</a></td><td>RTG femuru (stehenní kosti) – projekce</td></tr><tr><td><a href=\"https://loinc.org/24709-8/\">24709-8</a></td><td>RTG nohy – projekce</td></tr><tr><td><a href=\"https://loinc.org/28582-5/\">28582-5</a></td><td>RTG ruky – projekce</td></tr><tr><td><a href=\"https://loinc.org/28564-3/\">28564-3</a></td><td>RTG lebky – projekce</td></tr><tr><td><a href=\"https://loinc.org/24762-7/\">24762-7</a></td><td>RTG kyčle – projekce</td></tr><tr><td><a href=\"https://loinc.org/28567-6/\">28567-6</a></td><td>RTG humeru (pažní kosti) – projekce</td></tr><tr><td><a href=\"https://loinc.org/28565-0/\">28565-0</a></td><td>RTG kolene – projekce</td></tr><tr><td><a href=\"https://loinc.org/28561-9/\">28561-9</a></td><td>RTG pánve – projekce</td></tr><tr><td><a href=\"https://loinc.org/24891-4/\">24891-4</a></td><td>RTG předloktí (radius + ulna) – projekce</td></tr><tr><td><a href=\"https://loinc.org/24909-4/\">24909-4</a></td><td>RTG ramene – projekce</td></tr><tr><td><a href=\"https://loinc.org/24946-6/\">24946-6</a></td><td>RTG krční páteře – projekce</td></tr><tr><td><a href=\"https://loinc.org/24972-2/\">24972-2</a></td><td>RTG bederní páteře – projekce</td></tr><tr><td><a href=\"https://loinc.org/24983-9/\">24983-9</a></td><td>RTG hrudní páteře – projekce</td></tr><tr><td><a href=\"https://loinc.org/25011-8/\">25011-8</a></td><td>RTG bérce (tibia + fibula) – projekce</td></tr><tr><td><a href=\"https://loinc.org/18782-3/\">18782-3</a></td><td>Popis nálezu zobrazovacího vyšetření (narrativní)</td></tr><tr><td><a href=\"https://loinc.org/24619-9/\">24619-9</a></td><td>RTG zápěstí – projekce</td></tr></table></li></ul></div>"
+  },
+  "url" : "https://ncez.mzcr.cz/terminology/ValueSet/imaging-document-types",
+  "version" : "0.2.0",
+  "name" : "ImagingDocumentTypes",
+  "title" : "Typy dokumentů obrazového komplementu",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2025-11-19T17:50:08.889549Z",
+  "publisher" : "HL7 Czech Republic",
+  "contact" : [{
+    "name" : "HL7 Czech Republic",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.hl7.cz/"
+    }]
+  }],
+  "description" : "Typy dokumentů obrazového komplementu",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CZ",
+      "display" : "Czechia"
+    }]
+  }],
+  "copyright" : "This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc",
+  "compose" : {
+    "include" : [{
+      "system" : "http://loinc.org",
+      "filter" : [{
+        "property" : "CLASS",
+        "op" : "=",
+        "value" : "LP29684-5"
+      },
+      {
+        "property" : "SCALE_TYP",
+        "op" : "=",
+        "value" : "LP32888-7"
+      },
+      {
+        "property" : "STATUS",
+        "op" : "=",
+        "value" : "ACTIVE"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "41806-1",
+        "display" : "CT břicha"
+      },
+      {
+        "code" : "24627-2",
+        "display" : "CT hrudníku"
+      },
+      {
+        "code" : "24690-0",
+        "display" : "CT končetiny"
+      },
+      {
+        "code" : "25043-1",
+        "display" : "CT-řízená aspirace tekutin"
+      },
+      {
+        "code" : "25044-9",
+        "display" : "CT-řízená biopsie"
+      },
+      {
+        "code" : "24725-4",
+        "display" : "CT hlavy"
+      },
+      {
+        "code" : "24866-6",
+        "display" : "CT pánve s IV kontrastem"
+      },
+      {
+        "code" : "106848-5",
+        "display" : "CT páteře"
+      },
+      {
+        "code" : "24932-6",
+        "display" : "CT krční páteře"
+      },
+      {
+        "code" : "24963-1",
+        "display" : "CT bederní páteře"
+      },
+      {
+        "code" : "24978-9",
+        "display" : "CT hrudní páteře"
+      },
+      {
+        "code" : "25045-6",
+        "display" : "CT neupřesněné oblasti těla"
+      },
+      {
+        "code" : "18748-4",
+        "display" : "Zobrazovací vyšetření"
+      },
+      {
+        "code" : "25069-6",
+        "display" : "RF-řízená biopsie – lokalita neupřesněna"
+      },
+      {
+        "code" : "24605-8",
+        "display" : "Diagnostická mamografie"
+      },
+      {
+        "code" : "24606-6",
+        "display" : "Screeningová mamografie"
+      },
+      {
+        "code" : "24590-2",
+        "display" : "MR mozku"
+      },
+      {
+        "code" : "25056-3",
+        "display" : "MR neupřesněné oblasti těla"
+      },
+      {
+        "code" : "24556-3",
+        "display" : "MR břicha"
+      },
+      {
+        "code" : "24629-8",
+        "display" : "MR hrudníku"
+      },
+      {
+        "code" : "24707-2",
+        "display" : "MR nohy"
+      },
+      {
+        "code" : "24710-6",
+        "display" : "MR předloktí"
+      },
+      {
+        "code" : "24720-5",
+        "display" : "MR ruky"
+      },
+      {
+        "code" : "28576-7",
+        "display" : "MR kloubu"
+      },
+      {
+        "code" : "24872-4",
+        "display" : "MR pánve a kyčle"
+      },
+      {
+        "code" : "24935-9",
+        "display" : "MR krční páteře"
+      },
+      {
+        "code" : "24968-0",
+        "display" : "MR bederní páteře"
+      },
+      {
+        "code" : "42698-1",
+        "display" : "MR krční, hrudní a bederní páteře"
+      },
+      {
+        "code" : "24980-5",
+        "display" : "MR hrudní páteře"
+      },
+      {
+        "code" : "24888-0",
+        "display" : "NM plicního systému – ventilace a perfuze s Xe-133 IH a s Tc-99m MAA IV"
+      },
+      {
+        "code" : "30695-1",
+        "display" : "NM štítné žlázy – projekce"
+      },
+      {
+        "code" : "44136-0",
+        "display" : "PET neupřesněné tělové oblasti"
+      },
+      {
+        "code" : "25059-7",
+        "display" : "UZ vedení biopsie neupřesněné tělové oblasti"
+      },
+      {
+        "code" : "24558-9",
+        "display" : "UZ břicha"
+      },
+      {
+        "code" : "24601-7",
+        "display" : "UZ prsu"
+      },
+      {
+        "code" : "24731-2",
+        "display" : "UZ hlavy"
+      },
+      {
+        "code" : "28614-6",
+        "display" : "UZ jater"
+      },
+      {
+        "code" : "24842-7",
+        "display" : "UZ krku"
+      },
+      {
+        "code" : "24869-0",
+        "display" : "UZ pánve"
+      },
+      {
+        "code" : "25061-3",
+        "display" : "UZ neupřesněné tělové oblasti"
+      },
+      {
+        "code" : "24541-5",
+        "display" : "RTG hlezna – projekce"
+      },
+      {
+        "code" : "24676-9",
+        "display" : "RTG lokte – projekce"
+      },
+      {
+        "code" : "24704-9",
+        "display" : "RTG femuru (stehenní kosti) – projekce"
+      },
+      {
+        "code" : "24709-8",
+        "display" : "RTG nohy – projekce"
+      },
+      {
+        "code" : "28582-5",
+        "display" : "RTG ruky – projekce"
+      },
+      {
+        "code" : "28564-3",
+        "display" : "RTG lebky – projekce"
+      },
+      {
+        "code" : "24762-7",
+        "display" : "RTG kyčle – projekce"
+      },
+      {
+        "code" : "28567-6",
+        "display" : "RTG humeru (pažní kosti) – projekce"
+      },
+      {
+        "code" : "28565-0",
+        "display" : "RTG kolene – projekce"
+      },
+      {
+        "code" : "28561-9",
+        "display" : "RTG pánve – projekce"
+      },
+      {
+        "code" : "24891-4",
+        "display" : "RTG předloktí (radius + ulna) – projekce"
+      },
+      {
+        "code" : "24909-4",
+        "display" : "RTG ramene – projekce"
+      },
+      {
+        "code" : "24946-6",
+        "display" : "RTG krční páteře – projekce"
+      },
+      {
+        "code" : "24972-2",
+        "display" : "RTG bederní páteře – projekce"
+      },
+      {
+        "code" : "24983-9",
+        "display" : "RTG hrudní páteře – projekce"
+      },
+      {
+        "code" : "25011-8",
+        "display" : "RTG bérce (tibia + fibula) – projekce"
+      },
+      {
+        "code" : "18782-3",
+        "display" : "Popis nálezu zobrazovacího vyšetření (narrativní)"
+      },
+      {
+        "code" : "24619-9",
+        "display" : "RTG zápěstí – projekce"
+      }]
+    }]
+  }
+}

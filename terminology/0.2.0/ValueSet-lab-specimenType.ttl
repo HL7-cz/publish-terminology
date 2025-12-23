@@ -1,0 +1,1414 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hl7.cz/terminology/ValueSet/lab-specimenType> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "lab-specimenType"] ; # 
+  fhir:language [ fhir:v "cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xml:lang=\"cs\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"cs\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet lab-specimenType</b></p><a name=\"lab-specimenType\"> </a><a name=\"hclab-specimenType\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: cs</p></div><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/258497007\">258497007</a></td><td>Stěr z abscesu</td></tr><tr><td><a href=\"http://snomed.info/id/258407001\">258407001</a></td><td>Tkáně z abscesu</td></tr><tr><td><a href=\"http://snomed.info/id/119373006\">119373006</a></td><td>Vzorek plodové vody</td></tr><tr><td><a href=\"http://snomed.info/id/122552005\">122552005</a></td><td>Vzorek arteriální krve</td></tr><tr><td><a href=\"http://snomed.info/id/309201001\">309201001</a></td><td>Vzorek ascitické tekutiny</td></tr><tr><td><a href=\"http://snomed.info/id/119341000\">119341000</a></td><td>Vzorek žluči</td></tr><tr><td><a href=\"http://snomed.info/id/258493006\">258493006</a></td><td>Vzorek močového kamene</td></tr><tr><td><a href=\"http://snomed.info/id/258582006\">258582006</a></td><td>Vzorek krevní sraženiny</td></tr><tr><td><a href=\"http://snomed.info/id/119297000\">119297000</a></td><td>Vzorek krve</td></tr><tr><td><a href=\"http://snomed.info/id/309051001\">309051001</a></td><td>Vzorek tělesné tekutiny</td></tr><tr><td><a href=\"http://snomed.info/id/432825001\">432825001</a></td><td>Vzorek tělesného sekretu</td></tr><tr><td><a href=\"http://snomed.info/id/258583001\">258583001</a></td><td>Vzorek sraženiny kostní dřeně</td></tr><tr><td><a href=\"http://snomed.info/id/119359002\">119359002</a></td><td>Vzorek kostní dřeně</td></tr><tr><td><a href=\"http://snomed.info/id/258417006\">258417006</a></td><td>Vzorek kostní tkáně</td></tr><tr><td><a href=\"http://snomed.info/id/309176002\">309176002</a></td><td>Kartáčkový odběr z bronchů</td></tr><tr><td><a href=\"http://snomed.info/id/258446004\">258446004</a></td><td>Vzorek bronchální tekutiny</td></tr><tr><td><a href=\"http://snomed.info/id/258564008\">258564008</a></td><td>Stěr z bukální sliznice</td></tr><tr><td><a href=\"http://snomed.info/id/258418001\">258418001</a></td><td>Tkáně z popáleniny</td></tr><tr><td><a href=\"http://snomed.info/id/258448003\">258448003</a></td><td>Vzorek tekutiny z burzy</td></tr><tr><td><a href=\"http://snomed.info/id/309110000\">309110000</a></td><td>Vzorek tkáně burzy</td></tr><tr><td><a href=\"http://snomed.info/id/119350003\">119350003</a></td><td>Vzorek konkrementu</td></tr><tr><td><a href=\"http://snomed.info/id/258627009\">258627009</a></td><td>Špička kanyly jako vzorek</td></tr><tr><td><a href=\"http://snomed.info/id/122554006\">122554006</a></td><td>Kapilární krevní vzorek</td></tr><tr><td><a href=\"http://snomed.info/id/309101008\">309101008</a></td><td>Vzorek chrupavky</td></tr><tr><td><a href=\"http://snomed.info/id/119312009\">119312009</a></td><td>Špička katétru jako vzorek</td></tr><tr><td><a href=\"http://snomed.info/id/258450006\">258450006</a></td><td>Vzorek mozkomíšního moku</td></tr><tr><td><a href=\"http://snomed.info/id/122580007\">122580007</a></td><td>Vzorek ušního mazu</td></tr><tr><td><a href=\"http://snomed.info/id/258452003\">258452003</a></td><td>Vzorek chylózní tekutiny</td></tr><tr><td><a href=\"http://snomed.info/id/258581004\">258581004</a></td><td>Vzorek sražené krve</td></tr><tr><td><a href=\"http://snomed.info/id/168136008\">168136008</a></td><td>Vzorek tekutiny z kolostomie</td></tr><tr><td><a href=\"http://snomed.info/id/119329007\">119329007</a></td><td>Vzorek mleziva</td></tr><tr><td><a href=\"http://snomed.info/id/258498002\">258498002</a></td><td>Stěr ze spojivky</td></tr><tr><td><a href=\"http://snomed.info/id/122556008\">122556008</a></td><td>Vzorek pupečníkové krve</td></tr><tr><td><a href=\"http://snomed.info/id/258499005\">258499005</a></td><td>Stěr po kašli</td></tr><tr><td><a href=\"http://snomed.info/id/258419009\">258419009</a></td><td>Kyretážní materiál</td></tr><tr><td><a href=\"http://snomed.info/id/258453008\">258453008</a></td><td>Vzorek tekutiny z cysty</td></tr><tr><td><a href=\"http://snomed.info/id/258420003\">258420003</a></td><td>Tkáně z cysty</td></tr><tr><td><a href=\"http://snomed.info/id/119338009\">119338009</a></td><td>Vzorek dentinu</td></tr><tr><td><a href=\"http://snomed.info/id/472919007\">472919007</a></td><td>Zdravotnická pomůcka jako vzorek</td></tr><tr><td><a href=\"http://snomed.info/id/258454002\">258454002</a></td><td>Vzorek dialyzátu</td></tr><tr><td><a href=\"http://snomed.info/id/258439008\">258439008</a></td><td>Vzorek sekretu</td></tr><tr><td><a href=\"http://snomed.info/id/258566005\">258566005</a></td><td>Vzorek DNA</td></tr><tr><td><a href=\"http://snomed.info/id/1003705007\">1003705007</a></td><td>Špička drénu jako vzorek</td></tr><tr><td><a href=\"http://snomed.info/id/258455001\">258455001</a></td><td>Vzorek drenážní tekutiny</td></tr><tr><td><a href=\"http://snomed.info/id/119294007\">119294007</a></td><td>Vzorek zaschlé krve</td></tr><tr><td><a href=\"http://snomed.info/id/258440005\">258440005</a></td><td>Vzorek výpotku</td></tr><tr><td><a href=\"http://snomed.info/id/258456000\">258456000</a></td><td>Vzorek tekutiny z empyému</td></tr><tr><td><a href=\"http://snomed.info/id/119336008\">119336008</a></td><td>Vzorek vydechovaného vzduchu</td></tr><tr><td><a href=\"http://snomed.info/id/258470000\">258470000</a></td><td>Vzorek prostatického sekretu</td></tr><tr><td><a href=\"http://snomed.info/id/258441009\">258441009</a></td><td>Vzorek exsudátu</td></tr><tr><td><a href=\"http://snomed.info/id/309128003\">309128003</a></td><td>Vzorek nitrooční tekutiny</td></tr><tr><td><a href=\"http://snomed.info/id/258487003\">258487003</a></td><td>Stěr stolice</td></tr><tr><td><a href=\"http://snomed.info/id/119339001\">119339001</a></td><td>Vzorek stolice</td></tr><tr><td><a href=\"http://snomed.info/id/309117002\">309117002</a></td><td>Vzorek fascie</td></tr><tr><td><a href=\"http://snomed.info/id/258458004\">258458004</a></td><td>Vzorek tekutiny z píštěle</td></tr><tr><td><a href=\"http://snomed.info/id/258442002\">258442002</a></td><td>Vzorek tekutiny</td></tr><tr><td><a href=\"http://snomed.info/id/445744006\">445744006</a></td><td>Vzorek tekutiny ze seromu</td></tr><tr><td><a href=\"http://snomed.info/id/309502007\">309502007</a></td><td>Vzorek z plodu</td></tr><tr><td><a href=\"http://snomed.info/id/447103002\">447103002</a></td><td>Cizí těleso jako vzorek</td></tr><tr><td><a href=\"http://snomed.info/id/258492001\">258492001</a></td><td>Vzorek žlučového kamene</td></tr><tr><td><a href=\"http://snomed.info/id/432657002\">432657002</a></td><td>Vzorek gangliové cysty</td></tr><tr><td><a href=\"http://snomed.info/id/309213006\">309213006</a></td><td>Kartáčkový odběr ze žaludku</td></tr><tr><td><a href=\"http://snomed.info/id/309199003\">309199003</a></td><td>Vzorek gastrointestinální tekutiny</td></tr><tr><td><a href=\"http://snomed.info/id/258562007\">258562007</a></td><td>Genetický vzorek</td></tr><tr><td><a href=\"http://snomed.info/id/258508008\">258508008</a></td><td>Genitální stěr</td></tr><tr><td><a href=\"http://snomed.info/id/258559009\">258559009</a></td><td>Vzorek tekutiny z gingivální rýhy</td></tr><tr><td><a href=\"http://snomed.info/id/440493002\">440493002</a></td><td>Štěp od pacienta jako vzorek</td></tr><tr><td><a href=\"http://snomed.info/id/258588005\">258588005</a></td><td>Vzorek hematomu</td></tr><tr><td><a href=\"http://snomed.info/id/119326000\">119326000</a></td><td>Vzorek vlasů</td></tr><tr><td><a href=\"http://snomed.info/id/258424007\">258424007</a></td><td>Tkáně srdeční chlopně</td></tr><tr><td><a href=\"http://snomed.info/id/258521001\">258521001</a></td><td>Stěr z horní části pochvy</td></tr><tr><td><a href=\"http://snomed.info/id/258461003\">258461003</a></td><td>Vzorek tekutiny z hydrokély</td></tr><tr><td><a href=\"http://snomed.info/id/258462005\">258462005</a></td><td>Vzorek tekutiny z ileostomie</td></tr><tr><td><a href=\"http://snomed.info/id/258479004\">258479004</a></td><td>Vzorek intersticiální tekutiny</td></tr><tr><td><a href=\"http://snomed.info/id/309114009\">309114009</a></td><td>Vzorek vazu</td></tr><tr><td><a href=\"http://snomed.info/id/258522008\">258522008</a></td><td>Stěr z dolní části pochvy</td></tr><tr><td><a href=\"http://snomed.info/id/309171007\">309171007</a></td><td>Vzorek tekutiny z dolních dýchacích cest</td></tr><tr><td><a href=\"http://snomed.info/id/302795002\">302795002</a></td><td>Aspirát z lymfatické uzliny</td></tr><tr><td><a href=\"http://snomed.info/id/258488008\">258488008</a></td><td>Nátěr z lymfatické uzliny</td></tr><tr><td><a href=\"http://snomed.info/id/309078004\">309078004</a></td><td>Vzorek tkáně lymfatické uzliny</td></tr><tr><td><a href=\"http://snomed.info/id/119340004\">119340004</a></td><td>Vzorek smolky</td></tr><tr><td><a href=\"http://snomed.info/id/119345009\">119345009</a></td><td>Vzorek menstruační krve</td></tr><tr><td><a href=\"http://snomed.info/id/119303007\">119303007</a></td><td>Mikrobiální izolát</td></tr><tr><td><a href=\"http://snomed.info/id/119328004\">119328004</a></td><td>Vzorek mateřského mléka</td></tr><tr><td><a href=\"http://snomed.info/id/258483004\">258483004</a></td><td>Vzorek hlenu</td></tr><tr><td><a href=\"http://snomed.info/id/119327009\">119327009</a></td><td>Vzorek nehtu</td></tr><tr><td><a href=\"http://snomed.info/id/168141000\">168141000</a></td><td>Vzorek nosní tekutiny</td></tr><tr><td><a href=\"http://snomed.info/id/258467004\">258467004</a></td><td>Výplach nosohltanu</td></tr><tr><td><a href=\"http://snomed.info/id/433799002\">433799002</a></td><td>Vzorek nervového ganglia</td></tr><tr><td><a href=\"http://snomed.info/id/309129006\">309129006</a></td><td>Vzorek nervové tkáně</td></tr><tr><td><a href=\"http://snomed.info/id/309131002\">309131002</a></td><td>Vzorek neuromu</td></tr><tr><td><a href=\"http://snomed.info/id/258468009\">258468009</a></td><td>Vzorek edémové tekutiny</td></tr><tr><td><a href=\"http://snomed.info/id/309210009\">309210009</a></td><td>Kartáčkový odběr z jícnu</td></tr><tr><td><a href=\"http://snomed.info/id/258494000\">258494000</a></td><td>Vzorek pankreatického kamene</td></tr><tr><td><a href=\"http://snomed.info/id/122571007\">122571007</a></td><td>Vzorek perikardiální tekutiny</td></tr><tr><td><a href=\"http://snomed.info/id/168139001\">168139001</a></td><td>Vzorek peritoneální tekutiny</td></tr><tr><td><a href=\"http://snomed.info/id/258469001\">258469001</a></td><td>Výplach hltanu</td></tr><tr><td><a href=\"http://snomed.info/id/119361006\">119361006</a></td><td>Vzorek plazmy</td></tr><tr><td><a href=\"http://snomed.info/id/110913002\">110913002</a></td><td>Cytologický materiál z pleurální tekutiny</td></tr><tr><td><a href=\"http://snomed.info/id/418564007\">418564007</a></td><td>Vzorek pleurální tekutiny</td></tr><tr><td><a href=\"http://snomed.info/id/258484005\">258484005</a></td><td>Posmrtný tkáňový vzorek</td></tr><tr><td><a href=\"http://snomed.info/id/258428005\">258428005</a></td><td>Tkáně produktů početí</td></tr><tr><td><a href=\"http://snomed.info/id/119323008\">119323008</a></td><td>Vzorek hnisu</td></tr><tr><td><a href=\"http://snomed.info/id/258502009\">258502009</a></td><td>Stěr z hnisu</td></tr><tr><td><a href=\"http://snomed.info/id/119351004\">119351004</a></td><td>Vzorek erytrocytů</td></tr><tr><td><a href=\"http://snomed.info/id/258495004\">258495004</a></td><td>Vzorek ledvinového kamene</td></tr><tr><td><a href=\"http://snomed.info/id/119342007\">119342007</a></td><td>Vzorek slin</td></tr><tr><td><a href=\"http://snomed.info/id/258431006\">258431006</a></td><td>Seškrab</td></tr><tr><td><a href=\"http://snomed.info/id/258432004\">258432004</a></td><td>Vzorek kožního mazu</td></tr><tr><td><a href=\"http://snomed.info/id/119347001\">119347001</a></td><td>Vzorek semenné tekutiny</td></tr><tr><td><a href=\"http://snomed.info/id/119364003\">119364003</a></td><td>Vzorek séra</td></tr><tr><td><a href=\"http://snomed.info/id/309261004\">309261004</a></td><td>Kartáčkový odběr ze sigmatu</td></tr><tr><td><a href=\"http://snomed.info/id/258475005\">258475005</a></td><td>Výplach z paranazálních dutin</td></tr><tr><td><a href=\"http://snomed.info/id/119331003\">119331003</a></td><td>Vzorek kosterního svalu</td></tr><tr><td><a href=\"http://snomed.info/id/119325001\">119325001</a></td><td>Vzorek kožní tkáně</td></tr><tr><td><a href=\"http://snomed.info/id/258505006\">258505006</a></td><td>Stěr z kožního vředu</td></tr><tr><td><a href=\"http://snomed.info/id/258433009\">258433009</a></td><td>Nátěrový vzorek</td></tr><tr><td><a href=\"http://snomed.info/id/309072003\">309072003</a></td><td>Vzorek měkké tkáně</td></tr><tr><td><a href=\"http://snomed.info/id/119300005\">119300005</a></td><td>Vzorek z krevního přípravku</td></tr><tr><td><a href=\"http://snomed.info/id/898201001\">898201001</a></td><td>Vzorek ze zdravotnického prostředku</td></tr><tr><td><a href=\"http://snomed.info/id/1003706008\">1003706008</a></td><td>Vzorek ze špičky drénu</td></tr><tr><td><a href=\"http://snomed.info/id/119305000\">119305000</a></td><td>Vzorek z vaku s plazmou</td></tr><tr><td><a href=\"http://snomed.info/id/119349003\">119349003</a></td><td>Vzorek spermií</td></tr><tr><td><a href=\"http://snomed.info/id/258434003\">258434003</a></td><td>Vycentrovaný močový sediment</td></tr><tr><td><a href=\"http://snomed.info/id/119334006\">119334006</a></td><td>Vzorek sputa</td></tr><tr><td><a href=\"http://snomed.info/id/257261003\">257261003</a></td><td>Stěr</td></tr><tr><td><a href=\"http://snomed.info/id/445160003\">445160003</a></td><td>Stěr z oka</td></tr><tr><td><a href=\"http://snomed.info/id/122569007\">122569007</a></td><td>Vzorek potu</td></tr><tr><td><a href=\"http://snomed.info/id/119332005\">119332005</a></td><td>Vzorek synoviální tekutiny</td></tr><tr><td><a href=\"http://snomed.info/id/309123007\">309123007</a></td><td>Vzorek synovie</td></tr><tr><td><a href=\"http://snomed.info/id/309121009\">309121009</a></td><td>Vzorek synoviální tkáně</td></tr><tr><td><a href=\"http://snomed.info/id/440468004\">440468004</a></td><td>Tampon jako vzorek</td></tr><tr><td><a href=\"http://snomed.info/id/258465007\">258465007</a></td><td>Vzorek slzné tekutiny</td></tr><tr><td><a href=\"http://snomed.info/id/122594008\">122594008</a></td><td>Vzorek slz</td></tr><tr><td><a href=\"http://snomed.info/id/309481000\">309481000</a></td><td>Vzorek temporální arterie</td></tr><tr><td><a href=\"http://snomed.info/id/309107007\">309107007</a></td><td>Vzorek šlachy</td></tr><tr><td><a href=\"http://snomed.info/id/258529004\">258529004</a></td><td>Stěr z krku</td></tr><tr><td><a href=\"http://snomed.info/id/119376003\">119376003</a></td><td>Tkáňový vzorek</td></tr><tr><td><a href=\"http://snomed.info/id/258538002\">258538002</a></td><td>Vzorek transudátu</td></tr><tr><td><a href=\"http://snomed.info/id/258435002\">258435002</a></td><td>Vzorek nádorové tkáně</td></tr><tr><td><a href=\"http://snomed.info/id/441479001\">441479001</a></td><td>Vzorek čerstvé tkáně</td></tr><tr><td><a href=\"http://snomed.info/id/439628000\">439628000</a></td><td>Močový sběrný sáček jako vzorek</td></tr><tr><td><a href=\"http://snomed.info/id/439580004\">439580004</a></td><td>Močová savá podložka jako vzorek</td></tr><tr><td><a href=\"http://snomed.info/id/122567009\">122567009</a></td><td>Vzorek močového sedimentu</td></tr><tr><td><a href=\"http://snomed.info/id/122575003\">122575003</a></td><td>Vzorek moči</td></tr><tr><td><a href=\"http://snomed.info/id/258437005\">258437005</a></td><td>Vegetace ze srdeční chlopně</td></tr><tr><td><a href=\"http://snomed.info/id/122555007\">122555007</a></td><td>Vzorek žilní krve</td></tr><tr><td><a href=\"http://snomed.info/id/122572000\">122572000</a></td><td>Vzorek zvratků</td></tr><tr><td><a href=\"http://snomed.info/id/258591005\">258591005</a></td><td>Vzorek leukocytů</td></tr><tr><td><a href=\"http://snomed.info/id/258580003\">258580003</a></td><td>Vzorek plné krve</td></tr><tr><td><a href=\"http://snomed.info/id/438805006\">438805006</a></td><td>Vzorek celého zubu</td></tr><tr><td><a href=\"http://snomed.info/id/122566000\">122566000</a></td><td>Vzorek tekutiny z rány</td></tr><tr><td><a href=\"http://snomed.info/id/258531008\">258531008</a></td><td>Stěr z rány</td></tr><tr><td><a href=\"http://snomed.info/id/446302006\">446302006</a></td><td>Vzorek vzduchu</td></tr><tr><td><a href=\"http://snomed.info/id/33631000087102\">33631000087102</a></td><td>Alogenní kostní štěp jako vzorek</td></tr><tr><td><a href=\"http://snomed.info/id/703430008\">703430008</a></td><td>Vzorek arteriální pupečníkové krve</td></tr><tr><td><a href=\"http://snomed.info/id/16215211000119100\">16215211000119100</a></td><td>Vzorek tekutiny z Bartholiniho žlázy</td></tr><tr><td><a href=\"http://snomed.info/id/446129006\">446129006</a></td><td>Vzorek žluči ze společného žlučovodu</td></tr><tr><td><a href=\"http://snomed.info/id/446817004\">446817004</a></td><td>Vzorek žluči ze žlučníku</td></tr><tr><td><a href=\"http://snomed.info/id/258490009\">258490009</a></td><td>Vzorek biliárního kamene</td></tr><tr><td><a href=\"http://snomed.info/id/309105004\">309105004</a></td><td>Bioptický vzorek kosti</td></tr><tr><td><a href=\"http://snomed.info/id/258607008\">258607008</a></td><td>Vzorek bronchoalveolární laváže</td></tr><tr><td><a href=\"http://snomed.info/id/122577006\">122577006</a></td><td>Vzorek cervikálního hlenu</td></tr><tr><td><a href=\"http://snomed.info/id/16216411000119106\">16216411000119106</a></td><td>Nátěr ze spojivky</td></tr><tr><td><a href=\"http://snomed.info/id/1003707004\">1003707004</a></td><td>Drén jako vzorek</td></tr><tr><td><a href=\"http://snomed.info/id/309216003\">309216003</a></td><td>Bioptický vzorek duodena</td></tr><tr><td><a href=\"http://snomed.info/id/122574004\">122574004</a></td><td>Vzorek duodenální tekutiny</td></tr><tr><td><a href=\"http://snomed.info/id/309166000\">309166000</a></td><td>Stěr z ucha</td></tr><tr><td><a href=\"http://snomed.info/id/119314005\">119314005</a></td><td>Elektroda jako vzorek</td></tr><tr><td><a href=\"http://snomed.info/id/419695002\">419695002</a></td><td>Stěr z prostředí</td></tr><tr><td><a href=\"http://snomed.info/id/309211008\">309211008</a></td><td>Bioptický vzorek žaludku</td></tr><tr><td><a href=\"http://snomed.info/id/122573005\">122573005</a></td><td>Vzorek žaludečního obsahu</td></tr><tr><td><a href=\"http://snomed.info/id/258459007\">258459007</a></td><td>Vzorek žaludeční tekutiny</td></tr><tr><td><a href=\"http://snomed.info/id/122579009\">122579009</a></td><td>Vzorek lochií</td></tr><tr><td><a href=\"http://snomed.info/id/258512002\">258512002</a></td><td>Stěr z glans penis</td></tr><tr><td><a href=\"http://snomed.info/id/473415003\">473415003</a></td><td>Nitroděložní tělísko jako vzorek</td></tr><tr><td><a href=\"http://snomed.info/id/258649003\">258649003</a></td><td>Vzorek infuzní tekutiny</td></tr><tr><td><a href=\"http://snomed.info/id/309049000\">309049000</a></td><td>Vzorek z léze</td></tr><tr><td><a href=\"http://snomed.info/id/309203003\">309203003</a></td><td>Bioptický vzorek jater</td></tr><tr><td><a href=\"http://snomed.info/id/258589002\">258589002</a></td><td>Vzorek lymfatické uzliny</td></tr><tr><td><a href=\"http://snomed.info/id/258466008\">258466008</a></td><td>Vzorek tekutiny ze středního ucha</td></tr><tr><td><a href=\"http://snomed.info/id/119298005\">119298005</a></td><td>Vzorek smíšené žilní krve</td></tr><tr><td><a href=\"http://snomed.info/id/705054005\">705054005</a></td><td>Vzorek svalu</td></tr><tr><td><a href=\"http://snomed.info/id/309104000\">309104000</a></td><td>Vzorek pohybového aparátu</td></tr><tr><td><a href=\"http://snomed.info/id/447339001\">447339001</a></td><td>Nátěr z nosu</td></tr><tr><td><a href=\"http://snomed.info/id/258500001\">258500001</a></td><td>Stěr z nosohltanu</td></tr><tr><td><a href=\"http://snomed.info/id/16220931000119104\">16220931000119104</a></td><td>Vzorek tekutiny z cysty pankreatu</td></tr><tr><td><a href=\"http://snomed.info/id/119343002\">119343002</a></td><td>Vzorek pankreatické tekutiny</td></tr><tr><td><a href=\"http://snomed.info/id/309154006\">309154006</a></td><td>Vzorek hypofýzy</td></tr><tr><td><a href=\"http://snomed.info/id/708317005\">708317005</a></td><td>Smíšený vzorek z introitu a rektálního stěru</td></tr><tr><td><a href=\"http://snomed.info/id/258513007\">258513007</a></td><td>Stěr z předkožky</td></tr><tr><td><a href=\"http://snomed.info/id/258528007\">258528007</a></td><td>Rektální stěr</td></tr><tr><td><a href=\"http://snomed.info/id/410580001\">410580001</a></td><td>Vzorek respirační tekutiny</td></tr><tr><td><a href=\"http://snomed.info/id/732293002\">732293002</a></td><td>Vzorek slinného kamene</td></tr><tr><td><a href=\"http://snomed.info/id/309066003\">309066003</a></td><td>Bioptický vzorek kůže</td></tr><tr><td><a href=\"http://snomed.info/id/430268003\">430268003</a></td><td>Vzorek z kosti</td></tr><tr><td><a href=\"http://snomed.info/id/119398007\">119398007</a></td><td>Vzorek z mozku</td></tr><tr><td><a href=\"http://snomed.info/id/122601001\">122601001</a></td><td>Bioptický vzorek z prsu</td></tr><tr><td><a href=\"http://snomed.info/id/119307008\">119307008</a></td><td>Vzorek z endotracheální kanyly</td></tr><tr><td><a href=\"http://snomed.info/id/119399004\">119399004</a></td><td>Vzorek z oka</td></tr><tr><td><a href=\"http://snomed.info/id/127476006\">127476006</a></td><td>Vzorek z vejcovodu</td></tr><tr><td><a href=\"http://snomed.info/id/446951004\">446951004</a></td><td>Vzorek z granulační tkáně</td></tr><tr><td><a href=\"http://snomed.info/id/127473003\">127473003</a></td><td>Vzorek z ledviny</td></tr><tr><td><a href=\"http://snomed.info/id/119383005\">119383005</a></td><td>Vzorek z jater</td></tr><tr><td><a href=\"http://snomed.info/id/122610009\">122610009</a></td><td>Bioptický vzorek z plic</td></tr><tr><td><a href=\"http://snomed.info/id/447407009\">447407009</a></td><td>Vzorek z nekrotické tkáně</td></tr><tr><td><a href=\"http://snomed.info/id/127469001\">127469001</a></td><td>Vzorek z pankreatu</td></tr><tr><td><a href=\"http://snomed.info/id/119403008\">119403008</a></td><td>Vzorek z placenty</td></tr><tr><td><a href=\"http://snomed.info/id/1003711005\">1003711005</a></td><td>Vzorek z náhrady kloubu</td></tr><tr><td><a href=\"http://snomed.info/id/608969007\">608969007</a></td><td>Vzorek z kůže</td></tr><tr><td><a href=\"http://snomed.info/id/433308004\">433308004</a></td><td>Vzorek ze sleziny</td></tr><tr><td><a href=\"http://snomed.info/id/119379005\">119379005</a></td><td>Vzorek ze žaludku</td></tr><tr><td><a href=\"http://snomed.info/id/445447003\">445447003</a></td><td>Aspirát z trachey</td></tr><tr><td><a href=\"http://snomed.info/id/441903006\">441903006</a></td><td>Vzorek z bronchální aspirace</td></tr><tr><td><a href=\"http://snomed.info/id/440674008\">440674008</a></td><td>Vzorek získaný laváží</td></tr><tr><td><a href=\"http://snomed.info/id/57711000052109\">57711000052109</a></td><td>Vzorek získaný punkcí</td></tr><tr><td><a href=\"http://snomed.info/id/16220971000119101\">16220971000119101</a></td><td>Vzorek tekutiny z cysty ledviny</td></tr><tr><td><a href=\"http://snomed.info/id/278020009\">278020009</a></td><td>Jednorázový vzorek moči</td></tr><tr><td><a href=\"http://snomed.info/id/271514008\">271514008</a></td><td>Vzorek kostní dřeně ze sterna</td></tr><tr><td><a href=\"http://snomed.info/id/472894002\">472894002</a></td><td>Stěr z rohovky</td></tr><tr><td><a href=\"http://snomed.info/id/472900002\">472900002</a></td><td>Stěr z dásně</td></tr><tr><td><a href=\"http://snomed.info/id/472888005\">472888005</a></td><td>Stěr z hrtanu</td></tr><tr><td><a href=\"http://snomed.info/id/16210971000119108\">16210971000119108</a></td><td>Stěr z léze</td></tr><tr><td><a href=\"http://snomed.info/id/472862007\">472862007</a></td><td>Stěr z kožní léze</td></tr><tr><td><a href=\"http://snomed.info/id/472879001\">472879001</a></td><td>Stěr z placenty</td></tr><tr><td><a href=\"http://snomed.info/id/472885008\">472885008</a></td><td>Stěr z dekubitu</td></tr><tr><td><a href=\"http://snomed.info/id/472883001\">472883001</a></td><td>Stěr z chirurgické rány</td></tr><tr><td><a href=\"http://snomed.info/id/472866005\">472866005</a></td><td>Stěr z jazyka</td></tr><tr><td><a href=\"http://snomed.info/id/472867001\">472867001</a></td><td>Stěr z tonsily</td></tr><tr><td><a href=\"http://snomed.info/id/461911000124106\">461911000124106</a></td><td>Orofaryngeální stěr</td></tr><tr><td><a href=\"http://snomed.info/id/309478005\">309478005</a></td><td>Vzorek trombu</td></tr><tr><td><a href=\"http://snomed.info/id/258480001\">258480001</a></td><td>Transtracheální aspirát</td></tr><tr><td><a href=\"http://snomed.info/id/258436001\">258436001</a></td><td>Vzorek tkáně pupečníku</td></tr><tr><td><a href=\"http://snomed.info/id/258530009\">258530009</a></td><td>Uretrální stěr</td></tr><tr><td><a href=\"http://snomed.info/id/444937002\">444937002</a></td><td>Vzorek moči z ureteru</td></tr><tr><td><a href=\"http://snomed.info/id/447589008\">447589008</a></td><td>Moč po jednorázové katetrizaci</td></tr><tr><td><a href=\"http://snomed.info/id/446907008\">446907008</a></td><td>Vzorek moči z ledviny</td></tr><tr><td><a href=\"http://snomed.info/id/258520000\">258520000</a></td><td>Vaginální stěr</td></tr><tr><td><a href=\"http://snomed.info/id/703431007\">703431007</a></td><td>Vzorek žilní pupečníkové krve</td></tr><tr><td><a href=\"http://snomed.info/id/258482009\">258482009</a></td><td>Vzorek tekutiny z puchýře</td></tr><tr><td><a href=\"http://snomed.info/id/258523003\">258523003</a></td><td>Stěr z vulvy</td></tr><tr><td><a href=\"http://snomed.info/id/258662004\">258662004</a></td><td>Vzorek na adhezním sklíčku</td></tr><tr><td><a href=\"http://snomed.info/id/258527002\">258527002</a></td><td>Anální stěr</td></tr><tr><td><a href=\"http://snomed.info/id/258415003\">258415003</a></td><td>Bioptický vzorek</td></tr><tr><td><a href=\"http://snomed.info/id/303248007\">303248007</a></td><td>Krevní nátěr</td></tr><tr><td><a href=\"http://snomed.info/id/737535000\">737535000</a></td><td>Krevní nátěr</td></tr><tr><td><a href=\"http://snomed.info/id/122560006\">122560006</a></td><td>Krevní vzorek dárce</td></tr><tr><td><a href=\"http://snomed.info/id/866033003\">866033003</a></td><td>Krev v aerobní hemokultivační lahvi</td></tr><tr><td><a href=\"http://snomed.info/id/866032008\">866032008</a></td><td>Krev v anaerobní hemokultivační lahvi</td></tr><tr><td><a href=\"http://snomed.info/id/878861003\">878861003</a></td><td>Krev v hemokultivační lahvi</td></tr><tr><td><a href=\"http://snomed.info/id/445295009\">445295009</a></td><td>Krevní vzorek v EDTA</td></tr><tr><td><a href=\"http://snomed.info/id/309061008\">309061008</a></td><td>Aspirát z prsu tenkou jehlou</td></tr><tr><td><a href=\"http://snomed.info/id/309503002\">309503002</a></td><td>Sekret z bradavky</td></tr><tr><td><a href=\"http://snomed.info/id/309174004\">309174004</a></td><td>Biopsie bronchu</td></tr><tr><td><a href=\"http://snomed.info/id/119308003\">119308003</a></td><td>Kanyla jako vzorek</td></tr><tr><td><a href=\"http://snomed.info/id/473409003\">473409003</a></td><td>Centrální žilní katétr jako vzorek</td></tr><tr><td><a href=\"http://snomed.info/id/472929000\">472929000</a></td><td>Špička centrálního žilního katétru</td></tr><tr><td><a href=\"http://snomed.info/id/445372002\">445372002</a></td><td>Mozkomíšní mok z mozkové komory</td></tr><tr><td><a href=\"http://snomed.info/id/258524009\">258524009</a></td><td>Cervikální stěr</td></tr><tr><td><a href=\"http://snomed.info/id/440473005\">440473005</a></td><td>Kontaktní čočka jako vzorek</td></tr><tr><td><a href=\"http://snomed.info/id/440500007\">440500007</a></td><td>Suchá kapka krve</td></tr><tr><td><a href=\"http://snomed.info/id/119319000\">119319000</a></td><td>Vzorek léčiva</td></tr><tr><td><a href=\"http://snomed.info/id/309165001\">309165001</a></td><td>Vzorek ucha</td></tr><tr><td><a href=\"http://snomed.info/id/258575007\">258575007</a></td><td>Ranní moč</td></tr><tr><td><a href=\"http://snomed.info/id/446676001\">446676001</a></td><td>Odsáté mateřské mléko</td></tr><tr><td><a href=\"http://snomed.info/id/122568004\">122568004</a></td><td>Exsudát z rány</td></tr><tr><td><a href=\"http://snomed.info/id/258519006\">258519006</a></td><td>Stěr z ženského genitálu</td></tr><tr><td><a href=\"http://snomed.info/id/737357006\">737357006</a></td><td>Vzorek fetální krve</td></tr><tr><td><a href=\"http://snomed.info/id/698276005\">698276005</a></td><td>První proud moči</td></tr><tr><td><a href=\"http://snomed.info/id/733056005\">733056005</a></td><td>Vzorek tekutiny z ucha</td></tr><tr><td><a href=\"http://snomed.info/id/732976006\">732976006</a></td><td>Vzorek tekutiny ze zevního zvukovodu</td></tr><tr><td><a href=\"http://snomed.info/id/16214171000119101\">16214171000119101</a></td><td>Vzorek genitální tekutiny</td></tr><tr><td><a href=\"http://snomed.info/id/258570002\">258570002</a></td><td>Urogenitální vzorek</td></tr><tr><td><a href=\"http://snomed.info/id/309124001\">309124001</a></td><td>Biopsie kloubu</td></tr><tr><td><a href=\"http://snomed.info/id/431361003\">431361003</a></td><td>Kloubní tekutina</td></tr><tr><td><a href=\"http://snomed.info/id/309079007\">309079007</a></td><td>Biopsie lymfatické uzliny</td></tr><tr><td><a href=\"http://snomed.info/id/309052008\">309052008</a></td><td>Vzorek mužského genitálu</td></tr><tr><td><a href=\"http://snomed.info/id/258574006\">258574006</a></td><td>Střední proud moči</td></tr><tr><td><a href=\"http://snomed.info/id/119321005\">119321005</a></td><td>Vzorek mléka</td></tr><tr><td><a href=\"http://snomed.info/id/119377007\">119377007</a></td><td>Vzorek myokardu</td></tr><tr><td><a href=\"http://snomed.info/id/16224371000119105\">16224371000119105</a></td><td>Výplach nosu</td></tr><tr><td><a href=\"http://snomed.info/id/16223051000119101\">16223051000119101</a></td><td>Obsah paranazální dutiny</td></tr><tr><td><a href=\"http://snomed.info/id/258411007\">258411007</a></td><td>Aspirát z nosohltanu</td></tr><tr><td><a href=\"http://snomed.info/id/441620008\">441620008</a></td><td>Orální tekutina</td></tr><tr><td><a href=\"http://snomed.info/id/418932006\">418932006</a></td><td>Orální stěr</td></tr><tr><td><a href=\"http://snomed.info/id/258511009\">258511009</a></td><td>Uretrální stěr u muže</td></tr><tr><td><a href=\"http://snomed.info/id/258510005\">258510005</a></td><td>Stěr z penisu</td></tr><tr><td><a href=\"http://snomed.info/id/258526006\">258526006</a></td><td>Perianální stěr</td></tr><tr><td><a href=\"http://snomed.info/id/258525005\">258525005</a></td><td>Perineální stěr</td></tr><tr><td><a href=\"http://snomed.info/id/472923004\">472923004</a></td><td>Špička periferního katétru</td></tr><tr><td><a href=\"http://snomed.info/id/168140004\">168140004</a></td><td>Peritoneální dialyzát</td></tr><tr><td><a href=\"http://snomed.info/id/788707000\">788707000</a></td><td>Plazma / sérum / plná krev</td></tr><tr><td><a href=\"http://snomed.info/id/708049000\">708049000</a></td><td>Plazma s EDTA</td></tr><tr><td><a href=\"http://snomed.info/id/309172000\">309172000</a></td><td>Biopsie pleury</td></tr><tr><td><a href=\"http://snomed.info/id/258471001\">258471001</a></td><td>Sekret po masáži prostaty</td></tr><tr><td><a href=\"http://snomed.info/id/708112008\">708112008</a></td><td>Aspirát z Douglasova prostoru</td></tr><tr><td><a href=\"http://snomed.info/id/258664003\">258664003</a></td><td>Vzorek pomocí lepicí pásky</td></tr><tr><td><a href=\"http://snomed.info/id/119348006\">119348006</a></td><td>Semenná plazma</td></tr><tr><td><a href=\"http://snomed.info/id/122589008\">122589008</a></td><td>Sérum od dárce krve</td></tr><tr><td><a href=\"http://snomed.info/id/122590004\">122590004</a></td><td>Sérum od pacienta</td></tr><tr><td><a href=\"http://snomed.info/id/258549008\">258549008</a></td><td>Kožní šupina</td></tr><tr><td><a href=\"http://snomed.info/id/258503004\">258503004</a></td><td>Kožní stěr</td></tr><tr><td><a href=\"http://snomed.info/id/1179252003\">1179252003</a></td><td>Mikroskopické sklíčko jako vzorek</td></tr><tr><td><a href=\"http://snomed.info/id/119371008\">119371008</a></td><td>Vzorek z abscesu</td></tr><tr><td><a href=\"http://snomed.info/id/446972001\">446972001</a></td><td>Aspirát z abscesu</td></tr><tr><td><a href=\"http://snomed.info/id/119392008\">119392008</a></td><td>Vzorek z anu</td></tr><tr><td><a href=\"http://snomed.info/id/127456000\">127456000</a></td><td>Vzorek z prsu</td></tr><tr><td><a href=\"http://snomed.info/id/16211051000119109\">16211051000119109</a></td><td>Vzorek z hluboké rány</td></tr><tr><td><a href=\"http://snomed.info/id/119396006\">119396006</a></td><td>Vzorek z endometria</td></tr><tr><td><a href=\"http://snomed.info/id/440229008\">440229008</a></td><td>Vzorek z prostředí</td></tr><tr><td><a href=\"http://snomed.info/id/16212771000119105\">16212771000119105</a></td><td>Biopsie z víčka</td></tr><tr><td><a href=\"http://snomed.info/id/449446003\">449446003</a></td><td>Vzorek ze žlučníku</td></tr><tr><td><a href=\"http://snomed.info/id/119344008\">119344008</a></td><td>Vzorek z genitálního systému</td></tr><tr><td><a href=\"http://snomed.info/id/447098004\">447098004</a></td><td>Seškrab z nehtu</td></tr><tr><td><a href=\"http://snomed.info/id/430248009\">430248009</a></td><td>Vzorek z nosohltanu</td></tr><tr><td><a href=\"http://snomed.info/id/447154002\">447154002</a></td><td>Vzorek z nosu</td></tr><tr><td><a href=\"http://snomed.info/id/119397002\">119397002</a></td><td>Vzorek z penisu</td></tr><tr><td><a href=\"http://snomed.info/id/434250007\">434250007</a></td><td>Biopsie perikardu</td></tr><tr><td><a href=\"http://snomed.info/id/438660002\">438660002</a></td><td>Vzorek z implantátu</td></tr><tr><td><a href=\"http://snomed.info/id/446952006\">446952006</a></td><td>Seškrab z kůže</td></tr><tr><td><a href=\"http://snomed.info/id/119295008\">119295008</a></td><td>Aspirát</td></tr><tr><td><a href=\"http://snomed.info/id/119324002\">119324002</a></td><td>Vzorek neznámého materiálu</td></tr><tr><td><a href=\"http://snomed.info/id/703691002\">703691002</a></td><td>Vycentrovaný mozkomíšní mok</td></tr><tr><td><a href=\"http://snomed.info/id/258609006\">258609006</a></td><td>Aspirát sputa z trachey</td></tr><tr><td><a href=\"http://snomed.info/id/447488002\">447488002</a></td><td>Suprapubická moč</td></tr><tr><td><a href=\"http://snomed.info/id/373826004\">373826004</a></td><td>Chirurgicky odstraněná tkáň</td></tr><tr><td><a href=\"http://snomed.info/id/472896000\">472896000</a></td><td>Stěr z puchýře</td></tr><tr><td><a href=\"http://snomed.info/id/733104004\">733104004</a></td><td>Stěr z bukální sliznice</td></tr><tr><td><a href=\"http://snomed.info/id/472884007\">472884007</a></td><td>Stěr z hluboké rány</td></tr><tr><td><a href=\"http://snomed.info/id/472886009\">472886009</a></td><td>Stěr z gastrostomie</td></tr><tr><td><a href=\"http://snomed.info/id/472901003\">472901003</a></td><td>Stěr z paranazální dutiny</td></tr><tr><td><a href=\"http://snomed.info/id/472881004\">472881004</a></td><td>Stěr z hltanu</td></tr><tr><td><a href=\"http://snomed.info/id/472882006\">472882006</a></td><td>Stěr z povrchové rány</td></tr><tr><td><a href=\"http://snomed.info/id/33901000087104\">33901000087104</a></td><td>Stěr z tracheostomie</td></tr><tr><td><a href=\"http://snomed.info/id/472871003\">472871003</a></td><td>Stěr z vředu</td></tr><tr><td><a href=\"http://snomed.info/id/445364004\">445364004</a></td><td>Stěr z axily</td></tr><tr><td><a href=\"http://snomed.info/id/445444005\">445444005</a></td><td>Stěr z třísla</td></tr><tr><td><a href=\"http://snomed.info/id/445367006\">445367006</a></td><td>Stěr z pupku</td></tr><tr><td><a href=\"http://snomed.info/id/710069003\">710069003</a></td><td>Vzorek klíštěte</td></tr><tr><td><a href=\"http://snomed.info/id/128157004\">128157004</a></td><td>Tkáně z mozku</td></tr><tr><td><a href=\"http://snomed.info/id/399492000\">399492000</a></td><td>Tkáně z plic</td></tr><tr><td><a href=\"http://snomed.info/id/699874006\">699874006</a></td><td>Tkáně z perikardu</td></tr><tr><td><a href=\"http://snomed.info/id/57741000052105\">57741000052105</a></td><td>Tracheální sekret</td></tr><tr><td><a href=\"http://snomed.info/id/472938003\">472938003</a></td><td>Tracheální kanyla jako vzorek</td></tr><tr><td><a href=\"http://snomed.info/id/122877000\">122877000</a></td><td>Aspirát z horních dýchacích cest</td></tr><tr><td><a href=\"http://snomed.info/id/258604001\">258604001</a></td><td>Vzorek z horních dýchacích cest</td></tr><tr><td><a href=\"http://snomed.info/id/122565001\">122565001</a></td><td>Vzorek z močového katétru</td></tr><tr><td><a href=\"http://snomed.info/id/446130001\">446130001</a></td><td>Vzorek moči z močového měchýře</td></tr><tr><td><a href=\"http://snomed.info/id/442173007\">442173007</a></td><td>Vzorek moči z nefrostomie</td></tr><tr><td><a href=\"http://snomed.info/id/446306009\">446306009</a></td><td>Vzorek moči ze sběrného sáčku</td></tr><tr><td><a href=\"http://snomed.info/id/446846006\">446846006</a></td><td>Moč z permanentního katétru</td></tr><tr><td><a href=\"http://snomed.info/id/16221251000119108\">16221251000119108</a></td><td>Moč z jednorázového katétru</td></tr><tr><td><a href=\"http://snomed.info/id/258577004\">258577004</a></td><td>Vaginální sekret</td></tr><tr><td><a href=\"http://snomed.info/id/472932002\">472932002</a></td><td>Vaskulární katétr jako vzorek</td></tr><tr><td><a href=\"http://snomed.info/id/703432000\">703432000</a></td><td>Vzorek žilní plazmy</td></tr><tr><td><a href=\"http://snomed.info/id/472942000\">472942000</a></td><td>Ventrikuloperitoneální shunt jako vzorek</td></tr><tr><td><a href=\"http://snomed.info/id/258438000\">258438000</a></td><td>Vzorek sklivce</td></tr><tr><td><a href=\"http://snomed.info/id/119318008\">119318008</a></td><td>Vzorek vody</td></tr><tr><td><a href=\"http://snomed.info/id/57921000052103\">57921000052103</a></td><td>Plná krev s edetovou kyselinou</td></tr><tr><td><a href=\"http://snomed.info/id/258565009\">258565009</a></td><td>Vzorek choriových klků</td></tr><tr><td><a href=\"http://snomed.info/id/258599007\">258599007</a></td><td>Roztok z kontaktní čočky</td></tr><tr><td><a href=\"http://snomed.info/id/439961009\">439961009</a></td><td>Implantát jako vzorek</td></tr><tr><td><a href=\"http://snomed.info/id/258603007\">258603007</a></td><td>Vzorek z dýchacího systému</td></tr><tr><td><a href=\"http://snomed.info/id/119368000\">119368000</a></td><td>Vzorek z cysty</td></tr><tr><td><a href=\"http://snomed.info/id/433861002\">433861002</a></td><td>FNAB z paranazální dutiny</td></tr><tr><td><a href=\"http://snomed.info/id/734379005\">734379005</a></td><td>Vzorek z periodoncia</td></tr><tr><td><a href=\"http://snomed.info/id/119369008\">119369008</a></td><td>Vzorek z vředu</td></tr><tr><td><a href=\"http://snomed.info/id/430304001\">430304001</a></td><td>Vzorek z neurčené lokalizace</td></tr><tr><td><a href=\"http://snomed.info/id/127479004\">127479004</a></td><td>Vzorek z dělohy</td></tr><tr><td><a href=\"http://snomed.info/id/122550002\">122550002</a></td><td>FNAB vzorek</td></tr><tr><td><a href=\"http://snomed.info/id/258576008\">258576008</a></td><td>Suprapubický aspirát</td></tr><tr><td><a href=\"http://snomed.info/id/445297001\">445297001</a></td><td>Stěr z vnitřní části nosu</td></tr><tr><td><a href=\"http://snomed.info/id/699287008\">699287008</a></td><td>Moč ze suprapubického permanentního katétru</td></tr><tr><td><a href=\"http://snomed.info/id/444946008\">444946008</a></td><td>Dialyzační tekutina před dialýzou</td></tr><tr><td><a href=\"http://snomed.info/id/122592007\">122592007</a></td><td>Sérum nebo plazma</td></tr><tr><td><a href=\"http://snomed.info/id/309141004\">309141004</a></td><td>Vzorek nadledvin</td></tr><tr><td><a href=\"http://snomed.info/id/309479002\">309479002</a></td><td>Vzorek tepny</td></tr><tr><td><a href=\"http://snomed.info/id/122558009\">122558009</a></td><td>Vzorek krve z krevního přípravku</td></tr><tr><td><a href=\"http://snomed.info/id/122559001\">122559001</a></td><td>Kontrolní krevní vzorek</td></tr><tr><td><a href=\"http://snomed.info/id/122562003\">122562003</a></td><td>Krevní vzorek novorozence</td></tr><tr><td><a href=\"http://snomed.info/id/258587000\">258587000</a></td><td>Buffy coat (vrstva leukocytů)</td></tr><tr><td><a href=\"http://snomed.info/id/433116003\">433116003</a></td><td>FNAB z jater</td></tr><tr><td><a href=\"http://snomed.info/id/119346005\">119346005</a></td><td>Vzorek vaječného žloutku</td></tr><tr><td><a href=\"http://snomed.info/id/122582004\">122582004</a></td><td>Vzorek erytrocytů z krevního přípravku</td></tr><tr><td><a href=\"http://snomed.info/id/119333000\">119333000</a></td><td>Vzorek fibroblastů</td></tr><tr><td><a href=\"http://snomed.info/id/119320006\">119320006</a></td><td>Vzorek potraviny</td></tr><tr><td><a href=\"http://snomed.info/id/122576002\">122576002</a></td><td>Genitální hlen</td></tr><tr><td><a href=\"http://snomed.info/id/119337004\">119337004</a></td><td>Vzorek vdechovaného plynu</td></tr><tr><td><a href=\"http://snomed.info/id/258606004\">258606004</a></td><td>Vzorek z dolních dýchacích cest</td></tr><tr><td><a href=\"http://snomed.info/id/119316007\">119316007</a></td><td>Nebuněčná (nebiologická) tekutina</td></tr><tr><td><a href=\"http://snomed.info/id/122551003\">122551003</a></td><td>Vzorek periferní krve</td></tr><tr><td><a href=\"http://snomed.info/id/119301009\">119301009</a></td><td>Vzorek rostliny</td></tr><tr><td><a href=\"http://snomed.info/id/119362004\">119362004</a></td><td>Plazma chudá na trombocyty</td></tr><tr><td><a href=\"http://snomed.info/id/119363009\">119363009</a></td><td>Plazma bohatá na trombocyty</td></tr><tr><td><a href=\"http://snomed.info/id/119358005\">119358005</a></td><td>Vzorek trombocytů</td></tr><tr><td><a href=\"http://snomed.info/id/725946000\">725946000</a></td><td>Vzorek retikulocytů</td></tr><tr><td><a href=\"http://snomed.info/id/309508006\">309508006</a></td><td>FNAB z léze měkkých tkání</td></tr><tr><td><a href=\"http://snomed.info/id/119391001\">119391001</a></td><td>Vzorek z bronchu</td></tr><tr><td><a href=\"http://snomed.info/id/119367005\">119367005</a></td><td>Vzorek z popáleniny</td></tr><tr><td><a href=\"http://snomed.info/id/702701006\">702701006</a></td><td>Vzorek z čípku nebo pochvy</td></tr><tr><td><a href=\"http://snomed.info/id/119400006\">119400006</a></td><td>Vzorek z rohovky</td></tr><tr><td><a href=\"http://snomed.info/id/1003708009\">1003708009</a></td><td>Vzorek z drénu</td></tr><tr><td><a href=\"http://snomed.info/id/127462005\">127462005</a></td><td>Vzorek ze srdce</td></tr><tr><td><a href=\"http://snomed.info/id/127458004\">127458004</a></td><td>Vzorek z plic</td></tr><tr><td><a href=\"http://snomed.info/id/122614000\">122614000</a></td><td>FNAB z plic</td></tr><tr><td><a href=\"http://snomed.info/id/432382007\">432382007</a></td><td>FNAB z lymfatické uzliny</td></tr><tr><td><a href=\"http://snomed.info/id/128155007\">128155007</a></td><td>Vzorek z ovaria</td></tr><tr><td><a href=\"http://snomed.info/id/431406009\">431406009</a></td><td>FNAB z pankreatu</td></tr><tr><td><a href=\"http://snomed.info/id/441695007\">441695007</a></td><td>FNAB z příušní žlázy</td></tr><tr><td><a href=\"http://snomed.info/id/430250001\">430250001</a></td><td>Vzorek z peritonea</td></tr><tr><td><a href=\"http://snomed.info/id/127459007\">127459007</a></td><td>Vzorek z pleury</td></tr><tr><td><a href=\"http://snomed.info/id/119386002\">119386002</a></td><td>Vzorek z prostaty</td></tr><tr><td><a href=\"http://snomed.info/id/384819001\">384819001</a></td><td>Jehlová biopsie prostaty</td></tr><tr><td><a href=\"http://snomed.info/id/434406008\">434406008</a></td><td>FNAB ze slinné žlázy</td></tr><tr><td><a href=\"http://snomed.info/id/441810001\">441810001</a></td><td>FNAB z měkké tkáně</td></tr><tr><td><a href=\"http://snomed.info/id/441749007\">441749007</a></td><td>FNAB z podčelistní žlázy</td></tr><tr><td><a href=\"http://snomed.info/id/128154006\">128154006</a></td><td>Vzorek z varlete</td></tr><tr><td><a href=\"http://snomed.info/id/119389009\">119389009</a></td><td>Vzorek z hrdla</td></tr><tr><td><a href=\"http://snomed.info/id/399680007\">399680007</a></td><td>Vzorek ze štítné žlázy</td></tr><tr><td><a href=\"http://snomed.info/id/119390000\">119390000</a></td><td>Vzorek z trachey</td></tr><tr><td><a href=\"http://snomed.info/id/399411006\">399411006</a></td><td>Vzorek z trofoblastu</td></tr><tr><td><a href=\"http://snomed.info/id/119393003\">119393003</a></td><td>Vzorek z uretry</td></tr><tr><td><a href=\"http://snomed.info/id/450872001\">450872001</a></td><td>Vzorek z močového měchýře</td></tr><tr><td><a href=\"http://snomed.info/id/119395005\">119395005</a></td><td>Vzorek z děložního čípku</td></tr><tr><td><a href=\"http://snomed.info/id/119394009\">119394009</a></td><td>Vzorek z pochvy</td></tr><tr><td><a href=\"http://snomed.info/id/119365002\">119365002</a></td><td>Vzorek z rány</td></tr><tr><td><a href=\"http://snomed.info/id/309146009\">309146009</a></td><td>FNAB štítné žlázy</td></tr><tr><td><a href=\"http://snomed.info/id/122638001\">122638001</a></td><td>Tkáně z tenkého střeva</td></tr><tr><td><a href=\"http://snomed.info/id/258444001\">258444001</a></td><td>Vzorek komorové vody</td></tr><tr><td><a href=\"http://snomed.info/id/258485006\">258485006</a></td><td>Seškrab z rohovky</td></tr><tr><td><a href=\"http://snomed.info/id/168137004\">168137004</a></td><td>Gastrický aspirát</td></tr><tr><td><a href=\"http://snomed.info/id/1259931002\">1259931002</a></td><td>Vzorek vousů</td></tr><tr><td><a href=\"http://snomed.info/id/168145009\">168145009</a></td><td>Vzorek lymfy</td></tr><tr><td><a href=\"http://snomed.info/id/309507001\">309507001</a></td><td>Biopsie svalu</td></tr><tr><td><a href=\"http://snomed.info/id/16224171000119108\">16224171000119108</a></td><td>Nasotracheální aspirát</td></tr><tr><td><a href=\"http://snomed.info/id/309068002\">309068002</a></td><td>Vzorek kožní léze</td></tr><tr><td><a href=\"http://snomed.info/id/396997002\">396997002</a></td><td>Aspirát z kostní dřeně</td></tr><tr><td><a href=\"http://snomed.info/id/16215771000119101\">16215771000119101</a></td><td>FNAB z tříselné uzliny</td></tr><tr><td><a href=\"http://snomed.info/id/430236006\">430236006</a></td><td>Vzorek z nervu</td></tr><tr><td><a href=\"http://snomed.info/id/472898004\">472898004</a></td><td>Stěr z ruky</td></tr><tr><td><a href=\"http://snomed.info/id/472868006\">472868006</a></td><td>Stěr z peritoneální dutiny</td></tr><tr><td><a href=\"http://snomed.info/id/444787003\">444787003</a></td><td>Stěr z endocervixu</td></tr><tr><td><a href=\"http://snomed.info/id/16223971000119109\">16223971000119109</a></td><td>FNAB synoviální tekutiny</td></tr><tr><td><a href=\"http://snomed.info/id/122656001\">122656001</a></td><td>Tkáně ze žlučníku</td></tr><tr><td><a href=\"http://snomed.info/id/122736005\">122736005</a></td><td>Tkáně z placenty</td></tr><tr><td><a href=\"http://snomed.info/id/369611008\">369611008</a></td><td>Biopsie tenkého střeva</td></tr><tr><td><a href=\"http://snomed.info/id/309191000\">309191000</a></td><td>Biopsie tonsily</td></tr><tr><td><a href=\"http://snomed.info/id/697989009\">697989009</a></td><td>Stěr z přední části nosu</td></tr><tr><td><a href=\"http://snomed.info/id/57931000052101\">57931000052101</a></td><td>Kombinovaný vzorek cervikálního hlenu a moči</td></tr><tr><td><a href=\"http://snomed.info/id/433324003\">433324003</a></td><td>Vzorek z oční krajiny</td></tr><tr><td><a href=\"http://snomed.info/id/16216171000119108\">16216171000119108</a></td><td>Aspirát z jater</td></tr><tr><td><a href=\"http://snomed.info/id/16221491000119104\">16221491000119104</a></td><td>Samovolně vyloučená moč</td></tr></table></li></ul></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [
+     fhir:v "https://ncez.mzcr.cz/terminology/ValueSet/lab-specimenType"^^xsd:anyURI ;
+     fhir:l <https://ncez.mzcr.cz/terminology/ValueSet/lab-specimenType>
+  ] ; # 
+  fhir:version [ fhir:v "0.2.0"] ; # 
+  fhir:name [ fhir:v "LabSpecimentype"] ; # 
+  fhir:title [ fhir:v "Materiál vzorků"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2025-12-23T18:27:27+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 Czech Republic"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HL7 Czech Republic" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://www.hl7.cz/" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Materiál laboratorního vzorku/vzorku pro obrazová vyšetření. Číselník využívá terminologii SNOMED CT."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
+         fhir:l <urn:iso:std:iso:3166>
+       ] ;
+       fhir:code [ fhir:v "CZ" ] ;
+       fhir:display [ fhir:v "Czechia" ]
+     ] )
+  ] ) ; # 
+  fhir:copyright [ fhir:v "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+         fhir:l <http://snomed.info/sct>
+       ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "258497007" ] ;
+         fhir:display [ fhir:v "Stěr z abscesu" ]
+       ] [
+         fhir:code [ fhir:v "258407001" ] ;
+         fhir:display [ fhir:v "Tkáně z abscesu" ]
+       ] [
+         fhir:code [ fhir:v "119373006" ] ;
+         fhir:display [ fhir:v "Vzorek plodové vody" ]
+       ] [
+         fhir:code [ fhir:v "122552005" ] ;
+         fhir:display [ fhir:v "Vzorek arteriální krve" ]
+       ] [
+         fhir:code [ fhir:v "309201001" ] ;
+         fhir:display [ fhir:v "Vzorek ascitické tekutiny" ]
+       ] [
+         fhir:code [ fhir:v "119341000" ] ;
+         fhir:display [ fhir:v "Vzorek žluči" ]
+       ] [
+         fhir:code [ fhir:v "258493006" ] ;
+         fhir:display [ fhir:v "Vzorek močového kamene" ]
+       ] [
+         fhir:code [ fhir:v "258582006" ] ;
+         fhir:display [ fhir:v "Vzorek krevní sraženiny" ]
+       ] [
+         fhir:code [ fhir:v "119297000" ] ;
+         fhir:display [ fhir:v "Vzorek krve" ]
+       ] [
+         fhir:code [ fhir:v "309051001" ] ;
+         fhir:display [ fhir:v "Vzorek tělesné tekutiny" ]
+       ] [
+         fhir:code [ fhir:v "432825001" ] ;
+         fhir:display [ fhir:v "Vzorek tělesného sekretu" ]
+       ] [
+         fhir:code [ fhir:v "258583001" ] ;
+         fhir:display [ fhir:v "Vzorek sraženiny kostní dřeně" ]
+       ] [
+         fhir:code [ fhir:v "119359002" ] ;
+         fhir:display [ fhir:v "Vzorek kostní dřeně" ]
+       ] [
+         fhir:code [ fhir:v "258417006" ] ;
+         fhir:display [ fhir:v "Vzorek kostní tkáně" ]
+       ] [
+         fhir:code [ fhir:v "309176002" ] ;
+         fhir:display [ fhir:v "Kartáčkový odběr z bronchů" ]
+       ] [
+         fhir:code [ fhir:v "258446004" ] ;
+         fhir:display [ fhir:v "Vzorek bronchální tekutiny" ]
+       ] [
+         fhir:code [ fhir:v "258564008" ] ;
+         fhir:display [ fhir:v "Stěr z bukální sliznice" ]
+       ] [
+         fhir:code [ fhir:v "258418001" ] ;
+         fhir:display [ fhir:v "Tkáně z popáleniny" ]
+       ] [
+         fhir:code [ fhir:v "258448003" ] ;
+         fhir:display [ fhir:v "Vzorek tekutiny z burzy" ]
+       ] [
+         fhir:code [ fhir:v "309110000" ] ;
+         fhir:display [ fhir:v "Vzorek tkáně burzy" ]
+       ] [
+         fhir:code [ fhir:v "119350003" ] ;
+         fhir:display [ fhir:v "Vzorek konkrementu" ]
+       ] [
+         fhir:code [ fhir:v "258627009" ] ;
+         fhir:display [ fhir:v "Špička kanyly jako vzorek" ]
+       ] [
+         fhir:code [ fhir:v "122554006" ] ;
+         fhir:display [ fhir:v "Kapilární krevní vzorek" ]
+       ] [
+         fhir:code [ fhir:v "309101008" ] ;
+         fhir:display [ fhir:v "Vzorek chrupavky" ]
+       ] [
+         fhir:code [ fhir:v "119312009" ] ;
+         fhir:display [ fhir:v "Špička katétru jako vzorek" ]
+       ] [
+         fhir:code [ fhir:v "258450006" ] ;
+         fhir:display [ fhir:v "Vzorek mozkomíšního moku" ]
+       ] [
+         fhir:code [ fhir:v "122580007" ] ;
+         fhir:display [ fhir:v "Vzorek ušního mazu" ]
+       ] [
+         fhir:code [ fhir:v "258452003" ] ;
+         fhir:display [ fhir:v "Vzorek chylózní tekutiny" ]
+       ] [
+         fhir:code [ fhir:v "258581004" ] ;
+         fhir:display [ fhir:v "Vzorek sražené krve" ]
+       ] [
+         fhir:code [ fhir:v "168136008" ] ;
+         fhir:display [ fhir:v "Vzorek tekutiny z kolostomie" ]
+       ] [
+         fhir:code [ fhir:v "119329007" ] ;
+         fhir:display [ fhir:v "Vzorek mleziva" ]
+       ] [
+         fhir:code [ fhir:v "258498002" ] ;
+         fhir:display [ fhir:v "Stěr ze spojivky" ]
+       ] [
+         fhir:code [ fhir:v "122556008" ] ;
+         fhir:display [ fhir:v "Vzorek pupečníkové krve" ]
+       ] [
+         fhir:code [ fhir:v "258499005" ] ;
+         fhir:display [ fhir:v "Stěr po kašli" ]
+       ] [
+         fhir:code [ fhir:v "258419009" ] ;
+         fhir:display [ fhir:v "Kyretážní materiál" ]
+       ] [
+         fhir:code [ fhir:v "258453008" ] ;
+         fhir:display [ fhir:v "Vzorek tekutiny z cysty" ]
+       ] [
+         fhir:code [ fhir:v "258420003" ] ;
+         fhir:display [ fhir:v "Tkáně z cysty" ]
+       ] [
+         fhir:code [ fhir:v "119338009" ] ;
+         fhir:display [ fhir:v "Vzorek dentinu" ]
+       ] [
+         fhir:code [ fhir:v "472919007" ] ;
+         fhir:display [ fhir:v "Zdravotnická pomůcka jako vzorek" ]
+       ] [
+         fhir:code [ fhir:v "258454002" ] ;
+         fhir:display [ fhir:v "Vzorek dialyzátu" ]
+       ] [
+         fhir:code [ fhir:v "258439008" ] ;
+         fhir:display [ fhir:v "Vzorek sekretu" ]
+       ] [
+         fhir:code [ fhir:v "258566005" ] ;
+         fhir:display [ fhir:v "Vzorek DNA" ]
+       ] [
+         fhir:code [ fhir:v "1003705007" ] ;
+         fhir:display [ fhir:v "Špička drénu jako vzorek" ]
+       ] [
+         fhir:code [ fhir:v "258455001" ] ;
+         fhir:display [ fhir:v "Vzorek drenážní tekutiny" ]
+       ] [
+         fhir:code [ fhir:v "119294007" ] ;
+         fhir:display [ fhir:v "Vzorek zaschlé krve" ]
+       ] [
+         fhir:code [ fhir:v "258440005" ] ;
+         fhir:display [ fhir:v "Vzorek výpotku" ]
+       ] [
+         fhir:code [ fhir:v "258456000" ] ;
+         fhir:display [ fhir:v "Vzorek tekutiny z empyému" ]
+       ] [
+         fhir:code [ fhir:v "119336008" ] ;
+         fhir:display [ fhir:v "Vzorek vydechovaného vzduchu" ]
+       ] [
+         fhir:code [ fhir:v "258470000" ] ;
+         fhir:display [ fhir:v "Vzorek prostatického sekretu" ]
+       ] [
+         fhir:code [ fhir:v "258441009" ] ;
+         fhir:display [ fhir:v "Vzorek exsudátu" ]
+       ] [
+         fhir:code [ fhir:v "309128003" ] ;
+         fhir:display [ fhir:v "Vzorek nitrooční tekutiny" ]
+       ] [
+         fhir:code [ fhir:v "258487003" ] ;
+         fhir:display [ fhir:v "Stěr stolice" ]
+       ] [
+         fhir:code [ fhir:v "119339001" ] ;
+         fhir:display [ fhir:v "Vzorek stolice" ]
+       ] [
+         fhir:code [ fhir:v "309117002" ] ;
+         fhir:display [ fhir:v "Vzorek fascie" ]
+       ] [
+         fhir:code [ fhir:v "258458004" ] ;
+         fhir:display [ fhir:v "Vzorek tekutiny z píštěle" ]
+       ] [
+         fhir:code [ fhir:v "258442002" ] ;
+         fhir:display [ fhir:v "Vzorek tekutiny" ]
+       ] [
+         fhir:code [ fhir:v "445744006" ] ;
+         fhir:display [ fhir:v "Vzorek tekutiny ze seromu" ]
+       ] [
+         fhir:code [ fhir:v "309502007" ] ;
+         fhir:display [ fhir:v "Vzorek z plodu" ]
+       ] [
+         fhir:code [ fhir:v "447103002" ] ;
+         fhir:display [ fhir:v "Cizí těleso jako vzorek" ]
+       ] [
+         fhir:code [ fhir:v "258492001" ] ;
+         fhir:display [ fhir:v "Vzorek žlučového kamene" ]
+       ] [
+         fhir:code [ fhir:v "432657002" ] ;
+         fhir:display [ fhir:v "Vzorek gangliové cysty" ]
+       ] [
+         fhir:code [ fhir:v "309213006" ] ;
+         fhir:display [ fhir:v "Kartáčkový odběr ze žaludku" ]
+       ] [
+         fhir:code [ fhir:v "309199003" ] ;
+         fhir:display [ fhir:v "Vzorek gastrointestinální tekutiny" ]
+       ] [
+         fhir:code [ fhir:v "258562007" ] ;
+         fhir:display [ fhir:v "Genetický vzorek" ]
+       ] [
+         fhir:code [ fhir:v "258508008" ] ;
+         fhir:display [ fhir:v "Genitální stěr" ]
+       ] [
+         fhir:code [ fhir:v "258559009" ] ;
+         fhir:display [ fhir:v "Vzorek tekutiny z gingivální rýhy" ]
+       ] [
+         fhir:code [ fhir:v "440493002" ] ;
+         fhir:display [ fhir:v "Štěp od pacienta jako vzorek" ]
+       ] [
+         fhir:code [ fhir:v "258588005" ] ;
+         fhir:display [ fhir:v "Vzorek hematomu" ]
+       ] [
+         fhir:code [ fhir:v "119326000" ] ;
+         fhir:display [ fhir:v "Vzorek vlasů" ]
+       ] [
+         fhir:code [ fhir:v "258424007" ] ;
+         fhir:display [ fhir:v "Tkáně srdeční chlopně" ]
+       ] [
+         fhir:code [ fhir:v "258521001" ] ;
+         fhir:display [ fhir:v "Stěr z horní části pochvy" ]
+       ] [
+         fhir:code [ fhir:v "258461003" ] ;
+         fhir:display [ fhir:v "Vzorek tekutiny z hydrokély" ]
+       ] [
+         fhir:code [ fhir:v "258462005" ] ;
+         fhir:display [ fhir:v "Vzorek tekutiny z ileostomie" ]
+       ] [
+         fhir:code [ fhir:v "258479004" ] ;
+         fhir:display [ fhir:v "Vzorek intersticiální tekutiny" ]
+       ] [
+         fhir:code [ fhir:v "309114009" ] ;
+         fhir:display [ fhir:v "Vzorek vazu" ]
+       ] [
+         fhir:code [ fhir:v "258522008" ] ;
+         fhir:display [ fhir:v "Stěr z dolní části pochvy" ]
+       ] [
+         fhir:code [ fhir:v "309171007" ] ;
+         fhir:display [ fhir:v "Vzorek tekutiny z dolních dýchacích cest" ]
+       ] [
+         fhir:code [ fhir:v "302795002" ] ;
+         fhir:display [ fhir:v "Aspirát z lymfatické uzliny" ]
+       ] [
+         fhir:code [ fhir:v "258488008" ] ;
+         fhir:display [ fhir:v "Nátěr z lymfatické uzliny" ]
+       ] [
+         fhir:code [ fhir:v "309078004" ] ;
+         fhir:display [ fhir:v "Vzorek tkáně lymfatické uzliny" ]
+       ] [
+         fhir:code [ fhir:v "119340004" ] ;
+         fhir:display [ fhir:v "Vzorek smolky" ]
+       ] [
+         fhir:code [ fhir:v "119345009" ] ;
+         fhir:display [ fhir:v "Vzorek menstruační krve" ]
+       ] [
+         fhir:code [ fhir:v "119303007" ] ;
+         fhir:display [ fhir:v "Mikrobiální izolát" ]
+       ] [
+         fhir:code [ fhir:v "119328004" ] ;
+         fhir:display [ fhir:v "Vzorek mateřského mléka" ]
+       ] [
+         fhir:code [ fhir:v "258483004" ] ;
+         fhir:display [ fhir:v "Vzorek hlenu" ]
+       ] [
+         fhir:code [ fhir:v "119327009" ] ;
+         fhir:display [ fhir:v "Vzorek nehtu" ]
+       ] [
+         fhir:code [ fhir:v "168141000" ] ;
+         fhir:display [ fhir:v "Vzorek nosní tekutiny" ]
+       ] [
+         fhir:code [ fhir:v "258467004" ] ;
+         fhir:display [ fhir:v "Výplach nosohltanu" ]
+       ] [
+         fhir:code [ fhir:v "433799002" ] ;
+         fhir:display [ fhir:v "Vzorek nervového ganglia" ]
+       ] [
+         fhir:code [ fhir:v "309129006" ] ;
+         fhir:display [ fhir:v "Vzorek nervové tkáně" ]
+       ] [
+         fhir:code [ fhir:v "309131002" ] ;
+         fhir:display [ fhir:v "Vzorek neuromu" ]
+       ] [
+         fhir:code [ fhir:v "258468009" ] ;
+         fhir:display [ fhir:v "Vzorek edémové tekutiny" ]
+       ] [
+         fhir:code [ fhir:v "309210009" ] ;
+         fhir:display [ fhir:v "Kartáčkový odběr z jícnu" ]
+       ] [
+         fhir:code [ fhir:v "258494000" ] ;
+         fhir:display [ fhir:v "Vzorek pankreatického kamene" ]
+       ] [
+         fhir:code [ fhir:v "122571007" ] ;
+         fhir:display [ fhir:v "Vzorek perikardiální tekutiny" ]
+       ] [
+         fhir:code [ fhir:v "168139001" ] ;
+         fhir:display [ fhir:v "Vzorek peritoneální tekutiny" ]
+       ] [
+         fhir:code [ fhir:v "258469001" ] ;
+         fhir:display [ fhir:v "Výplach hltanu" ]
+       ] [
+         fhir:code [ fhir:v "119361006" ] ;
+         fhir:display [ fhir:v "Vzorek plazmy" ]
+       ] [
+         fhir:code [ fhir:v "110913002" ] ;
+         fhir:display [ fhir:v "Cytologický materiál z pleurální tekutiny" ]
+       ] [
+         fhir:code [ fhir:v "418564007" ] ;
+         fhir:display [ fhir:v "Vzorek pleurální tekutiny" ]
+       ] [
+         fhir:code [ fhir:v "258484005" ] ;
+         fhir:display [ fhir:v "Posmrtný tkáňový vzorek" ]
+       ] [
+         fhir:code [ fhir:v "258428005" ] ;
+         fhir:display [ fhir:v "Tkáně produktů početí" ]
+       ] [
+         fhir:code [ fhir:v "119323008" ] ;
+         fhir:display [ fhir:v "Vzorek hnisu" ]
+       ] [
+         fhir:code [ fhir:v "258502009" ] ;
+         fhir:display [ fhir:v "Stěr z hnisu" ]
+       ] [
+         fhir:code [ fhir:v "119351004" ] ;
+         fhir:display [ fhir:v "Vzorek erytrocytů" ]
+       ] [
+         fhir:code [ fhir:v "258495004" ] ;
+         fhir:display [ fhir:v "Vzorek ledvinového kamene" ]
+       ] [
+         fhir:code [ fhir:v "119342007" ] ;
+         fhir:display [ fhir:v "Vzorek slin" ]
+       ] [
+         fhir:code [ fhir:v "258431006" ] ;
+         fhir:display [ fhir:v "Seškrab" ]
+       ] [
+         fhir:code [ fhir:v "258432004" ] ;
+         fhir:display [ fhir:v "Vzorek kožního mazu" ]
+       ] [
+         fhir:code [ fhir:v "119347001" ] ;
+         fhir:display [ fhir:v "Vzorek semenné tekutiny" ]
+       ] [
+         fhir:code [ fhir:v "119364003" ] ;
+         fhir:display [ fhir:v "Vzorek séra" ]
+       ] [
+         fhir:code [ fhir:v "309261004" ] ;
+         fhir:display [ fhir:v "Kartáčkový odběr ze sigmatu" ]
+       ] [
+         fhir:code [ fhir:v "258475005" ] ;
+         fhir:display [ fhir:v "Výplach z paranazálních dutin" ]
+       ] [
+         fhir:code [ fhir:v "119331003" ] ;
+         fhir:display [ fhir:v "Vzorek kosterního svalu" ]
+       ] [
+         fhir:code [ fhir:v "119325001" ] ;
+         fhir:display [ fhir:v "Vzorek kožní tkáně" ]
+       ] [
+         fhir:code [ fhir:v "258505006" ] ;
+         fhir:display [ fhir:v "Stěr z kožního vředu" ]
+       ] [
+         fhir:code [ fhir:v "258433009" ] ;
+         fhir:display [ fhir:v "Nátěrový vzorek" ]
+       ] [
+         fhir:code [ fhir:v "309072003" ] ;
+         fhir:display [ fhir:v "Vzorek měkké tkáně" ]
+       ] [
+         fhir:code [ fhir:v "119300005" ] ;
+         fhir:display [ fhir:v "Vzorek z krevního přípravku" ]
+       ] [
+         fhir:code [ fhir:v "898201001" ] ;
+         fhir:display [ fhir:v "Vzorek ze zdravotnického prostředku" ]
+       ] [
+         fhir:code [ fhir:v "1003706008" ] ;
+         fhir:display [ fhir:v "Vzorek ze špičky drénu" ]
+       ] [
+         fhir:code [ fhir:v "119305000" ] ;
+         fhir:display [ fhir:v "Vzorek z vaku s plazmou" ]
+       ] [
+         fhir:code [ fhir:v "119349003" ] ;
+         fhir:display [ fhir:v "Vzorek spermií" ]
+       ] [
+         fhir:code [ fhir:v "258434003" ] ;
+         fhir:display [ fhir:v "Vycentrovaný močový sediment" ]
+       ] [
+         fhir:code [ fhir:v "119334006" ] ;
+         fhir:display [ fhir:v "Vzorek sputa" ]
+       ] [
+         fhir:code [ fhir:v "257261003" ] ;
+         fhir:display [ fhir:v "Stěr" ]
+       ] [
+         fhir:code [ fhir:v "445160003" ] ;
+         fhir:display [ fhir:v "Stěr z oka" ]
+       ] [
+         fhir:code [ fhir:v "122569007" ] ;
+         fhir:display [ fhir:v "Vzorek potu" ]
+       ] [
+         fhir:code [ fhir:v "119332005" ] ;
+         fhir:display [ fhir:v "Vzorek synoviální tekutiny" ]
+       ] [
+         fhir:code [ fhir:v "309123007" ] ;
+         fhir:display [ fhir:v "Vzorek synovie" ]
+       ] [
+         fhir:code [ fhir:v "309121009" ] ;
+         fhir:display [ fhir:v "Vzorek synoviální tkáně" ]
+       ] [
+         fhir:code [ fhir:v "440468004" ] ;
+         fhir:display [ fhir:v "Tampon jako vzorek" ]
+       ] [
+         fhir:code [ fhir:v "258465007" ] ;
+         fhir:display [ fhir:v "Vzorek slzné tekutiny" ]
+       ] [
+         fhir:code [ fhir:v "122594008" ] ;
+         fhir:display [ fhir:v "Vzorek slz" ]
+       ] [
+         fhir:code [ fhir:v "309481000" ] ;
+         fhir:display [ fhir:v "Vzorek temporální arterie" ]
+       ] [
+         fhir:code [ fhir:v "309107007" ] ;
+         fhir:display [ fhir:v "Vzorek šlachy" ]
+       ] [
+         fhir:code [ fhir:v "258529004" ] ;
+         fhir:display [ fhir:v "Stěr z krku" ]
+       ] [
+         fhir:code [ fhir:v "119376003" ] ;
+         fhir:display [ fhir:v "Tkáňový vzorek" ]
+       ] [
+         fhir:code [ fhir:v "258538002" ] ;
+         fhir:display [ fhir:v "Vzorek transudátu" ]
+       ] [
+         fhir:code [ fhir:v "258435002" ] ;
+         fhir:display [ fhir:v "Vzorek nádorové tkáně" ]
+       ] [
+         fhir:code [ fhir:v "441479001" ] ;
+         fhir:display [ fhir:v "Vzorek čerstvé tkáně" ]
+       ] [
+         fhir:code [ fhir:v "439628000" ] ;
+         fhir:display [ fhir:v "Močový sběrný sáček jako vzorek" ]
+       ] [
+         fhir:code [ fhir:v "439580004" ] ;
+         fhir:display [ fhir:v "Močová savá podložka jako vzorek" ]
+       ] [
+         fhir:code [ fhir:v "122567009" ] ;
+         fhir:display [ fhir:v "Vzorek močového sedimentu" ]
+       ] [
+         fhir:code [ fhir:v "122575003" ] ;
+         fhir:display [ fhir:v "Vzorek moči" ]
+       ] [
+         fhir:code [ fhir:v "258437005" ] ;
+         fhir:display [ fhir:v "Vegetace ze srdeční chlopně" ]
+       ] [
+         fhir:code [ fhir:v "122555007" ] ;
+         fhir:display [ fhir:v "Vzorek žilní krve" ]
+       ] [
+         fhir:code [ fhir:v "122572000" ] ;
+         fhir:display [ fhir:v "Vzorek zvratků" ]
+       ] [
+         fhir:code [ fhir:v "258591005" ] ;
+         fhir:display [ fhir:v "Vzorek leukocytů" ]
+       ] [
+         fhir:code [ fhir:v "258580003" ] ;
+         fhir:display [ fhir:v "Vzorek plné krve" ]
+       ] [
+         fhir:code [ fhir:v "438805006" ] ;
+         fhir:display [ fhir:v "Vzorek celého zubu" ]
+       ] [
+         fhir:code [ fhir:v "122566000" ] ;
+         fhir:display [ fhir:v "Vzorek tekutiny z rány" ]
+       ] [
+         fhir:code [ fhir:v "258531008" ] ;
+         fhir:display [ fhir:v "Stěr z rány" ]
+       ] [
+         fhir:code [ fhir:v "446302006" ] ;
+         fhir:display [ fhir:v "Vzorek vzduchu" ]
+       ] [
+         fhir:code [ fhir:v "33631000087102" ] ;
+         fhir:display [ fhir:v "Alogenní kostní štěp jako vzorek" ]
+       ] [
+         fhir:code [ fhir:v "703430008" ] ;
+         fhir:display [ fhir:v "Vzorek arteriální pupečníkové krve" ]
+       ] [
+         fhir:code [ fhir:v "16215211000119100" ] ;
+         fhir:display [ fhir:v "Vzorek tekutiny z Bartholiniho žlázy" ]
+       ] [
+         fhir:code [ fhir:v "446129006" ] ;
+         fhir:display [ fhir:v "Vzorek žluči ze společného žlučovodu" ]
+       ] [
+         fhir:code [ fhir:v "446817004" ] ;
+         fhir:display [ fhir:v "Vzorek žluči ze žlučníku" ]
+       ] [
+         fhir:code [ fhir:v "258490009" ] ;
+         fhir:display [ fhir:v "Vzorek biliárního kamene" ]
+       ] [
+         fhir:code [ fhir:v "309105004" ] ;
+         fhir:display [ fhir:v "Bioptický vzorek kosti" ]
+       ] [
+         fhir:code [ fhir:v "258607008" ] ;
+         fhir:display [ fhir:v "Vzorek bronchoalveolární laváže" ]
+       ] [
+         fhir:code [ fhir:v "122577006" ] ;
+         fhir:display [ fhir:v "Vzorek cervikálního hlenu" ]
+       ] [
+         fhir:code [ fhir:v "16216411000119106" ] ;
+         fhir:display [ fhir:v "Nátěr ze spojivky" ]
+       ] [
+         fhir:code [ fhir:v "1003707004" ] ;
+         fhir:display [ fhir:v "Drén jako vzorek" ]
+       ] [
+         fhir:code [ fhir:v "309216003" ] ;
+         fhir:display [ fhir:v "Bioptický vzorek duodena" ]
+       ] [
+         fhir:code [ fhir:v "122574004" ] ;
+         fhir:display [ fhir:v "Vzorek duodenální tekutiny" ]
+       ] [
+         fhir:code [ fhir:v "309166000" ] ;
+         fhir:display [ fhir:v "Stěr z ucha" ]
+       ] [
+         fhir:code [ fhir:v "119314005" ] ;
+         fhir:display [ fhir:v "Elektroda jako vzorek" ]
+       ] [
+         fhir:code [ fhir:v "419695002" ] ;
+         fhir:display [ fhir:v "Stěr z prostředí" ]
+       ] [
+         fhir:code [ fhir:v "309211008" ] ;
+         fhir:display [ fhir:v "Bioptický vzorek žaludku" ]
+       ] [
+         fhir:code [ fhir:v "122573005" ] ;
+         fhir:display [ fhir:v "Vzorek žaludečního obsahu" ]
+       ] [
+         fhir:code [ fhir:v "258459007" ] ;
+         fhir:display [ fhir:v "Vzorek žaludeční tekutiny" ]
+       ] [
+         fhir:code [ fhir:v "122579009" ] ;
+         fhir:display [ fhir:v "Vzorek lochií" ]
+       ] [
+         fhir:code [ fhir:v "258512002" ] ;
+         fhir:display [ fhir:v "Stěr z glans penis" ]
+       ] [
+         fhir:code [ fhir:v "473415003" ] ;
+         fhir:display [ fhir:v "Nitroděložní tělísko jako vzorek" ]
+       ] [
+         fhir:code [ fhir:v "258649003" ] ;
+         fhir:display [ fhir:v "Vzorek infuzní tekutiny" ]
+       ] [
+         fhir:code [ fhir:v "309049000" ] ;
+         fhir:display [ fhir:v "Vzorek z léze" ]
+       ] [
+         fhir:code [ fhir:v "309203003" ] ;
+         fhir:display [ fhir:v "Bioptický vzorek jater" ]
+       ] [
+         fhir:code [ fhir:v "258589002" ] ;
+         fhir:display [ fhir:v "Vzorek lymfatické uzliny" ]
+       ] [
+         fhir:code [ fhir:v "258466008" ] ;
+         fhir:display [ fhir:v "Vzorek tekutiny ze středního ucha" ]
+       ] [
+         fhir:code [ fhir:v "119298005" ] ;
+         fhir:display [ fhir:v "Vzorek smíšené žilní krve" ]
+       ] [
+         fhir:code [ fhir:v "705054005" ] ;
+         fhir:display [ fhir:v "Vzorek svalu" ]
+       ] [
+         fhir:code [ fhir:v "309104000" ] ;
+         fhir:display [ fhir:v "Vzorek pohybového aparátu" ]
+       ] [
+         fhir:code [ fhir:v "447339001" ] ;
+         fhir:display [ fhir:v "Nátěr z nosu" ]
+       ] [
+         fhir:code [ fhir:v "258500001" ] ;
+         fhir:display [ fhir:v "Stěr z nosohltanu" ]
+       ] [
+         fhir:code [ fhir:v "16220931000119104" ] ;
+         fhir:display [ fhir:v "Vzorek tekutiny z cysty pankreatu" ]
+       ] [
+         fhir:code [ fhir:v "119343002" ] ;
+         fhir:display [ fhir:v "Vzorek pankreatické tekutiny" ]
+       ] [
+         fhir:code [ fhir:v "309154006" ] ;
+         fhir:display [ fhir:v "Vzorek hypofýzy" ]
+       ] [
+         fhir:code [ fhir:v "708317005" ] ;
+         fhir:display [ fhir:v "Smíšený vzorek z introitu a rektálního stěru" ]
+       ] [
+         fhir:code [ fhir:v "258513007" ] ;
+         fhir:display [ fhir:v "Stěr z předkožky" ]
+       ] [
+         fhir:code [ fhir:v "258528007" ] ;
+         fhir:display [ fhir:v "Rektální stěr" ]
+       ] [
+         fhir:code [ fhir:v "410580001" ] ;
+         fhir:display [ fhir:v "Vzorek respirační tekutiny" ]
+       ] [
+         fhir:code [ fhir:v "732293002" ] ;
+         fhir:display [ fhir:v "Vzorek slinného kamene" ]
+       ] [
+         fhir:code [ fhir:v "309066003" ] ;
+         fhir:display [ fhir:v "Bioptický vzorek kůže" ]
+       ] [
+         fhir:code [ fhir:v "430268003" ] ;
+         fhir:display [ fhir:v "Vzorek z kosti" ]
+       ] [
+         fhir:code [ fhir:v "119398007" ] ;
+         fhir:display [ fhir:v "Vzorek z mozku" ]
+       ] [
+         fhir:code [ fhir:v "122601001" ] ;
+         fhir:display [ fhir:v "Bioptický vzorek z prsu" ]
+       ] [
+         fhir:code [ fhir:v "119307008" ] ;
+         fhir:display [ fhir:v "Vzorek z endotracheální kanyly" ]
+       ] [
+         fhir:code [ fhir:v "119399004" ] ;
+         fhir:display [ fhir:v "Vzorek z oka" ]
+       ] [
+         fhir:code [ fhir:v "127476006" ] ;
+         fhir:display [ fhir:v "Vzorek z vejcovodu" ]
+       ] [
+         fhir:code [ fhir:v "446951004" ] ;
+         fhir:display [ fhir:v "Vzorek z granulační tkáně" ]
+       ] [
+         fhir:code [ fhir:v "127473003" ] ;
+         fhir:display [ fhir:v "Vzorek z ledviny" ]
+       ] [
+         fhir:code [ fhir:v "119383005" ] ;
+         fhir:display [ fhir:v "Vzorek z jater" ]
+       ] [
+         fhir:code [ fhir:v "122610009" ] ;
+         fhir:display [ fhir:v "Bioptický vzorek z plic" ]
+       ] [
+         fhir:code [ fhir:v "447407009" ] ;
+         fhir:display [ fhir:v "Vzorek z nekrotické tkáně" ]
+       ] [
+         fhir:code [ fhir:v "127469001" ] ;
+         fhir:display [ fhir:v "Vzorek z pankreatu" ]
+       ] [
+         fhir:code [ fhir:v "119403008" ] ;
+         fhir:display [ fhir:v "Vzorek z placenty" ]
+       ] [
+         fhir:code [ fhir:v "1003711005" ] ;
+         fhir:display [ fhir:v "Vzorek z náhrady kloubu" ]
+       ] [
+         fhir:code [ fhir:v "608969007" ] ;
+         fhir:display [ fhir:v "Vzorek z kůže" ]
+       ] [
+         fhir:code [ fhir:v "433308004" ] ;
+         fhir:display [ fhir:v "Vzorek ze sleziny" ]
+       ] [
+         fhir:code [ fhir:v "119379005" ] ;
+         fhir:display [ fhir:v "Vzorek ze žaludku" ]
+       ] [
+         fhir:code [ fhir:v "445447003" ] ;
+         fhir:display [ fhir:v "Aspirát z trachey" ]
+       ] [
+         fhir:code [ fhir:v "441903006" ] ;
+         fhir:display [ fhir:v "Vzorek z bronchální aspirace" ]
+       ] [
+         fhir:code [ fhir:v "440674008" ] ;
+         fhir:display [ fhir:v "Vzorek získaný laváží" ]
+       ] [
+         fhir:code [ fhir:v "57711000052109" ] ;
+         fhir:display [ fhir:v "Vzorek získaný punkcí" ]
+       ] [
+         fhir:code [ fhir:v "16220971000119101" ] ;
+         fhir:display [ fhir:v "Vzorek tekutiny z cysty ledviny" ]
+       ] [
+         fhir:code [ fhir:v "278020009" ] ;
+         fhir:display [ fhir:v "Jednorázový vzorek moči" ]
+       ] [
+         fhir:code [ fhir:v "271514008" ] ;
+         fhir:display [ fhir:v "Vzorek kostní dřeně ze sterna" ]
+       ] [
+         fhir:code [ fhir:v "472894002" ] ;
+         fhir:display [ fhir:v "Stěr z rohovky" ]
+       ] [
+         fhir:code [ fhir:v "472900002" ] ;
+         fhir:display [ fhir:v "Stěr z dásně" ]
+       ] [
+         fhir:code [ fhir:v "472888005" ] ;
+         fhir:display [ fhir:v "Stěr z hrtanu" ]
+       ] [
+         fhir:code [ fhir:v "16210971000119108" ] ;
+         fhir:display [ fhir:v "Stěr z léze" ]
+       ] [
+         fhir:code [ fhir:v "472862007" ] ;
+         fhir:display [ fhir:v "Stěr z kožní léze" ]
+       ] [
+         fhir:code [ fhir:v "472879001" ] ;
+         fhir:display [ fhir:v "Stěr z placenty" ]
+       ] [
+         fhir:code [ fhir:v "472885008" ] ;
+         fhir:display [ fhir:v "Stěr z dekubitu" ]
+       ] [
+         fhir:code [ fhir:v "472883001" ] ;
+         fhir:display [ fhir:v "Stěr z chirurgické rány" ]
+       ] [
+         fhir:code [ fhir:v "472866005" ] ;
+         fhir:display [ fhir:v "Stěr z jazyka" ]
+       ] [
+         fhir:code [ fhir:v "472867001" ] ;
+         fhir:display [ fhir:v "Stěr z tonsily" ]
+       ] [
+         fhir:code [ fhir:v "461911000124106" ] ;
+         fhir:display [ fhir:v "Orofaryngeální stěr" ]
+       ] [
+         fhir:code [ fhir:v "309478005" ] ;
+         fhir:display [ fhir:v "Vzorek trombu" ]
+       ] [
+         fhir:code [ fhir:v "258480001" ] ;
+         fhir:display [ fhir:v "Transtracheální aspirát" ]
+       ] [
+         fhir:code [ fhir:v "258436001" ] ;
+         fhir:display [ fhir:v "Vzorek tkáně pupečníku" ]
+       ] [
+         fhir:code [ fhir:v "258530009" ] ;
+         fhir:display [ fhir:v "Uretrální stěr" ]
+       ] [
+         fhir:code [ fhir:v "444937002" ] ;
+         fhir:display [ fhir:v "Vzorek moči z ureteru" ]
+       ] [
+         fhir:code [ fhir:v "447589008" ] ;
+         fhir:display [ fhir:v "Moč po jednorázové katetrizaci" ]
+       ] [
+         fhir:code [ fhir:v "446907008" ] ;
+         fhir:display [ fhir:v "Vzorek moči z ledviny" ]
+       ] [
+         fhir:code [ fhir:v "258520000" ] ;
+         fhir:display [ fhir:v "Vaginální stěr" ]
+       ] [
+         fhir:code [ fhir:v "703431007" ] ;
+         fhir:display [ fhir:v "Vzorek žilní pupečníkové krve" ]
+       ] [
+         fhir:code [ fhir:v "258482009" ] ;
+         fhir:display [ fhir:v "Vzorek tekutiny z puchýře" ]
+       ] [
+         fhir:code [ fhir:v "258523003" ] ;
+         fhir:display [ fhir:v "Stěr z vulvy" ]
+       ] [
+         fhir:code [ fhir:v "258662004" ] ;
+         fhir:display [ fhir:v "Vzorek na adhezním sklíčku" ]
+       ] [
+         fhir:code [ fhir:v "258527002" ] ;
+         fhir:display [ fhir:v "Anální stěr" ]
+       ] [
+         fhir:code [ fhir:v "258415003" ] ;
+         fhir:display [ fhir:v "Bioptický vzorek" ]
+       ] [
+         fhir:code [ fhir:v "303248007" ] ;
+         fhir:display [ fhir:v "Krevní nátěr" ]
+       ] [
+         fhir:code [ fhir:v "737535000" ] ;
+         fhir:display [ fhir:v "Krevní nátěr" ]
+       ] [
+         fhir:code [ fhir:v "122560006" ] ;
+         fhir:display [ fhir:v "Krevní vzorek dárce" ]
+       ] [
+         fhir:code [ fhir:v "866033003" ] ;
+         fhir:display [ fhir:v "Krev v aerobní hemokultivační lahvi" ]
+       ] [
+         fhir:code [ fhir:v "866032008" ] ;
+         fhir:display [ fhir:v "Krev v anaerobní hemokultivační lahvi" ]
+       ] [
+         fhir:code [ fhir:v "878861003" ] ;
+         fhir:display [ fhir:v "Krev v hemokultivační lahvi" ]
+       ] [
+         fhir:code [ fhir:v "445295009" ] ;
+         fhir:display [ fhir:v "Krevní vzorek v EDTA" ]
+       ] [
+         fhir:code [ fhir:v "309061008" ] ;
+         fhir:display [ fhir:v "Aspirát z prsu tenkou jehlou" ]
+       ] [
+         fhir:code [ fhir:v "309503002" ] ;
+         fhir:display [ fhir:v "Sekret z bradavky" ]
+       ] [
+         fhir:code [ fhir:v "309174004" ] ;
+         fhir:display [ fhir:v "Biopsie bronchu" ]
+       ] [
+         fhir:code [ fhir:v "119308003" ] ;
+         fhir:display [ fhir:v "Kanyla jako vzorek" ]
+       ] [
+         fhir:code [ fhir:v "473409003" ] ;
+         fhir:display [ fhir:v "Centrální žilní katétr jako vzorek" ]
+       ] [
+         fhir:code [ fhir:v "472929000" ] ;
+         fhir:display [ fhir:v "Špička centrálního žilního katétru" ]
+       ] [
+         fhir:code [ fhir:v "445372002" ] ;
+         fhir:display [ fhir:v "Mozkomíšní mok z mozkové komory" ]
+       ] [
+         fhir:code [ fhir:v "258524009" ] ;
+         fhir:display [ fhir:v "Cervikální stěr" ]
+       ] [
+         fhir:code [ fhir:v "440473005" ] ;
+         fhir:display [ fhir:v "Kontaktní čočka jako vzorek" ]
+       ] [
+         fhir:code [ fhir:v "440500007" ] ;
+         fhir:display [ fhir:v "Suchá kapka krve" ]
+       ] [
+         fhir:code [ fhir:v "119319000" ] ;
+         fhir:display [ fhir:v "Vzorek léčiva" ]
+       ] [
+         fhir:code [ fhir:v "309165001" ] ;
+         fhir:display [ fhir:v "Vzorek ucha" ]
+       ] [
+         fhir:code [ fhir:v "258575007" ] ;
+         fhir:display [ fhir:v "Ranní moč" ]
+       ] [
+         fhir:code [ fhir:v "446676001" ] ;
+         fhir:display [ fhir:v "Odsáté mateřské mléko" ]
+       ] [
+         fhir:code [ fhir:v "122568004" ] ;
+         fhir:display [ fhir:v "Exsudát z rány" ]
+       ] [
+         fhir:code [ fhir:v "258519006" ] ;
+         fhir:display [ fhir:v "Stěr z ženského genitálu" ]
+       ] [
+         fhir:code [ fhir:v "737357006" ] ;
+         fhir:display [ fhir:v "Vzorek fetální krve" ]
+       ] [
+         fhir:code [ fhir:v "698276005" ] ;
+         fhir:display [ fhir:v "První proud moči" ]
+       ] [
+         fhir:code [ fhir:v "733056005" ] ;
+         fhir:display [ fhir:v "Vzorek tekutiny z ucha" ]
+       ] [
+         fhir:code [ fhir:v "732976006" ] ;
+         fhir:display [ fhir:v "Vzorek tekutiny ze zevního zvukovodu" ]
+       ] [
+         fhir:code [ fhir:v "16214171000119101" ] ;
+         fhir:display [ fhir:v "Vzorek genitální tekutiny" ]
+       ] [
+         fhir:code [ fhir:v "258570002" ] ;
+         fhir:display [ fhir:v "Urogenitální vzorek" ]
+       ] [
+         fhir:code [ fhir:v "309124001" ] ;
+         fhir:display [ fhir:v "Biopsie kloubu" ]
+       ] [
+         fhir:code [ fhir:v "431361003" ] ;
+         fhir:display [ fhir:v "Kloubní tekutina" ]
+       ] [
+         fhir:code [ fhir:v "309079007" ] ;
+         fhir:display [ fhir:v "Biopsie lymfatické uzliny" ]
+       ] [
+         fhir:code [ fhir:v "309052008" ] ;
+         fhir:display [ fhir:v "Vzorek mužského genitálu" ]
+       ] [
+         fhir:code [ fhir:v "258574006" ] ;
+         fhir:display [ fhir:v "Střední proud moči" ]
+       ] [
+         fhir:code [ fhir:v "119321005" ] ;
+         fhir:display [ fhir:v "Vzorek mléka" ]
+       ] [
+         fhir:code [ fhir:v "119377007" ] ;
+         fhir:display [ fhir:v "Vzorek myokardu" ]
+       ] [
+         fhir:code [ fhir:v "16224371000119105" ] ;
+         fhir:display [ fhir:v "Výplach nosu" ]
+       ] [
+         fhir:code [ fhir:v "16223051000119101" ] ;
+         fhir:display [ fhir:v "Obsah paranazální dutiny" ]
+       ] [
+         fhir:code [ fhir:v "258411007" ] ;
+         fhir:display [ fhir:v "Aspirát z nosohltanu" ]
+       ] [
+         fhir:code [ fhir:v "441620008" ] ;
+         fhir:display [ fhir:v "Orální tekutina" ]
+       ] [
+         fhir:code [ fhir:v "418932006" ] ;
+         fhir:display [ fhir:v "Orální stěr" ]
+       ] [
+         fhir:code [ fhir:v "258511009" ] ;
+         fhir:display [ fhir:v "Uretrální stěr u muže" ]
+       ] [
+         fhir:code [ fhir:v "258510005" ] ;
+         fhir:display [ fhir:v "Stěr z penisu" ]
+       ] [
+         fhir:code [ fhir:v "258526006" ] ;
+         fhir:display [ fhir:v "Perianální stěr" ]
+       ] [
+         fhir:code [ fhir:v "258525005" ] ;
+         fhir:display [ fhir:v "Perineální stěr" ]
+       ] [
+         fhir:code [ fhir:v "472923004" ] ;
+         fhir:display [ fhir:v "Špička periferního katétru" ]
+       ] [
+         fhir:code [ fhir:v "168140004" ] ;
+         fhir:display [ fhir:v "Peritoneální dialyzát" ]
+       ] [
+         fhir:code [ fhir:v "788707000" ] ;
+         fhir:display [ fhir:v "Plazma / sérum / plná krev" ]
+       ] [
+         fhir:code [ fhir:v "708049000" ] ;
+         fhir:display [ fhir:v "Plazma s EDTA" ]
+       ] [
+         fhir:code [ fhir:v "309172000" ] ;
+         fhir:display [ fhir:v "Biopsie pleury" ]
+       ] [
+         fhir:code [ fhir:v "258471001" ] ;
+         fhir:display [ fhir:v "Sekret po masáži prostaty" ]
+       ] [
+         fhir:code [ fhir:v "708112008" ] ;
+         fhir:display [ fhir:v "Aspirát z Douglasova prostoru" ]
+       ] [
+         fhir:code [ fhir:v "258664003" ] ;
+         fhir:display [ fhir:v "Vzorek pomocí lepicí pásky" ]
+       ] [
+         fhir:code [ fhir:v "119348006" ] ;
+         fhir:display [ fhir:v "Semenná plazma" ]
+       ] [
+         fhir:code [ fhir:v "122589008" ] ;
+         fhir:display [ fhir:v "Sérum od dárce krve" ]
+       ] [
+         fhir:code [ fhir:v "122590004" ] ;
+         fhir:display [ fhir:v "Sérum od pacienta" ]
+       ] [
+         fhir:code [ fhir:v "258549008" ] ;
+         fhir:display [ fhir:v "Kožní šupina" ]
+       ] [
+         fhir:code [ fhir:v "258503004" ] ;
+         fhir:display [ fhir:v "Kožní stěr" ]
+       ] [
+         fhir:code [ fhir:v "1179252003" ] ;
+         fhir:display [ fhir:v "Mikroskopické sklíčko jako vzorek" ]
+       ] [
+         fhir:code [ fhir:v "119371008" ] ;
+         fhir:display [ fhir:v "Vzorek z abscesu" ]
+       ] [
+         fhir:code [ fhir:v "446972001" ] ;
+         fhir:display [ fhir:v "Aspirát z abscesu" ]
+       ] [
+         fhir:code [ fhir:v "119392008" ] ;
+         fhir:display [ fhir:v "Vzorek z anu" ]
+       ] [
+         fhir:code [ fhir:v "127456000" ] ;
+         fhir:display [ fhir:v "Vzorek z prsu" ]
+       ] [
+         fhir:code [ fhir:v "16211051000119109" ] ;
+         fhir:display [ fhir:v "Vzorek z hluboké rány" ]
+       ] [
+         fhir:code [ fhir:v "119396006" ] ;
+         fhir:display [ fhir:v "Vzorek z endometria" ]
+       ] [
+         fhir:code [ fhir:v "440229008" ] ;
+         fhir:display [ fhir:v "Vzorek z prostředí" ]
+       ] [
+         fhir:code [ fhir:v "16212771000119105" ] ;
+         fhir:display [ fhir:v "Biopsie z víčka" ]
+       ] [
+         fhir:code [ fhir:v "449446003" ] ;
+         fhir:display [ fhir:v "Vzorek ze žlučníku" ]
+       ] [
+         fhir:code [ fhir:v "119344008" ] ;
+         fhir:display [ fhir:v "Vzorek z genitálního systému" ]
+       ] [
+         fhir:code [ fhir:v "447098004" ] ;
+         fhir:display [ fhir:v "Seškrab z nehtu" ]
+       ] [
+         fhir:code [ fhir:v "430248009" ] ;
+         fhir:display [ fhir:v "Vzorek z nosohltanu" ]
+       ] [
+         fhir:code [ fhir:v "447154002" ] ;
+         fhir:display [ fhir:v "Vzorek z nosu" ]
+       ] [
+         fhir:code [ fhir:v "119397002" ] ;
+         fhir:display [ fhir:v "Vzorek z penisu" ]
+       ] [
+         fhir:code [ fhir:v "434250007" ] ;
+         fhir:display [ fhir:v "Biopsie perikardu" ]
+       ] [
+         fhir:code [ fhir:v "438660002" ] ;
+         fhir:display [ fhir:v "Vzorek z implantátu" ]
+       ] [
+         fhir:code [ fhir:v "446952006" ] ;
+         fhir:display [ fhir:v "Seškrab z kůže" ]
+       ] [
+         fhir:code [ fhir:v "119295008" ] ;
+         fhir:display [ fhir:v "Aspirát" ]
+       ] [
+         fhir:code [ fhir:v "119324002" ] ;
+         fhir:display [ fhir:v "Vzorek neznámého materiálu" ]
+       ] [
+         fhir:code [ fhir:v "703691002" ] ;
+         fhir:display [ fhir:v "Vycentrovaný mozkomíšní mok" ]
+       ] [
+         fhir:code [ fhir:v "258609006" ] ;
+         fhir:display [ fhir:v "Aspirát sputa z trachey" ]
+       ] [
+         fhir:code [ fhir:v "447488002" ] ;
+         fhir:display [ fhir:v "Suprapubická moč" ]
+       ] [
+         fhir:code [ fhir:v "373826004" ] ;
+         fhir:display [ fhir:v "Chirurgicky odstraněná tkáň" ]
+       ] [
+         fhir:code [ fhir:v "472896000" ] ;
+         fhir:display [ fhir:v "Stěr z puchýře" ]
+       ] [
+         fhir:code [ fhir:v "733104004" ] ;
+         fhir:display [ fhir:v "Stěr z bukální sliznice" ]
+       ] [
+         fhir:code [ fhir:v "472884007" ] ;
+         fhir:display [ fhir:v "Stěr z hluboké rány" ]
+       ] [
+         fhir:code [ fhir:v "472886009" ] ;
+         fhir:display [ fhir:v "Stěr z gastrostomie" ]
+       ] [
+         fhir:code [ fhir:v "472901003" ] ;
+         fhir:display [ fhir:v "Stěr z paranazální dutiny" ]
+       ] [
+         fhir:code [ fhir:v "472881004" ] ;
+         fhir:display [ fhir:v "Stěr z hltanu" ]
+       ] [
+         fhir:code [ fhir:v "472882006" ] ;
+         fhir:display [ fhir:v "Stěr z povrchové rány" ]
+       ] [
+         fhir:code [ fhir:v "33901000087104" ] ;
+         fhir:display [ fhir:v "Stěr z tracheostomie" ]
+       ] [
+         fhir:code [ fhir:v "472871003" ] ;
+         fhir:display [ fhir:v "Stěr z vředu" ]
+       ] [
+         fhir:code [ fhir:v "445364004" ] ;
+         fhir:display [ fhir:v "Stěr z axily" ]
+       ] [
+         fhir:code [ fhir:v "445444005" ] ;
+         fhir:display [ fhir:v "Stěr z třísla" ]
+       ] [
+         fhir:code [ fhir:v "445367006" ] ;
+         fhir:display [ fhir:v "Stěr z pupku" ]
+       ] [
+         fhir:code [ fhir:v "710069003" ] ;
+         fhir:display [ fhir:v "Vzorek klíštěte" ]
+       ] [
+         fhir:code [ fhir:v "128157004" ] ;
+         fhir:display [ fhir:v "Tkáně z mozku" ]
+       ] [
+         fhir:code [ fhir:v "399492000" ] ;
+         fhir:display [ fhir:v "Tkáně z plic" ]
+       ] [
+         fhir:code [ fhir:v "699874006" ] ;
+         fhir:display [ fhir:v "Tkáně z perikardu" ]
+       ] [
+         fhir:code [ fhir:v "57741000052105" ] ;
+         fhir:display [ fhir:v "Tracheální sekret" ]
+       ] [
+         fhir:code [ fhir:v "472938003" ] ;
+         fhir:display [ fhir:v "Tracheální kanyla jako vzorek" ]
+       ] [
+         fhir:code [ fhir:v "122877000" ] ;
+         fhir:display [ fhir:v "Aspirát z horních dýchacích cest" ]
+       ] [
+         fhir:code [ fhir:v "258604001" ] ;
+         fhir:display [ fhir:v "Vzorek z horních dýchacích cest" ]
+       ] [
+         fhir:code [ fhir:v "122565001" ] ;
+         fhir:display [ fhir:v "Vzorek z močového katétru" ]
+       ] [
+         fhir:code [ fhir:v "446130001" ] ;
+         fhir:display [ fhir:v "Vzorek moči z močového měchýře" ]
+       ] [
+         fhir:code [ fhir:v "442173007" ] ;
+         fhir:display [ fhir:v "Vzorek moči z nefrostomie" ]
+       ] [
+         fhir:code [ fhir:v "446306009" ] ;
+         fhir:display [ fhir:v "Vzorek moči ze sběrného sáčku" ]
+       ] [
+         fhir:code [ fhir:v "446846006" ] ;
+         fhir:display [ fhir:v "Moč z permanentního katétru" ]
+       ] [
+         fhir:code [ fhir:v "16221251000119108" ] ;
+         fhir:display [ fhir:v "Moč z jednorázového katétru" ]
+       ] [
+         fhir:code [ fhir:v "258577004" ] ;
+         fhir:display [ fhir:v "Vaginální sekret" ]
+       ] [
+         fhir:code [ fhir:v "472932002" ] ;
+         fhir:display [ fhir:v "Vaskulární katétr jako vzorek" ]
+       ] [
+         fhir:code [ fhir:v "703432000" ] ;
+         fhir:display [ fhir:v "Vzorek žilní plazmy" ]
+       ] [
+         fhir:code [ fhir:v "472942000" ] ;
+         fhir:display [ fhir:v "Ventrikuloperitoneální shunt jako vzorek" ]
+       ] [
+         fhir:code [ fhir:v "258438000" ] ;
+         fhir:display [ fhir:v "Vzorek sklivce" ]
+       ] [
+         fhir:code [ fhir:v "119318008" ] ;
+         fhir:display [ fhir:v "Vzorek vody" ]
+       ] [
+         fhir:code [ fhir:v "57921000052103" ] ;
+         fhir:display [ fhir:v "Plná krev s edetovou kyselinou" ]
+       ] [
+         fhir:code [ fhir:v "258565009" ] ;
+         fhir:display [ fhir:v "Vzorek choriových klků" ]
+       ] [
+         fhir:code [ fhir:v "258599007" ] ;
+         fhir:display [ fhir:v "Roztok z kontaktní čočky" ]
+       ] [
+         fhir:code [ fhir:v "439961009" ] ;
+         fhir:display [ fhir:v "Implantát jako vzorek" ]
+       ] [
+         fhir:code [ fhir:v "258603007" ] ;
+         fhir:display [ fhir:v "Vzorek z dýchacího systému" ]
+       ] [
+         fhir:code [ fhir:v "119368000" ] ;
+         fhir:display [ fhir:v "Vzorek z cysty" ]
+       ] [
+         fhir:code [ fhir:v "433861002" ] ;
+         fhir:display [ fhir:v "FNAB z paranazální dutiny" ]
+       ] [
+         fhir:code [ fhir:v "734379005" ] ;
+         fhir:display [ fhir:v "Vzorek z periodoncia" ]
+       ] [
+         fhir:code [ fhir:v "119369008" ] ;
+         fhir:display [ fhir:v "Vzorek z vředu" ]
+       ] [
+         fhir:code [ fhir:v "430304001" ] ;
+         fhir:display [ fhir:v "Vzorek z neurčené lokalizace" ]
+       ] [
+         fhir:code [ fhir:v "127479004" ] ;
+         fhir:display [ fhir:v "Vzorek z dělohy" ]
+       ] [
+         fhir:code [ fhir:v "122550002" ] ;
+         fhir:display [ fhir:v "FNAB vzorek" ]
+       ] [
+         fhir:code [ fhir:v "258576008" ] ;
+         fhir:display [ fhir:v "Suprapubický aspirát" ]
+       ] [
+         fhir:code [ fhir:v "445297001" ] ;
+         fhir:display [ fhir:v "Stěr z vnitřní části nosu" ]
+       ] [
+         fhir:code [ fhir:v "699287008" ] ;
+         fhir:display [ fhir:v "Moč ze suprapubického permanentního katétru" ]
+       ] [
+         fhir:code [ fhir:v "444946008" ] ;
+         fhir:display [ fhir:v "Dialyzační tekutina před dialýzou" ]
+       ] [
+         fhir:code [ fhir:v "122592007" ] ;
+         fhir:display [ fhir:v "Sérum nebo plazma" ]
+       ] [
+         fhir:code [ fhir:v "309141004" ] ;
+         fhir:display [ fhir:v "Vzorek nadledvin" ]
+       ] [
+         fhir:code [ fhir:v "309479002" ] ;
+         fhir:display [ fhir:v "Vzorek tepny" ]
+       ] [
+         fhir:code [ fhir:v "122558009" ] ;
+         fhir:display [ fhir:v "Vzorek krve z krevního přípravku" ]
+       ] [
+         fhir:code [ fhir:v "122559001" ] ;
+         fhir:display [ fhir:v "Kontrolní krevní vzorek" ]
+       ] [
+         fhir:code [ fhir:v "122562003" ] ;
+         fhir:display [ fhir:v "Krevní vzorek novorozence" ]
+       ] [
+         fhir:code [ fhir:v "258587000" ] ;
+         fhir:display [ fhir:v "Buffy coat (vrstva leukocytů)" ]
+       ] [
+         fhir:code [ fhir:v "433116003" ] ;
+         fhir:display [ fhir:v "FNAB z jater" ]
+       ] [
+         fhir:code [ fhir:v "119346005" ] ;
+         fhir:display [ fhir:v "Vzorek vaječného žloutku" ]
+       ] [
+         fhir:code [ fhir:v "122582004" ] ;
+         fhir:display [ fhir:v "Vzorek erytrocytů z krevního přípravku" ]
+       ] [
+         fhir:code [ fhir:v "119333000" ] ;
+         fhir:display [ fhir:v "Vzorek fibroblastů" ]
+       ] [
+         fhir:code [ fhir:v "119320006" ] ;
+         fhir:display [ fhir:v "Vzorek potraviny" ]
+       ] [
+         fhir:code [ fhir:v "122576002" ] ;
+         fhir:display [ fhir:v "Genitální hlen" ]
+       ] [
+         fhir:code [ fhir:v "119337004" ] ;
+         fhir:display [ fhir:v "Vzorek vdechovaného plynu" ]
+       ] [
+         fhir:code [ fhir:v "258606004" ] ;
+         fhir:display [ fhir:v "Vzorek z dolních dýchacích cest" ]
+       ] [
+         fhir:code [ fhir:v "119316007" ] ;
+         fhir:display [ fhir:v "Nebuněčná (nebiologická) tekutina" ]
+       ] [
+         fhir:code [ fhir:v "122551003" ] ;
+         fhir:display [ fhir:v "Vzorek periferní krve" ]
+       ] [
+         fhir:code [ fhir:v "119301009" ] ;
+         fhir:display [ fhir:v "Vzorek rostliny" ]
+       ] [
+         fhir:code [ fhir:v "119362004" ] ;
+         fhir:display [ fhir:v "Plazma chudá na trombocyty" ]
+       ] [
+         fhir:code [ fhir:v "119363009" ] ;
+         fhir:display [ fhir:v "Plazma bohatá na trombocyty" ]
+       ] [
+         fhir:code [ fhir:v "119358005" ] ;
+         fhir:display [ fhir:v "Vzorek trombocytů" ]
+       ] [
+         fhir:code [ fhir:v "725946000" ] ;
+         fhir:display [ fhir:v "Vzorek retikulocytů" ]
+       ] [
+         fhir:code [ fhir:v "309508006" ] ;
+         fhir:display [ fhir:v "FNAB z léze měkkých tkání" ]
+       ] [
+         fhir:code [ fhir:v "119391001" ] ;
+         fhir:display [ fhir:v "Vzorek z bronchu" ]
+       ] [
+         fhir:code [ fhir:v "119367005" ] ;
+         fhir:display [ fhir:v "Vzorek z popáleniny" ]
+       ] [
+         fhir:code [ fhir:v "702701006" ] ;
+         fhir:display [ fhir:v "Vzorek z čípku nebo pochvy" ]
+       ] [
+         fhir:code [ fhir:v "119400006" ] ;
+         fhir:display [ fhir:v "Vzorek z rohovky" ]
+       ] [
+         fhir:code [ fhir:v "1003708009" ] ;
+         fhir:display [ fhir:v "Vzorek z drénu" ]
+       ] [
+         fhir:code [ fhir:v "127462005" ] ;
+         fhir:display [ fhir:v "Vzorek ze srdce" ]
+       ] [
+         fhir:code [ fhir:v "127458004" ] ;
+         fhir:display [ fhir:v "Vzorek z plic" ]
+       ] [
+         fhir:code [ fhir:v "122614000" ] ;
+         fhir:display [ fhir:v "FNAB z plic" ]
+       ] [
+         fhir:code [ fhir:v "432382007" ] ;
+         fhir:display [ fhir:v "FNAB z lymfatické uzliny" ]
+       ] [
+         fhir:code [ fhir:v "128155007" ] ;
+         fhir:display [ fhir:v "Vzorek z ovaria" ]
+       ] [
+         fhir:code [ fhir:v "431406009" ] ;
+         fhir:display [ fhir:v "FNAB z pankreatu" ]
+       ] [
+         fhir:code [ fhir:v "441695007" ] ;
+         fhir:display [ fhir:v "FNAB z příušní žlázy" ]
+       ] [
+         fhir:code [ fhir:v "430250001" ] ;
+         fhir:display [ fhir:v "Vzorek z peritonea" ]
+       ] [
+         fhir:code [ fhir:v "127459007" ] ;
+         fhir:display [ fhir:v "Vzorek z pleury" ]
+       ] [
+         fhir:code [ fhir:v "119386002" ] ;
+         fhir:display [ fhir:v "Vzorek z prostaty" ]
+       ] [
+         fhir:code [ fhir:v "384819001" ] ;
+         fhir:display [ fhir:v "Jehlová biopsie prostaty" ]
+       ] [
+         fhir:code [ fhir:v "434406008" ] ;
+         fhir:display [ fhir:v "FNAB ze slinné žlázy" ]
+       ] [
+         fhir:code [ fhir:v "441810001" ] ;
+         fhir:display [ fhir:v "FNAB z měkké tkáně" ]
+       ] [
+         fhir:code [ fhir:v "441749007" ] ;
+         fhir:display [ fhir:v "FNAB z podčelistní žlázy" ]
+       ] [
+         fhir:code [ fhir:v "128154006" ] ;
+         fhir:display [ fhir:v "Vzorek z varlete" ]
+       ] [
+         fhir:code [ fhir:v "119389009" ] ;
+         fhir:display [ fhir:v "Vzorek z hrdla" ]
+       ] [
+         fhir:code [ fhir:v "399680007" ] ;
+         fhir:display [ fhir:v "Vzorek ze štítné žlázy" ]
+       ] [
+         fhir:code [ fhir:v "119390000" ] ;
+         fhir:display [ fhir:v "Vzorek z trachey" ]
+       ] [
+         fhir:code [ fhir:v "399411006" ] ;
+         fhir:display [ fhir:v "Vzorek z trofoblastu" ]
+       ] [
+         fhir:code [ fhir:v "119393003" ] ;
+         fhir:display [ fhir:v "Vzorek z uretry" ]
+       ] [
+         fhir:code [ fhir:v "450872001" ] ;
+         fhir:display [ fhir:v "Vzorek z močového měchýře" ]
+       ] [
+         fhir:code [ fhir:v "119395005" ] ;
+         fhir:display [ fhir:v "Vzorek z děložního čípku" ]
+       ] [
+         fhir:code [ fhir:v "119394009" ] ;
+         fhir:display [ fhir:v "Vzorek z pochvy" ]
+       ] [
+         fhir:code [ fhir:v "119365002" ] ;
+         fhir:display [ fhir:v "Vzorek z rány" ]
+       ] [
+         fhir:code [ fhir:v "309146009" ] ;
+         fhir:display [ fhir:v "FNAB štítné žlázy" ]
+       ] [
+         fhir:code [ fhir:v "122638001" ] ;
+         fhir:display [ fhir:v "Tkáně z tenkého střeva" ]
+       ] [
+         fhir:code [ fhir:v "258444001" ] ;
+         fhir:display [ fhir:v "Vzorek komorové vody" ]
+       ] [
+         fhir:code [ fhir:v "258485006" ] ;
+         fhir:display [ fhir:v "Seškrab z rohovky" ]
+       ] [
+         fhir:code [ fhir:v "168137004" ] ;
+         fhir:display [ fhir:v "Gastrický aspirát" ]
+       ] [
+         fhir:code [ fhir:v "1259931002" ] ;
+         fhir:display [ fhir:v "Vzorek vousů" ]
+       ] [
+         fhir:code [ fhir:v "168145009" ] ;
+         fhir:display [ fhir:v "Vzorek lymfy" ]
+       ] [
+         fhir:code [ fhir:v "309507001" ] ;
+         fhir:display [ fhir:v "Biopsie svalu" ]
+       ] [
+         fhir:code [ fhir:v "16224171000119108" ] ;
+         fhir:display [ fhir:v "Nasotracheální aspirát" ]
+       ] [
+         fhir:code [ fhir:v "309068002" ] ;
+         fhir:display [ fhir:v "Vzorek kožní léze" ]
+       ] [
+         fhir:code [ fhir:v "396997002" ] ;
+         fhir:display [ fhir:v "Aspirát z kostní dřeně" ]
+       ] [
+         fhir:code [ fhir:v "16215771000119101" ] ;
+         fhir:display [ fhir:v "FNAB z tříselné uzliny" ]
+       ] [
+         fhir:code [ fhir:v "430236006" ] ;
+         fhir:display [ fhir:v "Vzorek z nervu" ]
+       ] [
+         fhir:code [ fhir:v "472898004" ] ;
+         fhir:display [ fhir:v "Stěr z ruky" ]
+       ] [
+         fhir:code [ fhir:v "472868006" ] ;
+         fhir:display [ fhir:v "Stěr z peritoneální dutiny" ]
+       ] [
+         fhir:code [ fhir:v "444787003" ] ;
+         fhir:display [ fhir:v "Stěr z endocervixu" ]
+       ] [
+         fhir:code [ fhir:v "16223971000119109" ] ;
+         fhir:display [ fhir:v "FNAB synoviální tekutiny" ]
+       ] [
+         fhir:code [ fhir:v "122656001" ] ;
+         fhir:display [ fhir:v "Tkáně ze žlučníku" ]
+       ] [
+         fhir:code [ fhir:v "122736005" ] ;
+         fhir:display [ fhir:v "Tkáně z placenty" ]
+       ] [
+         fhir:code [ fhir:v "369611008" ] ;
+         fhir:display [ fhir:v "Biopsie tenkého střeva" ]
+       ] [
+         fhir:code [ fhir:v "309191000" ] ;
+         fhir:display [ fhir:v "Biopsie tonsily" ]
+       ] [
+         fhir:code [ fhir:v "697989009" ] ;
+         fhir:display [ fhir:v "Stěr z přední části nosu" ]
+       ] [
+         fhir:code [ fhir:v "57931000052101" ] ;
+         fhir:display [ fhir:v "Kombinovaný vzorek cervikálního hlenu a moči" ]
+       ] [
+         fhir:code [ fhir:v "433324003" ] ;
+         fhir:display [ fhir:v "Vzorek z oční krajiny" ]
+       ] [
+         fhir:code [ fhir:v "16216171000119108" ] ;
+         fhir:display [ fhir:v "Aspirát z jater" ]
+       ] [
+         fhir:code [ fhir:v "16221491000119104" ] ;
+         fhir:display [ fhir:v "Samovolně vyloučená moč" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

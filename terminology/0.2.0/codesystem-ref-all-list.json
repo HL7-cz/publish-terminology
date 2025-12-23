@@ -1,0 +1,254 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://hl7.org/fhir/administrative-gender",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "AdministrativeGender",
+      "title" : "AdministrativeGender",
+      "description" : "The gender of a person used for administrative purposes.",
+      "oids" : ["2.16.840.1.113883.4.642.4.2"],
+      "uses" : {
+      },
+      "ValueSet-administrative-gender-cz.html" : "Gender for administrative purposes"
+    },
+    {
+      "url" : "http://hl7.org/fhir/allergy-intolerance-category",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "AllergyIntoleranceCategory",
+      "title" : "AllergyIntoleranceCategory",
+      "description" : "Category of an identified substance associated with allergies or intolerances.",
+      "oids" : ["2.16.840.1.113883.4.642.4.134"],
+      "uses" : {
+      },
+      "ValueSet-allergy-intolerance-category-cz.html" : "Allergy Intolerance Category (CZ supplement)"
+    },
+    {
+      "url" : "http://hl7.org/fhir/allergy-intolerance-criticality",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "AllergyIntoleranceCriticality",
+      "title" : "AllergyIntoleranceCriticality",
+      "description" : "Estimate of the potential clinical harm, or seriousness, of a reaction to an identified substance.",
+      "oids" : ["2.16.840.1.113883.4.642.4.130"],
+      "uses" : {
+      },
+      "ValueSet-allergy-intolerance-criticality-cz.html" : "AllergyIntoleranceCriticality (CZ supplement)"
+    },
+    {
+      "url" : "http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips",
+      "version" : "1.1.0",
+      "status" : "active",
+      "name" : "AbsentAndUnknownDataUvIps",
+      "title" : "Absent and Unknown Data - IPS",
+      "description" : "International Patient Summary (IPS) codes for \"known absent\" and \"not known\" data.",
+      "uses" : {
+      },
+      "ValueSet-eHDSIAbsentOrUnknownAllergy-cz.html" : "eHDSI Absent Or Unknown Allergy",
+      "ValueSet-eHDSIAbsentOrUnknownDevice-cz.html" : "eHDSI Absent Or Unknown Device"
+    },
+    {
+      "url" : "http://loinc.org",
+      "version" : "3.0.1",
+      "status" : "active",
+      "name" : "LOINC",
+      "title" : "Logical Observation Identifiers, Names and Codes (LOINC)",
+      "description" : "LOINC provides a set of universal names and ID codes for identifying laboratory and clinical test results.1,2 LOINC facilitates the exchange and pooling of results, such as blood hemoglobin, serum potassium, or vital signs, for clinical care, outcomes management, and research. LOINC's universal identifiers (names and codes) can be used in the context of order and observation exchanges between information systems that use syntax standards such as HL73, CEN TC251, ISO TC215, ASTM4, and DICOM. Specifically, the identifier can be used as the coded value for an observation in any other standard that uses the observation/observation value paradigm, whether messages, documents, application programming interface (API), etc. For example, LOINC codes are used widely in the OBX segment Observation Identifier field (OBX-3) of an ORU HL7 (HL7 version 2.x or ASTM 1238-9410) message that may be sent between a Clinical Laboratory Information Management Systems (LIMS) and Electronic Health Record Systems (EHR).5, 6 In this way, LOINC codes provide universal identifiers that allow the exchange of clinical data between heterogeneous computing environments.",
+      "oids" : ["2.16.840.1.113883.6.1"],
+      "uses" : {
+      },
+      "ValueSet-referralorder-types.html" : "Typy žádanek",
+      "ValueSet-nursing-document-type.html" : "Typ ošetřovatelské dokumentace",
+      "ValueSet-medical-document-type.html" : "Typy lékařské dokumentace",
+      "ValueSet-document-category.html" : "Kategorie dokumentů",
+      "ValueSet-imaging-document-types.html" : "Typy dokumentů obrazového komplementu",
+      "ValueSet-lab-document-types.html" : "Typy laboratorních dokumentů"
+    },
+    {
+      "url" : "http://snomed.info/sct",
+      "version" : null,
+      "status" : "active",
+      "name" : "SNOMED_CT",
+      "title" : "SNOMED CT (all versions)",
+      "description" : "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO).",
+      "oids" : ["2.16.840.1.113883.6.96"],
+      "uses" : {
+      },
+      "ValueSet-cz-specimencontainer.html" : "Specimen Container",
+      "ValueSet-eHDSIAllergenNoDrug-cz.html" : "eHDSI Allergen No Drug",
+      "ValueSet-lab-specimenType.html" : "Materiál vzorků",
+      "ValueSet-referralorder-types.html" : "Typy žádanek",
+      "ValueSet-medical-device.html" : "Medical Device",
+      "ValueSet-registering-provider-service-type-cz.html" : "Registering Provider Service Type (CZ)",
+      "ValueSet-condition-cz.html" : "Condition Value Set",
+      "ValueSet-cz-sitequalifier.html" : "Body Structure Qualifier",
+      "ValueSet-cz-specimen-laterality.html" : "Body Structure Laterality for specimen.",
+      "ValueSet-cz-specimenAdditive.html" : "Specimen Additive"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/coverage-selfpay",
+      "version" : "1.0.1",
+      "status" : "active",
+      "name" : "CoverageSelfPayCodes",
+      "title" : "Coverage SelfPay Codes",
+      "description" : "This value set includes Coverage SelfPay codes.",
+      "oids" : ["2.16.840.1.113883.4.642.1.1148"],
+      "uses" : {
+      },
+      "ValueSet-cz-coverage-type.html" : "Číselník typů úhrady"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/v2-0131",
+      "version" : "3.0.0",
+      "status" : "active",
+      "name" : "ContactRole2",
+      "title" : "contactRole2",
+      "description" : "Code system of concepts which specify a relationship role that the next of kin/associated parties plays with regard to the patient. Also used in referrals, for example, it may be necessary to identify the contact representative at the clinic that sent a referral. Used in HL7 Version 2 messaging in the NK1 and CTD segments after 2.5, when it replace 2.16.840.1.113883.18.57.",
+      "oids" : ["2.16.840.1.113883.18.58"],
+      "uses" : {
+      },
+      "ValueSet-contactrole-cz.html" : "Contact Role (CZ)"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "version" : "9.0.0",
+      "status" : "active",
+      "name" : "ActCode",
+      "title" : "ActCode",
+      "description" : "A code specifying the particular kind of Act that the Act-instance represents within its class.\r\n\r\n*Constraints:* The kind of Act (e.g. physical examination, serum potassium, inpatient encounter, charge financial transaction, etc.) is specified with a code from one of several, typically external, coding systems. The coding system will depend on the class of Act, such as LOINC for observations, etc.\r\n\r\nConceptually, the Act.code must be a specialization of the Act.classCode. This is why the structure of ActClass domain should be reflected in the superstructure of the ActCode domain and then individual codes or externally referenced vocabularies subordinated under these domains that reflect the ActClass structure.\r\n\r\nAct.classCode and Act.code are not modifiers of each other but the Act.code concept should really imply the Act.classCode concept. For a negative example, it is not appropriate to use an Act.code \"potassium\" together with and Act.classCode for \"laboratory observation\" to somehow mean \"potassium laboratory observation\" and then use the same Act.code for \"potassium\" together with Act.classCode for \"medication\" to mean \"substitution of potassium\". This mutually modifying use of Act.code and Act.classCode is not permitted.",
+      "oids" : ["2.16.840.1.113883.5.4"],
+      "uses" : {
+      },
+      "ValueSet-cz-coverage-type.html" : "Číselník typů úhrady"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+      "version" : "3.0.0",
+      "status" : "active",
+      "name" : "NullFlavor",
+      "title" : "NullFlavor",
+      "description" : "A collection of codes specifying why a valid value is not present.",
+      "oids" : ["2.16.840.1.113883.5.1008"],
+      "uses" : {
+      },
+      "ValueSet-eHDSIExceptionalValue-cz.html" : "eHDSI Exceptional Value"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+      "version" : "3.0.0",
+      "status" : "active",
+      "name" : "RoleCode",
+      "title" : "RoleCode",
+      "description" : "A set of codes further specifying the kind of Role; specific classification codes for further qualifying RoleClass codes.",
+      "oids" : ["2.16.840.1.113883.5.111"],
+      "uses" : {
+      },
+      "ValueSet-personal-relationship-cz.html" : "Role code (CZ)"
+    },
+    {
+      "url" : "https://ncez.mzcr.cz/nclp/CodeSystem/nclpmat",
+      "version" : "0.2.0",
+      "status" : "active",
+      "name" : "NCLPMAT",
+      "title" : "NCLPMAT",
+      "description" : "NCLP - Číselník materiálů pro laboratoře.",
+      "uses" : {
+      },
+      "ValueSet-nclpmat.html" : "Číselník NCLPMAT"
+    },
+    {
+      "url" : "https://ncez.mzcr.cz/terminology/CodeSystem/drzar",
+      "version" : "0.2.0",
+      "status" : "active",
+      "name" : "CS_Drzar",
+      "title" : "Type of healthcare facility",
+      "description" : "Czech national code system for type of healthcare facility.",
+      "oids" : ["1.2.203.24341.11.2.10.1"],
+      "uses" : {
+      },
+      "ValueSet-drzar.html" : "Drzar (CZ)"
+    },
+    {
+      "url" : "https://ncez.mzcr.cz/terminology/CodeSystem/healthInsuranceCompanyCode",
+      "version" : "0.2.0",
+      "status" : "active",
+      "name" : "CS_HealthInsuranceCompanyCode",
+      "title" : "Codesystem of Health Insurance Companies",
+      "description" : "National codes of health insurance companies.",
+      "uses" : {
+      },
+      "ValueSet-healthInsuranceCompanyCode.html" : "ValueSet of Health Insurance Company Code"
+    },
+    {
+      "url" : "https://ncez.mzcr.cz/terminology/CodeSystem/nrzp-povolani",
+      "version" : "0.2.0",
+      "status" : "active",
+      "name" : "NRZP_Povolani",
+      "title" : "NRZP - Czech health professional occupation",
+      "description" : "Czech national code system for health professional occupation used in the national registry of healthcare practicioners.",
+      "oids" : ["1.2.203.24341.11.2.10.2.1"],
+      "uses" : {
+      },
+      "ValueSet-nrzp-povolani-vs.html" : "Occupation of healthcare practitioner (CZ)"
+    },
+    {
+      "url" : "https://sukl.cz/terminology/CodeSystem/dlp-atc",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "CS_DLP_atc",
+      "title" : "ATC CZ",
+      "description" : "Czech national version of the Anatomical Therapeutical Chemical (ATC) code system.",
+      "uses" : {
+      },
+      "ValueSet-dlp-atc.html" : "Český číselník ATC skupin"
+    },
+    {
+      "url" : "https://sukl.cz/terminology/CodeSystem/dlp-formy",
+      "version" : "0.2.0",
+      "status" : "active",
+      "name" : "CS_DLP_formy",
+      "title" : "DLP formy",
+      "description" : "Lékové formy dle DLP.",
+      "uses" : {
+      },
+      "ValueSet-dlp-formy.html" : "Lékové formy"
+    },
+    {
+      "url" : "https://sukl.cz/terminology/CodeSystem/dlp-lecivelatky",
+      "version" : "0.2.0",
+      "status" : "active",
+      "name" : "CS_DLP_lecivelatky",
+      "title" : "Codesystem of DLP Lecive latky",
+      "description" : "Codesystem of DLP Lecive latky. Identification ingredient.",
+      "oids" : ["1.2.203.24341.11.2.7.5"],
+      "uses" : {
+      },
+      "ValueSet-dlp-lecivelatky.html" : "Value set of DLP Lecive latky"
+    },
+    {
+      "url" : "https://sukl.cz/terminology/CodeSystem/dlp-lecivepripravky",
+      "version" : "0.2.0",
+      "status" : "active",
+      "name" : "CS_DLP_lecivepripravky",
+      "title" : "Codesystem of DLP Lecive pripravky",
+      "description" : "Codesystem of DLP Lecive pripravky. Identification medication.",
+      "uses" : {
+      },
+      "ValueSet-dlp-lecivepripravky.html" : "Léčivé přípravky"
+    },
+    {
+      "url" : "https://uzis.cz/terminology/CodeSystem/mkn-10",
+      "version" : "0.2.0",
+      "status" : "active",
+      "name" : "MKN10_5",
+      "title" : "Kódový systém MKN-10",
+      "description" : "Národní systém pro kódování diagnóz a zdravotních problémů.",
+      "oids" : ["1.2.203.24341.11.2.1"],
+      "uses" : {
+      },
+      "ValueSet-mkn-10.html" : "Mkn10_5",
+      "ValueSet-condition-cz.html" : "Condition Value Set"
+    }
+  ]
+}

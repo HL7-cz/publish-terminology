@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>Type of healthcare facility - HL7 Czech Terminology Implementation Guide v0.2.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <link href="assets/css/cz-core.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"5.57"}
+    h3,h4,h5,h6{--heading-prefix:"5.57"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <!-- Placeholder for child template header declarations -->
+<div id="hl7-nav">
+  <a id="hl7-logo" no-external="true" href="https://www.hl7.cz">
+    <img height="60" alt="Visit the HL7 Czech website" src="assets/images/hl7cz-logo.png" />
+  </a>
+</div>
+<div id="project-nav">
+  <a id="project-logo" no-external="true" href="https://mzd.gov.cz"><img height="60" alt="MZCR"
+      src="assets/images/NPO_logo.png" /> </a>
+</div>
+<div id="family-nav">
+  <a id="family-logo" no-external="true" href="https://ncez.mzcr.cz/cs"><img height="60" alt="NCEZ MZCR"
+      src="assets/images/logo.png" /> </a>
+</div>
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">HL7 Czech Terminology Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.2.0 - release
+
+
+
+  <img alt="Czechia flag" src="assets/images/cze.svg" height="16" title="Czechia"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="artifactsPage.html">Terminologies</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Type of healthcare facility</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">This page is part of the Czech FHIR Terminology Package (v0.2.0: Release) based on <a data-no-external="true" href="http://hl7.org/fhir/R4">FHIR (HL7® FHIR® Standard) R4</a>. This is the current published version.  For a full list of available versions, see the <a data-no-external="true" href="https://hl7.cz/terminology/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li class="active">
+    <a href="#">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="CodeSystem-drzar.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="CodeSystem-drzar.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="CodeSystem-drzar.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+  <a name="root"> </a>
+  <h2 id="root">CodeSystem: Type of healthcare facility
+
+  </h2>
+
+  <table class="colsi">
+
+    <tr>
+      <td colspan="4"><i>Official URL</i>: <span class="copy-text">https://ncez.mzcr.cz/terminology/CodeSystem/drzar<button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://ncez.mzcr.cz/terminology/CodeSystem/drzar"/></span>
+      </td>
+      <td><i>Version</i>:
+      <span class="copy-text">0.2.0<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="https://ncez.mzcr.cz/terminology/CodeSystem/drzar|0.2.0"/></span>
+      </td>
+    </tr>
+
+    <tr>
+
+
+
+
+
+
+
+      <td colspan="4">
+        
+          Active
+          
+            as of 1980-01-01
+          
+        
+      </td>
+
+
+
+      <td><i>Computable Name</i>: <span style="font-family: monospace;">CS_Drzar</span></td>
+    </tr>
+
+    <tr>
+      <td colspan="5">
+        <i>Other Identifiers:</i> OID:1.2.203.24341.11.2.10.1
+      </td>
+    </tr>
+
+
+
+
+  </table>
+
+<p>
+<p>Czech national code system for type of healthcare facility.</p>
+
+</p>
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <p>
+  This Code system is referenced in the content logical definition of the following value sets:
+  </p>
+
+  
+<ul>
+ <li><a href="ValueSet-drzar.html">Drzar</a></li>
+</ul>
+
+
+  <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="cs" lang="cs" data-fhir="generated"><p class="res-header-id"></p><a name="drzar"> </a><a name="hcdrzar"> </a>
+<div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: cs</p></div><p>This case-sensitive code system <code>https://ncez.mzcr.cz/terminology/CodeSystem/drzar</code> defines the following codes:</p>
+<table class="codes" data-fhir="generated"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr>
+<tr><td style="white-space:nowrap">010<a name="drzar-010"> </a></td>
+<td>Sdružení zdravotnických zařízení</td></tr>
+<tr><td style="white-space:nowrap">101<a name="drzar-101"> </a></td>
+<td>Fakultní nemocnice</td></tr>
+<tr><td style="white-space:nowrap">102<a name="drzar-102"> </a></td>
+<td>Nemocnice</td></tr>
+<tr><td style="white-space:nowrap">103<a name="drzar-103"> </a></td>
+<td>Specializovaná nemocnice</td></tr>
+<tr><td style="white-space:nowrap">104<a name="drzar-104"> </a></td>
+<td>Psychiatrická nemocnice</td></tr>
+<tr><td style="white-space:nowrap">105<a name="drzar-105"> </a></td>
+<td>Nemocnice následné péče</td></tr>
+<tr><td style="white-space:nowrap">109<a name="drzar-109"> </a></td>
+<td>Porodnice</td></tr>
+<tr><td style="white-space:nowrap">110<a name="drzar-110"> </a></td>
+<td>Léčebna pro dlouhodobě nemocné (LDN)</td></tr>
+<tr><td style="white-space:nowrap">111<a name="drzar-111"> </a></td>
+<td>Léčebna tuberkul.a respir.nemocí (TRN)</td></tr>
+<tr><td style="white-space:nowrap">112<a name="drzar-112"> </a></td>
+<td>Psychiatrická léčebna</td></tr>
+<tr><td style="white-space:nowrap">113<a name="drzar-113"> </a></td>
+<td>Rehabilitační ústav</td></tr>
+<tr><td style="white-space:nowrap">119<a name="drzar-119"> </a></td>
+<td>Ostatní odborné léčebné ústavy</td></tr>
+<tr><td style="white-space:nowrap">122<a name="drzar-122"> </a></td>
+<td>Dětská psychiatrická léčebna</td></tr>
+<tr><td style="white-space:nowrap">129<a name="drzar-129"> </a></td>
+<td>Ostatní dětské odborné léčebné ústavy</td></tr>
+<tr><td style="white-space:nowrap">130<a name="drzar-130"> </a></td>
+<td>Lázeňská léčebna</td></tr>
+<tr><td style="white-space:nowrap">141<a name="drzar-141"> </a></td>
+<td>Dětská ozdravovna</td></tr>
+<tr><td style="white-space:nowrap">180<a name="drzar-180"> </a></td>
+<td>Hospic</td></tr>
+<tr><td style="white-space:nowrap">190<a name="drzar-190"> </a></td>
+<td>Další lůžkové zařízení</td></tr>
+<tr><td style="white-space:nowrap">300<a name="drzar-300"> </a></td>
+<td>Sdružení ambulantních zařízení</td></tr>
+<tr><td style="white-space:nowrap">301<a name="drzar-301"> </a></td>
+<td>Poskytovatel amb. služeb (nad 5 oborů)</td></tr>
+<tr><td style="white-space:nowrap">302<a name="drzar-302"> </a></td>
+<td>Poskytovatel amb. služeb (do 5 oborů)</td></tr>
+<tr><td style="white-space:nowrap">310<a name="drzar-310"> </a></td>
+<td>Zdravotnické středisko</td></tr>
+<tr><td style="white-space:nowrap">312<a name="drzar-312"> </a></td>
+<td>Zařízení závodní preventivní péče</td></tr>
+<tr><td style="white-space:nowrap">320<a name="drzar-320"> </a></td>
+<td>Samost. ordinace všeob. prakt. lékaře</td></tr>
+<tr><td style="white-space:nowrap">321<a name="drzar-321"> </a></td>
+<td>Sam.ord.prakt.lékaře pro děti a dorost</td></tr>
+<tr><td style="white-space:nowrap">322<a name="drzar-322"> </a></td>
+<td>Samostatná ordinace PL - stomatologa</td></tr>
+<tr><td style="white-space:nowrap">323<a name="drzar-323"> </a></td>
+<td>Samostatná ordinace PL - gynekologa</td></tr>
+<tr><td style="white-space:nowrap">324<a name="drzar-324"> </a></td>
+<td>Samostatná ordinace lékaře specialisty</td></tr>
+<tr><td style="white-space:nowrap">340<a name="drzar-340"> </a></td>
+<td>Samostatné zařízení psychologa</td></tr>
+<tr><td style="white-space:nowrap">341<a name="drzar-341"> </a></td>
+<td>Samostatné zařízení logopeda</td></tr>
+<tr><td style="white-space:nowrap">350<a name="drzar-350"> </a></td>
+<td>Domácí zdravotní péče</td></tr>
+<tr><td style="white-space:nowrap">351<a name="drzar-351"> </a></td>
+<td>Samostatné zařízení fyzioterapeuta</td></tr>
+<tr><td style="white-space:nowrap">354<a name="drzar-354"> </a></td>
+<td>Zdravotní péče v ústavech sociální p.</td></tr>
+<tr><td style="white-space:nowrap">359<a name="drzar-359"> </a></td>
+<td>Samostatné zařízení nelékaře - jiné</td></tr>
+<tr><td style="white-space:nowrap">360<a name="drzar-360"> </a></td>
+<td>Samostatná stomatologická laboratoř</td></tr>
+<tr><td style="white-space:nowrap">361<a name="drzar-361"> </a></td>
+<td>Samostatná odborná laboratoř</td></tr>
+<tr><td style="white-space:nowrap">362<a name="drzar-362"> </a></td>
+<td>Odběrová místnost</td></tr>
+<tr><td style="white-space:nowrap">370<a name="drzar-370"> </a></td>
+<td>Samostatná transfuzní stanice</td></tr>
+<tr><td style="white-space:nowrap">380<a name="drzar-380"> </a></td>
+<td>Zařízení LPS</td></tr>
+<tr><td style="white-space:nowrap">389<a name="drzar-389"> </a></td>
+<td>Koroner</td></tr>
+<tr><td style="white-space:nowrap">390<a name="drzar-390"> </a></td>
+<td>Hemodialyzační středisko</td></tr>
+<tr><td style="white-space:nowrap">398<a name="drzar-398"> </a></td>
+<td>Zařízení pro léčbu závislostí</td></tr>
+<tr><td style="white-space:nowrap">399<a name="drzar-399"> </a></td>
+<td>Ostatní ambulantní zařízení</td></tr>
+<tr><td style="white-space:nowrap">400<a name="drzar-400"> </a></td>
+<td>Sdružení dětských zařízení</td></tr>
+<tr><td style="white-space:nowrap">420<a name="drzar-420"> </a></td>
+<td>Dětský domov pro děti do 3 let</td></tr>
+<tr><td style="white-space:nowrap">430<a name="drzar-430"> </a></td>
+<td>Dětské centrum</td></tr>
+<tr><td style="white-space:nowrap">431<a name="drzar-431"> </a></td>
+<td>Dětský stacionář</td></tr>
+<tr><td style="white-space:nowrap">460<a name="drzar-460"> </a></td>
+<td>Stacionář</td></tr>
+<tr><td style="white-space:nowrap">461<a name="drzar-461"> </a></td>
+<td>Psychoterapeutický stacionář</td></tr>
+<tr><td style="white-space:nowrap">465<a name="drzar-465"> </a></td>
+<td>Krizové centrum</td></tr>
+<tr><td style="white-space:nowrap">466<a name="drzar-466"> </a></td>
+<td>Centrum duševního zdraví</td></tr>
+<tr><td style="white-space:nowrap">476<a name="drzar-476"> </a></td>
+<td>Záchytná stanice</td></tr>
+<tr><td style="white-space:nowrap">480<a name="drzar-480"> </a></td>
+<td>Zdravotnická dopravní služba</td></tr>
+<tr><td style="white-space:nowrap">481<a name="drzar-481"> </a></td>
+<td>Zdravotnická zachranná služba</td></tr>
+<tr><td style="white-space:nowrap">483<a name="drzar-483"> </a></td>
+<td>Výjezdová skupina záchranné služby</td></tr>
+<tr><td style="white-space:nowrap">484<a name="drzar-484"> </a></td>
+<td>Další zařízení záchranné služby</td></tr>
+<tr><td style="white-space:nowrap">485<a name="drzar-485"> </a></td>
+<td>Přeprava pacientů neodkladné péče</td></tr>
+<tr><td style="white-space:nowrap">499<a name="drzar-499"> </a></td>
+<td>Ostatní zvláštní zdravotnická zařízení</td></tr>
+<tr><td style="white-space:nowrap">501<a name="drzar-501"> </a></td>
+<td>Sdružení lékáren</td></tr>
+<tr><td style="white-space:nowrap">510<a name="drzar-510"> </a></td>
+<td>Lékárna</td></tr>
+<tr><td style="white-space:nowrap">521<a name="drzar-521"> </a></td>
+<td>Oční optika</td></tr>
+<tr><td style="white-space:nowrap">530<a name="drzar-530"> </a></td>
+<td>Státní ústav pro kontrolu léčiv</td></tr>
+<tr><td style="white-space:nowrap">600<a name="drzar-600"> </a></td>
+<td>Státní zdravotní ústav</td></tr>
+<tr><td style="white-space:nowrap">601<a name="drzar-601"> </a></td>
+<td>Krajská hygienická stanice</td></tr>
+<tr><td style="white-space:nowrap">605<a name="drzar-605"> </a></td>
+<td>Zdravotní ústav</td></tr>
+<tr><td style="white-space:nowrap">609<a name="drzar-609"> </a></td>
+<td>Další zařízení hygienické služby</td></tr>
+<tr><td style="white-space:nowrap">831<a name="drzar-831"> </a></td>
+<td>IPVZ</td></tr>
+<tr><td style="white-space:nowrap">832<a name="drzar-832"> </a></td>
+<td>NCONZO</td></tr>
+<tr><td style="white-space:nowrap">900<a name="drzar-900"> </a></td>
+<td>Ostatní organizace MZ</td></tr>
+<tr><td style="white-space:nowrap">950<a name="drzar-950"> </a></td>
+<td>Ostatní zdravotnická zařízení</td></tr>
+<tr><td style="white-space:nowrap">952<a name="drzar-952"> </a></td>
+<td>Lázeňský dům (jen ubyt. hotel. typu)</td></tr>
+<tr><td style="white-space:nowrap">961<a name="drzar-961"> </a></td>
+<td>Zdravotnické zařízení v likvidaci</td></tr>
+<tr><td style="white-space:nowrap">962<a name="drzar-962"> </a></td>
+<td>Hospodářská org. neposkyt. zdrav. péči</td></tr>
+<tr><td style="white-space:nowrap">963<a name="drzar-963"> </a></td>
+<td>Servisní organizace</td></tr>
+<tr><td style="white-space:nowrap">964<a name="drzar-964"> </a></td>
+<td>COVID zařízení</td></tr>
+<tr><td style="white-space:nowrap">368<a name="drzar-368"> </a></td>
+<td>Centrum očkování COVID</td></tr>
+<tr><td style="white-space:nowrap">363<a name="drzar-363"> </a></td>
+<td>Odběr krevní plasmy</td></tr></table></div>
+
+  
+
+  <!-- insert notes if present -->
+  
+
+
+
+  
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hl7.cz/">HL7 Czech Republic</a>.  Package hl7.fhir.cz.terminology#0.2.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Dec 23, 2025 18:33+0100">2025-12-23</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

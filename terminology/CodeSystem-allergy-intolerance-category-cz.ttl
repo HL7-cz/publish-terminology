@@ -1,0 +1,121 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hl7.cz/terminology/CodeSystem/allergy-intolerance-category-cz> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "allergy-intolerance-category-cz"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem allergy-intolerance-category-cz</b></p><a name=\"allergy-intolerance-category-cz\"> </a><a name=\"hcallergy-intolerance-category-cz\"> </a><p>This code system supplement <code>https://hl7.cz/terminology/CodeSystem/allergy-intolerance-category-cz</code> defines displays on the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>English (English, en)</b></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://hl7.org/fhir/R4/codesystem-allergy-intolerance-category.html#allergy-intolerance-category-biologic\">biologic</a><a name=\"allergy-intolerance-category-cz-biologic\"> </a></td><td>biologický</td><td>Přípravek syntetizovaný z živých organismů nebo jejich produktů, zejména lidských nebo živočišných bílkovin, jako jsou hormony nebo antitoxiny, který se používá jako diagnostické, preventivní nebo terapeutické činidlo. Mezi biologické léky patří například: vakcíny; alergenní extrakty, které se používají jak k diagnostice, tak k léčbě (například alergenové injekce); genové terapie; buněčné terapie. Existují i jiné biologické produkty, jako jsou tkáně, které obvykle nejsou spojovány s alergiemi.</td><td>A preparation that is synthesized from living organisms or their products, especially a human or animal protein, such as a hormone or antitoxin, that is used as a diagnostic, preventive, or therapeutic agent. Examples of biologic medications include: vaccines; allergenic extracts, which are used for both diagnosis and treatment (for example, allergy shots); gene therapies; cellular therapies.  There are other biologic products, such as tissues, which are not typically associated with allergies.</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://hl7.org/fhir/R4/codesystem-allergy-intolerance-category.html#allergy-intolerance-category-environment\">environment</a><a name=\"allergy-intolerance-category-cz-environment\"> </a></td><td>prostředí</td><td>Jakékoli látky, které se vyskytují v životním prostředí, včetně látek, které dosud nebyly klasifikovány jako potraviny, léky nebo biologické látky.</td><td>Any substances that are encountered in the environment, including any substance not already classified as food, medication, or biologic.</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://hl7.org/fhir/R4/codesystem-allergy-intolerance-category.html#allergy-intolerance-category-food\">food</a><a name=\"allergy-intolerance-category-cz-food\"> </a></td><td>potravina</td><td>Jakákoli látka konzumovaná za účelem výživové podpory organismu.</td><td>Any substance consumed to provide nutritional support for the body.</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://hl7.org/fhir/R4/codesystem-allergy-intolerance-category.html#allergy-intolerance-category-medication\">medication</a><a name=\"allergy-intolerance-category-cz-medication\"> </a></td><td>léčivo</td><td>Látky podávané za účelem dosažení fyziologického účinku.</td><td>Substances administered to achieve a physiological effect.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [
+     fhir:v "https://hl7.cz/terminology/CodeSystem/allergy-intolerance-category-cz"^^xsd:anyURI ;
+     fhir:l <https://hl7.cz/terminology/CodeSystem/allergy-intolerance-category-cz>
+  ] ; # 
+  fhir:version [ fhir:v "0.2.0"] ; # 
+  fhir:name [ fhir:v "AllergyIntoleranceCategory"] ; # 
+  fhir:title [ fhir:v "Allergy Intolerance Category (CZ supplement)"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2025-12-12T16:17:42.700644Z"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 Czech Republic"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HL7 Czech Republic" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://www.hl7.cz/" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Allergy Intolerance Category (CZ Code system supplement)"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
+         fhir:l <urn:iso:std:iso:3166>
+       ] ;
+       fhir:code [ fhir:v "CZ" ] ;
+       fhir:display [ fhir:v "Czechia" ]
+     ] )
+  ] ) ; # 
+  fhir:content [ fhir:v "supplement"] ; # 
+  fhir:supplements [
+     fhir:v "http://hl7.org/fhir/allergy-intolerance-category"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/allergy-intolerance-category>
+  ] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "biologic" ] ;
+     fhir:display [ fhir:v "biologický" ] ;
+     fhir:definition [ fhir:v "Přípravek syntetizovaný z živých organismů nebo jejich produktů, zejména lidských nebo živočišných bílkovin, jako jsou hormony nebo antitoxiny, který se používá jako diagnostické, preventivní nebo terapeutické činidlo. Mezi biologické léky patří například: vakcíny; alergenní extrakty, které se používají jak k diagnostice, tak k léčbě (například alergenové injekce); genové terapie; buněčné terapie. Existují i jiné biologické produkty, jako jsou tkáně, které obvykle nejsou spojovány s alergiemi." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "A preparation that is synthesized from living organisms or their products, especially a human or animal protein, such as a hormone or antitoxin, that is used as a diagnostic, preventive, or therapeutic agent. Examples of biologic medications include: vaccines; allergenic extracts, which are used for both diagnosis and treatment (for example, allergy shots); gene therapies; cellular therapies.  There are other biologic products, such as tissues, which are not typically associated with allergies." ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "Biologic" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "environment" ] ;
+     fhir:display [ fhir:v "prostředí" ] ;
+     fhir:definition [ fhir:v "Jakékoli látky, které se vyskytují v životním prostředí, včetně látek, které dosud nebyly klasifikovány jako potraviny, léky nebo biologické látky." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "Any substances that are encountered in the environment, including any substance not already classified as food, medication, or biologic." ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "Environment" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "food" ] ;
+     fhir:display [ fhir:v "potravina" ] ;
+     fhir:definition [ fhir:v "Jakákoli látka konzumovaná za účelem výživové podpory organismu." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "Any substance consumed to provide nutritional support for the body." ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "Food" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "medication" ] ;
+     fhir:display [ fhir:v "léčivo" ] ;
+     fhir:definition [ fhir:v "Látky podávané za účelem dosažení fyziologického účinku." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "Substances administered to achieve a physiological effect." ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "Medication" ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

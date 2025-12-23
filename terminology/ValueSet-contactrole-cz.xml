@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="contactrole-cz"/>
+  <language value="cs"/>
+  <text>
+    <status value="extensions"/><div xml:lang="cs" xmlns="http://www.w3.org/1999/xhtml" lang="cs"><p class="res-header-id"><b>Generated Narrative: ValueSet contactrole-cz</b></p><a name="contactrole-cz"> </a><a name="hccontactrole-cz"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: cs</p></div><p>This ValueSet requires the Code system Supplement <a href="CodeSystem-v2-0131-cz.html">Contact Role (CZ supplement)</a>.</p><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href="http://terminology.hl7.org/7.0.1/CodeSystem-v2-0131.html"><code>http://terminology.hl7.org/CodeSystem/v2-0131</code></a><span title="Version is explicitly stated to be 3.0.0"> version &#x1F4CD;3.0.0</span></li></ul><p>This value set excludes codes based on the following rules:</p><ul><li>Exclude these codes as defined in <a href="http://terminology.hl7.org/7.0.1/CodeSystem-v2-0131.html"><code>http://terminology.hl7.org/CodeSystem/v2-0131</code></a><span title="Version is explicitly stated to be 3.0.0"> version &#x1F4CD;3.0.0</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><code>O</code></td><td style="color: #cccccc">Other</td><td>Other</td></tr><tr><td><code>BP</code></td><td style="color: #cccccc">Billing contact person</td><td>Billing contact person</td></tr><tr><td><code>EP</code></td><td style="color: #cccccc">Emergency contact person</td><td>Emergency contact person</td></tr><tr><td><code>PR</code></td><td style="color: #cccccc">Person preparing referral</td><td>Person preparing referral</td></tr><tr><td><code>CP</code></td><td style="color: #cccccc">Contact person</td><td>Contact person</td></tr></table></li></ul></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/valueset-supplement">
+    <valueCanonical value="https://hl7.cz/terminology/CodeSystem/v2-0131-cz"/>
+  </extension>
+  <url value="https://hl7.cz/terminology/ValueSet/contactrole-cz"/>
+  <version value="0.2.0"/>
+  <name value="Hl7vs_contactrole_cz"/>
+  <title value="Contact Role (CZ)"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2025-04-03T08:19:42.070148Z"/>
+  <publisher value="HL7 Czech Republic"/>
+  <contact>
+    <name value="HL7 Czech Republic"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hl7.cz/"/>
+    </telecom>
+  </contact>
+  <description value="Číselník rolí kontaktních osob ve vztahu k pacientovi. (Concepts specifying role of contact person.)"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CZ"/>
+      <display value="Czechia"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="HL7 International"/>
+  <compose>
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/v2-0131"/>
+      <version value="3.0.0"/>
+    </include>
+    <exclude>
+      <system value="http://terminology.hl7.org/CodeSystem/v2-0131"/>
+      <version value="3.0.0"/>
+      <concept>
+        <code value="O"/>
+      </concept>
+      <concept>
+        <code value="BP"/>
+      </concept>
+      <concept>
+        <code value="EP"/>
+      </concept>
+      <concept>
+        <code value="PR"/>
+      </concept>
+      <concept>
+        <code value="CP"/>
+      </concept>
+    </exclude>
+  </compose>
+</ValueSet>

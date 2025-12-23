@@ -1,0 +1,68 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hl7.cz/terminology/ValueSet/allergy-intolerance-criticality-cz> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "allergy-intolerance-criticality-cz"] ; # 
+  fhir:language [ fhir:v "cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xml:lang=\"cs\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"cs\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet allergy-intolerance-criticality-cz</b></p><a name=\"allergy-intolerance-criticality-cz\"> </a><a name=\"hcallergy-intolerance-criticality-cz\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: cs</p></div><p>This ValueSet requires the Code system Supplement <a href=\"CodeSystem-allergy-intolerance-criticality-cz.html\">AllergyIntoleranceCriticality (CZ supplement)</a>.</p><ul><li>Include all codes defined in <a href=\"http://hl7.org/fhir/R4/codesystem-allergy-intolerance-criticality.html\"><code>http://hl7.org/fhir/allergy-intolerance-criticality</code></a><span title=\"Version is explicitly stated to be 4.0.1\"> version ?4.0.1</span></li></ul></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/valueset-supplement"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/valueset-supplement>
+     ] ;
+     fhir:value [
+       a fhir:Canonical ;
+       fhir:v "https://hl7.cz/terminology/CodeSystem/allergy-intolerance-criticality-cz"^^xsd:anyURI ;
+       fhir:l <https://hl7.cz/terminology/CodeSystem/allergy-intolerance-criticality-cz>
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "https://hl7.cz/terminology/ValueSet/allergy-intolerance-criticality-cz"^^xsd:anyURI ;
+     fhir:l <https://hl7.cz/terminology/ValueSet/allergy-intolerance-criticality-cz>
+  ] ; # 
+  fhir:version [ fhir:v "0.2.0"] ; # 
+  fhir:name [ fhir:v "AllergyIntoleranceCriticality"] ; # 
+  fhir:title [ fhir:v "AllergyIntoleranceCriticality (CZ supplement)"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2025-12-15T12:08:45.155576Z"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 Czech Republic"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HL7 Czech Republic" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://www.hl7.cz/" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Estimate of the potential clinical harm, or seriousness, of a reaction to an identified substance."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
+         fhir:l <urn:iso:std:iso:3166>
+       ] ;
+       fhir:code [ fhir:v "CZ" ] ;
+       fhir:display [ fhir:v "Czechia" ]
+     ] )
+  ] ) ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/allergy-intolerance-criticality"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/allergy-intolerance-criticality>
+       ] ;
+       fhir:version [ fhir:v "4.0.1" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

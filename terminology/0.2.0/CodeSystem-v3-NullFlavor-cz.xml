@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v3-NullFlavor-cz"/>
+  <language value="cs"/>
+  <text>
+    <status value="generated"/><div xml:lang="cs" xmlns="http://www.w3.org/1999/xhtml" lang="cs"><p class="res-header-id"><b>Generated Narrative: CodeSystem v3-NullFlavor-cz</b></p><a name="v3-NullFlavor-cz"> </a><a name="hcv3-NullFlavor-cz"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: cs</p></div><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class="grid"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>status</td><td>status</td><td>http://hl7.org/fhir/concept-properties#status</td><td>code</td><td>Status</td></tr><tr><td>Parent</td><td>subsumedBy</td><td>http://hl7.org/fhir/concept-properties#parent</td><td>code</td><td>The concept code of a parent concept</td></tr></table><p><b>Concepts</b></p><p>This code system supplement <code>https://hl7.cz/terminology/CodeSystem/v3-NullFlavor-cz</code> defines displays and properties on the following codes:</p><table class="codes"><tr><td><b>Lvl</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>status</b></td><td><b>Parent</b></td><td><b>English (English, en)</b></td></tr><tr><td>1</td><td><a style="white-space:nowrap" href="http://terminology.hl7.org/7.0.1/CodeSystem-v3-NullFlavor.html#v3-NullFlavor-NI">NI</a><a name="v3-NullFlavor-cz-NI"> </a></td><td>žádné informace</td><td>**Popis:** Hodnota je výjimečná (chybí, je vynechána, je neúplná, je nesprávná). Není uvedeno žádné vysvětlení, proč je hodnota označena jako výjimečná. Jedná se o nejobecnější a také výchozí způsob označení výjimečné hodnoty.</td><td>active</td><td/><td>**Description:**The value is exceptional (missing, omitted, incomplete, improper). No information as to the reason for being an exceptional value is provided. This is the most general exceptional value. It is also the default exceptional value.</td></tr><tr><td>2</td><td>  <a style="white-space:nowrap" href="http://terminology.hl7.org/7.0.1/CodeSystem-v3-NullFlavor.html#v3-NullFlavor-INV">INV</a><a name="v3-NullFlavor-cz-INV"> </a></td><td>neplatné</td><td>**Popis:** Hodnota reprezentovaná v instanci není součástí stanoveného oboru hodnot proměnné.</td><td>active</td><td>NI</td><td>**Description:**The value as represented in the instance is not a member of the set of permitted data values in the constrained value domain of a variable.</td></tr><tr><td>3</td><td>    <a style="white-space:nowrap" href="http://terminology.hl7.org/7.0.1/CodeSystem-v3-NullFlavor.html#v3-NullFlavor-DER">DER</a><a name="v3-NullFlavor-cz-DER"> </a></td><td>odvozeno</td><td>**Popis:** Skutečná hodnota může existovat, ale musí být odvozena z poskytnutých informací (k vyjádření odvozeného výrazu se obvykle používá rozšíření generického datového typu EXPR).</td><td>active</td><td>INV</td><td>**Description:**An actual value may exist, but it must be derived from the provided information (usually an EXPR generic data type extension will be used to convey the derivation expressionexpression .</td></tr><tr><td>3</td><td>    <a style="white-space:nowrap" href="http://terminology.hl7.org/7.0.1/CodeSystem-v3-NullFlavor.html#v3-NullFlavor-OTH">OTH</a><a name="v3-NullFlavor-cz-OTH"> </a></td><td>jinak</td><td>**Popis:** Skutečná hodnota není členem oboru hodnot proměnné. (např. pojem není obsažen v požadovaném kódovém systému). **Poznámky k použití**: Tento typ a jeho specializace se nejčastěji používají s datovým typem CD a jeho typy. Může se však vztahovat na \*jakýkoli\* datový typ, u kterého jsou omezení typu přísnější, než lze vyjádřit. U kódovaných datových typů lze tento typ null flavor použít pouze v případě, že vazba slovníku má kódovací sílu CNE. Podle definice jsou všechny místní kódy a původní text součástí sady hodnot, pokud je kódovací síla CWE.</td><td>active</td><td>INV</td><td>**Description:**The actual value is not a member of the set of permitted data values in the constrained value domain of a variable. (e.g., concept not provided by required code system).
+
+**Usage Notes**: This flavor and its specializations are most commonly used with the CD datatype and its flavors. However, it may apply to \*any\* datatype where the constraints of the type are tighter than can be conveyed. For example, a PQ that is for a true measured amount whose units are not supported in UCUM, a need to convey a REAL when the type has been constrained to INT, etc.
+
+With coded datatypes, this null flavor may only be used if the vocabulary binding has a coding strength of CNE. By definition, all local codes and original text are part of the value set if the coding strength is CWE.</td></tr><tr><td>4</td><td>      <a style="white-space:nowrap" href="http://terminology.hl7.org/7.0.1/CodeSystem-v3-NullFlavor.html#v3-NullFlavor-NINF">NINF</a><a name="v3-NullFlavor-cz-NINF"> </a></td><td>záporná nekonečnost</td><td>Záporná nekonečnost čísel.</td><td>active</td><td>OTH</td><td>Negative infinity of numbers.</td></tr><tr><td>4</td><td>      <a style="white-space:nowrap" href="http://terminology.hl7.org/7.0.1/CodeSystem-v3-NullFlavor.html#v3-NullFlavor-PINF">PINF</a><a name="v3-NullFlavor-cz-PINF"> </a></td><td>kladná nekonečnost</td><td>Kladná nekonečnost čísel.</td><td>active</td><td>OTH</td><td>Positive infinity of numbers.</td></tr><tr><td>3</td><td>    <a style="white-space:nowrap" href="http://terminology.hl7.org/7.0.1/CodeSystem-v3-NullFlavor.html#v3-NullFlavor-UNC">UNC</a><a name="v3-NullFlavor-cz-UNC"> </a></td><td>nekódováno</td><td>**Popis:** Skutečná hodnota ještě nebyla zakódována pomocí schváleného oboru hodnot. **Příklad**: Byl zadán původní text nebo lokální kód, ale překlad nebo kódování do schválené sady hodnot ještě neproběhlo z důvodu omezení na straně odesílacího systému. Původní text byl zaznamenán pro PQ, ale nebyl proveden pokus o rozdělení hodnoty a jednotky nebo o zakódování jednotky v UCUM. **Poznámky k použití**: Pokud je známo, že není možné koncept zakódovat, mělo by se místo toho použít OTH. Použití UNC však nutně nezaručuje, že koncept bude zakódovatelný, pouze to, že se o kódování nepokusili. Vlastnosti datového typu, jako je původní text a překlady, mohou být přítomny, pokud je použita tato varianta.</td><td>active</td><td>INV</td><td>**Description:** The actual value has not yet been encoded within the approved value domain.
+
+**Example**: Original text or a local code has been specified but translation or encoding to the approved value set has not yet occurred due to limitations of the sending system. Original text has been captured for a PQ, but not attempt has been made to split the value and unit or to encode the unit in UCUM.
+
+**Usage Notes**: If it is known that it is not possible to encode the concept, OTH should be used instead. However, use of UNC does not necessarily guarantee the concept will be encodable, only that encoding has not been attempted.
+
+Data type properties such as original text and translations may be present when this null flavor is included.</td></tr><tr><td>2</td><td>  <a style="white-space:nowrap" href="http://terminology.hl7.org/7.0.1/CodeSystem-v3-NullFlavor.html#v3-NullFlavor-MSK">MSK</a><a name="v3-NullFlavor-cz-MSK"> </a></td><td>zatajeno</td><td>K této položce jsou k dispozici informace, ale odesílatel je z bezpečnostních, soukromých nebo jiných důvodů neposkytl. K získání přístupu k těmto informacím může existovat alternativní mechanismus. Poznámka: použití této varianty null flavor sice neposkytuje žádné podrobné údaje, ale přesto může dojít k porušení důvěrnosti informací. Její primární účel spočívá v situacích, kdy je nutné informovat příjemce o existenci informací, aniž by byl poskytnut jejich obsah.</td><td>active</td><td>NI</td><td>There is information on this item available but it has not been provided by the sender due to security, privacy or other reasons. There may be an alternate mechanism for gaining access to this information.
+
+Note: using this null flavor does provide information that may be a breach of confidentiality, even though no detail data is provided. Its primary purpose is for those circumstances where it is necessary to inform the receiver that the information does exist without providing any detail.</td></tr><tr><td>2</td><td>  <a style="white-space:nowrap" href="http://terminology.hl7.org/7.0.1/CodeSystem-v3-NullFlavor.html#v3-NullFlavor-NA">NA</a><a name="v3-NullFlavor-cz-NA"> </a></td><td>neuplatní se</td><td>Je známo, že nemá žádnou odpovídající hodnotu (např. poslední menstruace u muže).</td><td>active</td><td>NI</td><td>Known to have no proper value (e.g., last menstrual period for a male).</td></tr><tr><td>2</td><td>  <a style="white-space:nowrap" href="http://terminology.hl7.org/7.0.1/CodeSystem-v3-NullFlavor.html#v3-NullFlavor-UNK">UNK</a><a name="v3-NullFlavor-cz-UNK"> </a></td><td>není známo</td><td>**Popis:** Správná hodnota by měla být použita, ale není známa. **Poznámky k použití**: To znamená, že skutečná hodnota není známa. Pokud jedinou neznámou věcí je, jak správně vyjádřit požadovanou hodnotu v rámci daných omezení (sada hodnot, datový typ atd.), pak by se měla použít varianta OTH nebo UNC. Pro datový typ s touto vlastností by neměly být uvedeny žádné jiné vlastnosti, ledaže: 1. Tyto vlastnosti samy o sobě přímo odpovídají sémantice „neznámé“. (Např. lokální kód odeslaný jako překlad, který vyjadřuje „neznámé“). 2. Tyto vlastnosti dále upřesňují povahu toho, co je neznámé. (Např. zadání kódu použití „H“ a předpony URL „tel:“, aby bylo zřejmé, že se jedná o neznámé číslo domácího telefonu.)</td><td>active</td><td>NI</td><td>**Description:**A proper value is applicable, but not known.
+
+**Usage Notes**: This means the actual value is not known. If the only thing that is unknown is how to properly express the value in the necessary constraints (value set, datatype, etc.), then the OTH or UNC flavor should be used. No properties should be included for a datatype with this property unless:
+
+1.  Those properties themselves directly translate to a semantic of &quot;unknown&quot;. (E.g. a local code sent as a translation that conveys 'unknown')
+2.  Those properties further qualify the nature of what is unknown. (E.g. specifying a use code of &quot;H&quot; and a URL prefix of &quot;tel:&quot; to convey that it is the home phone number that is unknown.)</td></tr><tr><td>3</td><td>    <a style="white-space:nowrap" href="http://terminology.hl7.org/7.0.1/CodeSystem-v3-NullFlavor.html#v3-NullFlavor-ASKU">ASKU</a><a name="v3-NullFlavor-cz-ASKU"> </a></td><td>dotázáno, ale neznámé</td><td>Informace byla zjišťována, ale nebyla získána (např. pacient byl dotázán, ale nevěděl).</td><td>active</td><td>UNK</td><td>Information was sought but not found (e.g., patient was asked but didn't know)</td></tr><tr><td>4</td><td>      <a style="white-space:nowrap" href="http://terminology.hl7.org/7.0.1/CodeSystem-v3-NullFlavor.html#v3-NullFlavor-NAV">NAV</a><a name="v3-NullFlavor-cz-NAV"> </a></td><td>dočasně neznámé</td><td>Informace nejsou v tuto chvíli k dispozici, ale očekává se, že budou k dispozici později.</td><td>active</td><td>ASKU, NAVU</td><td>Information is not available at this time but it is expected that it will be available later.</td></tr><tr><td>3</td><td>    <a style="white-space:nowrap" href="http://terminology.hl7.org/7.0.1/CodeSystem-v3-NullFlavor.html#v3-NullFlavor-NASK">NASK</a><a name="v3-NullFlavor-cz-NASK"> </a></td><td>nezjišťováno</td><td>Tato informace nebyla zjišťována (např. pacient nebyl dotazován).</td><td>active</td><td>UNK</td><td>This information has not been sought (e.g., patient was not asked)</td></tr><tr><td>3</td><td>    <a style="white-space:nowrap" href="http://terminology.hl7.org/7.0.1/CodeSystem-v3-NullFlavor.html#v3-NullFlavor-NAVU">NAVU</a><a name="v3-NullFlavor-cz-NAVU"> </a></td><td>neznámé</td><td>Informace nejsou v současné době k dispozici (bez očekávání, zda budou nebo nebudou k dispozici v budoucnu).</td><td>active</td><td>UNK</td><td>Information is not available at this time (with no expectation regarding whether it will or will not be available in the future).</td></tr><tr><td>4</td><td style="white-space:nowrap">      <a href="#v3-NullFlavor-cz-NAV">NAV</a></td><td>dočasně neznámé</td><td colspan="3"/></tr><tr><td>3</td><td>    <a style="white-space:nowrap" href="http://terminology.hl7.org/7.0.1/CodeSystem-v3-NullFlavor.html#v3-NullFlavor-QS">QS</a><a name="v3-NullFlavor-cz-QS"> </a></td><td>dostatečné množství</td><td>**Popis:**Konkrétní množství není známo, ale je známo, že není nulové a není specifikováno, protože tvoří většinu materiálu. Např. „Přidejte 10 mg složky X, 50 mg složky Y a dostatečné množství vody na 100 ml.“ K vyjádření množství vody by se použila taro hodnota null flavor.</td><td>active</td><td>UNK</td><td>**Description:**The specific quantity is not known, but is known to be non-zero and is not specified because it makes up the bulk of the material. e.g. 'Add 10mg of ingredient X, 50mg of ingredient Y, and sufficient quantity of water to 100mL.' The null flavor would be used to express the quantity of water.</td></tr><tr><td>3</td><td>    <a style="white-space:nowrap" href="http://terminology.hl7.org/7.0.1/CodeSystem-v3-NullFlavor.html#v3-NullFlavor-TRC">TRC</a><a name="v3-NullFlavor-cz-TRC"> </a></td><td>stopa</td><td>Obsah je větší než nula, ale příliš malý na to, aby mohl být kvantifikován.</td><td>active</td><td>UNK</td><td>The content is greater than zero, but too small to be quantified.</td></tr><tr><td>1</td><td><a style="white-space:nowrap" href="http://terminology.hl7.org/7.0.1/CodeSystem-v3-NullFlavor.html#v3-NullFlavor-NP">NP</a><a name="v3-NullFlavor-cz-NP"> </a></td><td>není uvedeno</td><td>Hodnota není přítomna ve zprávě. Definuje se pouze ve zprávách, nikdy v aplikačních datech! Všechny hodnoty, které nejsou přítomny ve zprávě, musí být v aplikačních datech nahrazeny příslušnou implicitní hodnotou nebo hodnotou „bez informací“ (NI).</td><td>active</td><td/><td>Value is not present in a message. This is only defined in messages, never in application data! All values not present in the message must be replaced by the applicable default, or no-information (NI) as the default of all defaults.</td></tr></table></div>
+  </text>
+  <url value="https://hl7.cz/terminology/CodeSystem/v3-NullFlavor-cz"/>
+  <version value="0.2.0"/>
+  <name value="NullFlavor"/>
+  <title value="Null Flavor (CZ supplement)"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2025-12-13T05:22:58.056901Z"/>
+  <publisher value="HL7 Czech Republic"/>
+  <contact>
+    <name value="HL7 Czech Republic"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hl7.cz/"/>
+    </telecom>
+  </contact>
+  <description value="Null Flavor (CZ Code system supplement)"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CZ"/>
+      <display value="Czechia"/>
+    </coding>
+  </jurisdiction>
+  <content value="supplement"/>
+  <supplements value="http://terminology.hl7.org/CodeSystem/v3-NullFlavor|3.0.0"/>
+  <property>
+    <code value="status"/>
+    <uri value="http://hl7.org/fhir/concept-properties#status"/>
+    <description value="Status"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="subsumedBy"/>
+    <uri value="http://hl7.org/fhir/concept-properties#parent"/>
+    <description value="The concept code of a parent concept"/>
+    <type value="code"/>
+  </property>
+  <concept>
+    <code value="ASKU"/>
+    <display value="dotázáno, ale neznámé"/>
+    <definition value="Informace byla zjišťována, ale nebyla získána (např. pacient byl dotázán, ale nevěděl)."/>
+    <designation>
+      <language value="en"/>
+      <use>
+        <code value="definition"/>
+      </use>
+      <value value="Information was sought but not found (e.g., patient was asked but didn't know)"/>
+    </designation>
+    <designation>
+      <language value="en"/>
+      <use>
+        <code value="display"/>
+      </use>
+      <value value="asked but unknown"/>
+    </designation>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="UNK"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="DER"/>
+    <display value="odvozeno"/>
+    <definition value="**Popis:** Skutečná hodnota může existovat, ale musí být odvozena z poskytnutých informací (k vyjádření odvozeného výrazu se obvykle používá rozšíření generického datového typu EXPR)."/>
+    <designation>
+      <language value="en"/>
+      <use>
+        <code value="definition"/>
+      </use>
+      <value value="**Description:**An actual value may exist, but it must be derived from the provided information (usually an EXPR generic data type extension will be used to convey the derivation expressionexpression ."/>
+    </designation>
+    <designation>
+      <language value="en"/>
+      <use>
+        <code value="display"/>
+      </use>
+      <value value="derived"/>
+    </designation>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="INV"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="INV"/>
+    <display value="neplatné"/>
+    <definition value="**Popis:** Hodnota reprezentovaná v instanci není součástí stanoveného oboru hodnot proměnné."/>
+    <designation>
+      <language value="en"/>
+      <use>
+        <code value="definition"/>
+      </use>
+      <value value="**Description:**The value as represented in the instance is not a member of the set of permitted data values in the constrained value domain of a variable."/>
+    </designation>
+    <designation>
+      <language value="en"/>
+      <use>
+        <code value="display"/>
+      </use>
+      <value value="invalid"/>
+    </designation>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="NI"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="MSK"/>
+    <display value="zatajeno"/>
+    <definition value="K této položce jsou k dispozici informace, ale odesílatel je z bezpečnostních, soukromých nebo jiných důvodů neposkytl. K získání přístupu k těmto informacím může existovat alternativní mechanismus. Poznámka: použití této varianty null flavor sice neposkytuje žádné podrobné údaje, ale přesto může dojít k porušení důvěrnosti informací. Její primární účel spočívá v situacích, kdy je nutné informovat příjemce o existenci informací, aniž by byl poskytnut jejich obsah."/>
+    <designation>
+      <language value="en"/>
+      <use>
+        <code value="definition"/>
+      </use>
+      <value value="There is information on this item available but it has not been provided by the sender due to security, privacy or other reasons. There may be an alternate mechanism for gaining access to this information.&#xD;&#xA;&#xD;&#xA;Note: using this null flavor does provide information that may be a breach of confidentiality, even though no detail data is provided. Its primary purpose is for those circumstances where it is necessary to inform the receiver that the information does exist without providing any detail."/>
+    </designation>
+    <designation>
+      <language value="en"/>
+      <use>
+        <code value="display"/>
+      </use>
+      <value value="masked"/>
+    </designation>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="NI"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="NA"/>
+    <display value="neuplatní se"/>
+    <definition value="Je známo, že nemá žádnou odpovídající hodnotu (např. poslední menstruace u muže)."/>
+    <designation>
+      <language value="en"/>
+      <use>
+        <code value="definition"/>
+      </use>
+      <value value="Known to have no proper value (e.g., last menstrual period for a male)."/>
+    </designation>
+    <designation>
+      <language value="en"/>
+      <use>
+        <code value="display"/>
+      </use>
+      <value value="not applicable"/>
+    </designation>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="NI"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="NASK"/>
+    <display value="nezjišťováno"/>
+    <definition value="Tato informace nebyla zjišťována (např. pacient nebyl dotazován)."/>
+    <designation>
+      <language value="en"/>
+      <use>
+        <code value="definition"/>
+      </use>
+      <value value="This information has not been sought (e.g., patient was not asked)"/>
+    </designation>
+    <designation>
+      <language value="en"/>
+      <use>
+        <code value="display"/>
+      </use>
+      <value value="not asked"/>
+    </designation>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="UNK"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="NAV"/>
+    <display value="dočasně neznámé"/>
+    <definition value="Informace nejsou v tuto chvíli k dispozici, ale očekává se, že budou k dispozici později."/>
+    <designation>
+      <language value="en"/>
+      <use>
+        <code value="definition"/>
+      </use>
+      <value value="Information is not available at this time but it is expected that it will be available later."/>
+    </designation>
+    <designation>
+      <language value="en"/>
+      <use>
+        <code value="display"/>
+      </use>
+      <value value="temporarily unavailable"/>
+    </designation>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="ASKU"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="NAVU"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="NAVU"/>
+    <display value="neznámé"/>
+    <definition value="Informace nejsou v současné době k dispozici (bez očekávání, zda budou nebo nebudou k dispozici v budoucnu)."/>
+    <designation>
+      <language value="en"/>
+      <use>
+        <code value="definition"/>
+      </use>
+      <value value="Information is not available at this time (with no expectation regarding whether it will or will not be available in the future)."/>
+    </designation>
+    <designation>
+      <language value="en"/>
+      <use>
+        <code value="display"/>
+      </use>
+      <value value="Not available"/>
+    </designation>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="UNK"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="NI"/>
+    <display value="žádné informace"/>
+    <definition value="**Popis:** Hodnota je výjimečná (chybí, je vynechána, je neúplná, je nesprávná). Není uvedeno žádné vysvětlení, proč je hodnota označena jako výjimečná. Jedná se o nejobecnější a také výchozí způsob označení výjimečné hodnoty."/>
+    <designation>
+      <language value="en"/>
+      <use>
+        <code value="definition"/>
+      </use>
+      <value value="**Description:**The value is exceptional (missing, omitted, incomplete, improper). No information as to the reason for being an exceptional value is provided. This is the most general exceptional value. It is also the default exceptional value."/>
+    </designation>
+    <designation>
+      <language value="en"/>
+      <use>
+        <code value="display"/>
+      </use>
+      <value value="NoInformation"/>
+    </designation>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="NINF"/>
+    <display value="záporná nekonečnost"/>
+    <definition value="Záporná nekonečnost čísel."/>
+    <designation>
+      <language value="en"/>
+      <use>
+        <code value="definition"/>
+      </use>
+      <value value="Negative infinity of numbers."/>
+    </designation>
+    <designation>
+      <language value="en"/>
+      <use>
+        <code value="display"/>
+      </use>
+      <value value="negative infinity"/>
+    </designation>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="OTH"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="NP"/>
+    <display value="není uvedeno"/>
+    <definition value="Hodnota není přítomna ve zprávě. Definuje se pouze ve zprávách, nikdy v aplikačních datech! Všechny hodnoty, které nejsou přítomny ve zprávě, musí být v aplikačních datech nahrazeny příslušnou implicitní hodnotou nebo hodnotou „bez informací“ (NI)."/>
+    <designation>
+      <language value="en"/>
+      <use>
+        <code value="definition"/>
+      </use>
+      <value value="Value is not present in a message. This is only defined in messages, never in application data! All values not present in the message must be replaced by the applicable default, or no-information (NI) as the default of all defaults."/>
+    </designation>
+    <designation>
+      <language value="en"/>
+      <use>
+        <code value="display"/>
+      </use>
+      <value value="not present"/>
+    </designation>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="OTH"/>
+    <display value="jinak"/>
+    <definition value="**Popis:** Skutečná hodnota není členem oboru hodnot proměnné. (např. pojem není obsažen v požadovaném kódovém systému). **Poznámky k použití**: Tento typ a jeho specializace se nejčastěji používají s datovým typem CD a jeho typy. Může se však vztahovat na \*jakýkoli\* datový typ, u kterého jsou omezení typu přísnější, než lze vyjádřit. U kódovaných datových typů lze tento typ null flavor použít pouze v případě, že vazba slovníku má kódovací sílu CNE. Podle definice jsou všechny místní kódy a původní text součástí sady hodnot, pokud je kódovací síla CWE."/>
+    <designation>
+      <language value="en"/>
+      <use>
+        <code value="definition"/>
+      </use>
+      <value value="**Description:**The actual value is not a member of the set of permitted data values in the constrained value domain of a variable. (e.g., concept not provided by required code system).&#xD;&#xA;&#xD;&#xA;**Usage Notes**: This flavor and its specializations are most commonly used with the CD datatype and its flavors. However, it may apply to \*any\* datatype where the constraints of the type are tighter than can be conveyed. For example, a PQ that is for a true measured amount whose units are not supported in UCUM, a need to convey a REAL when the type has been constrained to INT, etc.&#xD;&#xA;&#xD;&#xA;With coded datatypes, this null flavor may only be used if the vocabulary binding has a coding strength of CNE. By definition, all local codes and original text are part of the value set if the coding strength is CWE."/>
+    </designation>
+    <designation>
+      <language value="en"/>
+      <use>
+        <code value="display"/>
+      </use>
+      <value value="other"/>
+    </designation>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="INV"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="PINF"/>
+    <display value="kladná nekonečnost"/>
+    <definition value="Kladná nekonečnost čísel."/>
+    <designation>
+      <language value="en"/>
+      <use>
+        <code value="definition"/>
+      </use>
+      <value value="Positive infinity of numbers."/>
+    </designation>
+    <designation>
+      <language value="en"/>
+      <use>
+        <code value="display"/>
+      </use>
+      <value value="positive infinity"/>
+    </designation>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="OTH"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="QS"/>
+    <display value="dostatečné množství"/>
+    <definition value="**Popis:**Konkrétní množství není známo, ale je známo, že není nulové a není specifikováno, protože tvoří většinu materiálu. Např. „Přidejte 10 mg složky X, 50 mg složky Y a dostatečné množství vody na 100 ml.“ K vyjádření množství vody by se použila taro hodnota null flavor."/>
+    <designation>
+      <language value="en"/>
+      <use>
+        <code value="definition"/>
+      </use>
+      <value value="**Description:**The specific quantity is not known, but is known to be non-zero and is not specified because it makes up the bulk of the material. e.g. 'Add 10mg of ingredient X, 50mg of ingredient Y, and sufficient quantity of water to 100mL.' The null flavor would be used to express the quantity of water."/>
+    </designation>
+    <designation>
+      <language value="en"/>
+      <use>
+        <code value="display"/>
+      </use>
+      <value value="Sufficient Quantity"/>
+    </designation>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="UNK"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="TRC"/>
+    <display value="stopa"/>
+    <definition value="Obsah je větší než nula, ale příliš malý na to, aby mohl být kvantifikován."/>
+    <designation>
+      <language value="en"/>
+      <use>
+        <code value="definition"/>
+      </use>
+      <value value="The content is greater than zero, but too small to be quantified."/>
+    </designation>
+    <designation>
+      <language value="en"/>
+      <use>
+        <code value="display"/>
+      </use>
+      <value value="trace"/>
+    </designation>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="UNK"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="UNC"/>
+    <display value="nekódováno"/>
+    <definition value="**Popis:** Skutečná hodnota ještě nebyla zakódována pomocí schváleného oboru hodnot. **Příklad**: Byl zadán původní text nebo lokální kód, ale překlad nebo kódování do schválené sady hodnot ještě neproběhlo z důvodu omezení na straně odesílacího systému. Původní text byl zaznamenán pro PQ, ale nebyl proveden pokus o rozdělení hodnoty a jednotky nebo o zakódování jednotky v UCUM. **Poznámky k použití**: Pokud je známo, že není možné koncept zakódovat, mělo by se místo toho použít OTH. Použití UNC však nutně nezaručuje, že koncept bude zakódovatelný, pouze to, že se o kódování nepokusili. Vlastnosti datového typu, jako je původní text a překlady, mohou být přítomny, pokud je použita tato varianta."/>
+    <designation>
+      <language value="en"/>
+      <use>
+        <code value="definition"/>
+      </use>
+      <value value="**Description:** The actual value has not yet been encoded within the approved value domain.&#xD;&#xA;&#xD;&#xA;**Example**: Original text or a local code has been specified but translation or encoding to the approved value set has not yet occurred due to limitations of the sending system. Original text has been captured for a PQ, but not attempt has been made to split the value and unit or to encode the unit in UCUM.&#xD;&#xA;&#xD;&#xA;**Usage Notes**: If it is known that it is not possible to encode the concept, OTH should be used instead. However, use of UNC does not necessarily guarantee the concept will be encodable, only that encoding has not been attempted.&#xD;&#xA;&#xD;&#xA;Data type properties such as original text and translations may be present when this null flavor is included."/>
+    </designation>
+    <designation>
+      <language value="en"/>
+      <use>
+        <code value="display"/>
+      </use>
+      <value value="un-encoded"/>
+    </designation>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="INV"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="UNK"/>
+    <display value="není známo"/>
+    <definition value="**Popis:** Správná hodnota by měla být použita, ale není známa. **Poznámky k použití**: To znamená, že skutečná hodnota není známa. Pokud jedinou neznámou věcí je, jak správně vyjádřit požadovanou hodnotu v rámci daných omezení (sada hodnot, datový typ atd.), pak by se měla použít varianta OTH nebo UNC. Pro datový typ s touto vlastností by neměly být uvedeny žádné jiné vlastnosti, ledaže: 1. Tyto vlastnosti samy o sobě přímo odpovídají sémantice „neznámé“. (Např. lokální kód odeslaný jako překlad, který vyjadřuje „neznámé“). 2. Tyto vlastnosti dále upřesňují povahu toho, co je neznámé. (Např. zadání kódu použití „H“ a předpony URL „tel:“, aby bylo zřejmé, že se jedná o neznámé číslo domácího telefonu.)"/>
+    <designation>
+      <language value="en"/>
+      <use>
+        <code value="definition"/>
+      </use>
+      <value value="**Description:**A proper value is applicable, but not known.&#xD;&#xA;&#xD;&#xA;**Usage Notes**: This means the actual value is not known. If the only thing that is unknown is how to properly express the value in the necessary constraints (value set, datatype, etc.), then the OTH or UNC flavor should be used. No properties should be included for a datatype with this property unless:&#xD;&#xA;&#xD;&#xA;1.  Those properties themselves directly translate to a semantic of &quot;unknown&quot;. (E.g. a local code sent as a translation that conveys 'unknown')&#xD;&#xA;2.  Those properties further qualify the nature of what is unknown. (E.g. specifying a use code of &quot;H&quot; and a URL prefix of &quot;tel:&quot; to convey that it is the home phone number that is unknown.)"/>
+    </designation>
+    <designation>
+      <language value="en"/>
+      <use>
+        <code value="display"/>
+      </use>
+      <value value="unknown"/>
+    </designation>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="NI"/>
+    </property>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,61 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "referralorder-types",
+  "language" : "cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"cs\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"cs\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet referralorder-types</b></p><a name=\"referralorder-types\"> </a><a name=\"hcreferralorder-types\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: cs</p></div><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"https://loinc.org/57133-1/\">57133-1</a></td><td>žádanka o vyšetření</td></tr><tr><td><a href=\"https://loinc.org/57830-2/\">57830-2</a></td><td>žádanka o hospitalizaci</td></tr><tr><td><a href=\"https://loinc.org/57154-7/\">57154-7</a></td><td>žádanka o fyzioterapii</td></tr></table></li><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/721965002\">721965002</a></td><td>žádanka o laboratorní vyšetření</td></tr><tr><td><a href=\"http://snomed.info/id/721964003\">721964003</a></td><td>žádanka o zobrazovací vyšetření</td></tr></table></li></ul></div>"
+  },
+  "url" : "https://ncez.mzcr.cz/terminology/ValueSet/referralorder-types",
+  "version" : "0.2.0",
+  "name" : "ReferralorderTypes",
+  "title" : "Typy žádanek",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2025-11-19T15:26:54.549507Z",
+  "publisher" : "HL7 Czech Republic",
+  "contact" : [{
+    "name" : "HL7 Czech Republic",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.hl7.cz/"
+    }]
+  }],
+  "description" : "Číselník typů žádanek",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CZ",
+      "display" : "Czechia"
+    }]
+  }],
+  "copyright" : "This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc",
+  "compose" : {
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "57133-1",
+        "display" : "žádanka o vyšetření"
+      },
+      {
+        "code" : "57830-2",
+        "display" : "žádanka o hospitalizaci"
+      },
+      {
+        "code" : "57154-7",
+        "display" : "žádanka o fyzioterapii"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "721965002",
+        "display" : "žádanka o laboratorní vyšetření"
+      },
+      {
+        "code" : "721964003",
+        "display" : "žádanka o zobrazovací vyšetření"
+      }]
+    }]
+  }
+}

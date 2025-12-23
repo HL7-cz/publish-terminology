@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="allergy-intolerance-category-cz"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem allergy-intolerance-category-cz</b></p><a name="allergy-intolerance-category-cz"> </a><a name="hcallergy-intolerance-category-cz"> </a><p>This code system supplement <code>https://hl7.cz/terminology/CodeSystem/allergy-intolerance-category-cz</code> defines displays on the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>English (English, en)</b></td></tr><tr><td><a style="white-space:nowrap" href="http://hl7.org/fhir/R4/codesystem-allergy-intolerance-category.html#allergy-intolerance-category-biologic">biologic</a><a name="allergy-intolerance-category-cz-biologic"> </a></td><td>biologický</td><td>Přípravek syntetizovaný z živých organismů nebo jejich produktů, zejména lidských nebo živočišných bílkovin, jako jsou hormony nebo antitoxiny, který se používá jako diagnostické, preventivní nebo terapeutické činidlo. Mezi biologické léky patří například: vakcíny; alergenní extrakty, které se používají jak k diagnostice, tak k léčbě (například alergenové injekce); genové terapie; buněčné terapie. Existují i jiné biologické produkty, jako jsou tkáně, které obvykle nejsou spojovány s alergiemi.</td><td>A preparation that is synthesized from living organisms or their products, especially a human or animal protein, such as a hormone or antitoxin, that is used as a diagnostic, preventive, or therapeutic agent. Examples of biologic medications include: vaccines; allergenic extracts, which are used for both diagnosis and treatment (for example, allergy shots); gene therapies; cellular therapies.  There are other biologic products, such as tissues, which are not typically associated with allergies.</td></tr><tr><td><a style="white-space:nowrap" href="http://hl7.org/fhir/R4/codesystem-allergy-intolerance-category.html#allergy-intolerance-category-environment">environment</a><a name="allergy-intolerance-category-cz-environment"> </a></td><td>prostředí</td><td>Jakékoli látky, které se vyskytují v životním prostředí, včetně látek, které dosud nebyly klasifikovány jako potraviny, léky nebo biologické látky.</td><td>Any substances that are encountered in the environment, including any substance not already classified as food, medication, or biologic.</td></tr><tr><td><a style="white-space:nowrap" href="http://hl7.org/fhir/R4/codesystem-allergy-intolerance-category.html#allergy-intolerance-category-food">food</a><a name="allergy-intolerance-category-cz-food"> </a></td><td>potravina</td><td>Jakákoli látka konzumovaná za účelem výživové podpory organismu.</td><td>Any substance consumed to provide nutritional support for the body.</td></tr><tr><td><a style="white-space:nowrap" href="http://hl7.org/fhir/R4/codesystem-allergy-intolerance-category.html#allergy-intolerance-category-medication">medication</a><a name="allergy-intolerance-category-cz-medication"> </a></td><td>léčivo</td><td>Látky podávané za účelem dosažení fyziologického účinku.</td><td>Substances administered to achieve a physiological effect.</td></tr></table></div>
+  </text>
+  <url value="https://hl7.cz/terminology/CodeSystem/allergy-intolerance-category-cz"/>
+  <version value="0.2.0"/>
+  <name value="AllergyIntoleranceCategory"/>
+  <title value="Allergy Intolerance Category (CZ supplement)"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-12-12T16:17:42.700644Z"/>
+  <publisher value="HL7 Czech Republic"/>
+  <contact>
+    <name value="HL7 Czech Republic"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hl7.cz/"/>
+    </telecom>
+  </contact>
+  <description value="Allergy Intolerance Category (CZ Code system supplement)"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CZ"/>
+      <display value="Czechia"/>
+    </coding>
+  </jurisdiction>
+  <content value="supplement"/>
+  <supplements value="http://hl7.org/fhir/allergy-intolerance-category"/>
+  <concept>
+    <code value="biologic"/>
+    <display value="biologický"/>
+    <definition value="Přípravek syntetizovaný z živých organismů nebo jejich produktů, zejména lidských nebo živočišných bílkovin, jako jsou hormony nebo antitoxiny, který se používá jako diagnostické, preventivní nebo terapeutické činidlo. Mezi biologické léky patří například: vakcíny; alergenní extrakty, které se používají jak k diagnostice, tak k léčbě (například alergenové injekce); genové terapie; buněčné terapie. Existují i jiné biologické produkty, jako jsou tkáně, které obvykle nejsou spojovány s alergiemi."/>
+    <designation>
+      <language value="en"/>
+      <use>
+        <code value="definition"/>
+      </use>
+      <value value="A preparation that is synthesized from living organisms or their products, especially a human or animal protein, such as a hormone or antitoxin, that is used as a diagnostic, preventive, or therapeutic agent. Examples of biologic medications include: vaccines; allergenic extracts, which are used for both diagnosis and treatment (for example, allergy shots); gene therapies; cellular therapies.  There are other biologic products, such as tissues, which are not typically associated with allergies."/>
+    </designation>
+    <designation>
+      <language value="en"/>
+      <use>
+        <code value="display"/>
+      </use>
+      <value value="Biologic"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="environment"/>
+    <display value="prostředí"/>
+    <definition value="Jakékoli látky, které se vyskytují v životním prostředí, včetně látek, které dosud nebyly klasifikovány jako potraviny, léky nebo biologické látky."/>
+    <designation>
+      <language value="en"/>
+      <use>
+        <code value="definition"/>
+      </use>
+      <value value="Any substances that are encountered in the environment, including any substance not already classified as food, medication, or biologic."/>
+    </designation>
+    <designation>
+      <language value="en"/>
+      <use>
+        <code value="display"/>
+      </use>
+      <value value="Environment"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="food"/>
+    <display value="potravina"/>
+    <definition value="Jakákoli látka konzumovaná za účelem výživové podpory organismu."/>
+    <designation>
+      <language value="en"/>
+      <use>
+        <code value="definition"/>
+      </use>
+      <value value="Any substance consumed to provide nutritional support for the body."/>
+    </designation>
+    <designation>
+      <language value="en"/>
+      <use>
+        <code value="display"/>
+      </use>
+      <value value="Food"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="medication"/>
+    <display value="léčivo"/>
+    <definition value="Látky podávané za účelem dosažení fyziologického účinku."/>
+    <designation>
+      <language value="en"/>
+      <use>
+        <code value="definition"/>
+      </use>
+      <value value="Substances administered to achieve a physiological effect."/>
+    </designation>
+    <designation>
+      <language value="en"/>
+      <use>
+        <code value="display"/>
+      </use>
+      <value value="Medication"/>
+    </designation>
+  </concept>
+</CodeSystem>

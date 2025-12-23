@@ -1,0 +1,2143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>NCLPMAT - HL7 Czech Terminology Implementation Guide v0.2.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <link href="assets/css/cz-core.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"5.53"}
+    h3,h4,h5,h6{--heading-prefix:"5.53"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <!-- Placeholder for child template header declarations -->
+<div id="hl7-nav">
+  <a id="hl7-logo" no-external="true" href="https://www.hl7.cz">
+    <img height="60" alt="Visit the HL7 Czech website" src="assets/images/hl7cz-logo.png" />
+  </a>
+</div>
+<div id="project-nav">
+  <a id="project-logo" no-external="true" href="https://mzd.gov.cz"><img height="60" alt="MZCR"
+      src="assets/images/NPO_logo.png" /> </a>
+</div>
+<div id="family-nav">
+  <a id="family-logo" no-external="true" href="https://ncez.mzcr.cz/cs"><img height="60" alt="NCEZ MZCR"
+      src="assets/images/logo.png" /> </a>
+</div>
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">HL7 Czech Terminology Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.2.0 - release
+
+
+
+  <img alt="Czechia flag" src="assets/images/cze.svg" height="16" title="Czechia"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="artifactsPage.html">Terminologies</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>NCLPMAT</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">This page is part of the Czech FHIR Terminology Package (v0.2.0: Release) based on <a data-no-external="true" href="http://hl7.org/fhir/R4">FHIR (HL7® FHIR® Standard) R4</a>. This is the current published version.  For a full list of available versions, see the <a data-no-external="true" href="https://hl7.cz/terminology/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li class="active">
+    <a href="#">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="CodeSystem-nclp-NCLPMAT.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="CodeSystem-nclp-NCLPMAT.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="CodeSystem-nclp-NCLPMAT.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+  <a name="root"> </a>
+  <h2 id="root">CodeSystem: NCLPMAT
+
+  </h2>
+
+  <table class="colsi">
+
+    <tr>
+      <td colspan="4"><i>Official URL</i>: <span class="copy-text">https://ncez.mzcr.cz/nclp/CodeSystem/nclpmat<button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://ncez.mzcr.cz/nclp/CodeSystem/nclpmat"/></span>
+      </td>
+      <td><i>Version</i>:
+      <span class="copy-text">0.2.0<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="https://ncez.mzcr.cz/nclp/CodeSystem/nclpmat|0.2.0"/></span>
+      </td>
+    </tr>
+
+    <tr>
+
+
+
+
+
+
+
+      <td colspan="4">
+        
+          Active
+          
+            as of 2025-01-17
+          
+        
+      </td>
+
+
+
+      <td><i>Computable Name</i>: <span style="font-family: monospace;">NCLPMAT</span></td>
+    </tr>
+
+
+
+
+  </table>
+
+<p>
+<p>NCLP - Číselník materiálů pro laboratoře.</p>
+
+</p>
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <p>
+  This Code system is referenced in the content logical definition of the following value sets:
+  </p>
+
+  
+<ul>
+ <li><a href="ValueSet-nclpmat.html">NCLPMatVs</a></li>
+</ul>
+
+
+  <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="cs" lang="cs" data-fhir="generated"><p class="res-header-id"></p><a name="nclp-NCLPMAT"> </a><a name="hcnclp-NCLPMAT"> </a>
+<div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: cs</p></div><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p>
+<table class="grid" data-fhir="generated"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>Type</b></td></tr>
+<tr><td>klic</td>
+<td>klic</td>
+<td>string</td></tr>
+<tr><td>kod</td>
+<td>kod</td>
+<td>string</td></tr>
+<tr><td>kodl</td>
+<td>kodl</td>
+<td>string</td></tr>
+<tr><td>n24</td>
+<td>n24</td>
+<td>string</td></tr>
+<tr><td>n32</td>
+<td>n32</td>
+<td>string</td></tr>
+<tr><td>n32l</td>
+<td>n32l</td>
+<td>string</td></tr>
+<tr><td>n55</td>
+<td>n55</td>
+<td>string</td></tr>
+<tr><td>n55l</td>
+<td>n55l</td>
+<td>string</td></tr>
+<tr><td>plati_do</td>
+<td>plati_do</td>
+<td>dateTime</td></tr>
+<tr><td>plati_od</td>
+<td>plati_od</td>
+<td>dateTime</td></tr>
+<tr><td>poradi</td>
+<td>poradi</td>
+<td>string</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://ncez.mzcr.cz/nclp/CodeSystem/nclpmat</code> defines the following codes:</p>
+<table class="codes" data-fhir="generated"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>klic</b></td><td><b>kod</b></td><td><b>kodl</b></td><td><b>n24</b></td><td><b>n32</b></td><td><b>n32l</b></td><td><b>n55</b></td><td><b>n55l</b></td><td><b>plati_od</b></td><td><b>poradi</b></td></tr>
+<tr><td style="white-space:nowrap">ADRC<a name="nclp-NCLPMAT-ADRC"> </a></td>
+<td>Kůra nadledvin</td>
+<td>ADRC</td>
+<td>ADRC</td>
+<td>ADRC</td>
+<td>Kůra nadledvin</td>
+<td>Kůra nadledvin</td>
+<td>Kůra nadledvin</td>
+<td>Kůra nadledvin</td>
+<td>Kůra nadledvin</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>159000</td></tr>
+<tr><td style="white-space:nowrap">AIR<a name="nclp-NCLPMAT-AIR"> </a></td>
+<td>Vzduch</td>
+<td>AIR</td>
+<td>AIR</td>
+<td>AIR</td>
+<td>Vzduch</td>
+<td>Vzduch</td>
+<td>Vzduch</td>
+<td>Vzduch</td>
+<td>Vzduch</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>125000</td></tr>
+<tr><td style="white-space:nowrap">AIREXP<a name="nclp-NCLPMAT-AIREXP"> </a></td>
+<td>Vzduch (vydechovaný)</td>
+<td>AIREXP</td>
+<td>AIREXP</td>
+<td>AIREXP</td>
+<td>Vzduch(expir.)</td>
+<td>Vzduch(expir.)</td>
+<td>Vzduch(expir.)</td>
+<td>Vzduch (vydechovaný)</td>
+<td>Vzduch (vydechovaný)</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>126000</td></tr>
+<tr><td style="white-space:nowrap">AIRINSP<a name="nclp-NCLPMAT-AIRINSP"> </a></td>
+<td>Vzduch (vdechovaný)</td>
+<td>AIRINSP</td>
+<td>AIRINSP</td>
+<td>AIRINSP</td>
+<td>Vzduch(inspir.)</td>
+<td>Vzduch(inspir.)</td>
+<td>Vzduch(inspir.)</td>
+<td>Vzduch (vdechovaný)</td>
+<td>Vzduch (vdechovaný)</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>127000</td></tr>
+<tr><td style="white-space:nowrap">AIRRESPS<a name="nclp-NCLPMAT-AIRRESPS"> </a></td>
+<td>Vzduch (respirační systém)</td>
+<td>AIRRESPS</td>
+<td>AIRRESPS</td>
+<td>AIRRESPS</td>
+<td>Vzduch(resp. syst.)</td>
+<td>Vzduch(resp. systém)</td>
+<td>Vzduch(resp. systém)</td>
+<td>Vzduch (respirační systém)</td>
+<td>Vzduch (respirační systém)</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>128000</td></tr>
+<tr><td style="white-space:nowrap">ALV<a name="nclp-NCLPMAT-ALV"> </a></td>
+<td>Alveol</td>
+<td>ALV</td>
+<td>ALV</td>
+<td>ALV</td>
+<td>Alveol</td>
+<td>Alveol</td>
+<td>Alveol</td>
+<td>Alveol</td>
+<td>Alveol</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>129000</td></tr>
+<tr><td style="white-space:nowrap">AMF<a name="nclp-NCLPMAT-AMF"> </a></td>
+<td>Amniová tekutina</td>
+<td>AMF</td>
+<td>AMF</td>
+<td>AMF</td>
+<td>Amniová tekutina</td>
+<td>Amniová tekutina</td>
+<td>Amniová tekutina</td>
+<td>Amniová tekutina</td>
+<td>Amniová tekutina</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>110000</td></tr>
+<tr><td style="white-space:nowrap">B<a name="nclp-NCLPMAT-B"> </a></td>
+<td>Krev</td>
+<td>B</td>
+<td>B</td>
+<td>B</td>
+<td>B</td>
+<td>B</td>
+<td>B</td>
+<td>Krev</td>
+<td>Krev</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>010100</td></tr>
+<tr><td style="white-space:nowrap">B(A)<a name="nclp-NCLPMAT-B.40A.41"> </a></td>
+<td>Krev arteriální</td>
+<td>B(A)</td>
+<td>B(A)</td>
+<td>B(A)</td>
+<td>B(a)</td>
+<td>B(a)</td>
+<td>B(a)</td>
+<td>Krev arteriální</td>
+<td>Krev arteriální</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>010101</td></tr>
+<tr><td style="white-space:nowrap">B(A;UMB)<a name="nclp-NCLPMAT-B.40A.59UMB.41"> </a></td>
+<td>Krev pupečníková arteriální</td>
+<td>B(A;UMB)</td>
+<td>B(A;UMB)</td>
+<td>B(A;UMB)</td>
+<td>B(a;pupečník)</td>
+<td>B(a;pupečník)</td>
+<td>B(a;pupečník)</td>
+<td>Krev pupečníková arteriální</td>
+<td>Krev pupečníková arteriální</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>010711</td></tr>
+<tr><td style="white-space:nowrap">B(C)<a name="nclp-NCLPMAT-B.40C.41"> </a></td>
+<td>Krev kapilární</td>
+<td>B(C)</td>
+<td>B(C)</td>
+<td>B(C)</td>
+<td>B(kap.)</td>
+<td>B(kap.)</td>
+<td>B(kap.)</td>
+<td>Krev kapilární</td>
+<td>Krev kapilární</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>010201</td></tr>
+<tr><td style="white-space:nowrap">B(C;EAL)<a name="nclp-NCLPMAT-B.40C.59EAL.41"> </a></td>
+<td>Krev kapilární (odběr z ušního lalůčku)</td>
+<td>B(C;EAL)</td>
+<td>B(C;EAL)</td>
+<td>B(C;EAL)</td>
+<td>B(kap.;ucho)</td>
+<td>B(kap.;ušní lalůček)</td>
+<td>B(kap.;ušní lalůček)</td>
+<td>Krev kapilární (odběr z ušního lalůčku)</td>
+<td>Krev kapilární (odběr z ušního lalůčku)</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>010211</td></tr>
+<tr><td style="white-space:nowrap">B(C;FNG)<a name="nclp-NCLPMAT-B.40C.59FNG.41"> </a></td>
+<td>Krev kapilární (odběr z prstu)</td>
+<td>B(C;FNG)</td>
+<td>B(C;FNG)</td>
+<td>B(C;FNG)</td>
+<td>B(kap.;prst)</td>
+<td>B(kap.;prst)</td>
+<td>B(kap.;prst)</td>
+<td>Krev kapilární (odběr z prstu)</td>
+<td>Krev kapilární (odběr z prstu)</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>010221</td></tr>
+<tr><td style="white-space:nowrap">B(CIT)<a name="nclp-NCLPMAT-B.40CIT.41"> </a></td>
+<td>Krev (Citrát)</td>
+<td>B(CIT)</td>
+<td>B(CIT)</td>
+<td>B(CIT)</td>
+<td>B(CIT)</td>
+<td>B(CIT)</td>
+<td>B(CIT)</td>
+<td>Krev (Citrát)</td>
+<td>Krev (Citrát)</td>
+<td>2022-12-11T00:00:00Z</td>
+<td>010941</td></tr>
+<tr><td style="white-space:nowrap">B(N)<a name="nclp-NCLPMAT-B.40N.41"> </a></td>
+<td>Krev nativní</td>
+<td>B(N)</td>
+<td>B(N)</td>
+<td>B(N)</td>
+<td>B(nativní)</td>
+<td>B(nativní)</td>
+<td>B(nativní)</td>
+<td>Krev nativní</td>
+<td>Krev nativní</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>010901</td></tr>
+<tr><td style="white-space:nowrap">B(T)<a name="nclp-NCLPMAT-B.40T.41"> </a></td>
+<td>Krev (TromboExact)</td>
+<td>B(T)</td>
+<td>B(T)</td>
+<td>B(T)</td>
+<td>B(T)</td>
+<td>B(T)</td>
+<td>B(T)</td>
+<td>Krev (TromboExact)</td>
+<td>Krev (TromboExact)</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>010931</td></tr>
+<tr><td style="white-space:nowrap">B(UMB)<a name="nclp-NCLPMAT-B.40UMB.41"> </a></td>
+<td>Krev pupečníková</td>
+<td>B(UMB)</td>
+<td>B(UMB)</td>
+<td>B(UMB)</td>
+<td>B(pupečník)</td>
+<td>B(pupečník)</td>
+<td>B(pupečník)</td>
+<td>Krev pupečníková</td>
+<td>Krev pupečníková</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>010701</td></tr>
+<tr><td style="white-space:nowrap">B(V)<a name="nclp-NCLPMAT-B.40V.41"> </a></td>
+<td>Krev venózní</td>
+<td>B(V)</td>
+<td>B(V)</td>
+<td>B(V)</td>
+<td>B(v)</td>
+<td>B(v)</td>
+<td>B(v)</td>
+<td>Krev venózní</td>
+<td>Krev venózní</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>010301</td></tr>
+<tr><td style="white-space:nowrap">B(V;CNT)<a name="nclp-NCLPMAT-B.40V.59CNT.41"> </a></td>
+<td>Krev venózní (centrální)</td>
+<td>B(V;CNT)</td>
+<td>B(V;CNT)</td>
+<td>B(V;CNT)</td>
+<td>B(v;cent.)</td>
+<td>B(v;centrální)</td>
+<td>B(v;centrální)</td>
+<td>Krev venózní (centrální)</td>
+<td>Krev venózní (centrální)</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>010311</td></tr>
+<tr><td style="white-space:nowrap">B(V;MXD)<a name="nclp-NCLPMAT-B.40V.59MXD.41"> </a></td>
+<td>Krev venózní (smíšená)</td>
+<td>B(V;MXD)</td>
+<td>B(V;MXD)</td>
+<td>B(V;MXD)</td>
+<td>B(v;smíš.)</td>
+<td>B(v;smíšená)</td>
+<td>B(v;smíšená)</td>
+<td>Krev venózní (smíšená)</td>
+<td>Krev venózní (smíšená)</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>010321</td></tr>
+<tr><td style="white-space:nowrap">B(V;UMB)<a name="nclp-NCLPMAT-B.40V.59UMB.41"> </a></td>
+<td>Krev pupečníková žilní</td>
+<td>B(V;UMB)</td>
+<td>B(V;UMB)</td>
+<td>B(V;UMB)</td>
+<td>B(v;pupečník)</td>
+<td>B(v;pupečník)</td>
+<td>B(v;pupečník)</td>
+<td>Krev pupečníková žilní</td>
+<td>Krev pupečníková žilní</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>010731</td></tr>
+<tr><td style="white-space:nowrap">BAFTOX<a name="nclp-NCLPMAT-BAFTOX"> </a></td>
+<td>Krev (za oxygenátorem)</td>
+<td>BAFTOX</td>
+<td>BAFTOX</td>
+<td>BAFTOX</td>
+<td>Krev (za oxygenátorem)</td>
+<td>Krev (za oxygenátorem)</td>
+<td>Krev (za oxygenátorem)</td>
+<td>Krev (za oxygenátorem)</td>
+<td>Krev (za oxygenátorem)</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>010975</td></tr>
+<tr><td style="white-space:nowrap">BASO<a name="nclp-NCLPMAT-BASO"> </a></td>
+<td>Basofily</td>
+<td>BASO</td>
+<td>BASO</td>
+<td>BASO</td>
+<td>Basofily</td>
+<td>Basofily</td>
+<td>Basofily</td>
+<td>Basofily</td>
+<td>Basofily</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>072000</td></tr>
+<tr><td style="white-space:nowrap">BBEFOX<a name="nclp-NCLPMAT-BBEFOX"> </a></td>
+<td>Krev (před oxygenátorem)</td>
+<td>BBEFOX</td>
+<td>BBEFOX</td>
+<td>BBEFOX</td>
+<td>Krev (před oxygenátorem)</td>
+<td>Krev (před oxygenátorem)</td>
+<td>Krev (před oxygenátorem)</td>
+<td>Krev (před oxygenátorem)</td>
+<td>Krev (před oxygenátorem)</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>010971</td></tr>
+<tr><td style="white-space:nowrap">BEARD<a name="nclp-NCLPMAT-BEARD"> </a></td>
+<td>Vous</td>
+<td>BEARD</td>
+<td>BEARD</td>
+<td>BEARD</td>
+<td>Vous</td>
+<td>Vous</td>
+<td>Vous</td>
+<td>Vous</td>
+<td>Vous</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>184100</td></tr>
+<tr><td style="white-space:nowrap">BIOP<a name="nclp-NCLPMAT-BIOP"> </a></td>
+<td>Tkáň získaná biopsií (obecně)</td>
+<td>BIOP</td>
+<td>BIOP</td>
+<td>BIOP</td>
+<td>Tkáň(biopsie)</td>
+<td>Tkáň(biopsie)</td>
+<td>Tkáň(biopsie)</td>
+<td>Tkáň získaná biopsií (obecně)</td>
+<td>Tkáň získaná biopsií (obecně)</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>130000</td></tr>
+<tr><td style="white-space:nowrap">BM<a name="nclp-NCLPMAT-BM"> </a></td>
+<td>Kostní dřeň</td>
+<td>BM</td>
+<td>BM</td>
+<td>BM</td>
+<td>Kostní dřeň</td>
+<td>Kostní dřeň</td>
+<td>Kostní dřeň</td>
+<td>Kostní dřeň</td>
+<td>Kostní dřeň</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>161000</td></tr>
+<tr><td style="white-space:nowrap">BM(ST)<a name="nclp-NCLPMAT-BM.40ST.41"> </a></td>
+<td>Kostní dřen ze sterna</td>
+<td>BM(ST)</td>
+<td>BM(ST)</td>
+<td>BM(ST)</td>
+<td>Kostní dřeň(sternum)</td>
+<td>Kostní dřeň (sternum)</td>
+<td>Kostní dřeň (sternum)</td>
+<td>Kostní dřen ze sterna</td>
+<td>Kostní dřen ze sterna</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>162000</td></tr>
+<tr><td style="white-space:nowrap">BONE<a name="nclp-NCLPMAT-BONE"> </a></td>
+<td>Kost</td>
+<td>BONE</td>
+<td>BONE</td>
+<td>BONE</td>
+<td>Kost</td>
+<td>Kost</td>
+<td>Kost</td>
+<td>Kost</td>
+<td>Kost</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>160000</td></tr>
+<tr><td style="white-space:nowrap">BONE(BI)<a name="nclp-NCLPMAT-BONE.40BI.41"> </a></td>
+<td>Tkáň kosti získaná biopsií</td>
+<td>BONE(BI)</td>
+<td>BONE(BI)</td>
+<td>BONE(BI)</td>
+<td>Kost(biopsie)</td>
+<td>Kost(biopsie)</td>
+<td>Kost(biopsie)</td>
+<td>Tkáň kosti získaná biopsií</td>
+<td>Tkáň kosti získaná biopsií</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>131000</td></tr>
+<tr><td style="white-space:nowrap">CAL<a name="nclp-NCLPMAT-CAL"> </a></td>
+<td>Kámen (obecně)</td>
+<td>CAL</td>
+<td>CAL</td>
+<td>CAL</td>
+<td>Konkrement</td>
+<td>Konkrement</td>
+<td>Konkrement</td>
+<td>Kámen (obecně)</td>
+<td>Kámen (obecně)</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>153000</td></tr>
+<tr><td style="white-space:nowrap">CAL(GB)<a name="nclp-NCLPMAT-CAL.40GB.41"> </a></td>
+<td>Žlučový konkrement</td>
+<td>CAL(GB)</td>
+<td>CAL(GB)</td>
+<td>CAL(GB)</td>
+<td>Konkrement (žlučový)</td>
+<td>Konkrement (žlučový)</td>
+<td>Konkrement (žlučový)</td>
+<td>Žlučový konkrement</td>
+<td>Žlučový konkrement</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>156000</td></tr>
+<tr><td style="white-space:nowrap">CAL(PR)<a name="nclp-NCLPMAT-CAL.40PR.41"> </a></td>
+<td>Prostatický konkrement</td>
+<td>CAL(PR)</td>
+<td>CAL(PR)</td>
+<td>CAL(PR)</td>
+<td>Konkrement (prostata)</td>
+<td>Konkrement (prostata)</td>
+<td>Konkrement (prostata)</td>
+<td>Prostatický konkrement</td>
+<td>Prostatický konkrement</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>157000</td></tr>
+<tr><td style="white-space:nowrap">CAL(SAL)<a name="nclp-NCLPMAT-CAL.40SAL.41"> </a></td>
+<td>Slinný konkrement</td>
+<td>CAL(SAL)</td>
+<td>CAL(SAL)</td>
+<td>CAL(SAL)</td>
+<td>Konkrement (slinný)</td>
+<td>Konkrement (slinný)</td>
+<td>Konkrement (slinný)</td>
+<td>Slinný konkrement</td>
+<td>Slinný konkrement</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>155000</td></tr>
+<tr><td style="white-space:nowrap">CAL(U)<a name="nclp-NCLPMAT-CAL.40U.41"> </a></td>
+<td>Močový kámen</td>
+<td>CAL(U)</td>
+<td>CAL(U)</td>
+<td>CAL(U)</td>
+<td>Konkrement(močový)</td>
+<td>Konkrement (močový)</td>
+<td>Konkrement (močový)</td>
+<td>Močový kámen</td>
+<td>Močový kámen</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>154000</td></tr>
+<tr><td style="white-space:nowrap">CARTIL<a name="nclp-NCLPMAT-CARTIL"> </a></td>
+<td>Chrupavka</td>
+<td>CARTIL</td>
+<td>CARTIL</td>
+<td>CARTIL</td>
+<td>Chrupavka</td>
+<td>Chrupavka</td>
+<td>Chrupavka</td>
+<td>Chrupavka</td>
+<td>Chrupavka</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>171000</td></tr>
+<tr><td style="white-space:nowrap">CCSUP<a name="nclp-NCLPMAT-CCSUP"> </a></td>
+<td>Supernatant buněčných kultur</td>
+<td>CCSUP</td>
+<td>CCSUP</td>
+<td>CCSUP</td>
+<td>Supernatant buň. kultur</td>
+<td>Supernatant buněčných kultur</td>
+<td>Supernatant buněčných kultur</td>
+<td>Supernatant buněčných kultur</td>
+<td>Supernatant buněčných kultur</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>189000</td></tr>
+<tr><td style="white-space:nowrap">CEREB<a name="nclp-NCLPMAT-CEREB"> </a></td>
+<td>Mozek</td>
+<td>CEREB</td>
+<td>CEREB</td>
+<td>CEREB</td>
+<td>Mozek</td>
+<td>Mozek</td>
+<td>Mozek</td>
+<td>Mozek</td>
+<td>Mozek</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>167000</td></tr>
+<tr><td style="white-space:nowrap">CERVMUC<a name="nclp-NCLPMAT-CERVMUC"> </a></td>
+<td>Cervikální hlen</td>
+<td>CERVMUC</td>
+<td>CERVMUC</td>
+<td>CERVMUC</td>
+<td>Cervikální hlen</td>
+<td>Cervikální hlen</td>
+<td>Cervikální hlen</td>
+<td>Cervikální hlen</td>
+<td>Cervikální hlen</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>147000</td></tr>
+<tr><td style="white-space:nowrap">CERVPOOL<a name="nclp-NCLPMAT-CERVPOOL"> </a></td>
+<td>Cervikální pool</td>
+<td>CERVPOOL</td>
+<td>CERVPOOL</td>
+<td>CERVPOOL</td>
+<td>Cervikální pool</td>
+<td>Cervikální pool</td>
+<td>Cervikální pool</td>
+<td>Cervikální pool</td>
+<td>Cervikální pool</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>146000</td></tr>
+<tr><td style="white-space:nowrap">CORD<a name="nclp-NCLPMAT-CORD"> </a></td>
+<td>Pupečník</td>
+<td>CORD</td>
+<td>CORD</td>
+<td>CORD</td>
+<td>Pupečník</td>
+<td>Pupečník</td>
+<td>Pupečník</td>
+<td>Pupečník</td>
+<td>Pupečník</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>165000</td></tr>
+<tr><td style="white-space:nowrap">CSF<a name="nclp-NCLPMAT-CSF"> </a></td>
+<td>Likvor</td>
+<td>CSF</td>
+<td>CSF</td>
+<td>CSF</td>
+<td>Likvor</td>
+<td>Likvor</td>
+<td>Likvor</td>
+<td>Likvor</td>
+<td>Likvor</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>087000</td></tr>
+<tr><td style="white-space:nowrap">CYTOS<a name="nclp-NCLPMAT-CYTOS"> </a></td>
+<td>Cytosol</td>
+<td>CYTOS</td>
+<td>CYTOS</td>
+<td>CYTOS</td>
+<td>Cytosol</td>
+<td>Cytosol</td>
+<td>Cytosol</td>
+<td>Cytosol</td>
+<td>Cytosol</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>112000</td></tr>
+<tr><td style="white-space:nowrap">DNA<a name="nclp-NCLPMAT-DNA"> </a></td>
+<td>DNA</td>
+<td>DNA</td>
+<td>DNA</td>
+<td>DNA</td>
+<td>DNA</td>
+<td>DNA</td>
+<td>DNA</td>
+<td>DNA</td>
+<td>DNA</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>035555</td></tr>
+<tr><td style="white-space:nowrap">DREN<a name="nclp-NCLPMAT-DREN"> </a></td>
+<td>Drén</td>
+<td>DREN</td>
+<td>DREN</td>
+<td>DREN</td>
+<td>Drén</td>
+<td>Drén</td>
+<td>Drén</td>
+<td>Drén</td>
+<td>Drén</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>700500</td></tr>
+<tr><td style="white-space:nowrap">DUF<a name="nclp-NCLPMAT-DUF"> </a></td>
+<td>Duodenální tekutina</td>
+<td>DUF</td>
+<td>DUF</td>
+<td>DUF</td>
+<td>Duod. tekutina</td>
+<td>Duodenální tekutina</td>
+<td>Duodenální tekutina</td>
+<td>Duodenální tekutina</td>
+<td>Duodenální tekutina</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>095000</td></tr>
+<tr><td style="white-space:nowrap">DUOD(BI)<a name="nclp-NCLPMAT-DUOD.40BI.41"> </a></td>
+<td>Tkáň duodena získaná biopsií</td>
+<td>DUOD(BI)</td>
+<td>DUOD(BI)</td>
+<td>DUOD(BI)</td>
+<td>Duodenum(biopsie)</td>
+<td>Duodenum(biopsie)</td>
+<td>Duodenum(biopsie)</td>
+<td>Tkáň duodena získaná biopsií</td>
+<td>Tkáň duodena získaná biopsií</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>137000</td></tr>
+<tr><td style="white-space:nowrap">ELECT<a name="nclp-NCLPMAT-ELECT"> </a></td>
+<td>Elektroda</td>
+<td>ELECT</td>
+<td>ELECT</td>
+<td>ELECT</td>
+<td>Elektroda</td>
+<td>Elektroda</td>
+<td>Elektroda</td>
+<td>Elektroda</td>
+<td>Elektroda</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>400300</td></tr>
+<tr><td style="white-space:nowrap">ENDCERVP<a name="nclp-NCLPMAT-ENDCERVP"> </a></td>
+<td>Endocervikální pool</td>
+<td>ENDCERVP</td>
+<td>ENDCERVP</td>
+<td>ENDCERVP</td>
+<td>Endocervikální pool</td>
+<td>Endocervikální pool</td>
+<td>Endocervikální pool</td>
+<td>Endocervikální pool</td>
+<td>Endocervikální pool</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>148000</td></tr>
+<tr><td style="white-space:nowrap">EOS<a name="nclp-NCLPMAT-EOS"> </a></td>
+<td>Eosinofily</td>
+<td>EOS</td>
+<td>EOS</td>
+<td>EOS</td>
+<td>Eosinofily</td>
+<td>Eosinofily</td>
+<td>Eosinofily</td>
+<td>Eosinofily</td>
+<td>Eosinofily</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>049000</td></tr>
+<tr><td style="white-space:nowrap">ERBL<a name="nclp-NCLPMAT-ERBL"> </a></td>
+<td>Erytroblasty</td>
+<td>ERBL</td>
+<td>ERBL</td>
+<td>ERBL</td>
+<td>Erytroblasty</td>
+<td>Erytroblasty</td>
+<td>Erytroblasty</td>
+<td>Erytroblasty</td>
+<td>Erytroblasty</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>044501</td></tr>
+<tr><td style="white-space:nowrap">ERC<a name="nclp-NCLPMAT-ERC"> </a></td>
+<td>Erytrocyty</td>
+<td>ERC</td>
+<td>ERC</td>
+<td>ERC</td>
+<td>Erytrocyty</td>
+<td>Erytrocyty</td>
+<td>Erytrocyty</td>
+<td>Erytrocyty</td>
+<td>Erytrocyty</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>045000</td></tr>
+<tr><td style="white-space:nowrap">EX<a name="nclp-NCLPMAT-EX"> </a></td>
+<td>Sputum</td>
+<td>EX</td>
+<td>EX</td>
+<td>EX</td>
+<td>Sputum</td>
+<td>Sputum</td>
+<td>Sputum</td>
+<td>Sputum</td>
+<td>Sputum</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>098000</td></tr>
+<tr><td style="white-space:nowrap">EXOCERVP<a name="nclp-NCLPMAT-EXOCERVP"> </a></td>
+<td>Exocervikální pool</td>
+<td>EXOCERVP</td>
+<td>EXOCERVP</td>
+<td>EXOCERVP</td>
+<td>Exocervikální pool</td>
+<td>Exocervikální pool</td>
+<td>Exocervikální pool</td>
+<td>Exocervikální pool</td>
+<td>Exocervikální pool</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>149000</td></tr>
+<tr><td style="white-space:nowrap">EXTENVIR<a name="nclp-NCLPMAT-EXTENVIR"> </a></td>
+<td>Materiál z vnějšího prostředí</td>
+<td>EXTENVIR</td>
+<td>EXTENVIR</td>
+<td>EXTENVIR</td>
+<td>Mat. vnějšího prostředí</td>
+<td>Materiál vnějšího prostředí</td>
+<td>Materiál vnějšího prostředí</td>
+<td>Materiál z vnějšího prostředí</td>
+<td>Materiál z vnějšího prostředí</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>200000</td></tr>
+<tr><td style="white-space:nowrap">F<a name="nclp-NCLPMAT-F"> </a></td>
+<td>Stolice</td>
+<td>F</td>
+<td>F</td>
+<td>F</td>
+<td>Stolice</td>
+<td>Stolice</td>
+<td>Stolice</td>
+<td>Stolice</td>
+<td>Stolice</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>090000</td></tr>
+<tr><td style="white-space:nowrap">FASCIA<a name="nclp-NCLPMAT-FASCIA"> </a></td>
+<td>Fascie</td>
+<td>FASCIA</td>
+<td>FASCIA</td>
+<td>FASCIA</td>
+<td>Fascie</td>
+<td>Fascie</td>
+<td>Fascie</td>
+<td>Fascie</td>
+<td>Fascie</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>170000</td></tr>
+<tr><td style="white-space:nowrap">FLPAT<a name="nclp-NCLPMAT-FLPAT"> </a></td>
+<td>Patologická tekutina</td>
+<td>FLPAT</td>
+<td>FLPAT</td>
+<td>FLPAT</td>
+<td>Patologická tekutina</td>
+<td>Patologická tekutina</td>
+<td>Patologická tekutina</td>
+<td>Patologická tekutina</td>
+<td>Patologická tekutina</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>700600</td></tr>
+<tr><td style="white-space:nowrap">FOREBODY<a name="nclp-NCLPMAT-FOREBODY"> </a></td>
+<td>Cizí těleso</td>
+<td>FOREBODY</td>
+<td>FOREBODY</td>
+<td>FOREBODY</td>
+<td>Cizí těleso</td>
+<td>Cizí těleso</td>
+<td>Cizí těleso</td>
+<td>Cizí těleso</td>
+<td>Cizí těleso</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>199000</td></tr>
+<tr><td style="white-space:nowrap">GALL<a name="nclp-NCLPMAT-GALL"> </a></td>
+<td>Žluč</td>
+<td>GALL</td>
+<td>GALL</td>
+<td>GALL</td>
+<td>Žluč</td>
+<td>Žluč</td>
+<td>Žluč</td>
+<td>Žluč</td>
+<td>Žluč</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>099000</td></tr>
+<tr><td style="white-space:nowrap">GIT(BI)<a name="nclp-NCLPMAT-GIT.40BI.41"> </a></td>
+<td>Tkáň gastrointestinálního traktu získaná biopsií</td>
+<td>GIT(BI)</td>
+<td>GIT(BI)</td>
+<td>GIT(BI)</td>
+<td>Tkáň GIT(biopsie)</td>
+<td>Tkáň GIT(biopsie)</td>
+<td>Tkáň GIT(biopsie)</td>
+<td>Tkáň gastrointestinálního traktu získaná biopsií</td>
+<td>Tkáň gastrointestinálního traktu získaná biopsií</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>135000</td></tr>
+<tr><td style="white-space:nowrap">GRAN<a name="nclp-NCLPMAT-GRAN"> </a></td>
+<td>Granulocyty</td>
+<td>GRAN</td>
+<td>GRAN</td>
+<td>GRAN</td>
+<td>Granulocyty</td>
+<td>Granulocyty</td>
+<td>Granulocyty</td>
+<td>Granulocyty</td>
+<td>Granulocyty</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>050100</td></tr>
+<tr><td style="white-space:nowrap">HAIR<a name="nclp-NCLPMAT-HAIR"> </a></td>
+<td>Vlas</td>
+<td>HAIR</td>
+<td>HAIR</td>
+<td>HAIR</td>
+<td>Vlas</td>
+<td>Vlas</td>
+<td>Vlas</td>
+<td>Vlas</td>
+<td>Vlas</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>184000</td></tr>
+<tr><td style="white-space:nowrap">HB<a name="nclp-NCLPMAT-HB"> </a></td>
+<td>Hemoglobin</td>
+<td>HB</td>
+<td>HB</td>
+<td>HB</td>
+<td>Hb</td>
+<td>Hemoglobin</td>
+<td>Hemoglobin</td>
+<td>Hemoglobin</td>
+<td>Hemoglobin</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>021000</td></tr>
+<tr><td style="white-space:nowrap">HEMAT<a name="nclp-NCLPMAT-HEMAT"> </a></td>
+<td>Hematom</td>
+<td>HEMAT</td>
+<td>HEMAT</td>
+<td>HEMAT</td>
+<td>Hematom</td>
+<td>Hematom</td>
+<td>Hematom</td>
+<td>Hematom</td>
+<td>Hematom</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>151000</td></tr>
+<tr><td style="white-space:nowrap">IMPERIAN<a name="nclp-NCLPMAT-IMPERIAN"> </a></td>
+<td>Otisk perianálních řas</td>
+<td>IMPERIAN</td>
+<td>IMPERIAN</td>
+<td>IMPERIAN</td>
+<td>Otisk perianálních řas</td>
+<td>Otisk perianálních řas</td>
+<td>Otisk perianálních řas</td>
+<td>Otisk perianálních řas</td>
+<td>Otisk perianálních řas</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>350255</td></tr>
+<tr><td style="white-space:nowrap">IMPLAN<a name="nclp-NCLPMAT-IMPLAN"> </a></td>
+<td>Implantát umělý</td>
+<td>IMPLAN</td>
+<td>IMPLAN</td>
+<td>IMPLAN</td>
+<td>Implantát umělý</td>
+<td>Implantát umělý</td>
+<td>Implantát umělý</td>
+<td>Implantát umělý</td>
+<td>Implantát umělý</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>198000</td></tr>
+<tr><td style="white-space:nowrap">IMPLTIS<a name="nclp-NCLPMAT-IMPLTIS"> </a></td>
+<td>Implantát tkáňový</td>
+<td>IMPLTIS</td>
+<td>IMPLTIS</td>
+<td>IMPLTIS</td>
+<td>Implantát tkáňový</td>
+<td>Implantát tkáňový</td>
+<td>Implantát tkáňový</td>
+<td>Implantát tkáňový</td>
+<td>Implantát tkáňový</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>193000</td></tr>
+<tr><td style="white-space:nowrap">INF<a name="nclp-NCLPMAT-INF"> </a></td>
+<td>Infusát</td>
+<td>INF</td>
+<td>INF</td>
+<td>INF</td>
+<td>Infusát</td>
+<td>Infusát</td>
+<td>Infusát</td>
+<td>Infusát</td>
+<td>Infusát</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>115000</td></tr>
+<tr><td style="white-space:nowrap">INTE(BI)<a name="nclp-NCLPMAT-INTE.40BI.41"> </a></td>
+<td>Tkáň střeva získaná biopsií</td>
+<td>INTE(BI)</td>
+<td>INTE(BI)</td>
+<td>INTE(BI)</td>
+<td>Střevo(biopsie)</td>
+<td>Střevo(biopsie)</td>
+<td>Střevo(biopsie)</td>
+<td>Tkáň střeva získaná biopsií</td>
+<td>Tkáň střeva získaná biopsií</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>138000</td></tr>
+<tr><td style="white-space:nowrap">INTEST<a name="nclp-NCLPMAT-INTEST"> </a></td>
+<td>Střevo</td>
+<td>INTEST</td>
+<td>INTEST</td>
+<td>INTEST</td>
+<td>Střevo</td>
+<td>Střevo</td>
+<td>Střevo</td>
+<td>Střevo</td>
+<td>Střevo</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>175000</td></tr>
+<tr><td style="white-space:nowrap">INTF<a name="nclp-NCLPMAT-INTF"> </a></td>
+<td>Střevní tekutina</td>
+<td>INTF</td>
+<td>INTF</td>
+<td>INTF</td>
+<td>Střevní tekutina</td>
+<td>Střevní tekutina</td>
+<td>Střevní tekutina</td>
+<td>Střevní tekutina</td>
+<td>Střevní tekutina</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>097000</td></tr>
+<tr><td style="white-space:nowrap">IUBODY<a name="nclp-NCLPMAT-IUBODY"> </a></td>
+<td>Intreuterinní tělísko</td>
+<td>IUBODY</td>
+<td>IUBODY</td>
+<td>IUBODY</td>
+<td>Intreuterinní tělísko</td>
+<td>Intreuterinní tělísko</td>
+<td>Intreuterinní tělísko</td>
+<td>Intreuterinní tělísko</td>
+<td>Intreuterinní tělísko</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>350600</td></tr>
+<tr><td style="white-space:nowrap">JEJUN<a name="nclp-NCLPMAT-JEJUN"> </a></td>
+<td>Jejunum</td>
+<td>JEJUN</td>
+<td>JEJUN</td>
+<td>JEJUN</td>
+<td>Jejunum</td>
+<td>Jejunum</td>
+<td>Jejunum</td>
+<td>Jejunum</td>
+<td>Jejunum</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>176000</td></tr>
+<tr><td style="white-space:nowrap">JOF<a name="nclp-NCLPMAT-JOF"> </a></td>
+<td>Kloubní tekutina</td>
+<td>JOF</td>
+<td>JOF</td>
+<td>JOF</td>
+<td>Kloubní tekutina</td>
+<td>Kloubní tekutina</td>
+<td>Kloubní tekutina</td>
+<td>Kloubní tekutina</td>
+<td>Kloubní tekutina</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>113000</td></tr>
+<tr><td style="white-space:nowrap">KIDN<a name="nclp-NCLPMAT-KIDN"> </a></td>
+<td>Ledviny</td>
+<td>KIDN</td>
+<td>KIDN</td>
+<td>KIDN</td>
+<td>Ledviny</td>
+<td>Ledviny</td>
+<td>Ledviny</td>
+<td>Ledviny</td>
+<td>Ledviny</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>177000</td></tr>
+<tr><td style="white-space:nowrap">KIDN(CF)<a name="nclp-NCLPMAT-KIDN.40CF.41"> </a></td>
+<td>Tekutina cysty (ledviny)</td>
+<td>KIDN(CF)</td>
+<td>KIDN(CF)</td>
+<td>KIDN(CF)</td>
+<td>Tekutina cysty(ledviny)</td>
+<td>Tekutina cysty(ledviny)</td>
+<td>Tekutina cysty(ledviny)</td>
+<td>Tekutina cysty (ledviny)</td>
+<td>Tekutina cysty (ledviny)</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>119000</td></tr>
+<tr><td style="white-space:nowrap">LIV<a name="nclp-NCLPMAT-LIV"> </a></td>
+<td>Játra</td>
+<td>LIV</td>
+<td>LIV</td>
+<td>LIV</td>
+<td>Játra</td>
+<td>Játra</td>
+<td>Játra</td>
+<td>Játra</td>
+<td>Játra</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>179000</td></tr>
+<tr><td style="white-space:nowrap">LIV(BI)<a name="nclp-NCLPMAT-LIV.40BI.41"> </a></td>
+<td>Tkáň jater získaná biopsií</td>
+<td>LIV(BI)</td>
+<td>LIV(BI)</td>
+<td>LIV(BI)</td>
+<td>Játra(biopsie)</td>
+<td>Játra(biopsie)</td>
+<td>Játra(biopsie)</td>
+<td>Tkáň jater získaná biopsií</td>
+<td>Tkáň jater získaná biopsií</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>132000</td></tr>
+<tr><td style="white-space:nowrap">LKC<a name="nclp-NCLPMAT-LKC"> </a></td>
+<td>Leukocyty</td>
+<td>LKC</td>
+<td>LKC</td>
+<td>LKC</td>
+<td>Leukocyty</td>
+<td>Leukocyty</td>
+<td>Leukocyty</td>
+<td>Leukocyty</td>
+<td>Leukocyty</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>051000</td></tr>
+<tr><td style="white-space:nowrap">LYM<a name="nclp-NCLPMAT-LYM"> </a></td>
+<td>Lymfocyty</td>
+<td>LYM</td>
+<td>LYM</td>
+<td>LYM</td>
+<td>Lymfocyty</td>
+<td>Lymfocyty</td>
+<td>Lymfocyty</td>
+<td>Lymfocyty</td>
+<td>Lymfocyty</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>055000</td></tr>
+<tr><td style="white-space:nowrap">LYMPHNOD<a name="nclp-NCLPMAT-LYMPHNOD"> </a></td>
+<td>Lymfatická uzlina</td>
+<td>LYMPHNOD</td>
+<td>LYMPHNOD</td>
+<td>LYMPHNOD</td>
+<td>Lymfatická uzlina</td>
+<td>Lymfatická uzlina</td>
+<td>Lymfatická uzlina</td>
+<td>Lymfatická uzlina</td>
+<td>Lymfatická uzlina</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>181000</td></tr>
+<tr><td style="white-space:nowrap">MAMM(BI)<a name="nclp-NCLPMAT-MAMM.40BI.41"> </a></td>
+<td>Tkáň z mammy získaná biopsií</td>
+<td>MAMM(BI)</td>
+<td>MAMM(BI)</td>
+<td>MAMM(BI)</td>
+<td>Mamma(biopsie)</td>
+<td>Mamma(biopsie)</td>
+<td>Mamma(biopsie)</td>
+<td>Tkáň z mammy získaná biopsií</td>
+<td>Tkáň z mammy získaná biopsií</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>134000</td></tr>
+<tr><td style="white-space:nowrap">MENIN<a name="nclp-NCLPMAT-MENIN"> </a></td>
+<td>Meningy</td>
+<td>MENIN</td>
+<td>MENIN</td>
+<td>MENIN</td>
+<td>Meningy</td>
+<td>Meningy</td>
+<td>Meningy</td>
+<td>Meningy</td>
+<td>Meningy</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>169000</td></tr>
+<tr><td style="white-space:nowrap">MILK(H)<a name="nclp-NCLPMAT-MILK.40H.41"> </a></td>
+<td>Mléko (mateřské)</td>
+<td>MILK(H)</td>
+<td>MILK(H)</td>
+<td>MILK(H)</td>
+<td>Mléko (mateřské)</td>
+<td>Mléko (mateřské)</td>
+<td>Mléko (mateřské)</td>
+<td>Mléko (mateřské)</td>
+<td>Mléko (mateřské)</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>124000</td></tr>
+<tr><td style="white-space:nowrap">MONO<a name="nclp-NCLPMAT-MONO"> </a></td>
+<td>Monocyty</td>
+<td>MONO</td>
+<td>MONO</td>
+<td>MONO</td>
+<td>Monocyty</td>
+<td>Monocyty</td>
+<td>Monocyty</td>
+<td>Monocyty</td>
+<td>Monocyty</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>073500</td></tr>
+<tr><td style="white-space:nowrap">MU<a name="nclp-NCLPMAT-MU"> </a></td>
+<td>Odpad močí za čas 1 minuty</td>
+<td>MU</td>
+<td>MU</td>
+<td>MU</td>
+<td>mU</td>
+<td>Moč za minutu</td>
+<td>Moč za minutu</td>
+<td>Odpad močí za čas 1 minuty</td>
+<td>Odpad močí za čas 1 minuty</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>084130</td></tr>
+<tr><td style="white-space:nowrap">MU(OVN)<a name="nclp-NCLPMAT-MU.40OVN.41"> </a></td>
+<td>Odpad močí z nočního sběru za čas 1 minuty</td>
+<td>MU(OVN)</td>
+<td>MU(OVN)</td>
+<td>MU(OVN)</td>
+<td>mU(OVN)</td>
+<td>Moč (noční sběr) za minutu</td>
+<td>Moč (noční sběr) za minutu</td>
+<td>Odpad močí z nočního sběru za čas 1 minuty</td>
+<td>Odpad močí z nočního sběru za čas 1 minuty</td>
+<td>2021-12-04T00:00:00Z</td>
+<td>084160</td></tr>
+<tr><td style="white-space:nowrap">MUCOSA<a name="nclp-NCLPMAT-MUCOSA"> </a></td>
+<td>Sliznice</td>
+<td>MUCOSA</td>
+<td>MUCOSA</td>
+<td>MUCOSA</td>
+<td>Sliznice</td>
+<td>Sliznice</td>
+<td>Sliznice</td>
+<td>Sliznice</td>
+<td>Sliznice</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>190000</td></tr>
+<tr><td style="white-space:nowrap">MUSCLE<a name="nclp-NCLPMAT-MUSCLE"> </a></td>
+<td>Sval</td>
+<td>MUSCLE</td>
+<td>MUSCLE</td>
+<td>MUSCLE</td>
+<td>Sval</td>
+<td>Sval</td>
+<td>Sval</td>
+<td>Sval</td>
+<td>Sval</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>172000</td></tr>
+<tr><td style="white-space:nowrap">NAIL<a name="nclp-NCLPMAT-NAIL"> </a></td>
+<td>Nehet</td>
+<td>NAIL</td>
+<td>NAIL</td>
+<td>NAIL</td>
+<td>Nehet</td>
+<td>Nehet</td>
+<td>Nehet</td>
+<td>Nehet</td>
+<td>Nehet</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>185000</td></tr>
+<tr><td style="white-space:nowrap">NEUT<a name="nclp-NCLPMAT-NEUT"> </a></td>
+<td>Neutrofily</td>
+<td>NEUT</td>
+<td>NEUT</td>
+<td>NEUT</td>
+<td>Neutrofily</td>
+<td>Neutrofily</td>
+<td>Neutrofily</td>
+<td>Neutrofily</td>
+<td>Neutrofily</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>074000</td></tr>
+<tr><td style="white-space:nowrap">OTHF<a name="nclp-NCLPMAT-OTHF"> </a></td>
+<td>Jiné tekutiny</td>
+<td>OTHF</td>
+<td>OTHF</td>
+<td>OTHF</td>
+<td>Jiné tekutiny</td>
+<td>Jiné tekutiny</td>
+<td>Jiné tekutiny</td>
+<td>Jiné tekutiny</td>
+<td>Jiné tekutiny</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>120000</td></tr>
+<tr><td style="white-space:nowrap">PANC(CF)<a name="nclp-NCLPMAT-PANC.40CF.41"> </a></td>
+<td>Tekutina cysty (pankreas)</td>
+<td>PANC(CF)</td>
+<td>PANC(CF)</td>
+<td>PANC(CF)</td>
+<td>Tekutina cysty(pankreas)</td>
+<td>Tekutina cysty(pankreas)</td>
+<td>Tekutina cysty(pankreas)</td>
+<td>Tekutina cysty (pankreas)</td>
+<td>Tekutina cysty (pankreas)</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>118000</td></tr>
+<tr><td style="white-space:nowrap">PANCR<a name="nclp-NCLPMAT-PANCR"> </a></td>
+<td>Pankreas</td>
+<td>PANCR</td>
+<td>PANCR</td>
+<td>PANCR</td>
+<td>Pankreas</td>
+<td>Pankreas</td>
+<td>Pankreas</td>
+<td>Pankreas</td>
+<td>Pankreas</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>182000</td></tr>
+<tr><td style="white-space:nowrap">PANF<a name="nclp-NCLPMAT-PANF"> </a></td>
+<td>Pankreatická tekutina</td>
+<td>PANF</td>
+<td>PANF</td>
+<td>PANF</td>
+<td>Pankreat. tekutina</td>
+<td>Pankreatická tekutina</td>
+<td>Pankreatická tekutina</td>
+<td>Pankreatická tekutina</td>
+<td>Pankreatická tekutina</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>100000</td></tr>
+<tr><td style="white-space:nowrap">PCF<a name="nclp-NCLPMAT-PCF"> </a></td>
+<td>Perikardiální tekutina</td>
+<td>PCF</td>
+<td>PCF</td>
+<td>PCF</td>
+<td>Perikard. tekutina</td>
+<td>Perikardiální tekutina</td>
+<td>Perikardiální tekutina</td>
+<td>Perikardiální tekutina</td>
+<td>Perikardiální tekutina</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>105000</td></tr>
+<tr><td style="white-space:nowrap">PITGL<a name="nclp-NCLPMAT-PITGL"> </a></td>
+<td>Hypofýza</td>
+<td>PITGL</td>
+<td>PITGL</td>
+<td>PITGL</td>
+<td>Hypofýza</td>
+<td>Hypofýza</td>
+<td>Hypofýza</td>
+<td>Hypofýza</td>
+<td>Hypofýza</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>168000</td></tr>
+<tr><td style="white-space:nowrap">PLACEN<a name="nclp-NCLPMAT-PLACEN"> </a></td>
+<td>Placenta</td>
+<td>PLACEN</td>
+<td>PLACEN</td>
+<td>PLACEN</td>
+<td>Placenta</td>
+<td>Placenta</td>
+<td>Placenta</td>
+<td>Placenta</td>
+<td>Placenta</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>163000</td></tr>
+<tr><td style="white-space:nowrap">PLF<a name="nclp-NCLPMAT-PLF"> </a></td>
+<td>Pleurální tekutina</td>
+<td>PLF</td>
+<td>PLF</td>
+<td>PLF</td>
+<td>Pleurální tekutina</td>
+<td>Pleurální tekutina</td>
+<td>Pleurální tekutina</td>
+<td>Pleurální tekutina</td>
+<td>Pleurální tekutina</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>104000</td></tr>
+<tr><td style="white-space:nowrap">PLT<a name="nclp-NCLPMAT-PLT"> </a></td>
+<td>Trombocyty</td>
+<td>PLT</td>
+<td>PLT</td>
+<td>PLT</td>
+<td>Trombocyty</td>
+<td>Trombocyty</td>
+<td>Trombocyty</td>
+<td>Trombocyty</td>
+<td>Trombocyty</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>082000</td></tr>
+<tr><td style="white-space:nowrap">PRD(PT)<a name="nclp-NCLPMAT-PRD.40PT.41"> </a></td>
+<td>Dialyzát peritoneální (z pacienta)</td>
+<td>PRD(PT)</td>
+<td>PRD(PT)</td>
+<td>PRD(PT)</td>
+<td>Perit. dialyzát(Pt)</td>
+<td>Dialyzát perit. (Pt)</td>
+<td>Dialyzát perit. (Pt)</td>
+<td>Dialyzát peritoneální (z pacienta)</td>
+<td>Dialyzát peritoneální (z pacienta)</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>121000</td></tr>
+<tr><td style="white-space:nowrap">PRF<a name="nclp-NCLPMAT-PRF"> </a></td>
+<td>Peritoneální tekutina</td>
+<td>PRF</td>
+<td>PRF</td>
+<td>PRF</td>
+<td>Periton. tekutina</td>
+<td>Peritoneální tekutina</td>
+<td>Peritoneální tekutina</td>
+<td>Peritoneální tekutina</td>
+<td>Peritoneální tekutina</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>101000</td></tr>
+<tr><td style="white-space:nowrap">PT<a name="nclp-NCLPMAT-PT"> </a></td>
+<td>Pacient</td>
+<td>PT</td>
+<td>PT</td>
+<td>PT</td>
+<td>Pt</td>
+<td>Pt</td>
+<td>Pt</td>
+<td>Pacient</td>
+<td>Pacient</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>001000</td></tr>
+<tr><td style="white-space:nowrap">PT(BA)<a name="nclp-NCLPMAT-PT.40BA.41"> </a></td>
+<td>Pacient (bilance)</td>
+<td>PT(BA)</td>
+<td>PT(BA)</td>
+<td>PT(BA)</td>
+<td>Pt(bilance)</td>
+<td>Pt(bilance)</td>
+<td>Pt(bilance)</td>
+<td>Pacient (bilance)</td>
+<td>Pacient (bilance)</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>237002</td></tr>
+<tr><td style="white-space:nowrap">PT(CSS)<a name="nclp-NCLPMAT-PT.40CSS.41"> </a></td>
+<td>Pacient (cerebrospinální systém)</td>
+<td>PT(CSS)</td>
+<td>PT(CSS)</td>
+<td>PT(CSS)</td>
+<td>Pt(CSS)</td>
+<td>Pt(cereb. syst.)</td>
+<td>Pt(cereb. syst.)</td>
+<td>Pacient (cerebrospinální systém)</td>
+<td>Pacient (cerebrospinální systém)</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>001050</td></tr>
+<tr><td style="white-space:nowrap">PT(GAST)<a name="nclp-NCLPMAT-PT.40GAST.41"> </a></td>
+<td>Pacient (žaludek)</td>
+<td>PT(GAST)</td>
+<td>PT(GAST)</td>
+<td>PT(GAST)</td>
+<td>Pt(žaludek)</td>
+<td>Pt(žaludek)</td>
+<td>Pt(žaludek)</td>
+<td>Pacient (žaludek)</td>
+<td>Pacient (žaludek)</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>001091</td></tr>
+<tr><td style="white-space:nowrap">PT(INTE)<a name="nclp-NCLPMAT-PT.40INTE.41"> </a></td>
+<td>Pacient (tenké střevo)</td>
+<td>PT(INTE)</td>
+<td>PT(INTE)</td>
+<td>PT(INTE)</td>
+<td>Pt(střevo)</td>
+<td>Pt(střevo)</td>
+<td>Pt(střevo)</td>
+<td>Pacient (tenké střevo)</td>
+<td>Pacient (tenké střevo)</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>001095</td></tr>
+<tr><td style="white-space:nowrap">PT(KIDN)<a name="nclp-NCLPMAT-PT.40KIDN.41"> </a></td>
+<td>Pacient (ledviny)</td>
+<td>PT(KIDN)</td>
+<td>PT(KIDN)</td>
+<td>PT(KIDN)</td>
+<td>Pt(ledviny)</td>
+<td>Pt(ledviny)</td>
+<td>Pt(ledviny)</td>
+<td>Pacient (ledviny)</td>
+<td>Pacient (ledviny)</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>001040</td></tr>
+<tr><td style="white-space:nowrap">PT(LIV)<a name="nclp-NCLPMAT-PT.40LIV.41"> </a></td>
+<td>Pacient (játra)</td>
+<td>PT(LIV)</td>
+<td>PT(LIV)</td>
+<td>PT(LIV)</td>
+<td>Pt(játra)</td>
+<td>Pt(játra)</td>
+<td>Pt(játra)</td>
+<td>Pacient (játra)</td>
+<td>Pacient (játra)</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>001098</td></tr>
+<tr><td style="white-space:nowrap">PT(PANC)<a name="nclp-NCLPMAT-PT.40PANC.41"> </a></td>
+<td>Pacient (pankreas)</td>
+<td>PT(PANC)</td>
+<td>PT(PANC)</td>
+<td>PT(PANC)</td>
+<td>Pt(pankreas)</td>
+<td>Pt(pankreas)</td>
+<td>Pt(pankreas)</td>
+<td>Pacient (pankreas)</td>
+<td>Pacient (pankreas)</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>001093</td></tr>
+<tr><td style="white-space:nowrap">PT(PRD)<a name="nclp-NCLPMAT-PT.40PRD.41"> </a></td>
+<td>Pacient (dialyzát)</td>
+<td>PT(PRD)</td>
+<td>PT(PRD)</td>
+<td>PT(PRD)</td>
+<td>Pt(PRD)</td>
+<td>Pt(dialyzát)</td>
+<td>Pt(dialyzát)</td>
+<td>Pacient (dialyzát)</td>
+<td>Pacient (dialyzát)</td>
+<td>2021-12-05T00:00:00Z</td>
+<td>001070</td></tr>
+<tr><td style="white-space:nowrap">PT(PULM)<a name="nclp-NCLPMAT-PT.40PULM.41"> </a></td>
+<td>Pacient (plíce)</td>
+<td>PT(PULM)</td>
+<td>PT(PULM)</td>
+<td>PT(PULM)</td>
+<td>Pt(plíce)</td>
+<td>Pt(plíce)</td>
+<td>Pt(plíce)</td>
+<td>Pacient (plíce)</td>
+<td>Pacient (plíce)</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>001080</td></tr>
+<tr><td style="white-space:nowrap">PT(UTR)<a name="nclp-NCLPMAT-PT.40UTR.41"> </a></td>
+<td>Pacient (močový trakt)</td>
+<td>PT(UTR)</td>
+<td>PT(UTR)</td>
+<td>PT(UTR)</td>
+<td>Pt(močový trakt)</td>
+<td>Pt(močový trakt)</td>
+<td>Pt(močový trakt)</td>
+<td>Pacient (močový trakt)</td>
+<td>Pacient (močový trakt)</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>001060</td></tr>
+<tr><td style="white-space:nowrap">PUS<a name="nclp-NCLPMAT-PUS"> </a></td>
+<td>Hnis</td>
+<td>PUS</td>
+<td>PUS</td>
+<td>PUS</td>
+<td>Hnis</td>
+<td>Hnis</td>
+<td>Hnis</td>
+<td>Hnis</td>
+<td>Hnis</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>150000</td></tr>
+<tr><td style="white-space:nowrap">RECT(BI)<a name="nclp-NCLPMAT-RECT.40BI.41"> </a></td>
+<td>Tkáň rekta získaná biopsií</td>
+<td>RECT(BI)</td>
+<td>RECT(BI)</td>
+<td>RECT(BI)</td>
+<td>Rektum(biopsie)</td>
+<td>Rektum(biopsie)</td>
+<td>Rektum(biopsie)</td>
+<td>Tkáň rekta získaná biopsií</td>
+<td>Tkáň rekta získaná biopsií</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>133000</td></tr>
+<tr><td style="white-space:nowrap">RETC<a name="nclp-NCLPMAT-RETC"> </a></td>
+<td>Retikulární buňky</td>
+<td>RETC</td>
+<td>RETC</td>
+<td>RETC</td>
+<td>Retikulární buňky</td>
+<td>Retikulární buňky</td>
+<td>Retikulární buňky</td>
+<td>Retikulární buňky</td>
+<td>Retikulární buňky</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>044550</td></tr>
+<tr><td style="white-space:nowrap">RNA<a name="nclp-NCLPMAT-RNA"> </a></td>
+<td>RNA</td>
+<td>RNA</td>
+<td>RNA</td>
+<td>RNA</td>
+<td>RNA</td>
+<td>RNA</td>
+<td>RNA</td>
+<td>RNA</td>
+<td>RNA</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>035550</td></tr>
+<tr><td style="white-space:nowrap">RTC<a name="nclp-NCLPMAT-RTC"> </a></td>
+<td>Retikulocyty</td>
+<td>RTC</td>
+<td>RTC</td>
+<td>RTC</td>
+<td>Retikulocyty</td>
+<td>Retikulocyty</td>
+<td>Retikulocyty</td>
+<td>Retikulocyty</td>
+<td>Retikulocyty</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>044556</td></tr>
+<tr><td style="white-space:nowrap">SAL<a name="nclp-NCLPMAT-SAL"> </a></td>
+<td>Sliny</td>
+<td>SAL</td>
+<td>SAL</td>
+<td>SAL</td>
+<td>Sliny</td>
+<td>Sliny</td>
+<td>Sliny</td>
+<td>Sliny</td>
+<td>Sliny</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>092000</td></tr>
+<tr><td style="white-space:nowrap">SCNAS<a name="nclp-NCLPMAT-SCNAS"> </a></td>
+<td>Sekret (nos)</td>
+<td>SCNAS</td>
+<td>SCNAS</td>
+<td>SCNAS</td>
+<td>Sekret (nos)</td>
+<td>Sekret (nos)</td>
+<td>Sekret (nos)</td>
+<td>Sekret (nos)</td>
+<td>Sekret (nos)</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>116500</td></tr>
+<tr><td style="white-space:nowrap">SCR<a name="nclp-NCLPMAT-SCR"> </a></td>
+<td>Sekret</td>
+<td>SCR</td>
+<td>SCR</td>
+<td>SCR</td>
+<td>Sekret</td>
+<td>Sekret</td>
+<td>Sekret</td>
+<td>Sekret</td>
+<td>Sekret</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>116000</td></tr>
+<tr><td style="white-space:nowrap">SEMEN<a name="nclp-NCLPMAT-SEMEN"> </a></td>
+<td>Ejakulát</td>
+<td>SEMEN</td>
+<td>SEMEN</td>
+<td>SEMEN</td>
+<td>Ejakulát</td>
+<td>Ejakulát</td>
+<td>Ejakulát</td>
+<td>Ejakulát</td>
+<td>Ejakulát</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>139000</td></tr>
+<tr><td style="white-space:nowrap">SKIN<a name="nclp-NCLPMAT-SKIN"> </a></td>
+<td>Kůže</td>
+<td>SKIN</td>
+<td>SKIN</td>
+<td>SKIN</td>
+<td>Kůže</td>
+<td>Kůže</td>
+<td>Kůže</td>
+<td>Kůže</td>
+<td>Kůže</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>186000</td></tr>
+<tr><td style="white-space:nowrap">SPCKARD<a name="nclp-NCLPMAT-SPCKARD"> </a></td>
+<td>Kanyla, katetr, elektroda, chlopeň</td>
+<td>SPCKARD</td>
+<td>SPCKARD</td>
+<td>SPCKARD</td>
+<td>Kanyla,elektroda,chlopeň</td>
+<td>Kanyla, kat., elektroda, chlopeň</td>
+<td>Kanyla, kat., elektroda, chlopeň</td>
+<td>Kanyla, katetr, elektroda, chlopeň</td>
+<td>Kanyla, katetr, elektroda, chlopeň</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>700000</td></tr>
+<tr><td style="white-space:nowrap">SPCOFT<a name="nclp-NCLPMAT-SPCOFT"> </a></td>
+<td>Vzorek z oka</td>
+<td>SPCOFT</td>
+<td>SPCOFT</td>
+<td>SPCOFT</td>
+<td>Vzorek z oka</td>
+<td>Vzorek z oka</td>
+<td>Vzorek z oka</td>
+<td>Vzorek z oka</td>
+<td>Vzorek z oka</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>600700</td></tr>
+<tr><td style="white-space:nowrap">SPCORL<a name="nclp-NCLPMAT-SPCORL"> </a></td>
+<td>Vzorek z oboru ORL</td>
+<td>SPCORL</td>
+<td>SPCORL</td>
+<td>SPCORL</td>
+<td>Vzorek z oboru ORL</td>
+<td>Vzorek z oboru ORL</td>
+<td>Vzorek z oboru ORL</td>
+<td>Vzorek z oboru ORL</td>
+<td>Vzorek z oboru ORL</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>600200</td></tr>
+<tr><td style="white-space:nowrap">SPCORT<a name="nclp-NCLPMAT-SPCORT"> </a></td>
+<td>Vzorek z pohybového aparátu</td>
+<td>SPCORT</td>
+<td>SPCORT</td>
+<td>SPCORT</td>
+<td>Vzorek z pohyb. aparátu</td>
+<td>Vzorek z pohybového aparátu</td>
+<td>Vzorek z pohybového aparátu</td>
+<td>Vzorek z pohybového aparátu</td>
+<td>Vzorek z pohybového aparátu</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>600500</td></tr>
+<tr><td style="white-space:nowrap">SPCPART<a name="nclp-NCLPMAT-SPCPART"> </a></td>
+<td>Vzorek z oboru porodnictví</td>
+<td>SPCPART</td>
+<td>SPCPART</td>
+<td>SPCPART</td>
+<td>Vzorek - porodnictví</td>
+<td>Vzorek z oboru porodnictví</td>
+<td>Vzorek z oboru porodnictví</td>
+<td>Vzorek z oboru porodnictví</td>
+<td>Vzorek z oboru porodnictví</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>600400</td></tr>
+<tr><td style="white-space:nowrap">SPCRESP<a name="nclp-NCLPMAT-SPCRESP"> </a></td>
+<td>Vzorek z dolních cest dýchacích</td>
+<td>SPCRESP</td>
+<td>SPCRESP</td>
+<td>SPCRESP</td>
+<td>Vzorek z dol. cest dých.</td>
+<td>Vzorek z dol. cest dýchacích</td>
+<td>Vzorek z dol. cest dýchacích</td>
+<td>Vzorek z dolních cest dýchacích</td>
+<td>Vzorek z dolních cest dýchacích</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>600100</td></tr>
+<tr><td style="white-space:nowrap">SPCURO<a name="nclp-NCLPMAT-SPCURO"> </a></td>
+<td>Vzorek z urogenitálu</td>
+<td>SPCURO</td>
+<td>SPCURO</td>
+<td>SPCURO</td>
+<td>Vzorek z urogenitálu</td>
+<td>Vzorek z urogenitálu</td>
+<td>Vzorek z urogenitálu</td>
+<td>Vzorek z urogenitálu</td>
+<td>Vzorek z urogenitálu</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>600300</td></tr>
+<tr><td style="white-space:nowrap">SPCVUL<a name="nclp-NCLPMAT-SPCVUL"> </a></td>
+<td>Vzorek z léze</td>
+<td>SPCVUL</td>
+<td>SPCVUL</td>
+<td>SPCVUL</td>
+<td>Vzorek z léze</td>
+<td>Vzorek z léze</td>
+<td>Vzorek z léze</td>
+<td>Vzorek z léze</td>
+<td>Vzorek z léze</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>600600</td></tr>
+<tr><td style="white-space:nowrap">SPLEEN<a name="nclp-NCLPMAT-SPLEEN"> </a></td>
+<td>Slezina</td>
+<td>SPLEEN</td>
+<td>SPLEEN</td>
+<td>SPLEEN</td>
+<td>Slezina</td>
+<td>Slezina</td>
+<td>Slezina</td>
+<td>Slezina</td>
+<td>Slezina</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>173000</td></tr>
+<tr><td style="white-space:nowrap">STF<a name="nclp-NCLPMAT-STF"> </a></td>
+<td>Žaludeční tekutina</td>
+<td>STF</td>
+<td>STF</td>
+<td>STF</td>
+<td>Žaludeční tekut.</td>
+<td>Žaludeční tekutina</td>
+<td>Žaludeční tekutina</td>
+<td>Žaludeční tekutina</td>
+<td>Žaludeční tekutina</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>093000</td></tr>
+<tr><td style="white-space:nowrap">STOM(BI)<a name="nclp-NCLPMAT-STOM.40BI.41"> </a></td>
+<td>Tkáň žaludku získaná biopsií</td>
+<td>STOM(BI)</td>
+<td>STOM(BI)</td>
+<td>STOM(BI)</td>
+<td>Žaludek(biopsie)</td>
+<td>Žaludek(biopsie)</td>
+<td>Žaludek(biopsie)</td>
+<td>Tkáň žaludku získaná biopsií</td>
+<td>Tkáň žaludku získaná biopsií</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>136000</td></tr>
+<tr><td style="white-space:nowrap">STOMACH<a name="nclp-NCLPMAT-STOMACH"> </a></td>
+<td>Žaludek</td>
+<td>STOMACH</td>
+<td>STOMACH</td>
+<td>STOMACH</td>
+<td>Žaludek</td>
+<td>Žaludek</td>
+<td>Žaludek</td>
+<td>Žaludek</td>
+<td>Žaludek</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>174000</td></tr>
+<tr><td style="white-space:nowrap">SW<a name="nclp-NCLPMAT-SW"> </a></td>
+<td>Pot</td>
+<td>SW</td>
+<td>SW</td>
+<td>SW</td>
+<td>Pot</td>
+<td>Pot</td>
+<td>Pot</td>
+<td>Pot</td>
+<td>Pot</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>088000</td></tr>
+<tr><td style="white-space:nowrap">TEAR<a name="nclp-NCLPMAT-TEAR"> </a></td>
+<td>Slzy</td>
+<td>TEAR</td>
+<td>TEAR</td>
+<td>TEAR</td>
+<td>Slzy</td>
+<td>Slzy</td>
+<td>Slzy</td>
+<td>Slzy</td>
+<td>Slzy</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>114000</td></tr>
+<tr><td style="white-space:nowrap">TISSUE<a name="nclp-NCLPMAT-TISSUE"> </a></td>
+<td>Tkáň</td>
+<td>TISSUE</td>
+<td>TISSUE</td>
+<td>TISSUE</td>
+<td>Tkáň</td>
+<td>Tkáň</td>
+<td>Tkáň</td>
+<td>Tkáň</td>
+<td>Tkáň</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>158000</td></tr>
+<tr><td style="white-space:nowrap">TRANSPL<a name="nclp-NCLPMAT-TRANSPL"> </a></td>
+<td>Transplantát</td>
+<td>TRANSPL</td>
+<td>TRANSPL</td>
+<td>TRANSPL</td>
+<td>Transplantát</td>
+<td>Transplantát</td>
+<td>Transplantát</td>
+<td>Transplantát</td>
+<td>Transplantát</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>192000</td></tr>
+<tr><td style="white-space:nowrap">TROMB<a name="nclp-NCLPMAT-TROMB"> </a></td>
+<td>Trombus</td>
+<td>TROMB</td>
+<td>TROMB</td>
+<td>TROMB</td>
+<td>Trombus</td>
+<td>Trombus</td>
+<td>Trombus</td>
+<td>Trombus</td>
+<td>Trombus</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>152000</td></tr>
+<tr><td style="white-space:nowrap">U<a name="nclp-NCLPMAT-U"> </a></td>
+<td>Moč</td>
+<td>U</td>
+<td>U</td>
+<td>U</td>
+<td>U</td>
+<td>U</td>
+<td>U</td>
+<td>Moč</td>
+<td>Moč</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>084000</td></tr>
+<tr><td style="white-space:nowrap">U(OVN)<a name="nclp-NCLPMAT-U.40OVN.41"> </a></td>
+<td>Moč (noční sběr)</td>
+<td>U(OVN)</td>
+<td>U(OVN)</td>
+<td>U(OVN)</td>
+<td>U (noční sběr)</td>
+<td>U (noční sběr)</td>
+<td>U (noční sběr)</td>
+<td>Moč (noční sběr)</td>
+<td>Moč (noční sběr)</td>
+<td>2021-12-04T00:00:00Z</td>
+<td>084010</td></tr>
+<tr><td style="white-space:nowrap">U(RND)<a name="nclp-NCLPMAT-U.40RND.41"> </a></td>
+<td>Moč (náhodný vzorek)</td>
+<td>U(RND)</td>
+<td>U(RND)</td>
+<td>U(RND)</td>
+<td>Moč (náhodný vzorek)</td>
+<td>Moč (náhodný vzorek)</td>
+<td>Moč (náhodný vzorek)</td>
+<td>Moč (náhodný vzorek)</td>
+<td>Moč (náhodný vzorek)</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>084050</td></tr>
+<tr><td style="white-space:nowrap">UNSF<a name="nclp-NCLPMAT-UNSF"> </a></td>
+<td>Tekutina blíže nespecifikovaná</td>
+<td>UNSF</td>
+<td>UNSF</td>
+<td>UNSF</td>
+<td>Nesp. tekutina</td>
+<td>Nespecifikovaná tekutina</td>
+<td>Nespecifikovaná tekutina</td>
+<td>Tekutina blíže nespecifikovaná</td>
+<td>Tekutina blíže nespecifikovaná</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>106000</td></tr>
+<tr><td style="white-space:nowrap">UNSFDR<a name="nclp-NCLPMAT-UNSFDR"> </a></td>
+<td>Tekutina blíže nespecifikovaná, získaná drénem</td>
+<td>UNSFDR</td>
+<td>UNSFDR</td>
+<td>UNSFDR</td>
+<td>Nesp.tekut. (Drén)</td>
+<td>Nespecif. tekutina (Drén)</td>
+<td>Nespecif. tekutina (Drén)</td>
+<td>Tekutina blíže nespecifikovaná, získaná drénem</td>
+<td>Tekutina blíže nespecifikovaná, získaná drénem</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>108000</td></tr>
+<tr><td style="white-space:nowrap">UNSFP<a name="nclp-NCLPMAT-UNSFP"> </a></td>
+<td>Tekutina blíže nespecifikovaná, získaná punkcí</td>
+<td>UNSFP</td>
+<td>UNSFP</td>
+<td>UNSFP</td>
+<td>Nesp.tekut.(Punkce)</td>
+<td>Nespecif. tekutina(Punkce)</td>
+<td>Nespecif. tekutina(Punkce)</td>
+<td>Tekutina blíže nespecifikovaná, získaná punkcí</td>
+<td>Tekutina blíže nespecifikovaná, získaná punkcí</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>107000</td></tr>
+<tr><td style="white-space:nowrap">UNSFS<a name="nclp-NCLPMAT-UNSFS"> </a></td>
+<td>Tekutina blíže nespecifikovaná, získaná sondou</td>
+<td>UNSFS</td>
+<td>UNSFS</td>
+<td>UNSFS</td>
+<td>Nesp. tekut.(Sonda)</td>
+<td>Nespecif. tekutina(Sonda)</td>
+<td>Nespecif. tekutina(Sonda)</td>
+<td>Tekutina blíže nespecifikovaná, získaná sondou</td>
+<td>Tekutina blíže nespecifikovaná, získaná sondou</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>109500</td></tr>
+<tr><td style="white-space:nowrap">VAGBLOOD<a name="nclp-NCLPMAT-VAGBLOOD"> </a></td>
+<td>Krev (vaginální)</td>
+<td>VAGBLOOD</td>
+<td>VAGBLOOD</td>
+<td>VAGBLOOD</td>
+<td>Krev (vaginální)</td>
+<td>Krev (vaginální)</td>
+<td>Krev (vaginální)</td>
+<td>Krev (vaginální)</td>
+<td>Krev (vaginální)</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>010601</td></tr>
+<tr><td style="white-space:nowrap">VAGCERPO<a name="nclp-NCLPMAT-VAGCERPO"> </a></td>
+<td>Pool vaginálního cervixu</td>
+<td>VAGCERPO</td>
+<td>VAGCERPO</td>
+<td>VAGCERPO</td>
+<td>Pool vaginál. cervixu</td>
+<td>Pool vaginálního cervixu</td>
+<td>Pool vaginálního cervixu</td>
+<td>Pool vaginálního cervixu</td>
+<td>Pool vaginálního cervixu</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>143000</td></tr>
+<tr><td style="white-space:nowrap">VAGCONT<a name="nclp-NCLPMAT-VAGCONT"> </a></td>
+<td>Vaginální obsah</td>
+<td>VAGCONT</td>
+<td>VAGCONT</td>
+<td>VAGCONT</td>
+<td>Vaginální obsah</td>
+<td>Vaginální obsah</td>
+<td>Vaginální obsah</td>
+<td>Vaginální obsah</td>
+<td>Vaginální obsah</td>
+<td>2000-01-01T00:00:00Z</td>
+<td>142000</td></tr></table></div>
+
+  
+
+  <!-- insert notes if present -->
+  
+
+
+
+  
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hl7.cz/">HL7 Czech Republic</a>.  Package hl7.fhir.cz.terminology#0.2.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Dec 23, 2025 18:33+0100">2025-12-23</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

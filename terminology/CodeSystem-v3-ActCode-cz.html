@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>v3 Code System ActCode - HL7 Czech Terminology Implementation Guide v0.2.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <link href="assets/css/cz-core.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"5.58"}
+    h3,h4,h5,h6{--heading-prefix:"5.58"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <!-- Placeholder for child template header declarations -->
+<div id="hl7-nav">
+  <a id="hl7-logo" no-external="true" href="https://www.hl7.cz">
+    <img height="60" alt="Visit the HL7 Czech website" src="assets/images/hl7cz-logo.png" />
+  </a>
+</div>
+<div id="project-nav">
+  <a id="project-logo" no-external="true" href="https://mzd.gov.cz"><img height="60" alt="MZCR"
+      src="assets/images/NPO_logo.png" /> </a>
+</div>
+<div id="family-nav">
+  <a id="family-logo" no-external="true" href="https://ncez.mzcr.cz/cs"><img height="60" alt="NCEZ MZCR"
+      src="assets/images/logo.png" /> </a>
+</div>
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">HL7 Czech Terminology Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.2.0 - release
+
+
+
+  <img alt="Czechia flag" src="assets/images/cze.svg" height="16" title="Czechia"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="artifactsPage.html">Terminologies</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>v3 Code System ActCode</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">This page is part of the Czech FHIR Terminology Package (v0.2.0: Release) based on <a data-no-external="true" href="http://hl7.org/fhir/R4">FHIR (HL7® FHIR® Standard) R4</a>. This is the current published version.  For a full list of available versions, see the <a data-no-external="true" href="https://hl7.cz/terminology/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li class="active">
+    <a href="#">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="CodeSystem-v3-ActCode-cz.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="CodeSystem-v3-ActCode-cz.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="CodeSystem-v3-ActCode-cz.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+  <a name="root"> </a>
+  <h2 id="root">CodeSystem: v3 Code System ActCode
+
+  </h2>
+
+  <table class="colsd">
+
+    <tr>
+      <td colspan="4"><i>Official URL</i>: <span class="copy-text">https://hl7.cz/terminology/CodeSystem/v3-ActCode-cz<button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://hl7.cz/terminology/CodeSystem/v3-ActCode-cz"/></span>
+      </td>
+      <td><i>Version</i>:
+      <span class="copy-text">0.2.0<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="https://hl7.cz/terminology/CodeSystem/v3-ActCode-cz|0.2.0"/></span>
+      </td>
+    </tr>
+
+    <tr>
+
+
+
+
+
+
+
+      <td colspan="4">
+        
+          Draft
+          
+            as of 2025-11-15
+          
+        
+      </td>
+
+
+
+      <td><i>Computable Name</i>: <span style="font-family: monospace;">v3-ActCode</span></td>
+    </tr>
+
+
+
+
+  </table>
+
+<p>
+<p>This code system supplements v3 ActCode.</p>
+
+</p>
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <p>
+  This Code system is referenced in the content logical definition of the following value sets:
+  </p>
+
+  
+<ul>
+ <li><a href="ValueSet-cz-coverage-type.html">CZ_CoverageType</a></li>
+</ul>
+
+
+  <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="cs" lang="cs" data-fhir="generated"><p class="res-header-id"></p><a name="v3-ActCode-cz"> </a><a name="hcv3-ActCode-cz"> </a>
+<div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: cs</p></div><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p>
+<table class="grid" data-fhir="generated"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr>
+<tr><td>Child</td>
+<td>child</td>
+<td>http://hl7.org/fhir/concept-properties#child</td>
+<td>code</td>
+<td>Child</td></tr>
+<tr><td>deprecationDate</td>
+<td>deprecationDate</td>
+<td>http://hl7.org/fhir/concept-properties#deprecationDate</td>
+<td>dateTime</td>
+<td>Deprecation Date</td></tr>
+<tr><td>Not Selectable</td>
+<td>notSelectable</td>
+<td>http://hl7.org/fhir/concept-properties#notSelectable</td>
+<td>boolean</td>
+<td>Not Selectable</td></tr>
+<tr><td>status</td>
+<td>status</td>
+<td>http://hl7.org/fhir/concept-properties#status</td>
+<td>code</td>
+<td>Status</td></tr>
+<tr><td>Parent</td>
+<td>subsumedBy</td>
+<td>http://hl7.org/fhir/concept-properties#parent</td>
+<td>code</td>
+<td>The concept code of a parent concept</td></tr></table><p><b>Concepts</b></p><p>This code system supplement <code>https://hl7.cz/terminology/CodeSystem/v3-ActCode-cz</code> defines displays and properties on the following codes:</p>
+<table class="codes" data-fhir="generated"><tr><td><b>Lvl</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>Not Selectable</b></td><td><b>status</b></td><td><b>Parent</b></td><td><b>English (English, en)</b></td></tr>
+<tr><td>1</td>
+<td><a style="white-space:nowrap" href="http://terminology.hl7.org/7.0.1/CodeSystem-v3-ActCode.html#v3-ActCode-HIP">HIP</a><a name="v3-ActCode-cz-HIP"> </a></td>
+<td>zdravotní pojištění</td>
+<td></td>
+<td></td>
+<td>draft</td>
+<td></td>
+<td>Definition: A health insurance policy that covers healthcare benefits by protecting covered parties from medical expenses arising from health conditions, sickness, or accidental injury as well as preventive care. Health insurance policies explicitly exclude coverage for losses insured under a disability policy, workers' compensation program, liability insurance (including automobile insurance); or for medical expenses, coverage for on-site medical clinics or for limited dental or vision benefits when these are provided under a separate policy.
+
+                        
+                           Discussion: Health insurance policies are offered by health insurance plans that typically reimburse providers for covered services on a fee-for-service basis, that is, a fee that is the allowable amount that a provider may charge.  This is in contrast to managed care plans, which typically prepay providers a per-member/per-month amount or capitation as reimbursement for all covered services rendered.  Health insurance plans include indemnity and healthcare services plans.</td></tr>
+<tr><td>1</td>
+<td><a style="white-space:nowrap" href="http://terminology.hl7.org/7.0.1/CodeSystem-v3-ActCode.html#v3-ActCode-_ActEncounterCode">_ActEncounterCode</a><a name="v3-ActCode-cz-_ActEncounterCode"> </a></td>
+<td>ActEncounterCode</td>
+<td>Doména poskytuje kódy, které klasifikují ActEncounterClass (ENC).</td>
+<td>true</td>
+<td>active</td>
+<td></td>
+<td></td></tr>
+<tr><td>2</td>
+<td>&nbsp;&nbsp;<a style="white-space:nowrap" href="http://terminology.hl7.org/7.0.1/CodeSystem-v3-ActCode.html#v3-ActCode-AMB">AMB</a><a name="v3-ActCode-cz-AMB"> </a></td>
+<td>ambulantní</td>
+<td>Souhrnný termín pro zdravotní péči poskytovanou ve zdravotnickém zařízení (např. v ordinaci lékaře, klinice nebo nemocnici) na nerezidentní bázi. Termín ambulantní obvykle znamená, že pacient přišel na dané místo a není mu přiděleno lůžko. Někdy se označuje jako ambulantní vyšetření.</td>
+<td></td>
+<td>active</td>
+<td>_ActEncounterCode</td>
+<td></td></tr>
+<tr><td>2</td>
+<td>&nbsp;&nbsp;<a style="white-space:nowrap" href="http://terminology.hl7.org/7.0.1/CodeSystem-v3-ActCode.html#v3-ActCode-EMER">EMER</a><a name="v3-ActCode-cz-EMER"> </a></td>
+<td>emergentní</td>
+<td>Kontakt s pacientem, který se odehrává ve specializovaném zdravotnickém zařízení, kde je pacient okamžitě vyšetřen a ošetřen, a to až do okamžiku, kdy může být propuštěn nebo kdy je odpovědnost za jeho péči převedena na jiné zařízení (například může být pacient přijat k hospitalizaci nebo převezen do jiného zařízení).</td>
+<td></td>
+<td>active</td>
+<td>_ActEncounterCode</td>
+<td></td></tr>
+<tr><td>2</td>
+<td>&nbsp;&nbsp;<a style="white-space:nowrap" href="http://terminology.hl7.org/7.0.1/CodeSystem-v3-ActCode.html#v3-ActCode-FLD">FLD</a><a name="v3-ActCode-cz-FLD"> </a></td>
+<td>terénní</td>
+<td>Kontakt s pacientem, který se odehrává mimo specializované místo poskytování služeb a mimo bydliště pacienta. Příkladem takových míst může být místo nehody nebo supermarket.</td>
+<td></td>
+<td>active</td>
+<td>_ActEncounterCode</td>
+<td></td></tr>
+<tr><td>2</td>
+<td>&nbsp;&nbsp;<a style="white-space:nowrap" href="http://terminology.hl7.org/7.0.1/CodeSystem-v3-ActCode.html#v3-ActCode-HH">HH</a><a name="v3-ActCode-cz-HH"> </a></td>
+<td>domácí péče</td>
+<td>Zdravotní péče poskytovaná v místě bydliště pacienta nebo jím určeném místě.</td>
+<td></td>
+<td>active</td>
+<td>_ActEncounterCode</td>
+<td></td></tr>
+<tr><td>2</td>
+<td>&nbsp;&nbsp;<a style="white-space:nowrap" href="http://terminology.hl7.org/7.0.1/CodeSystem-v3-ActCode.html#v3-ActCode-IMP">IMP</a><a name="v3-ActCode-cz-IMP"> </a></td>
+<td>hospitalizace</td>
+<td>Kontakt s pacientem, při kterém je pacient přijat do nemocnice nebo obdobného zařízení, přidělen na místo, kde pacienti obvykle zůstávají alespoň přes noc, a je mu poskytnuto ubytování, stravování a nepřetržitá ošetřovatelská péče.</td>
+<td></td>
+<td>active</td>
+<td>_ActEncounterCode</td>
+<td></td></tr>
+<tr><td>3</td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;<a style="white-space:nowrap" href="http://terminology.hl7.org/7.0.1/CodeSystem-v3-ActCode.html#v3-ActCode-ACUTE">ACUTE</a><a name="v3-ActCode-cz-ACUTE"> </a></td>
+<td>akutní hospitalizace</td>
+<td>Akutní hospitalizace.</td>
+<td></td>
+<td>active</td>
+<td>IMP</td>
+<td></td></tr>
+<tr><td>3</td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;<a style="white-space:nowrap" href="http://terminology.hl7.org/7.0.1/CodeSystem-v3-ActCode.html#v3-ActCode-NONAC">NONAC</a><a name="v3-ActCode-cz-NONAC"> </a></td>
+<td>neakutní hospitalizace</td>
+<td>Jakákoli kategorie hospitalizace kromě „akutní“</td>
+<td></td>
+<td>active</td>
+<td>IMP</td>
+<td></td></tr>
+<tr><td>2</td>
+<td>&nbsp;&nbsp;<a style="white-space:nowrap" href="http://terminology.hl7.org/7.0.1/CodeSystem-v3-ActCode.html#v3-ActCode-OBSENC">OBSENC</a><a name="v3-ActCode-cz-OBSENC"> </a></td>
+<td>pozorování</td>
+<td>Kontakt, při kterém pacient obvykle začíná v jiném kontaktu, například na pohotovosti (EMER), ale poté přechází k tomuto typu kontaktu, protože vyžaduje delší léčbu a sledování, aby bylo možné určit, zda jeho stav vyžaduje hospitalizaci nebo propuštění. Ve většině případů bude rozhodnutí o hospitalizaci nebo propuštění učiněno v časovém období stanoveném místními, regionálními nebo národními předpisy, často mezi 24 a 48 hodinami.</td>
+<td></td>
+<td>active</td>
+<td>_ActEncounterCode</td>
+<td></td></tr>
+<tr><td>2</td>
+<td>&nbsp;&nbsp;<a style="white-space:nowrap" href="http://terminology.hl7.org/7.0.1/CodeSystem-v3-ActCode.html#v3-ActCode-PRENC">PRENC</a><a name="v3-ActCode-cz-PRENC"> </a></td>
+<td>pre-hospitalizace</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td>_ActEncounterCode</td>
+<td></td></tr></table></div>
+
+  
+
+  <!-- insert notes if present -->
+  
+
+
+
+  
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hl7.cz/">HL7 Czech Republic</a>.  Package hl7.fhir.cz.terminology#0.2.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Dec 23, 2025 18:33+0100">2025-12-23</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

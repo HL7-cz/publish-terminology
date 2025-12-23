@@ -1,0 +1,104 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hl7.cz/terminology/CodeSystem/allergy-intolerance-criticality-cz> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "allergy-intolerance-criticality-cz"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem allergy-intolerance-criticality-cz</b></p><a name=\"allergy-intolerance-criticality-cz\"> </a><a name=\"hcallergy-intolerance-criticality-cz\"> </a><p>This code system supplement <code>https://hl7.cz/terminology/CodeSystem/allergy-intolerance-criticality-cz</code> defines displays on the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>English (English, en)</b></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://hl7.org/fhir/R4/codesystem-allergy-intolerance-criticality.html#allergy-intolerance-criticality-high\">high</a><a name=\"allergy-intolerance-criticality-cz-high\"> </a></td><td>vysoké riziko</td><td>V nejhorším případě je výsledek budoucí expozice hodnocen jako život ohrožující nebo s vysokým rizikem selhání orgánového systému.</td><td>Worst case result of a future exposure is assessed to be life-threatening or having high potential for organ system failure.</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://hl7.org/fhir/R4/codesystem-allergy-intolerance-criticality.html#allergy-intolerance-criticality-low\">low</a><a name=\"allergy-intolerance-criticality-cz-low\"> </a></td><td>nízké riziko</td><td>Nejhorší možný výsledek budoucí expozice není hodnocen jako život ohrožující ani jako vysoce pravděpodobný selhání orgánového systému.</td><td>Worst case result of a future exposure is not assessed to be life-threatening or having high potential for organ system failure.</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://hl7.org/fhir/R4/codesystem-allergy-intolerance-criticality.html#allergy-intolerance-criticality-unable-to-assess\">unable-to-assess</a><a name=\"allergy-intolerance-criticality-cz-unable-to-assess\"> </a></td><td>riziko nelze posoudit</td><td>Není možné odhadnout nejhorší možný výsledek budoucí expozice.</td><td>Unable to assess the worst case result of a future exposure.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [
+     fhir:v "https://hl7.cz/terminology/CodeSystem/allergy-intolerance-criticality-cz"^^xsd:anyURI ;
+     fhir:l <https://hl7.cz/terminology/CodeSystem/allergy-intolerance-criticality-cz>
+  ] ; # 
+  fhir:version [ fhir:v "0.2.0"] ; # 
+  fhir:name [ fhir:v "AllergyIntoleranceCriticality"] ; # 
+  fhir:title [ fhir:v "AllergyIntoleranceCriticality (CZ supplement)"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2025-12-15T12:06:46.649344Z"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 Czech Republic"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HL7 Czech Republic" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://www.hl7.cz/" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "AllergyIntoleranceCriticality CZ Code system supplement"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
+         fhir:l <urn:iso:std:iso:3166>
+       ] ;
+       fhir:code [ fhir:v "CZ" ] ;
+       fhir:display [ fhir:v "Czechia" ]
+     ] )
+  ] ) ; # 
+  fhir:content [ fhir:v "supplement"] ; # 
+  fhir:supplements [
+     fhir:v "http://hl7.org/fhir/allergy-intolerance-criticality"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/allergy-intolerance-criticality>
+  ] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "high" ] ;
+     fhir:display [ fhir:v "vysoké riziko" ] ;
+     fhir:definition [ fhir:v "V nejhorším případě je výsledek budoucí expozice hodnocen jako život ohrožující nebo s vysokým rizikem selhání orgánového systému." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "Worst case result of a future exposure is assessed to be life-threatening or having high potential for organ system failure." ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "High Risk" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "low" ] ;
+     fhir:display [ fhir:v "nízké riziko" ] ;
+     fhir:definition [ fhir:v "Nejhorší možný výsledek budoucí expozice není hodnocen jako život ohrožující ani jako vysoce pravděpodobný selhání orgánového systému." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "Worst case result of a future exposure is not assessed to be life-threatening or having high potential for organ system failure." ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "Low Risk" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "unable-to-assess" ] ;
+     fhir:display [ fhir:v "riziko nelze posoudit" ] ;
+     fhir:definition [ fhir:v "Není možné odhadnout nejhorší možný výsledek budoucí expozice." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "Unable to assess the worst case result of a future exposure." ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "Unable to Assess Risk" ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

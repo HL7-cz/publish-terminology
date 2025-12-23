@@ -1,0 +1,1617 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hl7.cz/terminology/CodeSystem/v3-RoleCode-cz> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "v3-RoleCode-cz"] ; # 
+  fhir:language [ fhir:v "cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xml:lang=\"cs\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"cs\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem v3-RoleCode-cz</b></p><a name=\"v3-RoleCode-cz\"> </a><a name=\"hcv3-RoleCode-cz\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: cs</p></div><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>Not Selectable</td><td>notSelectable</td><td>http://hl7.org/fhir/concept-properties#notSelectable</td><td>boolean</td><td>Not Selectable</td></tr><tr><td>Concept Domain that classifies a RIM Class Code</td><td>rim-ClassifiesClassCode</td><td>http://terminology.hl7.org/CodeSystem/utg-concept-properties#rim-ClassifiesClassCode</td><td>Coding</td><td>The child code is a classification of the particular class group identified by the 'classCode' in a RIM class as the parent code.  Used only in RIM backbone classes to link the code and classCode values.</td></tr><tr><td>Parent</td><td>subsumedBy</td><td>http://hl7.org/fhir/concept-properties#parent</td><td>code</td><td>The concept code of a parent concept</td></tr><tr><td>synonymCode</td><td>synonymCode</td><td>http://hl7.org/fhir/concept-properties#synonym</td><td>code</td><td>An additional concept code that was also attributed to a concept</td></tr></table><p><b>Concepts</b></p><p>This code system supplement <code>https://hl7.cz/terminology/CodeSystem/v3-RoleCode-cz</code> defines displays and properties on the following codes:</p><table class=\"codes\"><tr><td><b>Lvl</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>Not Selectable</b></td><td><b>Parent</b></td><td><b>synonymCode</b></td><td><b>English (English, en)</b></td></tr><tr><td>1</td><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-_ContactRoleType\">_ContactRoleType</a><a name=\"v3-RoleCode-cz-_ContactRoleType\"> </a></td><td>ContactRoleType</td><td>Typy kontaktů pro kód role \\\"CON\\“</td><td>true</td><td/><td/><td>Types of contact for Role code \"CON\"</td></tr><tr><td>2</td><td>  <a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-NOK\">NOK</a><a name=\"v3-RoleCode-cz-NOK\"> </a></td><td>příbuzný</td><td>Nejbližší příbuzný dotčené osoby.</td><td/><td>_ContactRoleType</td><td/><td>Played by an individual who is designated as the next of kin for another individual which scopes the role.</td></tr><tr><td>1</td><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-_PersonalRelationshipRoleType\">_PersonalRelationshipRoleType</a><a name=\"v3-RoleCode-cz-_PersonalRelationshipRoleType\"> </a></td><td>PersonalRelationshipRoleType</td><td>Typy osobních vztahů pro kód role \\\"PRN\\“</td><td>true</td><td/><td/><td>PersonalRelationshipRoleType</td></tr><tr><td>2</td><td>  <a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-FAMMEMB\">FAMMEMB</a><a name=\"v3-RoleCode-cz-FAMMEMB\"> </a></td><td>rodinný příslušník</td><td>Vztah mezi dvěma osobami, který je charakterizován jako vztah \\\"rodinný\\\".</td><td/><td>_PersonalRelationshipRoleType</td><td/><td>A relationship between two people characterizing their \"familial\" relationship</td></tr><tr><td>3</td><td>    <a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-CHILD\">CHILD</a><a name=\"v3-RoleCode-cz-CHILD\"> </a></td><td>dítě</td><td>Dítě dotčené osoby.</td><td/><td>FAMMEMB</td><td/><td>The player of the role is a child of the scoping entity.</td></tr><tr><td>4</td><td>      <a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-CHLDADOPT\">CHLDADOPT</a><a name=\"v3-RoleCode-cz-CHLDADOPT\"> </a></td><td>osvojené dítě</td><td>Dítě dotčené osoby, které bylo přijato do rodiny prostřednictvím právních prostředků a vychováváno dotčenou osobou (rodičem) jako vlastní dítě.</td><td/><td>CHILD</td><td/><td>The player of the role is a child taken into a family through legal means and raised by the scoping person (parent) as his or her own child.</td></tr><tr><td>5</td><td>        <a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-DAUADOPT\">DAUADOPT</a><a name=\"v3-RoleCode-cz-DAUADOPT\"> </a></td><td>osvojená dcera</td><td>Ženský potomek dotčené entity (rodiče), který byl přijat do rodiny prostřednictvím právních prostředků a vychováván dotčenou osobou (rodičem) jako vlastní dítě.</td><td/><td>CHLDADOPT, DAUC</td><td/><td>The player of the role is a female child taken into a family through legal means and raised by the scoping person (parent) as his or her own child.</td></tr><tr><td>5</td><td>        <a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-SONADOPT\">SONADOPT</a><a name=\"v3-RoleCode-cz-SONADOPT\"> </a></td><td>osvojený syn</td><td>Mužský potomek dotčené entity (rodiče), který byl přijat do rodiny prostřednictvím právních prostředků a vychováván dotčenou osobou (rodičem) jako vlastní dítě.</td><td/><td>CHLDADOPT, SONC</td><td/><td>The player of the role is a male child taken into a family through legal means and raised by the scoping person (parent) as his or her own child.</td></tr><tr><td>4</td><td>      <a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-CHLDFOST\">CHLDFOST</a><a name=\"v3-RoleCode-cz-CHLDFOST\"> </a></td><td>dítě v náhradní péči (kromě osvojení)</td><td>Dítě dotčené osoby, které přijímá rodičovskou péči a výchovu od dotčené osoby (rodiče), ale není s ním nebo s ní spojeno právními nebo pokrevními vazbami.</td><td/><td>CHILD</td><td/><td>The player of the role is a child receiving parental care and nurture from the scoping person (parent) but not related to him or her through legal or blood ties.</td></tr><tr><td>5</td><td>        <a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-DAUFOST\">DAUFOST</a><a name=\"v3-RoleCode-cz-DAUFOST\"> </a></td><td>dcera v náhradní péči (kromě osvojení)</td><td>Ženský potomek dotčené entity (rodiče), který přijímá rodičovskou péči a výchovu od dotčené osoby (rodiče), ale není s ním nebo s ní spojeno právními nebo pokrevními vazbami.</td><td/><td>CHLDFOST, DAUC</td><td/><td>The player of the role is a female child receiving parental care and nurture from the scoping person (parent) but not related to him or her through legal or blood ties.</td></tr><tr><td>5</td><td>        <a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-SONFOST\">SONFOST</a><a name=\"v3-RoleCode-cz-SONFOST\"> </a></td><td>syn v náhradní péči (kromě osvojení)</td><td>Mužský potomek dotčené entity (rodiče), který je v náhradní péči a výchově dotčené osoby (rodiče), ale není s ní spojen právními nebo biologickými vazbami.</td><td/><td>CHLDFOST, SONC</td><td/><td>The player of the role is a male child receiving parental care and nurture from the scoping person (parent) but not related to him or her through legal or blood ties.</td></tr><tr><td>4</td><td>      <a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-DAUC\">DAUC</a><a name=\"v3-RoleCode-cz-DAUC\"> </a></td><td>dcera</td><td>**Popis:** Ženský potomek (jakéhokoliv typu) dotčené entity (rodiče).</td><td/><td>CHILD</td><td/><td>**Description:** The player of the role is a female child (of any type) of scoping entity (parent)</td></tr><tr><td>5</td><td>        <a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-DAU\">DAU</a><a name=\"v3-RoleCode-cz-DAU\"> </a></td><td>vlastní dcera</td><td>Ženský potomek dotčené entity (rodiče).</td><td/><td>DAUC, NCHILD</td><td/><td>The player of the role is a female offspring of the scoping entity (parent).</td></tr><tr><td>5</td><td>        <a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-STPDAU\">STPDAU</a><a name=\"v3-RoleCode-cz-STPDAU\"> </a></td><td>nevlastní dcera</td><td>Ženský potomek manžela/manželky dotčené osoby z předchozího manželství.</td><td/><td>DAUC, STPCHLD</td><td/><td>The player of the role is a daughter of the scoping person's spouse by a previous union.</td></tr><tr><td>5</td><td style=\"white-space:nowrap\">        <a href=\"#v3-RoleCode-cz-DAUADOPT\">DAUADOPT</a></td><td>osvojená dcera</td><td colspan=\"4\"/></tr><tr><td>5</td><td style=\"white-space:nowrap\">        <a href=\"#v3-RoleCode-cz-DAUFOST\">DAUFOST</a></td><td>dcera v náhradní péči (kromě osvojení)</td><td colspan=\"4\"/></tr><tr><td>4</td><td>      <a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-NCHILD\">NCHILD</a><a name=\"v3-RoleCode-cz-NCHILD\"> </a></td><td>potomek</td><td>Potomek dotčené entity (rodiče).</td><td/><td>CHILD</td><td/><td>The player of the role is an offspring of the scoping entity as determined by birth.</td></tr><tr><td>5</td><td>        <a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-SON\">SON</a><a name=\"v3-RoleCode-cz-SON\"> </a></td><td>vlastní syn</td><td>Mužský potomek dotčené entity (rodiče).</td><td/><td>NCHILD, SONC</td><td/><td>The player of the role is a male offspring of the scoping entity (parent).</td></tr><tr><td>5</td><td style=\"white-space:nowrap\">        <a href=\"#v3-RoleCode-cz-DAU\">DAU</a></td><td>vlastní dcera</td><td colspan=\"4\"/></tr><tr><td>4</td><td>      <a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-SONC\">SONC</a><a name=\"v3-RoleCode-cz-SONC\"> </a></td><td>syn</td><td>**Popis:** Mužský potomek (jakéhokoli typu) dotčené osoby (rodiče).</td><td/><td>CHILD</td><td/><td>**Description:** The player of the role is a male child (of any type) of scoping entity (parent)</td></tr><tr><td>5</td><td>        <a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-STPSON\">STPSON</a><a name=\"v3-RoleCode-cz-STPSON\"> </a></td><td>nevlastní syn</td><td>Mužský potomek manžela/manželky dotčené osoby z předchozího manželství.</td><td/><td>SONC, STPCHLD</td><td/><td>The player of the role is a son of the scoping person's spouse by a previous union.</td></tr><tr><td>5</td><td style=\"white-space:nowrap\">        <a href=\"#v3-RoleCode-cz-SON\">SON</a></td><td>vlastní syn</td><td colspan=\"4\"/></tr><tr><td>5</td><td style=\"white-space:nowrap\">        <a href=\"#v3-RoleCode-cz-SONADOPT\">SONADOPT</a></td><td>osvojený syn</td><td colspan=\"4\"/></tr><tr><td>5</td><td style=\"white-space:nowrap\">        <a href=\"#v3-RoleCode-cz-SONFOST\">SONFOST</a></td><td>syn v náhradní péči (kromě osvojení)</td><td colspan=\"4\"/></tr><tr><td>4</td><td>      <a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-STPCHLD\">STPCHLD</a><a name=\"v3-RoleCode-cz-STPCHLD\"> </a></td><td>nevlastní dítě</td><td>Dítě manžela/manželky dotčené osoby z předchozího manželství.</td><td/><td>CHILD</td><td/><td>The player of the role is a child of the scoping person's spouse by a previous union.</td></tr><tr><td>5</td><td style=\"white-space:nowrap\">        <a href=\"#v3-RoleCode-cz-STPDAU\">STPDAU</a></td><td>nevlastní dcera</td><td colspan=\"4\"/></tr><tr><td>5</td><td style=\"white-space:nowrap\">        <a href=\"#v3-RoleCode-cz-STPSON\">STPSON</a></td><td>nevlastní syn</td><td colspan=\"4\"/></tr><tr><td>3</td><td>    <a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-EXT\">EXT</a><a name=\"v3-RoleCode-cz-EXT\"> </a></td><td>člen širší rodiny</td><td>**Popis:** Rodinný příslušník, který není v bezprostředním genetickém nebo právním vztahu k dotčené osobě, např. teta, bratranec, sestřenice, prarodič, vnuk, praprarodič, neteř, synovec nebo strýc.</td><td/><td>FAMMEMB</td><td/><td>**Description:** A family member not having an immediate genetic or legal relationship e.g. Aunt, cousin, great grandparent, grandchild, grandparent, niece, nephew or uncle.</td></tr><tr><td>4</td><td>      <a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-AUNT\">AUNT</a><a name=\"v3-RoleCode-cz-AUNT\"> </a></td><td>teta</td><td>Sestra matky nebo otce dotčené osoby.</td><td/><td>EXT</td><td/><td>The player of the role is a sister of the scoping person's mother or father.</td></tr><tr><td>4</td><td>      <a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-COUSN\">COUSN</a><a name=\"v3-RoleCode-cz-COUSN\"> </a></td><td>sestřenice/bratranec</td><td>Příbuzný dotčené osoby, který pochází ze společného předka, jako je prarodič, po dvou nebo více krocích v rodové linii.</td><td/><td>EXT</td><td/><td>The player of the role is a relative of the scoping person descended from a common ancestor, such as a grandparent, by two or more steps in a diverging line.</td></tr><tr><td>4</td><td>      <a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-GGRPRN\">GGRPRN</a><a name=\"v3-RoleCode-cz-GGRPRN\"> </a></td><td>praprarodič</td><td>Osoba, která je rodičem prarodiče dotčené osoby.</td><td/><td>EXT</td><td/><td>The player of the role is a parent of the scoping person's grandparent.</td></tr><tr><td>5</td><td>        <a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-GGRFTH\">GGRFTH</a><a name=\"v3-RoleCode-cz-GGRFTH\"> </a></td><td>pradědeček</td><td>Muž, který je otcem prarodiče dotčené osoby.</td><td/><td>GGRPRN</td><td/><td>The player of the role is the father of the scoping person's grandparent.</td></tr><tr><td>5</td><td>        <a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-GGRMTH\">GGRMTH</a><a name=\"v3-RoleCode-cz-GGRMTH\"> </a></td><td>prababička</td><td>Žena, která je matkou prarodiče dotčené osoby.</td><td/><td>GGRPRN</td><td/><td>The player of the role is the mother of the scoping person's grandparent.</td></tr><tr><td>4</td><td>      <a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-GRNDCHILD\">GRNDCHILD</a><a name=\"v3-RoleCode-cz-GRNDCHILD\"> </a></td><td>vnouče</td><td>Potomek, který je dítětem syna nebo dcery dotčené osoby.</td><td/><td>EXT</td><td/><td>The player of the role is a child of the scoping person's son or daughter.</td></tr><tr><td>5</td><td>        <a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-GRNDDAU\">GRNDDAU</a><a name=\"v3-RoleCode-cz-GRNDDAU\"> </a></td><td>vnučka</td><td>Dcera syna nebo dcery dotčené osoby.</td><td/><td>GRNDCHILD</td><td/><td>The player of the role is a daughter of the scoping person's son or daughter.</td></tr><tr><td>5</td><td>        <a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-GRNDSON\">GRNDSON</a><a name=\"v3-RoleCode-cz-GRNDSON\"> </a></td><td>vnuk</td><td>Syn syna nebo dcery dotčené osoby.</td><td/><td>GRNDCHILD</td><td/><td>The player of the role is a son of the scoping person's son or daughter.</td></tr><tr><td>4</td><td>      <a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-GRPRN\">GRPRN</a><a name=\"v3-RoleCode-cz-GRPRN\"> </a></td><td>prarodič</td><td>Osoba, která je rodičem rodiče dotčené osoby.</td><td/><td>EXT</td><td/><td>The player of the role is a parent of the scoping person's mother or father.</td></tr><tr><td>5</td><td>        <a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-GRFTH\">GRFTH</a><a name=\"v3-RoleCode-cz-GRFTH\"> </a></td><td>dědeček</td><td>Muž, který je otcem rodiče dotčené osoby.</td><td/><td>GRPRN</td><td/><td>The player of the role is the father of the scoping person's mother or father.</td></tr><tr><td>5</td><td>        <a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-GRMTH\">GRMTH</a><a name=\"v3-RoleCode-cz-GRMTH\"> </a></td><td>babička</td><td>Žena, která je matkou rodiče dotčené osoby.</td><td/><td>GRPRN</td><td/><td>The player of the role is the mother of the scoping person's mother or father.</td></tr><tr><td>4</td><td>      <a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-INLAW\">INLAW</a><a name=\"v3-RoleCode-cz-INLAW\"> </a></td><td>příbuzní ze strany manžela/manželky</td><td>Vztah mezi jednotlivcem a členem nejbližší rodiny jeho manželského partnera.</td><td/><td>EXT</td><td/><td>A relationship between an individual and a member of their spousal partner's immediate family.</td></tr><tr><td>5</td><td>        <a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-CHLDINLAW\">CHLDINLAW</a><a name=\"v3-RoleCode-cz-CHLDINLAW\"> </a></td><td>zeť/snacha</td><td>Manžel nebo manželka dítěte dotčené osoby.</td><td/><td>INLAW</td><td/><td>The player of the role is the spouse of scoping person's child.</td></tr><tr><td>6</td><td>          <a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-DAUINLAW\">DAUINLAW</a><a name=\"v3-RoleCode-cz-DAUINLAW\"> </a></td><td>snacha</td><td>Manželka syna dotčené osoby.</td><td/><td>CHLDINLAW</td><td/><td>The player of the role is the wife of scoping person's son.</td></tr><tr><td>6</td><td>          <a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-SONINLAW\">SONINLAW</a><a name=\"v3-RoleCode-cz-SONINLAW\"> </a></td><td>zeť</td><td>Manžel dcery dotčené osoby.</td><td/><td>CHLDINLAW</td><td/><td>The player of the role is the husband of scoping person's daughter.</td></tr><tr><td>5</td><td>        <a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-PRNINLAW\">PRNINLAW</a><a name=\"v3-RoleCode-cz-PRNINLAW\"> </a></td><td>tchyně/tchán</td><td>Rodič manžela nebo manželky dotčené osoby.</td><td/><td>INLAW</td><td/><td>The player of the role is the parent of scoping person's husband or wife.</td></tr><tr><td>6</td><td>          <a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-FTHINLAW\">FTHINLAW</a><a name=\"v3-RoleCode-cz-FTHINLAW\"> </a></td><td>tchán</td><td>Muž, který je otcem manžela nebo manželky dotčené osoby.</td><td/><td>PRNINLAW</td><td/><td>The player of the role is the father of the scoping person's husband or wife.</td></tr><tr><td>6</td><td>          <a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-MTHINLAW\">MTHINLAW</a><a name=\"v3-RoleCode-cz-MTHINLAW\"> </a></td><td>tchýně</td><td>Žena, která je matkou manžela nebo manželky dotčené osoby.</td><td/><td>PRNINLAW</td><td>MTHINLOAW</td><td>The player of the role is the mother of the scoping person's husband or wife.</td></tr><tr><td>6</td><td>          <a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-MTHINLOAW\">MTHINLOAW</a><a name=\"v3-RoleCode-cz-MTHINLOAW\"> </a></td><td>tchýně</td><td>Žena, která je matkou manžela nebo manželky dotčené osoby.</td><td/><td>PRNINLAW</td><td>MTHINLAW</td><td>The player of the role is the mother of the scoping person's husband or wife.</td></tr><tr><td>5</td><td>        <a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-SIBINLAW\">SIBINLAW</a><a name=\"v3-RoleCode-cz-SIBINLAW\"> </a></td><td>švagr/švagrová</td><td>Osoba, která je: (1) sourozencem manžela/manželky dotčené osoby, nebo (2) manželem/manželkou sourozence dotčené osoby, nebo (3) manželem/manželkou sourozence manžela/manželky dotčené osoby.</td><td/><td>INLAW</td><td/><td>The player of the role is: (1) a sibling of the scoping person's spouse, or (2) the spouse of the scoping person's sibling, or (3) the spouse of a sibling of the scoping person's spouse.</td></tr><tr><td>6</td><td>          <a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-BROINLAW\">BROINLAW</a><a name=\"v3-RoleCode-cz-BROINLAW\"> </a></td><td>švagr</td><td>(1) bratr manžela nebo manželky dotčené osoby, nebo (2) manžel sestry dotčené osoby, nebo (3) manžel sestry manžela nebo manželky dotčené osoby.</td><td/><td>SIBINLAW</td><td/><td>The player of the role is: (1) a brother of the scoping person's spouse, or (2) the husband of the scoping person's sister, or (3) the husband of a sister of the scoping person's spouse.</td></tr><tr><td>6</td><td>          <a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-SISINLAW\">SISINLAW</a><a name=\"v3-RoleCode-cz-SISINLAW\"> </a></td><td>švagrová</td><td>Osoba, která je: (1) sestrou manžela/manželky dotčené osoby, nebo (2) manželkou bratra dotčené osoby, nebo (3) manželkou bratra manžela/manželky dotčené osoby.</td><td/><td>SIBINLAW</td><td>SISLINLAW</td><td>The player of the role is: (1) a sister of the scoping person's spouse, or (2) the wife of the scoping person's brother, or (3) the wife of a brother of the scoping person's spouse.</td></tr><tr><td>6</td><td>          <a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-SISLINLAW\">SISLINLAW</a><a name=\"v3-RoleCode-cz-SISLINLAW\"> </a></td><td>švagrová</td><td>Osoba, která je: (1) sestrou manžela/manželky dotčené osoby, nebo (2) manželkou bratra dotčené osoby, nebo (3) manželkou bratra manžela/manželky dotčené osoby.</td><td/><td>SIBINLAW</td><td>SISINLAW</td><td>The player of the role is: (1) a sister of the scoping person's spouse, or (2) the wife of the scoping person's brother, or (3) the wife of a brother of the scoping person's spouse.</td></tr><tr><td>4</td><td>      <a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-NIENEPH\">NIENEPH</a><a name=\"v3-RoleCode-cz-NIENEPH\"> </a></td><td>neteř/synovec</td><td>Potomek bratra nebo sestry dotčené osoby nebo bratra nebo sestry manžela/manželky dotčené osoby.</td><td/><td>EXT</td><td/><td>The player of the role is a child of scoping person's brother or sister or of the brother or sister of the scoping person's spouse.</td></tr><tr><td>5</td><td>        <a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-NEPHEW\">NEPHEW</a><a name=\"v3-RoleCode-cz-NEPHEW\"> </a></td><td>synovec</td><td>Syn bratra nebo sestry dotčené osoby.</td><td/><td>NIENEPH</td><td/><td>The player of the role is a son of the scoping person's brother or sister or of the brother or sister of the scoping person's spouse.</td></tr><tr><td>5</td><td>        <a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-NIECE\">NIECE</a><a name=\"v3-RoleCode-cz-NIECE\"> </a></td><td>neteř</td><td>Dcera bratra nebo sestry dotčené osoby.</td><td/><td>NIENEPH</td><td/><td>The player of the role is a daughter of the scoping person's brother or sister or of the brother or sister of the scoping person's spouse.</td></tr><tr><td>4</td><td>      <a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-UNCLE\">UNCLE</a><a name=\"v3-RoleCode-cz-UNCLE\"> </a></td><td>strýc</td><td>Bratr matky nebo otce dotčené osoby.</td><td/><td>EXT</td><td/><td>The player of the role is a brother of the scoping person's mother or father.</td></tr><tr><td>3</td><td>    <a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-PRN\">PRN</a><a name=\"v3-RoleCode-cz-PRN\"> </a></td><td>rodič</td><td>Osoba, která zplodila, porodila nebo vychovala a pečuje o dotčenou osobu (dítě).</td><td/><td>FAMMEMB</td><td/><td>The player of the role is one who begets, gives birth to, or nurtures and raises the scoping entity (child).</td></tr><tr><td>4</td><td>      <a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-FTH\">FTH</a><a name=\"v3-RoleCode-cz-FTH\"> </a></td><td>otec</td><td>Muž, který zplodil, vychoval nebo pečuje o dotčenou osobu (dítě).</td><td/><td>PRN</td><td/><td>The player of the role is a male who begets or raises or nurtures the scoping entity (child).</td></tr><tr><td>4</td><td>      <a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-MTH\">MTH</a><a name=\"v3-RoleCode-cz-MTH\"> </a></td><td>matka</td><td>Žena, která zplodila, porodila nebo vychovala a pečuje o dotčenou osobu (dítě).</td><td/><td>PRN</td><td/><td>The player of the role is a female who conceives, gives birth to, or raises and nurtures the scoping entity (child).</td></tr><tr><td>3</td><td>    <a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-SIB\">SIB</a><a name=\"v3-RoleCode-cz-SIB\"> </a></td><td>sourozenec</td><td>Osoba, která sdílí jednoho nebo oba rodiče s dotčenou osobou.</td><td/><td>FAMMEMB</td><td/><td>The player of the role shares one or both parents in common with the scoping entity.</td></tr><tr><td>4</td><td>      <a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-BRO\">BRO</a><a name=\"v3-RoleCode-cz-BRO\"> </a></td><td>bratr</td><td>Muž, který sdílí jednoho nebo oba společné rodiče s dotčenou osobou.</td><td/><td>SIB</td><td/><td>The player of the role is a male sharing one or both parents in common with the scoping entity.</td></tr><tr><td>4</td><td>      <a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-SIS\">SIS</a><a name=\"v3-RoleCode-cz-SIS\"> </a></td><td>sestra</td><td>Žena, která sdílí jednoho nebo oba rodiče s dotčenou osobou.</td><td/><td>SIB</td><td/><td>The player of the role is a female sharing one or both parents in common with the scoping entity.</td></tr><tr><td>3</td><td>    <a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-SIGOTHR\">SIGOTHR</a><a name=\"v3-RoleCode-cz-SIGOTHR\"> </a></td><td>osoba blízká</td><td>Osoba, která je důležitá pro blaho dotčené osoby; zejména manžel nebo osoba ve obdobném vztahu.</td><td/><td>FAMMEMB</td><td/><td>A person who is important to one's well being; especially a spouse or one in a similar relationship. (The player is the one who is important)</td></tr><tr><td>4</td><td>      <a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-DOMPART\">DOMPART</a><a name=\"v3-RoleCode-cz-DOMPART\"> </a></td><td>druh/družka</td><td>Osoba žijící s dotčenou osobou, která není manželem nebo manželkou dotčené osoby.</td><td/><td>SIGOTHR</td><td/><td>The player of the role cohabits with the scoping person but is not the scoping person's spouse.</td></tr><tr><td>4</td><td>      <a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-SPS\">SPS</a><a name=\"v3-RoleCode-cz-SPS\"> </a></td><td>manžel/maželka</td><td>Osoba, která je manželským partnerem dotčené osoby.</td><td/><td>SIGOTHR</td><td/><td>The player of the role is a marriage partner of the scoping person.</td></tr><tr><td>5</td><td>        <a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-HUSB\">HUSB</a><a name=\"v3-RoleCode-cz-HUSB\"> </a></td><td>manžel</td><td>Muž, který je spojen s dotčenou ženou v manželství.</td><td/><td>SPS</td><td/><td>The player of the role is a man joined to a woman (scoping person) in marriage.</td></tr><tr><td>5</td><td>        <a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-WIFE\">WIFE</a><a name=\"v3-RoleCode-cz-WIFE\"> </a></td><td>manželka</td><td>Žena, která je manželským partnerem dotčené osoby.</td><td/><td>SPS</td><td/><td>The player of the role is a woman joined to a man (scoping person) in marriage.</td></tr><tr><td>2</td><td>  <a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-FRND\">FRND</a><a name=\"v3-RoleCode-cz-FRND\"> </a></td><td>přítel/přítelkyně</td><td>Osoba, která je známá, oblíbená a důvěryhodná pro dotčenou osobu.</td><td/><td>_PersonalRelationshipRoleType</td><td/><td>The player of the role is a person who is known, liked, and trusted by the scoping person.</td></tr><tr><td>2</td><td>  <a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-NBOR\">NBOR</a><a name=\"v3-RoleCode-cz-NBOR\"> </a></td><td>soused/sousedka</td><td>Osoba, která žije v blízkosti nebo vedle dotčené osoby.</td><td/><td>_PersonalRelationshipRoleType</td><td/><td>The player of the role lives near or next to the scoping person.</td></tr><tr><td>2</td><td>  <a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-ROOM\">ROOM</a><a name=\"v3-RoleCode-cz-ROOM\"> </a></td><td>spolubydlící</td><td>Osoba, která sdílí obytné prostory s dotčenou osobou.</td><td/><td>_PersonalRelationshipRoleType</td><td/><td>One who shares living quarters with the subject.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [
+     fhir:v "https://hl7.cz/terminology/CodeSystem/v3-RoleCode-cz"^^xsd:anyURI ;
+     fhir:l <https://hl7.cz/terminology/CodeSystem/v3-RoleCode-cz>
+  ] ; # 
+  fhir:version [ fhir:v "0.2.0"] ; # 
+  fhir:name [ fhir:v "RoleCodeCz"] ; # 
+  fhir:title [ fhir:v "RoleCode (CZ Supplement)"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2025-02-09T10:38:00.271394Z"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 Czech Republic"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HL7 Czech Republic" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://www.hl7.cz/" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Český doplněk kódového systému v3-RoleCode, který je souborem kódů blíže specifikujících druh Role; obsahuje specifické klasifikační kódy pro další upřesnění kódů RoleClass. A Czech supplement to the v3-RoleCode code system which is a set of codes further specifying the kind of Role; specific classification codes for further qualifying RoleClass codes."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
+         fhir:l <urn:iso:std:iso:3166>
+       ] ;
+       fhir:code [ fhir:v "CZ" ] ;
+       fhir:display [ fhir:v "Czechia" ]
+     ] )
+  ] ) ; # 
+  fhir:content [ fhir:v "supplement"] ; # 
+  fhir:supplements [
+     fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleCode|3.0.0"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/CodeSystem/v3-RoleCode?version=3.0.0>
+  ] ; # 
+  fhir:property ( [
+     fhir:code [ fhir:v "notSelectable" ] ;
+     fhir:uri [
+       fhir:v "http://hl7.org/fhir/concept-properties#notSelectable"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/concept-properties#notSelectable>
+     ] ;
+     fhir:description [ fhir:v "Not Selectable" ] ;
+     fhir:type [ fhir:v "boolean" ]
+  ] [
+     fhir:code [ fhir:v "rim-ClassifiesClassCode" ] ;
+     fhir:uri [
+       fhir:v "http://terminology.hl7.org/CodeSystem/utg-concept-properties#rim-ClassifiesClassCode"^^xsd:anyURI ;
+       fhir:l <http://terminology.hl7.org/CodeSystem/utg-concept-properties#rim-ClassifiesClassCode>
+     ] ;
+     fhir:description [ fhir:v "The child code is a classification of the particular class group identified by the 'classCode' in a RIM class as the parent code.  Used only in RIM backbone classes to link the code and classCode values." ] ;
+     fhir:type [ fhir:v "Coding" ]
+  ] [
+     fhir:code [ fhir:v "subsumedBy" ] ;
+     fhir:uri [
+       fhir:v "http://hl7.org/fhir/concept-properties#parent"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/concept-properties#parent>
+     ] ;
+     fhir:description [ fhir:v "The concept code of a parent concept" ] ;
+     fhir:type [ fhir:v "code" ]
+  ] [
+     fhir:code [ fhir:v "synonymCode" ] ;
+     fhir:uri [
+       fhir:v "http://hl7.org/fhir/concept-properties#synonym"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/concept-properties#synonym>
+     ] ;
+     fhir:description [ fhir:v "An additional concept code that was also attributed to a concept" ] ;
+     fhir:type [ fhir:v "code" ]
+  ] ) ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "AUNT" ] ;
+     fhir:display [ fhir:v "teta" ] ;
+     fhir:definition [ fhir:v "Sestra matky nebo otce dotčené osoby." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "The player of the role is a sister of the scoping person's mother or father." ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "aunt" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subsumedBy" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "EXT"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "BRO" ] ;
+     fhir:display [ fhir:v "bratr" ] ;
+     fhir:definition [ fhir:v "Muž, který sdílí jednoho nebo oba společné rodiče s dotčenou osobou." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "The player of the role is a male sharing one or both parents in common with the scoping entity." ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "brother" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subsumedBy" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "SIB"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "BROINLAW" ] ;
+     fhir:display [ fhir:v "švagr" ] ;
+     fhir:definition [ fhir:v "(1) bratr manžela nebo manželky dotčené osoby, nebo (2) manžel sestry dotčené osoby, nebo (3) manžel sestry manžela nebo manželky dotčené osoby." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "The player of the role is: (1) a brother of the scoping person's spouse, or (2) the husband of the scoping person's sister, or (3) the husband of a sister of the scoping person's spouse." ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "brother-in-law" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subsumedBy" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "SIBINLAW"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "CHILD" ] ;
+     fhir:display [ fhir:v "dítě" ] ;
+     fhir:definition [ fhir:v "Dítě dotčené osoby." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "The player of the role is a child of the scoping entity." ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "child" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subsumedBy" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "FAMMEMB"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "CHLDADOPT" ] ;
+     fhir:display [ fhir:v "osvojené dítě" ] ;
+     fhir:definition [ fhir:v "Dítě dotčené osoby, které bylo přijato do rodiny prostřednictvím právních prostředků a vychováváno dotčenou osobou (rodičem) jako vlastní dítě." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "The player of the role is a child taken into a family through legal means and raised by the scoping person (parent) as his or her own child." ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "adopted child" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subsumedBy" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "CHILD"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "CHLDFOST" ] ;
+     fhir:display [ fhir:v "dítě v náhradní péči (kromě osvojení)" ] ;
+     fhir:definition [ fhir:v "Dítě dotčené osoby, které přijímá rodičovskou péči a výchovu od dotčené osoby (rodiče), ale není s ním nebo s ní spojeno právními nebo pokrevními vazbami." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "The player of the role is a child receiving parental care and nurture from the scoping person (parent) but not related to him or her through legal or blood ties." ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "foster child" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subsumedBy" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "CHILD"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "CHLDINLAW" ] ;
+     fhir:display [ fhir:v "zeť/snacha" ] ;
+     fhir:definition [ fhir:v "Manžel nebo manželka dítěte dotčené osoby." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "The player of the role is the spouse of scoping person's child." ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "child-in-law" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subsumedBy" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "INLAW"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "COUSN" ] ;
+     fhir:display [ fhir:v "sestřenice/bratranec" ] ;
+     fhir:definition [ fhir:v "Příbuzný dotčené osoby, který pochází ze společného předka, jako je prarodič, po dvou nebo více krocích v rodové linii." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "The player of the role is a relative of the scoping person descended from a common ancestor, such as a grandparent, by two or more steps in a diverging line." ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "cousin" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subsumedBy" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "EXT"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DAU" ] ;
+     fhir:display [ fhir:v "vlastní dcera" ] ;
+     fhir:definition [ fhir:v "Ženský potomek dotčené entity (rodiče)." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "The player of the role is a female offspring of the scoping entity (parent)." ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "natural daughter" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subsumedBy" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "DAUC"
+       ]
+     ] [
+       fhir:code [ fhir:v "subsumedBy" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "NCHILD"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DAUADOPT" ] ;
+     fhir:display [ fhir:v "osvojená dcera" ] ;
+     fhir:definition [ fhir:v "Ženský potomek dotčené entity (rodiče), který byl přijat do rodiny prostřednictvím právních prostředků a vychováván dotčenou osobou (rodičem) jako vlastní dítě." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "The player of the role is a female child taken into a family through legal means and raised by the scoping person (parent) as his or her own child." ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "adopted daughter" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subsumedBy" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "CHLDADOPT"
+       ]
+     ] [
+       fhir:code [ fhir:v "subsumedBy" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "DAUC"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DAUC" ] ;
+     fhir:display [ fhir:v "dcera" ] ;
+     fhir:definition [ fhir:v "**Popis:** Ženský potomek (jakéhokoliv typu) dotčené entity (rodiče)." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "**Description:** The player of the role is a female child (of any type) of scoping entity (parent)" ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "daughter" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subsumedBy" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "CHILD"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DAUFOST" ] ;
+     fhir:display [ fhir:v "dcera v náhradní péči (kromě osvojení)" ] ;
+     fhir:definition [ fhir:v "Ženský potomek dotčené entity (rodiče), který přijímá rodičovskou péči a výchovu od dotčené osoby (rodiče), ale není s ním nebo s ní spojeno právními nebo pokrevními vazbami." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "The player of the role is a female child receiving parental care and nurture from the scoping person (parent) but not related to him or her through legal or blood ties." ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "foster daughter" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subsumedBy" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "CHLDFOST"
+       ]
+     ] [
+       fhir:code [ fhir:v "subsumedBy" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "DAUC"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DAUINLAW" ] ;
+     fhir:display [ fhir:v "snacha" ] ;
+     fhir:definition [ fhir:v "Manželka syna dotčené osoby." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "The player of the role is the wife of scoping person's son." ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "daughter in-law" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subsumedBy" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "CHLDINLAW"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DOMPART" ] ;
+     fhir:display [ fhir:v "druh/družka" ] ;
+     fhir:definition [ fhir:v "Osoba žijící s dotčenou osobou, která není manželem nebo manželkou dotčené osoby." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "The player of the role cohabits with the scoping person but is not the scoping person's spouse." ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "domestic partner" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subsumedBy" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "SIGOTHR"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "EXT" ] ;
+     fhir:display [ fhir:v "člen širší rodiny" ] ;
+     fhir:definition [ fhir:v "**Popis:** Rodinný příslušník, který není v bezprostředním genetickém nebo právním vztahu k dotčené osobě, např. teta, bratranec, sestřenice, prarodič, vnuk, praprarodič, neteř, synovec nebo strýc." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "**Description:** A family member not having an immediate genetic or legal relationship e.g. Aunt, cousin, great grandparent, grandchild, grandparent, niece, nephew or uncle." ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "extended family member" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subsumedBy" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "FAMMEMB"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "FAMMEMB" ] ;
+     fhir:display [ fhir:v "rodinný příslušník" ] ;
+     fhir:definition [ fhir:v "Vztah mezi dvěma osobami, který je charakterizován jako vztah \\\"rodinný\\\"." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "A relationship between two people characterizing their \"familial\" relationship" ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "family member" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subsumedBy" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "_PersonalRelationshipRoleType"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "FRND" ] ;
+     fhir:display [ fhir:v "přítel/přítelkyně" ] ;
+     fhir:definition [ fhir:v "Osoba, která je známá, oblíbená a důvěryhodná pro dotčenou osobu." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "The player of the role is a person who is known, liked, and trusted by the scoping person." ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "unrelated friend" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subsumedBy" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "_PersonalRelationshipRoleType"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "FTH" ] ;
+     fhir:display [ fhir:v "otec" ] ;
+     fhir:definition [ fhir:v "Muž, který zplodil, vychoval nebo pečuje o dotčenou osobu (dítě)." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "The player of the role is a male who begets or raises or nurtures the scoping entity (child)." ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "father" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subsumedBy" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "PRN"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "FTHINLAW" ] ;
+     fhir:display [ fhir:v "tchán" ] ;
+     fhir:definition [ fhir:v "Muž, který je otcem manžela nebo manželky dotčené osoby." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "The player of the role is the father of the scoping person's husband or wife." ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "father-in-law" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subsumedBy" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "PRNINLAW"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "GGRFTH" ] ;
+     fhir:display [ fhir:v "pradědeček" ] ;
+     fhir:definition [ fhir:v "Muž, který je otcem prarodiče dotčené osoby." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "The player of the role is the father of the scoping person's grandparent." ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "great grandfather" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subsumedBy" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "GGRPRN"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "GGRMTH" ] ;
+     fhir:display [ fhir:v "prababička" ] ;
+     fhir:definition [ fhir:v "Žena, která je matkou prarodiče dotčené osoby." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "The player of the role is the mother of the scoping person's grandparent." ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "great grandmother" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subsumedBy" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "GGRPRN"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "GGRPRN" ] ;
+     fhir:display [ fhir:v "praprarodič" ] ;
+     fhir:definition [ fhir:v "Osoba, která je rodičem prarodiče dotčené osoby." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "The player of the role is a parent of the scoping person's grandparent." ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "great grandparent" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subsumedBy" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "EXT"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "GRFTH" ] ;
+     fhir:display [ fhir:v "dědeček" ] ;
+     fhir:definition [ fhir:v "Muž, který je otcem rodiče dotčené osoby." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "The player of the role is the father of the scoping person's mother or father." ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "grandfather" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subsumedBy" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "GRPRN"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "GRMTH" ] ;
+     fhir:display [ fhir:v "babička" ] ;
+     fhir:definition [ fhir:v "Žena, která je matkou rodiče dotčené osoby." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "The player of the role is the mother of the scoping person's mother or father." ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "grandmother" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subsumedBy" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "GRPRN"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "GRNDCHILD" ] ;
+     fhir:display [ fhir:v "vnouče" ] ;
+     fhir:definition [ fhir:v "Potomek, který je dítětem syna nebo dcery dotčené osoby." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "The player of the role is a child of the scoping person's son or daughter." ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "grandchild" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subsumedBy" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "EXT"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "GRNDDAU" ] ;
+     fhir:display [ fhir:v "vnučka" ] ;
+     fhir:definition [ fhir:v "Dcera syna nebo dcery dotčené osoby." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "The player of the role is a daughter of the scoping person's son or daughter." ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "granddaughter" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subsumedBy" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "GRNDCHILD"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "GRNDSON" ] ;
+     fhir:display [ fhir:v "vnuk" ] ;
+     fhir:definition [ fhir:v "Syn syna nebo dcery dotčené osoby." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "The player of the role is a son of the scoping person's son or daughter." ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "grandson" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subsumedBy" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "GRNDCHILD"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "GRPRN" ] ;
+     fhir:display [ fhir:v "prarodič" ] ;
+     fhir:definition [ fhir:v "Osoba, která je rodičem rodiče dotčené osoby." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "The player of the role is a parent of the scoping person's mother or father." ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "grandparent" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subsumedBy" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "EXT"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "HUSB" ] ;
+     fhir:display [ fhir:v "manžel" ] ;
+     fhir:definition [ fhir:v "Muž, který je spojen s dotčenou ženou v manželství." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "The player of the role is a man joined to a woman (scoping person) in marriage." ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "husband" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subsumedBy" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "SPS"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "INLAW" ] ;
+     fhir:display [ fhir:v "příbuzní ze strany manžela/manželky" ] ;
+     fhir:definition [ fhir:v "Vztah mezi jednotlivcem a členem nejbližší rodiny jeho manželského partnera." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "A relationship between an individual and a member of their spousal partner's immediate family." ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "inlaw" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subsumedBy" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "EXT"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "MTH" ] ;
+     fhir:display [ fhir:v "matka" ] ;
+     fhir:definition [ fhir:v "Žena, která zplodila, porodila nebo vychovala a pečuje o dotčenou osobu (dítě)." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "The player of the role is a female who conceives, gives birth to, or raises and nurtures the scoping entity (child)." ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "mother" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subsumedBy" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "PRN"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "MTHINLAW" ] ;
+     fhir:display [ fhir:v "tchýně" ] ;
+     fhir:definition [ fhir:v "Žena, která je matkou manžela nebo manželky dotčené osoby." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "The player of the role is the mother of the scoping person's husband or wife." ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "mother-in-law" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subsumedBy" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "PRNINLAW"
+       ]
+     ] [
+       fhir:code [ fhir:v "synonymCode" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "MTHINLOAW"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "MTHINLOAW" ] ;
+     fhir:display [ fhir:v "tchýně" ] ;
+     fhir:definition [ fhir:v "Žena, která je matkou manžela nebo manželky dotčené osoby." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "The player of the role is the mother of the scoping person's husband or wife." ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "mother-in-law" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subsumedBy" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "PRNINLAW"
+       ]
+     ] [
+       fhir:code [ fhir:v "synonymCode" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "MTHINLAW"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "NBOR" ] ;
+     fhir:display [ fhir:v "soused/sousedka" ] ;
+     fhir:definition [ fhir:v "Osoba, která žije v blízkosti nebo vedle dotčené osoby." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "The player of the role lives near or next to the scoping person." ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "neighbor" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subsumedBy" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "_PersonalRelationshipRoleType"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "NCHILD" ] ;
+     fhir:display [ fhir:v "potomek" ] ;
+     fhir:definition [ fhir:v "Potomek dotčené entity (rodiče)." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "The player of the role is an offspring of the scoping entity as determined by birth." ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "natural child" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subsumedBy" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "CHILD"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "NEPHEW" ] ;
+     fhir:display [ fhir:v "synovec" ] ;
+     fhir:definition [ fhir:v "Syn bratra nebo sestry dotčené osoby." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "The player of the role is a son of the scoping person's brother or sister or of the brother or sister of the scoping person's spouse." ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "nephew" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subsumedBy" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "NIENEPH"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "NIECE" ] ;
+     fhir:display [ fhir:v "neteř" ] ;
+     fhir:definition [ fhir:v "Dcera bratra nebo sestry dotčené osoby." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "The player of the role is a daughter of the scoping person's brother or sister or of the brother or sister of the scoping person's spouse." ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "niece" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subsumedBy" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "NIENEPH"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "NIENEPH" ] ;
+     fhir:display [ fhir:v "neteř/synovec" ] ;
+     fhir:definition [ fhir:v "Potomek bratra nebo sestry dotčené osoby nebo bratra nebo sestry manžela/manželky dotčené osoby." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "The player of the role is a child of scoping person's brother or sister or of the brother or sister of the scoping person's spouse." ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "niece/nephew" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subsumedBy" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "EXT"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "NOK" ] ;
+     fhir:display [ fhir:v "příbuzný" ] ;
+     fhir:definition [ fhir:v "Nejbližší příbuzný dotčené osoby." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "Played by an individual who is designated as the next of kin for another individual which scopes the role." ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "next of kin" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subsumedBy" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "_ContactRoleType"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "PRN" ] ;
+     fhir:display [ fhir:v "rodič" ] ;
+     fhir:definition [ fhir:v "Osoba, která zplodila, porodila nebo vychovala a pečuje o dotčenou osobu (dítě)." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "The player of the role is one who begets, gives birth to, or nurtures and raises the scoping entity (child)." ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "parent" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subsumedBy" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "FAMMEMB"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "PRNINLAW" ] ;
+     fhir:display [ fhir:v "tchyně/tchán" ] ;
+     fhir:definition [ fhir:v "Rodič manžela nebo manželky dotčené osoby." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "The player of the role is the parent of scoping person's husband or wife." ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "parent in-law" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subsumedBy" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "INLAW"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "ROOM" ] ;
+     fhir:display [ fhir:v "spolubydlící" ] ;
+     fhir:definition [ fhir:v "Osoba, která sdílí obytné prostory s dotčenou osobou." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "One who shares living quarters with the subject." ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "Roommate" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subsumedBy" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "_PersonalRelationshipRoleType"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SIB" ] ;
+     fhir:display [ fhir:v "sourozenec" ] ;
+     fhir:definition [ fhir:v "Osoba, která sdílí jednoho nebo oba rodiče s dotčenou osobou." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "The player of the role shares one or both parents in common with the scoping entity." ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "sibling" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subsumedBy" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "FAMMEMB"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SIBINLAW" ] ;
+     fhir:display [ fhir:v "švagr/švagrová" ] ;
+     fhir:definition [ fhir:v "Osoba, která je: (1) sourozencem manžela/manželky dotčené osoby, nebo (2) manželem/manželkou sourozence dotčené osoby, nebo (3) manželem/manželkou sourozence manžela/manželky dotčené osoby." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "The player of the role is: (1) a sibling of the scoping person's spouse, or (2) the spouse of the scoping person's sibling, or (3) the spouse of a sibling of the scoping person's spouse." ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "sibling in-law" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subsumedBy" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "INLAW"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SIGOTHR" ] ;
+     fhir:display [ fhir:v "osoba blízká" ] ;
+     fhir:definition [ fhir:v "Osoba, která je důležitá pro blaho dotčené osoby; zejména manžel nebo osoba ve obdobném vztahu." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "A person who is important to one's well being; especially a spouse or one in a similar relationship. (The player is the one who is important)" ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "significant other" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subsumedBy" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "FAMMEMB"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SIS" ] ;
+     fhir:display [ fhir:v "sestra" ] ;
+     fhir:definition [ fhir:v "Žena, která sdílí jednoho nebo oba rodiče s dotčenou osobou." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "The player of the role is a female sharing one or both parents in common with the scoping entity." ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "sister" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subsumedBy" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "SIB"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SISINLAW" ] ;
+     fhir:display [ fhir:v "švagrová" ] ;
+     fhir:definition [ fhir:v "Osoba, která je: (1) sestrou manžela/manželky dotčené osoby, nebo (2) manželkou bratra dotčené osoby, nebo (3) manželkou bratra manžela/manželky dotčené osoby." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "The player of the role is: (1) a sister of the scoping person's spouse, or (2) the wife of the scoping person's brother, or (3) the wife of a brother of the scoping person's spouse." ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "sister-in-law" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subsumedBy" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "SIBINLAW"
+       ]
+     ] [
+       fhir:code [ fhir:v "synonymCode" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "SISLINLAW"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SISLINLAW" ] ;
+     fhir:display [ fhir:v "švagrová" ] ;
+     fhir:definition [ fhir:v "Osoba, která je: (1) sestrou manžela/manželky dotčené osoby, nebo (2) manželkou bratra dotčené osoby, nebo (3) manželkou bratra manžela/manželky dotčené osoby." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "The player of the role is: (1) a sister of the scoping person's spouse, or (2) the wife of the scoping person's brother, or (3) the wife of a brother of the scoping person's spouse." ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "sister-in-law" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subsumedBy" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "SIBINLAW"
+       ]
+     ] [
+       fhir:code [ fhir:v "synonymCode" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "SISINLAW"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SON" ] ;
+     fhir:display [ fhir:v "vlastní syn" ] ;
+     fhir:definition [ fhir:v "Mužský potomek dotčené entity (rodiče)." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "The player of the role is a male offspring of the scoping entity (parent)." ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "natural son" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subsumedBy" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "NCHILD"
+       ]
+     ] [
+       fhir:code [ fhir:v "subsumedBy" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "SONC"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SONADOPT" ] ;
+     fhir:display [ fhir:v "osvojený syn" ] ;
+     fhir:definition [ fhir:v "Mužský potomek dotčené entity (rodiče), který byl přijat do rodiny prostřednictvím právních prostředků a vychováván dotčenou osobou (rodičem) jako vlastní dítě." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "The player of the role is a male child taken into a family through legal means and raised by the scoping person (parent) as his or her own child." ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "adopted son" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subsumedBy" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "CHLDADOPT"
+       ]
+     ] [
+       fhir:code [ fhir:v "subsumedBy" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "SONC"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SONC" ] ;
+     fhir:display [ fhir:v "syn" ] ;
+     fhir:definition [ fhir:v "**Popis:** Mužský potomek (jakéhokoli typu) dotčené osoby (rodiče)." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "**Description:** The player of the role is a male child (of any type) of scoping entity (parent)" ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "son" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subsumedBy" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "CHILD"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SONFOST" ] ;
+     fhir:display [ fhir:v "syn v náhradní péči (kromě osvojení)" ] ;
+     fhir:definition [ fhir:v "Mužský potomek dotčené entity (rodiče), který je v náhradní péči a výchově dotčené osoby (rodiče), ale není s ní spojen právními nebo biologickými vazbami." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "The player of the role is a male child receiving parental care and nurture from the scoping person (parent) but not related to him or her through legal or blood ties." ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "foster son" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subsumedBy" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "CHLDFOST"
+       ]
+     ] [
+       fhir:code [ fhir:v "subsumedBy" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "SONC"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SONINLAW" ] ;
+     fhir:display [ fhir:v "zeť" ] ;
+     fhir:definition [ fhir:v "Manžel dcery dotčené osoby." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "The player of the role is the husband of scoping person's daughter." ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "son in-law" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subsumedBy" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "CHLDINLAW"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SPS" ] ;
+     fhir:display [ fhir:v "manžel/maželka" ] ;
+     fhir:definition [ fhir:v "Osoba, která je manželským partnerem dotčené osoby." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "The player of the role is a marriage partner of the scoping person." ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "spouse" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subsumedBy" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "SIGOTHR"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "STPCHLD" ] ;
+     fhir:display [ fhir:v "nevlastní dítě" ] ;
+     fhir:definition [ fhir:v "Dítě manžela/manželky dotčené osoby z předchozího manželství." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "The player of the role is a child of the scoping person's spouse by a previous union." ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "step child" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subsumedBy" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "CHILD"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "STPDAU" ] ;
+     fhir:display [ fhir:v "nevlastní dcera" ] ;
+     fhir:definition [ fhir:v "Ženský potomek manžela/manželky dotčené osoby z předchozího manželství." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "The player of the role is a daughter of the scoping person's spouse by a previous union." ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "stepdaughter" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subsumedBy" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "DAUC"
+       ]
+     ] [
+       fhir:code [ fhir:v "subsumedBy" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "STPCHLD"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "STPSON" ] ;
+     fhir:display [ fhir:v "nevlastní syn" ] ;
+     fhir:definition [ fhir:v "Mužský potomek manžela/manželky dotčené osoby z předchozího manželství." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "The player of the role is a son of the scoping person's spouse by a previous union." ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "stepson" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subsumedBy" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "SONC"
+       ]
+     ] [
+       fhir:code [ fhir:v "subsumedBy" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "STPCHLD"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "UNCLE" ] ;
+     fhir:display [ fhir:v "strýc" ] ;
+     fhir:definition [ fhir:v "Bratr matky nebo otce dotčené osoby." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "The player of the role is a brother of the scoping person's mother or father." ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "uncle" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subsumedBy" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "EXT"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "WIFE" ] ;
+     fhir:display [ fhir:v "manželka" ] ;
+     fhir:definition [ fhir:v "Žena, která je manželským partnerem dotčené osoby." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "The player of the role is a woman joined to a man (scoping person) in marriage." ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "wife" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subsumedBy" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "SPS"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "_ContactRoleType" ] ;
+     fhir:display [ fhir:v "ContactRoleType" ] ;
+     fhir:definition [ fhir:v "Typy kontaktů pro kód role \\\"CON\\“" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "definition" ]
+       ] ;
+       fhir:value [ fhir:v "Types of contact for Role code \"CON\"" ]
+     ] [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "ContactRoleType" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "notSelectable" ] ;
+       fhir:value [
+         a fhir:Boolean ;
+         fhir:v true
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "_PersonalRelationshipRoleType" ] ;
+     fhir:display [ fhir:v "PersonalRelationshipRoleType" ] ;
+     fhir:definition [ fhir:v "Typy osobních vztahů pro kód role \\\"PRN\\“" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         fhir:code [ fhir:v "display" ]
+       ] ;
+       fhir:value [ fhir:v "PersonalRelationshipRoleType" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "notSelectable" ] ;
+       fhir:value [
+         a fhir:Boolean ;
+         fhir:v true
+       ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

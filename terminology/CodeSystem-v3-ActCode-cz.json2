@@ -1,0 +1,215 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "v3-ActCode-cz",
+  "language" : "cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"cs\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"cs\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem v3-ActCode-cz</b></p><a name=\"v3-ActCode-cz\"> </a><a name=\"hcv3-ActCode-cz\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: cs</p></div><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>Child</td><td>child</td><td>http://hl7.org/fhir/concept-properties#child</td><td>code</td><td>Child</td></tr><tr><td>deprecationDate</td><td>deprecationDate</td><td>http://hl7.org/fhir/concept-properties#deprecationDate</td><td>dateTime</td><td>Deprecation Date</td></tr><tr><td>Not Selectable</td><td>notSelectable</td><td>http://hl7.org/fhir/concept-properties#notSelectable</td><td>boolean</td><td>Not Selectable</td></tr><tr><td>status</td><td>status</td><td>http://hl7.org/fhir/concept-properties#status</td><td>code</td><td>Status</td></tr><tr><td>Parent</td><td>subsumedBy</td><td>http://hl7.org/fhir/concept-properties#parent</td><td>code</td><td>The concept code of a parent concept</td></tr></table><p><b>Concepts</b></p><p>This code system supplement <code>https://hl7.cz/terminology/CodeSystem/v3-ActCode-cz</code> defines displays and properties on the following codes:</p><table class=\"codes\"><tr><td><b>Lvl</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>Not Selectable</b></td><td><b>status</b></td><td><b>Parent</b></td><td><b>English (English, en)</b></td></tr><tr><td>1</td><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-ActCode.html#v3-ActCode-HIP\">HIP</a><a name=\"v3-ActCode-cz-HIP\"> </a></td><td>zdravotní pojištění</td><td/><td/><td>draft</td><td/><td>Definition: A health insurance policy that covers healthcare benefits by protecting covered parties from medical expenses arising from health conditions, sickness, or accidental injury as well as preventive care. Health insurance policies explicitly exclude coverage for losses insured under a disability policy, workers' compensation program, liability insurance (including automobile insurance); or for medical expenses, coverage for on-site medical clinics or for limited dental or vision benefits when these are provided under a separate policy.\r\n\n                        \n                           Discussion: Health insurance policies are offered by health insurance plans that typically reimburse providers for covered services on a fee-for-service basis, that is, a fee that is the allowable amount that a provider may charge.  This is in contrast to managed care plans, which typically prepay providers a per-member/per-month amount or capitation as reimbursement for all covered services rendered.  Health insurance plans include indemnity and healthcare services plans.</td></tr><tr><td>1</td><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-ActCode.html#v3-ActCode-_ActEncounterCode\">_ActEncounterCode</a><a name=\"v3-ActCode-cz-_ActEncounterCode\"> </a></td><td>ActEncounterCode</td><td>Doména poskytuje kódy, které klasifikují ActEncounterClass (ENC).</td><td>true</td><td>active</td><td/><td/></tr><tr><td>2</td><td>\u00a0\u00a0<a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-ActCode.html#v3-ActCode-AMB\">AMB</a><a name=\"v3-ActCode-cz-AMB\"> </a></td><td>ambulantní</td><td>Souhrnný termín pro zdravotní péči poskytovanou ve zdravotnickém zařízení (např. v ordinaci lékaře, klinice nebo nemocnici) na nerezidentní bázi. Termín ambulantní obvykle znamená, že pacient přišel na dané místo a není mu přiděleno lůžko. Někdy se označuje jako ambulantní vyšetření.</td><td/><td>active</td><td>_ActEncounterCode</td><td/></tr><tr><td>2</td><td>\u00a0\u00a0<a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-ActCode.html#v3-ActCode-EMER\">EMER</a><a name=\"v3-ActCode-cz-EMER\"> </a></td><td>emergentní</td><td>Kontakt s pacientem, který se odehrává ve specializovaném zdravotnickém zařízení, kde je pacient okamžitě vyšetřen a ošetřen, a to až do okamžiku, kdy může být propuštěn nebo kdy je odpovědnost za jeho péči převedena na jiné zařízení (například může být pacient přijat k hospitalizaci nebo převezen do jiného zařízení).</td><td/><td>active</td><td>_ActEncounterCode</td><td/></tr><tr><td>2</td><td>\u00a0\u00a0<a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-ActCode.html#v3-ActCode-FLD\">FLD</a><a name=\"v3-ActCode-cz-FLD\"> </a></td><td>terénní</td><td>Kontakt s pacientem, který se odehrává mimo specializované místo poskytování služeb a mimo bydliště pacienta. Příkladem takových míst může být místo nehody nebo supermarket.</td><td/><td>active</td><td>_ActEncounterCode</td><td/></tr><tr><td>2</td><td>\u00a0\u00a0<a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-ActCode.html#v3-ActCode-HH\">HH</a><a name=\"v3-ActCode-cz-HH\"> </a></td><td>domácí péče</td><td>Zdravotní péče poskytovaná v místě bydliště pacienta nebo jím určeném místě.</td><td/><td>active</td><td>_ActEncounterCode</td><td/></tr><tr><td>2</td><td>\u00a0\u00a0<a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-ActCode.html#v3-ActCode-IMP\">IMP</a><a name=\"v3-ActCode-cz-IMP\"> </a></td><td>hospitalizace</td><td>Kontakt s pacientem, při kterém je pacient přijat do nemocnice nebo obdobného zařízení, přidělen na místo, kde pacienti obvykle zůstávají alespoň přes noc, a je mu poskytnuto ubytování, stravování a nepřetržitá ošetřovatelská péče.</td><td/><td>active</td><td>_ActEncounterCode</td><td/></tr><tr><td>3</td><td>\u00a0\u00a0\u00a0\u00a0<a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-ActCode.html#v3-ActCode-ACUTE\">ACUTE</a><a name=\"v3-ActCode-cz-ACUTE\"> </a></td><td>akutní hospitalizace</td><td>Akutní hospitalizace.</td><td/><td>active</td><td>IMP</td><td/></tr><tr><td>3</td><td>\u00a0\u00a0\u00a0\u00a0<a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-ActCode.html#v3-ActCode-NONAC\">NONAC</a><a name=\"v3-ActCode-cz-NONAC\"> </a></td><td>neakutní hospitalizace</td><td>Jakákoli kategorie hospitalizace kromě „akutní“</td><td/><td>active</td><td>IMP</td><td/></tr><tr><td>2</td><td>\u00a0\u00a0<a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-ActCode.html#v3-ActCode-OBSENC\">OBSENC</a><a name=\"v3-ActCode-cz-OBSENC\"> </a></td><td>pozorování</td><td>Kontakt, při kterém pacient obvykle začíná v jiném kontaktu, například na pohotovosti (EMER), ale poté přechází k tomuto typu kontaktu, protože vyžaduje delší léčbu a sledování, aby bylo možné určit, zda jeho stav vyžaduje hospitalizaci nebo propuštění. Ve většině případů bude rozhodnutí o hospitalizaci nebo propuštění učiněno v časovém období stanoveném místními, regionálními nebo národními předpisy, často mezi 24 a 48 hodinami.</td><td/><td>active</td><td>_ActEncounterCode</td><td/></tr><tr><td>2</td><td>\u00a0\u00a0<a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-ActCode.html#v3-ActCode-PRENC\">PRENC</a><a name=\"v3-ActCode-cz-PRENC\"> </a></td><td>pre-hospitalizace</td><td/><td/><td>active</td><td>_ActEncounterCode</td><td/></tr></table></div>"
+  },
+  "url" : "https://hl7.cz/terminology/CodeSystem/v3-ActCode-cz",
+  "version" : "0.2.0",
+  "name" : "v3-ActCode",
+  "title" : "v3 Code System ActCode",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2025-11-15T18:54:22.337815Z",
+  "publisher" : "HL7 Czech Republic",
+  "contact" : [{
+    "name" : "HL7 Czech Republic",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.hl7.cz/"
+    }]
+  }],
+  "description" : "This code system supplements v3 ActCode.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CZ",
+      "display" : "Czechia"
+    }]
+  }],
+  "content" : "supplement",
+  "supplements" : "http://terminology.hl7.org/CodeSystem/v3-ActCode|9.0.0",
+  "property" : [{
+    "code" : "child",
+    "uri" : "http://hl7.org/fhir/concept-properties#child",
+    "description" : "Child",
+    "type" : "code"
+  },
+  {
+    "code" : "deprecationDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#deprecationDate",
+    "description" : "Deprecation Date",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "notSelectable",
+    "uri" : "http://hl7.org/fhir/concept-properties#notSelectable",
+    "description" : "Not Selectable",
+    "type" : "boolean"
+  },
+  {
+    "code" : "status",
+    "uri" : "http://hl7.org/fhir/concept-properties#status",
+    "description" : "Status",
+    "type" : "code"
+  },
+  {
+    "code" : "subsumedBy",
+    "uri" : "http://hl7.org/fhir/concept-properties#parent",
+    "description" : "The concept code of a parent concept",
+    "type" : "code"
+  }],
+  "concept" : [{
+    "code" : "HIP",
+    "display" : "zdravotní pojištění",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "Definition: A health insurance policy that covers healthcare benefits by protecting covered parties from medical expenses arising from health conditions, sickness, or accidental injury as well as preventive care. Health insurance policies explicitly exclude coverage for losses insured under a disability policy, workers' compensation program, liability insurance (including automobile insurance); or for medical expenses, coverage for on-site medical clinics or for limited dental or vision benefits when these are provided under a separate policy.\r\n\n                        \n                           Discussion: Health insurance policies are offered by health insurance plans that typically reimburse providers for covered services on a fee-for-service basis, that is, a fee that is the allowable amount that a provider may charge.  This is in contrast to managed care plans, which typically prepay providers a per-member/per-month amount or capitation as reimbursement for all covered services rendered.  Health insurance plans include indemnity and healthcare services plans."
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "health insurance plan policy"
+    }],
+    "property" : [{
+      "code" : "status",
+      "valueCode" : "draft"
+    }]
+  },
+  {
+    "code" : "_ActEncounterCode",
+    "display" : "ActEncounterCode",
+    "definition" : "Doména poskytuje kódy, které klasifikují ActEncounterClass (ENC).",
+    "property" : [{
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "notSelectable",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "ACUTE",
+    "display" : "akutní hospitalizace",
+    "definition" : "Akutní hospitalizace.",
+    "property" : [{
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "subsumedBy",
+      "valueCode" : "IMP"
+    }]
+  },
+  {
+    "code" : "AMB",
+    "display" : "ambulantní",
+    "definition" : "Souhrnný termín pro zdravotní péči poskytovanou ve zdravotnickém zařízení (např. v ordinaci lékaře, klinice nebo nemocnici) na nerezidentní bázi. Termín ambulantní obvykle znamená, že pacient přišel na dané místo a není mu přiděleno lůžko. Někdy se označuje jako ambulantní vyšetření.",
+    "property" : [{
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "subsumedBy",
+      "valueCode" : "_ActEncounterCode"
+    }]
+  },
+  {
+    "code" : "EMER",
+    "display" : "emergentní",
+    "definition" : "Kontakt s pacientem, který se odehrává ve specializovaném zdravotnickém zařízení, kde je pacient okamžitě vyšetřen a ošetřen, a to až do okamžiku, kdy může být propuštěn nebo kdy je odpovědnost za jeho péči převedena na jiné zařízení (například může být pacient přijat k hospitalizaci nebo převezen do jiného zařízení).",
+    "property" : [{
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "subsumedBy",
+      "valueCode" : "_ActEncounterCode"
+    }]
+  },
+  {
+    "code" : "FLD",
+    "display" : "terénní",
+    "definition" : "Kontakt s pacientem, který se odehrává mimo specializované místo poskytování služeb a mimo bydliště pacienta. Příkladem takových míst může být místo nehody nebo supermarket.",
+    "property" : [{
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "subsumedBy",
+      "valueCode" : "_ActEncounterCode"
+    }]
+  },
+  {
+    "code" : "HH",
+    "display" : "domácí péče",
+    "definition" : "Zdravotní péče poskytovaná v místě bydliště pacienta nebo jím určeném místě.",
+    "property" : [{
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "subsumedBy",
+      "valueCode" : "_ActEncounterCode"
+    }]
+  },
+  {
+    "code" : "IMP",
+    "display" : "hospitalizace",
+    "definition" : "Kontakt s pacientem, při kterém je pacient přijat do nemocnice nebo obdobného zařízení, přidělen na místo, kde pacienti obvykle zůstávají alespoň přes noc, a je mu poskytnuto ubytování, stravování a nepřetržitá ošetřovatelská péče.",
+    "property" : [{
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "subsumedBy",
+      "valueCode" : "_ActEncounterCode"
+    }]
+  },
+  {
+    "code" : "NONAC",
+    "display" : "neakutní hospitalizace",
+    "definition" : "Jakákoli kategorie hospitalizace kromě „akutní“",
+    "property" : [{
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "subsumedBy",
+      "valueCode" : "IMP"
+    }]
+  },
+  {
+    "code" : "OBSENC",
+    "display" : "pozorování",
+    "definition" : "Kontakt, při kterém pacient obvykle začíná v jiném kontaktu, například na pohotovosti (EMER), ale poté přechází k tomuto typu kontaktu, protože vyžaduje delší léčbu a sledování, aby bylo možné určit, zda jeho stav vyžaduje hospitalizaci nebo propuštění. Ve většině případů bude rozhodnutí o hospitalizaci nebo propuštění učiněno v časovém období stanoveném místními, regionálními nebo národními předpisy, často mezi 24 a 48 hodinami.",
+    "property" : [{
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "subsumedBy",
+      "valueCode" : "_ActEncounterCode"
+    }]
+  },
+  {
+    "code" : "PRENC",
+    "display" : "pre-hospitalizace",
+    "property" : [{
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "subsumedBy",
+      "valueCode" : "_ActEncounterCode"
+    }]
+  }]
+}

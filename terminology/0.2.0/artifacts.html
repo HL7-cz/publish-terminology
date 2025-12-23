@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>Artifacts Summary - HL7 Czech Terminology Implementation Guide v0.2.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <link href="assets/css/cz-core.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"5"}
+    h3,h4,h5,h6{--heading-prefix:"5.0"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <!-- Placeholder for child template header declarations -->
+<div id="hl7-nav">
+  <a id="hl7-logo" no-external="true" href="https://www.hl7.cz">
+    <img height="60" alt="Visit the HL7 Czech website" src="assets/images/hl7cz-logo.png" />
+  </a>
+</div>
+<div id="project-nav">
+  <a id="project-logo" no-external="true" href="https://mzd.gov.cz"><img height="60" alt="MZCR"
+      src="assets/images/NPO_logo.png" /> </a>
+</div>
+<div id="family-nav">
+  <a id="family-logo" no-external="true" href="https://ncez.mzcr.cz/cs"><img height="60" alt="NCEZ MZCR"
+      src="assets/images/logo.png" /> </a>
+</div>
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">HL7 Czech Terminology Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.2.0 - release
+
+
+
+  <img alt="Czechia flag" src="assets/images/cze.svg" height="16" title="Czechia"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="artifactsPage.html">Terminologies</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Artifacts Summary</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">This page is part of the Czech FHIR Terminology Package (v0.2.0: Release) based on <a data-no-external="true" href="http://hl7.org/fhir/R4">FHIR (HL7® FHIR® Standard) R4</a>. This is the current published version in its permanent home (it will always be available at this URL).  For a full list of available versions, see the <a data-no-external="true" href="https://hl7.cz/terminology/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <h2>Artifacts Summary</h2>
+  
+  
+  
+  <!--DO NOT EDIT THIS FILE - It is generated by https://github.com/HL7/ig-template-base/blob/master/scripts/createArtifactSummary.xslt and any changes made will be overwritten--><div xmlns="http://www.w3.org/1999/xhtml"
+     xmlns:f="http://hl7.org/fhir"
+     xmlns:html="http://www.w3.org/1999/xhtml"
+     class="markdown-toc">
+   <p>Contents:</p>
+   <ul>
+      <li>
+         <a href="#1">Terminology: Value Sets</a>
+      </li>
+      <li>
+         <a href="#2">Terminology: Code Systems</a>
+      </li>
+   </ul>
+</div>
+<div xmlns="http://www.w3.org/1999/xhtml"
+     xmlns:f="http://hl7.org/fhir"
+     xmlns:html="http://www.w3.org/1999/xhtml">
+   <p>This page provides a list of the FHIR artifacts defined as part of this implementation guide.</p>
+   <a name="1"> </a>
+   <h3>Terminology: Value Sets </h3>
+    <p>These define sets of codes used by systems conforming to this implementation guide.</p>
+<table class="grid">
+      <col style="width:20%"/>
+      <tbody>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-allergy-intolerance-category-cz.html"
+                  title="ValueSet/allergy-intolerance-category-cz">Allergy Intolerance Category (CZ supplement)</a>
+            </td>
+            <td>
+<p>Category of an identified substance associated with allergies or intolerances.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-allergy-intolerance-criticality-cz.html"
+                  title="ValueSet/allergy-intolerance-criticality-cz">AllergyIntoleranceCriticality (CZ supplement)</a>
+            </td>
+            <td>
+<p>Estimate of the potential clinical harm, or seriousness, of a reaction to an identified substance.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-cz-specimen-laterality.html"
+                  title="ValueSet/cz-specimen-laterality">Body Structure Laterality for specimen.</a>
+            </td>
+            <td>
+<p>Body Structure site laterality qualifier. It indicates the body site laterality from which a specimen is collected. (based on SNOMED CT)</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-cz-sitequalifier.html" title="ValueSet/cz-sitequalifier">Body Structure Qualifier</a>
+            </td>
+            <td>
+<p>Body Structure site qualifier. It indicates the body site qualifier from which a specimen is collected. (based on SNOMED CT)</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-condition-cz.html" title="ValueSet/condition-cz">Condition Value Set</a>
+            </td>
+            <td>
+<p>Condition value set includes selected codes from national and recommended EU code systems for health conditions (MKN-10, SNOMED CT and Orphacodes).</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-contactrole-cz.html" title="ValueSet/contactrole-cz">Contact Role (CZ)</a>
+            </td>
+            <td>
+<p>Číselník rolí kontaktních osob ve vztahu k pacientovi. (Concepts specifying role of contact person.)</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-contact-and-relationship-cz.html"
+                  title="ValueSet/contact-and-relationship-cz">Contact and Relationship (CZ)</a>
+            </td>
+            <td>
+<p>Číselník vztahů a rolí kontaktních osob k pacientovi. Číselník zahrnuje dva samostatné číselníky: relationship a contact role.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-drzar.html" title="ValueSet/drzar">Drzar (CZ)</a>
+            </td>
+            <td>
+<p>Číselník druhů zdravotnických zařízení. (Type of healthcare provider facility.)</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-administrative-gender-cz.html"
+                  title="ValueSet/administrative-gender-cz">Gender for administrative purposes</a>
+            </td>
+            <td>
+<p>Pohlaví pro administrativní účely. (Gender for administrative purposes)</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-document-category.html"
+                  title="ValueSet/document-category">Kategorie dokumentů</a>
+            </td>
+            <td>
+<p>Kategorie dokumentů pro vyhledávání</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-dlp-formy.html" title="ValueSet/dlp-formy">Lékové formy</a>
+            </td>
+            <td>
+<p>Číselník lékových forem dle DLP.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-dlp-lecivepripravky.html"
+                  title="ValueSet/dlp-lecivepripravky">Léčivé přípravky</a>
+            </td>
+            <td>
+<p>Číselník léčivých přípravků dle DLP.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-lab-specimenType.html" title="ValueSet/lab-specimenType">Materiál vzorků</a>
+            </td>
+            <td>
+<p>Materiál laboratorního vzorku/vzorku pro obrazová vyšetření. Číselník využívá terminologii SNOMED CT.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-medical-device.html" title="ValueSet/medical-device">Medical Device</a>
+            </td>
+            <td>
+<p>Medical Device value set is used for coding implanted and external medical devices and equipment.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-MedicalDeviceWithExceptions.html"
+                  title="ValueSet/MedicalDeviceWithExceptions">Medical Device with exceptions</a>
+            </td>
+            <td>
+<p>The Value Set is used for coding implanted and external medical devices and equipment.
+It also includes exceptional values.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-cz-logo-mime-types.html"
+                  title="ValueSet/cz-logo-mime-types">Mime types permissible for logo attachment</a>
+            </td>
+            <td>
+<p>Mime types for logo attachment. It is used in OrganizationLogo extension to restrict the mime type of the logo image.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-mkn-10.html" title="ValueSet/mkn-10">Mkn10_5</a>
+            </td>
+            <td>
+<p>Číselník obsahující koncepty z kódového systému Mkn10_5. Ciselnik pouzity v HOSP, NRROD, NRNAR, NRVV, NRPOT, NRU, NSHNU, NRPATV, RIP</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-nrzp-povolani-vs.html" title="ValueSet/nrzp-povolani-vs">Occupation of healthcare practitioner (CZ)</a>
+            </td>
+            <td>
+<p>Povolání zdravotnických pracovníků dle registru NRZP. (Occupation of health practitioner registered in the national register of health practitioners (NRZP).)</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-registering-provider-service-type-cz.html"
+                  title="ValueSet/registering-provider-service-type-cz">Registering Provider Service Type (CZ)</a>
+            </td>
+            <td>
+<p>Typ registrujícího lékaře. (Registering healthcare provider service type value set.)</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-personal-relationship-cz.html"
+                  title="ValueSet/personal-relationship-cz">Role code (CZ)</a>
+            </td>
+            <td>
+<p>Vztah kontaktní osoby k subjektu. (Relationship between subject and contact person.)</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-cz-specimenAdditive.html"
+                  title="ValueSet/cz-specimenAdditive">Specimen Additive</a>
+            </td>
+            <td>
+<p>List of the specimen additives. Additives are commonly added to the vacutainer tubes to preserve the specimen for analysis</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-cz-specimencontainer.html"
+                  title="ValueSet/cz-specimencontainer">Specimen Container</a>
+            </td>
+            <td>
+<p>List of the containers commonly used to collect specimens (e.g. urine, blood,..).</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-OP-NS.html" title="ValueSet/OP-NS">Standard namespaces for national identity card</a>
+            </td>
+            <td>
+<p>National identity card's namespaces (CZ)</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-passport-NS.html" title="ValueSet/passport-NS">Standard namespaces for passports</a>
+            </td>
+            <td>
+<p>Číselník jmenných prostorů pro pasy. (Passport namespaces.)</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-nursing-document-type.html"
+                  title="ValueSet/nursing-document-type">Typ ošetřovatelské dokumentace</a>
+            </td>
+            <td>
+<p>Číselník typů ošetřovatelské dokumentace</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-imaging-document-types.html"
+                  title="ValueSet/imaging-document-types">Typy dokumentů obrazového komplementu</a>
+            </td>
+            <td>
+<p>Typy dokumentů obrazového komplementu</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-lab-document-types.html"
+                  title="ValueSet/lab-document-types">Typy laboratorních dokumentů</a>
+            </td>
+            <td>
+<p>Číselník typů laboratorních dokumentů.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-medical-document-type.html"
+                  title="ValueSet/medical-document-type">Typy lékařské dokumentace</a>
+            </td>
+            <td>
+<p>Číselník typů medicínských dokumentů.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-referralorder-types.html"
+                  title="ValueSet/referralorder-types">Typy žádanek</a>
+            </td>
+            <td>
+<p>Číselník typů žádanek</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-dlp-lecivelatky.html" title="ValueSet/dlp-lecivelatky">Value set of DLP Lecive latky</a>
+            </td>
+            <td>
+<p>Value set of DLP Lecive latky (Substances)</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-healthInsuranceCompanyCode.html"
+                  title="ValueSet/healthInsuranceCompanyCode">ValueSet of Health Insurance Company Code</a>
+            </td>
+            <td>
+<p>Číselník kódů zdravotních pojišťoven.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-search-document-types.html"
+                  title="ValueSet/search-document-types">Všechny typy dokumentů</a>
+            </td>
+            <td>
+<p>Typy dokumentů zejména pro účely vyhledávání.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eHDSIAbsentOrUnknownAllergy-cz.html"
+                  title="ValueSet/eHDSIAbsentOrUnknownAllergy-cz">eHDSI Absent Or Unknown Allergy</a>
+            </td>
+            <td>
+<p>The Value set is used to encode absent or unknown medical allergies.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eHDSIAbsentOrUnknownDevice-cz.html"
+                  title="ValueSet/eHDSIAbsentOrUnknownDevice-cz">eHDSI Absent Or Unknown Device</a>
+            </td>
+            <td>
+<p>The Value set is used to encode absent or unknown medical devices.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-AllergenWithExceptions.html"
+                  title="ValueSet/AllergenWithExceptions">eHDSI Agent or Allergen With Exceptions</a>
+            </td>
+            <td>
+<p>The Value Set is used for coding s specific allergen or other agent/substance (drug, food, chemical agent, etc.) to which the patient has an adverse reaction propensity.
+It is defined as the union of:
+(a) eHDSIAllergenNoDrug
+(b) DLP_lecivePripravky
+(c) DLP_ATC
+(d) eHDSIAbsentOrUnknownAllergy
+(e) eHDSIExceptionalValue</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eHDSIAllergenNoDrug-cz.html"
+                  title="ValueSet/eHDSIAllergenNoDrug-cz">eHDSI Allergen No Drug</a>
+            </td>
+            <td>
+<p>The value set is used to code the patient's kind of adverse reactions against substance, food or drugs</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eHDSIExceptionalValue-cz.html"
+                  title="ValueSet/eHDSIExceptionalValue-cz">eHDSI Exceptional Value</a>
+            </td>
+            <td>
+<p>The Value Set is used to code exceptional values for the required binding in FHIR IGs</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-dlp-atc.html" title="ValueSet/dlp-atc">Český číselník ATC skupin</a>
+            </td>
+            <td>
+<p>Value set of DLP ATC</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-nclpmat.html" title="ValueSet/nclpmat">Číselník NCLPMAT</a>
+            </td>
+            <td>
+<p>Číselník laboratorních materiálů NČLP</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-cz-coverage-type.html" title="ValueSet/cz-coverage-type">Číselník typů úhrady</a>
+            </td>
+            <td>
+<p>Číselník typů úhrady zdravotní péče.</p>
+</td>
+         </tr>
+      </tbody>
+   </table>
+   <a name="2"> </a>
+   <h3>Terminology: Code Systems </h3>
+    <p>These define new code systems used by systems conforming to this implementation guide.</p>
+<table class="grid">
+      <col style="width:20%"/>
+      <tbody>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-dlp-atc.html" title="CodeSystem/dlp-atc">ATC CZ</a>
+            </td>
+            <td>
+<p>Czech national version of the Anatomical Therapeutical Chemical (ATC) code system.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-absent-unknown-uv-ips-cz.html"
+                  title="CodeSystem/absent-unknown-uv-ips-cz">Absent a Unknown Data - IPS</a>
+            </td>
+            <td>
+<p>Kódový systém pro označení nepřítomnosti nebo neznalosti údajů. Doplněk kódového systému hl7-IPS (International patient Summary).</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-administrative-gender-cz.html"
+                  title="CodeSystem/administrative-gender-cz">Administrative Gender (CZ supplement)</a>
+            </td>
+            <td>
+<p>Pohlaví osoby používané pro administrativní účely. The gender of a person used for administrative purposes.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-allergy-intolerance-category-cz.html"
+                  title="CodeSystem/allergy-intolerance-category-cz">Allergy Intolerance Category (CZ supplement)</a>
+            </td>
+            <td>
+<p>Allergy Intolerance Category (CZ Code system supplement)</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-allergy-intolerance-criticality-cz.html"
+                  title="CodeSystem/allergy-intolerance-criticality-cz">AllergyIntoleranceCriticality (CZ supplement)</a>
+            </td>
+            <td>
+<p>AllergyIntoleranceCriticality CZ Code system supplement</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-dlp-lecivelatky.html"
+                  title="CodeSystem/dlp-lecivelatky">Codesystem of DLP Lecive latky</a>
+            </td>
+            <td>
+<p>Codesystem of DLP Lecive latky. Identification ingredient.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-dlp-lecivepripravky.html"
+                  title="CodeSystem/dlp-lecivepripravky">Codesystem of DLP Lecive pripravky</a>
+            </td>
+            <td>
+<p>Codesystem of DLP Lecive pripravky. Identification medication.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-healthInsuranceCompanyCode.html"
+                  title="CodeSystem/healthInsuranceCompanyCode">Codesystem of Health Insurance Companies</a>
+            </td>
+            <td>
+<p>National codes of health insurance companies.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-v2-0131-cz.html" title="CodeSystem/v2-0131-cz">Contact Role (CZ supplement)</a>
+            </td>
+            <td>
+<p>Role kontaktní osoby. FHIR Code system definition for HL7 v2 table 0131 (Contact Role).</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-coverage-selfpay-cz.html"
+                  title="CodeSystem/coverage-selfpay-cz">Coverage SelfPay Codes (CZ supplement)</a>
+            </td>
+            <td>
+<p>This code system supplements Coverage SelfPay.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-dlp-formy.html" title="CodeSystem/dlp-formy">DLP formy</a>
+            </td>
+            <td>
+<p>Lékové formy dle DLP.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-mkn-10.html" title="CodeSystem/mkn-10">Kódový systém MKN-10</a>
+            </td>
+            <td>
+<p>Národní systém pro kódování diagnóz a zdravotních problémů.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-nclp-NCLPMAT.html" title="CodeSystem/nclp-NCLPMAT">NCLPMAT</a>
+            </td>
+            <td>
+<p>NCLP - Číselník materiálů pro laboratoře.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-nrzp-povolani.html" title="CodeSystem/nrzp-povolani">NRZP - Czech health professional occupation</a>
+            </td>
+            <td>
+<p>Czech national code system for health professional occupation used in the national registry of healthcare practicioners.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-v3-NullFlavor-cz.html"
+                  title="CodeSystem/v3-NullFlavor-cz">Null Flavor (CZ supplement)</a>
+            </td>
+            <td>
+<p>Null Flavor (CZ Code system supplement)</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-v3-RoleCode-cz.html" title="CodeSystem/v3-RoleCode-cz">RoleCode (CZ Supplement)</a>
+            </td>
+            <td>
+<p>Český doplněk kódového systému v3-RoleCode, který je souborem kódů blíže specifikujících druh Role; obsahuje specifické klasifikační kódy pro další upřesnění kódů RoleClass. A Czech supplement to the v3-RoleCode code system which is a set of codes further specifying the kind of Role; specific classification codes for further qualifying RoleClass codes.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-drzar.html" title="CodeSystem/drzar">Type of healthcare facility</a>
+            </td>
+            <td>
+<p>Czech national code system for type of healthcare facility.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-v3-ActCode-cz.html" title="CodeSystem/v3-ActCode-cz">v3 Code System ActCode</a>
+            </td>
+            <td>
+<p>This code system supplements v3 ActCode.</p>
+</td>
+         </tr>
+      </tbody>
+   </table>
+</div>
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hl7.cz/">HL7 Czech Republic</a>.  Package hl7.fhir.cz.terminology#0.2.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Dec 23, 2025 18:27+0100">2025-12-23</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

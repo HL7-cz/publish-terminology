@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0131-cz"/>
+  <language value="cs"/>
+  <text>
+    <status value="generated"/><div xml:lang="cs" xmlns="http://www.w3.org/1999/xhtml" lang="cs"><p class="res-header-id"><b>Generated Narrative: CodeSystem v2-0131-cz</b></p><a name="v2-0131-cz"> </a><a name="hcv2-0131-cz"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: cs</p></div><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class="grid"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>Not Selectable</td><td>notSelectable</td><td>http://hl7.org/fhir/concept-properties#notSelectable</td><td>boolean</td><td>Not Selectable</td></tr></table><p><b>Concepts</b></p><p>This code system supplement <code>https://hl7.cz/terminology/CodeSystem/v2-0131-cz</code> defines displays and properties on the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>Not Selectable</b></td><td><b>English (English, en)</b></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/7.0.1/CodeSystem-v2-0131.html#v2-0131-C">C</a><a name="v2-0131-cz-C"> </a></td><td>emergentní kontakt</td><td>Emergentní kontakt</td><td/><td>Emergency Contact</td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/7.0.1/CodeSystem-v2-0131.html#v2-0131-E">E</a><a name="v2-0131-cz-E"> </a></td><td>zaměstnavatel</td><td>Zaměstnavatel</td><td/><td>Employer</td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/7.0.1/CodeSystem-v2-0131.html#v2-0131-F">F</a><a name="v2-0131-cz-F"> </a></td><td>federální orgán</td><td>Federální orgán</td><td>true</td><td>Federal Agency</td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/7.0.1/CodeSystem-v2-0131.html#v2-0131-I">I</a><a name="v2-0131-cz-I"> </a></td><td>pojišťovna</td><td>Pojišťovna</td><td/><td>Insurance Company</td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/7.0.1/CodeSystem-v2-0131.html#v2-0131-N">N</a><a name="v2-0131-cz-N"> </a></td><td>příbuzný</td><td>Příbuzný</td><td/><td>Next-of-Kin</td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/7.0.1/CodeSystem-v2-0131.html#v2-0131-O">O</a><a name="v2-0131-cz-O"> </a></td><td>ostatní</td><td>Ostatní</td><td/><td>Other</td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/7.0.1/CodeSystem-v2-0131.html#v2-0131-S">S</a><a name="v2-0131-cz-S"> </a></td><td>státní orgán</td><td>Státní orgán</td><td/><td>State Agency</td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/7.0.1/CodeSystem-v2-0131.html#v2-0131-U">U</a><a name="v2-0131-cz-U"> </a></td><td>neznámý</td><td>Neznámý</td><td/><td>Unknown</td></tr></table></div>
+  </text>
+  <url value="https://hl7.cz/terminology/CodeSystem/v2-0131-cz"/>
+  <version value="0.2.0"/>
+  <name value="ContactRole2Cz"/>
+  <title value="Contact Role (CZ supplement)"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2025-03-03T10:36:45.465879Z"/>
+  <publisher value="HL7 Czech Republic"/>
+  <contact>
+    <name value="HL7 Czech Republic"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hl7.cz/"/>
+    </telecom>
+  </contact>
+  <description value="Role kontaktní osoby. FHIR Code system definition for HL7 v2 table 0131 (Contact Role)."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CZ"/>
+      <display value="Czechia"/>
+    </coding>
+  </jurisdiction>
+  <content value="supplement"/>
+  <supplements value="http://terminology.hl7.org/CodeSystem/v2-0131|3.0.0"/>
+  <property>
+    <code value="notSelectable"/>
+    <uri value="http://hl7.org/fhir/concept-properties#notSelectable"/>
+    <description value="Not Selectable"/>
+    <type value="boolean"/>
+  </property>
+  <concept>
+    <code value="C"/>
+    <display value="emergentní kontakt"/>
+    <definition value="Emergentní kontakt"/>
+    <designation>
+      <language value="en"/>
+      <use>
+        <code value="definition"/>
+      </use>
+      <value value="Emergency Contact"/>
+    </designation>
+    <designation>
+      <language value="en"/>
+      <use>
+        <code value="display"/>
+      </use>
+      <value value="Emergency Contact"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="E"/>
+    <display value="zaměstnavatel"/>
+    <definition value="Zaměstnavatel"/>
+    <designation>
+      <language value="en"/>
+      <use>
+        <code value="definition"/>
+      </use>
+      <value value="Employer"/>
+    </designation>
+    <designation>
+      <language value="en"/>
+      <use>
+        <code value="display"/>
+      </use>
+      <value value="Employer"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="F"/>
+    <display value="federální orgán"/>
+    <definition value="Federální orgán"/>
+    <designation>
+      <language value="en"/>
+      <use>
+        <code value="definition"/>
+      </use>
+      <value value="Federal Agency"/>
+    </designation>
+    <designation>
+      <language value="en"/>
+      <use>
+        <code value="display"/>
+      </use>
+      <value value="Federal Agency"/>
+    </designation>
+    <property>
+      <code value="notSelectable"/>
+      <valueBoolean value="true"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="I"/>
+    <display value="pojišťovna"/>
+    <definition value="Pojišťovna"/>
+    <designation>
+      <language value="en"/>
+      <use>
+        <code value="definition"/>
+      </use>
+      <value value="Insurance Company"/>
+    </designation>
+    <designation>
+      <language value="en"/>
+      <use>
+        <code value="display"/>
+      </use>
+      <value value="Insurance Company"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="N"/>
+    <display value="příbuzný"/>
+    <definition value="Příbuzný"/>
+    <designation>
+      <language value="en"/>
+      <use>
+        <code value="definition"/>
+      </use>
+      <value value="Next-of-Kin"/>
+    </designation>
+    <designation>
+      <language value="en"/>
+      <use>
+        <code value="display"/>
+      </use>
+      <value value="Next-of-Kin"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="O"/>
+    <display value="ostatní"/>
+    <definition value="Ostatní"/>
+    <designation>
+      <language value="en"/>
+      <use>
+        <code value="definition"/>
+      </use>
+      <value value="Other"/>
+    </designation>
+    <designation>
+      <language value="en"/>
+      <use>
+        <code value="display"/>
+      </use>
+      <value value="Other"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="S"/>
+    <display value="státní orgán"/>
+    <definition value="Státní orgán"/>
+    <designation>
+      <language value="en"/>
+      <use>
+        <code value="definition"/>
+      </use>
+      <value value="State Agency"/>
+    </designation>
+    <designation>
+      <language value="en"/>
+      <use>
+        <code value="display"/>
+      </use>
+      <value value="State Agency"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="U"/>
+    <display value="neznámý"/>
+    <definition value="Neznámý"/>
+    <designation>
+      <language value="en"/>
+      <use>
+        <code value="definition"/>
+      </use>
+      <value value="Unknown"/>
+    </designation>
+    <designation>
+      <language value="en"/>
+      <use>
+        <code value="display"/>
+      </use>
+      <value value="Unknown"/>
+    </designation>
+  </concept>
+</CodeSystem>

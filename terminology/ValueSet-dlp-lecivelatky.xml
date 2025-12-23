@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="dlp-lecivelatky"/>
+  <language value="cs"/>
+  <text>
+    <status value="generated"/><div xml:lang="cs" xmlns="http://www.w3.org/1999/xhtml" lang="cs"><p class="res-header-id"><b>Generated Narrative: ValueSet dlp-lecivelatky</b></p><a name="dlp-lecivelatky"> </a><a name="hcdlp-lecivelatky"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: cs</p></div><ul><li>Include all codes defined in <a href="CodeSystem-dlp-lecivelatky.html"><code>https://sukl.cz/terminology/CodeSystem/dlp-lecivelatky</code></a><span title="Version is not explicitly stated. No matching Code System found"> version Not Stated (use latest from terminology server)</span></li></ul></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="2"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use"/>
+  </extension>
+  <url value="https://sukl.cz/terminology/ValueSet/dlp-lecivelatky"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:1.2.203.24341.11.1.11"/>
+  </identifier>
+  <version value="0.2.0"/>
+  <name value="DLP_lecivelatky"/>
+  <title value="Value set of DLP Lecive latky"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-01-17"/>
+  <publisher value="HL7 Czech Republic"/>
+  <contact>
+    <name value="HL7 Czech Republic"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hl7.cz/"/>
+    </telecom>
+  </contact>
+  <description value="Value set of DLP Lecive latky (Substances)"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CZ"/>
+      <display value="Czechia"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="https://sukl.cz/terminology/CodeSystem/dlp-lecivelatky"/>
+    </include>
+  </compose>
+</ValueSet>

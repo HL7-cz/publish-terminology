@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="mkn-10"/>
+  <language value="cs"/>
+  <text>
+    <status value="generated"/><div xml:lang="cs" xmlns="http://www.w3.org/1999/xhtml" lang="cs"><p class="res-header-id"><b>Generated Narrative: CodeSystem mkn-10</b></p><a name="mkn-10"> </a><a name="hcmkn-10"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: cs</p></div><p>This case-sensitive code system <code>https://uzis.cz/terminology/CodeSystem/mkn-10</code> defines codes, but no codes are represented here</p></div>
+  </text>
+  <url value="https://uzis.cz/terminology/CodeSystem/mkn-10"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:1.2.203.24341.11.2.1"/>
+  </identifier>
+  <version value="0.2.0"/>
+  <name value="MKN10_5"/>
+  <title value="Kódový systém MKN-10"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="1980-01-01"/>
+  <publisher value="HL7 Czech Republic"/>
+  <contact>
+    <name value="HL7 Czech Republic"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hl7.cz/"/>
+    </telecom>
+  </contact>
+  <description value="Národní systém pro kódování diagnóz a zdravotních problémů."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CZ"/>
+      <display value="Czechia"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="not-present"/>
+</CodeSystem>

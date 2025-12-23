@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>NRZP - Czech health professional occupation - HL7 Czech Terminology Implementation Guide v0.2.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <link href="assets/css/cz-core.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"5.54"}
+    h3,h4,h5,h6{--heading-prefix:"5.54"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <!-- Placeholder for child template header declarations -->
+<div id="hl7-nav">
+  <a id="hl7-logo" no-external="true" href="https://www.hl7.cz">
+    <img height="60" alt="Visit the HL7 Czech website" src="assets/images/hl7cz-logo.png" />
+  </a>
+</div>
+<div id="project-nav">
+  <a id="project-logo" no-external="true" href="https://mzd.gov.cz"><img height="60" alt="MZCR"
+      src="assets/images/NPO_logo.png" /> </a>
+</div>
+<div id="family-nav">
+  <a id="family-logo" no-external="true" href="https://ncez.mzcr.cz/cs"><img height="60" alt="NCEZ MZCR"
+      src="assets/images/logo.png" /> </a>
+</div>
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">HL7 Czech Terminology Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.2.0 - release
+
+
+
+  <img alt="Czechia flag" src="assets/images/cze.svg" height="16" title="Czechia"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="artifactsPage.html">Terminologies</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>NRZP - Czech health professional occupation</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">This page is part of the Czech FHIR Terminology Package (v0.2.0: Release) based on <a data-no-external="true" href="http://hl7.org/fhir/R4">FHIR (HL7® FHIR® Standard) R4</a>. This is the current published version.  For a full list of available versions, see the <a data-no-external="true" href="https://hl7.cz/terminology/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li class="active">
+    <a href="#">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="CodeSystem-nrzp-povolani.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="CodeSystem-nrzp-povolani.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="CodeSystem-nrzp-povolani.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+  <a name="root"> </a>
+  <h2 id="root">CodeSystem: NRZP - Czech health professional occupation
+
+  </h2>
+
+  <table class="colsi">
+
+    <tr>
+      <td colspan="4"><i>Official URL</i>: <span class="copy-text">https://ncez.mzcr.cz/terminology/CodeSystem/nrzp-povolani<button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://ncez.mzcr.cz/terminology/CodeSystem/nrzp-povolani"/></span>
+      </td>
+      <td><i>Version</i>:
+      <span class="copy-text">0.2.0<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="https://ncez.mzcr.cz/terminology/CodeSystem/nrzp-povolani|0.2.0"/></span>
+      </td>
+    </tr>
+
+    <tr>
+
+
+
+
+
+
+
+      <td colspan="4">
+        
+          Active
+          
+            as of 1980-01-01
+          
+        
+      </td>
+
+
+
+      <td><i>Computable Name</i>: <span style="font-family: monospace;">NRZP_Povolani</span></td>
+    </tr>
+
+    <tr>
+      <td colspan="5">
+        <i>Other Identifiers:</i> OID:1.2.203.24341.11.2.10.2.1
+      </td>
+    </tr>
+
+
+
+
+  </table>
+
+<p>
+<p>Czech national code system for health professional occupation used in the national registry of healthcare practicioners.</p>
+
+</p>
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <p>
+  This Code system is referenced in the content logical definition of the following value sets:
+  </p>
+
+  
+<ul>
+ <li><a href="ValueSet-nrzp-povolani-vs.html">NRZP_PovolaniVS</a></li>
+</ul>
+
+
+  <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="cs" lang="cs" data-fhir="generated"><p class="res-header-id"></p><a name="nrzp-povolani"> </a><a name="hcnrzp-povolani"> </a>
+<div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: cs</p></div><p>This case-sensitive code system <code>https://ncez.mzcr.cz/terminology/CodeSystem/nrzp-povolani</code> defines the following codes:</p>
+<table class="codes" data-fhir="generated"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr>
+<tr><td style="white-space:nowrap">L1<a name="nrzp-povolani-L1"> </a></td>
+<td>Lékař po absolvování odborné způsobilosti (L1)</td></tr>
+<tr><td style="white-space:nowrap">L2<a name="nrzp-povolani-L2"> </a></td>
+<td>Lékař po absolvování základního kmene (L2)</td></tr>
+<tr><td style="white-space:nowrap">L3<a name="nrzp-povolani-L3"> </a></td>
+<td>Lékař po absolvování specializačního vzdělání (L3)</td></tr>
+<tr><td style="white-space:nowrap">Z00<a name="nrzp-povolani-Z00"> </a></td>
+<td>Zubní lékař</td></tr>
+<tr><td style="white-space:nowrap">F00<a name="nrzp-povolani-F00"> </a></td>
+<td>Farmaceut</td></tr>
+<tr><td style="white-space:nowrap">NL01<a name="nrzp-povolani-NL01"> </a></td>
+<td>Všeobecná sestra</td></tr>
+<tr><td style="white-space:nowrap">NL013<a name="nrzp-povolani-NL013"> </a></td>
+<td>Dětská sestra</td></tr>
+<tr><td style="white-space:nowrap">NL02<a name="nrzp-povolani-NL02"> </a></td>
+<td>Porodní asistentka</td></tr>
+<tr><td style="white-space:nowrap">NL03<a name="nrzp-povolani-NL03"> </a></td>
+<td>Ergoterapeut</td></tr>
+<tr><td style="white-space:nowrap">NL04<a name="nrzp-povolani-NL04"> </a></td>
+<td>Radiologický asistent</td></tr>
+<tr><td style="white-space:nowrap">NL05<a name="nrzp-povolani-NL05"> </a></td>
+<td>Zdravotní laborant</td></tr>
+<tr><td style="white-space:nowrap">NL06<a name="nrzp-povolani-NL06"> </a></td>
+<td>Zdravotně-sociální pracovník</td></tr>
+<tr><td style="white-space:nowrap">NL07<a name="nrzp-povolani-NL07"> </a></td>
+<td>Optometrista</td></tr>
+<tr><td style="white-space:nowrap">NL08<a name="nrzp-povolani-NL08"> </a></td>
+<td>Ortoptista</td></tr>
+<tr><td style="white-space:nowrap">NL09<a name="nrzp-povolani-NL09"> </a></td>
+<td>Asistent ochrany a podpory veřejného zdraví</td></tr>
+<tr><td style="white-space:nowrap">NL10<a name="nrzp-povolani-NL10"> </a></td>
+<td>Ortotik-protetik</td></tr>
+<tr><td style="white-space:nowrap">NL11<a name="nrzp-povolani-NL11"> </a></td>
+<td>Nutriční terapeut</td></tr>
+<tr><td style="white-space:nowrap">NL12<a name="nrzp-povolani-NL12"> </a></td>
+<td>Zubní technik</td></tr>
+<tr><td style="white-space:nowrap">NL13<a name="nrzp-povolani-NL13"> </a></td>
+<td>Dentální hygienistka</td></tr>
+<tr><td style="white-space:nowrap">NL14<a name="nrzp-povolani-NL14"> </a></td>
+<td>Zdravotnický záchranář</td></tr>
+<tr><td style="white-space:nowrap">NL15<a name="nrzp-povolani-NL15"> </a></td>
+<td>Farmaceutický asistent</td></tr>
+<tr><td style="white-space:nowrap">NL16<a name="nrzp-povolani-NL16"> </a></td>
+<td>Biomedicínský technik</td></tr>
+<tr><td style="white-space:nowrap">NL24<a name="nrzp-povolani-NL24"> </a></td>
+<td>Radiologický fyzik</td></tr>
+<tr><td style="white-space:nowrap">NL19<a name="nrzp-povolani-NL19"> </a></td>
+<td>Adiktolog</td></tr>
+<tr><td style="white-space:nowrap">NL20<a name="nrzp-povolani-NL20"> </a></td>
+<td>Psycholog ve zdravotnictví</td></tr>
+<tr><td style="white-space:nowrap">NL21<a name="nrzp-povolani-NL21"> </a></td>
+<td>Logoped ve zdravotnictví</td></tr>
+<tr><td style="white-space:nowrap">NL22<a name="nrzp-povolani-NL22"> </a></td>
+<td>Zrakový terapeut</td></tr>
+<tr><td style="white-space:nowrap">NL23<a name="nrzp-povolani-NL23"> </a></td>
+<td>Fyzioterapeut</td></tr>
+<tr><td style="white-space:nowrap">NL18<a name="nrzp-povolani-NL18"> </a></td>
+<td>Radiologický technik</td></tr>
+<tr><td style="white-space:nowrap">NL25<a name="nrzp-povolani-NL25"> </a></td>
+<td>Odborný pracovník v laboratorních metodách a v přípravě léčivých přípravků</td></tr>
+<tr><td style="white-space:nowrap">NL26<a name="nrzp-povolani-NL26"> </a></td>
+<td>Biomedicínský inženýr</td></tr>
+<tr><td style="white-space:nowrap">NL27<a name="nrzp-povolani-NL27"> </a></td>
+<td>Odborný pracovník v ochraně a podpoře veřejného zdraví</td></tr>
+<tr><td style="white-space:nowrap">NL28<a name="nrzp-povolani-NL28"> </a></td>
+<td>Praktická sestra</td></tr>
+<tr><td style="white-space:nowrap">NL29<a name="nrzp-povolani-NL29"> </a></td>
+<td>Behaviorální analytik</td></tr>
+<tr><td style="white-space:nowrap">NL31<a name="nrzp-povolani-NL31"> </a></td>
+<td>Specialista tradiční čínské medicíny</td></tr>
+<tr><td style="white-space:nowrap">NL30<a name="nrzp-povolani-NL30"> </a></td>
+<td>Terapeut tradiční čínské medicíny</td></tr>
+<tr><td style="white-space:nowrap">NL60<a name="nrzp-povolani-NL60"> </a></td>
+<td>Asistent behaviorálního analytika</td></tr>
+<tr><td style="white-space:nowrap">NL61<a name="nrzp-povolani-NL61"> </a></td>
+<td>Behaviorální technik</td></tr>
+<tr><td style="white-space:nowrap">NL63<a name="nrzp-povolani-NL63"> </a></td>
+<td>Laboratorní asistent</td></tr>
+<tr><td style="white-space:nowrap">NL64<a name="nrzp-povolani-NL64"> </a></td>
+<td>Ortoticko-protetický technik</td></tr>
+<tr><td style="white-space:nowrap">NL65<a name="nrzp-povolani-NL65"> </a></td>
+<td>Nutriční asistent</td></tr>
+<tr><td style="white-space:nowrap">NL66<a name="nrzp-povolani-NL66"> </a></td>
+<td>Asistent zubního technika</td></tr>
+<tr><td style="white-space:nowrap">NL68<a name="nrzp-povolani-NL68"> </a></td>
+<td>Řidič vozidla zdravotnické záchranné služby</td></tr>
+<tr><td style="white-space:nowrap">NL69<a name="nrzp-povolani-NL69"> </a></td>
+<td>Ošetřovatel</td></tr>
+<tr><td style="white-space:nowrap">NL70<a name="nrzp-povolani-NL70"> </a></td>
+<td>Masér ve zdravotnictví, nevidomý a slabozraký masér ve zdravotnictví</td></tr>
+<tr><td style="white-space:nowrap">NL73<a name="nrzp-povolani-NL73"> </a></td>
+<td>Zubní instrumentářka</td></tr>
+<tr><td style="white-space:nowrap">NL74<a name="nrzp-povolani-NL74"> </a></td>
+<td>Řidič zdravotnické dopravní služby</td></tr>
+<tr><td style="white-space:nowrap">NL75<a name="nrzp-povolani-NL75"> </a></td>
+<td>Autoptický laborant</td></tr>
+<tr><td style="white-space:nowrap">NL76<a name="nrzp-povolani-NL76"> </a></td>
+<td>Sanitář</td></tr>
+<tr><td style="white-space:nowrap">L00<a name="nrzp-povolani-L00"> </a></td>
+<td>Lékař</td></tr>
+<tr><td style="white-space:nowrap">LA<a name="nrzp-povolani-LA"> </a></td>
+<td>Lékař po absolvování studijního oboru v anglickém jazyce</td></tr>
+<tr><td style="white-space:nowrap">FA<a name="nrzp-povolani-FA"> </a></td>
+<td>Farmaceut po absolvování studijního oboru v anglickém jazyce</td></tr>
+<tr><td style="white-space:nowrap">ZA<a name="nrzp-povolani-ZA"> </a></td>
+<td>Zubní lékař po absolvování studijního oboru v anglickém jazyce</td></tr></table></div>
+
+  
+
+  <!-- insert notes if present -->
+  
+
+
+
+  
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hl7.cz/">HL7 Czech Republic</a>.  Package hl7.fhir.cz.terminology#0.2.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Dec 23, 2025 18:33+0100">2025-12-23</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

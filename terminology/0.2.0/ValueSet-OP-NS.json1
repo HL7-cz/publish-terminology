@@ -1,0 +1,1044 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "OP-NS",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+  },
+  "language" : "cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"cs\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"cs\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet OP-NS</b></p><a name=\"OP-NS\"> </a><a name=\"hcOP-NS\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: cs</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include these codes as defined in <code>urn:ietf:rfc:3986</code><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-AFG</td><td>OP: Afghánistán</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-ALB</td><td>OP: Albánie</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-DZA</td><td>OP: Alžírsko</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-ASM</td><td>OP: Americká Samoa</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-AND</td><td>OP: Andorra</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-AGO</td><td>OP: Angola</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-AIA</td><td>OP: Anguilla</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-ATA</td><td>OP: Antarktida</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-ATG</td><td>OP: Antigua a Barbuda</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-ARG</td><td>OP: Argentina</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-ARM</td><td>OP: Arménie</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-ABW</td><td>OP: Aruba</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-AUS</td><td>OP: Austrálie</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-AUT</td><td>OP: Rakousko</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-AZE</td><td>OP: Ázerbájdžán</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-BHS</td><td>OP: Bahamy</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-BHR</td><td>OP: Bahrajn</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-BGD</td><td>OP: Bangladéš</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-BRB</td><td>OP: Barbados</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-BLR</td><td>OP: Bělorusko</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-BEL</td><td>OP: Belgie</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-BLZ</td><td>OP: Belize</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-BEN</td><td>OP: Benin</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-BMU</td><td>OP: Bermudy</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-BTN</td><td>OP: Bhútán</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-BOL</td><td>OP: Bolívie</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-BES</td><td>OP: Bonaire, Svatý Eustach a Saba</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-BIH</td><td>OP: Bosna a Hercegovina</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-BWA</td><td>OP: Botswana</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-BVT</td><td>OP: Bouvetův ostrov</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-BRA</td><td>OP: Brazílie</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-IOT</td><td>OP: Britské indickooceánské území</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-BRN</td><td>OP: Brunej</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-BGR</td><td>OP: Bulharsko</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-BFA</td><td>OP: Burkina Faso</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-BDI</td><td>OP: Burundi</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-CPV</td><td>OP: Burundi</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-KHM</td><td>OP: Kambodža</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-CMR</td><td>OP: Kamerun</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-CAN</td><td>OP: Kanada</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-CYM</td><td>OP: Kajmanské ostrovy</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-CAF</td><td>OP: Středoafrická republika</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-TCD</td><td>OP: Čad</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-CHL</td><td>OP: Chile</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-CHN</td><td>OP: Čína</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-CXR</td><td>OP: Vánoční ostrov</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-CCK</td><td>OP: Kokosové (Keelingovy) ostrovy</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-COL</td><td>OP: Kolumbie</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-COM</td><td>OP: Komory</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-COD</td><td>OP: Konžská republika</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-COG</td><td>OP: Konžská republika</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-COK</td><td>OP: Cookovy ostrovy</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-CRI</td><td>OP: Kostarika</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-HRV</td><td>OP: Chorvatsko</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-CUB</td><td>OP: Kuba</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-CUW</td><td>OP: Curaçao</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-CYP</td><td>OP: Kypr</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-CZE</td><td>OP: Česko</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-CIV</td><td>OP: Pobřeží slonoviny</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-DNK</td><td>OP: Dánsko</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-DJI</td><td>OP: Džibutsko</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-DMA</td><td>OP: Dominika</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-DOM</td><td>OP: Dominikánská republika</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-ECU</td><td>OP: Ekvádor</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-EGY</td><td>OP: Egypt</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-SLV</td><td>OP: Salvador</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-GNQ</td><td>OP: Rovníková Guinea</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-ERI</td><td>OP: Eritrea</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-EST</td><td>OP: Estonsko</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-SWZ</td><td>OP: Estonsko</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-ETH</td><td>OP: Etiopie</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-FLK</td><td>OP: Falklandy</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-FRO</td><td>OP: Faerské ostrovy</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-FJI</td><td>OP: Fidži</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-FIN</td><td>OP: Finsko</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-FRA</td><td>OP: Francie</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-GUF</td><td>OP: Francouzská Guyana</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-PYF</td><td>OP: Francouzská Polynésie</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-ATF</td><td>OP: Francouzská jižní a antarktická území</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-GAB</td><td>OP: Gabon</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-GMB</td><td>OP: Gambie</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-GEO</td><td>OP: Gruzie</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-DEU</td><td>OP: Německo</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-GHA</td><td>OP: Ghana</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-GIB</td><td>OP: Gibraltar</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-GRC</td><td>OP: Řecko</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-GRL</td><td>OP: Grónsko</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-GRD</td><td>OP: Grenada</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-GLP</td><td>OP: Guadeloupe</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-GUM</td><td>OP: Guam</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-GTM</td><td>OP: Guatemala</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-GGY</td><td>OP: Guernsey</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-GIN</td><td>OP: Guinea</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-GNB</td><td>OP: Guinea-Bissau</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-GUY</td><td>OP: Guyana</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-HTI</td><td>OP: Haiti</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-HMD</td><td>OP: Heardův ostrov a MacDonaldovy ostrovy</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-VAT</td><td>OP: Vatikán</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-HND</td><td>OP: Honduras</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-HKG</td><td>OP: Hongkong</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-HUN</td><td>OP: Maďarsko</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-ISL</td><td>OP: Island</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-IND</td><td>OP: Indie</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-IDN</td><td>OP: Indonésie</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-IRN</td><td>OP: Írán</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-IRQ</td><td>OP: Irák</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-IRL</td><td>OP: Irsko</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-IMN</td><td>OP: Man</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-ISR</td><td>OP: Izrael</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-ITA</td><td>OP: Itálie</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-JAM</td><td>OP: Jamajka</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-JPN</td><td>OP: Japonsko</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-JEY</td><td>OP: Jersey</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-JOR</td><td>OP: Jordánsko</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-KAZ</td><td>OP: Kazachstán</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-KEN</td><td>OP: Keňa</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-KIR</td><td>OP: Kiribati</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-PRK</td><td>OP: Korejská lidově demokratická republika</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-KOR</td><td>OP: Korejská lidově demokratická republika</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-KWT</td><td>OP: Kuvajt</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-KGZ</td><td>OP: Kyrgyzstán</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-LAO</td><td>OP: Laos</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-LVA</td><td>OP: Lotyšsko</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-LBN</td><td>OP: Libanon</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-LSO</td><td>OP: Lesotho</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-LBR</td><td>OP: Libérie</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-LBY</td><td>OP: Libye</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-LIE</td><td>OP: Lichtenštejnsko</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-LTU</td><td>OP: Litva</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-LUX</td><td>OP: Lucembursko</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-MAC</td><td>OP: Macao</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-MDG</td><td>OP: Madagaskar</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-MWI</td><td>OP: Malawi</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-MYS</td><td>OP: Malajsie</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-MDV</td><td>OP: Maledivy</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-MLI</td><td>OP: Mali</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-MLT</td><td>OP: Malta</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-MHL</td><td>OP: Marshallovy ostrovy</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-MTQ</td><td>OP: Martinik</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-MRT</td><td>OP: Mauritánie</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-MUS</td><td>OP: Mauricius</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-MYT</td><td>OP: Mayotte</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-MEX</td><td>OP: Mexiko</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-FSM</td><td>OP: Mikronésie</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-MDA</td><td>OP: Mikronésie</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-MCO</td><td>OP: Monako</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-MNG</td><td>OP: Mongolsko</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-MNE</td><td>OP: Černá Hora</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-MSR</td><td>OP: Montserrat</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-MAR</td><td>OP: Maroko</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-MOZ</td><td>OP: Mosambik</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-MMR</td><td>OP: Myanmar</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-NAM</td><td>OP: Namibie</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-NRU</td><td>OP: Nauru</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-NPL</td><td>OP: Nepál</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-NLD</td><td>OP: Nizozemsko</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-NCL</td><td>OP: Nová Kaledonie</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-NZL</td><td>OP: Nový Zéland</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-NIC</td><td>OP: Nikaragua</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-NER</td><td>OP: Niger</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-NGA</td><td>OP: Nigérie</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-NIU</td><td>OP: Niue</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-NFK</td><td>OP: Norfolk</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-MKD</td><td>OP: Norfolk</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-MNP</td><td>OP: Severní Mariany</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-NOR</td><td>OP: Norsko</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-OMN</td><td>OP: Omán</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-PAK</td><td>OP: Pákistán</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-PLW</td><td>OP: Palau</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-PSE</td><td>OP: Palestina</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-PAN</td><td>OP: Panama</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-PNG</td><td>OP: Papua Nová Guinea</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-PRY</td><td>OP: Paraguay</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-PER</td><td>OP: Peru</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-PHL</td><td>OP: Filipíny</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-PCN</td><td>OP: Pitcairn</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-POL</td><td>OP: Polsko</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-PRT</td><td>OP: Portugalsko</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-PRI</td><td>OP: Portoriko</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-QAT</td><td>OP: Katar</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-ROU</td><td>OP: Rumunsko</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-RUS</td><td>OP: Rusko</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-RWA</td><td>OP: Rwanda</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-REU</td><td>OP: Réunion</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-BLM</td><td>OP: Svatý Bartoloměj</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-SHN</td><td>OP: Svatá Helena</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-KNA</td><td>OP: Svatý Kryštof a Nevis</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-LCA</td><td>OP: Svatá Lucie</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-MAF</td><td>OP: Svatý Martin (FR)</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-SPM</td><td>OP: Saint Pierre a Miquelon</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-VCT</td><td>OP: Svatý Vincenc a Grenadiny</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-WSM</td><td>OP: Samoa</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-SMR</td><td>OP: San Marino</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-STP</td><td>OP: Svatý Tomáš a Princův ostrov</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-SAU</td><td>OP: Saúdská Arábie</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-SEN</td><td>OP: Senegal</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-SRB</td><td>OP: Srbsko</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-SYC</td><td>OP: Seychely</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-SLE</td><td>OP: Sierra Leone</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-SGP</td><td>OP: Singapur</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-SXM</td><td>OP: Svatý Martin (NL)</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-SVK</td><td>OP: Slovensko</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-SVN</td><td>OP: Slovinsko</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-SLB</td><td>OP: Šalomounovy ostrovy</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-SOM</td><td>OP: Somálsko</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-ZAF</td><td>OP: Jižní Afrika</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-SGS</td><td>OP: Jižní Georgie a Jižní Sandwichovy ostrovy</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-SSD</td><td>OP: Jižní Súdán</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-ESP</td><td>OP: Španělsko</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-LKA</td><td>OP: Šrí Lanka</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-SDN</td><td>OP: Súdán</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-SUR</td><td>OP: Surinam</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-SJM</td><td>OP: Špicberky a Jan Mayen</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-SWE</td><td>OP: Švédsko</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-CHE</td><td>OP: Švýcarsko</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-SYR</td><td>OP: Sýrie</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-TWN</td><td>OP: Sýrie</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-TJK</td><td>OP: Tádžikistán</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-TZA</td><td>OP: Tádžikistán</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-THA</td><td>OP: Thajsko</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-TLS</td><td>OP: Východní Timor</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-TGO</td><td>OP: Togo</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-TKL</td><td>OP: Tokelau</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-TON</td><td>OP: Tonga</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-TTO</td><td>OP: Trinidad a Tobago</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-TUN</td><td>OP: Tunisko</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-TKM</td><td>OP: Turkmenistán</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-TCA</td><td>OP: Turks a Caicos</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-TUV</td><td>OP: Tuvalu</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-TUR</td><td>OP: Turecko</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-UGA</td><td>OP: Uganda</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-UKR</td><td>OP: Ukrajina</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-ARE</td><td>OP: Spojené arabské emiráty</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-GBR</td><td>OP: Velká Británie</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-UMI</td><td>OP: Menší odlehlé ostrovy USA</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-USA</td><td>OP: Spojené státy</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-URY</td><td>OP: Uruguay</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-UZB</td><td>OP: Uzbekistán</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-VUT</td><td>OP: Vanuatu</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-VEN</td><td>OP: Venezuela</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-VNM</td><td>OP: Vietnam</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-VGB</td><td>OP: Vietnam</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-VIR</td><td>OP: Vietnam</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-WLF</td><td>OP: Wallis a Futuna</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-ESH</td><td>OP: Západní Sahara</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-YEM</td><td>OP: Jemen</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-ZMB</td><td>OP: Zambie</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-ZWE</td><td>OP: Zimbabwe</td></tr><tr><td>https://hl7.cz/NamingSystem/IdCardNumNS-ALA</td><td>OP: Alandy</td></tr></table></li></ul></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 1
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "draft"
+  }],
+  "url" : "https://hl7.cz/terminology/ValueSet/OP-NS",
+  "version" : "0.2.0",
+  "name" : "OPNSVS",
+  "title" : "Standard namespaces for national identity card",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2023-01-01",
+  "publisher" : "HL7 Czech Republic",
+  "contact" : [{
+    "name" : "HL7 Czech Republic",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.hl7.cz/"
+    }]
+  }],
+  "description" : "National identity card's namespaces (CZ)",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CZ",
+      "display" : "Czechia"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "urn:ietf:rfc:3986",
+      "concept" : [{
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-AFG",
+        "display" : "OP: Afghánistán"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-ALB",
+        "display" : "OP: Albánie"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-DZA",
+        "display" : "OP: Alžírsko"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-ASM",
+        "display" : "OP: Americká Samoa"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-AND",
+        "display" : "OP: Andorra"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-AGO",
+        "display" : "OP: Angola"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-AIA",
+        "display" : "OP: Anguilla"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-ATA",
+        "display" : "OP: Antarktida"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-ATG",
+        "display" : "OP: Antigua a Barbuda"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-ARG",
+        "display" : "OP: Argentina"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-ARM",
+        "display" : "OP: Arménie"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-ABW",
+        "display" : "OP: Aruba"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-AUS",
+        "display" : "OP: Austrálie"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-AUT",
+        "display" : "OP: Rakousko"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-AZE",
+        "display" : "OP: Ázerbájdžán"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-BHS",
+        "display" : "OP: Bahamy"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-BHR",
+        "display" : "OP: Bahrajn"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-BGD",
+        "display" : "OP: Bangladéš"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-BRB",
+        "display" : "OP: Barbados"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-BLR",
+        "display" : "OP: Bělorusko"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-BEL",
+        "display" : "OP: Belgie"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-BLZ",
+        "display" : "OP: Belize"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-BEN",
+        "display" : "OP: Benin"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-BMU",
+        "display" : "OP: Bermudy"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-BTN",
+        "display" : "OP: Bhútán"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-BOL",
+        "display" : "OP: Bolívie"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-BES",
+        "display" : "OP: Bonaire, Svatý Eustach a Saba"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-BIH",
+        "display" : "OP: Bosna a Hercegovina"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-BWA",
+        "display" : "OP: Botswana"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-BVT",
+        "display" : "OP: Bouvetův ostrov"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-BRA",
+        "display" : "OP: Brazílie"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-IOT",
+        "display" : "OP: Britské indickooceánské území"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-BRN",
+        "display" : "OP: Brunej"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-BGR",
+        "display" : "OP: Bulharsko"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-BFA",
+        "display" : "OP: Burkina Faso"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-BDI",
+        "display" : "OP: Burundi"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-CPV",
+        "display" : "OP: Burundi"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-KHM",
+        "display" : "OP: Kambodža"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-CMR",
+        "display" : "OP: Kamerun"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-CAN",
+        "display" : "OP: Kanada"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-CYM",
+        "display" : "OP: Kajmanské ostrovy"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-CAF",
+        "display" : "OP: Středoafrická republika"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-TCD",
+        "display" : "OP: Čad"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-CHL",
+        "display" : "OP: Chile"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-CHN",
+        "display" : "OP: Čína"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-CXR",
+        "display" : "OP: Vánoční ostrov"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-CCK",
+        "display" : "OP: Kokosové (Keelingovy) ostrovy"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-COL",
+        "display" : "OP: Kolumbie"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-COM",
+        "display" : "OP: Komory"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-COD",
+        "display" : "OP: Konžská republika"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-COG",
+        "display" : "OP: Konžská republika"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-COK",
+        "display" : "OP: Cookovy ostrovy"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-CRI",
+        "display" : "OP: Kostarika"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-HRV",
+        "display" : "OP: Chorvatsko"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-CUB",
+        "display" : "OP: Kuba"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-CUW",
+        "display" : "OP: Curaçao"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-CYP",
+        "display" : "OP: Kypr"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-CZE",
+        "display" : "OP: Česko"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-CIV",
+        "display" : "OP: Pobřeží slonoviny"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-DNK",
+        "display" : "OP: Dánsko"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-DJI",
+        "display" : "OP: Džibutsko"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-DMA",
+        "display" : "OP: Dominika"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-DOM",
+        "display" : "OP: Dominikánská republika"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-ECU",
+        "display" : "OP: Ekvádor"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-EGY",
+        "display" : "OP: Egypt"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-SLV",
+        "display" : "OP: Salvador"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-GNQ",
+        "display" : "OP: Rovníková Guinea"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-ERI",
+        "display" : "OP: Eritrea"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-EST",
+        "display" : "OP: Estonsko"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-SWZ",
+        "display" : "OP: Estonsko"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-ETH",
+        "display" : "OP: Etiopie"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-FLK",
+        "display" : "OP: Falklandy"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-FRO",
+        "display" : "OP: Faerské ostrovy"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-FJI",
+        "display" : "OP: Fidži"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-FIN",
+        "display" : "OP: Finsko"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-FRA",
+        "display" : "OP: Francie"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-GUF",
+        "display" : "OP: Francouzská Guyana"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-PYF",
+        "display" : "OP: Francouzská Polynésie"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-ATF",
+        "display" : "OP: Francouzská jižní a antarktická území"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-GAB",
+        "display" : "OP: Gabon"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-GMB",
+        "display" : "OP: Gambie"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-GEO",
+        "display" : "OP: Gruzie"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-DEU",
+        "display" : "OP: Německo"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-GHA",
+        "display" : "OP: Ghana"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-GIB",
+        "display" : "OP: Gibraltar"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-GRC",
+        "display" : "OP: Řecko"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-GRL",
+        "display" : "OP: Grónsko"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-GRD",
+        "display" : "OP: Grenada"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-GLP",
+        "display" : "OP: Guadeloupe"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-GUM",
+        "display" : "OP: Guam"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-GTM",
+        "display" : "OP: Guatemala"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-GGY",
+        "display" : "OP: Guernsey"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-GIN",
+        "display" : "OP: Guinea"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-GNB",
+        "display" : "OP: Guinea-Bissau"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-GUY",
+        "display" : "OP: Guyana"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-HTI",
+        "display" : "OP: Haiti"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-HMD",
+        "display" : "OP: Heardův ostrov a MacDonaldovy ostrovy"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-VAT",
+        "display" : "OP: Vatikán"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-HND",
+        "display" : "OP: Honduras"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-HKG",
+        "display" : "OP: Hongkong"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-HUN",
+        "display" : "OP: Maďarsko"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-ISL",
+        "display" : "OP: Island"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-IND",
+        "display" : "OP: Indie"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-IDN",
+        "display" : "OP: Indonésie"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-IRN",
+        "display" : "OP: Írán"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-IRQ",
+        "display" : "OP: Irák"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-IRL",
+        "display" : "OP: Irsko"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-IMN",
+        "display" : "OP: Man"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-ISR",
+        "display" : "OP: Izrael"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-ITA",
+        "display" : "OP: Itálie"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-JAM",
+        "display" : "OP: Jamajka"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-JPN",
+        "display" : "OP: Japonsko"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-JEY",
+        "display" : "OP: Jersey"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-JOR",
+        "display" : "OP: Jordánsko"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-KAZ",
+        "display" : "OP: Kazachstán"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-KEN",
+        "display" : "OP: Keňa"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-KIR",
+        "display" : "OP: Kiribati"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-PRK",
+        "display" : "OP: Korejská lidově demokratická republika"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-KOR",
+        "display" : "OP: Korejská lidově demokratická republika"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-KWT",
+        "display" : "OP: Kuvajt"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-KGZ",
+        "display" : "OP: Kyrgyzstán"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-LAO",
+        "display" : "OP: Laos"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-LVA",
+        "display" : "OP: Lotyšsko"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-LBN",
+        "display" : "OP: Libanon"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-LSO",
+        "display" : "OP: Lesotho"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-LBR",
+        "display" : "OP: Libérie"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-LBY",
+        "display" : "OP: Libye"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-LIE",
+        "display" : "OP: Lichtenštejnsko"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-LTU",
+        "display" : "OP: Litva"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-LUX",
+        "display" : "OP: Lucembursko"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-MAC",
+        "display" : "OP: Macao"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-MDG",
+        "display" : "OP: Madagaskar"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-MWI",
+        "display" : "OP: Malawi"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-MYS",
+        "display" : "OP: Malajsie"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-MDV",
+        "display" : "OP: Maledivy"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-MLI",
+        "display" : "OP: Mali"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-MLT",
+        "display" : "OP: Malta"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-MHL",
+        "display" : "OP: Marshallovy ostrovy"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-MTQ",
+        "display" : "OP: Martinik"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-MRT",
+        "display" : "OP: Mauritánie"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-MUS",
+        "display" : "OP: Mauricius"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-MYT",
+        "display" : "OP: Mayotte"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-MEX",
+        "display" : "OP: Mexiko"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-FSM",
+        "display" : "OP: Mikronésie"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-MDA",
+        "display" : "OP: Mikronésie"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-MCO",
+        "display" : "OP: Monako"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-MNG",
+        "display" : "OP: Mongolsko"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-MNE",
+        "display" : "OP: Černá Hora"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-MSR",
+        "display" : "OP: Montserrat"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-MAR",
+        "display" : "OP: Maroko"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-MOZ",
+        "display" : "OP: Mosambik"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-MMR",
+        "display" : "OP: Myanmar"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-NAM",
+        "display" : "OP: Namibie"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-NRU",
+        "display" : "OP: Nauru"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-NPL",
+        "display" : "OP: Nepál"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-NLD",
+        "display" : "OP: Nizozemsko"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-NCL",
+        "display" : "OP: Nová Kaledonie"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-NZL",
+        "display" : "OP: Nový Zéland"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-NIC",
+        "display" : "OP: Nikaragua"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-NER",
+        "display" : "OP: Niger"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-NGA",
+        "display" : "OP: Nigérie"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-NIU",
+        "display" : "OP: Niue"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-NFK",
+        "display" : "OP: Norfolk"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-MKD",
+        "display" : "OP: Norfolk"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-MNP",
+        "display" : "OP: Severní Mariany"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-NOR",
+        "display" : "OP: Norsko"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-OMN",
+        "display" : "OP: Omán"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-PAK",
+        "display" : "OP: Pákistán"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-PLW",
+        "display" : "OP: Palau"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-PSE",
+        "display" : "OP: Palestina"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-PAN",
+        "display" : "OP: Panama"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-PNG",
+        "display" : "OP: Papua Nová Guinea"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-PRY",
+        "display" : "OP: Paraguay"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-PER",
+        "display" : "OP: Peru"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-PHL",
+        "display" : "OP: Filipíny"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-PCN",
+        "display" : "OP: Pitcairn"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-POL",
+        "display" : "OP: Polsko"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-PRT",
+        "display" : "OP: Portugalsko"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-PRI",
+        "display" : "OP: Portoriko"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-QAT",
+        "display" : "OP: Katar"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-ROU",
+        "display" : "OP: Rumunsko"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-RUS",
+        "display" : "OP: Rusko"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-RWA",
+        "display" : "OP: Rwanda"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-REU",
+        "display" : "OP: Réunion"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-BLM",
+        "display" : "OP: Svatý Bartoloměj"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-SHN",
+        "display" : "OP: Svatá Helena"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-KNA",
+        "display" : "OP: Svatý Kryštof a Nevis"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-LCA",
+        "display" : "OP: Svatá Lucie"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-MAF",
+        "display" : "OP: Svatý Martin (FR)"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-SPM",
+        "display" : "OP: Saint Pierre a Miquelon"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-VCT",
+        "display" : "OP: Svatý Vincenc a Grenadiny"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-WSM",
+        "display" : "OP: Samoa"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-SMR",
+        "display" : "OP: San Marino"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-STP",
+        "display" : "OP: Svatý Tomáš a Princův ostrov"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-SAU",
+        "display" : "OP: Saúdská Arábie"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-SEN",
+        "display" : "OP: Senegal"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-SRB",
+        "display" : "OP: Srbsko"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-SYC",
+        "display" : "OP: Seychely"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-SLE",
+        "display" : "OP: Sierra Leone"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-SGP",
+        "display" : "OP: Singapur"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-SXM",
+        "display" : "OP: Svatý Martin (NL)"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-SVK",
+        "display" : "OP: Slovensko"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-SVN",
+        "display" : "OP: Slovinsko"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-SLB",
+        "display" : "OP: Šalomounovy ostrovy"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-SOM",
+        "display" : "OP: Somálsko"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-ZAF",
+        "display" : "OP: Jižní Afrika"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-SGS",
+        "display" : "OP: Jižní Georgie a Jižní Sandwichovy ostrovy"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-SSD",
+        "display" : "OP: Jižní Súdán"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-ESP",
+        "display" : "OP: Španělsko"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-LKA",
+        "display" : "OP: Šrí Lanka"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-SDN",
+        "display" : "OP: Súdán"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-SUR",
+        "display" : "OP: Surinam"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-SJM",
+        "display" : "OP: Špicberky a Jan Mayen"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-SWE",
+        "display" : "OP: Švédsko"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-CHE",
+        "display" : "OP: Švýcarsko"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-SYR",
+        "display" : "OP: Sýrie"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-TWN",
+        "display" : "OP: Sýrie"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-TJK",
+        "display" : "OP: Tádžikistán"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-TZA",
+        "display" : "OP: Tádžikistán"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-THA",
+        "display" : "OP: Thajsko"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-TLS",
+        "display" : "OP: Východní Timor"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-TGO",
+        "display" : "OP: Togo"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-TKL",
+        "display" : "OP: Tokelau"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-TON",
+        "display" : "OP: Tonga"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-TTO",
+        "display" : "OP: Trinidad a Tobago"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-TUN",
+        "display" : "OP: Tunisko"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-TKM",
+        "display" : "OP: Turkmenistán"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-TCA",
+        "display" : "OP: Turks a Caicos"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-TUV",
+        "display" : "OP: Tuvalu"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-TUR",
+        "display" : "OP: Turecko"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-UGA",
+        "display" : "OP: Uganda"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-UKR",
+        "display" : "OP: Ukrajina"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-ARE",
+        "display" : "OP: Spojené arabské emiráty"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-GBR",
+        "display" : "OP: Velká Británie"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-UMI",
+        "display" : "OP: Menší odlehlé ostrovy USA"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-USA",
+        "display" : "OP: Spojené státy"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-URY",
+        "display" : "OP: Uruguay"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-UZB",
+        "display" : "OP: Uzbekistán"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-VUT",
+        "display" : "OP: Vanuatu"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-VEN",
+        "display" : "OP: Venezuela"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-VNM",
+        "display" : "OP: Vietnam"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-VGB",
+        "display" : "OP: Vietnam"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-VIR",
+        "display" : "OP: Vietnam"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-WLF",
+        "display" : "OP: Wallis a Futuna"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-ESH",
+        "display" : "OP: Západní Sahara"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-YEM",
+        "display" : "OP: Jemen"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-ZMB",
+        "display" : "OP: Zambie"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-ZWE",
+        "display" : "OP: Zimbabwe"
+      },
+      {
+        "code" : "https://hl7.cz/NamingSystem/IdCardNumNS-ALA",
+        "display" : "OP: Alandy"
+      }]
+    }]
+  }
+}

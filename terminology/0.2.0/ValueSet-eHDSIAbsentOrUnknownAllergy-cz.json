@@ -1,0 +1,66 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "eHDSIAbsentOrUnknownAllergy-cz",
+  "language" : "cs",
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xml:lang=\"cs\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"cs\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet eHDSIAbsentOrUnknownAllergy-cz</b></p><a name=\"eHDSIAbsentOrUnknownAllergy-cz\"> </a><a name=\"hceHDSIAbsentOrUnknownAllergy-cz\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: cs</p></div><p>This ValueSet requires the Code system Supplement <a href=\"CodeSystem-absent-unknown-uv-ips-cz.html\">Absent a Unknown Data - IPS</a>.</p><ul><li>Include these codes as defined in <a href=\"http://hl7.org/fhir/uv/ips/STU1.1/CodeSystem-absent-unknown-uv-ips.html\"><code>http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips</code></a><span title=\"Version is explicitly stated to be 1.1.0\"> version &#x1F4CD;1.1.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><code>no-allergy-info</code></td><td>žádné informace o alergiích</td><td>There is no information available regarding the subject's allergy conditions.</td></tr><tr><td><code>no-known-allergies</code></td><td>žádné známé alergie</td><td>The subject has no known allergy conditions.</td></tr><tr><td><code>no-known-medication-allergies</code></td><td>žádné známé alergie na léky</td><td>The subject has no known medication allergy conditions.</td></tr><tr><td><code>no-known-environmental-allergies</code></td><td>žádné známé alergie na vnější prostředí</td><td>The subject has no known environmental allergy conditions.</td></tr><tr><td><code>no-known-food-allergies</code></td><td>žádné známé alergie na potraviny</td><td>The subject has no known food allergy conditions.</td></tr></table></li></ul></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/valueset-supplement",
+    "valueCanonical" : "https://ncez.mzcr.cz/terminology/CodeSystem/absent-unknown-uv-ips-cz"
+  }],
+  "url" : "https://ncez.mzcr.cz/terminology/ValueSet/eHDSIAbsentOrUnknownAllergy-cz",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.47"
+  }],
+  "version" : "0.2.0",
+  "name" : "EHDSIAbsentOrUnknownAllergyCZ",
+  "title" : "eHDSI Absent Or Unknown Allergy",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2025-12-23T18:27:27+01:00",
+  "publisher" : "HL7 Czech Republic",
+  "contact" : [{
+    "name" : "HL7 Czech Republic",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.hl7.cz/"
+    }]
+  }],
+  "description" : "The Value set is used to encode absent or unknown medical allergies.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CZ",
+      "display" : "Czechia"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips",
+      "version" : "1.1.0",
+      "concept" : [{
+        "code" : "no-allergy-info",
+        "display" : "žádné informace o alergiích"
+      },
+      {
+        "code" : "no-known-allergies",
+        "display" : "žádné známé alergie"
+      },
+      {
+        "code" : "no-known-medication-allergies",
+        "display" : "žádné známé alergie na léky"
+      },
+      {
+        "code" : "no-known-environmental-allergies",
+        "display" : "žádné známé alergie na vnější prostředí"
+      },
+      {
+        "code" : "no-known-food-allergies",
+        "display" : "žádné známé alergie na potraviny"
+      }]
+    }]
+  }
+}

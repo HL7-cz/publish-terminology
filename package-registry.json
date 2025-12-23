@@ -3,15 +3,20 @@
     {
       "path" : "terminology/package-list.json",
       "package-id" : "hl7.fhir.cz.terminology",
-      "title" : "HL7 Czech FHIR Terminology",
+      "title" : "Czech FHIR Terminology Package",
       "canonical" : "https://hl7.cz/terminology",
       "category" : "Terminology",
       "ci-build" : "https://build.fhir.org/ig/HL7-cz/terminology",
       "version-count" : 1,
       "latest" : {
-        "version" : "0.1.0",
-        "date" : "2025-12-02",
-        "path" : "https://hl7.cz/terminology/0.1.0"
+        "version" : "0.2.0",
+        "date" : "2025-12-23",
+        "path" : "https://hl7.cz/terminology/0.2.0"
+      },
+      "milestone" : {
+        "version" : "0.2.0",
+        "date" : "2025-12-23",
+        "path" : "https://hl7.cz/terminology/0.2.0"
       }
     }
   ]

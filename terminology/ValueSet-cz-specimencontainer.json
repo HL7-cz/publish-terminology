@@ -1,0 +1,42 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "cz-specimencontainer",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet cz-specimencontainer</b></p><a name=\"cz-specimencontainer\"> </a><a name=\"hccz-specimencontainer\"> </a><ul><li>Include codes from<a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span> where concept  is-a 706041008 (Device for body fluid and tissue collection/transfer/processing (physical object))</li></ul></div>"
+  },
+  "url" : "https://ncez.mzcr.cz/terminology/ValueSet/cz-specimencontainer",
+  "version" : "0.2.0",
+  "name" : "CZ_SpecimenContainer",
+  "title" : "Specimen Container",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2024-01-01",
+  "publisher" : "HL7 Czech Republic",
+  "contact" : [{
+    "name" : "HL7 Czech Republic",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.hl7.cz/"
+    }]
+  }],
+  "description" : "List of the containers commonly used to collect specimens (e.g. urine, blood,..).",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CZ",
+      "display" : "Czechia"
+    }]
+  }],
+  "copyright" : "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "706041008"
+      }]
+    }]
+  }
+}

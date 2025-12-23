@@ -1,0 +1,3328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="dlp-atc"/>
+  <language value="cs"/>
+  <text>
+    <status value="generated"/><div xml:lang="cs" xmlns="http://www.w3.org/1999/xhtml" lang="cs"><p class="res-header-id"><b>Generated Narrative: CodeSystem dlp-atc</b></p><a name="dlp-atc"> </a><a name="hcdlp-atc"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: cs</p></div><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class="grid"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>NT</td><td>NT</td><td>string</td><td>N-podle ATC-WHO, C-podle SÚKL</td></tr></table><p><b>Concepts</b></p><p>This case-sensitive code system <code>https://sukl.cz/terminology/CodeSystem/dlp-atc</code> provides <b>a fragment</b> that includes following codes in a Grouped By hierarchy:</p><table class="codes"><tr><td><b>Lvl</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>NT</b></td><td><b>English (English, en)</b></td></tr><tr><td>1</td><td style="white-space:nowrap">A<a name="dlp-atc-A"> </a></td><td>TRÁVICÍ TRAKT A METABOLISMUS</td><td>N</td><td>ALIMENTARY TRACT AND METABOLISM</td></tr><tr><td>2</td><td style="white-space:nowrap">  A01<a name="dlp-atc-A01"> </a></td><td>STOMATOLOGICKÉ PŘÍPRAVKY</td><td>N</td><td>STOMATOLOGICAL PREPARATIONS</td></tr><tr><td>3</td><td style="white-space:nowrap">    A01A<a name="dlp-atc-A01A"> </a></td><td>STOMATOLOGICKÉ PŘÍPRAVKY</td><td>N</td><td>STOMATOLOGICAL PREPARATIONS</td></tr><tr><td>4</td><td style="white-space:nowrap">      A01AA<a name="dlp-atc-A01AA"> </a></td><td>Látky k prevenci zubního kazu</td><td>N</td><td>Caries prophylactic agents</td></tr><tr><td>5</td><td style="white-space:nowrap">        A01AA01<a name="dlp-atc-A01AA01"> </a></td><td>fluorid sodný</td><td>N</td><td>sodium fluoride</td></tr><tr><td>5</td><td style="white-space:nowrap">        A01AA02<a name="dlp-atc-A01AA02"> </a></td><td>monofluorofosforečnan sodný</td><td>N</td><td>sodium monofluorophosphate</td></tr><tr><td>5</td><td style="white-space:nowrap">        A01AA03<a name="dlp-atc-A01AA03"> </a></td><td>olaflur</td><td>N</td><td>olaflur</td></tr><tr><td>5</td><td style="white-space:nowrap">        A01AA04<a name="dlp-atc-A01AA04"> </a></td><td>fluorid cínatý</td><td>N</td><td>stannous fluoride</td></tr><tr><td>5</td><td style="white-space:nowrap">        A01AA30<a name="dlp-atc-A01AA30"> </a></td><td>látky k prevenci zubního kazu, kombinace</td><td>N</td><td>combinations</td></tr><tr><td>5</td><td style="white-space:nowrap">        A01AA51<a name="dlp-atc-A01AA51"> </a></td><td>fluorid sodný, kombinace</td><td>N</td><td>sodium fluoride, combinations</td></tr><tr><td>4</td><td style="white-space:nowrap">      A01AB<a name="dlp-atc-A01AB"> </a></td><td>Antiinfektiva a antiseptika pro lokální léčbu v dutině ústní</td><td>N</td><td>Antiinfectives and antiseptics for local oral treatment</td></tr><tr><td>5</td><td style="white-space:nowrap">        A01AB02<a name="dlp-atc-A01AB02"> </a></td><td>peroxid vodíku</td><td>N</td><td>hydrogen peroxide</td></tr><tr><td>5</td><td style="white-space:nowrap">        A01AB03<a name="dlp-atc-A01AB03"> </a></td><td>chlorhexidin</td><td>N</td><td>chlorhexidine</td></tr><tr><td>5</td><td style="white-space:nowrap">        A01AB04<a name="dlp-atc-A01AB04"> </a></td><td>amfotericin B</td><td>N</td><td>amphotericin B</td></tr><tr><td>5</td><td style="white-space:nowrap">        A01AB05<a name="dlp-atc-A01AB05"> </a></td><td>polynoxylin</td><td>N</td><td>polynoxylin</td></tr><tr><td>5</td><td style="white-space:nowrap">        A01AB06<a name="dlp-atc-A01AB06"> </a></td><td>domifen</td><td>N</td><td>domiphen</td></tr><tr><td>5</td><td style="white-space:nowrap">        A01AB07<a name="dlp-atc-A01AB07"> </a></td><td>oxychinolin</td><td>N</td><td>oxyquinoline</td></tr><tr><td>5</td><td style="white-space:nowrap">        A01AB08<a name="dlp-atc-A01AB08"> </a></td><td>neomycin</td><td>N</td><td>neomycin</td></tr><tr><td>5</td><td style="white-space:nowrap">        A01AB09<a name="dlp-atc-A01AB09"> </a></td><td>mikonazol</td><td>N</td><td>miconazole</td></tr><tr><td>5</td><td style="white-space:nowrap">        A01AB10<a name="dlp-atc-A01AB10"> </a></td><td>natamycin</td><td>N</td><td>natamycin</td></tr><tr><td>5</td><td style="white-space:nowrap">        A01AB11<a name="dlp-atc-A01AB11"> </a></td><td>různá jiná antiinfektiva a antiseptika</td><td>N</td><td>various</td></tr><tr><td>5</td><td style="white-space:nowrap">        A01AB12<a name="dlp-atc-A01AB12"> </a></td><td>hexetidin</td><td>N</td><td>hexetidine</td></tr><tr><td>5</td><td style="white-space:nowrap">        A01AB13<a name="dlp-atc-A01AB13"> </a></td><td>tetracyklin</td><td>N</td><td>tetracycline</td></tr><tr><td>5</td><td style="white-space:nowrap">        A01AB14<a name="dlp-atc-A01AB14"> </a></td><td>benzoxonium-chlorid</td><td>N</td><td>benzoxonium chloride</td></tr><tr><td>5</td><td style="white-space:nowrap">        A01AB15<a name="dlp-atc-A01AB15"> </a></td><td>tibezonium-jodid</td><td>N</td><td>tibezonium iodide</td></tr><tr><td>5</td><td style="white-space:nowrap">        A01AB16<a name="dlp-atc-A01AB16"> </a></td><td>mepartricin</td><td>N</td><td>mepartricin</td></tr><tr><td>5</td><td style="white-space:nowrap">        A01AB17<a name="dlp-atc-A01AB17"> </a></td><td>metronidazol</td><td>N</td><td>metronidazole</td></tr><tr><td>5</td><td style="white-space:nowrap">        A01AB18<a name="dlp-atc-A01AB18"> </a></td><td>klotrimazol</td><td>N</td><td>clotrimazole</td></tr><tr><td>5</td><td style="white-space:nowrap">        A01AB19<a name="dlp-atc-A01AB19"> </a></td><td>peroxoboritan sodný</td><td>N</td><td>sodium perborate</td></tr><tr><td>5</td><td style="white-space:nowrap">        A01AB21<a name="dlp-atc-A01AB21"> </a></td><td>chlortetracyklin</td><td>N</td><td>chlortetracycline</td></tr><tr><td>5</td><td style="white-space:nowrap">        A01AB22<a name="dlp-atc-A01AB22"> </a></td><td>doxycyklin</td><td>N</td><td>doxycycline</td></tr><tr><td>5</td><td style="white-space:nowrap">        A01AB23<a name="dlp-atc-A01AB23"> </a></td><td>minocyklin</td><td>N</td><td>minocycline</td></tr><tr><td>5</td><td style="white-space:nowrap">        A01AB24<a name="dlp-atc-A01AB24"> </a></td><td>oktenidin</td><td>N</td><td>octenidine</td></tr><tr><td>5</td><td style="white-space:nowrap">        A01AB25<a name="dlp-atc-A01AB25"> </a></td><td>oxytetracyklin</td><td>N</td><td>oxytetracycline</td></tr><tr><td>5</td><td style="white-space:nowrap">        A01AB53<a name="dlp-atc-A01AB53"> </a></td><td>chlorhexidin a cetylpyridinium</td><td>N</td><td>chlorhexidine and cetylpyridinium</td></tr><tr><td>4</td><td style="white-space:nowrap">      A01AC<a name="dlp-atc-A01AC"> </a></td><td>Kortikosteroidy pro lokální léčbu v dutině ústní</td><td>N</td><td>Corticosteroids for local oral treatment</td></tr><tr><td>5</td><td style="white-space:nowrap">        A01AC01<a name="dlp-atc-A01AC01"> </a></td><td>triamcinolon</td><td>N</td><td>triamcinolone</td></tr><tr><td>5</td><td style="white-space:nowrap">        A01AC02<a name="dlp-atc-A01AC02"> </a></td><td>dexamethason</td><td>N</td><td>dexamethasone</td></tr><tr><td>5</td><td style="white-space:nowrap">        A01AC03<a name="dlp-atc-A01AC03"> </a></td><td>hydrokortison</td><td>N</td><td>hydrocortisone</td></tr><tr><td>5</td><td style="white-space:nowrap">        A01AC04<a name="dlp-atc-A01AC04"> </a></td><td>prednisolon</td><td>N</td><td>prednisolone</td></tr><tr><td>5</td><td style="white-space:nowrap">        A01AC54<a name="dlp-atc-A01AC54"> </a></td><td>prednisolon, kombinace</td><td>N</td><td>prednisolone, combinations</td></tr><tr><td>4</td><td style="white-space:nowrap">      A01AD<a name="dlp-atc-A01AD"> </a></td><td>Jiná léčiva pro lokální léčbu v dutině ústní</td><td>N</td><td>Other agents for local oral treatment</td></tr><tr><td>5</td><td style="white-space:nowrap">        A01AD01<a name="dlp-atc-A01AD01"> </a></td><td>epinefrin</td><td>N</td><td>epinephrine</td></tr><tr><td>5</td><td style="white-space:nowrap">        A01AD02<a name="dlp-atc-A01AD02"> </a></td><td>benzydamin</td><td>N</td><td>benzydamine</td></tr><tr><td>5</td><td style="white-space:nowrap">        A01AD05<a name="dlp-atc-A01AD05"> </a></td><td>kyselina acetylsalicylová</td><td>N</td><td>acetylsalicylic acid</td></tr><tr><td>5</td><td style="white-space:nowrap">        A01AD06<a name="dlp-atc-A01AD06"> </a></td><td>adrenalon</td><td>N</td><td>adrenalone</td></tr><tr><td>5</td><td style="white-space:nowrap">        A01AD07<a name="dlp-atc-A01AD07"> </a></td><td>amlexanox</td><td>N</td><td>amlexanox</td></tr><tr><td>5</td><td style="white-space:nowrap">        A01AD08<a name="dlp-atc-A01AD08"> </a></td><td>bekaplermin</td><td>N</td><td>becaplermin</td></tr><tr><td>5</td><td style="white-space:nowrap">        A01AD11<a name="dlp-atc-A01AD11"> </a></td><td>různá jiná léčiva pro lokální léčbu v dutině ústní</td><td>N</td><td>various</td></tr><tr><td>2</td><td style="white-space:nowrap">  A02<a name="dlp-atc-A02"> </a></td><td>LÉČIVA K TERAPII ONEMOCNĚNÍ SPOJENÝCH S PORUCHOU ACIDITY</td><td>N</td><td>DRUGS FOR ACID RELATED DISORDERS</td></tr><tr><td>3</td><td style="white-space:nowrap">    A02A<a name="dlp-atc-A02A"> </a></td><td>ANTACIDA</td><td>N</td><td>ANTACIDS</td></tr><tr><td>4</td><td style="white-space:nowrap">      A02AA<a name="dlp-atc-A02AA"> </a></td><td>Sloučeniny hořčíku</td><td>N</td><td>Magnesium compounds</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02AA01<a name="dlp-atc-A02AA01"> </a></td><td>uhličitan hořečnatý</td><td>N</td><td>magnesium carbonate</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02AA02<a name="dlp-atc-A02AA02"> </a></td><td>oxid hořečnatý</td><td>N</td><td>magnesium oxide</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02AA03<a name="dlp-atc-A02AA03"> </a></td><td>peroxid hořečnatý</td><td>N</td><td>magnesium peroxide</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02AA04<a name="dlp-atc-A02AA04"> </a></td><td>hydroxid hořečnatý</td><td>N</td><td>magnesium hydroxide</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02AA05<a name="dlp-atc-A02AA05"> </a></td><td>křemičitan hořečnatý</td><td>N</td><td>magnesium silicate</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02AA10<a name="dlp-atc-A02AA10"> </a></td><td>sloučeniny hořčíku, kombinace</td><td>N</td><td>combinations</td></tr><tr><td>4</td><td style="white-space:nowrap">      A02AB<a name="dlp-atc-A02AB"> </a></td><td>Sloučeniny hliníku</td><td>N</td><td>Aluminium compounds</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02AB01<a name="dlp-atc-A02AB01"> </a></td><td>hydroxid hlinitý</td><td>N</td><td>aluminium hydroxide</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02AB02<a name="dlp-atc-A02AB02"> </a></td><td>algeldrát</td><td>N</td><td>algeldrate</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02AB03<a name="dlp-atc-A02AB03"> </a></td><td>fosforečnan hlinitý</td><td>N</td><td>aluminium phosphate</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02AB04<a name="dlp-atc-A02AB04"> </a></td><td>uhličitan dihydroxyhlinito-sodný</td><td>N</td><td>dihydroxialumini sodium carbonate</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02AB05<a name="dlp-atc-A02AB05"> </a></td><td>aluminium-acetylacetonát</td><td>N</td><td>aluminium acetoacetate</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02AB06<a name="dlp-atc-A02AB06"> </a></td><td>aloglutamol</td><td>N</td><td>aloglutamol</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02AB07<a name="dlp-atc-A02AB07"> </a></td><td>dihydroxyaluminium-glycinát</td><td>N</td><td>aluminium glycinate</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02AB10<a name="dlp-atc-A02AB10"> </a></td><td>sloučeniny hliníku, kombinace</td><td>N</td><td>combinations</td></tr><tr><td>4</td><td style="white-space:nowrap">      A02AC<a name="dlp-atc-A02AC"> </a></td><td>Sloučeniny vápníku</td><td>N</td><td>Calcium compounds</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02AC01<a name="dlp-atc-A02AC01"> </a></td><td>uhličitan vápenatý</td><td>N</td><td>calcium carbonate</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02AC02<a name="dlp-atc-A02AC02"> </a></td><td>křemičitan vápenatý</td><td>N</td><td>calcium silicate</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02AC10<a name="dlp-atc-A02AC10"> </a></td><td>sloučeniny vápníku, kombinace</td><td>N</td><td>combinations</td></tr><tr><td>4</td><td style="white-space:nowrap">      A02AD<a name="dlp-atc-A02AD"> </a></td><td>Kombinace a komplexy sloučenin hliníku, vápníku a hořčíku</td><td>N</td><td>Combinations and complexes of aluminium, calcium and magnesium compounds</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02AD01<a name="dlp-atc-A02AD01"> </a></td><td>kombinace běžných solí</td><td>N</td><td>ordinary salt combinations</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02AD02<a name="dlp-atc-A02AD02"> </a></td><td>magaldrát</td><td>N</td><td>magaldrate</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02AD03<a name="dlp-atc-A02AD03"> </a></td><td>almagát</td><td>N</td><td>almagate</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02AD04<a name="dlp-atc-A02AD04"> </a></td><td>hydrotalcit</td><td>N</td><td>hydrotalcite</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02AD05<a name="dlp-atc-A02AD05"> </a></td><td>almasilát</td><td>N</td><td>almasilate</td></tr><tr><td>4</td><td style="white-space:nowrap">      A02AF<a name="dlp-atc-A02AF"> </a></td><td>Antacida s antiflatulencii</td><td>N</td><td>Antacids with antiflatulents</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02AF01<a name="dlp-atc-A02AF01"> </a></td><td>magaldrát a antiflatulencia</td><td>N</td><td>magaldrate and antiflatulents</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02AF02<a name="dlp-atc-A02AF02"> </a></td><td>kombinace běžných solí s antiflatulencii</td><td>N</td><td>ordinary salt combinations and antiflatulents</td></tr><tr><td>4</td><td style="white-space:nowrap">      A02AG<a name="dlp-atc-A02AG"> </a></td><td>Antacida se spazmolytiky</td><td>N</td><td>Antacids with antispasmodics</td></tr><tr><td>4</td><td style="white-space:nowrap">      A02AH<a name="dlp-atc-A02AH"> </a></td><td>Antacida s uhličitanem sodným</td><td>N</td><td>Antacids with sodium bicarbonate</td></tr><tr><td>4</td><td style="white-space:nowrap">      A02AX<a name="dlp-atc-A02AX"> </a></td><td>Antacida, jiné kombinace</td><td>N</td><td>Antacids, other combinations</td></tr><tr><td>3</td><td style="white-space:nowrap">    A02B<a name="dlp-atc-A02B"> </a></td><td>LÉČIVA K TERAPII PEPTICKÉHO VŘEDU A REFLUXNÍ CHOROBY JÍCNU</td><td>N</td><td>DRUGS FOR PEPTIC ULCER AND GASTRO-OESOPHAGEAL REFLUX DISEASE (GORD)</td></tr><tr><td>4</td><td style="white-space:nowrap">      A02BA<a name="dlp-atc-A02BA"> </a></td><td>Antagonisté H2-receptorů</td><td>N</td><td>H2-receptor antagonists</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02BA01<a name="dlp-atc-A02BA01"> </a></td><td>cimetidin</td><td>N</td><td>cimetidine</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02BA02<a name="dlp-atc-A02BA02"> </a></td><td>ranitidin</td><td>N</td><td>ranitidine</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02BA03<a name="dlp-atc-A02BA03"> </a></td><td>famotidin</td><td>N</td><td>famotidine</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02BA04<a name="dlp-atc-A02BA04"> </a></td><td>nizatidin</td><td>N</td><td>nizatidine</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02BA05<a name="dlp-atc-A02BA05"> </a></td><td>niperotidin</td><td>N</td><td>niperotidine</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02BA06<a name="dlp-atc-A02BA06"> </a></td><td>roxatidin</td><td>N</td><td>roxatidine</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02BA07<a name="dlp-atc-A02BA07"> </a></td><td>ranitidin-bismut-citrát</td><td>N</td><td>ranitidine bismuth citrate</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02BA08<a name="dlp-atc-A02BA08"> </a></td><td>lafutidin</td><td>N</td><td>lafutidine</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02BA51<a name="dlp-atc-A02BA51"> </a></td><td>cimetidin, kombinace</td><td>N</td><td>cimetidine, combinations</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02BA53<a name="dlp-atc-A02BA53"> </a></td><td>famotidin, kombinace</td><td>N</td><td>famotidine, combinations</td></tr><tr><td>4</td><td style="white-space:nowrap">      A02BB<a name="dlp-atc-A02BB"> </a></td><td>Prostaglandiny</td><td>N</td><td>Prostaglandins</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02BB01<a name="dlp-atc-A02BB01"> </a></td><td>misoprostol</td><td>N</td><td>misoprostol</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02BB02<a name="dlp-atc-A02BB02"> </a></td><td>enprostil</td><td>N</td><td>enprostil</td></tr><tr><td>4</td><td style="white-space:nowrap">      A02BC<a name="dlp-atc-A02BC"> </a></td><td>Inhibitory protonové pumpy</td><td>N</td><td>Proton pump inhibitors</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02BC01<a name="dlp-atc-A02BC01"> </a></td><td>omeprazol</td><td>N</td><td>omeprazole</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02BC02<a name="dlp-atc-A02BC02"> </a></td><td>pantoprazol</td><td>N</td><td>pantoprazole</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02BC03<a name="dlp-atc-A02BC03"> </a></td><td>lansoprazol</td><td>N</td><td>lansoprazole</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02BC04<a name="dlp-atc-A02BC04"> </a></td><td>rabeprazol</td><td>N</td><td>rabeprazole</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02BC05<a name="dlp-atc-A02BC05"> </a></td><td>esomeprazol</td><td>N</td><td>esomeprazole</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02BC06<a name="dlp-atc-A02BC06"> </a></td><td>dexlansoprazol</td><td>N</td><td>dexlansoprazole</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02BC07<a name="dlp-atc-A02BC07"> </a></td><td>dexrabeprazol</td><td>N</td><td>dexrabeprazole</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02BC08<a name="dlp-atc-A02BC08"> </a></td><td>vonoprazan</td><td>N</td><td>vonoprazan</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02BC09<a name="dlp-atc-A02BC09"> </a></td><td>tegoprazan</td><td>N</td><td>tegoprazan</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02BC10<a name="dlp-atc-A02BC10"> </a></td><td>fexuprazan</td><td>N</td><td>fexuprazan</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02BC11<a name="dlp-atc-A02BC11"> </a></td><td>ilaprazol</td><td>N</td><td>ilaprazole</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02BC51<a name="dlp-atc-A02BC51"> </a></td><td>omeprazol, kombinace</td><td>N</td><td>omeprazole, combinations</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02BC53<a name="dlp-atc-A02BC53"> </a></td><td>lansoprazol, kombinace</td><td>N</td><td>lansoprazole, combinations</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02BC54<a name="dlp-atc-A02BC54"> </a></td><td>rabeprazol, kombinace</td><td>N</td><td>rabeprazole, combinations</td></tr><tr><td>4</td><td style="white-space:nowrap">      A02BD<a name="dlp-atc-A02BD"> </a></td><td>Kombinace k eradikaci helicobacter pylori</td><td>N</td><td>Combinations for eradication of Helicobacter pylori</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02BD01<a name="dlp-atc-A02BD01"> </a></td><td>omeprazol, amoxicilin a metronidazol</td><td>N</td><td>omeprazole, amoxicillin and metronidazole</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02BD02<a name="dlp-atc-A02BD02"> </a></td><td>lansoprazol, tetracyklin a metronidazol</td><td>N</td><td>lansoprazole, tetracycline and metronidazole</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02BD03<a name="dlp-atc-A02BD03"> </a></td><td>lansoprazol, amoxicilin a metronidazol</td><td>N</td><td>lansoprazole, amoxicillin and metronidazole</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02BD04<a name="dlp-atc-A02BD04"> </a></td><td>pantoprazol, amoxicilin a klarithromycin</td><td>N</td><td>pantoprazole, amoxicillin and clarithromycin</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02BD05<a name="dlp-atc-A02BD05"> </a></td><td>omeprazol, amoxicilin a klarithromycin</td><td>N</td><td>omeprazole, amoxicillin and clarithromycin</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02BD06<a name="dlp-atc-A02BD06"> </a></td><td>esomeprazol, amoxicilin a klarithromycin</td><td>N</td><td>esomeprazole, amoxicillin and clarithromycin</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02BD07<a name="dlp-atc-A02BD07"> </a></td><td>lansoprazol, amoxicilin a klarithromycin</td><td>N</td><td>lansoprazole, amoxicillin and clarithromycin</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02BD08<a name="dlp-atc-A02BD08"> </a></td><td>zásaditý citronan bismutitý, tetracyklin a metronidazol</td><td>N</td><td>bismuth subcitrate, tetracycline and metronidazole</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02BD09<a name="dlp-atc-A02BD09"> </a></td><td>lansoprazol, klarithromycin a tinidazol</td><td>N</td><td>lansoprazole, clarithromycin and tinidazole</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02BD10<a name="dlp-atc-A02BD10"> </a></td><td>lansoprazol, amoxicilin a levofloxacin</td><td>N</td><td>lansoprazole, amoxicillin and levofloxacin</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02BD11<a name="dlp-atc-A02BD11"> </a></td><td>pantoprazol, amoxicilin, klarithromycin a metronidazol</td><td>N</td><td>pantoprazole, amoxicillin, clarithromycin and metronidazole</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02BD12<a name="dlp-atc-A02BD12"> </a></td><td>rabeprazol, amoxicilin a klarithromycin</td><td>N</td><td>rabeprazole, amoxicillin and clarithromycin</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02BD13<a name="dlp-atc-A02BD13"> </a></td><td>rabeprazol, amoxicilin a metronidazol</td><td>N</td><td>rabeprazole, amoxicillin and metronidazole</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02BD14<a name="dlp-atc-A02BD14"> </a></td><td>vonoprazan, amoxicilin a klarithromycin</td><td>N</td><td>vonoprazan, amoxicillin and clarithromycin</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02BD15<a name="dlp-atc-A02BD15"> </a></td><td>vonoprazan, amoxicilin a metronidazol</td><td>N</td><td>vonoprazan, amoxicillin and metronidazole</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02BD16<a name="dlp-atc-A02BD16"> </a></td><td>omeprazol, amoxicilin a rifabutin</td><td>N</td><td>omeprazole, amoxicillin and rifabutin</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02BD17<a name="dlp-atc-A02BD17"> </a></td><td>vonoprazan a amoxicilin</td><td>N</td><td>vonoprazan and amoxicillin</td></tr><tr><td>4</td><td style="white-space:nowrap">      A02BX<a name="dlp-atc-A02BX"> </a></td><td>Jiná léčiva k terapii peptického vředu a refluxní choroby jícnu</td><td>N</td><td>Other drugs for peptic ulcer and gastro-oesophageal reflux disease (GORD)</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02BX01<a name="dlp-atc-A02BX01"> </a></td><td>karbenoxolon</td><td>N</td><td>carbenoxolone</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02BX02<a name="dlp-atc-A02BX02"> </a></td><td>sukralfát</td><td>N</td><td>sucralfate</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02BX03<a name="dlp-atc-A02BX03"> </a></td><td>pirenzepin</td><td>N</td><td>pirenzepine</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02BX04<a name="dlp-atc-A02BX04"> </a></td><td>methiosulfonium-chlorid</td><td>N</td><td>methiosulfonium chloride</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02BX05<a name="dlp-atc-A02BX05"> </a></td><td>zásaditý bismutum(III)-citrát</td><td>N</td><td>bismuth subcitrate</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02BX06<a name="dlp-atc-A02BX06"> </a></td><td>proglumid</td><td>N</td><td>proglumide</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02BX07<a name="dlp-atc-A02BX07"> </a></td><td>gefarnát</td><td>N</td><td>gefarnate</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02BX08<a name="dlp-atc-A02BX08"> </a></td><td>sulglikotid</td><td>N</td><td>sulglicotide</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02BX09<a name="dlp-atc-A02BX09"> </a></td><td>acetoxolon</td><td>N</td><td>acetoxolone</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02BX10<a name="dlp-atc-A02BX10"> </a></td><td>zolimidin</td><td>N</td><td>zolimidine</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02BX11<a name="dlp-atc-A02BX11"> </a></td><td>troxipid</td><td>N</td><td>troxipide</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02BX12<a name="dlp-atc-A02BX12"> </a></td><td>zásaditý dusičnan bismutitý</td><td>N</td><td>bismuth subnitrate</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02BX13<a name="dlp-atc-A02BX13"> </a></td><td>kyselina alginová</td><td>N</td><td>alginic acid</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02BX14<a name="dlp-atc-A02BX14"> </a></td><td>rebamipid</td><td>N</td><td>rebamipide</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02BX15<a name="dlp-atc-A02BX15"> </a></td><td>teprenon</td><td>N</td><td>teprenone</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02BX16<a name="dlp-atc-A02BX16"> </a></td><td>irsogladin</td><td>N</td><td>irsogladine</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02BX51<a name="dlp-atc-A02BX51"> </a></td><td>karbenoxolon, kombinace kromě psycholeptik</td><td>N</td><td>carbenoxolone, combinations excl. psycholeptics</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02BX71<a name="dlp-atc-A02BX71"> </a></td><td>karbenoxolon, kombinace s psycholeptiky</td><td>N</td><td>carbenoxolone, combinations with psycholeptics</td></tr><tr><td>5</td><td style="white-space:nowrap">        A02BX77<a name="dlp-atc-A02BX77"> </a></td><td>gefarnát, kombinace s psycholeptiky</td><td>N</td><td>gefarnate, combinations with psycholeptics</td></tr><tr><td>3</td><td style="white-space:nowrap">    A02X<a name="dlp-atc-A02X"> </a></td><td>JINÁ LÉČIVA K TERAPII ONEMOCNĚNÍ SPOJENÝCH S PORUCHOU ACIDITY</td><td>N</td><td>OTHER DRUGS FOR ACID RELATED DISORDERS</td></tr><tr><td>2</td><td style="white-space:nowrap">  A03<a name="dlp-atc-A03"> </a></td><td>LÉČIVA K TERAPII FUNKČNÍCH PORUCH GASTROINTESTINÁLNÍHO TRAKTU</td><td>N</td><td>DRUGS FOR FUNCTIONAL GASTROINTESTINAL DISORDERS</td></tr><tr><td>3</td><td style="white-space:nowrap">    A03A<a name="dlp-atc-A03A"> </a></td><td>LÉČIVA K TERAPII FUNKČNÍCH PORUCH GASTROINTESTINÁLNÍHO TRAKTU</td><td>N</td><td>DRUGS FOR FUNCTIONAL GASTROINTESTINAL DISORDERS</td></tr><tr><td>4</td><td style="white-space:nowrap">      A03AA<a name="dlp-atc-A03AA"> </a></td><td>Syntetická anticholinergika, estery s terciární aminoskupinou</td><td>N</td><td>Synthetic anticholinergics, esters with tertiary amino group</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03AA01<a name="dlp-atc-A03AA01"> </a></td><td>oxyfencyklimin</td><td>N</td><td>oxyphencyclimine</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03AA03<a name="dlp-atc-A03AA03"> </a></td><td>kamylofin</td><td>N</td><td>camylofin</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03AA04<a name="dlp-atc-A03AA04"> </a></td><td>mebeverin</td><td>N</td><td>mebeverine</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03AA05<a name="dlp-atc-A03AA05"> </a></td><td>trimebutin</td><td>N</td><td>trimebutine</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03AA06<a name="dlp-atc-A03AA06"> </a></td><td>rociverin</td><td>N</td><td>rociverine</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03AA07<a name="dlp-atc-A03AA07"> </a></td><td>dicykloverin</td><td>N</td><td>dicycloverine</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03AA08<a name="dlp-atc-A03AA08"> </a></td><td>dihexyverin</td><td>N</td><td>dihexyverine</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03AA09<a name="dlp-atc-A03AA09"> </a></td><td>difemerin</td><td>N</td><td>difemerine</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03AA30<a name="dlp-atc-A03AA30"> </a></td><td>piperidolát</td><td>N</td><td>piperidolate</td></tr><tr><td>4</td><td style="white-space:nowrap">      A03AB<a name="dlp-atc-A03AB"> </a></td><td>Syntetická anticholinergika, kvarterní amoniové sloučeniny</td><td>N</td><td>Synthetic anticholinergics, quaternary ammonium compounds</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03AB01<a name="dlp-atc-A03AB01"> </a></td><td>benzilonium</td><td>N</td><td>benzilone</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03AB02<a name="dlp-atc-A03AB02"> </a></td><td>glykopyrronium-bromid</td><td>N</td><td>glycopyrronium bromide</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03AB03<a name="dlp-atc-A03AB03"> </a></td><td>oxyfenonium</td><td>N</td><td>oxyphenonium</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03AB04<a name="dlp-atc-A03AB04"> </a></td><td>penthienacium</td><td>N</td><td>penthienate</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03AB05<a name="dlp-atc-A03AB05"> </a></td><td>propanthelinium</td><td>N</td><td>propantheline</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03AB06<a name="dlp-atc-A03AB06"> </a></td><td>otilonium-bromid</td><td>N</td><td>otilonium bromide</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03AB07<a name="dlp-atc-A03AB07"> </a></td><td>methanthelinium</td><td>N</td><td>methantheline</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03AB08<a name="dlp-atc-A03AB08"> </a></td><td>tridihexethylium</td><td>N</td><td>tridihexethyl</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03AB09<a name="dlp-atc-A03AB09"> </a></td><td>isopropamid</td><td>N</td><td>isopropamide</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03AB10<a name="dlp-atc-A03AB10"> </a></td><td>hexocyklium</td><td>N</td><td>hexocyclium</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03AB11<a name="dlp-atc-A03AB11"> </a></td><td>poldinium</td><td>N</td><td>poldine</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03AB12<a name="dlp-atc-A03AB12"> </a></td><td>mepenzolacium</td><td>N</td><td>mepenzolate</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03AB13<a name="dlp-atc-A03AB13"> </a></td><td>bevonium</td><td>N</td><td>bevonium</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03AB14<a name="dlp-atc-A03AB14"> </a></td><td>pipenzolacium</td><td>N</td><td>pipenzolate</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03AB15<a name="dlp-atc-A03AB15"> </a></td><td>difemanilium</td><td>N</td><td>diphemanil</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03AB16<a name="dlp-atc-A03AB16"> </a></td><td>difenhydramin-jodid</td><td>N</td><td>(2-benzhydryloxyethyl)diethyl-methylammonium iodide</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03AB17<a name="dlp-atc-A03AB17"> </a></td><td>tiemonium-jodid</td><td>N</td><td>tiemonium iodide</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03AB18<a name="dlp-atc-A03AB18"> </a></td><td>prifinium-bromid</td><td>N</td><td>prifinium bromide</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03AB19<a name="dlp-atc-A03AB19"> </a></td><td>timepidium-bromid</td><td>N</td><td>timepidium bromide</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03AB21<a name="dlp-atc-A03AB21"> </a></td><td>fenpiverinium</td><td>N</td><td>fenpiverinium</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03AB53<a name="dlp-atc-A03AB53"> </a></td><td>oxyfenonium, kombinace</td><td>N</td><td>oxyphenonium, combinations</td></tr><tr><td>4</td><td style="white-space:nowrap">      A03AC<a name="dlp-atc-A03AC"> </a></td><td>Syntetická spazmolytika, amidy s terciárními aminy</td><td>N</td><td>Synthetic antispasmodics, amides with tertiary amines</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03AC02<a name="dlp-atc-A03AC02"> </a></td><td>dimethylaminopropionylfenothiazin</td><td>N</td><td>dimethylaminopropionylphenothiazine</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03AC04<a name="dlp-atc-A03AC04"> </a></td><td>nikofetamid</td><td>N</td><td>nicofetamide</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03AC05<a name="dlp-atc-A03AC05"> </a></td><td>tiropramid</td><td>N</td><td>tiropramide</td></tr><tr><td>4</td><td style="white-space:nowrap">      A03AD<a name="dlp-atc-A03AD"> </a></td><td>Papaverin a deriváty</td><td>N</td><td>Papaverine and derivatives</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03AD01<a name="dlp-atc-A03AD01"> </a></td><td>papaverin</td><td>N</td><td>papaverine</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03AD02<a name="dlp-atc-A03AD02"> </a></td><td>drotaverin</td><td>N</td><td>drotaverine</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03AD30<a name="dlp-atc-A03AD30"> </a></td><td>moxaverin</td><td>N</td><td>moxaverine</td></tr><tr><td>4</td><td style="white-space:nowrap">      A03AE<a name="dlp-atc-A03AE"> </a></td><td>Antagonisté serotoninových receptorů</td><td>N</td><td>Serotonin receptor antagonists</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03AE01<a name="dlp-atc-A03AE01"> </a></td><td>alosetron</td><td>N</td><td>alosetron</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03AE03<a name="dlp-atc-A03AE03"> </a></td><td>cilansetron</td><td>N</td><td>cilansetron</td></tr><tr><td>4</td><td style="white-space:nowrap">      A03AX<a name="dlp-atc-A03AX"> </a></td><td>Jiná léčiva k terapii funkčních poruch gastrointestinálního traktu</td><td>N</td><td>Other drugs for functional gastrointestinal disorders</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03AX01<a name="dlp-atc-A03AX01"> </a></td><td>fenpipran</td><td>N</td><td>fenpiprane</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03AX02<a name="dlp-atc-A03AX02"> </a></td><td>diisopromin</td><td>N</td><td>diisopromine</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03AX03<a name="dlp-atc-A03AX03"> </a></td><td>chlorbenzoxamin</td><td>N</td><td>chlorbenzoxamine</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03AX04<a name="dlp-atc-A03AX04"> </a></td><td>pinaverium</td><td>N</td><td>pinaverium</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03AX05<a name="dlp-atc-A03AX05"> </a></td><td>fenoverin</td><td>N</td><td>fenoverine</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03AX06<a name="dlp-atc-A03AX06"> </a></td><td>idanpramin</td><td>N</td><td>idanpramine</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03AX07<a name="dlp-atc-A03AX07"> </a></td><td>proxazol</td><td>N</td><td>proxazole</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03AX08<a name="dlp-atc-A03AX08"> </a></td><td>alverin</td><td>N</td><td>alverine</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03AX09<a name="dlp-atc-A03AX09"> </a></td><td>trepibuton</td><td>N</td><td>trepibutone</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03AX10<a name="dlp-atc-A03AX10"> </a></td><td>isomethepten</td><td>N</td><td>isometheptene</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03AX11<a name="dlp-atc-A03AX11"> </a></td><td>karoverin</td><td>N</td><td>caroverine</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03AX12<a name="dlp-atc-A03AX12"> </a></td><td>floroglucinol</td><td>N</td><td>phloroglucinol</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03AX13<a name="dlp-atc-A03AX13"> </a></td><td>silikony</td><td>N</td><td>silicones</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03AX14<a name="dlp-atc-A03AX14"> </a></td><td>valethamát</td><td>N</td><td>valethamate</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03AX15<a name="dlp-atc-A03AX15"> </a></td><td>silice máty peprné</td><td>N</td><td>menthae piperitae aetheroleum</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03AX30<a name="dlp-atc-A03AX30"> </a></td><td>trimethyldifenylpropylamin</td><td>N</td><td>trimethyldiphenylpropylamine</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03AX58<a name="dlp-atc-A03AX58"> </a></td><td>alverin, kombinace</td><td>N</td><td>alverine, combinations</td></tr><tr><td>3</td><td style="white-space:nowrap">    A03B<a name="dlp-atc-A03B"> </a></td><td>ALKALOIDY RULÍKU A DERIVÁTY, SAMOTNÉ</td><td>N</td><td>BELLADONNA AND DERIVATIVES, PLAIN</td></tr><tr><td>4</td><td style="white-space:nowrap">      A03BA<a name="dlp-atc-A03BA"> </a></td><td>Alkaloidy rulíku, terciární aminy</td><td>N</td><td>Belladonna alkaloids, tertiary amines</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03BA01<a name="dlp-atc-A03BA01"> </a></td><td>atropin</td><td>N</td><td>atropine</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03BA03<a name="dlp-atc-A03BA03"> </a></td><td>hyoscyamin</td><td>N</td><td>hyoscyamine</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03BA04<a name="dlp-atc-A03BA04"> </a></td><td>všechny alkaloidy rulíku</td><td>N</td><td>belladonna total alkaloids</td></tr><tr><td>4</td><td style="white-space:nowrap">      A03BB<a name="dlp-atc-A03BB"> </a></td><td>Alkaloidy rulíku, semisyntetické kvarterní amoniové sloučeniny</td><td>N</td><td>Belladonna alkaloids, semisynthetic, quaternary ammonium compounds</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03BB01<a name="dlp-atc-A03BB01"> </a></td><td>butylskopolaminium</td><td>N</td><td>butylscopolamine</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03BB02<a name="dlp-atc-A03BB02"> </a></td><td>methylatropinium</td><td>N</td><td>methylatropine</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03BB03<a name="dlp-atc-A03BB03"> </a></td><td>methylskopolaminium</td><td>N</td><td>methylscopolamine</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03BB04<a name="dlp-atc-A03BB04"> </a></td><td>fentonium</td><td>N</td><td>fentonium</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03BB05<a name="dlp-atc-A03BB05"> </a></td><td>cimetropium-bromid</td><td>N</td><td>cimetropium bromide</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03BB06<a name="dlp-atc-A03BB06"> </a></td><td>homatropin-methylbromid</td><td>N</td><td>homatropine methylbromide</td></tr><tr><td>3</td><td style="white-space:nowrap">    A03C<a name="dlp-atc-A03C"> </a></td><td>SPAZMOLYTIKA V KOMBINACI S PSYCHOLEPTIKY</td><td>N</td><td>ANTISPASMODICS IN COMBINATION WITH PSYCHOLEPTICS</td></tr><tr><td>4</td><td style="white-space:nowrap">      A03CA<a name="dlp-atc-A03CA"> </a></td><td>Syntetická anticholinergika v kombinaci s psycholeptiky</td><td>N</td><td>Synthetic anticholinergic agents in combination with psycholeptics</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03CA01<a name="dlp-atc-A03CA01"> </a></td><td>isopropamid a psycholeptika</td><td>N</td><td>isopropamide and psycholeptics</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03CA02<a name="dlp-atc-A03CA02"> </a></td><td>klidinium a psycholeptika</td><td>N</td><td>clidinium and psycholeptics</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03CA03<a name="dlp-atc-A03CA03"> </a></td><td>oxyfencyklimin a psycholeptika</td><td>N</td><td>oxyphencyclimine and psycholeptics</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03CA04<a name="dlp-atc-A03CA04"> </a></td><td>otilonium-bromid a psycholeptika</td><td>N</td><td>otilonium bromide and psycholeptics</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03CA05<a name="dlp-atc-A03CA05"> </a></td><td>glykopyrronium-bromid a psycholeptika</td><td>N</td><td>glycopyrronium bromide and psycholeptics</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03CA06<a name="dlp-atc-A03CA06"> </a></td><td>bevonium a psycholeptika</td><td>N</td><td>bevonium and psycholeptics</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03CA07<a name="dlp-atc-A03CA07"> </a></td><td>ambutonium a psycholeptika</td><td>N</td><td>ambutonium and psycholeptics</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03CA08<a name="dlp-atc-A03CA08"> </a></td><td>difemanilium a psycholeptika</td><td>N</td><td>diphemanil and psycholeptics</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03CA09<a name="dlp-atc-A03CA09"> </a></td><td>pipenzolacium a psycholeptika</td><td>N</td><td>pipenzolate and psycholeptics</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03CA30<a name="dlp-atc-A03CA30"> </a></td><td>emepronium a psycholeptika</td><td>N</td><td>emepronium and psycholeptics</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03CA34<a name="dlp-atc-A03CA34"> </a></td><td>propanthelinium a psycholeptika</td><td>N</td><td>propantheline and psycholeptics</td></tr><tr><td>4</td><td style="white-space:nowrap">      A03CB<a name="dlp-atc-A03CB"> </a></td><td>Alkaloidy rulíku a deriváty v kombinaci s psycholeptiky</td><td>N</td><td>Belladonna and derivatives in combination with psycholeptics</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03CB01<a name="dlp-atc-A03CB01"> </a></td><td>methylskopolaminium a psycholeptika</td><td>N</td><td>methylscopolamine and psycholeptics</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03CB02<a name="dlp-atc-A03CB02"> </a></td><td>všechny alkaloidy rulíku a psycholeptika</td><td>N</td><td>belladonna total alkaloids and psycholeptics</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03CB03<a name="dlp-atc-A03CB03"> </a></td><td>atropin a psycholeptika</td><td>N</td><td>atropine and psycholeptics</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03CB04<a name="dlp-atc-A03CB04"> </a></td><td>homatropin-methylbromid a psycholeptika</td><td>N</td><td>homatropine methylbromide and psycholeptics</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03CB31<a name="dlp-atc-A03CB31"> </a></td><td>hyoscyamin a psycholeptika</td><td>N</td><td>hyoscyamine and psycholeptics</td></tr><tr><td>4</td><td style="white-space:nowrap">      A03CC<a name="dlp-atc-A03CC"> </a></td><td>Jiná spazmolytika v kombinaci s psycholeptiky</td><td>N</td><td>Other antispasmodics in combination with psycholeptics</td></tr><tr><td>3</td><td style="white-space:nowrap">    A03D<a name="dlp-atc-A03D"> </a></td><td>SPAZMOLYTIKA V KOMBINACI S ANALGETIKY</td><td>N</td><td>ANTISPASMODICS IN COMBINATION WITH ANALGESICS</td></tr><tr><td>4</td><td style="white-space:nowrap">      A03DA<a name="dlp-atc-A03DA"> </a></td><td>Syntetická anticholinergika v kombinaci s analgetiky</td><td>N</td><td>Synthetic anticholinergic agents in combination with analgesics</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03DA01<a name="dlp-atc-A03DA01"> </a></td><td>tropenzilinium a analgetika</td><td>N</td><td>tropenzilone and analgesics</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03DA02<a name="dlp-atc-A03DA02"> </a></td><td>pitofenon a analgetika</td><td>N</td><td>pitofenone and analgesics</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03DA03<a name="dlp-atc-A03DA03"> </a></td><td>bevonium a analgetika</td><td>N</td><td>bevonium and analgesics</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03DA04<a name="dlp-atc-A03DA04"> </a></td><td>ciklonium a analgetika</td><td>N</td><td>ciclonium and analgesics</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03DA05<a name="dlp-atc-A03DA05"> </a></td><td>kamylofin a analgetika</td><td>N</td><td>camylofin and analgesics</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03DA06<a name="dlp-atc-A03DA06"> </a></td><td>trospium a anagetika</td><td>N</td><td>trospium and analgesics</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03DA07<a name="dlp-atc-A03DA07"> </a></td><td>tiemonium-jodid a analgetika</td><td>N</td><td>tiemonium iodide and analgesics</td></tr><tr><td>4</td><td style="white-space:nowrap">      A03DB<a name="dlp-atc-A03DB"> </a></td><td>Alkaloidy rulíku a deriváty v kombinaci s analgetiky</td><td>N</td><td>Belladonna and derivatives in combination with analgesics</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03DB04<a name="dlp-atc-A03DB04"> </a></td><td>butylskopolaminium a analgetika</td><td>N</td><td>butylscopolamine and analgesics</td></tr><tr><td>4</td><td style="white-space:nowrap">      A03DC<a name="dlp-atc-A03DC"> </a></td><td>Jiná spazmolytika v kombinaci s analgetiky</td><td>N</td><td>Other antispasmodics in combination with analgesics</td></tr><tr><td>3</td><td style="white-space:nowrap">    A03E<a name="dlp-atc-A03E"> </a></td><td>SPAZMOLYTIKA A ANTICHOLINERGIKA V KOMBINACI S DALŠÍMI LÉČIVY</td><td>N</td><td>ANTISPASMODICS AND ANTICHOLINERGICS IN COMBINATION WITH OTHER DRUGS</td></tr><tr><td>4</td><td style="white-space:nowrap">      A03EA<a name="dlp-atc-A03EA"> </a></td><td>Spazmolytika, psycholeptika a analgetika v kombinaci</td><td>N</td><td>Antispasmodics, psycholeptics and analgesics in combination</td></tr><tr><td>4</td><td style="white-space:nowrap">      A03ED<a name="dlp-atc-A03ED"> </a></td><td>Spazmolytika v kombinaci s jinými léčivy</td><td>N</td><td>Antispasmodics in combination with other drugs</td></tr><tr><td>3</td><td style="white-space:nowrap">    A03F<a name="dlp-atc-A03F"> </a></td><td>PROKINETIKA</td><td>N</td><td>PROPULSIVES</td></tr><tr><td>4</td><td style="white-space:nowrap">      A03FA<a name="dlp-atc-A03FA"> </a></td><td>Prokinetika</td><td>N</td><td>Propulsives</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03FA01<a name="dlp-atc-A03FA01"> </a></td><td>metoklopramid</td><td>N</td><td>metoclopramide</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03FA02<a name="dlp-atc-A03FA02"> </a></td><td>cisaprid</td><td>N</td><td>cisapride</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03FA03<a name="dlp-atc-A03FA03"> </a></td><td>domperidon</td><td>N</td><td>domperidone</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03FA04<a name="dlp-atc-A03FA04"> </a></td><td>bromoprid</td><td>N</td><td>bromopride</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03FA05<a name="dlp-atc-A03FA05"> </a></td><td>alizaprid</td><td>N</td><td>alizapride</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03FA06<a name="dlp-atc-A03FA06"> </a></td><td>kleboprid</td><td>N</td><td>clebopride</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03FA07<a name="dlp-atc-A03FA07"> </a></td><td>itoprid</td><td>N</td><td>itopride</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03FA08<a name="dlp-atc-A03FA08"> </a></td><td>cinitaprid</td><td>N</td><td>cinitapride</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03FA09<a name="dlp-atc-A03FA09"> </a></td><td>mosaprid</td><td>N</td><td>mosapride</td></tr><tr><td>5</td><td style="white-space:nowrap">        A03FA10<a name="dlp-atc-A03FA10"> </a></td><td>akotiamid</td><td>N</td><td>acotiamide</td></tr></table></div>
+  </text>
+  <url value="https://sukl.cz/terminology/CodeSystem/dlp-atc"/>
+  <version value="0.2.0"/>
+  <name value="CS_DLP_atc"/>
+  <title value="ATC CZ"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2025-12-23T18:27:27+01:00"/>
+  <publisher value="HL7 Czech Republic"/>
+  <contact>
+    <name value="HL7 Czech Republic"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hl7.cz/"/>
+    </telecom>
+  </contact>
+  <description value="Czech national version of the Anatomical Therapeutical Chemical (ATC) code system."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CZ"/>
+      <display value="Czechia"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <hierarchyMeaning value="grouped-by"/>
+  <content value="fragment"/>
+  <property>
+    <code value="NT"/>
+    <description value="N-podle ATC-WHO, C-podle SÚKL"/>
+    <type value="string"/>
+  </property>
+  <concept>
+    <code value="A"/>
+    <display value="TRÁVICÍ TRAKT A METABOLISMUS"/>
+    <designation>
+      <language value="en"/>
+      <value value="ALIMENTARY TRACT AND METABOLISM"/>
+    </designation>
+    <property>
+      <code value="NT"/>
+      <valueString value="N"/>
+    </property>
+    <concept>
+      <code value="A01"/>
+      <display value="STOMATOLOGICKÉ PŘÍPRAVKY"/>
+      <designation>
+        <language value="en"/>
+        <value value="STOMATOLOGICAL PREPARATIONS"/>
+      </designation>
+      <property>
+        <code value="NT"/>
+        <valueString value="N"/>
+      </property>
+      <concept>
+        <code value="A01A"/>
+        <display value="STOMATOLOGICKÉ PŘÍPRAVKY"/>
+        <designation>
+          <language value="en"/>
+          <value value="STOMATOLOGICAL PREPARATIONS"/>
+        </designation>
+        <property>
+          <code value="NT"/>
+          <valueString value="N"/>
+        </property>
+        <concept>
+          <code value="A01AA"/>
+          <display value="Látky k prevenci zubního kazu"/>
+          <designation>
+            <language value="en"/>
+            <value value="Caries prophylactic agents"/>
+          </designation>
+          <property>
+            <code value="NT"/>
+            <valueString value="N"/>
+          </property>
+          <concept>
+            <code value="A01AA01"/>
+            <display value="fluorid sodný"/>
+            <designation>
+              <language value="en"/>
+              <value value="sodium fluoride"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A01AA02"/>
+            <display value="monofluorofosforečnan sodný"/>
+            <designation>
+              <language value="en"/>
+              <value value="sodium monofluorophosphate"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A01AA03"/>
+            <display value="olaflur"/>
+            <designation>
+              <language value="en"/>
+              <value value="olaflur"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A01AA04"/>
+            <display value="fluorid cínatý"/>
+            <designation>
+              <language value="en"/>
+              <value value="stannous fluoride"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A01AA30"/>
+            <display value="látky k prevenci zubního kazu, kombinace"/>
+            <designation>
+              <language value="en"/>
+              <value value="combinations"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A01AA51"/>
+            <display value="fluorid sodný, kombinace"/>
+            <designation>
+              <language value="en"/>
+              <value value="sodium fluoride, combinations"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+        </concept>
+        <concept>
+          <code value="A01AB"/>
+          <display value="Antiinfektiva a antiseptika pro lokální léčbu v dutině ústní"/>
+          <designation>
+            <language value="en"/>
+            <value value="Antiinfectives and antiseptics for local oral treatment"/>
+          </designation>
+          <property>
+            <code value="NT"/>
+            <valueString value="N"/>
+          </property>
+          <concept>
+            <code value="A01AB02"/>
+            <display value="peroxid vodíku"/>
+            <designation>
+              <language value="en"/>
+              <value value="hydrogen peroxide"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A01AB03"/>
+            <display value="chlorhexidin"/>
+            <designation>
+              <language value="en"/>
+              <value value="chlorhexidine"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A01AB04"/>
+            <display value="amfotericin B"/>
+            <designation>
+              <language value="en"/>
+              <value value="amphotericin B"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A01AB05"/>
+            <display value="polynoxylin"/>
+            <designation>
+              <language value="en"/>
+              <value value="polynoxylin"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A01AB06"/>
+            <display value="domifen"/>
+            <designation>
+              <language value="en"/>
+              <value value="domiphen"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A01AB07"/>
+            <display value="oxychinolin"/>
+            <designation>
+              <language value="en"/>
+              <value value="oxyquinoline"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A01AB08"/>
+            <display value="neomycin"/>
+            <designation>
+              <language value="en"/>
+              <value value="neomycin"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A01AB09"/>
+            <display value="mikonazol"/>
+            <designation>
+              <language value="en"/>
+              <value value="miconazole"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A01AB10"/>
+            <display value="natamycin"/>
+            <designation>
+              <language value="en"/>
+              <value value="natamycin"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A01AB11"/>
+            <display value="různá jiná antiinfektiva a antiseptika"/>
+            <designation>
+              <language value="en"/>
+              <value value="various"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A01AB12"/>
+            <display value="hexetidin"/>
+            <designation>
+              <language value="en"/>
+              <value value="hexetidine"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A01AB13"/>
+            <display value="tetracyklin"/>
+            <designation>
+              <language value="en"/>
+              <value value="tetracycline"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A01AB14"/>
+            <display value="benzoxonium-chlorid"/>
+            <designation>
+              <language value="en"/>
+              <value value="benzoxonium chloride"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A01AB15"/>
+            <display value="tibezonium-jodid"/>
+            <designation>
+              <language value="en"/>
+              <value value="tibezonium iodide"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A01AB16"/>
+            <display value="mepartricin"/>
+            <designation>
+              <language value="en"/>
+              <value value="mepartricin"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A01AB17"/>
+            <display value="metronidazol"/>
+            <designation>
+              <language value="en"/>
+              <value value="metronidazole"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A01AB18"/>
+            <display value="klotrimazol"/>
+            <designation>
+              <language value="en"/>
+              <value value="clotrimazole"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A01AB19"/>
+            <display value="peroxoboritan sodný"/>
+            <designation>
+              <language value="en"/>
+              <value value="sodium perborate"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A01AB21"/>
+            <display value="chlortetracyklin"/>
+            <designation>
+              <language value="en"/>
+              <value value="chlortetracycline"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A01AB22"/>
+            <display value="doxycyklin"/>
+            <designation>
+              <language value="en"/>
+              <value value="doxycycline"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A01AB23"/>
+            <display value="minocyklin"/>
+            <designation>
+              <language value="en"/>
+              <value value="minocycline"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A01AB24"/>
+            <display value="oktenidin"/>
+            <designation>
+              <language value="en"/>
+              <value value="octenidine"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A01AB25"/>
+            <display value="oxytetracyklin"/>
+            <designation>
+              <language value="en"/>
+              <value value="oxytetracycline"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A01AB53"/>
+            <display value="chlorhexidin a cetylpyridinium"/>
+            <designation>
+              <language value="en"/>
+              <value value="chlorhexidine and cetylpyridinium"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+        </concept>
+        <concept>
+          <code value="A01AC"/>
+          <display value="Kortikosteroidy pro lokální léčbu v dutině ústní"/>
+          <designation>
+            <language value="en"/>
+            <value value="Corticosteroids for local oral treatment"/>
+          </designation>
+          <property>
+            <code value="NT"/>
+            <valueString value="N"/>
+          </property>
+          <concept>
+            <code value="A01AC01"/>
+            <display value="triamcinolon"/>
+            <designation>
+              <language value="en"/>
+              <value value="triamcinolone"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A01AC02"/>
+            <display value="dexamethason"/>
+            <designation>
+              <language value="en"/>
+              <value value="dexamethasone"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A01AC03"/>
+            <display value="hydrokortison"/>
+            <designation>
+              <language value="en"/>
+              <value value="hydrocortisone"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A01AC04"/>
+            <display value="prednisolon"/>
+            <designation>
+              <language value="en"/>
+              <value value="prednisolone"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A01AC54"/>
+            <display value="prednisolon, kombinace"/>
+            <designation>
+              <language value="en"/>
+              <value value="prednisolone, combinations"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+        </concept>
+        <concept>
+          <code value="A01AD"/>
+          <display value="Jiná léčiva pro lokální léčbu v dutině ústní"/>
+          <designation>
+            <language value="en"/>
+            <value value="Other agents for local oral treatment"/>
+          </designation>
+          <property>
+            <code value="NT"/>
+            <valueString value="N"/>
+          </property>
+          <concept>
+            <code value="A01AD01"/>
+            <display value="epinefrin"/>
+            <designation>
+              <language value="en"/>
+              <value value="epinephrine"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A01AD02"/>
+            <display value="benzydamin"/>
+            <designation>
+              <language value="en"/>
+              <value value="benzydamine"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A01AD05"/>
+            <display value="kyselina acetylsalicylová"/>
+            <designation>
+              <language value="en"/>
+              <value value="acetylsalicylic acid"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A01AD06"/>
+            <display value="adrenalon"/>
+            <designation>
+              <language value="en"/>
+              <value value="adrenalone"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A01AD07"/>
+            <display value="amlexanox"/>
+            <designation>
+              <language value="en"/>
+              <value value="amlexanox"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A01AD08"/>
+            <display value="bekaplermin"/>
+            <designation>
+              <language value="en"/>
+              <value value="becaplermin"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A01AD11"/>
+            <display value="různá jiná léčiva pro lokální léčbu v dutině ústní"/>
+            <designation>
+              <language value="en"/>
+              <value value="various"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+        </concept>
+      </concept>
+    </concept>
+    <concept>
+      <code value="A02"/>
+      <display value="LÉČIVA K TERAPII ONEMOCNĚNÍ SPOJENÝCH S PORUCHOU ACIDITY"/>
+      <designation>
+        <language value="en"/>
+        <value value="DRUGS FOR ACID RELATED DISORDERS"/>
+      </designation>
+      <property>
+        <code value="NT"/>
+        <valueString value="N"/>
+      </property>
+      <concept>
+        <code value="A02A"/>
+        <display value="ANTACIDA"/>
+        <designation>
+          <language value="en"/>
+          <value value="ANTACIDS"/>
+        </designation>
+        <property>
+          <code value="NT"/>
+          <valueString value="N"/>
+        </property>
+        <concept>
+          <code value="A02AA"/>
+          <display value="Sloučeniny hořčíku"/>
+          <designation>
+            <language value="en"/>
+            <value value="Magnesium compounds"/>
+          </designation>
+          <property>
+            <code value="NT"/>
+            <valueString value="N"/>
+          </property>
+          <concept>
+            <code value="A02AA01"/>
+            <display value="uhličitan hořečnatý"/>
+            <designation>
+              <language value="en"/>
+              <value value="magnesium carbonate"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02AA02"/>
+            <display value="oxid hořečnatý"/>
+            <designation>
+              <language value="en"/>
+              <value value="magnesium oxide"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02AA03"/>
+            <display value="peroxid hořečnatý"/>
+            <designation>
+              <language value="en"/>
+              <value value="magnesium peroxide"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02AA04"/>
+            <display value="hydroxid hořečnatý"/>
+            <designation>
+              <language value="en"/>
+              <value value="magnesium hydroxide"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02AA05"/>
+            <display value="křemičitan hořečnatý"/>
+            <designation>
+              <language value="en"/>
+              <value value="magnesium silicate"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02AA10"/>
+            <display value="sloučeniny hořčíku, kombinace"/>
+            <designation>
+              <language value="en"/>
+              <value value="combinations"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+        </concept>
+        <concept>
+          <code value="A02AB"/>
+          <display value="Sloučeniny hliníku"/>
+          <designation>
+            <language value="en"/>
+            <value value="Aluminium compounds"/>
+          </designation>
+          <property>
+            <code value="NT"/>
+            <valueString value="N"/>
+          </property>
+          <concept>
+            <code value="A02AB01"/>
+            <display value="hydroxid hlinitý"/>
+            <designation>
+              <language value="en"/>
+              <value value="aluminium hydroxide"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02AB02"/>
+            <display value="algeldrát"/>
+            <designation>
+              <language value="en"/>
+              <value value="algeldrate"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02AB03"/>
+            <display value="fosforečnan hlinitý"/>
+            <designation>
+              <language value="en"/>
+              <value value="aluminium phosphate"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02AB04"/>
+            <display value="uhličitan dihydroxyhlinito-sodný"/>
+            <designation>
+              <language value="en"/>
+              <value value="dihydroxialumini sodium carbonate"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02AB05"/>
+            <display value="aluminium-acetylacetonát"/>
+            <designation>
+              <language value="en"/>
+              <value value="aluminium acetoacetate"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02AB06"/>
+            <display value="aloglutamol"/>
+            <designation>
+              <language value="en"/>
+              <value value="aloglutamol"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02AB07"/>
+            <display value="dihydroxyaluminium-glycinát"/>
+            <designation>
+              <language value="en"/>
+              <value value="aluminium glycinate"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02AB10"/>
+            <display value="sloučeniny hliníku, kombinace"/>
+            <designation>
+              <language value="en"/>
+              <value value="combinations"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+        </concept>
+        <concept>
+          <code value="A02AC"/>
+          <display value="Sloučeniny vápníku"/>
+          <designation>
+            <language value="en"/>
+            <value value="Calcium compounds"/>
+          </designation>
+          <property>
+            <code value="NT"/>
+            <valueString value="N"/>
+          </property>
+          <concept>
+            <code value="A02AC01"/>
+            <display value="uhličitan vápenatý"/>
+            <designation>
+              <language value="en"/>
+              <value value="calcium carbonate"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02AC02"/>
+            <display value="křemičitan vápenatý"/>
+            <designation>
+              <language value="en"/>
+              <value value="calcium silicate"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02AC10"/>
+            <display value="sloučeniny vápníku, kombinace"/>
+            <designation>
+              <language value="en"/>
+              <value value="combinations"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+        </concept>
+        <concept>
+          <code value="A02AD"/>
+          <display value="Kombinace a komplexy sloučenin hliníku, vápníku a hořčíku"/>
+          <designation>
+            <language value="en"/>
+            <value value="Combinations and complexes of aluminium, calcium and magnesium compounds"/>
+          </designation>
+          <property>
+            <code value="NT"/>
+            <valueString value="N"/>
+          </property>
+          <concept>
+            <code value="A02AD01"/>
+            <display value="kombinace běžných solí"/>
+            <designation>
+              <language value="en"/>
+              <value value="ordinary salt combinations"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02AD02"/>
+            <display value="magaldrát"/>
+            <designation>
+              <language value="en"/>
+              <value value="magaldrate"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02AD03"/>
+            <display value="almagát"/>
+            <designation>
+              <language value="en"/>
+              <value value="almagate"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02AD04"/>
+            <display value="hydrotalcit"/>
+            <designation>
+              <language value="en"/>
+              <value value="hydrotalcite"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02AD05"/>
+            <display value="almasilát"/>
+            <designation>
+              <language value="en"/>
+              <value value="almasilate"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+        </concept>
+        <concept>
+          <code value="A02AF"/>
+          <display value="Antacida s antiflatulencii"/>
+          <designation>
+            <language value="en"/>
+            <value value="Antacids with antiflatulents"/>
+          </designation>
+          <property>
+            <code value="NT"/>
+            <valueString value="N"/>
+          </property>
+          <concept>
+            <code value="A02AF01"/>
+            <display value="magaldrát a antiflatulencia"/>
+            <designation>
+              <language value="en"/>
+              <value value="magaldrate and antiflatulents"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02AF02"/>
+            <display value="kombinace běžných solí s antiflatulencii"/>
+            <designation>
+              <language value="en"/>
+              <value value="ordinary salt combinations and antiflatulents"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+        </concept>
+        <concept>
+          <code value="A02AG"/>
+          <display value="Antacida se spazmolytiky"/>
+          <designation>
+            <language value="en"/>
+            <value value="Antacids with antispasmodics"/>
+          </designation>
+          <property>
+            <code value="NT"/>
+            <valueString value="N"/>
+          </property>
+        </concept>
+        <concept>
+          <code value="A02AH"/>
+          <display value="Antacida s uhličitanem sodným"/>
+          <designation>
+            <language value="en"/>
+            <value value="Antacids with sodium bicarbonate"/>
+          </designation>
+          <property>
+            <code value="NT"/>
+            <valueString value="N"/>
+          </property>
+        </concept>
+        <concept>
+          <code value="A02AX"/>
+          <display value="Antacida, jiné kombinace"/>
+          <designation>
+            <language value="en"/>
+            <value value="Antacids, other combinations"/>
+          </designation>
+          <property>
+            <code value="NT"/>
+            <valueString value="N"/>
+          </property>
+        </concept>
+      </concept>
+      <concept>
+        <code value="A02B"/>
+        <display value="LÉČIVA K TERAPII PEPTICKÉHO VŘEDU A REFLUXNÍ CHOROBY JÍCNU"/>
+        <designation>
+          <language value="en"/>
+          <value value="DRUGS FOR PEPTIC ULCER AND GASTRO-OESOPHAGEAL REFLUX DISEASE (GORD)"/>
+        </designation>
+        <property>
+          <code value="NT"/>
+          <valueString value="N"/>
+        </property>
+        <concept>
+          <code value="A02BA"/>
+          <display value="Antagonisté H2-receptorů"/>
+          <designation>
+            <language value="en"/>
+            <value value="H2-receptor antagonists"/>
+          </designation>
+          <property>
+            <code value="NT"/>
+            <valueString value="N"/>
+          </property>
+          <concept>
+            <code value="A02BA01"/>
+            <display value="cimetidin"/>
+            <designation>
+              <language value="en"/>
+              <value value="cimetidine"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02BA02"/>
+            <display value="ranitidin"/>
+            <designation>
+              <language value="en"/>
+              <value value="ranitidine"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02BA03"/>
+            <display value="famotidin"/>
+            <designation>
+              <language value="en"/>
+              <value value="famotidine"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02BA04"/>
+            <display value="nizatidin"/>
+            <designation>
+              <language value="en"/>
+              <value value="nizatidine"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02BA05"/>
+            <display value="niperotidin"/>
+            <designation>
+              <language value="en"/>
+              <value value="niperotidine"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02BA06"/>
+            <display value="roxatidin"/>
+            <designation>
+              <language value="en"/>
+              <value value="roxatidine"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02BA07"/>
+            <display value="ranitidin-bismut-citrát"/>
+            <designation>
+              <language value="en"/>
+              <value value="ranitidine bismuth citrate"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02BA08"/>
+            <display value="lafutidin"/>
+            <designation>
+              <language value="en"/>
+              <value value="lafutidine"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02BA51"/>
+            <display value="cimetidin, kombinace"/>
+            <designation>
+              <language value="en"/>
+              <value value="cimetidine, combinations"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02BA53"/>
+            <display value="famotidin, kombinace"/>
+            <designation>
+              <language value="en"/>
+              <value value="famotidine, combinations"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+        </concept>
+        <concept>
+          <code value="A02BB"/>
+          <display value="Prostaglandiny"/>
+          <designation>
+            <language value="en"/>
+            <value value="Prostaglandins"/>
+          </designation>
+          <property>
+            <code value="NT"/>
+            <valueString value="N"/>
+          </property>
+          <concept>
+            <code value="A02BB01"/>
+            <display value="misoprostol"/>
+            <designation>
+              <language value="en"/>
+              <value value="misoprostol"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02BB02"/>
+            <display value="enprostil"/>
+            <designation>
+              <language value="en"/>
+              <value value="enprostil"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+        </concept>
+        <concept>
+          <code value="A02BC"/>
+          <display value="Inhibitory protonové pumpy"/>
+          <designation>
+            <language value="en"/>
+            <value value="Proton pump inhibitors"/>
+          </designation>
+          <property>
+            <code value="NT"/>
+            <valueString value="N"/>
+          </property>
+          <concept>
+            <code value="A02BC01"/>
+            <display value="omeprazol"/>
+            <designation>
+              <language value="en"/>
+              <value value="omeprazole"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02BC02"/>
+            <display value="pantoprazol"/>
+            <designation>
+              <language value="en"/>
+              <value value="pantoprazole"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02BC03"/>
+            <display value="lansoprazol"/>
+            <designation>
+              <language value="en"/>
+              <value value="lansoprazole"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02BC04"/>
+            <display value="rabeprazol"/>
+            <designation>
+              <language value="en"/>
+              <value value="rabeprazole"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02BC05"/>
+            <display value="esomeprazol"/>
+            <designation>
+              <language value="en"/>
+              <value value="esomeprazole"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02BC06"/>
+            <display value="dexlansoprazol"/>
+            <designation>
+              <language value="en"/>
+              <value value="dexlansoprazole"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02BC07"/>
+            <display value="dexrabeprazol"/>
+            <designation>
+              <language value="en"/>
+              <value value="dexrabeprazole"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02BC08"/>
+            <display value="vonoprazan"/>
+            <designation>
+              <language value="en"/>
+              <value value="vonoprazan"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02BC09"/>
+            <display value="tegoprazan"/>
+            <designation>
+              <language value="en"/>
+              <value value="tegoprazan"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02BC10"/>
+            <display value="fexuprazan"/>
+            <designation>
+              <language value="en"/>
+              <value value="fexuprazan"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02BC11"/>
+            <display value="ilaprazol"/>
+            <designation>
+              <language value="en"/>
+              <value value="ilaprazole"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02BC51"/>
+            <display value="omeprazol, kombinace"/>
+            <designation>
+              <language value="en"/>
+              <value value="omeprazole, combinations"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02BC53"/>
+            <display value="lansoprazol, kombinace"/>
+            <designation>
+              <language value="en"/>
+              <value value="lansoprazole, combinations"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02BC54"/>
+            <display value="rabeprazol, kombinace"/>
+            <designation>
+              <language value="en"/>
+              <value value="rabeprazole, combinations"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+        </concept>
+        <concept>
+          <code value="A02BD"/>
+          <display value="Kombinace k eradikaci helicobacter pylori"/>
+          <designation>
+            <language value="en"/>
+            <value value="Combinations for eradication of Helicobacter pylori"/>
+          </designation>
+          <property>
+            <code value="NT"/>
+            <valueString value="N"/>
+          </property>
+          <concept>
+            <code value="A02BD01"/>
+            <display value="omeprazol, amoxicilin a metronidazol"/>
+            <designation>
+              <language value="en"/>
+              <value value="omeprazole, amoxicillin and metronidazole"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02BD02"/>
+            <display value="lansoprazol, tetracyklin a metronidazol"/>
+            <designation>
+              <language value="en"/>
+              <value value="lansoprazole, tetracycline and metronidazole"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02BD03"/>
+            <display value="lansoprazol, amoxicilin a metronidazol"/>
+            <designation>
+              <language value="en"/>
+              <value value="lansoprazole, amoxicillin and metronidazole"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02BD04"/>
+            <display value="pantoprazol, amoxicilin a klarithromycin"/>
+            <designation>
+              <language value="en"/>
+              <value value="pantoprazole, amoxicillin and clarithromycin"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02BD05"/>
+            <display value="omeprazol, amoxicilin a klarithromycin"/>
+            <designation>
+              <language value="en"/>
+              <value value="omeprazole, amoxicillin and clarithromycin"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02BD06"/>
+            <display value="esomeprazol, amoxicilin a klarithromycin"/>
+            <designation>
+              <language value="en"/>
+              <value value="esomeprazole, amoxicillin and clarithromycin"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02BD07"/>
+            <display value="lansoprazol, amoxicilin a klarithromycin"/>
+            <designation>
+              <language value="en"/>
+              <value value="lansoprazole, amoxicillin and clarithromycin"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02BD08"/>
+            <display value="zásaditý citronan bismutitý, tetracyklin a metronidazol"/>
+            <designation>
+              <language value="en"/>
+              <value value="bismuth subcitrate, tetracycline and metronidazole"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02BD09"/>
+            <display value="lansoprazol, klarithromycin a tinidazol"/>
+            <designation>
+              <language value="en"/>
+              <value value="lansoprazole, clarithromycin and tinidazole"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02BD10"/>
+            <display value="lansoprazol, amoxicilin a levofloxacin"/>
+            <designation>
+              <language value="en"/>
+              <value value="lansoprazole, amoxicillin and levofloxacin"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02BD11"/>
+            <display value="pantoprazol, amoxicilin, klarithromycin a metronidazol"/>
+            <designation>
+              <language value="en"/>
+              <value value="pantoprazole, amoxicillin, clarithromycin and metronidazole"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02BD12"/>
+            <display value="rabeprazol, amoxicilin a klarithromycin"/>
+            <designation>
+              <language value="en"/>
+              <value value="rabeprazole, amoxicillin and clarithromycin"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02BD13"/>
+            <display value="rabeprazol, amoxicilin a metronidazol"/>
+            <designation>
+              <language value="en"/>
+              <value value="rabeprazole, amoxicillin and metronidazole"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02BD14"/>
+            <display value="vonoprazan, amoxicilin a klarithromycin"/>
+            <designation>
+              <language value="en"/>
+              <value value="vonoprazan, amoxicillin and clarithromycin"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02BD15"/>
+            <display value="vonoprazan, amoxicilin a metronidazol"/>
+            <designation>
+              <language value="en"/>
+              <value value="vonoprazan, amoxicillin and metronidazole"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02BD16"/>
+            <display value="omeprazol, amoxicilin a rifabutin"/>
+            <designation>
+              <language value="en"/>
+              <value value="omeprazole, amoxicillin and rifabutin"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02BD17"/>
+            <display value="vonoprazan a amoxicilin"/>
+            <designation>
+              <language value="en"/>
+              <value value="vonoprazan and amoxicillin"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+        </concept>
+        <concept>
+          <code value="A02BX"/>
+          <display value="Jiná léčiva k terapii peptického vředu a refluxní choroby jícnu"/>
+          <designation>
+            <language value="en"/>
+            <value value="Other drugs for peptic ulcer and gastro-oesophageal reflux disease (GORD)"/>
+          </designation>
+          <property>
+            <code value="NT"/>
+            <valueString value="N"/>
+          </property>
+          <concept>
+            <code value="A02BX01"/>
+            <display value="karbenoxolon"/>
+            <designation>
+              <language value="en"/>
+              <value value="carbenoxolone"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02BX02"/>
+            <display value="sukralfát"/>
+            <designation>
+              <language value="en"/>
+              <value value="sucralfate"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02BX03"/>
+            <display value="pirenzepin"/>
+            <designation>
+              <language value="en"/>
+              <value value="pirenzepine"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02BX04"/>
+            <display value="methiosulfonium-chlorid"/>
+            <designation>
+              <language value="en"/>
+              <value value="methiosulfonium chloride"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02BX05"/>
+            <display value="zásaditý bismutum(III)-citrát"/>
+            <designation>
+              <language value="en"/>
+              <value value="bismuth subcitrate"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02BX06"/>
+            <display value="proglumid"/>
+            <designation>
+              <language value="en"/>
+              <value value="proglumide"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02BX07"/>
+            <display value="gefarnát"/>
+            <designation>
+              <language value="en"/>
+              <value value="gefarnate"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02BX08"/>
+            <display value="sulglikotid"/>
+            <designation>
+              <language value="en"/>
+              <value value="sulglicotide"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02BX09"/>
+            <display value="acetoxolon"/>
+            <designation>
+              <language value="en"/>
+              <value value="acetoxolone"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02BX10"/>
+            <display value="zolimidin"/>
+            <designation>
+              <language value="en"/>
+              <value value="zolimidine"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02BX11"/>
+            <display value="troxipid"/>
+            <designation>
+              <language value="en"/>
+              <value value="troxipide"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02BX12"/>
+            <display value="zásaditý dusičnan bismutitý"/>
+            <designation>
+              <language value="en"/>
+              <value value="bismuth subnitrate"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02BX13"/>
+            <display value="kyselina alginová"/>
+            <designation>
+              <language value="en"/>
+              <value value="alginic acid"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02BX14"/>
+            <display value="rebamipid"/>
+            <designation>
+              <language value="en"/>
+              <value value="rebamipide"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02BX15"/>
+            <display value="teprenon"/>
+            <designation>
+              <language value="en"/>
+              <value value="teprenone"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02BX16"/>
+            <display value="irsogladin"/>
+            <designation>
+              <language value="en"/>
+              <value value="irsogladine"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02BX51"/>
+            <display value="karbenoxolon, kombinace kromě psycholeptik"/>
+            <designation>
+              <language value="en"/>
+              <value value="carbenoxolone, combinations excl. psycholeptics"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02BX71"/>
+            <display value="karbenoxolon, kombinace s psycholeptiky"/>
+            <designation>
+              <language value="en"/>
+              <value value="carbenoxolone, combinations with psycholeptics"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A02BX77"/>
+            <display value="gefarnát, kombinace s psycholeptiky"/>
+            <designation>
+              <language value="en"/>
+              <value value="gefarnate, combinations with psycholeptics"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+        </concept>
+      </concept>
+      <concept>
+        <code value="A02X"/>
+        <display value="JINÁ LÉČIVA K TERAPII ONEMOCNĚNÍ SPOJENÝCH S PORUCHOU ACIDITY"/>
+        <designation>
+          <language value="en"/>
+          <value value="OTHER DRUGS FOR ACID RELATED DISORDERS"/>
+        </designation>
+        <property>
+          <code value="NT"/>
+          <valueString value="N"/>
+        </property>
+      </concept>
+    </concept>
+    <concept>
+      <code value="A03"/>
+      <display value="LÉČIVA K TERAPII FUNKČNÍCH PORUCH GASTROINTESTINÁLNÍHO TRAKTU"/>
+      <designation>
+        <language value="en"/>
+        <value value="DRUGS FOR FUNCTIONAL GASTROINTESTINAL DISORDERS"/>
+      </designation>
+      <property>
+        <code value="NT"/>
+        <valueString value="N"/>
+      </property>
+      <concept>
+        <code value="A03A"/>
+        <display value="LÉČIVA K TERAPII FUNKČNÍCH PORUCH GASTROINTESTINÁLNÍHO TRAKTU"/>
+        <designation>
+          <language value="en"/>
+          <value value="DRUGS FOR FUNCTIONAL GASTROINTESTINAL DISORDERS"/>
+        </designation>
+        <property>
+          <code value="NT"/>
+          <valueString value="N"/>
+        </property>
+        <concept>
+          <code value="A03AA"/>
+          <display value="Syntetická anticholinergika, estery s terciární aminoskupinou"/>
+          <designation>
+            <language value="en"/>
+            <value value="Synthetic anticholinergics, esters with tertiary amino group"/>
+          </designation>
+          <property>
+            <code value="NT"/>
+            <valueString value="N"/>
+          </property>
+          <concept>
+            <code value="A03AA01"/>
+            <display value="oxyfencyklimin"/>
+            <designation>
+              <language value="en"/>
+              <value value="oxyphencyclimine"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03AA03"/>
+            <display value="kamylofin"/>
+            <designation>
+              <language value="en"/>
+              <value value="camylofin"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03AA04"/>
+            <display value="mebeverin"/>
+            <designation>
+              <language value="en"/>
+              <value value="mebeverine"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03AA05"/>
+            <display value="trimebutin"/>
+            <designation>
+              <language value="en"/>
+              <value value="trimebutine"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03AA06"/>
+            <display value="rociverin"/>
+            <designation>
+              <language value="en"/>
+              <value value="rociverine"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03AA07"/>
+            <display value="dicykloverin"/>
+            <designation>
+              <language value="en"/>
+              <value value="dicycloverine"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03AA08"/>
+            <display value="dihexyverin"/>
+            <designation>
+              <language value="en"/>
+              <value value="dihexyverine"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03AA09"/>
+            <display value="difemerin"/>
+            <designation>
+              <language value="en"/>
+              <value value="difemerine"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03AA30"/>
+            <display value="piperidolát"/>
+            <designation>
+              <language value="en"/>
+              <value value="piperidolate"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+        </concept>
+        <concept>
+          <code value="A03AB"/>
+          <display value="Syntetická anticholinergika, kvarterní amoniové sloučeniny"/>
+          <designation>
+            <language value="en"/>
+            <value value="Synthetic anticholinergics, quaternary ammonium compounds"/>
+          </designation>
+          <property>
+            <code value="NT"/>
+            <valueString value="N"/>
+          </property>
+          <concept>
+            <code value="A03AB01"/>
+            <display value="benzilonium"/>
+            <designation>
+              <language value="en"/>
+              <value value="benzilone"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03AB02"/>
+            <display value="glykopyrronium-bromid"/>
+            <designation>
+              <language value="en"/>
+              <value value="glycopyrronium bromide"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03AB03"/>
+            <display value="oxyfenonium"/>
+            <designation>
+              <language value="en"/>
+              <value value="oxyphenonium"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03AB04"/>
+            <display value="penthienacium"/>
+            <designation>
+              <language value="en"/>
+              <value value="penthienate"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03AB05"/>
+            <display value="propanthelinium"/>
+            <designation>
+              <language value="en"/>
+              <value value="propantheline"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03AB06"/>
+            <display value="otilonium-bromid"/>
+            <designation>
+              <language value="en"/>
+              <value value="otilonium bromide"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03AB07"/>
+            <display value="methanthelinium"/>
+            <designation>
+              <language value="en"/>
+              <value value="methantheline"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03AB08"/>
+            <display value="tridihexethylium"/>
+            <designation>
+              <language value="en"/>
+              <value value="tridihexethyl"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03AB09"/>
+            <display value="isopropamid"/>
+            <designation>
+              <language value="en"/>
+              <value value="isopropamide"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03AB10"/>
+            <display value="hexocyklium"/>
+            <designation>
+              <language value="en"/>
+              <value value="hexocyclium"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03AB11"/>
+            <display value="poldinium"/>
+            <designation>
+              <language value="en"/>
+              <value value="poldine"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03AB12"/>
+            <display value="mepenzolacium"/>
+            <designation>
+              <language value="en"/>
+              <value value="mepenzolate"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03AB13"/>
+            <display value="bevonium"/>
+            <designation>
+              <language value="en"/>
+              <value value="bevonium"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03AB14"/>
+            <display value="pipenzolacium"/>
+            <designation>
+              <language value="en"/>
+              <value value="pipenzolate"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03AB15"/>
+            <display value="difemanilium"/>
+            <designation>
+              <language value="en"/>
+              <value value="diphemanil"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03AB16"/>
+            <display value="difenhydramin-jodid"/>
+            <designation>
+              <language value="en"/>
+              <value value="(2-benzhydryloxyethyl)diethyl-methylammonium iodide"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03AB17"/>
+            <display value="tiemonium-jodid"/>
+            <designation>
+              <language value="en"/>
+              <value value="tiemonium iodide"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03AB18"/>
+            <display value="prifinium-bromid"/>
+            <designation>
+              <language value="en"/>
+              <value value="prifinium bromide"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03AB19"/>
+            <display value="timepidium-bromid"/>
+            <designation>
+              <language value="en"/>
+              <value value="timepidium bromide"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03AB21"/>
+            <display value="fenpiverinium"/>
+            <designation>
+              <language value="en"/>
+              <value value="fenpiverinium"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03AB53"/>
+            <display value="oxyfenonium, kombinace"/>
+            <designation>
+              <language value="en"/>
+              <value value="oxyphenonium, combinations"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+        </concept>
+        <concept>
+          <code value="A03AC"/>
+          <display value="Syntetická spazmolytika, amidy s terciárními aminy"/>
+          <designation>
+            <language value="en"/>
+            <value value="Synthetic antispasmodics, amides with tertiary amines"/>
+          </designation>
+          <property>
+            <code value="NT"/>
+            <valueString value="N"/>
+          </property>
+          <concept>
+            <code value="A03AC02"/>
+            <display value="dimethylaminopropionylfenothiazin"/>
+            <designation>
+              <language value="en"/>
+              <value value="dimethylaminopropionylphenothiazine"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03AC04"/>
+            <display value="nikofetamid"/>
+            <designation>
+              <language value="en"/>
+              <value value="nicofetamide"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03AC05"/>
+            <display value="tiropramid"/>
+            <designation>
+              <language value="en"/>
+              <value value="tiropramide"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+        </concept>
+        <concept>
+          <code value="A03AD"/>
+          <display value="Papaverin a deriváty"/>
+          <designation>
+            <language value="en"/>
+            <value value="Papaverine and derivatives"/>
+          </designation>
+          <property>
+            <code value="NT"/>
+            <valueString value="N"/>
+          </property>
+          <concept>
+            <code value="A03AD01"/>
+            <display value="papaverin"/>
+            <designation>
+              <language value="en"/>
+              <value value="papaverine"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03AD02"/>
+            <display value="drotaverin"/>
+            <designation>
+              <language value="en"/>
+              <value value="drotaverine"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03AD30"/>
+            <display value="moxaverin"/>
+            <designation>
+              <language value="en"/>
+              <value value="moxaverine"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+        </concept>
+        <concept>
+          <code value="A03AE"/>
+          <display value="Antagonisté serotoninových receptorů"/>
+          <designation>
+            <language value="en"/>
+            <value value="Serotonin receptor antagonists"/>
+          </designation>
+          <property>
+            <code value="NT"/>
+            <valueString value="N"/>
+          </property>
+          <concept>
+            <code value="A03AE01"/>
+            <display value="alosetron"/>
+            <designation>
+              <language value="en"/>
+              <value value="alosetron"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03AE03"/>
+            <display value="cilansetron"/>
+            <designation>
+              <language value="en"/>
+              <value value="cilansetron"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+        </concept>
+        <concept>
+          <code value="A03AX"/>
+          <display value="Jiná léčiva k terapii funkčních poruch gastrointestinálního traktu"/>
+          <designation>
+            <language value="en"/>
+            <value value="Other drugs for functional gastrointestinal disorders"/>
+          </designation>
+          <property>
+            <code value="NT"/>
+            <valueString value="N"/>
+          </property>
+          <concept>
+            <code value="A03AX01"/>
+            <display value="fenpipran"/>
+            <designation>
+              <language value="en"/>
+              <value value="fenpiprane"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03AX02"/>
+            <display value="diisopromin"/>
+            <designation>
+              <language value="en"/>
+              <value value="diisopromine"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03AX03"/>
+            <display value="chlorbenzoxamin"/>
+            <designation>
+              <language value="en"/>
+              <value value="chlorbenzoxamine"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03AX04"/>
+            <display value="pinaverium"/>
+            <designation>
+              <language value="en"/>
+              <value value="pinaverium"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03AX05"/>
+            <display value="fenoverin"/>
+            <designation>
+              <language value="en"/>
+              <value value="fenoverine"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03AX06"/>
+            <display value="idanpramin"/>
+            <designation>
+              <language value="en"/>
+              <value value="idanpramine"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03AX07"/>
+            <display value="proxazol"/>
+            <designation>
+              <language value="en"/>
+              <value value="proxazole"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03AX08"/>
+            <display value="alverin"/>
+            <designation>
+              <language value="en"/>
+              <value value="alverine"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03AX09"/>
+            <display value="trepibuton"/>
+            <designation>
+              <language value="en"/>
+              <value value="trepibutone"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03AX10"/>
+            <display value="isomethepten"/>
+            <designation>
+              <language value="en"/>
+              <value value="isometheptene"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03AX11"/>
+            <display value="karoverin"/>
+            <designation>
+              <language value="en"/>
+              <value value="caroverine"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03AX12"/>
+            <display value="floroglucinol"/>
+            <designation>
+              <language value="en"/>
+              <value value="phloroglucinol"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03AX13"/>
+            <display value="silikony"/>
+            <designation>
+              <language value="en"/>
+              <value value="silicones"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03AX14"/>
+            <display value="valethamát"/>
+            <designation>
+              <language value="en"/>
+              <value value="valethamate"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03AX15"/>
+            <display value="silice máty peprné"/>
+            <designation>
+              <language value="en"/>
+              <value value="menthae piperitae aetheroleum"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03AX30"/>
+            <display value="trimethyldifenylpropylamin"/>
+            <designation>
+              <language value="en"/>
+              <value value="trimethyldiphenylpropylamine"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03AX58"/>
+            <display value="alverin, kombinace"/>
+            <designation>
+              <language value="en"/>
+              <value value="alverine, combinations"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+        </concept>
+      </concept>
+      <concept>
+        <code value="A03B"/>
+        <display value="ALKALOIDY RULÍKU A DERIVÁTY, SAMOTNÉ"/>
+        <designation>
+          <language value="en"/>
+          <value value="BELLADONNA AND DERIVATIVES, PLAIN"/>
+        </designation>
+        <property>
+          <code value="NT"/>
+          <valueString value="N"/>
+        </property>
+        <concept>
+          <code value="A03BA"/>
+          <display value="Alkaloidy rulíku, terciární aminy"/>
+          <designation>
+            <language value="en"/>
+            <value value="Belladonna alkaloids, tertiary amines"/>
+          </designation>
+          <property>
+            <code value="NT"/>
+            <valueString value="N"/>
+          </property>
+          <concept>
+            <code value="A03BA01"/>
+            <display value="atropin"/>
+            <designation>
+              <language value="en"/>
+              <value value="atropine"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03BA03"/>
+            <display value="hyoscyamin"/>
+            <designation>
+              <language value="en"/>
+              <value value="hyoscyamine"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03BA04"/>
+            <display value="všechny alkaloidy rulíku"/>
+            <designation>
+              <language value="en"/>
+              <value value="belladonna total alkaloids"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+        </concept>
+        <concept>
+          <code value="A03BB"/>
+          <display value="Alkaloidy rulíku, semisyntetické kvarterní amoniové sloučeniny"/>
+          <designation>
+            <language value="en"/>
+            <value value="Belladonna alkaloids, semisynthetic, quaternary ammonium compounds"/>
+          </designation>
+          <property>
+            <code value="NT"/>
+            <valueString value="N"/>
+          </property>
+          <concept>
+            <code value="A03BB01"/>
+            <display value="butylskopolaminium"/>
+            <designation>
+              <language value="en"/>
+              <value value="butylscopolamine"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03BB02"/>
+            <display value="methylatropinium"/>
+            <designation>
+              <language value="en"/>
+              <value value="methylatropine"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03BB03"/>
+            <display value="methylskopolaminium"/>
+            <designation>
+              <language value="en"/>
+              <value value="methylscopolamine"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03BB04"/>
+            <display value="fentonium"/>
+            <designation>
+              <language value="en"/>
+              <value value="fentonium"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03BB05"/>
+            <display value="cimetropium-bromid"/>
+            <designation>
+              <language value="en"/>
+              <value value="cimetropium bromide"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03BB06"/>
+            <display value="homatropin-methylbromid"/>
+            <designation>
+              <language value="en"/>
+              <value value="homatropine methylbromide"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+        </concept>
+      </concept>
+      <concept>
+        <code value="A03C"/>
+        <display value="SPAZMOLYTIKA V KOMBINACI S PSYCHOLEPTIKY"/>
+        <designation>
+          <language value="en"/>
+          <value value="ANTISPASMODICS IN COMBINATION WITH PSYCHOLEPTICS"/>
+        </designation>
+        <property>
+          <code value="NT"/>
+          <valueString value="N"/>
+        </property>
+        <concept>
+          <code value="A03CA"/>
+          <display value="Syntetická anticholinergika v kombinaci s psycholeptiky"/>
+          <designation>
+            <language value="en"/>
+            <value value="Synthetic anticholinergic agents in combination with psycholeptics"/>
+          </designation>
+          <property>
+            <code value="NT"/>
+            <valueString value="N"/>
+          </property>
+          <concept>
+            <code value="A03CA01"/>
+            <display value="isopropamid a psycholeptika"/>
+            <designation>
+              <language value="en"/>
+              <value value="isopropamide and psycholeptics"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03CA02"/>
+            <display value="klidinium a psycholeptika"/>
+            <designation>
+              <language value="en"/>
+              <value value="clidinium and psycholeptics"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03CA03"/>
+            <display value="oxyfencyklimin a psycholeptika"/>
+            <designation>
+              <language value="en"/>
+              <value value="oxyphencyclimine and psycholeptics"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03CA04"/>
+            <display value="otilonium-bromid a psycholeptika"/>
+            <designation>
+              <language value="en"/>
+              <value value="otilonium bromide and psycholeptics"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03CA05"/>
+            <display value="glykopyrronium-bromid a psycholeptika"/>
+            <designation>
+              <language value="en"/>
+              <value value="glycopyrronium bromide and psycholeptics"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03CA06"/>
+            <display value="bevonium a psycholeptika"/>
+            <designation>
+              <language value="en"/>
+              <value value="bevonium and psycholeptics"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03CA07"/>
+            <display value="ambutonium a psycholeptika"/>
+            <designation>
+              <language value="en"/>
+              <value value="ambutonium and psycholeptics"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03CA08"/>
+            <display value="difemanilium a psycholeptika"/>
+            <designation>
+              <language value="en"/>
+              <value value="diphemanil and psycholeptics"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03CA09"/>
+            <display value="pipenzolacium a psycholeptika"/>
+            <designation>
+              <language value="en"/>
+              <value value="pipenzolate and psycholeptics"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03CA30"/>
+            <display value="emepronium a psycholeptika"/>
+            <designation>
+              <language value="en"/>
+              <value value="emepronium and psycholeptics"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03CA34"/>
+            <display value="propanthelinium a psycholeptika"/>
+            <designation>
+              <language value="en"/>
+              <value value="propantheline and psycholeptics"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+        </concept>
+        <concept>
+          <code value="A03CB"/>
+          <display value="Alkaloidy rulíku a deriváty v kombinaci s psycholeptiky"/>
+          <designation>
+            <language value="en"/>
+            <value value="Belladonna and derivatives in combination with psycholeptics"/>
+          </designation>
+          <property>
+            <code value="NT"/>
+            <valueString value="N"/>
+          </property>
+          <concept>
+            <code value="A03CB01"/>
+            <display value="methylskopolaminium a psycholeptika"/>
+            <designation>
+              <language value="en"/>
+              <value value="methylscopolamine and psycholeptics"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03CB02"/>
+            <display value="všechny alkaloidy rulíku a psycholeptika"/>
+            <designation>
+              <language value="en"/>
+              <value value="belladonna total alkaloids and psycholeptics"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03CB03"/>
+            <display value="atropin a psycholeptika"/>
+            <designation>
+              <language value="en"/>
+              <value value="atropine and psycholeptics"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03CB04"/>
+            <display value="homatropin-methylbromid a psycholeptika"/>
+            <designation>
+              <language value="en"/>
+              <value value="homatropine methylbromide and psycholeptics"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03CB31"/>
+            <display value="hyoscyamin a psycholeptika"/>
+            <designation>
+              <language value="en"/>
+              <value value="hyoscyamine and psycholeptics"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+        </concept>
+        <concept>
+          <code value="A03CC"/>
+          <display value="Jiná spazmolytika v kombinaci s psycholeptiky"/>
+          <designation>
+            <language value="en"/>
+            <value value="Other antispasmodics in combination with psycholeptics"/>
+          </designation>
+          <property>
+            <code value="NT"/>
+            <valueString value="N"/>
+          </property>
+        </concept>
+      </concept>
+      <concept>
+        <code value="A03D"/>
+        <display value="SPAZMOLYTIKA V KOMBINACI S ANALGETIKY"/>
+        <designation>
+          <language value="en"/>
+          <value value="ANTISPASMODICS IN COMBINATION WITH ANALGESICS"/>
+        </designation>
+        <property>
+          <code value="NT"/>
+          <valueString value="N"/>
+        </property>
+        <concept>
+          <code value="A03DA"/>
+          <display value="Syntetická anticholinergika v kombinaci s analgetiky"/>
+          <designation>
+            <language value="en"/>
+            <value value="Synthetic anticholinergic agents in combination with analgesics"/>
+          </designation>
+          <property>
+            <code value="NT"/>
+            <valueString value="N"/>
+          </property>
+          <concept>
+            <code value="A03DA01"/>
+            <display value="tropenzilinium a analgetika"/>
+            <designation>
+              <language value="en"/>
+              <value value="tropenzilone and analgesics"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03DA02"/>
+            <display value="pitofenon a analgetika"/>
+            <designation>
+              <language value="en"/>
+              <value value="pitofenone and analgesics"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03DA03"/>
+            <display value="bevonium a analgetika"/>
+            <designation>
+              <language value="en"/>
+              <value value="bevonium and analgesics"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03DA04"/>
+            <display value="ciklonium a analgetika"/>
+            <designation>
+              <language value="en"/>
+              <value value="ciclonium and analgesics"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03DA05"/>
+            <display value="kamylofin a analgetika"/>
+            <designation>
+              <language value="en"/>
+              <value value="camylofin and analgesics"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03DA06"/>
+            <display value="trospium a anagetika"/>
+            <designation>
+              <language value="en"/>
+              <value value="trospium and analgesics"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03DA07"/>
+            <display value="tiemonium-jodid a analgetika"/>
+            <designation>
+              <language value="en"/>
+              <value value="tiemonium iodide and analgesics"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+        </concept>
+        <concept>
+          <code value="A03DB"/>
+          <display value="Alkaloidy rulíku a deriváty v kombinaci s analgetiky"/>
+          <designation>
+            <language value="en"/>
+            <value value="Belladonna and derivatives in combination with analgesics"/>
+          </designation>
+          <property>
+            <code value="NT"/>
+            <valueString value="N"/>
+          </property>
+          <concept>
+            <code value="A03DB04"/>
+            <display value="butylskopolaminium a analgetika"/>
+            <designation>
+              <language value="en"/>
+              <value value="butylscopolamine and analgesics"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+        </concept>
+        <concept>
+          <code value="A03DC"/>
+          <display value="Jiná spazmolytika v kombinaci s analgetiky"/>
+          <designation>
+            <language value="en"/>
+            <value value="Other antispasmodics in combination with analgesics"/>
+          </designation>
+          <property>
+            <code value="NT"/>
+            <valueString value="N"/>
+          </property>
+        </concept>
+      </concept>
+      <concept>
+        <code value="A03E"/>
+        <display value="SPAZMOLYTIKA A ANTICHOLINERGIKA V KOMBINACI S DALŠÍMI LÉČIVY"/>
+        <designation>
+          <language value="en"/>
+          <value value="ANTISPASMODICS AND ANTICHOLINERGICS IN COMBINATION WITH OTHER DRUGS"/>
+        </designation>
+        <property>
+          <code value="NT"/>
+          <valueString value="N"/>
+        </property>
+        <concept>
+          <code value="A03EA"/>
+          <display value="Spazmolytika, psycholeptika a analgetika v kombinaci"/>
+          <designation>
+            <language value="en"/>
+            <value value="Antispasmodics, psycholeptics and analgesics in combination"/>
+          </designation>
+          <property>
+            <code value="NT"/>
+            <valueString value="N"/>
+          </property>
+        </concept>
+        <concept>
+          <code value="A03ED"/>
+          <display value="Spazmolytika v kombinaci s jinými léčivy"/>
+          <designation>
+            <language value="en"/>
+            <value value="Antispasmodics in combination with other drugs"/>
+          </designation>
+          <property>
+            <code value="NT"/>
+            <valueString value="N"/>
+          </property>
+        </concept>
+      </concept>
+      <concept>
+        <code value="A03F"/>
+        <display value="PROKINETIKA"/>
+        <designation>
+          <language value="en"/>
+          <value value="PROPULSIVES"/>
+        </designation>
+        <property>
+          <code value="NT"/>
+          <valueString value="N"/>
+        </property>
+        <concept>
+          <code value="A03FA"/>
+          <display value="Prokinetika"/>
+          <designation>
+            <language value="en"/>
+            <value value="Propulsives"/>
+          </designation>
+          <property>
+            <code value="NT"/>
+            <valueString value="N"/>
+          </property>
+          <concept>
+            <code value="A03FA01"/>
+            <display value="metoklopramid"/>
+            <designation>
+              <language value="en"/>
+              <value value="metoclopramide"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03FA02"/>
+            <display value="cisaprid"/>
+            <designation>
+              <language value="en"/>
+              <value value="cisapride"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03FA03"/>
+            <display value="domperidon"/>
+            <designation>
+              <language value="en"/>
+              <value value="domperidone"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03FA04"/>
+            <display value="bromoprid"/>
+            <designation>
+              <language value="en"/>
+              <value value="bromopride"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03FA05"/>
+            <display value="alizaprid"/>
+            <designation>
+              <language value="en"/>
+              <value value="alizapride"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03FA06"/>
+            <display value="kleboprid"/>
+            <designation>
+              <language value="en"/>
+              <value value="clebopride"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03FA07"/>
+            <display value="itoprid"/>
+            <designation>
+              <language value="en"/>
+              <value value="itopride"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03FA08"/>
+            <display value="cinitaprid"/>
+            <designation>
+              <language value="en"/>
+              <value value="cinitapride"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03FA09"/>
+            <display value="mosaprid"/>
+            <designation>
+              <language value="en"/>
+              <value value="mosapride"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="A03FA10"/>
+            <display value="akotiamid"/>
+            <designation>
+              <language value="en"/>
+              <value value="acotiamide"/>
+            </designation>
+            <property>
+              <code value="NT"/>
+              <valueString value="N"/>
+            </property>
+          </concept>
+        </concept>
+      </concept>
+    </concept>
+  </concept>
+</CodeSystem>

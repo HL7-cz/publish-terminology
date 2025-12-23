@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="MedicalDeviceWithExceptions"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet MedicalDeviceWithExceptions</b></p><a name="MedicalDeviceWithExceptions"> </a><a name="hcMedicalDeviceWithExceptions"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Import all the codes that are contained in <a href="ValueSet-medical-device.html">Medical Device</a></li><li>Import all the codes that are contained in <a href="ValueSet-eHDSIAbsentOrUnknownDevice-cz.html">eHDSI Absent Or Unknown Device</a></li><li>Import all the codes that are contained in <a href="ValueSet-eHDSIExceptionalValue-cz.html">eHDSI Exceptional Value</a></li></ul></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="draft"/>
+  </extension>
+  <url value="https://ncez.mzcr.cz/terminology/ValueSet/MedicalDeviceWithExceptions"/>
+  <version value="0.2.0"/>
+  <name value="MedicalDeviceWithExceptionsVS"/>
+  <title value="Medical Device with exceptions"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2024-01-01"/>
+  <publisher value="HL7 Czech Republic"/>
+  <contact>
+    <name value="HL7 Czech Republic"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hl7.cz/"/>
+    </telecom>
+  </contact>
+  <description value="The Value Set is used for coding implanted and external medical devices and equipment.&#xA;It also includes exceptional values."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CZ"/>
+      <display value="Czechia"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"/>
+  <compose>
+    <include>
+      <valueSet value="https://ncez.mzcr.cz/terminology/ValueSet/medical-device"/>
+    </include>
+    <include>
+      <valueSet value="https://ncez.mzcr.cz/terminology/ValueSet/eHDSIAbsentOrUnknownDevice-cz"/>
+    </include>
+    <include>
+      <valueSet value="https://ncez.mzcr.cz/terminology/ValueSet/eHDSIExceptionalValue-cz"/>
+    </include>
+  </compose>
+</ValueSet>

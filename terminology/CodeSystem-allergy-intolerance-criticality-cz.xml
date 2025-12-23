@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="allergy-intolerance-criticality-cz"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem allergy-intolerance-criticality-cz</b></p><a name="allergy-intolerance-criticality-cz"> </a><a name="hcallergy-intolerance-criticality-cz"> </a><p>This code system supplement <code>https://hl7.cz/terminology/CodeSystem/allergy-intolerance-criticality-cz</code> defines displays on the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>English (English, en)</b></td></tr><tr><td><a style="white-space:nowrap" href="http://hl7.org/fhir/R4/codesystem-allergy-intolerance-criticality.html#allergy-intolerance-criticality-high">high</a><a name="allergy-intolerance-criticality-cz-high"> </a></td><td>vysoké riziko</td><td>V nejhorším případě je výsledek budoucí expozice hodnocen jako život ohrožující nebo s vysokým rizikem selhání orgánového systému.</td><td>Worst case result of a future exposure is assessed to be life-threatening or having high potential for organ system failure.</td></tr><tr><td><a style="white-space:nowrap" href="http://hl7.org/fhir/R4/codesystem-allergy-intolerance-criticality.html#allergy-intolerance-criticality-low">low</a><a name="allergy-intolerance-criticality-cz-low"> </a></td><td>nízké riziko</td><td>Nejhorší možný výsledek budoucí expozice není hodnocen jako život ohrožující ani jako vysoce pravděpodobný selhání orgánového systému.</td><td>Worst case result of a future exposure is not assessed to be life-threatening or having high potential for organ system failure.</td></tr><tr><td><a style="white-space:nowrap" href="http://hl7.org/fhir/R4/codesystem-allergy-intolerance-criticality.html#allergy-intolerance-criticality-unable-to-assess">unable-to-assess</a><a name="allergy-intolerance-criticality-cz-unable-to-assess"> </a></td><td>riziko nelze posoudit</td><td>Není možné odhadnout nejhorší možný výsledek budoucí expozice.</td><td>Unable to assess the worst case result of a future exposure.</td></tr></table></div>
+  </text>
+  <url value="https://hl7.cz/terminology/CodeSystem/allergy-intolerance-criticality-cz"/>
+  <version value="0.2.0"/>
+  <name value="AllergyIntoleranceCriticality"/>
+  <title value="AllergyIntoleranceCriticality (CZ supplement)"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-12-15T12:06:46.649344Z"/>
+  <publisher value="HL7 Czech Republic"/>
+  <contact>
+    <name value="HL7 Czech Republic"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hl7.cz/"/>
+    </telecom>
+  </contact>
+  <description value="AllergyIntoleranceCriticality CZ Code system supplement"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CZ"/>
+      <display value="Czechia"/>
+    </coding>
+  </jurisdiction>
+  <content value="supplement"/>
+  <supplements value="http://hl7.org/fhir/allergy-intolerance-criticality"/>
+  <concept>
+    <code value="high"/>
+    <display value="vysoké riziko"/>
+    <definition value="V nejhorším případě je výsledek budoucí expozice hodnocen jako život ohrožující nebo s vysokým rizikem selhání orgánového systému."/>
+    <designation>
+      <language value="en"/>
+      <use>
+        <code value="definition"/>
+      </use>
+      <value value="Worst case result of a future exposure is assessed to be life-threatening or having high potential for organ system failure."/>
+    </designation>
+    <designation>
+      <language value="en"/>
+      <use>
+        <code value="display"/>
+      </use>
+      <value value="High Risk"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="low"/>
+    <display value="nízké riziko"/>
+    <definition value="Nejhorší možný výsledek budoucí expozice není hodnocen jako život ohrožující ani jako vysoce pravděpodobný selhání orgánového systému."/>
+    <designation>
+      <language value="en"/>
+      <use>
+        <code value="definition"/>
+      </use>
+      <value value="Worst case result of a future exposure is not assessed to be life-threatening or having high potential for organ system failure."/>
+    </designation>
+    <designation>
+      <language value="en"/>
+      <use>
+        <code value="display"/>
+      </use>
+      <value value="Low Risk"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="unable-to-assess"/>
+    <display value="riziko nelze posoudit"/>
+    <definition value="Není možné odhadnout nejhorší možný výsledek budoucí expozice."/>
+    <designation>
+      <language value="en"/>
+      <use>
+        <code value="definition"/>
+      </use>
+      <value value="Unable to assess the worst case result of a future exposure."/>
+    </designation>
+    <designation>
+      <language value="en"/>
+      <use>
+        <code value="display"/>
+      </use>
+      <value value="Unable to Assess Risk"/>
+    </designation>
+  </concept>
+</CodeSystem>

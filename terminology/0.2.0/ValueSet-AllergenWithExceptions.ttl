@@ -1,0 +1,96 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hl7.cz/terminology/ValueSet/AllergenWithExceptions> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "AllergenWithExceptions"] ; # 
+  fhir:language [ fhir:v "cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xml:lang=\"cs\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"cs\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet AllergenWithExceptions</b></p><a name=\"AllergenWithExceptions\"> </a><a name=\"hcAllergenWithExceptions\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: cs</p></div><p>This value set includes codes based on the following rules:</p><ul><li>Import all the codes that are contained in <a href=\"ValueSet-eHDSIAllergenNoDrug-cz.html\">eHDSI Allergen No Drug</a></li><li>Import all the codes that are contained in <a href=\"ValueSet-dlp-lecivepripravky.html\">Léčivé přípravky</a></li><li>Import all the codes that are contained in <a href=\"ValueSet-dlp-atc.html\">Český číselník ATC skupin</a></li><li>Import all the codes that are contained in <a href=\"ValueSet-eHDSIAbsentOrUnknownAllergy-cz.html\">eHDSI Absent Or Unknown Allergy</a></li><li>Import all the codes that are contained in <a href=\"ValueSet-eHDSIExceptionalValue-cz.html\">eHDSI Exceptional Value</a></li></ul></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 2
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use"
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "https://ncez.mzcr.cz/terminology/ValueSet/AllergenWithExceptions"^^xsd:anyURI ;
+     fhir:l <https://ncez.mzcr.cz/terminology/ValueSet/AllergenWithExceptions>
+  ] ; # 
+  fhir:version [ fhir:v "0.2.0"] ; # 
+  fhir:name [ fhir:v "AllergenWithExceptions"] ; # 
+  fhir:title [ fhir:v "eHDSI Agent or Allergen With Exceptions"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2025-11-01"^^xsd:date] ; # 
+  fhir:publisher [ fhir:v "HL7 Czech Republic"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HL7 Czech Republic" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://www.hl7.cz/" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "The Value Set is used for coding s specific allergen or other agent/substance (drug, food, chemical agent, etc.) to which the patient has an adverse reaction propensity.\nIt is defined as the union of:\n(a) eHDSIAllergenNoDrug\n(b) DLP_lecivePripravky\n(c) DLP_ATC\n(d) eHDSIAbsentOrUnknownAllergy\n(e) eHDSIExceptionalValue"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
+         fhir:l <urn:iso:std:iso:3166>
+       ] ;
+       fhir:code [ fhir:v "CZ" ] ;
+       fhir:display [ fhir:v "Czechia" ]
+     ] )
+  ] ) ; # 
+  fhir:copyright [ fhir:v "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:valueSet ( [
+         fhir:v "https://ncez.mzcr.cz/terminology/ValueSet/eHDSIAllergenNoDrug-cz"^^xsd:anyURI ;
+         fhir:l <https://ncez.mzcr.cz/terminology/ValueSet/eHDSIAllergenNoDrug-cz>
+       ] )
+     ] [
+       fhir:valueSet ( [
+         fhir:v "https://sukl.cz/terminology/ValueSet/dlp-lecivepripravky"^^xsd:anyURI ;
+         fhir:l <https://sukl.cz/terminology/ValueSet/dlp-lecivepripravky>
+       ] )
+     ] [
+       fhir:valueSet ( [
+         fhir:v "https://sukl.cz/terminology/ValueSet/dlp-atc"^^xsd:anyURI ;
+         fhir:l <https://sukl.cz/terminology/ValueSet/dlp-atc>
+       ] )
+     ] [
+       fhir:valueSet ( [
+         fhir:v "https://ncez.mzcr.cz/terminology/ValueSet/eHDSIAbsentOrUnknownAllergy-cz"^^xsd:anyURI ;
+         fhir:l <https://ncez.mzcr.cz/terminology/ValueSet/eHDSIAbsentOrUnknownAllergy-cz>
+       ] )
+     ] [
+       fhir:valueSet ( [
+         fhir:v "https://ncez.mzcr.cz/terminology/ValueSet/eHDSIExceptionalValue-cz"^^xsd:anyURI ;
+         fhir:l <https://ncez.mzcr.cz/terminology/ValueSet/eHDSIExceptionalValue-cz>
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

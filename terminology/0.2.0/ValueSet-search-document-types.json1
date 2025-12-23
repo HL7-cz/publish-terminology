@@ -1,0 +1,50 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "search-document-types",
+  "language" : "cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"cs\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"cs\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet search-document-types</b></p><a name=\"search-document-types\"> </a><a name=\"hcsearch-document-types\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: cs</p></div><p>This value set includes codes based on the following rules:</p><ul><li>Import all the codes that are contained in <a href=\"ValueSet-imaging-document-types.html\">Typy dokumentů obrazového komplementu</a></li><li>Import all the codes that are contained in <a href=\"ValueSet-nursing-document-type.html\">Typ ošetřovatelské dokumentace</a></li><li>Import all the codes that are contained in <a href=\"ValueSet-referralorder-types.html\">Typy žádanek</a></li><li>Import all the codes that are contained in <a href=\"ValueSet-lab-document-types.html\">Typy laboratorních dokumentů</a></li><li>Import all the codes that are contained in <a href=\"ValueSet-medical-document-type.html\">Typy lékařské dokumentace</a></li></ul></div>"
+  },
+  "url" : "https://ncez.mzcr.cz/terminology/ValueSet/search-document-types",
+  "version" : "0.2.0",
+  "name" : "SearchDocumentTypes",
+  "title" : "Všechny typy dokumentů",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2025-11-19T19:22:51.629952Z",
+  "publisher" : "HL7 Czech Republic",
+  "contact" : [{
+    "name" : "HL7 Czech Republic",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.hl7.cz/"
+    }]
+  }],
+  "description" : "Typy dokumentů zejména pro účely vyhledávání.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CZ",
+      "display" : "Czechia"
+    }]
+  }],
+  "copyright" : "This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc",
+  "compose" : {
+    "include" : [{
+      "valueSet" : ["https://ncez.mzcr.cz/terminology/ValueSet/imaging-document-types"]
+    },
+    {
+      "valueSet" : ["https://ncez.mzcr.cz/terminology/ValueSet/nursing-document-type"]
+    },
+    {
+      "valueSet" : ["https://ncez.mzcr.cz/terminology/ValueSet/referralorder-types"]
+    },
+    {
+      "valueSet" : ["https://ncez.mzcr.cz/terminology/ValueSet/lab-document-types"]
+    },
+    {
+      "valueSet" : ["https://ncez.mzcr.cz/terminology/ValueSet/medical-document-type"]
+    }]
+  }
+}

@@ -1,0 +1,167 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hl7.cz/terminology/CodeSystem/healthInsuranceCompanyCode> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "healthInsuranceCompanyCode"] ; # 
+  fhir:language [ fhir:v "cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xml:lang=\"cs\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"cs\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem healthInsuranceCompanyCode</b></p><a name=\"healthInsuranceCompanyCode\"> </a><a name=\"hchealthInsuranceCompanyCode\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: cs</p></div><p>This case-sensitive code system <code>https://ncez.mzcr.cz/terminology/CodeSystem/healthInsuranceCompanyCode</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">111<a name=\"healthInsuranceCompanyCode-111\"> </a></td><td>Všeobecná zdravotní pojišťovna ČR</td></tr><tr><td style=\"white-space:nowrap\">201<a name=\"healthInsuranceCompanyCode-201\"> </a></td><td>Vojenská zdravotní pojišťovna ČR</td></tr><tr><td style=\"white-space:nowrap\">202<a name=\"healthInsuranceCompanyCode-202\"> </a></td><td>Hornická zaměstnanecká zdrav.pojišťovna</td></tr><tr><td style=\"white-space:nowrap\">203<a name=\"healthInsuranceCompanyCode-203\"> </a></td><td>GRÁL-Železniční zdravotní pojišťovna</td></tr><tr><td style=\"white-space:nowrap\">204<a name=\"healthInsuranceCompanyCode-204\"> </a></td><td>Pojišťovna GARANT-HOSPITAL</td></tr><tr><td style=\"white-space:nowrap\">205<a name=\"healthInsuranceCompanyCode-205\"> </a></td><td>Česká průmyslová zdravotní pojišťovna</td></tr><tr><td style=\"white-space:nowrap\">206<a name=\"healthInsuranceCompanyCode-206\"> </a></td><td>Moravská zdravotní pojišťovna</td></tr><tr><td style=\"white-space:nowrap\">207<a name=\"healthInsuranceCompanyCode-207\"> </a></td><td>Obor.zdravot.poj.zam.bank,pojiš. a stav.</td></tr><tr><td style=\"white-space:nowrap\">208<a name=\"healthInsuranceCompanyCode-208\"> </a></td><td>Zaměstnanecká zdravotní pojišťov.ATLAS</td></tr><tr><td style=\"white-space:nowrap\">209<a name=\"healthInsuranceCompanyCode-209\"> </a></td><td>Zaměstnanecká pojišťovna ŠKODA</td></tr><tr><td style=\"white-space:nowrap\">210<a name=\"healthInsuranceCompanyCode-210\"> </a></td><td>Zdravotní pokladna škodováků</td></tr><tr><td style=\"white-space:nowrap\">211<a name=\"healthInsuranceCompanyCode-211\"> </a></td><td>Zdravotní pojišťovna minister.vnitra ČR</td></tr><tr><td style=\"white-space:nowrap\">212<a name=\"healthInsuranceCompanyCode-212\"> </a></td><td>STAZPO - Stavební zdravotní pojišťovna</td></tr><tr><td style=\"white-space:nowrap\">213<a name=\"healthInsuranceCompanyCode-213\"> </a></td><td>Revírní bratrská pokladna, zdravot.poj.</td></tr><tr><td style=\"white-space:nowrap\">214<a name=\"healthInsuranceCompanyCode-214\"> </a></td><td>Regionální zdravotní pojišťovna REZAPO</td></tr><tr><td style=\"white-space:nowrap\">215<a name=\"healthInsuranceCompanyCode-215\"> </a></td><td>IMPULS-Moravskoslezská zdravotní pojišť.</td></tr><tr><td style=\"white-space:nowrap\">216<a name=\"healthInsuranceCompanyCode-216\"> </a></td><td>Sdruž.dopr.a zem.-podnik.zdr.poj.SALVUS</td></tr><tr><td style=\"white-space:nowrap\">217<a name=\"healthInsuranceCompanyCode-217\"> </a></td><td>Zdravotní pojišťovna METAL-ALIANCE</td></tr><tr><td style=\"white-space:nowrap\">218<a name=\"healthInsuranceCompanyCode-218\"> </a></td><td>Zdravotní pojišťovna CRYSTAL</td></tr><tr><td style=\"white-space:nowrap\">219<a name=\"healthInsuranceCompanyCode-219\"> </a></td><td>Prostějovská zdravotní pojišťovna</td></tr><tr><td style=\"white-space:nowrap\">220<a name=\"healthInsuranceCompanyCode-220\"> </a></td><td>Zaměstnanecká zdravot.pojišťovna PRIMA</td></tr><tr><td style=\"white-space:nowrap\">221<a name=\"healthInsuranceCompanyCode-221\"> </a></td><td>Mendlova zdravotní pojišťovna</td></tr><tr><td style=\"white-space:nowrap\">222<a name=\"healthInsuranceCompanyCode-222\"> </a></td><td>Česká národní zdravotní pojišťovna</td></tr><tr><td style=\"white-space:nowrap\">223<a name=\"healthInsuranceCompanyCode-223\"> </a></td><td>Zemědělsko-potravinářská zdrav.pojišť.</td></tr><tr><td style=\"white-space:nowrap\">224<a name=\"healthInsuranceCompanyCode-224\"> </a></td><td>Zaměstnanecká zdravotní pojišťovna RADIX</td></tr><tr><td style=\"white-space:nowrap\">225<a name=\"healthInsuranceCompanyCode-225\"> </a></td><td>Zdravotní pojišťovna SPORT</td></tr><tr><td style=\"white-space:nowrap\">226<a name=\"healthInsuranceCompanyCode-226\"> </a></td><td>Zdrav.pojišť.chemie,zdravot. a farmacie</td></tr><tr><td style=\"white-space:nowrap\">227<a name=\"healthInsuranceCompanyCode-227\"> </a></td><td>Zdravotní pojišťovna AGEL</td></tr><tr><td style=\"white-space:nowrap\">228<a name=\"healthInsuranceCompanyCode-228\"> </a></td><td>Zdravotní pojišťovna Média</td></tr><tr><td style=\"white-space:nowrap\">333<a name=\"healthInsuranceCompanyCode-333\"> </a></td><td>Všeobecná zdravotní pojišťovna - pojištění cizinců</td></tr><tr><td style=\"white-space:nowrap\">800<a name=\"healthInsuranceCompanyCode-800\"> </a></td><td>Vládní stipendista - hradí MZ ČR</td></tr><tr><td style=\"white-space:nowrap\">000<a name=\"healthInsuranceCompanyCode-000\"> </a></td><td>Bez smlouvy se zdravotní pojišťovnou</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 2
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use"
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "https://ncez.mzcr.cz/terminology/CodeSystem/healthInsuranceCompanyCode"^^xsd:anyURI ;
+     fhir:l <https://ncez.mzcr.cz/terminology/CodeSystem/healthInsuranceCompanyCode>
+  ] ; # 
+  fhir:version [ fhir:v "0.2.0"] ; # 
+  fhir:name [ fhir:v "CS_HealthInsuranceCompanyCode"] ; # 
+  fhir:title [ fhir:v "Codesystem of Health Insurance Companies"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2025-01-17"^^xsd:date] ; # 
+  fhir:publisher [ fhir:v "HL7 Czech Republic"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HL7 Czech Republic" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://www.hl7.cz/" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "National codes of health insurance companies."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
+         fhir:l <urn:iso:std:iso:3166>
+       ] ;
+       fhir:code [ fhir:v "CZ" ] ;
+       fhir:display [ fhir:v "Czechia" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "32"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "111" ] ;
+     fhir:display [ fhir:v "Všeobecná zdravotní pojišťovna ČR" ]
+  ] [
+     fhir:code [ fhir:v "201" ] ;
+     fhir:display [ fhir:v "Vojenská zdravotní pojišťovna ČR" ]
+  ] [
+     fhir:code [ fhir:v "202" ] ;
+     fhir:display [ fhir:v "Hornická zaměstnanecká zdrav.pojišťovna" ]
+  ] [
+     fhir:code [ fhir:v "203" ] ;
+     fhir:display [ fhir:v "GRÁL-Železniční zdravotní pojišťovna" ]
+  ] [
+     fhir:code [ fhir:v "204" ] ;
+     fhir:display [ fhir:v "Pojišťovna GARANT-HOSPITAL" ]
+  ] [
+     fhir:code [ fhir:v "205" ] ;
+     fhir:display [ fhir:v "Česká průmyslová zdravotní pojišťovna" ]
+  ] [
+     fhir:code [ fhir:v "206" ] ;
+     fhir:display [ fhir:v "Moravská zdravotní pojišťovna" ]
+  ] [
+     fhir:code [ fhir:v "207" ] ;
+     fhir:display [ fhir:v "Obor.zdravot.poj.zam.bank,pojiš. a stav." ]
+  ] [
+     fhir:code [ fhir:v "208" ] ;
+     fhir:display [ fhir:v "Zaměstnanecká zdravotní pojišťov.ATLAS" ]
+  ] [
+     fhir:code [ fhir:v "209" ] ;
+     fhir:display [ fhir:v "Zaměstnanecká pojišťovna ŠKODA" ]
+  ] [
+     fhir:code [ fhir:v "210" ] ;
+     fhir:display [ fhir:v "Zdravotní pokladna škodováků" ]
+  ] [
+     fhir:code [ fhir:v "211" ] ;
+     fhir:display [ fhir:v "Zdravotní pojišťovna minister.vnitra ČR" ]
+  ] [
+     fhir:code [ fhir:v "212" ] ;
+     fhir:display [ fhir:v "STAZPO - Stavební zdravotní pojišťovna" ]
+  ] [
+     fhir:code [ fhir:v "213" ] ;
+     fhir:display [ fhir:v "Revírní bratrská pokladna, zdravot.poj." ]
+  ] [
+     fhir:code [ fhir:v "214" ] ;
+     fhir:display [ fhir:v "Regionální zdravotní pojišťovna REZAPO" ]
+  ] [
+     fhir:code [ fhir:v "215" ] ;
+     fhir:display [ fhir:v "IMPULS-Moravskoslezská zdravotní pojišť." ]
+  ] [
+     fhir:code [ fhir:v "216" ] ;
+     fhir:display [ fhir:v "Sdruž.dopr.a zem.-podnik.zdr.poj.SALVUS" ]
+  ] [
+     fhir:code [ fhir:v "217" ] ;
+     fhir:display [ fhir:v "Zdravotní pojišťovna METAL-ALIANCE" ]
+  ] [
+     fhir:code [ fhir:v "218" ] ;
+     fhir:display [ fhir:v "Zdravotní pojišťovna CRYSTAL" ]
+  ] [
+     fhir:code [ fhir:v "219" ] ;
+     fhir:display [ fhir:v "Prostějovská zdravotní pojišťovna" ]
+  ] [
+     fhir:code [ fhir:v "220" ] ;
+     fhir:display [ fhir:v "Zaměstnanecká zdravot.pojišťovna PRIMA" ]
+  ] [
+     fhir:code [ fhir:v "221" ] ;
+     fhir:display [ fhir:v "Mendlova zdravotní pojišťovna" ]
+  ] [
+     fhir:code [ fhir:v "222" ] ;
+     fhir:display [ fhir:v "Česká národní zdravotní pojišťovna" ]
+  ] [
+     fhir:code [ fhir:v "223" ] ;
+     fhir:display [ fhir:v "Zemědělsko-potravinářská zdrav.pojišť." ]
+  ] [
+     fhir:code [ fhir:v "224" ] ;
+     fhir:display [ fhir:v "Zaměstnanecká zdravotní pojišťovna RADIX" ]
+  ] [
+     fhir:code [ fhir:v "225" ] ;
+     fhir:display [ fhir:v "Zdravotní pojišťovna SPORT" ]
+  ] [
+     fhir:code [ fhir:v "226" ] ;
+     fhir:display [ fhir:v "Zdrav.pojišť.chemie,zdravot. a farmacie" ]
+  ] [
+     fhir:code [ fhir:v "227" ] ;
+     fhir:display [ fhir:v "Zdravotní pojišťovna AGEL" ]
+  ] [
+     fhir:code [ fhir:v "228" ] ;
+     fhir:display [ fhir:v "Zdravotní pojišťovna Média" ]
+  ] [
+     fhir:code [ fhir:v "333" ] ;
+     fhir:display [ fhir:v "Všeobecná zdravotní pojišťovna - pojištění cizinců" ]
+  ] [
+     fhir:code [ fhir:v "800" ] ;
+     fhir:display [ fhir:v "Vládní stipendista - hradí MZ ČR" ]
+  ] [
+     fhir:code [ fhir:v "000" ] ;
+     fhir:display [ fhir:v "Bez smlouvy se zdravotní pojišťovnou" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,1930 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "eHDSIAllergenNoDrug-cz",
+  "language" : "cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"cs\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"cs\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet eHDSIAllergenNoDrug-cz</b></p><a name=\"eHDSIAllergenNoDrug-cz\"> </a><a name=\"hceHDSIAllergenNoDrug-cz\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: cs</p></div><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/432003\">432003</a></td><td>kyselina karminová – barvivo (E120)</td></tr><tr><td><a href=\"http://snomed.info/id/2159007\">2159007</a></td><td>azorubin</td></tr><tr><td><a href=\"http://snomed.info/id/2309006\">2309006</a></td><td>zlato</td></tr><tr><td><a href=\"http://snomed.info/id/2799001\">2799001</a></td><td>methylbenzethoniumchlorid</td></tr><tr><td><a href=\"http://snomed.info/id/3718001\">3718001</a></td><td>kravské mléko</td></tr><tr><td><a href=\"http://snomed.info/id/3829006\">3829006</a></td><td>železo</td></tr><tr><td><a href=\"http://snomed.info/id/6725000\">6725000</a></td><td>methylenová modř</td></tr><tr><td><a href=\"http://snomed.info/id/7434003\">7434003</a></td><td>erytrosin B – barvivo (E-127)</td></tr><tr><td><a href=\"http://snomed.info/id/8204009\">8204009</a></td><td>polyester</td></tr><tr><td><a href=\"http://snomed.info/id/9010006\">9010006</a></td><td>methylová modř</td></tr><tr><td><a href=\"http://snomed.info/id/9021002\">9021002</a></td><td>karbaryl</td></tr><tr><td><a href=\"http://snomed.info/id/11526002\">11526002</a></td><td>aspartam</td></tr><tr><td><a href=\"http://snomed.info/id/12503006\">12503006</a></td><td>hliník</td></tr><tr><td><a href=\"http://snomed.info/id/12510000\">12510000</a></td><td>eukalyptový olej</td></tr><tr><td><a href=\"http://snomed.info/id/13577000\">13577000</a></td><td>ořech</td></tr><tr><td><a href=\"http://snomed.info/id/13652007\">13652007</a></td><td>silikon</td></tr><tr><td><a href=\"http://snomed.info/id/14402002\">14402002</a></td><td>dřevo</td></tr><tr><td><a href=\"http://snomed.info/id/16313001\">16313001</a></td><td>čaj</td></tr><tr><td><a href=\"http://snomed.info/id/17172002\">17172002</a></td><td>dibromofluorescein</td></tr><tr><td><a href=\"http://snomed.info/id/17486007\">17486007</a></td><td>mecrylate</td></tr><tr><td><a href=\"http://snomed.info/id/17693003\">17693003</a></td><td>akriflavin</td></tr><tr><td><a href=\"http://snomed.info/id/19839007\">19839007</a></td><td>sorbitol</td></tr><tr><td><a href=\"http://snomed.info/id/19893005\">19893005</a></td><td>dichroman draselný</td></tr><tr><td><a href=\"http://snomed.info/id/21592006\">21592006</a></td><td>tartrazin</td></tr><tr><td><a href=\"http://snomed.info/id/22242006\">22242006</a></td><td>glutaraldehyd</td></tr><tr><td><a href=\"http://snomed.info/id/22836000\">22836000</a></td><td>zelenina</td></tr><tr><td><a href=\"http://snomed.info/id/22931006\">22931006</a></td><td>Evansova modř</td></tr><tr><td><a href=\"http://snomed.info/id/24102007\">24102007</a></td><td>chlorthalonil</td></tr><tr><td><a href=\"http://snomed.info/id/24215009\">24215009</a></td><td>kyselina pikrová</td></tr><tr><td><a href=\"http://snomed.info/id/25761002\">25761002</a></td><td>glutamin</td></tr><tr><td><a href=\"http://snomed.info/id/27119002\">27119002</a></td><td>trimelitický anhydrid</td></tr><tr><td><a href=\"http://snomed.info/id/28230009\">28230009</a></td><td>drůbeží maso</td></tr><tr><td><a href=\"http://snomed.info/id/28421003\">28421003</a></td><td>kyselina sorbová</td></tr><tr><td><a href=\"http://snomed.info/id/28647000\">28647000</a></td><td>maso</td></tr><tr><td><a href=\"http://snomed.info/id/29263009\">29263009</a></td><td>káva</td></tr><tr><td><a href=\"http://snomed.info/id/29522004\">29522004</a></td><td>tolonium chlorid</td></tr><tr><td><a href=\"http://snomed.info/id/31006001\">31006001</a></td><td>říše Plantae (rostliny)</td></tr><tr><td><a href=\"http://snomed.info/id/31347007\">31347007</a></td><td>lékořice</td></tr><tr><td><a href=\"http://snomed.info/id/33008008\">33008008</a></td><td>prach</td></tr><tr><td><a href=\"http://snomed.info/id/33396006\">33396006</a></td><td>nikl</td></tr><tr><td><a href=\"http://snomed.info/id/35605007\">35605007</a></td><td>lanolin bezvodý</td></tr><tr><td><a href=\"http://snomed.info/id/35609001\">35609001</a></td><td>azofloxin</td></tr><tr><td><a href=\"http://snomed.info/id/37017009\">37017009</a></td><td>parazitičtí červi</td></tr><tr><td><a href=\"http://snomed.info/id/37575004\">37575004</a></td><td>karmoisin A (E122)</td></tr><tr><td><a href=\"http://snomed.info/id/38271009\">38271009</a></td><td>šafránová žluť;</td></tr><tr><td><a href=\"http://snomed.info/id/41750006\">41750006</a></td><td>brazilein</td></tr><tr><td><a href=\"http://snomed.info/id/41967008\">41967008</a></td><td>stříbro</td></tr><tr><td><a href=\"http://snomed.info/id/42416001\">42416001</a></td><td>lanolin</td></tr><tr><td><a href=\"http://snomed.info/id/43230003\">43230003</a></td><td>guma</td></tr><tr><td><a href=\"http://snomed.info/id/43735007\">43735007</a></td><td>síra</td></tr><tr><td><a href=\"http://snomed.info/id/44027008\">44027008</a></td><td>potrava z mořských živočichů (mořské plody)</td></tr><tr><td><a href=\"http://snomed.info/id/47703008\">47703008</a></td><td>laktóza</td></tr><tr><td><a href=\"http://snomed.info/id/48540004\">48540004</a></td><td>patentní modř V, sodná sůl (E131)</td></tr><tr><td><a href=\"http://snomed.info/id/50593009\">50593009</a></td><td>kasein</td></tr><tr><td><a href=\"http://snomed.info/id/51503008\">51503008</a></td><td>růžový olej</td></tr><tr><td><a href=\"http://snomed.info/id/51905005\">51905005</a></td><td>hořčice</td></tr><tr><td><a href=\"http://snomed.info/id/51963001\">51963001</a></td><td>sulfitová sůl</td></tr><tr><td><a href=\"http://snomed.info/id/52454007\">52454007</a></td><td>albumin</td></tr><tr><td><a href=\"http://snomed.info/id/52836003\">52836003</a></td><td>paraformaldehyd</td></tr><tr><td><a href=\"http://snomed.info/id/54041009\">54041009</a></td><td>světlicový olej</td></tr><tr><td><a href=\"http://snomed.info/id/56822005\">56822005</a></td><td>kvartérní amoniová sůl</td></tr><tr><td><a href=\"http://snomed.info/id/57126000\">57126000</a></td><td>lepidlo</td></tr><tr><td><a href=\"http://snomed.info/id/57720001\">57720001</a></td><td>anýzový olej</td></tr><tr><td><a href=\"http://snomed.info/id/59351004\">59351004</a></td><td>citrát</td></tr><tr><td><a href=\"http://snomed.info/id/59533004\">59533004</a></td><td>potravinové aditivum</td></tr><tr><td><a href=\"http://snomed.info/id/59545008\">59545008</a></td><td>pesticid</td></tr><tr><td><a href=\"http://snomed.info/id/61088005\">61088005</a></td><td>plast</td></tr><tr><td><a href=\"http://snomed.info/id/61789006\">61789006</a></td><td>barvivo</td></tr><tr><td><a href=\"http://snomed.info/id/63338004\">63338004</a></td><td>dochucovadlo léčiv</td></tr><tr><td><a href=\"http://snomed.info/id/64601002\">64601002</a></td><td>dřevěný prach</td></tr><tr><td><a href=\"http://snomed.info/id/65123005\">65123005</a></td><td>cholin</td></tr><tr><td><a href=\"http://snomed.info/id/65345002\">65345002</a></td><td>epoxidová pryskyřice</td></tr><tr><td><a href=\"http://snomed.info/id/66562002\">66562002</a></td><td>cigaretový tabák</td></tr><tr><td><a href=\"http://snomed.info/id/66925006\">66925006</a></td><td>měď</td></tr><tr><td><a href=\"http://snomed.info/id/67324005\">67324005</a></td><td>rýže</td></tr><tr><td><a href=\"http://snomed.info/id/68524009\">68524009</a></td><td>tragant</td></tr><tr><td><a href=\"http://snomed.info/id/71463006\">71463006</a></td><td>polyethylen</td></tr><tr><td><a href=\"http://snomed.info/id/72179002\">72179002</a></td><td>oxybenzon</td></tr><tr><td><a href=\"http://snomed.info/id/72511004\">72511004</a></td><td>ovoce</td></tr><tr><td><a href=\"http://snomed.info/id/75044009\">75044009</a></td><td>sisalové vlákno</td></tr><tr><td><a href=\"http://snomed.info/id/75665004\">75665004</a></td><td>glutamát sodný</td></tr><tr><td><a href=\"http://snomed.info/id/80237000\">80237000</a></td><td>kakaové máslo</td></tr><tr><td><a href=\"http://snomed.info/id/81911001\">81911001</a></td><td>žvýkací tabák</td></tr><tr><td><a href=\"http://snomed.info/id/82566005\">82566005</a></td><td>krmivo</td></tr><tr><td><a href=\"http://snomed.info/id/83595008\">83595008</a></td><td>kozí mléko</td></tr><tr><td><a href=\"http://snomed.info/id/83619009\">83619009</a></td><td>polyvinylalkohol</td></tr><tr><td><a href=\"http://snomed.info/id/84212004\">84212004</a></td><td>ethylenimin</td></tr><tr><td><a href=\"http://snomed.info/id/84791008\">84791008</a></td><td>disiřičitan sodný</td></tr><tr><td><a href=\"http://snomed.info/id/89889006\">89889006</a></td><td>bavlněné vlákno</td></tr><tr><td><a href=\"http://snomed.info/id/102259006\">102259006</a></td><td>citrusové ovoce</td></tr><tr><td><a href=\"http://snomed.info/id/102261002\">102261002</a></td><td>jahoda</td></tr><tr><td><a href=\"http://snomed.info/id/102262009\">102262009</a></td><td>čokoláda</td></tr><tr><td><a href=\"http://snomed.info/id/102263004\">102263004</a></td><td>vejce</td></tr><tr><td><a href=\"http://snomed.info/id/102264005\">102264005</a></td><td>sýr</td></tr><tr><td><a href=\"http://snomed.info/id/102697003\">102697003</a></td><td>laktalbumin</td></tr><tr><td><a href=\"http://snomed.info/id/105590001\">105590001</a></td><td>látka</td></tr><tr><td><a href=\"http://snomed.info/id/111095003\">111095003</a></td><td>formaldehyd</td></tr><tr><td><a href=\"http://snomed.info/id/115589000\">115589000</a></td><td>ethanolamin</td></tr><tr><td><a href=\"http://snomed.info/id/116364004\">116364004</a></td><td>diazoniová sůl</td></tr><tr><td><a href=\"http://snomed.info/id/116549003\">116549003</a></td><td>organochlorinový pesticid</td></tr><tr><td><a href=\"http://snomed.info/id/116637007\">116637007</a></td><td>houbový antigen</td></tr><tr><td><a href=\"http://snomed.info/id/119417004\">119417004</a></td><td>organofosfátový insekticid</td></tr><tr><td><a href=\"http://snomed.info/id/128488006\">128488006</a></td><td>domácí prach</td></tr><tr><td><a href=\"http://snomed.info/id/226491003\">226491003</a></td><td>jablečná šťáva, jablečný mošt</td></tr><tr><td><a href=\"http://snomed.info/id/226723006\">226723006</a></td><td>pohanka - obilovina</td></tr><tr><td><a href=\"http://snomed.info/id/226776001\">226776001</a></td><td>sušené kravské mléko</td></tr><tr><td><a href=\"http://snomed.info/id/226791004\">226791004</a></td><td>ovčí mléko</td></tr><tr><td><a href=\"http://snomed.info/id/226915003\">226915003</a></td><td>červené maso</td></tr><tr><td><a href=\"http://snomed.info/id/226916002\">226916002</a></td><td>hovězí maso</td></tr><tr><td><a href=\"http://snomed.info/id/226942002\">226942002</a></td><td>jehněčí</td></tr><tr><td><a href=\"http://snomed.info/id/226955001\">226955001</a></td><td>kuřecí maso</td></tr><tr><td><a href=\"http://snomed.info/id/226963000\">226963000</a></td><td>kachní maso</td></tr><tr><td><a href=\"http://snomed.info/id/226967004\">226967004</a></td><td>krůtí maso</td></tr><tr><td><a href=\"http://snomed.info/id/227067008\">227067008</a></td><td>halibut</td></tr><tr><td><a href=\"http://snomed.info/id/227072004\">227072004</a></td><td>jazyk mořský</td></tr><tr><td><a href=\"http://snomed.info/id/227078000\">227078000</a></td><td>ďas mořský</td></tr><tr><td><a href=\"http://snomed.info/id/227083008\">227083008</a></td><td>platýs</td></tr><tr><td><a href=\"http://snomed.info/id/227099002\">227099002</a></td><td>treska polák</td></tr><tr><td><a href=\"http://snomed.info/id/227106004\">227106004</a></td><td>treska bělavá</td></tr><tr><td><a href=\"http://snomed.info/id/227136008\">227136008</a></td><td>sardinka</td></tr><tr><td><a href=\"http://snomed.info/id/227139001\">227139001</a></td><td>šproty</td></tr><tr><td><a href=\"http://snomed.info/id/227151004\">227151004</a></td><td>krevety</td></tr><tr><td><a href=\"http://snomed.info/id/227156009\">227156009</a></td><td>krevety scampi</td></tr><tr><td><a href=\"http://snomed.info/id/227183005\">227183005</a></td><td>rybí jikry</td></tr><tr><td><a href=\"http://snomed.info/id/227215000\">227215000</a></td><td>artyčok</td></tr><tr><td><a href=\"http://snomed.info/id/227219006\">227219006</a></td><td>lilek</td></tr><tr><td><a href=\"http://snomed.info/id/227220000\">227220000</a></td><td>červená řepa</td></tr><tr><td><a href=\"http://snomed.info/id/227227002\">227227002</a></td><td>kapusta</td></tr><tr><td><a href=\"http://snomed.info/id/227229004\">227229004</a></td><td>bílé zelí</td></tr><tr><td><a href=\"http://snomed.info/id/227230009\">227230009</a></td><td>kadeřávek</td></tr><tr><td><a href=\"http://snomed.info/id/227313005\">227313005</a></td><td>luštěniny</td></tr><tr><td><a href=\"http://snomed.info/id/227350006\">227350006</a></td><td>čočka</td></tr><tr><td><a href=\"http://snomed.info/id/227362005\">227362005</a></td><td>červené fazole</td></tr><tr><td><a href=\"http://snomed.info/id/227376006\">227376006</a></td><td>semeno anýzu</td></tr><tr><td><a href=\"http://snomed.info/id/227379004\">227379004</a></td><td>bobkový list</td></tr><tr><td><a href=\"http://snomed.info/id/227382009\">227382009</a></td><td>kardamom</td></tr><tr><td><a href=\"http://snomed.info/id/227383004\">227383004</a></td><td>semeno celeru</td></tr><tr><td><a href=\"http://snomed.info/id/227385006\">227385006</a></td><td>chilli koření</td></tr><tr><td><a href=\"http://snomed.info/id/227388008\">227388008</a></td><td>skořice</td></tr><tr><td><a href=\"http://snomed.info/id/227390009\">227390009</a></td><td>list koriandru</td></tr><tr><td><a href=\"http://snomed.info/id/227391008\">227391008</a></td><td>semeno koriandru</td></tr><tr><td><a href=\"http://snomed.info/id/227395004\">227395004</a></td><td>kari koření</td></tr><tr><td><a href=\"http://snomed.info/id/227396003\">227396003</a></td><td>fenykl</td></tr><tr><td><a href=\"http://snomed.info/id/227400003\">227400003</a></td><td>zázvor</td></tr><tr><td><a href=\"http://snomed.info/id/227404007\">227404007</a></td><td>muškátový květ</td></tr><tr><td><a href=\"http://snomed.info/id/227405008\">227405008</a></td><td>majoránka</td></tr><tr><td><a href=\"http://snomed.info/id/227407000\">227407000</a></td><td>oregáno</td></tr><tr><td><a href=\"http://snomed.info/id/227408005\">227408005</a></td><td>paprika</td></tr><tr><td><a href=\"http://snomed.info/id/227409002\">227409002</a></td><td>mák</td></tr><tr><td><a href=\"http://snomed.info/id/227411006\">227411006</a></td><td>šalvěj</td></tr><tr><td><a href=\"http://snomed.info/id/227413009\">227413009</a></td><td>tymián</td></tr><tr><td><a href=\"http://snomed.info/id/227414003\">227414003</a></td><td>kurkuma</td></tr><tr><td><a href=\"http://snomed.info/id/227425007\">227425007</a></td><td>fíky</td></tr><tr><td><a href=\"http://snomed.info/id/227435001\">227435001</a></td><td>nektarinka</td></tr><tr><td><a href=\"http://snomed.info/id/227444000\">227444000</a></td><td>malina</td></tr><tr><td><a href=\"http://snomed.info/id/227447007\">227447007</a></td><td>kaki</td></tr><tr><td><a href=\"http://snomed.info/id/227493005\">227493005</a></td><td>kešu ořech</td></tr><tr><td><a href=\"http://snomed.info/id/227501001\">227501001</a></td><td>makadamiový ořech</td></tr><tr><td><a href=\"http://snomed.info/id/227514000\">227514000</a></td><td>dýňové semeno</td></tr><tr><td><a href=\"http://snomed.info/id/227515004\">227515004</a></td><td>merlík chilský</td></tr><tr><td><a href=\"http://snomed.info/id/227538001\">227538001</a></td><td>nakládaná zelenina</td></tr><tr><td><a href=\"http://snomed.info/id/227598003\">227598003</a></td><td>med</td></tr><tr><td><a href=\"http://snomed.info/id/228104004\">228104004</a></td><td>butylovaný hydroxyanisol</td></tr><tr><td><a href=\"http://snomed.info/id/229934002\">229934002</a></td><td>mouka z cizrny</td></tr><tr><td><a href=\"http://snomed.info/id/229941008\">229941008</a></td><td>sójová mouka</td></tr><tr><td><a href=\"http://snomed.info/id/230034002\">230034002</a></td><td>ořechy a semena</td></tr><tr><td><a href=\"http://snomed.info/id/255640000\">255640000</a></td><td>biocid</td></tr><tr><td><a href=\"http://snomed.info/id/255667006\">255667006</a></td><td>parafín</td></tr><tr><td><a href=\"http://snomed.info/id/255764006\">255764006</a></td><td>freon</td></tr><tr><td><a href=\"http://snomed.info/id/255769001\">255769001</a></td><td>anhydrid hexahydrofthalový</td></tr><tr><td><a href=\"http://snomed.info/id/255772008\">255772008</a></td><td>difenylmethan diisokyanát</td></tr><tr><td><a href=\"http://snomed.info/id/255775005\">255775005</a></td><td>maleinanhydrid</td></tr><tr><td><a href=\"http://snomed.info/id/255842006\">255842006</a></td><td>balzám peruánský</td></tr><tr><td><a href=\"http://snomed.info/id/255859001\">255859001</a></td><td>butylovaný hydroxytoluen</td></tr><tr><td><a href=\"http://snomed.info/id/255864002\">255864002</a></td><td>ethyl-4-hydroxybenzoát</td></tr><tr><td><a href=\"http://snomed.info/id/255868004\">255868004</a></td><td>methyl 4-hydroxybenzoát</td></tr><tr><td><a href=\"http://snomed.info/id/255924000\">255924000</a></td><td>eugenol</td></tr><tr><td><a href=\"http://snomed.info/id/256260009\">256260009</a></td><td>pyl stromů a keřů</td></tr><tr><td><a href=\"http://snomed.info/id/256272003\">256272003</a></td><td>pyl jilmů</td></tr><tr><td><a href=\"http://snomed.info/id/256289006\">256289006</a></td><td>pyl chryzantém</td></tr><tr><td><a href=\"http://snomed.info/id/256292005\">256292005</a></td><td>pyl květin a bylin</td></tr><tr><td><a href=\"http://snomed.info/id/256293000\">256293000</a></td><td>pyl pelyňku černobýlu</td></tr><tr><td><a href=\"http://snomed.info/id/256303006\">256303006</a></td><td>pyl ambrózie</td></tr><tr><td><a href=\"http://snomed.info/id/256305004\">256305004</a></td><td>stromová pryskyřice</td></tr><tr><td><a href=\"http://snomed.info/id/256306003\">256306003</a></td><td>pomeranč</td></tr><tr><td><a href=\"http://snomed.info/id/256307007\">256307007</a></td><td>banán</td></tr><tr><td><a href=\"http://snomed.info/id/256313003\">256313003</a></td><td>ananas</td></tr><tr><td><a href=\"http://snomed.info/id/256315005\">256315005</a></td><td>grapefruit</td></tr><tr><td><a href=\"http://snomed.info/id/256316006\">256316006</a></td><td>mandarinka</td></tr><tr><td><a href=\"http://snomed.info/id/256317002\">256317002</a></td><td>hrozny</td></tr><tr><td><a href=\"http://snomed.info/id/256318007\">256318007</a></td><td>zelené fazole</td></tr><tr><td><a href=\"http://snomed.info/id/256319004\">256319004</a></td><td>mrkev</td></tr><tr><td><a href=\"http://snomed.info/id/256326004\">256326004</a></td><td>celer</td></tr><tr><td><a href=\"http://snomed.info/id/256329006\">256329006</a></td><td>špenát</td></tr><tr><td><a href=\"http://snomed.info/id/256331002\">256331002</a></td><td>kopr</td></tr><tr><td><a href=\"http://snomed.info/id/256350002\">256350002</a></td><td>mandle</td></tr><tr><td><a href=\"http://snomed.info/id/256351003\">256351003</a></td><td>para ořech</td></tr><tr><td><a href=\"http://snomed.info/id/256352005\">256352005</a></td><td>vlašský ořech - potravina</td></tr><tr><td><a href=\"http://snomed.info/id/256353000\">256353000</a></td><td>lískový ořech</td></tr><tr><td><a href=\"http://snomed.info/id/256354006\">256354006</a></td><td>fazole</td></tr><tr><td><a href=\"http://snomed.info/id/256363008\">256363008</a></td><td>živočišný materiál</td></tr><tr><td><a href=\"http://snomed.info/id/256419000\">256419000</a></td><td>myší epitel</td></tr><tr><td><a href=\"http://snomed.info/id/256435007\">256435007</a></td><td>peří</td></tr><tr><td><a href=\"http://snomed.info/id/256443002\">256443002</a></td><td>vaječný bílek</td></tr><tr><td><a href=\"http://snomed.info/id/256506002\">256506002</a></td><td>materiál z nerezové oceli</td></tr><tr><td><a href=\"http://snomed.info/id/256526003\">256526003</a></td><td>slitina kobaltu a chrómu</td></tr><tr><td><a href=\"http://snomed.info/id/256579008\">256579008</a></td><td>durapatit</td></tr><tr><td><a href=\"http://snomed.info/id/256596009\">256596009</a></td><td>zlatá dentální pájka</td></tr><tr><td><a href=\"http://snomed.info/id/256607001\">256607001</a></td><td>žáruvzdorná dentální keramika</td></tr><tr><td><a href=\"http://snomed.info/id/256633009\">256633009</a></td><td>polypropylen</td></tr><tr><td><a href=\"http://snomed.info/id/259221006\">259221006</a></td><td>methanol</td></tr><tr><td><a href=\"http://snomed.info/id/260118006\">260118006</a></td><td>pyl drnavce</td></tr><tr><td><a href=\"http://snomed.info/id/260126003\">260126003</a></td><td>pyl olivovníku</td></tr><tr><td><a href=\"http://snomed.info/id/260152009\">260152009</a></td><td>kočičí lupy a srst</td></tr><tr><td><a href=\"http://snomed.info/id/260153004\">260153004</a></td><td>kravské lupy a srst</td></tr><tr><td><a href=\"http://snomed.info/id/260154005\">260154005</a></td><td>psí lupy a srst</td></tr><tr><td><a href=\"http://snomed.info/id/260167008\">260167008</a></td><td>sezamové semínko</td></tr><tr><td><a href=\"http://snomed.info/id/260168003\">260168003</a></td><td>bílá fazole</td></tr><tr><td><a href=\"http://snomed.info/id/260176001\">260176001</a></td><td>kiwi</td></tr><tr><td><a href=\"http://snomed.info/id/260177005\">260177005</a></td><td>meloun</td></tr><tr><td><a href=\"http://snomed.info/id/260179008\">260179008</a></td><td>mango (ovoce)</td></tr><tr><td><a href=\"http://snomed.info/id/260184002\">260184002</a></td><td>hrách</td></tr><tr><td><a href=\"http://snomed.info/id/260189007\">260189007</a></td><td>pekanový ořech</td></tr><tr><td><a href=\"http://snomed.info/id/260204008\">260204008</a></td><td>semeno bavlny</td></tr><tr><td><a href=\"http://snomed.info/id/260205009\">260205009</a></td><td>slunečnicové semeno</td></tr><tr><td><a href=\"http://snomed.info/id/261249004\">261249004</a></td><td>slitina nikl–kobalt–chrom</td></tr><tr><td><a href=\"http://snomed.info/id/261712009\">261712009</a></td><td>akrylový polymer</td></tr><tr><td><a href=\"http://snomed.info/id/264287008\">264287008</a></td><td>zvířecí lupy a srst</td></tr><tr><td><a href=\"http://snomed.info/id/264295007\">264295007</a></td><td>bílkovina kravského mléka</td></tr><tr><td><a href=\"http://snomed.info/id/264331002\">264331002</a></td><td>obilí</td></tr><tr><td><a href=\"http://snomed.info/id/264337003\">264337003</a></td><td>semeno</td></tr><tr><td><a href=\"http://snomed.info/id/276310004\">276310004</a></td><td>zvířecí chlupy</td></tr><tr><td><a href=\"http://snomed.info/id/277016007\">277016007</a></td><td>alfa-chloralóza</td></tr><tr><td><a href=\"http://snomed.info/id/278840001\">278840001</a></td><td>kreveta</td></tr><tr><td><a href=\"http://snomed.info/id/280939008\">280939008</a></td><td>hmyzí jed</td></tr><tr><td><a href=\"http://snomed.info/id/288326000\">288326000</a></td><td>jed sršně</td></tr><tr><td><a href=\"http://snomed.info/id/288328004\">288328004</a></td><td>včelí jed</td></tr><tr><td><a href=\"http://snomed.info/id/288460008\">288460008</a></td><td>jed čmeláka</td></tr><tr><td><a href=\"http://snomed.info/id/290008007\">290008007</a></td><td>pyl bodláku</td></tr><tr><td><a href=\"http://snomed.info/id/301093003\">301093003</a></td><td>anhydrid organické kyseliny</td></tr><tr><td><a href=\"http://snomed.info/id/303300008\">303300008</a></td><td>vaječná bílkovina</td></tr><tr><td><a href=\"http://snomed.info/id/303314008\">303314008</a></td><td>jed škorpióna</td></tr><tr><td><a href=\"http://snomed.info/id/303315009\">303315009</a></td><td>jed pavouků</td></tr><tr><td><a href=\"http://snomed.info/id/311443003\">311443003</a></td><td>prach z kávových zrn</td></tr><tr><td><a href=\"http://snomed.info/id/311731000\">311731000</a></td><td>parafínový vosk</td></tr><tr><td><a href=\"http://snomed.info/id/387293003\">387293003</a></td><td>anthralin (dithranol)</td></tr><tr><td><a href=\"http://snomed.info/id/395734009\">395734009</a></td><td>guarová guma</td></tr><tr><td><a href=\"http://snomed.info/id/396049000\">396049000</a></td><td>ethyl-2-kyanoakrylát</td></tr><tr><td><a href=\"http://snomed.info/id/398705004\">398705004</a></td><td>konopí</td></tr><tr><td><a href=\"http://snomed.info/id/410853002\">410853002</a></td><td>perfluorochemical</td></tr><tr><td><a href=\"http://snomed.info/id/412056003\">412056003</a></td><td>fazole Lima</td></tr><tr><td><a href=\"http://snomed.info/id/412060000\">412060000</a></td><td>pepř černý</td></tr><tr><td><a href=\"http://snomed.info/id/412061001\">412061001</a></td><td>borůvky</td></tr><tr><td><a href=\"http://snomed.info/id/412068007\">412068007</a></td><td>žito</td></tr><tr><td><a href=\"http://snomed.info/id/412070003\">412070003</a></td><td>vanilka</td></tr><tr><td><a href=\"http://snomed.info/id/412071004\">412071004</a></td><td>pšenice</td></tr><tr><td><a href=\"http://snomed.info/id/412145001\">412145001</a></td><td>barva na vlasy</td></tr><tr><td><a href=\"http://snomed.info/id/412150007\">412150007</a></td><td>fragmenty hmyzu</td></tr><tr><td><a href=\"http://snomed.info/id/412153009\">412153009</a></td><td>králičí lupy a srst</td></tr><tr><td><a href=\"http://snomed.info/id/412156001\">412156001</a></td><td>hedvábí</td></tr><tr><td><a href=\"http://snomed.info/id/412357001\">412357001</a></td><td>kukuřice</td></tr><tr><td><a href=\"http://snomed.info/id/415710007\">415710007</a></td><td>terpeny</td></tr><tr><td><a href=\"http://snomed.info/id/418266005\">418266005</a></td><td>žlutý parafín</td></tr><tr><td><a href=\"http://snomed.info/id/418785009\">418785009</a></td><td>parfém</td></tr><tr><td><a href=\"http://snomed.info/id/418920007\">418920007</a></td><td>adhezivní látka</td></tr><tr><td><a href=\"http://snomed.info/id/419420009\">419420009</a></td><td>vodní meloun</td></tr><tr><td><a href=\"http://snomed.info/id/419604006\">419604006</a></td><td>pyl bylin</td></tr><tr><td><a href=\"http://snomed.info/id/419633007\">419633007</a></td><td>bílý parafín</td></tr><tr><td><a href=\"http://snomed.info/id/421556008\">421556008</a></td><td>kapsicin - pepř</td></tr><tr><td><a href=\"http://snomed.info/id/425620007\">425620007</a></td><td>kov</td></tr><tr><td><a href=\"http://snomed.info/id/430503006\">430503006</a></td><td>glutamát</td></tr><tr><td><a href=\"http://snomed.info/id/434162003\">434162003</a></td><td>neutrální pufrovaný formalín</td></tr><tr><td><a href=\"http://snomed.info/id/472731004\">472731004</a></td><td>pyl fíkovníku</td></tr><tr><td><a href=\"http://snomed.info/id/702730004\">702730004</a></td><td>jed medůzy</td></tr><tr><td><a href=\"http://snomed.info/id/710039005\">710039005</a></td><td>řepkové semeno</td></tr><tr><td><a href=\"http://snomed.info/id/710172008\">710172008</a></td><td>chmel</td></tr><tr><td><a href=\"http://snomed.info/id/710179004\">710179004</a></td><td>semeno lupiny</td></tr><tr><td><a href=\"http://snomed.info/id/710184005\">710184005</a></td><td>skopové maso</td></tr><tr><td><a href=\"http://snomed.info/id/710900003\">710900003</a></td><td>pyl slunečnice</td></tr><tr><td><a href=\"http://snomed.info/id/710902006\">710902006</a></td><td>pyl heřmánku</td></tr><tr><td><a href=\"http://snomed.info/id/710930006\">710930006</a></td><td>protein švába německého</td></tr><tr><td><a href=\"http://snomed.info/id/710937009\">710937009</a></td><td>protein švába amerického</td></tr><tr><td><a href=\"http://snomed.info/id/711088004\">711088004</a></td><td>protein vepří moči</td></tr><tr><td><a href=\"http://snomed.info/id/711089007\">711089007</a></td><td>protein roztoče</td></tr><tr><td><a href=\"http://snomed.info/id/711090003\">711090003</a></td><td>protein Acarus siro</td></tr><tr><td><a href=\"http://snomed.info/id/711092006\">711092006</a></td><td>protein Dermatophagoides farinae</td></tr><tr><td><a href=\"http://snomed.info/id/711096009\">711096009</a></td><td>protein Glycyphagus domesticus</td></tr><tr><td><a href=\"http://snomed.info/id/711097000\">711097000</a></td><td>protein Lepidoglyphus destructor</td></tr><tr><td><a href=\"http://snomed.info/id/719108000\">719108000</a></td><td>lupinová mouka</td></tr><tr><td><a href=\"http://snomed.info/id/726758002\">726758002</a></td><td>čekanka listová</td></tr><tr><td><a href=\"http://snomed.info/id/726759005\">726759005</a></td><td>sépie</td></tr><tr><td><a href=\"http://snomed.info/id/726761001\">726761001</a></td><td>čekanka</td></tr><tr><td><a href=\"http://snomed.info/id/726763003\">726763003</a></td><td>kapr</td></tr><tr><td><a href=\"http://snomed.info/id/734881000\">734881000</a></td><td>rajče</td></tr><tr><td><a href=\"http://snomed.info/id/735004000\">735004000</a></td><td>sladká brambora</td></tr><tr><td><a href=\"http://snomed.info/id/735006003\">735006003</a></td><td>oliheň</td></tr><tr><td><a href=\"http://snomed.info/id/735029006\">735029006</a></td><td>mořští korýši, měkkýši a ostnokožci</td></tr><tr><td><a href=\"http://snomed.info/id/735034005\">735034005</a></td><td>pstruh</td></tr><tr><td><a href=\"http://snomed.info/id/735035006\">735035006</a></td><td>sleď</td></tr><tr><td><a href=\"http://snomed.info/id/735042006\">735042006</a></td><td>hlávkový salát</td></tr><tr><td><a href=\"http://snomed.info/id/735043001\">735043001</a></td><td>makrela</td></tr><tr><td><a href=\"http://snomed.info/id/735045008\">735045008</a></td><td>houby</td></tr><tr><td><a href=\"http://snomed.info/id/735047000\">735047000</a></td><td>cibule</td></tr><tr><td><a href=\"http://snomed.info/id/735049002\">735049002</a></td><td>broskev</td></tr><tr><td><a href=\"http://snomed.info/id/735050002\">735050002</a></td><td>hruška</td></tr><tr><td><a href=\"http://snomed.info/id/735051003\">735051003</a></td><td>švestka</td></tr><tr><td><a href=\"http://snomed.info/id/735053000\">735053000</a></td><td>brambor</td></tr><tr><td><a href=\"http://snomed.info/id/735106000\">735106000</a></td><td>bazalka</td></tr><tr><td><a href=\"http://snomed.info/id/735123009\">735123009</a></td><td>brokolice</td></tr><tr><td><a href=\"http://snomed.info/id/735124003\">735124003</a></td><td>ječmen</td></tr><tr><td><a href=\"http://snomed.info/id/735211005\">735211005</a></td><td>kokos</td></tr><tr><td><a href=\"http://snomed.info/id/735212003\">735212003</a></td><td>papája</td></tr><tr><td><a href=\"http://snomed.info/id/735213008\">735213008</a></td><td>okurka</td></tr><tr><td><a href=\"http://snomed.info/id/735245003\">735245003</a></td><td>treska</td></tr><tr><td><a href=\"http://snomed.info/id/735246002\">735246002</a></td><td>úhoř</td></tr><tr><td><a href=\"http://snomed.info/id/735248001\">735248001</a></td><td>třešeň</td></tr><tr><td><a href=\"http://snomed.info/id/735249009\">735249009</a></td><td>avokádo</td></tr><tr><td><a href=\"http://snomed.info/id/735336002\">735336002</a></td><td>květák</td></tr><tr><td><a href=\"http://snomed.info/id/735337006\">735337006</a></td><td>ančovičky</td></tr><tr><td><a href=\"http://snomed.info/id/735340006\">735340006</a></td><td>citrón</td></tr><tr><td><a href=\"http://snomed.info/id/735341005\">735341005</a></td><td>rybí olej</td></tr><tr><td><a href=\"http://snomed.info/id/735959004\">735959004</a></td><td>mořští měkkýši</td></tr><tr><td><a href=\"http://snomed.info/id/735971005\">735971005</a></td><td>ryba</td></tr><tr><td><a href=\"http://snomed.info/id/735972003\">735972003</a></td><td>rak</td></tr><tr><td><a href=\"http://snomed.info/id/735974002\">735974002</a></td><td>úhoř říční</td></tr><tr><td><a href=\"http://snomed.info/id/735977009\">735977009</a></td><td>mořští korýši</td></tr><tr><td><a href=\"http://snomed.info/id/735979007\">735979007</a></td><td>chobotnice</td></tr><tr><td><a href=\"http://snomed.info/id/736027000\">736027000</a></td><td>hřebenatka</td></tr><tr><td><a href=\"http://snomed.info/id/736031006\">736031006</a></td><td>ústřice</td></tr><tr><td><a href=\"http://snomed.info/id/736162008\">736162008</a></td><td>humr</td></tr><tr><td><a href=\"http://snomed.info/id/736258006\">736258006</a></td><td>hmyzí sliny</td></tr><tr><td><a href=\"http://snomed.info/id/764166003\">764166003</a></td><td>karbol-fuchsín</td></tr><tr><td><a href=\"http://snomed.info/id/765099008\">765099008</a></td><td>sardinka pilčard</td></tr><tr><td><a href=\"http://snomed.info/id/767406000\">767406000</a></td><td>sulfity a sulfitové deriváty</td></tr><tr><td><a href=\"http://snomed.info/id/770326002\">770326002</a></td><td>měkkýš</td></tr><tr><td><a href=\"http://snomed.info/id/771518004\">771518004</a></td><td>peckoviny rodu Prunus</td></tr><tr><td><a href=\"http://snomed.info/id/772245002\">772245002</a></td><td>alkohol tuků ovčí vlny</td></tr><tr><td><a href=\"http://snomed.info/id/1003736004\">1003736004</a></td><td>potraviny z mléka savců</td></tr><tr><td><a href=\"http://snomed.info/id/1003752001\">1003752001</a></td><td>protein latexu Hevea brasiliensis</td></tr><tr><td><a href=\"http://snomed.info/id/1137358000\">1137358000</a></td><td>pepř (Piper)</td></tr><tr><td><a href=\"http://snomed.info/id/24515005\">24515005</a></td><td>koření</td></tr><tr><td><a href=\"http://snomed.info/id/37663002\">37663002</a></td><td>jed</td></tr><tr><td><a href=\"http://snomed.info/id/51386004\">51386004</a></td><td>potravinové konzervanty</td></tr><tr><td><a href=\"http://snomed.info/id/63045006\">63045006</a></td><td>bobule</td></tr><tr><td><a href=\"http://snomed.info/id/70813002\">70813002</a></td><td>mléko</td></tr><tr><td><a href=\"http://snomed.info/id/80259003\">80259003</a></td><td>dochucovadlo</td></tr><tr><td><a href=\"http://snomed.info/id/87918000\">87918000</a></td><td>minerály</td></tr><tr><td><a href=\"http://snomed.info/id/116274004\">116274004</a></td><td>umělé sladidlo</td></tr><tr><td><a href=\"http://snomed.info/id/227038007\">227038007</a></td><td>bílé ryby</td></tr><tr><td><a href=\"http://snomed.info/id/227110001\">227110001</a></td><td>tučné ryby</td></tr><tr><td><a href=\"http://snomed.info/id/256248008\">256248008</a></td><td>rostlinný materiál</td></tr><tr><td><a href=\"http://snomed.info/id/256406004\">256406004</a></td><td>živočišný epitel</td></tr><tr><td><a href=\"http://snomed.info/id/289954006\">289954006</a></td><td>látky obsažené v houbách</td></tr><tr><td><a href=\"http://snomed.info/id/735108004\">735108004</a></td><td>zelí</td></tr><tr><td><a href=\"http://snomed.info/id/442571000124108\">442571000124108</a></td><td>stromový ořech</td></tr><tr><td><a href=\"http://snomed.info/id/3692009\">3692009</a></td><td>siřičitan sodný</td></tr><tr><td><a href=\"http://snomed.info/id/7791007\">7791007</a></td><td>sójový protein</td></tr><tr><td><a href=\"http://snomed.info/id/10827009\">10827009</a></td><td>mléčný protein</td></tr><tr><td><a href=\"http://snomed.info/id/14006006\">14006006</a></td><td>ethylenoxid</td></tr><tr><td><a href=\"http://snomed.info/id/22968009\">22968009</a></td><td>barvivo Sunset Yellow FCF</td></tr><tr><td><a href=\"http://snomed.info/id/23182003\">23182003</a></td><td>obiloviny</td></tr><tr><td><a href=\"http://snomed.info/id/35233000\">35233000</a></td><td>polyvinylchlorid</td></tr><tr><td><a href=\"http://snomed.info/id/55700001\">55700001</a></td><td>nylon</td></tr><tr><td><a href=\"http://snomed.info/id/63766005\">63766005</a></td><td>mouka</td></tr><tr><td><a href=\"http://snomed.info/id/73892005\">73892005</a></td><td>karmín</td></tr><tr><td><a href=\"http://snomed.info/id/79549001\">79549001</a></td><td>kyanoakrylát</td></tr><tr><td><a href=\"http://snomed.info/id/85066006\">85066006</a></td><td>azočerné barvivo</td></tr><tr><td><a href=\"http://snomed.info/id/89811004\">89811004</a></td><td>lepek</td></tr><tr><td><a href=\"http://snomed.info/id/111088007\">111088007</a></td><td>latex</td></tr><tr><td><a href=\"http://snomed.info/id/128489003\">128489003</a></td><td>písek</td></tr><tr><td><a href=\"http://snomed.info/id/226934003\">226934003</a></td><td>vepřové maso</td></tr><tr><td><a href=\"http://snomed.info/id/227066004\">227066004</a></td><td>štikozubec</td></tr><tr><td><a href=\"http://snomed.info/id/227081005\">227081005</a></td><td>parmice červená</td></tr><tr><td><a href=\"http://snomed.info/id/227131003\">227131003</a></td><td>pangas</td></tr><tr><td><a href=\"http://snomed.info/id/227147001\">227147001</a></td><td>srdcovky</td></tr><tr><td><a href=\"http://snomed.info/id/227150003\">227150003</a></td><td>mušle</td></tr><tr><td><a href=\"http://snomed.info/id/227339008\">227339008</a></td><td>fazolové výhonky</td></tr><tr><td><a href=\"http://snomed.info/id/227346004\">227346004</a></td><td>cizrna</td></tr><tr><td><a href=\"http://snomed.info/id/227374009\">227374009</a></td><td>bylinky a koření</td></tr><tr><td><a href=\"http://snomed.info/id/227387003\">227387003</a></td><td>pažitka</td></tr><tr><td><a href=\"http://snomed.info/id/227389000\">227389000</a></td><td>hřebíček</td></tr><tr><td><a href=\"http://snomed.info/id/227398002\">227398002</a></td><td>semeno pískavice</td></tr><tr><td><a href=\"http://snomed.info/id/227410007\">227410007</a></td><td>rozmarýn</td></tr><tr><td><a href=\"http://snomed.info/id/227423000\">227423000</a></td><td>datle</td></tr><tr><td><a href=\"http://snomed.info/id/227511008\">227511008</a></td><td>piniový oříšek</td></tr><tr><td><a href=\"http://snomed.info/id/227512001\">227512001</a></td><td>pistáciový ořech</td></tr><tr><td><a href=\"http://snomed.info/id/229944000\">229944000</a></td><td>pšeničná mouka</td></tr><tr><td><a href=\"http://snomed.info/id/255620007\">255620007</a></td><td>potravina</td></tr><tr><td><a href=\"http://snomed.info/id/255786007\">255786007</a></td><td>diisokyanát toluenu</td></tr><tr><td><a href=\"http://snomed.info/id/255844007\">255844007</a></td><td>směs parabenů</td></tr><tr><td><a href=\"http://snomed.info/id/255871007\">255871007</a></td><td>propyl-4-hydroxybenzoát</td></tr><tr><td><a href=\"http://snomed.info/id/256186006\">256186006</a></td><td>toluánský balzám</td></tr><tr><td><a href=\"http://snomed.info/id/256218005\">256218005</a></td><td>extrakt z řebříčku</td></tr><tr><td><a href=\"http://snomed.info/id/256262001\">256262001</a></td><td>pyl břízy bělokoré</td></tr><tr><td><a href=\"http://snomed.info/id/256267007\">256267007</a></td><td>pyl borovice</td></tr><tr><td><a href=\"http://snomed.info/id/256270006\">256270006</a></td><td>pyl dubu</td></tr><tr><td><a href=\"http://snomed.info/id/256277009\">256277009</a></td><td>pyl trav</td></tr><tr><td><a href=\"http://snomed.info/id/256281009\">256281009</a></td><td>pyl srhy</td></tr><tr><td><a href=\"http://snomed.info/id/256417003\">256417003</a></td><td>koňské lupy a srst</td></tr><tr><td><a href=\"http://snomed.info/id/256440004\">256440004</a></td><td>vosí jed</td></tr><tr><td><a href=\"http://snomed.info/id/256496006\">256496006</a></td><td>zlatá slitina</td></tr><tr><td><a href=\"http://snomed.info/id/256501007\">256501007</a></td><td>uhlíkové vlákno</td></tr><tr><td><a href=\"http://snomed.info/id/256504004\">256504004</a></td><td>polykarbonátový zubní materiál</td></tr><tr><td><a href=\"http://snomed.info/id/260108001\">260108001</a></td><td>pyl pelyňku pravého</td></tr><tr><td><a href=\"http://snomed.info/id/260131001\">260131001</a></td><td>pyl gumovníku</td></tr><tr><td><a href=\"http://snomed.info/id/260156007\">260156007</a></td><td>myší močové proteiny</td></tr><tr><td><a href=\"http://snomed.info/id/261243003\">261243003</a></td><td>mosaz</td></tr><tr><td><a href=\"http://snomed.info/id/286550009\">286550009</a></td><td>slepičí vejce</td></tr><tr><td><a href=\"http://snomed.info/id/289949002\">289949002</a></td><td>pyl cypřiše</td></tr><tr><td><a href=\"http://snomed.info/id/289955007\">289955007</a></td><td>pyl chmele</td></tr><tr><td><a href=\"http://snomed.info/id/311846002\">311846002</a></td><td>pyretroidní insekticid</td></tr><tr><td><a href=\"http://snomed.info/id/373780001\">373780001</a></td><td>meskalin</td></tr><tr><td><a href=\"http://snomed.info/id/387239001\">387239001</a></td><td>genciánová violeť</td></tr><tr><td><a href=\"http://snomed.info/id/391737006\">391737006</a></td><td>mandlový olej</td></tr><tr><td><a href=\"http://snomed.info/id/409595003\">409595003</a></td><td>biologicky rizikový materiál</td></tr><tr><td><a href=\"http://snomed.info/id/412161004\">412161004</a></td><td>vlna</td></tr><tr><td><a href=\"http://snomed.info/id/418504009\">418504009</a></td><td>oves</td></tr><tr><td><a href=\"http://snomed.info/id/431510009\">431510009</a></td><td>formalín</td></tr><tr><td><a href=\"http://snomed.info/id/698730007\">698730007</a></td><td>pyl růže</td></tr><tr><td><a href=\"http://snomed.info/id/710171001\">710171001</a></td><td>koňské maso</td></tr><tr><td><a href=\"http://snomed.info/id/710178007\">710178007</a></td><td>lněné semeno</td></tr><tr><td><a href=\"http://snomed.info/id/710183004\">710183004</a></td><td>králičí maso</td></tr><tr><td><a href=\"http://snomed.info/id/710932003\">710932003</a></td><td>protein molů</td></tr><tr><td><a href=\"http://snomed.info/id/711143002\">711143002</a></td><td>methyltetrahydroftalový anhydrid</td></tr><tr><td><a href=\"http://snomed.info/id/711316002\">711316002</a></td><td>protein perloočky</td></tr><tr><td><a href=\"http://snomed.info/id/720687003\">720687003</a></td><td>protein roztočů prachu</td></tr><tr><td><a href=\"http://snomed.info/id/726731009\">726731009</a></td><td>mečoun</td></tr><tr><td><a href=\"http://snomed.info/id/726764009\">726764009</a></td><td>bob koňský</td></tr><tr><td><a href=\"http://snomed.info/id/735030001\">735030001</a></td><td>česnek</td></tr><tr><td><a href=\"http://snomed.info/id/735046009\">735046009</a></td><td>muškátový oříšek</td></tr><tr><td><a href=\"http://snomed.info/id/735214002\">735214002</a></td><td>meruňka</td></tr><tr><td><a href=\"http://snomed.info/id/735215001\">735215001</a></td><td>jablko</td></tr><tr><td><a href=\"http://snomed.info/id/762766007\">762766007</a></td><td>poživatelná látka</td></tr><tr><td><a href=\"http://snomed.info/id/782576004\">782576004</a></td><td>stromový pyl</td></tr><tr><td><a href=\"http://snomed.info/id/785344003\">785344003</a></td><td>sisalový prach</td></tr><tr><td><a href=\"http://snomed.info/id/442461000124102\">442461000124102</a></td><td>ořech hikorový</td></tr><tr><td><a href=\"http://snomed.info/id/14321009\">14321009</a></td><td>kaptafol</td></tr><tr><td><a href=\"http://snomed.info/id/15896008\">15896008</a></td><td>methylová fialová 2B</td></tr><tr><td><a href=\"http://snomed.info/id/77249007\">77249007</a></td><td>ftalanhydrid</td></tr><tr><td><a href=\"http://snomed.info/id/84181009\">84181009</a></td><td>styren</td></tr><tr><td><a href=\"http://snomed.info/id/125706008\">125706008</a></td><td>natrium-benzoát</td></tr><tr><td><a href=\"http://snomed.info/id/226793001\">226793001</a></td><td>sójové mléko</td></tr><tr><td><a href=\"http://snomed.info/id/227042005\">227042005</a></td><td>cejn</td></tr><tr><td><a href=\"http://snomed.info/id/227105000\">227105000</a></td><td>kambala velká</td></tr><tr><td><a href=\"http://snomed.info/id/227144008\">227144008</a></td><td>tuňák</td></tr><tr><td><a href=\"http://snomed.info/id/227392001\">227392001</a></td><td>kmín</td></tr><tr><td><a href=\"http://snomed.info/id/255814009\">255814009</a></td><td>tetrachlorftalový anhydrid</td></tr><tr><td><a href=\"http://snomed.info/id/255840003\">255840003</a></td><td>kalafuna</td></tr><tr><td><a href=\"http://snomed.info/id/256259004\">256259004</a></td><td>pyl</td></tr><tr><td><a href=\"http://snomed.info/id/256290002\">256290002</a></td><td>pyl jiřinek</td></tr><tr><td><a href=\"http://snomed.info/id/256330001\">256330001</a></td><td>bylina</td></tr><tr><td><a href=\"http://snomed.info/id/256355007\">256355007</a></td><td>sójové boby</td></tr><tr><td><a href=\"http://snomed.info/id/261250004\">261250004</a></td><td>nikl–titan</td></tr><tr><td><a href=\"http://snomed.info/id/289122001\">289122001</a></td><td>kosmetické látky</td></tr><tr><td><a href=\"http://snomed.info/id/301712000\">301712000</a></td><td>kvartérní amoniová sloučenina</td></tr><tr><td><a href=\"http://snomed.info/id/408742009\">408742009</a></td><td>Rose bengal</td></tr><tr><td><a href=\"http://snomed.info/id/412548006\">412548006</a></td><td>ndigotin-disulfonan sodný</td></tr><tr><td><a href=\"http://snomed.info/id/710226003\">710226003</a></td><td>šípek</td></tr><tr><td><a href=\"http://snomed.info/id/710943006\">710943006</a></td><td>protein švába</td></tr><tr><td><a href=\"http://snomed.info/id/711094007\">711094007</a></td><td>protein roztoče Dermatophagoides pteronyssinus</td></tr><tr><td><a href=\"http://snomed.info/id/711098005\">711098005</a></td><td>protein roztoče Tyrophagus putrescentiae</td></tr><tr><td><a href=\"http://snomed.info/id/726749009\">726749009</a></td><td>mořský vlk</td></tr><tr><td><a href=\"http://snomed.info/id/726755004\">726755004</a></td><td>pór</td></tr><tr><td><a href=\"http://snomed.info/id/735009005\">735009005</a></td><td>losos</td></tr><tr><td><a href=\"http://snomed.info/id/736030007\">736030007</a></td><td>škeble</td></tr><tr><td><a href=\"http://snomed.info/id/736159005\">736159005</a></td><td>krab</td></tr><tr><td><a href=\"http://snomed.info/id/773757000\">773757000</a></td><td>jed mravence</td></tr><tr><td><a href=\"http://snomed.info/id/1137359008\">1137359008</a></td><td>sladká paprika</td></tr><tr><td><a href=\"http://snomed.info/id/711319009\">711319009</a></td><td>protein potemníka moučného</td></tr><tr><td><a href=\"http://snomed.info/id/762952008\">762952008</a></td><td>burský ořech</td></tr></table></li></ul></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 1
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "draft"
+  }],
+  "url" : "https://ncez.mzcr.cz/terminology/ValueSet/eHDSIAllergenNoDrug-cz",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.19"
+  }],
+  "version" : "0.2.0",
+  "name" : "EHDSIAllergenNoDrugCZ",
+  "title" : "eHDSI Allergen No Drug",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2025-12-23T18:27:27+01:00",
+  "publisher" : "HL7 Czech Republic",
+  "contact" : [{
+    "name" : "HL7 Czech Republic",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.hl7.cz/"
+    }]
+  }],
+  "description" : "The value set is used to code the patient's kind of adverse reactions against substance, food or drugs",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CZ",
+      "display" : "Czechia"
+    }]
+  }],
+  "copyright" : "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "432003",
+        "display" : "kyselina karminová – barvivo (E120)"
+      },
+      {
+        "code" : "2159007",
+        "display" : "azorubin"
+      },
+      {
+        "code" : "2309006",
+        "display" : "zlato"
+      },
+      {
+        "code" : "2799001",
+        "display" : "methylbenzethoniumchlorid"
+      },
+      {
+        "code" : "3718001",
+        "display" : "kravské mléko"
+      },
+      {
+        "code" : "3829006",
+        "display" : "železo"
+      },
+      {
+        "code" : "6725000",
+        "display" : "methylenová modř"
+      },
+      {
+        "code" : "7434003",
+        "display" : "erytrosin B – barvivo (E-127)"
+      },
+      {
+        "code" : "8204009",
+        "display" : "polyester"
+      },
+      {
+        "code" : "9010006",
+        "display" : "methylová modř"
+      },
+      {
+        "code" : "9021002",
+        "display" : "karbaryl"
+      },
+      {
+        "code" : "11526002",
+        "display" : "aspartam"
+      },
+      {
+        "code" : "12503006",
+        "display" : "hliník"
+      },
+      {
+        "code" : "12510000",
+        "display" : "eukalyptový olej"
+      },
+      {
+        "code" : "13577000",
+        "display" : "ořech"
+      },
+      {
+        "code" : "13652007",
+        "display" : "silikon"
+      },
+      {
+        "code" : "14402002",
+        "display" : "dřevo"
+      },
+      {
+        "code" : "16313001",
+        "display" : "čaj"
+      },
+      {
+        "code" : "17172002",
+        "display" : "dibromofluorescein"
+      },
+      {
+        "code" : "17486007",
+        "display" : "mecrylate"
+      },
+      {
+        "code" : "17693003",
+        "display" : "akriflavin"
+      },
+      {
+        "code" : "19839007",
+        "display" : "sorbitol"
+      },
+      {
+        "code" : "19893005",
+        "display" : "dichroman draselný"
+      },
+      {
+        "code" : "21592006",
+        "display" : "tartrazin"
+      },
+      {
+        "code" : "22242006",
+        "display" : "glutaraldehyd"
+      },
+      {
+        "code" : "22836000",
+        "display" : "zelenina"
+      },
+      {
+        "code" : "22931006",
+        "display" : "Evansova modř"
+      },
+      {
+        "code" : "24102007",
+        "display" : "chlorthalonil"
+      },
+      {
+        "code" : "24215009",
+        "display" : "kyselina pikrová"
+      },
+      {
+        "code" : "25761002",
+        "display" : "glutamin"
+      },
+      {
+        "code" : "27119002",
+        "display" : "trimelitický anhydrid"
+      },
+      {
+        "code" : "28230009",
+        "display" : "drůbeží maso"
+      },
+      {
+        "code" : "28421003",
+        "display" : "kyselina sorbová"
+      },
+      {
+        "code" : "28647000",
+        "display" : "maso"
+      },
+      {
+        "code" : "29263009",
+        "display" : "káva"
+      },
+      {
+        "code" : "29522004",
+        "display" : "tolonium chlorid"
+      },
+      {
+        "code" : "31006001",
+        "display" : "říše Plantae (rostliny)"
+      },
+      {
+        "code" : "31347007",
+        "display" : "lékořice"
+      },
+      {
+        "code" : "33008008",
+        "display" : "prach"
+      },
+      {
+        "code" : "33396006",
+        "display" : "nikl"
+      },
+      {
+        "code" : "35605007",
+        "display" : "lanolin bezvodý"
+      },
+      {
+        "code" : "35609001",
+        "display" : "azofloxin"
+      },
+      {
+        "code" : "37017009",
+        "display" : "parazitičtí červi"
+      },
+      {
+        "code" : "37575004",
+        "display" : "karmoisin A (E122)"
+      },
+      {
+        "code" : "38271009",
+        "display" : "šafránová žluť;"
+      },
+      {
+        "code" : "41750006",
+        "display" : "brazilein"
+      },
+      {
+        "code" : "41967008",
+        "display" : "stříbro"
+      },
+      {
+        "code" : "42416001",
+        "display" : "lanolin"
+      },
+      {
+        "code" : "43230003",
+        "display" : "guma"
+      },
+      {
+        "code" : "43735007",
+        "display" : "síra"
+      },
+      {
+        "code" : "44027008",
+        "display" : "potrava z mořských živočichů (mořské plody)"
+      },
+      {
+        "code" : "47703008",
+        "display" : "laktóza"
+      },
+      {
+        "code" : "48540004",
+        "display" : "patentní modř V, sodná sůl (E131)"
+      },
+      {
+        "code" : "50593009",
+        "display" : "kasein"
+      },
+      {
+        "code" : "51503008",
+        "display" : "růžový olej"
+      },
+      {
+        "code" : "51905005",
+        "display" : "hořčice"
+      },
+      {
+        "code" : "51963001",
+        "display" : "sulfitová sůl"
+      },
+      {
+        "code" : "52454007",
+        "display" : "albumin"
+      },
+      {
+        "code" : "52836003",
+        "display" : "paraformaldehyd"
+      },
+      {
+        "code" : "54041009",
+        "display" : "světlicový olej"
+      },
+      {
+        "code" : "56822005",
+        "display" : "kvartérní amoniová sůl"
+      },
+      {
+        "code" : "57126000",
+        "display" : "lepidlo"
+      },
+      {
+        "code" : "57720001",
+        "display" : "anýzový olej"
+      },
+      {
+        "code" : "59351004",
+        "display" : "citrát"
+      },
+      {
+        "code" : "59533004",
+        "display" : "potravinové aditivum"
+      },
+      {
+        "code" : "59545008",
+        "display" : "pesticid"
+      },
+      {
+        "code" : "61088005",
+        "display" : "plast"
+      },
+      {
+        "code" : "61789006",
+        "display" : "barvivo"
+      },
+      {
+        "code" : "63338004",
+        "display" : "dochucovadlo léčiv"
+      },
+      {
+        "code" : "64601002",
+        "display" : "dřevěný prach"
+      },
+      {
+        "code" : "65123005",
+        "display" : "cholin"
+      },
+      {
+        "code" : "65345002",
+        "display" : "epoxidová pryskyřice"
+      },
+      {
+        "code" : "66562002",
+        "display" : "cigaretový tabák"
+      },
+      {
+        "code" : "66925006",
+        "display" : "měď"
+      },
+      {
+        "code" : "67324005",
+        "display" : "rýže"
+      },
+      {
+        "code" : "68524009",
+        "display" : "tragant"
+      },
+      {
+        "code" : "71463006",
+        "display" : "polyethylen"
+      },
+      {
+        "code" : "72179002",
+        "display" : "oxybenzon"
+      },
+      {
+        "code" : "72511004",
+        "display" : "ovoce"
+      },
+      {
+        "code" : "75044009",
+        "display" : "sisalové vlákno"
+      },
+      {
+        "code" : "75665004",
+        "display" : "glutamát sodný"
+      },
+      {
+        "code" : "80237000",
+        "display" : "kakaové máslo"
+      },
+      {
+        "code" : "81911001",
+        "display" : "žvýkací tabák"
+      },
+      {
+        "code" : "82566005",
+        "display" : "krmivo"
+      },
+      {
+        "code" : "83595008",
+        "display" : "kozí mléko"
+      },
+      {
+        "code" : "83619009",
+        "display" : "polyvinylalkohol"
+      },
+      {
+        "code" : "84212004",
+        "display" : "ethylenimin"
+      },
+      {
+        "code" : "84791008",
+        "display" : "disiřičitan sodný"
+      },
+      {
+        "code" : "89889006",
+        "display" : "bavlněné vlákno"
+      },
+      {
+        "code" : "102259006",
+        "display" : "citrusové ovoce"
+      },
+      {
+        "code" : "102261002",
+        "display" : "jahoda"
+      },
+      {
+        "code" : "102262009",
+        "display" : "čokoláda"
+      },
+      {
+        "code" : "102263004",
+        "display" : "vejce"
+      },
+      {
+        "code" : "102264005",
+        "display" : "sýr"
+      },
+      {
+        "code" : "102697003",
+        "display" : "laktalbumin"
+      },
+      {
+        "code" : "105590001",
+        "display" : "látka"
+      },
+      {
+        "code" : "111095003",
+        "display" : "formaldehyd"
+      },
+      {
+        "code" : "115589000",
+        "display" : "ethanolamin"
+      },
+      {
+        "code" : "116364004",
+        "display" : "diazoniová sůl"
+      },
+      {
+        "code" : "116549003",
+        "display" : "organochlorinový pesticid"
+      },
+      {
+        "code" : "116637007",
+        "display" : "houbový antigen"
+      },
+      {
+        "code" : "119417004",
+        "display" : "organofosfátový insekticid"
+      },
+      {
+        "code" : "128488006",
+        "display" : "domácí prach"
+      },
+      {
+        "code" : "226491003",
+        "display" : "jablečná šťáva, jablečný mošt"
+      },
+      {
+        "code" : "226723006",
+        "display" : "pohanka - obilovina"
+      },
+      {
+        "code" : "226776001",
+        "display" : "sušené kravské mléko"
+      },
+      {
+        "code" : "226791004",
+        "display" : "ovčí mléko"
+      },
+      {
+        "code" : "226915003",
+        "display" : "červené maso"
+      },
+      {
+        "code" : "226916002",
+        "display" : "hovězí maso"
+      },
+      {
+        "code" : "226942002",
+        "display" : "jehněčí"
+      },
+      {
+        "code" : "226955001",
+        "display" : "kuřecí maso"
+      },
+      {
+        "code" : "226963000",
+        "display" : "kachní maso"
+      },
+      {
+        "code" : "226967004",
+        "display" : "krůtí maso"
+      },
+      {
+        "code" : "227067008",
+        "display" : "halibut"
+      },
+      {
+        "code" : "227072004",
+        "display" : "jazyk mořský"
+      },
+      {
+        "code" : "227078000",
+        "display" : "ďas mořský"
+      },
+      {
+        "code" : "227083008",
+        "display" : "platýs"
+      },
+      {
+        "code" : "227099002",
+        "display" : "treska polák"
+      },
+      {
+        "code" : "227106004",
+        "display" : "treska bělavá"
+      },
+      {
+        "code" : "227136008",
+        "display" : "sardinka"
+      },
+      {
+        "code" : "227139001",
+        "display" : "šproty"
+      },
+      {
+        "code" : "227151004",
+        "display" : "krevety"
+      },
+      {
+        "code" : "227156009",
+        "display" : "krevety scampi"
+      },
+      {
+        "code" : "227183005",
+        "display" : "rybí jikry"
+      },
+      {
+        "code" : "227215000",
+        "display" : "artyčok"
+      },
+      {
+        "code" : "227219006",
+        "display" : "lilek"
+      },
+      {
+        "code" : "227220000",
+        "display" : "červená řepa"
+      },
+      {
+        "code" : "227227002",
+        "display" : "kapusta"
+      },
+      {
+        "code" : "227229004",
+        "display" : "bílé zelí"
+      },
+      {
+        "code" : "227230009",
+        "display" : "kadeřávek"
+      },
+      {
+        "code" : "227313005",
+        "display" : "luštěniny"
+      },
+      {
+        "code" : "227350006",
+        "display" : "čočka"
+      },
+      {
+        "code" : "227362005",
+        "display" : "červené fazole"
+      },
+      {
+        "code" : "227376006",
+        "display" : "semeno anýzu"
+      },
+      {
+        "code" : "227379004",
+        "display" : "bobkový list"
+      },
+      {
+        "code" : "227382009",
+        "display" : "kardamom"
+      },
+      {
+        "code" : "227383004",
+        "display" : "semeno celeru"
+      },
+      {
+        "code" : "227385006",
+        "display" : "chilli koření"
+      },
+      {
+        "code" : "227388008",
+        "display" : "skořice"
+      },
+      {
+        "code" : "227390009",
+        "display" : "list koriandru"
+      },
+      {
+        "code" : "227391008",
+        "display" : "semeno koriandru"
+      },
+      {
+        "code" : "227395004",
+        "display" : "kari koření"
+      },
+      {
+        "code" : "227396003",
+        "display" : "fenykl"
+      },
+      {
+        "code" : "227400003",
+        "display" : "zázvor"
+      },
+      {
+        "code" : "227404007",
+        "display" : "muškátový květ"
+      },
+      {
+        "code" : "227405008",
+        "display" : "majoránka"
+      },
+      {
+        "code" : "227407000",
+        "display" : "oregáno"
+      },
+      {
+        "code" : "227408005",
+        "display" : "paprika"
+      },
+      {
+        "code" : "227409002",
+        "display" : "mák"
+      },
+      {
+        "code" : "227411006",
+        "display" : "šalvěj"
+      },
+      {
+        "code" : "227413009",
+        "display" : "tymián"
+      },
+      {
+        "code" : "227414003",
+        "display" : "kurkuma"
+      },
+      {
+        "code" : "227425007",
+        "display" : "fíky"
+      },
+      {
+        "code" : "227435001",
+        "display" : "nektarinka"
+      },
+      {
+        "code" : "227444000",
+        "display" : "malina"
+      },
+      {
+        "code" : "227447007",
+        "display" : "kaki"
+      },
+      {
+        "code" : "227493005",
+        "display" : "kešu ořech"
+      },
+      {
+        "code" : "227501001",
+        "display" : "makadamiový ořech"
+      },
+      {
+        "code" : "227514000",
+        "display" : "dýňové semeno"
+      },
+      {
+        "code" : "227515004",
+        "display" : "merlík chilský"
+      },
+      {
+        "code" : "227538001",
+        "display" : "nakládaná zelenina"
+      },
+      {
+        "code" : "227598003",
+        "display" : "med"
+      },
+      {
+        "code" : "228104004",
+        "display" : "butylovaný hydroxyanisol"
+      },
+      {
+        "code" : "229934002",
+        "display" : "mouka z cizrny"
+      },
+      {
+        "code" : "229941008",
+        "display" : "sójová mouka"
+      },
+      {
+        "code" : "230034002",
+        "display" : "ořechy a semena"
+      },
+      {
+        "code" : "255640000",
+        "display" : "biocid"
+      },
+      {
+        "code" : "255667006",
+        "display" : "parafín"
+      },
+      {
+        "code" : "255764006",
+        "display" : "freon"
+      },
+      {
+        "code" : "255769001",
+        "display" : "anhydrid hexahydrofthalový"
+      },
+      {
+        "code" : "255772008",
+        "display" : "difenylmethan diisokyanát"
+      },
+      {
+        "code" : "255775005",
+        "display" : "maleinanhydrid"
+      },
+      {
+        "code" : "255842006",
+        "display" : "balzám peruánský"
+      },
+      {
+        "code" : "255859001",
+        "display" : "butylovaný hydroxytoluen"
+      },
+      {
+        "code" : "255864002",
+        "display" : "ethyl-4-hydroxybenzoát"
+      },
+      {
+        "code" : "255868004",
+        "display" : "methyl 4-hydroxybenzoát"
+      },
+      {
+        "code" : "255924000",
+        "display" : "eugenol"
+      },
+      {
+        "code" : "256260009",
+        "display" : "pyl stromů a keřů"
+      },
+      {
+        "code" : "256272003",
+        "display" : "pyl jilmů"
+      },
+      {
+        "code" : "256289006",
+        "display" : "pyl chryzantém"
+      },
+      {
+        "code" : "256292005",
+        "display" : "pyl květin a bylin"
+      },
+      {
+        "code" : "256293000",
+        "display" : "pyl pelyňku černobýlu"
+      },
+      {
+        "code" : "256303006",
+        "display" : "pyl ambrózie"
+      },
+      {
+        "code" : "256305004",
+        "display" : "stromová pryskyřice"
+      },
+      {
+        "code" : "256306003",
+        "display" : "pomeranč"
+      },
+      {
+        "code" : "256307007",
+        "display" : "banán"
+      },
+      {
+        "code" : "256313003",
+        "display" : "ananas"
+      },
+      {
+        "code" : "256315005",
+        "display" : "grapefruit"
+      },
+      {
+        "code" : "256316006",
+        "display" : "mandarinka"
+      },
+      {
+        "code" : "256317002",
+        "display" : "hrozny"
+      },
+      {
+        "code" : "256318007",
+        "display" : "zelené fazole"
+      },
+      {
+        "code" : "256319004",
+        "display" : "mrkev"
+      },
+      {
+        "code" : "256326004",
+        "display" : "celer"
+      },
+      {
+        "code" : "256329006",
+        "display" : "špenát"
+      },
+      {
+        "code" : "256331002",
+        "display" : "kopr"
+      },
+      {
+        "code" : "256350002",
+        "display" : "mandle"
+      },
+      {
+        "code" : "256351003",
+        "display" : "para ořech"
+      },
+      {
+        "code" : "256352005",
+        "display" : "vlašský ořech - potravina"
+      },
+      {
+        "code" : "256353000",
+        "display" : "lískový ořech"
+      },
+      {
+        "code" : "256354006",
+        "display" : "fazole"
+      },
+      {
+        "code" : "256363008",
+        "display" : "živočišný materiál"
+      },
+      {
+        "code" : "256419000",
+        "display" : "myší epitel"
+      },
+      {
+        "code" : "256435007",
+        "display" : "peří"
+      },
+      {
+        "code" : "256443002",
+        "display" : "vaječný bílek"
+      },
+      {
+        "code" : "256506002",
+        "display" : "materiál z nerezové oceli"
+      },
+      {
+        "code" : "256526003",
+        "display" : "slitina kobaltu a chrómu"
+      },
+      {
+        "code" : "256579008",
+        "display" : "durapatit"
+      },
+      {
+        "code" : "256596009",
+        "display" : "zlatá dentální pájka"
+      },
+      {
+        "code" : "256607001",
+        "display" : "žáruvzdorná dentální keramika"
+      },
+      {
+        "code" : "256633009",
+        "display" : "polypropylen"
+      },
+      {
+        "code" : "259221006",
+        "display" : "methanol"
+      },
+      {
+        "code" : "260118006",
+        "display" : "pyl drnavce"
+      },
+      {
+        "code" : "260126003",
+        "display" : "pyl olivovníku"
+      },
+      {
+        "code" : "260152009",
+        "display" : "kočičí lupy a srst"
+      },
+      {
+        "code" : "260153004",
+        "display" : "kravské lupy a srst"
+      },
+      {
+        "code" : "260154005",
+        "display" : "psí lupy a srst"
+      },
+      {
+        "code" : "260167008",
+        "display" : "sezamové semínko"
+      },
+      {
+        "code" : "260168003",
+        "display" : "bílá fazole"
+      },
+      {
+        "code" : "260176001",
+        "display" : "kiwi"
+      },
+      {
+        "code" : "260177005",
+        "display" : "meloun"
+      },
+      {
+        "code" : "260179008",
+        "display" : "mango (ovoce)"
+      },
+      {
+        "code" : "260184002",
+        "display" : "hrách"
+      },
+      {
+        "code" : "260189007",
+        "display" : "pekanový ořech"
+      },
+      {
+        "code" : "260204008",
+        "display" : "semeno bavlny"
+      },
+      {
+        "code" : "260205009",
+        "display" : "slunečnicové semeno"
+      },
+      {
+        "code" : "261249004",
+        "display" : "slitina nikl–kobalt–chrom"
+      },
+      {
+        "code" : "261712009",
+        "display" : "akrylový polymer"
+      },
+      {
+        "code" : "264287008",
+        "display" : "zvířecí lupy a srst"
+      },
+      {
+        "code" : "264295007",
+        "display" : "bílkovina kravského mléka"
+      },
+      {
+        "code" : "264331002",
+        "display" : "obilí"
+      },
+      {
+        "code" : "264337003",
+        "display" : "semeno"
+      },
+      {
+        "code" : "276310004",
+        "display" : "zvířecí chlupy"
+      },
+      {
+        "code" : "277016007",
+        "display" : "alfa-chloralóza"
+      },
+      {
+        "code" : "278840001",
+        "display" : "kreveta"
+      },
+      {
+        "code" : "280939008",
+        "display" : "hmyzí jed"
+      },
+      {
+        "code" : "288326000",
+        "display" : "jed sršně"
+      },
+      {
+        "code" : "288328004",
+        "display" : "včelí jed"
+      },
+      {
+        "code" : "288460008",
+        "display" : "jed čmeláka"
+      },
+      {
+        "code" : "290008007",
+        "display" : "pyl bodláku"
+      },
+      {
+        "code" : "301093003",
+        "display" : "anhydrid organické kyseliny"
+      },
+      {
+        "code" : "303300008",
+        "display" : "vaječná bílkovina"
+      },
+      {
+        "code" : "303314008",
+        "display" : "jed škorpióna"
+      },
+      {
+        "code" : "303315009",
+        "display" : "jed pavouků"
+      },
+      {
+        "code" : "311443003",
+        "display" : "prach z kávových zrn"
+      },
+      {
+        "code" : "311731000",
+        "display" : "parafínový vosk"
+      },
+      {
+        "code" : "387293003",
+        "display" : "anthralin (dithranol)"
+      },
+      {
+        "code" : "395734009",
+        "display" : "guarová guma"
+      },
+      {
+        "code" : "396049000",
+        "display" : "ethyl-2-kyanoakrylát"
+      },
+      {
+        "code" : "398705004",
+        "display" : "konopí"
+      },
+      {
+        "code" : "410853002",
+        "display" : "perfluorochemical"
+      },
+      {
+        "code" : "412056003",
+        "display" : "fazole Lima"
+      },
+      {
+        "code" : "412060000",
+        "display" : "pepř černý"
+      },
+      {
+        "code" : "412061001",
+        "display" : "borůvky"
+      },
+      {
+        "code" : "412068007",
+        "display" : "žito"
+      },
+      {
+        "code" : "412070003",
+        "display" : "vanilka"
+      },
+      {
+        "code" : "412071004",
+        "display" : "pšenice"
+      },
+      {
+        "code" : "412145001",
+        "display" : "barva na vlasy"
+      },
+      {
+        "code" : "412150007",
+        "display" : "fragmenty hmyzu"
+      },
+      {
+        "code" : "412153009",
+        "display" : "králičí lupy a srst"
+      },
+      {
+        "code" : "412156001",
+        "display" : "hedvábí"
+      },
+      {
+        "code" : "412357001",
+        "display" : "kukuřice"
+      },
+      {
+        "code" : "415710007",
+        "display" : "terpeny"
+      },
+      {
+        "code" : "418266005",
+        "display" : "žlutý parafín"
+      },
+      {
+        "code" : "418785009",
+        "display" : "parfém"
+      },
+      {
+        "code" : "418920007",
+        "display" : "adhezivní látka"
+      },
+      {
+        "code" : "419420009",
+        "display" : "vodní meloun"
+      },
+      {
+        "code" : "419604006",
+        "display" : "pyl bylin"
+      },
+      {
+        "code" : "419633007",
+        "display" : "bílý parafín"
+      },
+      {
+        "code" : "421556008",
+        "display" : "kapsicin - pepř"
+      },
+      {
+        "code" : "425620007",
+        "display" : "kov"
+      },
+      {
+        "code" : "430503006",
+        "display" : "glutamát"
+      },
+      {
+        "code" : "434162003",
+        "display" : "neutrální pufrovaný formalín"
+      },
+      {
+        "code" : "472731004",
+        "display" : "pyl fíkovníku"
+      },
+      {
+        "code" : "702730004",
+        "display" : "jed medůzy"
+      },
+      {
+        "code" : "710039005",
+        "display" : "řepkové semeno"
+      },
+      {
+        "code" : "710172008",
+        "display" : "chmel"
+      },
+      {
+        "code" : "710179004",
+        "display" : "semeno lupiny"
+      },
+      {
+        "code" : "710184005",
+        "display" : "skopové maso"
+      },
+      {
+        "code" : "710900003",
+        "display" : "pyl slunečnice"
+      },
+      {
+        "code" : "710902006",
+        "display" : "pyl heřmánku"
+      },
+      {
+        "code" : "710930006",
+        "display" : "protein švába německého"
+      },
+      {
+        "code" : "710937009",
+        "display" : "protein švába amerického"
+      },
+      {
+        "code" : "711088004",
+        "display" : "protein vepří moči"
+      },
+      {
+        "code" : "711089007",
+        "display" : "protein roztoče"
+      },
+      {
+        "code" : "711090003",
+        "display" : "protein Acarus siro"
+      },
+      {
+        "code" : "711092006",
+        "display" : "protein Dermatophagoides farinae"
+      },
+      {
+        "code" : "711096009",
+        "display" : "protein Glycyphagus domesticus"
+      },
+      {
+        "code" : "711097000",
+        "display" : "protein Lepidoglyphus destructor"
+      },
+      {
+        "code" : "719108000",
+        "display" : "lupinová mouka"
+      },
+      {
+        "code" : "726758002",
+        "display" : "čekanka listová"
+      },
+      {
+        "code" : "726759005",
+        "display" : "sépie"
+      },
+      {
+        "code" : "726761001",
+        "display" : "čekanka"
+      },
+      {
+        "code" : "726763003",
+        "display" : "kapr"
+      },
+      {
+        "code" : "734881000",
+        "display" : "rajče"
+      },
+      {
+        "code" : "735004000",
+        "display" : "sladká brambora"
+      },
+      {
+        "code" : "735006003",
+        "display" : "oliheň"
+      },
+      {
+        "code" : "735029006",
+        "display" : "mořští korýši, měkkýši a ostnokožci"
+      },
+      {
+        "code" : "735034005",
+        "display" : "pstruh"
+      },
+      {
+        "code" : "735035006",
+        "display" : "sleď"
+      },
+      {
+        "code" : "735042006",
+        "display" : "hlávkový salát"
+      },
+      {
+        "code" : "735043001",
+        "display" : "makrela"
+      },
+      {
+        "code" : "735045008",
+        "display" : "houby"
+      },
+      {
+        "code" : "735047000",
+        "display" : "cibule"
+      },
+      {
+        "code" : "735049002",
+        "display" : "broskev"
+      },
+      {
+        "code" : "735050002",
+        "display" : "hruška"
+      },
+      {
+        "code" : "735051003",
+        "display" : "švestka"
+      },
+      {
+        "code" : "735053000",
+        "display" : "brambor"
+      },
+      {
+        "code" : "735106000",
+        "display" : "bazalka"
+      },
+      {
+        "code" : "735123009",
+        "display" : "brokolice"
+      },
+      {
+        "code" : "735124003",
+        "display" : "ječmen"
+      },
+      {
+        "code" : "735211005",
+        "display" : "kokos"
+      },
+      {
+        "code" : "735212003",
+        "display" : "papája"
+      },
+      {
+        "code" : "735213008",
+        "display" : "okurka"
+      },
+      {
+        "code" : "735245003",
+        "display" : "treska"
+      },
+      {
+        "code" : "735246002",
+        "display" : "úhoř"
+      },
+      {
+        "code" : "735248001",
+        "display" : "třešeň"
+      },
+      {
+        "code" : "735249009",
+        "display" : "avokádo"
+      },
+      {
+        "code" : "735336002",
+        "display" : "květák"
+      },
+      {
+        "code" : "735337006",
+        "display" : "ančovičky"
+      },
+      {
+        "code" : "735340006",
+        "display" : "citrón"
+      },
+      {
+        "code" : "735341005",
+        "display" : "rybí olej"
+      },
+      {
+        "code" : "735959004",
+        "display" : "mořští měkkýši"
+      },
+      {
+        "code" : "735971005",
+        "display" : "ryba"
+      },
+      {
+        "code" : "735972003",
+        "display" : "rak"
+      },
+      {
+        "code" : "735974002",
+        "display" : "úhoř říční"
+      },
+      {
+        "code" : "735977009",
+        "display" : "mořští korýši"
+      },
+      {
+        "code" : "735979007",
+        "display" : "chobotnice"
+      },
+      {
+        "code" : "736027000",
+        "display" : "hřebenatka"
+      },
+      {
+        "code" : "736031006",
+        "display" : "ústřice"
+      },
+      {
+        "code" : "736162008",
+        "display" : "humr"
+      },
+      {
+        "code" : "736258006",
+        "display" : "hmyzí sliny"
+      },
+      {
+        "code" : "764166003",
+        "display" : "karbol-fuchsín"
+      },
+      {
+        "code" : "765099008",
+        "display" : "sardinka pilčard"
+      },
+      {
+        "code" : "767406000",
+        "display" : "sulfity a sulfitové deriváty"
+      },
+      {
+        "code" : "770326002",
+        "display" : "měkkýš"
+      },
+      {
+        "code" : "771518004",
+        "display" : "peckoviny rodu Prunus"
+      },
+      {
+        "code" : "772245002",
+        "display" : "alkohol tuků ovčí vlny"
+      },
+      {
+        "code" : "1003736004",
+        "display" : "potraviny z mléka savců"
+      },
+      {
+        "code" : "1003752001",
+        "display" : "protein latexu Hevea brasiliensis"
+      },
+      {
+        "code" : "1137358000",
+        "display" : "pepř (Piper)"
+      },
+      {
+        "code" : "24515005",
+        "display" : "koření"
+      },
+      {
+        "code" : "37663002",
+        "display" : "jed"
+      },
+      {
+        "code" : "51386004",
+        "display" : "potravinové konzervanty"
+      },
+      {
+        "code" : "63045006",
+        "display" : "bobule"
+      },
+      {
+        "code" : "70813002",
+        "display" : "mléko"
+      },
+      {
+        "code" : "80259003",
+        "display" : "dochucovadlo"
+      },
+      {
+        "code" : "87918000",
+        "display" : "minerály"
+      },
+      {
+        "code" : "116274004",
+        "display" : "umělé sladidlo"
+      },
+      {
+        "code" : "227038007",
+        "display" : "bílé ryby"
+      },
+      {
+        "code" : "227110001",
+        "display" : "tučné ryby"
+      },
+      {
+        "code" : "256248008",
+        "display" : "rostlinný materiál"
+      },
+      {
+        "code" : "256406004",
+        "display" : "živočišný epitel"
+      },
+      {
+        "code" : "289954006",
+        "display" : "látky obsažené v houbách"
+      },
+      {
+        "code" : "735108004",
+        "display" : "zelí"
+      },
+      {
+        "code" : "442571000124108",
+        "display" : "stromový ořech"
+      },
+      {
+        "code" : "3692009",
+        "display" : "siřičitan sodný"
+      },
+      {
+        "code" : "7791007",
+        "display" : "sójový protein"
+      },
+      {
+        "code" : "10827009",
+        "display" : "mléčný protein"
+      },
+      {
+        "code" : "14006006",
+        "display" : "ethylenoxid"
+      },
+      {
+        "code" : "22968009",
+        "display" : "barvivo Sunset Yellow FCF"
+      },
+      {
+        "code" : "23182003",
+        "display" : "obiloviny"
+      },
+      {
+        "code" : "35233000",
+        "display" : "polyvinylchlorid"
+      },
+      {
+        "code" : "55700001",
+        "display" : "nylon"
+      },
+      {
+        "code" : "63766005",
+        "display" : "mouka"
+      },
+      {
+        "code" : "73892005",
+        "display" : "karmín"
+      },
+      {
+        "code" : "79549001",
+        "display" : "kyanoakrylát"
+      },
+      {
+        "code" : "85066006",
+        "display" : "azočerné barvivo"
+      },
+      {
+        "code" : "89811004",
+        "display" : "lepek"
+      },
+      {
+        "code" : "111088007",
+        "display" : "latex"
+      },
+      {
+        "code" : "128489003",
+        "display" : "písek"
+      },
+      {
+        "code" : "226934003",
+        "display" : "vepřové maso"
+      },
+      {
+        "code" : "227066004",
+        "display" : "štikozubec"
+      },
+      {
+        "code" : "227081005",
+        "display" : "parmice červená"
+      },
+      {
+        "code" : "227131003",
+        "display" : "pangas"
+      },
+      {
+        "code" : "227147001",
+        "display" : "srdcovky"
+      },
+      {
+        "code" : "227150003",
+        "display" : "mušle"
+      },
+      {
+        "code" : "227339008",
+        "display" : "fazolové výhonky"
+      },
+      {
+        "code" : "227346004",
+        "display" : "cizrna"
+      },
+      {
+        "code" : "227374009",
+        "display" : "bylinky a koření"
+      },
+      {
+        "code" : "227387003",
+        "display" : "pažitka"
+      },
+      {
+        "code" : "227389000",
+        "display" : "hřebíček"
+      },
+      {
+        "code" : "227398002",
+        "display" : "semeno pískavice"
+      },
+      {
+        "code" : "227410007",
+        "display" : "rozmarýn"
+      },
+      {
+        "code" : "227423000",
+        "display" : "datle"
+      },
+      {
+        "code" : "227511008",
+        "display" : "piniový oříšek"
+      },
+      {
+        "code" : "227512001",
+        "display" : "pistáciový ořech"
+      },
+      {
+        "code" : "229944000",
+        "display" : "pšeničná mouka"
+      },
+      {
+        "code" : "255620007",
+        "display" : "potravina"
+      },
+      {
+        "code" : "255786007",
+        "display" : "diisokyanát toluenu"
+      },
+      {
+        "code" : "255844007",
+        "display" : "směs parabenů"
+      },
+      {
+        "code" : "255871007",
+        "display" : "propyl-4-hydroxybenzoát"
+      },
+      {
+        "code" : "256186006",
+        "display" : "toluánský balzám"
+      },
+      {
+        "code" : "256218005",
+        "display" : "extrakt z řebříčku"
+      },
+      {
+        "code" : "256262001",
+        "display" : "pyl břízy bělokoré"
+      },
+      {
+        "code" : "256267007",
+        "display" : "pyl borovice"
+      },
+      {
+        "code" : "256270006",
+        "display" : "pyl dubu"
+      },
+      {
+        "code" : "256277009",
+        "display" : "pyl trav"
+      },
+      {
+        "code" : "256281009",
+        "display" : "pyl srhy"
+      },
+      {
+        "code" : "256417003",
+        "display" : "koňské lupy a srst"
+      },
+      {
+        "code" : "256440004",
+        "display" : "vosí jed"
+      },
+      {
+        "code" : "256496006",
+        "display" : "zlatá slitina"
+      },
+      {
+        "code" : "256501007",
+        "display" : "uhlíkové vlákno"
+      },
+      {
+        "code" : "256504004",
+        "display" : "polykarbonátový zubní materiál"
+      },
+      {
+        "code" : "260108001",
+        "display" : "pyl pelyňku pravého"
+      },
+      {
+        "code" : "260131001",
+        "display" : "pyl gumovníku"
+      },
+      {
+        "code" : "260156007",
+        "display" : "myší močové proteiny"
+      },
+      {
+        "code" : "261243003",
+        "display" : "mosaz"
+      },
+      {
+        "code" : "286550009",
+        "display" : "slepičí vejce"
+      },
+      {
+        "code" : "289949002",
+        "display" : "pyl cypřiše"
+      },
+      {
+        "code" : "289955007",
+        "display" : "pyl chmele"
+      },
+      {
+        "code" : "311846002",
+        "display" : "pyretroidní insekticid"
+      },
+      {
+        "code" : "373780001",
+        "display" : "meskalin"
+      },
+      {
+        "code" : "387239001",
+        "display" : "genciánová violeť"
+      },
+      {
+        "code" : "391737006",
+        "display" : "mandlový olej"
+      },
+      {
+        "code" : "409595003",
+        "display" : "biologicky rizikový materiál"
+      },
+      {
+        "code" : "412161004",
+        "display" : "vlna"
+      },
+      {
+        "code" : "418504009",
+        "display" : "oves"
+      },
+      {
+        "code" : "431510009",
+        "display" : "formalín"
+      },
+      {
+        "code" : "698730007",
+        "display" : "pyl růže"
+      },
+      {
+        "code" : "710171001",
+        "display" : "koňské maso"
+      },
+      {
+        "code" : "710178007",
+        "display" : "lněné semeno"
+      },
+      {
+        "code" : "710183004",
+        "display" : "králičí maso"
+      },
+      {
+        "code" : "710932003",
+        "display" : "protein molů"
+      },
+      {
+        "code" : "711143002",
+        "display" : "methyltetrahydroftalový anhydrid"
+      },
+      {
+        "code" : "711316002",
+        "display" : "protein perloočky"
+      },
+      {
+        "code" : "720687003",
+        "display" : "protein roztočů prachu"
+      },
+      {
+        "code" : "726731009",
+        "display" : "mečoun"
+      },
+      {
+        "code" : "726764009",
+        "display" : "bob koňský"
+      },
+      {
+        "code" : "735030001",
+        "display" : "česnek"
+      },
+      {
+        "code" : "735046009",
+        "display" : "muškátový oříšek"
+      },
+      {
+        "code" : "735214002",
+        "display" : "meruňka"
+      },
+      {
+        "code" : "735215001",
+        "display" : "jablko"
+      },
+      {
+        "code" : "762766007",
+        "display" : "poživatelná látka"
+      },
+      {
+        "code" : "782576004",
+        "display" : "stromový pyl"
+      },
+      {
+        "code" : "785344003",
+        "display" : "sisalový prach"
+      },
+      {
+        "code" : "442461000124102",
+        "display" : "ořech hikorový"
+      },
+      {
+        "code" : "14321009",
+        "display" : "kaptafol"
+      },
+      {
+        "code" : "15896008",
+        "display" : "methylová fialová 2B"
+      },
+      {
+        "code" : "77249007",
+        "display" : "ftalanhydrid"
+      },
+      {
+        "code" : "84181009",
+        "display" : "styren"
+      },
+      {
+        "code" : "125706008",
+        "display" : "natrium-benzoát"
+      },
+      {
+        "code" : "226793001",
+        "display" : "sójové mléko"
+      },
+      {
+        "code" : "227042005",
+        "display" : "cejn"
+      },
+      {
+        "code" : "227105000",
+        "display" : "kambala velká"
+      },
+      {
+        "code" : "227144008",
+        "display" : "tuňák"
+      },
+      {
+        "code" : "227392001",
+        "display" : "kmín"
+      },
+      {
+        "code" : "255814009",
+        "display" : "tetrachlorftalový anhydrid"
+      },
+      {
+        "code" : "255840003",
+        "display" : "kalafuna"
+      },
+      {
+        "code" : "256259004",
+        "display" : "pyl"
+      },
+      {
+        "code" : "256290002",
+        "display" : "pyl jiřinek"
+      },
+      {
+        "code" : "256330001",
+        "display" : "bylina"
+      },
+      {
+        "code" : "256355007",
+        "display" : "sójové boby"
+      },
+      {
+        "code" : "261250004",
+        "display" : "nikl–titan"
+      },
+      {
+        "code" : "289122001",
+        "display" : "kosmetické látky"
+      },
+      {
+        "code" : "301712000",
+        "display" : "kvartérní amoniová sloučenina"
+      },
+      {
+        "code" : "408742009",
+        "display" : "Rose bengal"
+      },
+      {
+        "code" : "412548006",
+        "display" : "ndigotin-disulfonan sodný"
+      },
+      {
+        "code" : "710226003",
+        "display" : "šípek"
+      },
+      {
+        "code" : "710943006",
+        "display" : "protein švába"
+      },
+      {
+        "code" : "711094007",
+        "display" : "protein roztoče Dermatophagoides pteronyssinus"
+      },
+      {
+        "code" : "711098005",
+        "display" : "protein roztoče Tyrophagus putrescentiae"
+      },
+      {
+        "code" : "726749009",
+        "display" : "mořský vlk"
+      },
+      {
+        "code" : "726755004",
+        "display" : "pór"
+      },
+      {
+        "code" : "735009005",
+        "display" : "losos"
+      },
+      {
+        "code" : "736030007",
+        "display" : "škeble"
+      },
+      {
+        "code" : "736159005",
+        "display" : "krab"
+      },
+      {
+        "code" : "773757000",
+        "display" : "jed mravence"
+      },
+      {
+        "code" : "1137359008",
+        "display" : "sladká paprika"
+      },
+      {
+        "code" : "711319009",
+        "display" : "protein potemníka moučného"
+      },
+      {
+        "code" : "762952008",
+        "display" : "burský ořech"
+      }]
+    }]
+  }
+}

@@ -1,0 +1,1502 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "v3-RoleCode-cz",
+  "language" : "cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"cs\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"cs\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem v3-RoleCode-cz</b></p><a name=\"v3-RoleCode-cz\"> </a><a name=\"hcv3-RoleCode-cz\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: cs</p></div><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>Not Selectable</td><td>notSelectable</td><td>http://hl7.org/fhir/concept-properties#notSelectable</td><td>boolean</td><td>Not Selectable</td></tr><tr><td>Concept Domain that classifies a RIM Class Code</td><td>rim-ClassifiesClassCode</td><td>http://terminology.hl7.org/CodeSystem/utg-concept-properties#rim-ClassifiesClassCode</td><td>Coding</td><td>The child code is a classification of the particular class group identified by the 'classCode' in a RIM class as the parent code.  Used only in RIM backbone classes to link the code and classCode values.</td></tr><tr><td>Parent</td><td>subsumedBy</td><td>http://hl7.org/fhir/concept-properties#parent</td><td>code</td><td>The concept code of a parent concept</td></tr><tr><td>synonymCode</td><td>synonymCode</td><td>http://hl7.org/fhir/concept-properties#synonym</td><td>code</td><td>An additional concept code that was also attributed to a concept</td></tr></table><p><b>Concepts</b></p><p>This code system supplement <code>https://hl7.cz/terminology/CodeSystem/v3-RoleCode-cz</code> defines displays and properties on the following codes:</p><table class=\"codes\"><tr><td><b>Lvl</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>Not Selectable</b></td><td><b>Parent</b></td><td><b>synonymCode</b></td><td><b>English (English, en)</b></td></tr><tr><td>1</td><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-_ContactRoleType\">_ContactRoleType</a><a name=\"v3-RoleCode-cz-_ContactRoleType\"> </a></td><td>ContactRoleType</td><td>Typy kontaktů pro kód role \\&quot;CON\\“</td><td>true</td><td/><td/><td>Types of contact for Role code &quot;CON&quot;</td></tr><tr><td>2</td><td>\u00a0\u00a0<a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-NOK\">NOK</a><a name=\"v3-RoleCode-cz-NOK\"> </a></td><td>příbuzný</td><td>Nejbližší příbuzný dotčené osoby.</td><td/><td>_ContactRoleType</td><td/><td>Played by an individual who is designated as the next of kin for another individual which scopes the role.</td></tr><tr><td>1</td><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-_PersonalRelationshipRoleType\">_PersonalRelationshipRoleType</a><a name=\"v3-RoleCode-cz-_PersonalRelationshipRoleType\"> </a></td><td>PersonalRelationshipRoleType</td><td>Typy osobních vztahů pro kód role \\&quot;PRN\\“</td><td>true</td><td/><td/><td>PersonalRelationshipRoleType</td></tr><tr><td>2</td><td>\u00a0\u00a0<a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-FAMMEMB\">FAMMEMB</a><a name=\"v3-RoleCode-cz-FAMMEMB\"> </a></td><td>rodinný příslušník</td><td>Vztah mezi dvěma osobami, který je charakterizován jako vztah \\&quot;rodinný\\&quot;.</td><td/><td>_PersonalRelationshipRoleType</td><td/><td>A relationship between two people characterizing their &quot;familial&quot; relationship</td></tr><tr><td>3</td><td>\u00a0\u00a0\u00a0\u00a0<a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-CHILD\">CHILD</a><a name=\"v3-RoleCode-cz-CHILD\"> </a></td><td>dítě</td><td>Dítě dotčené osoby.</td><td/><td>FAMMEMB</td><td/><td>The player of the role is a child of the scoping entity.</td></tr><tr><td>4</td><td>\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-CHLDADOPT\">CHLDADOPT</a><a name=\"v3-RoleCode-cz-CHLDADOPT\"> </a></td><td>osvojené dítě</td><td>Dítě dotčené osoby, které bylo přijato do rodiny prostřednictvím právních prostředků a vychováváno dotčenou osobou (rodičem) jako vlastní dítě.</td><td/><td>CHILD</td><td/><td>The player of the role is a child taken into a family through legal means and raised by the scoping person (parent) as his or her own child.</td></tr><tr><td>5</td><td>\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-DAUADOPT\">DAUADOPT</a><a name=\"v3-RoleCode-cz-DAUADOPT\"> </a></td><td>osvojená dcera</td><td>Ženský potomek dotčené entity (rodiče), který byl přijat do rodiny prostřednictvím právních prostředků a vychováván dotčenou osobou (rodičem) jako vlastní dítě.</td><td/><td>CHLDADOPT, DAUC</td><td/><td>The player of the role is a female child taken into a family through legal means and raised by the scoping person (parent) as his or her own child.</td></tr><tr><td>5</td><td>\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-SONADOPT\">SONADOPT</a><a name=\"v3-RoleCode-cz-SONADOPT\"> </a></td><td>osvojený syn</td><td>Mužský potomek dotčené entity (rodiče), který byl přijat do rodiny prostřednictvím právních prostředků a vychováván dotčenou osobou (rodičem) jako vlastní dítě.</td><td/><td>CHLDADOPT, SONC</td><td/><td>The player of the role is a male child taken into a family through legal means and raised by the scoping person (parent) as his or her own child.</td></tr><tr><td>4</td><td>\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-CHLDFOST\">CHLDFOST</a><a name=\"v3-RoleCode-cz-CHLDFOST\"> </a></td><td>dítě v náhradní péči (kromě osvojení)</td><td>Dítě dotčené osoby, které přijímá rodičovskou péči a výchovu od dotčené osoby (rodiče), ale není s ním nebo s ní spojeno právními nebo pokrevními vazbami.</td><td/><td>CHILD</td><td/><td>The player of the role is a child receiving parental care and nurture from the scoping person (parent) but not related to him or her through legal or blood ties.</td></tr><tr><td>5</td><td>\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-DAUFOST\">DAUFOST</a><a name=\"v3-RoleCode-cz-DAUFOST\"> </a></td><td>dcera v náhradní péči (kromě osvojení)</td><td>Ženský potomek dotčené entity (rodiče), který přijímá rodičovskou péči a výchovu od dotčené osoby (rodiče), ale není s ním nebo s ní spojeno právními nebo pokrevními vazbami.</td><td/><td>CHLDFOST, DAUC</td><td/><td>The player of the role is a female child receiving parental care and nurture from the scoping person (parent) but not related to him or her through legal or blood ties.</td></tr><tr><td>5</td><td>\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-SONFOST\">SONFOST</a><a name=\"v3-RoleCode-cz-SONFOST\"> </a></td><td>syn v náhradní péči (kromě osvojení)</td><td>Mužský potomek dotčené entity (rodiče), který je v náhradní péči a výchově dotčené osoby (rodiče), ale není s ní spojen právními nebo biologickými vazbami.</td><td/><td>CHLDFOST, SONC</td><td/><td>The player of the role is a male child receiving parental care and nurture from the scoping person (parent) but not related to him or her through legal or blood ties.</td></tr><tr><td>4</td><td>\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-DAUC\">DAUC</a><a name=\"v3-RoleCode-cz-DAUC\"> </a></td><td>dcera</td><td>**Popis:** Ženský potomek (jakéhokoliv typu) dotčené entity (rodiče).</td><td/><td>CHILD</td><td/><td>**Description:** The player of the role is a female child (of any type) of scoping entity (parent)</td></tr><tr><td>5</td><td>\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-DAU\">DAU</a><a name=\"v3-RoleCode-cz-DAU\"> </a></td><td>vlastní dcera</td><td>Ženský potomek dotčené entity (rodiče).</td><td/><td>DAUC, NCHILD</td><td/><td>The player of the role is a female offspring of the scoping entity (parent).</td></tr><tr><td>5</td><td>\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-STPDAU\">STPDAU</a><a name=\"v3-RoleCode-cz-STPDAU\"> </a></td><td>nevlastní dcera</td><td>Ženský potomek manžela/manželky dotčené osoby z předchozího manželství.</td><td/><td>DAUC, STPCHLD</td><td/><td>The player of the role is a daughter of the scoping person's spouse by a previous union.</td></tr><tr><td>5</td><td style=\"white-space:nowrap\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a href=\"#v3-RoleCode-cz-DAUADOPT\">DAUADOPT</a></td><td>osvojená dcera</td><td colspan=\"4\"/></tr><tr><td>5</td><td style=\"white-space:nowrap\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a href=\"#v3-RoleCode-cz-DAUFOST\">DAUFOST</a></td><td>dcera v náhradní péči (kromě osvojení)</td><td colspan=\"4\"/></tr><tr><td>4</td><td>\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-NCHILD\">NCHILD</a><a name=\"v3-RoleCode-cz-NCHILD\"> </a></td><td>potomek</td><td>Potomek dotčené entity (rodiče).</td><td/><td>CHILD</td><td/><td>The player of the role is an offspring of the scoping entity as determined by birth.</td></tr><tr><td>5</td><td>\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-SON\">SON</a><a name=\"v3-RoleCode-cz-SON\"> </a></td><td>vlastní syn</td><td>Mužský potomek dotčené entity (rodiče).</td><td/><td>NCHILD, SONC</td><td/><td>The player of the role is a male offspring of the scoping entity (parent).</td></tr><tr><td>5</td><td style=\"white-space:nowrap\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a href=\"#v3-RoleCode-cz-DAU\">DAU</a></td><td>vlastní dcera</td><td colspan=\"4\"/></tr><tr><td>4</td><td>\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-SONC\">SONC</a><a name=\"v3-RoleCode-cz-SONC\"> </a></td><td>syn</td><td>**Popis:** Mužský potomek (jakéhokoli typu) dotčené osoby (rodiče).</td><td/><td>CHILD</td><td/><td>**Description:** The player of the role is a male child (of any type) of scoping entity (parent)</td></tr><tr><td>5</td><td>\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-STPSON\">STPSON</a><a name=\"v3-RoleCode-cz-STPSON\"> </a></td><td>nevlastní syn</td><td>Mužský potomek manžela/manželky dotčené osoby z předchozího manželství.</td><td/><td>SONC, STPCHLD</td><td/><td>The player of the role is a son of the scoping person's spouse by a previous union.</td></tr><tr><td>5</td><td style=\"white-space:nowrap\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a href=\"#v3-RoleCode-cz-SON\">SON</a></td><td>vlastní syn</td><td colspan=\"4\"/></tr><tr><td>5</td><td style=\"white-space:nowrap\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a href=\"#v3-RoleCode-cz-SONADOPT\">SONADOPT</a></td><td>osvojený syn</td><td colspan=\"4\"/></tr><tr><td>5</td><td style=\"white-space:nowrap\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a href=\"#v3-RoleCode-cz-SONFOST\">SONFOST</a></td><td>syn v náhradní péči (kromě osvojení)</td><td colspan=\"4\"/></tr><tr><td>4</td><td>\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-STPCHLD\">STPCHLD</a><a name=\"v3-RoleCode-cz-STPCHLD\"> </a></td><td>nevlastní dítě</td><td>Dítě manžela/manželky dotčené osoby z předchozího manželství.</td><td/><td>CHILD</td><td/><td>The player of the role is a child of the scoping person's spouse by a previous union.</td></tr><tr><td>5</td><td style=\"white-space:nowrap\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a href=\"#v3-RoleCode-cz-STPDAU\">STPDAU</a></td><td>nevlastní dcera</td><td colspan=\"4\"/></tr><tr><td>5</td><td style=\"white-space:nowrap\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a href=\"#v3-RoleCode-cz-STPSON\">STPSON</a></td><td>nevlastní syn</td><td colspan=\"4\"/></tr><tr><td>3</td><td>\u00a0\u00a0\u00a0\u00a0<a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-EXT\">EXT</a><a name=\"v3-RoleCode-cz-EXT\"> </a></td><td>člen širší rodiny</td><td>**Popis:** Rodinný příslušník, který není v bezprostředním genetickém nebo právním vztahu k dotčené osobě, např. teta, bratranec, sestřenice, prarodič, vnuk, praprarodič, neteř, synovec nebo strýc.</td><td/><td>FAMMEMB</td><td/><td>**Description:** A family member not having an immediate genetic or legal relationship e.g. Aunt, cousin, great grandparent, grandchild, grandparent, niece, nephew or uncle.</td></tr><tr><td>4</td><td>\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-AUNT\">AUNT</a><a name=\"v3-RoleCode-cz-AUNT\"> </a></td><td>teta</td><td>Sestra matky nebo otce dotčené osoby.</td><td/><td>EXT</td><td/><td>The player of the role is a sister of the scoping person's mother or father.</td></tr><tr><td>4</td><td>\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-COUSN\">COUSN</a><a name=\"v3-RoleCode-cz-COUSN\"> </a></td><td>sestřenice/bratranec</td><td>Příbuzný dotčené osoby, který pochází ze společného předka, jako je prarodič, po dvou nebo více krocích v rodové linii.</td><td/><td>EXT</td><td/><td>The player of the role is a relative of the scoping person descended from a common ancestor, such as a grandparent, by two or more steps in a diverging line.</td></tr><tr><td>4</td><td>\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-GGRPRN\">GGRPRN</a><a name=\"v3-RoleCode-cz-GGRPRN\"> </a></td><td>praprarodič</td><td>Osoba, která je rodičem prarodiče dotčené osoby.</td><td/><td>EXT</td><td/><td>The player of the role is a parent of the scoping person's grandparent.</td></tr><tr><td>5</td><td>\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-GGRFTH\">GGRFTH</a><a name=\"v3-RoleCode-cz-GGRFTH\"> </a></td><td>pradědeček</td><td>Muž, který je otcem prarodiče dotčené osoby.</td><td/><td>GGRPRN</td><td/><td>The player of the role is the father of the scoping person's grandparent.</td></tr><tr><td>5</td><td>\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-GGRMTH\">GGRMTH</a><a name=\"v3-RoleCode-cz-GGRMTH\"> </a></td><td>prababička</td><td>Žena, která je matkou prarodiče dotčené osoby.</td><td/><td>GGRPRN</td><td/><td>The player of the role is the mother of the scoping person's grandparent.</td></tr><tr><td>4</td><td>\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-GRNDCHILD\">GRNDCHILD</a><a name=\"v3-RoleCode-cz-GRNDCHILD\"> </a></td><td>vnouče</td><td>Potomek, který je dítětem syna nebo dcery dotčené osoby.</td><td/><td>EXT</td><td/><td>The player of the role is a child of the scoping person's son or daughter.</td></tr><tr><td>5</td><td>\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-GRNDDAU\">GRNDDAU</a><a name=\"v3-RoleCode-cz-GRNDDAU\"> </a></td><td>vnučka</td><td>Dcera syna nebo dcery dotčené osoby.</td><td/><td>GRNDCHILD</td><td/><td>The player of the role is a daughter of the scoping person's son or daughter.</td></tr><tr><td>5</td><td>\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-GRNDSON\">GRNDSON</a><a name=\"v3-RoleCode-cz-GRNDSON\"> </a></td><td>vnuk</td><td>Syn syna nebo dcery dotčené osoby.</td><td/><td>GRNDCHILD</td><td/><td>The player of the role is a son of the scoping person's son or daughter.</td></tr><tr><td>4</td><td>\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-GRPRN\">GRPRN</a><a name=\"v3-RoleCode-cz-GRPRN\"> </a></td><td>prarodič</td><td>Osoba, která je rodičem rodiče dotčené osoby.</td><td/><td>EXT</td><td/><td>The player of the role is a parent of the scoping person's mother or father.</td></tr><tr><td>5</td><td>\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-GRFTH\">GRFTH</a><a name=\"v3-RoleCode-cz-GRFTH\"> </a></td><td>dědeček</td><td>Muž, který je otcem rodiče dotčené osoby.</td><td/><td>GRPRN</td><td/><td>The player of the role is the father of the scoping person's mother or father.</td></tr><tr><td>5</td><td>\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-GRMTH\">GRMTH</a><a name=\"v3-RoleCode-cz-GRMTH\"> </a></td><td>babička</td><td>Žena, která je matkou rodiče dotčené osoby.</td><td/><td>GRPRN</td><td/><td>The player of the role is the mother of the scoping person's mother or father.</td></tr><tr><td>4</td><td>\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-INLAW\">INLAW</a><a name=\"v3-RoleCode-cz-INLAW\"> </a></td><td>příbuzní ze strany manžela/manželky</td><td>Vztah mezi jednotlivcem a členem nejbližší rodiny jeho manželského partnera.</td><td/><td>EXT</td><td/><td>A relationship between an individual and a member of their spousal partner's immediate family.</td></tr><tr><td>5</td><td>\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-CHLDINLAW\">CHLDINLAW</a><a name=\"v3-RoleCode-cz-CHLDINLAW\"> </a></td><td>zeť/snacha</td><td>Manžel nebo manželka dítěte dotčené osoby.</td><td/><td>INLAW</td><td/><td>The player of the role is the spouse of scoping person's child.</td></tr><tr><td>6</td><td>\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-DAUINLAW\">DAUINLAW</a><a name=\"v3-RoleCode-cz-DAUINLAW\"> </a></td><td>snacha</td><td>Manželka syna dotčené osoby.</td><td/><td>CHLDINLAW</td><td/><td>The player of the role is the wife of scoping person's son.</td></tr><tr><td>6</td><td>\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-SONINLAW\">SONINLAW</a><a name=\"v3-RoleCode-cz-SONINLAW\"> </a></td><td>zeť</td><td>Manžel dcery dotčené osoby.</td><td/><td>CHLDINLAW</td><td/><td>The player of the role is the husband of scoping person's daughter.</td></tr><tr><td>5</td><td>\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-PRNINLAW\">PRNINLAW</a><a name=\"v3-RoleCode-cz-PRNINLAW\"> </a></td><td>tchyně/tchán</td><td>Rodič manžela nebo manželky dotčené osoby.</td><td/><td>INLAW</td><td/><td>The player of the role is the parent of scoping person's husband or wife.</td></tr><tr><td>6</td><td>\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-FTHINLAW\">FTHINLAW</a><a name=\"v3-RoleCode-cz-FTHINLAW\"> </a></td><td>tchán</td><td>Muž, který je otcem manžela nebo manželky dotčené osoby.</td><td/><td>PRNINLAW</td><td/><td>The player of the role is the father of the scoping person's husband or wife.</td></tr><tr><td>6</td><td>\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-MTHINLAW\">MTHINLAW</a><a name=\"v3-RoleCode-cz-MTHINLAW\"> </a></td><td>tchýně</td><td>Žena, která je matkou manžela nebo manželky dotčené osoby.</td><td/><td>PRNINLAW</td><td>MTHINLOAW</td><td>The player of the role is the mother of the scoping person's husband or wife.</td></tr><tr><td>6</td><td>\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-MTHINLOAW\">MTHINLOAW</a><a name=\"v3-RoleCode-cz-MTHINLOAW\"> </a></td><td>tchýně</td><td>Žena, která je matkou manžela nebo manželky dotčené osoby.</td><td/><td>PRNINLAW</td><td>MTHINLAW</td><td>The player of the role is the mother of the scoping person's husband or wife.</td></tr><tr><td>5</td><td>\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-SIBINLAW\">SIBINLAW</a><a name=\"v3-RoleCode-cz-SIBINLAW\"> </a></td><td>švagr/švagrová</td><td>Osoba, která je: (1) sourozencem manžela/manželky dotčené osoby, nebo (2) manželem/manželkou sourozence dotčené osoby, nebo (3) manželem/manželkou sourozence manžela/manželky dotčené osoby.</td><td/><td>INLAW</td><td/><td>The player of the role is: (1) a sibling of the scoping person's spouse, or (2) the spouse of the scoping person's sibling, or (3) the spouse of a sibling of the scoping person's spouse.</td></tr><tr><td>6</td><td>\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-BROINLAW\">BROINLAW</a><a name=\"v3-RoleCode-cz-BROINLAW\"> </a></td><td>švagr</td><td>(1) bratr manžela nebo manželky dotčené osoby, nebo (2) manžel sestry dotčené osoby, nebo (3) manžel sestry manžela nebo manželky dotčené osoby.</td><td/><td>SIBINLAW</td><td/><td>The player of the role is: (1) a brother of the scoping person's spouse, or (2) the husband of the scoping person's sister, or (3) the husband of a sister of the scoping person's spouse.</td></tr><tr><td>6</td><td>\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-SISINLAW\">SISINLAW</a><a name=\"v3-RoleCode-cz-SISINLAW\"> </a></td><td>švagrová</td><td>Osoba, která je: (1) sestrou manžela/manželky dotčené osoby, nebo (2) manželkou bratra dotčené osoby, nebo (3) manželkou bratra manžela/manželky dotčené osoby.</td><td/><td>SIBINLAW</td><td>SISLINLAW</td><td>The player of the role is: (1) a sister of the scoping person's spouse, or (2) the wife of the scoping person's brother, or (3) the wife of a brother of the scoping person's spouse.</td></tr><tr><td>6</td><td>\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-SISLINLAW\">SISLINLAW</a><a name=\"v3-RoleCode-cz-SISLINLAW\"> </a></td><td>švagrová</td><td>Osoba, která je: (1) sestrou manžela/manželky dotčené osoby, nebo (2) manželkou bratra dotčené osoby, nebo (3) manželkou bratra manžela/manželky dotčené osoby.</td><td/><td>SIBINLAW</td><td>SISINLAW</td><td>The player of the role is: (1) a sister of the scoping person's spouse, or (2) the wife of the scoping person's brother, or (3) the wife of a brother of the scoping person's spouse.</td></tr><tr><td>4</td><td>\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-NIENEPH\">NIENEPH</a><a name=\"v3-RoleCode-cz-NIENEPH\"> </a></td><td>neteř/synovec</td><td>Potomek bratra nebo sestry dotčené osoby nebo bratra nebo sestry manžela/manželky dotčené osoby.</td><td/><td>EXT</td><td/><td>The player of the role is a child of scoping person's brother or sister or of the brother or sister of the scoping person's spouse.</td></tr><tr><td>5</td><td>\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-NEPHEW\">NEPHEW</a><a name=\"v3-RoleCode-cz-NEPHEW\"> </a></td><td>synovec</td><td>Syn bratra nebo sestry dotčené osoby.</td><td/><td>NIENEPH</td><td/><td>The player of the role is a son of the scoping person's brother or sister or of the brother or sister of the scoping person's spouse.</td></tr><tr><td>5</td><td>\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-NIECE\">NIECE</a><a name=\"v3-RoleCode-cz-NIECE\"> </a></td><td>neteř</td><td>Dcera bratra nebo sestry dotčené osoby.</td><td/><td>NIENEPH</td><td/><td>The player of the role is a daughter of the scoping person's brother or sister or of the brother or sister of the scoping person's spouse.</td></tr><tr><td>4</td><td>\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-UNCLE\">UNCLE</a><a name=\"v3-RoleCode-cz-UNCLE\"> </a></td><td>strýc</td><td>Bratr matky nebo otce dotčené osoby.</td><td/><td>EXT</td><td/><td>The player of the role is a brother of the scoping person's mother or father.</td></tr><tr><td>3</td><td>\u00a0\u00a0\u00a0\u00a0<a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-PRN\">PRN</a><a name=\"v3-RoleCode-cz-PRN\"> </a></td><td>rodič</td><td>Osoba, která zplodila, porodila nebo vychovala a pečuje o dotčenou osobu (dítě).</td><td/><td>FAMMEMB</td><td/><td>The player of the role is one who begets, gives birth to, or nurtures and raises the scoping entity (child).</td></tr><tr><td>4</td><td>\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-FTH\">FTH</a><a name=\"v3-RoleCode-cz-FTH\"> </a></td><td>otec</td><td>Muž, který zplodil, vychoval nebo pečuje o dotčenou osobu (dítě).</td><td/><td>PRN</td><td/><td>The player of the role is a male who begets or raises or nurtures the scoping entity (child).</td></tr><tr><td>4</td><td>\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-MTH\">MTH</a><a name=\"v3-RoleCode-cz-MTH\"> </a></td><td>matka</td><td>Žena, která zplodila, porodila nebo vychovala a pečuje o dotčenou osobu (dítě).</td><td/><td>PRN</td><td/><td>The player of the role is a female who conceives, gives birth to, or raises and nurtures the scoping entity (child).</td></tr><tr><td>3</td><td>\u00a0\u00a0\u00a0\u00a0<a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-SIB\">SIB</a><a name=\"v3-RoleCode-cz-SIB\"> </a></td><td>sourozenec</td><td>Osoba, která sdílí jednoho nebo oba rodiče s dotčenou osobou.</td><td/><td>FAMMEMB</td><td/><td>The player of the role shares one or both parents in common with the scoping entity.</td></tr><tr><td>4</td><td>\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-BRO\">BRO</a><a name=\"v3-RoleCode-cz-BRO\"> </a></td><td>bratr</td><td>Muž, který sdílí jednoho nebo oba společné rodiče s dotčenou osobou.</td><td/><td>SIB</td><td/><td>The player of the role is a male sharing one or both parents in common with the scoping entity.</td></tr><tr><td>4</td><td>\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-SIS\">SIS</a><a name=\"v3-RoleCode-cz-SIS\"> </a></td><td>sestra</td><td>Žena, která sdílí jednoho nebo oba rodiče s dotčenou osobou.</td><td/><td>SIB</td><td/><td>The player of the role is a female sharing one or both parents in common with the scoping entity.</td></tr><tr><td>3</td><td>\u00a0\u00a0\u00a0\u00a0<a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-SIGOTHR\">SIGOTHR</a><a name=\"v3-RoleCode-cz-SIGOTHR\"> </a></td><td>osoba blízká</td><td>Osoba, která je důležitá pro blaho dotčené osoby; zejména manžel nebo osoba ve obdobném vztahu.</td><td/><td>FAMMEMB</td><td/><td>A person who is important to one's well being; especially a spouse or one in a similar relationship. (The player is the one who is important)</td></tr><tr><td>4</td><td>\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-DOMPART\">DOMPART</a><a name=\"v3-RoleCode-cz-DOMPART\"> </a></td><td>druh/družka</td><td>Osoba žijící s dotčenou osobou, která není manželem nebo manželkou dotčené osoby.</td><td/><td>SIGOTHR</td><td/><td>The player of the role cohabits with the scoping person but is not the scoping person's spouse.</td></tr><tr><td>4</td><td>\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-SPS\">SPS</a><a name=\"v3-RoleCode-cz-SPS\"> </a></td><td>manžel/maželka</td><td>Osoba, která je manželským partnerem dotčené osoby.</td><td/><td>SIGOTHR</td><td/><td>The player of the role is a marriage partner of the scoping person.</td></tr><tr><td>5</td><td>\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-HUSB\">HUSB</a><a name=\"v3-RoleCode-cz-HUSB\"> </a></td><td>manžel</td><td>Muž, který je spojen s dotčenou ženou v manželství.</td><td/><td>SPS</td><td/><td>The player of the role is a man joined to a woman (scoping person) in marriage.</td></tr><tr><td>5</td><td>\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-WIFE\">WIFE</a><a name=\"v3-RoleCode-cz-WIFE\"> </a></td><td>manželka</td><td>Žena, která je manželským partnerem dotčené osoby.</td><td/><td>SPS</td><td/><td>The player of the role is a woman joined to a man (scoping person) in marriage.</td></tr><tr><td>2</td><td>\u00a0\u00a0<a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-FRND\">FRND</a><a name=\"v3-RoleCode-cz-FRND\"> </a></td><td>přítel/přítelkyně</td><td>Osoba, která je známá, oblíbená a důvěryhodná pro dotčenou osobu.</td><td/><td>_PersonalRelationshipRoleType</td><td/><td>The player of the role is a person who is known, liked, and trusted by the scoping person.</td></tr><tr><td>2</td><td>\u00a0\u00a0<a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-NBOR\">NBOR</a><a name=\"v3-RoleCode-cz-NBOR\"> </a></td><td>soused/sousedka</td><td>Osoba, která žije v blízkosti nebo vedle dotčené osoby.</td><td/><td>_PersonalRelationshipRoleType</td><td/><td>The player of the role lives near or next to the scoping person.</td></tr><tr><td>2</td><td>\u00a0\u00a0<a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html#v3-RoleCode-ROOM\">ROOM</a><a name=\"v3-RoleCode-cz-ROOM\"> </a></td><td>spolubydlící</td><td>Osoba, která sdílí obytné prostory s dotčenou osobou.</td><td/><td>_PersonalRelationshipRoleType</td><td/><td>One who shares living quarters with the subject.</td></tr></table></div>"
+  },
+  "url" : "https://hl7.cz/terminology/CodeSystem/v3-RoleCode-cz",
+  "version" : "0.2.0",
+  "name" : "RoleCodeCz",
+  "title" : "RoleCode (CZ Supplement)",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2025-02-09T10:38:00.271394Z",
+  "publisher" : "HL7 Czech Republic",
+  "contact" : [{
+    "name" : "HL7 Czech Republic",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.hl7.cz/"
+    }]
+  }],
+  "description" : "Český doplněk kódového systému v3-RoleCode, který je souborem kódů blíže specifikujících druh Role; obsahuje specifické klasifikační kódy pro další upřesnění kódů RoleClass. A Czech supplement to the v3-RoleCode code system which is a set of codes further specifying the kind of Role; specific classification codes for further qualifying RoleClass codes.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CZ",
+      "display" : "Czechia"
+    }]
+  }],
+  "content" : "supplement",
+  "supplements" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode|3.0.0",
+  "property" : [{
+    "code" : "notSelectable",
+    "uri" : "http://hl7.org/fhir/concept-properties#notSelectable",
+    "description" : "Not Selectable",
+    "type" : "boolean"
+  },
+  {
+    "code" : "rim-ClassifiesClassCode",
+    "uri" : "http://terminology.hl7.org/CodeSystem/utg-concept-properties#rim-ClassifiesClassCode",
+    "description" : "The child code is a classification of the particular class group identified by the 'classCode' in a RIM class as the parent code.  Used only in RIM backbone classes to link the code and classCode values.",
+    "type" : "Coding"
+  },
+  {
+    "code" : "subsumedBy",
+    "uri" : "http://hl7.org/fhir/concept-properties#parent",
+    "description" : "The concept code of a parent concept",
+    "type" : "code"
+  },
+  {
+    "code" : "synonymCode",
+    "uri" : "http://hl7.org/fhir/concept-properties#synonym",
+    "description" : "An additional concept code that was also attributed to a concept",
+    "type" : "code"
+  }],
+  "concept" : [{
+    "code" : "AUNT",
+    "display" : "teta",
+    "definition" : "Sestra matky nebo otce dotčené osoby.",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "The player of the role is a sister of the scoping person's mother or father."
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "aunt"
+    }],
+    "property" : [{
+      "code" : "subsumedBy",
+      "valueCode" : "EXT"
+    }]
+  },
+  {
+    "code" : "BRO",
+    "display" : "bratr",
+    "definition" : "Muž, který sdílí jednoho nebo oba společné rodiče s dotčenou osobou.",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "The player of the role is a male sharing one or both parents in common with the scoping entity."
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "brother"
+    }],
+    "property" : [{
+      "code" : "subsumedBy",
+      "valueCode" : "SIB"
+    }]
+  },
+  {
+    "code" : "BROINLAW",
+    "display" : "švagr",
+    "definition" : "(1) bratr manžela nebo manželky dotčené osoby, nebo (2) manžel sestry dotčené osoby, nebo (3) manžel sestry manžela nebo manželky dotčené osoby.",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "The player of the role is: (1) a brother of the scoping person's spouse, or (2) the husband of the scoping person's sister, or (3) the husband of a sister of the scoping person's spouse."
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "brother-in-law"
+    }],
+    "property" : [{
+      "code" : "subsumedBy",
+      "valueCode" : "SIBINLAW"
+    }]
+  },
+  {
+    "code" : "CHILD",
+    "display" : "dítě",
+    "definition" : "Dítě dotčené osoby.",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "The player of the role is a child of the scoping entity."
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "child"
+    }],
+    "property" : [{
+      "code" : "subsumedBy",
+      "valueCode" : "FAMMEMB"
+    }]
+  },
+  {
+    "code" : "CHLDADOPT",
+    "display" : "osvojené dítě",
+    "definition" : "Dítě dotčené osoby, které bylo přijato do rodiny prostřednictvím právních prostředků a vychováváno dotčenou osobou (rodičem) jako vlastní dítě.",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "The player of the role is a child taken into a family through legal means and raised by the scoping person (parent) as his or her own child."
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "adopted child"
+    }],
+    "property" : [{
+      "code" : "subsumedBy",
+      "valueCode" : "CHILD"
+    }]
+  },
+  {
+    "code" : "CHLDFOST",
+    "display" : "dítě v náhradní péči (kromě osvojení)",
+    "definition" : "Dítě dotčené osoby, které přijímá rodičovskou péči a výchovu od dotčené osoby (rodiče), ale není s ním nebo s ní spojeno právními nebo pokrevními vazbami.",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "The player of the role is a child receiving parental care and nurture from the scoping person (parent) but not related to him or her through legal or blood ties."
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "foster child"
+    }],
+    "property" : [{
+      "code" : "subsumedBy",
+      "valueCode" : "CHILD"
+    }]
+  },
+  {
+    "code" : "CHLDINLAW",
+    "display" : "zeť/snacha",
+    "definition" : "Manžel nebo manželka dítěte dotčené osoby.",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "The player of the role is the spouse of scoping person's child."
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "child-in-law"
+    }],
+    "property" : [{
+      "code" : "subsumedBy",
+      "valueCode" : "INLAW"
+    }]
+  },
+  {
+    "code" : "COUSN",
+    "display" : "sestřenice/bratranec",
+    "definition" : "Příbuzný dotčené osoby, který pochází ze společného předka, jako je prarodič, po dvou nebo více krocích v rodové linii.",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "The player of the role is a relative of the scoping person descended from a common ancestor, such as a grandparent, by two or more steps in a diverging line."
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "cousin"
+    }],
+    "property" : [{
+      "code" : "subsumedBy",
+      "valueCode" : "EXT"
+    }]
+  },
+  {
+    "code" : "DAU",
+    "display" : "vlastní dcera",
+    "definition" : "Ženský potomek dotčené entity (rodiče).",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "The player of the role is a female offspring of the scoping entity (parent)."
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "natural daughter"
+    }],
+    "property" : [{
+      "code" : "subsumedBy",
+      "valueCode" : "DAUC"
+    },
+    {
+      "code" : "subsumedBy",
+      "valueCode" : "NCHILD"
+    }]
+  },
+  {
+    "code" : "DAUADOPT",
+    "display" : "osvojená dcera",
+    "definition" : "Ženský potomek dotčené entity (rodiče), který byl přijat do rodiny prostřednictvím právních prostředků a vychováván dotčenou osobou (rodičem) jako vlastní dítě.",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "The player of the role is a female child taken into a family through legal means and raised by the scoping person (parent) as his or her own child."
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "adopted daughter"
+    }],
+    "property" : [{
+      "code" : "subsumedBy",
+      "valueCode" : "CHLDADOPT"
+    },
+    {
+      "code" : "subsumedBy",
+      "valueCode" : "DAUC"
+    }]
+  },
+  {
+    "code" : "DAUC",
+    "display" : "dcera",
+    "definition" : "**Popis:** Ženský potomek (jakéhokoliv typu) dotčené entity (rodiče).",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "**Description:** The player of the role is a female child (of any type) of scoping entity (parent)"
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "daughter"
+    }],
+    "property" : [{
+      "code" : "subsumedBy",
+      "valueCode" : "CHILD"
+    }]
+  },
+  {
+    "code" : "DAUFOST",
+    "display" : "dcera v náhradní péči (kromě osvojení)",
+    "definition" : "Ženský potomek dotčené entity (rodiče), který přijímá rodičovskou péči a výchovu od dotčené osoby (rodiče), ale není s ním nebo s ní spojeno právními nebo pokrevními vazbami.",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "The player of the role is a female child receiving parental care and nurture from the scoping person (parent) but not related to him or her through legal or blood ties."
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "foster daughter"
+    }],
+    "property" : [{
+      "code" : "subsumedBy",
+      "valueCode" : "CHLDFOST"
+    },
+    {
+      "code" : "subsumedBy",
+      "valueCode" : "DAUC"
+    }]
+  },
+  {
+    "code" : "DAUINLAW",
+    "display" : "snacha",
+    "definition" : "Manželka syna dotčené osoby.",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "The player of the role is the wife of scoping person's son."
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "daughter in-law"
+    }],
+    "property" : [{
+      "code" : "subsumedBy",
+      "valueCode" : "CHLDINLAW"
+    }]
+  },
+  {
+    "code" : "DOMPART",
+    "display" : "druh/družka",
+    "definition" : "Osoba žijící s dotčenou osobou, která není manželem nebo manželkou dotčené osoby.",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "The player of the role cohabits with the scoping person but is not the scoping person's spouse."
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "domestic partner"
+    }],
+    "property" : [{
+      "code" : "subsumedBy",
+      "valueCode" : "SIGOTHR"
+    }]
+  },
+  {
+    "code" : "EXT",
+    "display" : "člen širší rodiny",
+    "definition" : "**Popis:** Rodinný příslušník, který není v bezprostředním genetickém nebo právním vztahu k dotčené osobě, např. teta, bratranec, sestřenice, prarodič, vnuk, praprarodič, neteř, synovec nebo strýc.",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "**Description:** A family member not having an immediate genetic or legal relationship e.g. Aunt, cousin, great grandparent, grandchild, grandparent, niece, nephew or uncle."
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "extended family member"
+    }],
+    "property" : [{
+      "code" : "subsumedBy",
+      "valueCode" : "FAMMEMB"
+    }]
+  },
+  {
+    "code" : "FAMMEMB",
+    "display" : "rodinný příslušník",
+    "definition" : "Vztah mezi dvěma osobami, který je charakterizován jako vztah \\\"rodinný\\\".",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "A relationship between two people characterizing their \"familial\" relationship"
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "family member"
+    }],
+    "property" : [{
+      "code" : "subsumedBy",
+      "valueCode" : "_PersonalRelationshipRoleType"
+    }]
+  },
+  {
+    "code" : "FRND",
+    "display" : "přítel/přítelkyně",
+    "definition" : "Osoba, která je známá, oblíbená a důvěryhodná pro dotčenou osobu.",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "The player of the role is a person who is known, liked, and trusted by the scoping person."
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "unrelated friend"
+    }],
+    "property" : [{
+      "code" : "subsumedBy",
+      "valueCode" : "_PersonalRelationshipRoleType"
+    }]
+  },
+  {
+    "code" : "FTH",
+    "display" : "otec",
+    "definition" : "Muž, který zplodil, vychoval nebo pečuje o dotčenou osobu (dítě).",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "The player of the role is a male who begets or raises or nurtures the scoping entity (child)."
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "father"
+    }],
+    "property" : [{
+      "code" : "subsumedBy",
+      "valueCode" : "PRN"
+    }]
+  },
+  {
+    "code" : "FTHINLAW",
+    "display" : "tchán",
+    "definition" : "Muž, který je otcem manžela nebo manželky dotčené osoby.",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "The player of the role is the father of the scoping person's husband or wife."
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "father-in-law"
+    }],
+    "property" : [{
+      "code" : "subsumedBy",
+      "valueCode" : "PRNINLAW"
+    }]
+  },
+  {
+    "code" : "GGRFTH",
+    "display" : "pradědeček",
+    "definition" : "Muž, který je otcem prarodiče dotčené osoby.",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "The player of the role is the father of the scoping person's grandparent."
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "great grandfather"
+    }],
+    "property" : [{
+      "code" : "subsumedBy",
+      "valueCode" : "GGRPRN"
+    }]
+  },
+  {
+    "code" : "GGRMTH",
+    "display" : "prababička",
+    "definition" : "Žena, která je matkou prarodiče dotčené osoby.",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "The player of the role is the mother of the scoping person's grandparent."
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "great grandmother"
+    }],
+    "property" : [{
+      "code" : "subsumedBy",
+      "valueCode" : "GGRPRN"
+    }]
+  },
+  {
+    "code" : "GGRPRN",
+    "display" : "praprarodič",
+    "definition" : "Osoba, která je rodičem prarodiče dotčené osoby.",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "The player of the role is a parent of the scoping person's grandparent."
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "great grandparent"
+    }],
+    "property" : [{
+      "code" : "subsumedBy",
+      "valueCode" : "EXT"
+    }]
+  },
+  {
+    "code" : "GRFTH",
+    "display" : "dědeček",
+    "definition" : "Muž, který je otcem rodiče dotčené osoby.",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "The player of the role is the father of the scoping person's mother or father."
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "grandfather"
+    }],
+    "property" : [{
+      "code" : "subsumedBy",
+      "valueCode" : "GRPRN"
+    }]
+  },
+  {
+    "code" : "GRMTH",
+    "display" : "babička",
+    "definition" : "Žena, která je matkou rodiče dotčené osoby.",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "The player of the role is the mother of the scoping person's mother or father."
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "grandmother"
+    }],
+    "property" : [{
+      "code" : "subsumedBy",
+      "valueCode" : "GRPRN"
+    }]
+  },
+  {
+    "code" : "GRNDCHILD",
+    "display" : "vnouče",
+    "definition" : "Potomek, který je dítětem syna nebo dcery dotčené osoby.",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "The player of the role is a child of the scoping person's son or daughter."
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "grandchild"
+    }],
+    "property" : [{
+      "code" : "subsumedBy",
+      "valueCode" : "EXT"
+    }]
+  },
+  {
+    "code" : "GRNDDAU",
+    "display" : "vnučka",
+    "definition" : "Dcera syna nebo dcery dotčené osoby.",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "The player of the role is a daughter of the scoping person's son or daughter."
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "granddaughter"
+    }],
+    "property" : [{
+      "code" : "subsumedBy",
+      "valueCode" : "GRNDCHILD"
+    }]
+  },
+  {
+    "code" : "GRNDSON",
+    "display" : "vnuk",
+    "definition" : "Syn syna nebo dcery dotčené osoby.",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "The player of the role is a son of the scoping person's son or daughter."
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "grandson"
+    }],
+    "property" : [{
+      "code" : "subsumedBy",
+      "valueCode" : "GRNDCHILD"
+    }]
+  },
+  {
+    "code" : "GRPRN",
+    "display" : "prarodič",
+    "definition" : "Osoba, která je rodičem rodiče dotčené osoby.",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "The player of the role is a parent of the scoping person's mother or father."
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "grandparent"
+    }],
+    "property" : [{
+      "code" : "subsumedBy",
+      "valueCode" : "EXT"
+    }]
+  },
+  {
+    "code" : "HUSB",
+    "display" : "manžel",
+    "definition" : "Muž, který je spojen s dotčenou ženou v manželství.",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "The player of the role is a man joined to a woman (scoping person) in marriage."
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "husband"
+    }],
+    "property" : [{
+      "code" : "subsumedBy",
+      "valueCode" : "SPS"
+    }]
+  },
+  {
+    "code" : "INLAW",
+    "display" : "příbuzní ze strany manžela/manželky",
+    "definition" : "Vztah mezi jednotlivcem a členem nejbližší rodiny jeho manželského partnera.",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "A relationship between an individual and a member of their spousal partner's immediate family."
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "inlaw"
+    }],
+    "property" : [{
+      "code" : "subsumedBy",
+      "valueCode" : "EXT"
+    }]
+  },
+  {
+    "code" : "MTH",
+    "display" : "matka",
+    "definition" : "Žena, která zplodila, porodila nebo vychovala a pečuje o dotčenou osobu (dítě).",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "The player of the role is a female who conceives, gives birth to, or raises and nurtures the scoping entity (child)."
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "mother"
+    }],
+    "property" : [{
+      "code" : "subsumedBy",
+      "valueCode" : "PRN"
+    }]
+  },
+  {
+    "code" : "MTHINLAW",
+    "display" : "tchýně",
+    "definition" : "Žena, která je matkou manžela nebo manželky dotčené osoby.",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "The player of the role is the mother of the scoping person's husband or wife."
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "mother-in-law"
+    }],
+    "property" : [{
+      "code" : "subsumedBy",
+      "valueCode" : "PRNINLAW"
+    },
+    {
+      "code" : "synonymCode",
+      "valueCode" : "MTHINLOAW"
+    }]
+  },
+  {
+    "code" : "MTHINLOAW",
+    "display" : "tchýně",
+    "definition" : "Žena, která je matkou manžela nebo manželky dotčené osoby.",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "The player of the role is the mother of the scoping person's husband or wife."
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "mother-in-law"
+    }],
+    "property" : [{
+      "code" : "subsumedBy",
+      "valueCode" : "PRNINLAW"
+    },
+    {
+      "code" : "synonymCode",
+      "valueCode" : "MTHINLAW"
+    }]
+  },
+  {
+    "code" : "NBOR",
+    "display" : "soused/sousedka",
+    "definition" : "Osoba, která žije v blízkosti nebo vedle dotčené osoby.",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "The player of the role lives near or next to the scoping person."
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "neighbor"
+    }],
+    "property" : [{
+      "code" : "subsumedBy",
+      "valueCode" : "_PersonalRelationshipRoleType"
+    }]
+  },
+  {
+    "code" : "NCHILD",
+    "display" : "potomek",
+    "definition" : "Potomek dotčené entity (rodiče).",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "The player of the role is an offspring of the scoping entity as determined by birth."
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "natural child"
+    }],
+    "property" : [{
+      "code" : "subsumedBy",
+      "valueCode" : "CHILD"
+    }]
+  },
+  {
+    "code" : "NEPHEW",
+    "display" : "synovec",
+    "definition" : "Syn bratra nebo sestry dotčené osoby.",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "The player of the role is a son of the scoping person's brother or sister or of the brother or sister of the scoping person's spouse."
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "nephew"
+    }],
+    "property" : [{
+      "code" : "subsumedBy",
+      "valueCode" : "NIENEPH"
+    }]
+  },
+  {
+    "code" : "NIECE",
+    "display" : "neteř",
+    "definition" : "Dcera bratra nebo sestry dotčené osoby.",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "The player of the role is a daughter of the scoping person's brother or sister or of the brother or sister of the scoping person's spouse."
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "niece"
+    }],
+    "property" : [{
+      "code" : "subsumedBy",
+      "valueCode" : "NIENEPH"
+    }]
+  },
+  {
+    "code" : "NIENEPH",
+    "display" : "neteř/synovec",
+    "definition" : "Potomek bratra nebo sestry dotčené osoby nebo bratra nebo sestry manžela/manželky dotčené osoby.",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "The player of the role is a child of scoping person's brother or sister or of the brother or sister of the scoping person's spouse."
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "niece/nephew"
+    }],
+    "property" : [{
+      "code" : "subsumedBy",
+      "valueCode" : "EXT"
+    }]
+  },
+  {
+    "code" : "NOK",
+    "display" : "příbuzný",
+    "definition" : "Nejbližší příbuzný dotčené osoby.",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "Played by an individual who is designated as the next of kin for another individual which scopes the role."
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "next of kin"
+    }],
+    "property" : [{
+      "code" : "subsumedBy",
+      "valueCode" : "_ContactRoleType"
+    }]
+  },
+  {
+    "code" : "PRN",
+    "display" : "rodič",
+    "definition" : "Osoba, která zplodila, porodila nebo vychovala a pečuje o dotčenou osobu (dítě).",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "The player of the role is one who begets, gives birth to, or nurtures and raises the scoping entity (child)."
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "parent"
+    }],
+    "property" : [{
+      "code" : "subsumedBy",
+      "valueCode" : "FAMMEMB"
+    }]
+  },
+  {
+    "code" : "PRNINLAW",
+    "display" : "tchyně/tchán",
+    "definition" : "Rodič manžela nebo manželky dotčené osoby.",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "The player of the role is the parent of scoping person's husband or wife."
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "parent in-law"
+    }],
+    "property" : [{
+      "code" : "subsumedBy",
+      "valueCode" : "INLAW"
+    }]
+  },
+  {
+    "code" : "ROOM",
+    "display" : "spolubydlící",
+    "definition" : "Osoba, která sdílí obytné prostory s dotčenou osobou.",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "One who shares living quarters with the subject."
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "Roommate"
+    }],
+    "property" : [{
+      "code" : "subsumedBy",
+      "valueCode" : "_PersonalRelationshipRoleType"
+    }]
+  },
+  {
+    "code" : "SIB",
+    "display" : "sourozenec",
+    "definition" : "Osoba, která sdílí jednoho nebo oba rodiče s dotčenou osobou.",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "The player of the role shares one or both parents in common with the scoping entity."
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "sibling"
+    }],
+    "property" : [{
+      "code" : "subsumedBy",
+      "valueCode" : "FAMMEMB"
+    }]
+  },
+  {
+    "code" : "SIBINLAW",
+    "display" : "švagr/švagrová",
+    "definition" : "Osoba, která je: (1) sourozencem manžela/manželky dotčené osoby, nebo (2) manželem/manželkou sourozence dotčené osoby, nebo (3) manželem/manželkou sourozence manžela/manželky dotčené osoby.",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "The player of the role is: (1) a sibling of the scoping person's spouse, or (2) the spouse of the scoping person's sibling, or (3) the spouse of a sibling of the scoping person's spouse."
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "sibling in-law"
+    }],
+    "property" : [{
+      "code" : "subsumedBy",
+      "valueCode" : "INLAW"
+    }]
+  },
+  {
+    "code" : "SIGOTHR",
+    "display" : "osoba blízká",
+    "definition" : "Osoba, která je důležitá pro blaho dotčené osoby; zejména manžel nebo osoba ve obdobném vztahu.",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "A person who is important to one's well being; especially a spouse or one in a similar relationship. (The player is the one who is important)"
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "significant other"
+    }],
+    "property" : [{
+      "code" : "subsumedBy",
+      "valueCode" : "FAMMEMB"
+    }]
+  },
+  {
+    "code" : "SIS",
+    "display" : "sestra",
+    "definition" : "Žena, která sdílí jednoho nebo oba rodiče s dotčenou osobou.",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "The player of the role is a female sharing one or both parents in common with the scoping entity."
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "sister"
+    }],
+    "property" : [{
+      "code" : "subsumedBy",
+      "valueCode" : "SIB"
+    }]
+  },
+  {
+    "code" : "SISINLAW",
+    "display" : "švagrová",
+    "definition" : "Osoba, která je: (1) sestrou manžela/manželky dotčené osoby, nebo (2) manželkou bratra dotčené osoby, nebo (3) manželkou bratra manžela/manželky dotčené osoby.",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "The player of the role is: (1) a sister of the scoping person's spouse, or (2) the wife of the scoping person's brother, or (3) the wife of a brother of the scoping person's spouse."
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "sister-in-law"
+    }],
+    "property" : [{
+      "code" : "subsumedBy",
+      "valueCode" : "SIBINLAW"
+    },
+    {
+      "code" : "synonymCode",
+      "valueCode" : "SISLINLAW"
+    }]
+  },
+  {
+    "code" : "SISLINLAW",
+    "display" : "švagrová",
+    "definition" : "Osoba, která je: (1) sestrou manžela/manželky dotčené osoby, nebo (2) manželkou bratra dotčené osoby, nebo (3) manželkou bratra manžela/manželky dotčené osoby.",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "The player of the role is: (1) a sister of the scoping person's spouse, or (2) the wife of the scoping person's brother, or (3) the wife of a brother of the scoping person's spouse."
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "sister-in-law"
+    }],
+    "property" : [{
+      "code" : "subsumedBy",
+      "valueCode" : "SIBINLAW"
+    },
+    {
+      "code" : "synonymCode",
+      "valueCode" : "SISINLAW"
+    }]
+  },
+  {
+    "code" : "SON",
+    "display" : "vlastní syn",
+    "definition" : "Mužský potomek dotčené entity (rodiče).",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "The player of the role is a male offspring of the scoping entity (parent)."
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "natural son"
+    }],
+    "property" : [{
+      "code" : "subsumedBy",
+      "valueCode" : "NCHILD"
+    },
+    {
+      "code" : "subsumedBy",
+      "valueCode" : "SONC"
+    }]
+  },
+  {
+    "code" : "SONADOPT",
+    "display" : "osvojený syn",
+    "definition" : "Mužský potomek dotčené entity (rodiče), který byl přijat do rodiny prostřednictvím právních prostředků a vychováván dotčenou osobou (rodičem) jako vlastní dítě.",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "The player of the role is a male child taken into a family through legal means and raised by the scoping person (parent) as his or her own child."
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "adopted son"
+    }],
+    "property" : [{
+      "code" : "subsumedBy",
+      "valueCode" : "CHLDADOPT"
+    },
+    {
+      "code" : "subsumedBy",
+      "valueCode" : "SONC"
+    }]
+  },
+  {
+    "code" : "SONC",
+    "display" : "syn",
+    "definition" : "**Popis:** Mužský potomek (jakéhokoli typu) dotčené osoby (rodiče).",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "**Description:** The player of the role is a male child (of any type) of scoping entity (parent)"
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "son"
+    }],
+    "property" : [{
+      "code" : "subsumedBy",
+      "valueCode" : "CHILD"
+    }]
+  },
+  {
+    "code" : "SONFOST",
+    "display" : "syn v náhradní péči (kromě osvojení)",
+    "definition" : "Mužský potomek dotčené entity (rodiče), který je v náhradní péči a výchově dotčené osoby (rodiče), ale není s ní spojen právními nebo biologickými vazbami.",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "The player of the role is a male child receiving parental care and nurture from the scoping person (parent) but not related to him or her through legal or blood ties."
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "foster son"
+    }],
+    "property" : [{
+      "code" : "subsumedBy",
+      "valueCode" : "CHLDFOST"
+    },
+    {
+      "code" : "subsumedBy",
+      "valueCode" : "SONC"
+    }]
+  },
+  {
+    "code" : "SONINLAW",
+    "display" : "zeť",
+    "definition" : "Manžel dcery dotčené osoby.",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "The player of the role is the husband of scoping person's daughter."
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "son in-law"
+    }],
+    "property" : [{
+      "code" : "subsumedBy",
+      "valueCode" : "CHLDINLAW"
+    }]
+  },
+  {
+    "code" : "SPS",
+    "display" : "manžel/maželka",
+    "definition" : "Osoba, která je manželským partnerem dotčené osoby.",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "The player of the role is a marriage partner of the scoping person."
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "spouse"
+    }],
+    "property" : [{
+      "code" : "subsumedBy",
+      "valueCode" : "SIGOTHR"
+    }]
+  },
+  {
+    "code" : "STPCHLD",
+    "display" : "nevlastní dítě",
+    "definition" : "Dítě manžela/manželky dotčené osoby z předchozího manželství.",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "The player of the role is a child of the scoping person's spouse by a previous union."
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "step child"
+    }],
+    "property" : [{
+      "code" : "subsumedBy",
+      "valueCode" : "CHILD"
+    }]
+  },
+  {
+    "code" : "STPDAU",
+    "display" : "nevlastní dcera",
+    "definition" : "Ženský potomek manžela/manželky dotčené osoby z předchozího manželství.",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "The player of the role is a daughter of the scoping person's spouse by a previous union."
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "stepdaughter"
+    }],
+    "property" : [{
+      "code" : "subsumedBy",
+      "valueCode" : "DAUC"
+    },
+    {
+      "code" : "subsumedBy",
+      "valueCode" : "STPCHLD"
+    }]
+  },
+  {
+    "code" : "STPSON",
+    "display" : "nevlastní syn",
+    "definition" : "Mužský potomek manžela/manželky dotčené osoby z předchozího manželství.",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "The player of the role is a son of the scoping person's spouse by a previous union."
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "stepson"
+    }],
+    "property" : [{
+      "code" : "subsumedBy",
+      "valueCode" : "SONC"
+    },
+    {
+      "code" : "subsumedBy",
+      "valueCode" : "STPCHLD"
+    }]
+  },
+  {
+    "code" : "UNCLE",
+    "display" : "strýc",
+    "definition" : "Bratr matky nebo otce dotčené osoby.",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "The player of the role is a brother of the scoping person's mother or father."
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "uncle"
+    }],
+    "property" : [{
+      "code" : "subsumedBy",
+      "valueCode" : "EXT"
+    }]
+  },
+  {
+    "code" : "WIFE",
+    "display" : "manželka",
+    "definition" : "Žena, která je manželským partnerem dotčené osoby.",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "The player of the role is a woman joined to a man (scoping person) in marriage."
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "wife"
+    }],
+    "property" : [{
+      "code" : "subsumedBy",
+      "valueCode" : "SPS"
+    }]
+  },
+  {
+    "code" : "_ContactRoleType",
+    "display" : "ContactRoleType",
+    "definition" : "Typy kontaktů pro kód role \\\"CON\\“",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "Types of contact for Role code \"CON\""
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "ContactRoleType"
+    }],
+    "property" : [{
+      "code" : "notSelectable",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "_PersonalRelationshipRoleType",
+    "display" : "PersonalRelationshipRoleType",
+    "definition" : "Typy osobních vztahů pro kód role \\\"PRN\\“",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "PersonalRelationshipRoleType"
+    }],
+    "property" : [{
+      "code" : "notSelectable",
+      "valueBoolean" : true
+    }]
+  }]
+}

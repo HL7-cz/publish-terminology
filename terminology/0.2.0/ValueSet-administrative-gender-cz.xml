@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="administrative-gender-cz"/>
+  <language value="cs"/>
+  <text>
+    <status value="generated"/><div xml:lang="cs" xmlns="http://www.w3.org/1999/xhtml" lang="cs"><p class="res-header-id"><b>Generated Narrative: ValueSet administrative-gender-cz</b></p><a name="administrative-gender-cz"> </a><a name="hcadministrative-gender-cz"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: cs</p></div><p>This ValueSet requires the Code system Supplement <a href="CodeSystem-administrative-gender-cz.html">Administrative Gender (CZ supplement)</a>.</p><ul><li>Include all codes defined in <a href="http://hl7.org/fhir/R4/codesystem-administrative-gender.html"><code>http://hl7.org/fhir/administrative-gender</code></a><span title="Version is explicitly stated to be 4.0.1"> version &#x1F4CD;4.0.1</span></li></ul></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/valueset-supplement">
+    <valueCanonical value="https://hl7.cz/terminology/CodeSystem/administrative-gender-cz"/>
+  </extension>
+  <url value="https://hl7.cz/terminology/ValueSet/administrative-gender-cz"/>
+  <version value="0.2.0"/>
+  <name value="AdministrativeGenderCzVs"/>
+  <title value="Gender for administrative purposes"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2022-12-26"/>
+  <publisher value="HL7 Czech Republic"/>
+  <contact>
+    <name value="HL7 Czech Republic"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hl7.cz/"/>
+    </telecom>
+  </contact>
+  <description value="Pohlaví pro administrativní účely. (Gender for administrative purposes)"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CZ"/>
+      <display value="Czechia"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/administrative-gender"/>
+      <version value="4.0.1"/>
+    </include>
+  </compose>
+</ValueSet>

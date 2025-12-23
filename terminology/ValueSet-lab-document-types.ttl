@@ -1,0 +1,82 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hl7.cz/terminology/ValueSet/lab-document-types> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "lab-document-types"] ; # 
+  fhir:language [ fhir:v "cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xml:lang=\"cs\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"cs\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet lab-document-types</b></p><a name=\"lab-document-types\"> </a><a name=\"hclab-document-types\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: cs</p></div><ul><li>Include these codes as defined in <a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"https://loinc.org/18716-1/\">18716-1</a></td><td>Laboratorní zpráva alergologická</td></tr><tr><td><a href=\"https://loinc.org/18717-9/\">18717-9</a></td><td>Laboratorní zpráva transfůzní</td></tr><tr><td><a href=\"https://loinc.org/18719-5/\">18719-5</a></td><td>Laboratorní zpráva biochemická</td></tr><tr><td><a href=\"https://loinc.org/18722-9/\">18722-9</a></td><td>Laboratorní zpráva reprodukční</td></tr><tr><td><a href=\"https://loinc.org/18723-7/\">18723-7</a></td><td>Laboratorní zpráva hematologická</td></tr><tr><td><a href=\"https://loinc.org/18725-2/\">18725-2</a></td><td>Laboratorní zpráva mikrobiologická</td></tr><tr><td><a href=\"https://loinc.org/18728-6/\">18728-6</a></td><td>Laboratorní zpráva toxikologická</td></tr><tr><td><a href=\"https://loinc.org/26436-6/\">26436-6</a></td><td>Laboratorní zpráva</td></tr></table></li></ul></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [
+     fhir:v "https://ncez.mzcr.cz/terminology/ValueSet/lab-document-types"^^xsd:anyURI ;
+     fhir:l <https://ncez.mzcr.cz/terminology/ValueSet/lab-document-types>
+  ] ; # 
+  fhir:version [ fhir:v "0.2.0"] ; # 
+  fhir:name [ fhir:v "LabDocumentTypes"] ; # 
+  fhir:title [ fhir:v "Typy laboratorních dokumentů"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2025-11-19T13:46:00.42162Z"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 Czech Republic"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HL7 Czech Republic" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://www.hl7.cz/" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Číselník typů laboratorních dokumentů."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
+         fhir:l <urn:iso:std:iso:3166>
+       ] ;
+       fhir:code [ fhir:v "CZ" ] ;
+       fhir:display [ fhir:v "Czechia" ]
+     ] )
+  ] ) ; # 
+  fhir:copyright [ fhir:v "This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://loinc.org"^^xsd:anyURI ;
+         fhir:l <http://loinc.org>
+       ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "18716-1" ] ;
+         fhir:display [ fhir:v "Laboratorní zpráva alergologická" ]
+       ] [
+         fhir:code [ fhir:v "18717-9" ] ;
+         fhir:display [ fhir:v "Laboratorní zpráva transfůzní" ]
+       ] [
+         fhir:code [ fhir:v "18719-5" ] ;
+         fhir:display [ fhir:v "Laboratorní zpráva biochemická" ]
+       ] [
+         fhir:code [ fhir:v "18722-9" ] ;
+         fhir:display [ fhir:v "Laboratorní zpráva reprodukční" ]
+       ] [
+         fhir:code [ fhir:v "18723-7" ] ;
+         fhir:display [ fhir:v "Laboratorní zpráva hematologická" ]
+       ] [
+         fhir:code [ fhir:v "18725-2" ] ;
+         fhir:display [ fhir:v "Laboratorní zpráva mikrobiologická" ]
+       ] [
+         fhir:code [ fhir:v "18728-6" ] ;
+         fhir:display [ fhir:v "Laboratorní zpráva toxikologická" ]
+       ] [
+         fhir:code [ fhir:v "26436-6" ] ;
+         fhir:display [ fhir:v "Laboratorní zpráva" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+
