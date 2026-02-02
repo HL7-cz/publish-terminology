@@ -10,12 +10,12 @@
       "version-count" : 1,
       "latest" : {
         "version" : "0.2.0",
-        "date" : "2025-12-23",
+        "date" : "2026-02-02",
         "path" : "https://hl7.cz/terminology/0.2.0"
       },
       "milestone" : {
         "version" : "0.2.0",
-        "date" : "2025-12-23",
+        "date" : "2026-02-02",
         "path" : "https://hl7.cz/terminology/0.2.0"
       }
     }

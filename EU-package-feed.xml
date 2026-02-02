@@ -1,0 +1,357 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:fhir="http://hl7.org/fhir/feed" version="2.0">
+    <channel>
+        <title>HL7 Czech FHIR Packages</title>
+        <description>Packages published or hosted by HL7 Czech Republic</description>
+        <link>http://hl7.cz/terminology/package-feed.xml</link>
+        <generator>HL7 FHIR Publication tooling</generator>
+        <lastBuildDate>Fri, 19 Dec 2025 11:59:37 +0100</lastBuildDate>
+        <atom:link href="http://hl7.cz/terminology/package-feed.xml" rel="self" type="application/rss+xml" />
+        <pubDate>Fri, 30 Jan 2026 11:59:37 +0100</pubDate>
+        <language>en</language>
+        <ttl>600</ttl>
+
+        <!-- ========== HL7 EU Publications =================== -->
+
+    <!-- ================================ -->
+    <!--   Medication Prescription and Dispense (R4)         -->
+    <!-- ================================ -->
+    <!--  Ballot STU 1-->
+    <item>
+        <title>hl7.fhir.eu.mpd#0.1.0-ballot</title>
+        <description>HL7 Europe Medication Prescription and Dispense</description>
+        <link>http://hl7.eu/fhir/mpd/0.1.0-ballot/package.tgz</link>
+        <guid isPermaLink="true">http://hl7.eu/fhir/mpd/0.1.0-ballot/package.tgz</guid>
+        <dc:creator>HL7 Europe</dc:creator>
+        <fhir:version>4.0.1</fhir:version>
+        <fhir:kind>IG</fhir:kind>
+        <pubDate>Wed, 04 Jun 2025 09:25:13 +0200</pubDate>
+        <fhir:details>IG Publisher Version: v2.0.4</fhir:details>
+    </item>
+
+    <!-- ================================ -->
+    <!--   Medication Prescription and Dispense (R5)         -->
+    <!-- ================================ -->
+    <!--  Ballot STU 1-->
+    <item>
+        <title>hl7.fhir.eu.mpd-r5#0.1.0-ballot</title>
+        <description>HL7 Europe Medication Prescription and Dispense</description>
+        <link>http://hl7.eu/fhir/mpd-r5/0.1.0-ballot/package.tgz</link>
+        <guid isPermaLink="true">http://hl7.eu/fhir/mpd-r5/0.1.0-ballot/package.tgz</guid>
+        <dc:creator>HL7 Europe</dc:creator>
+        <fhir:version>5.0.0</fhir:version>
+        <fhir:kind>IG</fhir:kind>
+        <pubDate>Wed, 04 Jun 2025 21:07:24 +0200</pubDate>
+        <fhir:details>IG Publisher Version: v2.0.4</fhir:details>
+    </item>
+
+
+    <!-- ================================ -->
+    <!--   Hospital Discharge Report (R4)         -->
+    <!-- ================================ -->
+    <!--  Ballot STU 1-->
+    <item>
+        <title>hl7.fhir.eu.hdr#0.1.0-ballot</title>
+        <description>HL7 Europe Hospital Discharge Report</description>
+        <link>http://hl7.eu/fhir/hdr/0.1.0-ballot/package.tgz</link>
+        <guid isPermaLink="true">http://hl7.eu/fhir/hdr/0.1.0-ballot/package.tgz</guid>
+        <dc:creator>HL7 Europe</dc:creator>
+        <fhir:version>4.0.1</fhir:version>
+        <fhir:kind>IG</fhir:kind>
+        <pubDate>Tue, 03 Jun 2025 14:47:52 +0200</pubDate>
+        <fhir:details>IG Publisher Version: v2.0.4</fhir:details>
+    </item>
+
+    <!-- ================================ -->
+    <!--   Imaging Study Report (R5)         -->
+    <!-- ================================ -->
+    <!--  Ballot STU 1-->
+    <item>
+        <title>hl7.fhir.eu.imaging-r5#0.1.0-ballot</title>
+        <description>HL7 Europe Imaging Study Report</description>
+        <link>http://hl7.eu/fhir/imaging-r5/0.1.0-ballot/package.tgz</link>
+        <guid isPermaLink="true">http://hl7.eu/fhir/imaging-r5/0.1.0-ballot/package.tgz</guid>
+        <dc:creator>HL7 Europe</dc:creator>
+        <fhir:version>5.0.0</fhir:version>
+        <fhir:kind>IG</fhir:kind>
+        <pubDate>Wed, 14 May 2025 17:41:56 +0200</pubDate>
+        <fhir:details>IG Publisher Version: v1.8.26</fhir:details>
+    </item>
+
+    <!-- ================================ -->
+    <!--   Laboratory Report (R4)         -->
+    <!-- ================================ -->
+    <!--  Ballot STU 1-->
+    <!--         <item>
+            <title>hl7.fhir.eu.laboratory#0.1.0-ballot</title>
+            <description>HL7 Europe Laboratory Report</description>
+            <link>http://hl7.eu/fhir/laboratory/0.1.0-ballot/package.tgz</link>
+            <guid isPermaLink="true">http://hl7.eu/fhir/laboratory/0.1.0-ballot/package.tgz</guid>
+            <dc:creator>HL7 Europe</dc:creator>
+            <fhir:version>4.0.1</fhir:version>
+            <fhir:kind>IG</fhir:kind>
+            <pubDate>Sun, 22 Oct 2023 08:43:24 +0200</pubDate>
+            <fhir:details>IG Publisher Version: v1.4.16</fhir:details>
+        </item> -->
+    <!--  STU 1 -->
+    <item>
+        <title>hl7.fhir.eu.laboratory#0.1.0</title>
+        <description>HL7 Europe Laboratory Report</description>
+        <link>http://hl7.eu/fhir/laboratory/0.1.0/package.tgz</link>
+        <guid isPermaLink="true">http://hl7.eu/fhir/laboratory/0.1.0/package.tgz</guid>
+        <dc:creator>HL7 Europe</dc:creator>
+        <fhir:version>4.0.1</fhir:version>
+        <fhir:kind>IG</fhir:kind>
+        <pubDate>Mon, 26 Feb 2024 08:53:37 +0100</pubDate>
+        <fhir:details>IG Publisher Version: v1.5.16</fhir:details>
+    </item>
+    <!--  STU 1.1 -->
+    <item>
+        <title>hl7.fhir.eu.laboratory#0.1.1</title>
+        <description>HL7 Europe Laboratory Report</description>
+        <link>http://hl7.eu/fhir/laboratory/0.1.1/package.tgz</link>
+        <guid isPermaLink="true">http://hl7.eu/fhir/laboratory/0.1.1/package.tgz</guid>
+        <dc:creator>HL7 Europe</dc:creator>
+        <fhir:version>4.0.1</fhir:version>
+        <fhir:kind>IG</fhir:kind>
+        <pubDate>Tue, 25 Mar 2025 12:21:10 +0100</pubDate>
+        <fhir:details>IG Publisher Version: v1.5.16</fhir:details>
+    </item>
+
+        <!-- ================================ -->
+        <!--   Extensions                 -->
+        <!-- ================================ -->
+        <!--  STU 1 (R4)-->
+        <item>
+            <title>hl7.fhir.eu.extensions#0.1.0</title>
+            <description>HL7 Europe Extensions</description>
+            <link>http://hl7.eu/fhir/extensions/0.1.0/package.tgz</link>
+            <guid isPermaLink="true">http://hl7.eu/fhir/extensions/0.1.0/package.tgz</guid>
+            <dc:creator>HL7 Europe</dc:creator>
+            <fhir:version>4.0.1</fhir:version>
+            <fhir:kind>IG</fhir:kind>
+            <pubDate>Mon, 26 Feb 2024 09:11:44 +0100</pubDate>
+            <fhir:details>IG Publisher Version: v1.5.16</fhir:details>
+        </item>
+        <!--  STU 1.1 (R5) Ballot-->
+        <item>
+            <title>hl7.fhir.eu.extensions#0.1.1-ballot</title>
+            <description>HL7 Europe Extensions</description>
+            <link>http://hl7.eu/fhir/extensions/0.1.1-ballot/package.tgz</link>
+            <guid isPermaLink="true">http://hl7.eu/fhir/extensions/0.1.1-ballot/package.tgz</guid>
+            <dc:creator>HL7 Europe</dc:creator>
+            <fhir:version>5.0.0</fhir:version>
+            <fhir:kind>IG</fhir:kind>
+            <pubDate>Wed, 30 Apr 2025 00:00:00 +0100</pubDate>
+            <fhir:details>IG Publisher Version: v1.8.25</fhir:details>
+        </item>
+        <!--  STU 1.1 (R5)-->
+        <item>
+            <title>hl7.fhir.eu.extensions.r5#0.1.1-ballot</title>
+            <description>HL7 Europe Extensions</description>
+            <link>https://hl7.eu/fhir/extensions/0.1.1-ballot/hl7.fhir.eu.extensions.r5.tgz</link>
+            <guid isPermaLink="true">https://hl7.eu/fhir/extensions/0.1.1-ballot/hl7.fhir.eu.extensions.r5.tgz</guid>
+            <dc:creator>HL7 Europe</dc:creator>
+            <fhir:version>5.0.0</fhir:version>
+            <fhir:kind>IG</fhir:kind>
+            <pubDate>Wed, 30 Apr 2025 00:00:00 +0100</pubDate>
+            <fhir:details>IG Publisher Version: v1.8.25</fhir:details>
+        </item>
+        <!--  STU 1.1 (R4)-->
+        <item>
+            <title>hl7.fhir.eu.extensions.r4#0.1.1-ballot</title>
+            <description>HL7 Europe Extensions</description>
+            <link>https://hl7.eu/fhir/extensions/0.1.1-ballot/hl7.fhir.eu.extensions.r4.tgz</link>
+            <guid isPermaLink="true">https://hl7.eu/fhir/extensions/0.1.1-ballot/hl7.fhir.eu.extensions.r4.tgz</guid>
+            <dc:creator>HL7 Europe</dc:creator>
+            <fhir:version>4.0.1</fhir:version>
+            <fhir:kind>IG</fhir:kind>
+            <pubDate>Wed, 30 Apr 2025 00:00:00 +0100</pubDate>
+            <fhir:details>IG Publisher Version: v1.8.25</fhir:details>
+        </item>
+
+
+        <!--  STU 1.1 (R5) -->
+        <!--   Sun Oct 26 20:26:35 CET 2025, FHIR version 5.0.0
+        IG Publisher Version: v2.0.22 -->
+        <item>
+            <title>hl7.fhir.eu.extensions#0.1.1</title>
+            <description>HL7 Europe Extensions</description>
+            <link>http://hl7.eu/fhir/extensions/0.1.1/package.tgz</link>
+            <guid isPermaLink="true">http://hl7.eu/fhir/extensions/0.1.1/package.tgz</guid>
+            <dc:creator>HL7 Europe</dc:creator>
+            <fhir:version>5.0.0</fhir:version>
+            <fhir:kind>IG</fhir:kind>
+            <pubDate>Sun, 26 Oct 2025 20:26:35 +0100</pubDate>
+            <fhir:details>IG Publisher Version: v2.0.22</fhir:details>
+        </item>
+        <!--  STU 1.1 (R5)-->
+        <item>
+            <title>hl7.fhir.eu.extensions.r5#0.1.1</title>
+            <description>HL7 Europe Extensions</description>
+            <link>https://hl7.eu/fhir/extensions/0.1.1/hl7.fhir.eu.extensions.r5.tgz</link>
+            <guid isPermaLink="true">https://hl7.eu/fhir/extensions/0.1.1/hl7.fhir.eu.extensions.r5.tgz</guid>
+            <dc:creator>HL7 Europe</dc:creator>
+            <fhir:version>5.0.0</fhir:version>
+            <fhir:kind>IG</fhir:kind>
+            <pubDate>Sun, 26 Oct 2025 20:26:35 +0100</pubDate>
+            <fhir:details>IG Publisher Version: v2.0.22</fhir:details>
+        </item>
+        <!--  STU 1.1 (R4)-->
+        <item>
+            <title>hl7.fhir.eu.extensions.r4#0.1.1</title>
+            <description>HL7 Europe Extensions</description>
+            <link>https://hl7.eu/fhir/extensions/0.1.1/hl7.fhir.eu.extensions.r4.tgz</link>
+            <guid isPermaLink="true">https://hl7.eu/fhir/extensions/0.1.1/hl7.fhir.eu.extensions.r4.tgz</guid>
+            <dc:creator>HL7 Europe</dc:creator>
+            <fhir:version>4.0.1</fhir:version>
+            <fhir:kind>IG</fhir:kind>
+            <pubDate>Sun, 26 Oct 2025 20:26:35 +0100</pubDate>
+            <fhir:details>IG Publisher Version: v2.0.22</fhir:details>
+        </item>
+
+        <!-- New release 1.2.0 (Dec 19 2025) -->
+        <item>
+            <title>hl7.fhir.eu.extensions#1.2.0</title>
+            <description>HL7 Europe Extensions</description>
+            <link>http://hl7.eu/fhir/extensions/1.2.0/package.tgz</link>
+            <guid isPermaLink="true">http://hl7.eu/fhir/extensions/1.2.0/package.tgz</guid>
+            <dc:creator>HL7 Europe</dc:creator>
+            <fhir:version>5.0.0</fhir:version>
+            <fhir:kind>IG</fhir:kind>
+            <pubDate>Fri, 19 Dec 2025 11:59:37 +0100</pubDate>
+            <fhir:details>IG Publisher Version: v2.0.29</fhir:details>
+        </item>
+
+        <item>
+            <title>hl7.fhir.eu.extensions.r5#1.2.0</title>
+            <description>HL7 Europe Extensions</description>
+            <link>https://hl7.eu/fhir/extensions/1.2.0/hl7.fhir.eu.extensions.r5.tgz</link>
+            <guid isPermaLink="true">https://hl7.eu/fhir/extensions/1.2.0/hl7.fhir.eu.extensions.r5.tgz</guid>
+            <dc:creator>HL7 Europe</dc:creator>
+            <fhir:version>5.0.0</fhir:version>
+            <fhir:kind>IG</fhir:kind>
+            <pubDate>Fri, 19 Dec 2025 11:59:37 +0100</pubDate>
+            <fhir:details>IG Publisher Version:  v2.0.29</fhir:details>
+        </item>
+
+        <item>
+            <title>hl7.fhir.eu.extensions.r4#1.2.0</title>
+            <description>HL7 Europe Extensions</description>
+            <link>https://hl7.eu/fhir/extensions/1.2.0/hl7.fhir.eu.extensions.r4.tgz</link>
+            <guid isPermaLink="true">https://hl7.eu/fhir/extensions/1.2.0/hl7.fhir.eu.extensions.r4.tgz</guid>
+            <dc:creator>HL7 Europe</dc:creator>
+            <fhir:version>4.0.1</fhir:version>
+            <fhir:kind>IG</fhir:kind>
+            <pubDate>Fri, 19 Dec 2025 11:59:37 +0100</pubDate>
+            <fhir:details>IG Publisher Version: v2.0.29</fhir:details>
+        </item>
+
+
+
+        <!-- ================================ -->
+        <!--   Base and Core (R4)                 -->
+        <!-- ================================ -->
+        <!--  STU1 Ballot  -->
+
+        <!-- Sun Oct 26 22:18:47 CET 2025
+        IG Publisher Version: v2.0.22-->
+
+        <item>
+            <title>hl7.fhir.eu.base#0.1.0-ballot</title>
+            <description>HL7 Europe Base and Core</description>
+            <link>http://hl7.eu/fhir/base/0.1.0-ballot/package.tgz</link>
+            <guid isPermaLink="true">http://hl7.eu/fhir/base/0.1.0-ballot/package.tgz</guid>
+            <dc:creator>HL7 Europe</dc:creator>
+            <fhir:version>4.0.1</fhir:version>
+            <fhir:kind>IG</fhir:kind>
+            <pubDate>Mon, 05 May 2025 00:00:00 +0100</pubDate>
+            <fhir:details>IG Publisher Version: v1.8.25</fhir:details>
+        </item>
+        <!--  STU1  -->
+        <item>
+            <title>hl7.fhir.eu.base#0.1.0</title>
+            <description>HL7 Europe Base and Core</description>
+            <link>http://hl7.eu/fhir/base/0.1.0/package.tgz</link>
+            <guid isPermaLink="true">http://hl7.eu/fhir/base/0.1.0/package.tgz</guid>
+            <dc:creator>HL7 Europe</dc:creator>
+            <fhir:version>4.0.1</fhir:version>
+            <fhir:kind>IG</fhir:kind>
+            <pubDate>Sun, 26 Oct 2025 22:18:47 +0100</pubDate>
+            <fhir:details>IG Publisher Version: v2.0.22</fhir:details>
+        </item>
+
+        <!-- ================================ -->
+        <!--   Base and Core (R5)            -->
+        <!-- ================================ -->
+        <!--  STU 1 Ballot -->
+
+        <item>
+            <title>hl7.fhir.eu.base-r5#0.1.0-ballot</title>
+            <description>HL7 Europe Base and Core</description>
+            <link>http://hl7.eu/fhir/base-r5/0.1.0-ballot/package.tgz</link>
+            <guid isPermaLink="true">http://hl7.eu/fhir/base-r5/0.1.0-ballot/package.tgz</guid>
+            <dc:creator>HL7 Europe</dc:creator>
+            <fhir:version>5.0.0</fhir:version>
+            <fhir:kind>IG</fhir:kind>
+            <pubDate>Tue, 06 May 2025 00:00:00 +0100</pubDate>
+            <fhir:details>IG Publisher Version: v1.8.25</fhir:details>
+        </item>
+
+        <!--  STU 1 -->
+        <!-- Sun Oct 26 22:54:34 CET 2025
+        IG Publisher Version: v2.0.22-->
+
+        <item>
+            <title>hl7.fhir.eu.base-r5#0.1.0</title>
+            <description>HL7 Europe Base and Core</description>
+            <link>http://hl7.eu/fhir/base-r5/0.1.0/package.tgz</link>
+            <guid isPermaLink="true">http://hl7.eu/fhir/base-r5/0.1.0/package.tgz</guid>
+            <dc:creator>HL7 Europe</dc:creator>
+            <fhir:version>5.0.0</fhir:version>
+            <fhir:kind>IG</fhir:kind>
+            <pubDate>Sun, 26 Oct 2025 22:54:34 +0100</pubDate>
+            <fhir:details>IG Publisher Version: v2.0.22</fhir:details>
+        </item>
+
+        <!-- ========== EU FUNDED PROJECTS =================== -->
+
+        <!-- ================================ -->
+        <!--   PanCareSurPass (R4)            -->
+        <!-- ================================ -->
+        <!--  STU 1 -->
+
+        <item>
+            <title>hl7.eu.fhir.pcsp#0.1.0</title>
+            <description>PanCareSurPass Project HL7 FHIR Implementation Guide</description>
+            <link>http://hl7.eu/fhir/ig/pcsp/0.1.0/package.tgz</link>
+            <guid isPermaLink="true">http://hl7.eu/fhir/ig/pcsp/0.1.0/package.tgz</guid>
+            <dc:creator>HL7 Europe</dc:creator>
+            <fhir:version>4.0.1</fhir:version>
+            <fhir:kind>IG</fhir:kind>
+            <pubDate>Thu, 26 Jan 2023 00:00:00 +0100</pubDate>
+            <fhir:details>IG Publisher Version: v1.2.30</fhir:details>
+        </item>
+
+        <!-- ================================ -->
+        <!--   xShare Project Yellow Button (R4)            -->
+        <!-- ================================ -->
+        <!--  STU 2 -->
+
+        <item>
+            <title>hl7.eu.fhir.xshare-yb#0.2.0</title>
+            <description>xShare Project Yellow Button Implementation Guide</description>
+            <link>http://hl7.eu/fhir/ig/xshare-yb/0.2.0/package.tgz</link>
+            <guid isPermaLink="true">http://hl7.eu/fhir/ig/xshare-yb/0.2.0/package.tgz</guid>
+            <dc:creator>HL7 Europe</dc:creator>
+            <fhir:version>4.0.1</fhir:version>
+            <fhir:kind>IG</fhir:kind>
+            <pubDate>Wed, 05 Nov 2025 19:37:09 +0100</pubDate>
+            <fhir:details>IG Publisher Version: v2.0.24</fhir:details>
+        </item>
+
+
+    </channel>
+</rss>

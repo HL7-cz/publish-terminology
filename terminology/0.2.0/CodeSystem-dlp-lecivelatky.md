@@ -9,7 +9,7 @@
 | | | |
 | :--- | :--- | :--- |
 | *Official URL*:https://sukl.cz/terminology/CodeSystem/dlp-lecivelatky | *Version*:0.2.0 | |
-| *Standards status:*[Trial-use](http://hl7.org/fhir/R4/versions.html#std-process) | [Maturity Level](http://hl7.org/fhir/versions.html#maturity): 2 | *Computable Name*:CS_DLP_lecivelatky |
+| * Standards status: *[Trial-use](http://hl7.org/fhir/R4/versions.html#std-process) | [Maturity Level](http://hl7.org/fhir/versions.html#maturity): 2 | *Computable Name*:CS_DLP_lecivelatky |
 | *Other Identifiers:*OID:1.2.203.24341.11.2.7.5 | | |
 
  

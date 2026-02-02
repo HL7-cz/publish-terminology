@@ -1,0 +1,10 @@
+.history-logos {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.history-logos img {
+  max-height: 50px;
+  width: auto;
+}

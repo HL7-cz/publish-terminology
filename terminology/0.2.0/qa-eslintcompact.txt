@@ -1087,4 +1087,4 @@ Data type properties such as original text and translations may be present when 
 /Users/kruzik/dev/FHIR_publication/temp/ig-builds/hl7.fhir.cz.terminology#0.2.0/fsh-generated/resources/ValueSet-registering-provider-service-type-cz.json: line 1, col 2749, Info - Wrong Display Name 'stomatologické služby' for http://snomed.info/sct#722176000. Valid display is 'Dentistry service (qualifier value)' (en) (for the language(s) 'en, en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code (INFORMATIONAL)
 
 err = 7, warn = 8, info = 1051
-IG Publisher Version: 2.0.29
+IG Publisher Version: 2.0.30

@@ -41,7 +41,7 @@
   fhir:title [ fhir:v "eHDSI Absent Or Unknown Device"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2025-12-23T18:33:07+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-02-02T08:04:31+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 Czech Republic"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 Czech Republic" ] ;

@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://sukl.cz/terminology/CodeSystem/dlp-atc | *Version*:0.2.0 |
-| Draft as of 2025-12-23 | *Computable Name*:CS_DLP_atc |
+| Draft as of 2026-02-02 | *Computable Name*:CS_DLP_atc |
 
  
 Czech national version of the Anatomical Therapeutical Chemical (ATC) code system. 
@@ -33,7 +33,7 @@ Czech national version of the Anatomical Therapeutical Chemical (ATC) code syste
   "title" : "ATC CZ",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2025-12-23T18:27:27+01:00",
+  "date" : "2026-02-02T07:59:02+01:00",
   "publisher" : "HL7 Czech Republic",
   "contact" : [
     {

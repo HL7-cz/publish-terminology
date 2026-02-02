@@ -9,7 +9,7 @@
 | | | |
 | :--- | :--- | :--- |
 | *Official URL*:https://ncez.mzcr.cz/terminology/ValueSet/eHDSIAllergenNoDrug-cz | *Version*:0.2.0 | |
-| *Standards status:*[Draft](http://hl7.org/fhir/R4/versions.html#std-process) | [Maturity Level](http://hl7.org/fhir/versions.html#maturity): 1 | *Computable Name*:EHDSIAllergenNoDrugCZ |
+| * Standards status: *[Draft](http://hl7.org/fhir/R4/versions.html#std-process) | [Maturity Level](http://hl7.org/fhir/versions.html#maturity): 1 | *Computable Name*:EHDSIAllergenNoDrugCZ |
 | *Other Identifiers:*OID:1.3.6.1.4.1.12559.11.10.1.3.1.42.19 | | |
 | **Copyright/Legal**: This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement | | |
 
@@ -70,7 +70,7 @@ The value set is used to code the patient's kind of adverse reactions against su
   "title" : "eHDSI Allergen No Drug",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-23T18:33:07+01:00",
+  "date" : "2026-02-02T08:04:31+01:00",
   "publisher" : "HL7 Czech Republic",
   "contact" : [
     {

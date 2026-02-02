@@ -9,7 +9,7 @@
 | | | |
 | :--- | :--- | :--- |
 | *Official URL*:https://ncez.mzcr.cz/terminology/ValueSet/eHDSIExceptionalValue-cz | *Version*:0.2.0 | |
-| *Standards status:*[Draft](http://hl7.org/fhir/R4/versions.html#std-process) | [Maturity Level](http://hl7.org/fhir/versions.html#maturity): 1 | *Computable Name*:EHDSIExceptionalValueCZ |
+| * Standards status: *[Draft](http://hl7.org/fhir/R4/versions.html#std-process) | [Maturity Level](http://hl7.org/fhir/versions.html#maturity): 1 | *Computable Name*:EHDSIExceptionalValueCZ |
 | *Other Identifiers:*OID:1.3.6.1.4.1.12559.11.10.1.3.1.42.81 | | |
 
  
@@ -70,7 +70,7 @@ The Value Set is used to code exceptional values for the required binding in FHI
   "title" : "eHDSI Exceptional Value",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-23T18:33:07+01:00",
+  "date" : "2026-02-02T08:04:31+01:00",
   "publisher" : "HL7 Czech Republic",
   "contact" : [
     {

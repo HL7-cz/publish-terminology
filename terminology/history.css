@@ -28,3 +28,31 @@ table.history-grid td {
 	vertical-align: top;
 }
 
+.history-page #segment-header > .container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 16px;
+}
+
+.history-page .header-left,
+.history-page .header-right {
+	display: flex;
+	align-items: center;
+	gap: 16px;
+}
+
+.history-page #logo,
+.history-page #project-logo,
+.history-page #ncez-logo,
+.history-page #hl7-logo {
+	float: none;
+	margin: 6px 0 4px 0;
+	display: block;
+}
+
+.history-page #ig-status {
+	text-align: center;
+	flex: 1 1 auto;
+}
+

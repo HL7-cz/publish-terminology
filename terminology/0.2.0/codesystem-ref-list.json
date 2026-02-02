@@ -58,12 +58,12 @@
       "oids" : ["2.16.840.1.113883.6.1"],
       "uses" : {
       },
-      "ValueSet-referralorder-types.html" : "Typy žádanek",
-      "ValueSet-nursing-document-type.html" : "Typ ošetřovatelské dokumentace",
       "ValueSet-medical-document-type.html" : "Typy lékařské dokumentace",
-      "ValueSet-document-category.html" : "Kategorie dokumentů",
+      "ValueSet-lab-document-types.html" : "Typy laboratorních dokumentů",
       "ValueSet-imaging-document-types.html" : "Typy dokumentů obrazového komplementu",
-      "ValueSet-lab-document-types.html" : "Typy laboratorních dokumentů"
+      "ValueSet-referralorder-types.html" : "Typy žádanek",
+      "ValueSet-document-category.html" : "Kategorie dokumentů",
+      "ValueSet-nursing-document-type.html" : "Typ ošetřovatelské dokumentace"
     },
     {
       "url" : "http://snomed.info/sct",
@@ -75,16 +75,16 @@
       "oids" : ["2.16.840.1.113883.6.96"],
       "uses" : {
       },
-      "ValueSet-cz-specimencontainer.html" : "Specimen Container",
-      "ValueSet-eHDSIAllergenNoDrug-cz.html" : "eHDSI Allergen No Drug",
-      "ValueSet-lab-specimenType.html" : "Materiál vzorků",
-      "ValueSet-referralorder-types.html" : "Typy žádanek",
-      "ValueSet-medical-device.html" : "Medical Device",
       "ValueSet-registering-provider-service-type-cz.html" : "Registering Provider Service Type (CZ)",
+      "ValueSet-cz-specimen-laterality.html" : "Body Structure Laterality for specimen.",
+      "ValueSet-cz-specimencontainer.html" : "Specimen Container",
+      "ValueSet-medical-device.html" : "Medical Device",
+      "ValueSet-referralorder-types.html" : "Typy žádanek",
+      "ValueSet-eHDSIAllergenNoDrug-cz.html" : "eHDSI Allergen No Drug",
       "ValueSet-condition-cz.html" : "Condition Value Set",
       "ValueSet-cz-sitequalifier.html" : "Body Structure Qualifier",
-      "ValueSet-cz-specimen-laterality.html" : "Body Structure Laterality for specimen.",
-      "ValueSet-cz-specimenAdditive.html" : "Specimen Additive"
+      "ValueSet-cz-specimenAdditive.html" : "Specimen Additive",
+      "ValueSet-lab-specimenType.html" : "Materiál vzorků"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/coverage-selfpay",
@@ -247,8 +247,8 @@
       "oids" : ["1.2.203.24341.11.2.1"],
       "uses" : {
       },
-      "ValueSet-mkn-10.html" : "Mkn10_5",
-      "ValueSet-condition-cz.html" : "Condition Value Set"
+      "ValueSet-condition-cz.html" : "Condition Value Set",
+      "ValueSet-mkn-10.html" : "Mkn10_5"
     }
   ]
 }

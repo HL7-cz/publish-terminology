@@ -58,12 +58,12 @@
       "oids" : ["2.16.840.1.113883.6.1"],
       "uses" : {
       },
-      "ValueSet-document-category.html" : "Kategorie dokumentů",
-      "ValueSet-medical-document-type.html" : "Typy lékařské dokumentace",
-      "ValueSet-referralorder-types.html" : "Typy žádanek",
       "ValueSet-nursing-document-type.html" : "Typ ošetřovatelské dokumentace",
+      "ValueSet-lab-document-types.html" : "Typy laboratorních dokumentů",
+      "ValueSet-medical-document-type.html" : "Typy lékařské dokumentace",
+      "ValueSet-document-category.html" : "Kategorie dokumentů",
       "ValueSet-imaging-document-types.html" : "Typy dokumentů obrazového komplementu",
-      "ValueSet-lab-document-types.html" : "Typy laboratorních dokumentů"
+      "ValueSet-referralorder-types.html" : "Typy žádanek"
     },
     {
       "url" : "http://snomed.info/sct",
@@ -75,16 +75,16 @@
       "oids" : ["2.16.840.1.113883.6.96"],
       "uses" : {
       },
-      "ValueSet-cz-specimen-laterality.html" : "Body Structure Laterality for specimen.",
-      "ValueSet-registering-provider-service-type-cz.html" : "Registering Provider Service Type (CZ)",
-      "ValueSet-lab-specimenType.html" : "Materiál vzorků",
-      "ValueSet-cz-specimencontainer.html" : "Specimen Container",
-      "ValueSet-medical-device.html" : "Medical Device",
-      "ValueSet-referralorder-types.html" : "Typy žádanek",
       "ValueSet-condition-cz.html" : "Condition Value Set",
-      "ValueSet-eHDSIAllergenNoDrug-cz.html" : "eHDSI Allergen No Drug",
+      "ValueSet-lab-specimenType.html" : "Materiál vzorků",
+      "ValueSet-medical-device.html" : "Medical Device",
       "ValueSet-cz-sitequalifier.html" : "Body Structure Qualifier",
-      "ValueSet-cz-specimenAdditive.html" : "Specimen Additive"
+      "ValueSet-cz-specimenAdditive.html" : "Specimen Additive",
+      "ValueSet-cz-specimencontainer.html" : "Specimen Container",
+      "ValueSet-registering-provider-service-type-cz.html" : "Registering Provider Service Type (CZ)",
+      "ValueSet-eHDSIAllergenNoDrug-cz.html" : "eHDSI Allergen No Drug",
+      "ValueSet-cz-specimen-laterality.html" : "Body Structure Laterality for specimen.",
+      "ValueSet-referralorder-types.html" : "Typy žádanek"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/coverage-selfpay",

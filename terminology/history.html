@@ -21,65 +21,73 @@
   <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets-hist/ico/apple-touch-icon-72-precomposed.png"/>
   <link rel="apple-touch-icon-precomposed" href="assets-hist/ico/apple-touch-icon-57-precomposed.png"/>
   <link rel="shortcut icon" href="assets-hist/ico/favicon.png"/>
-  
+
   <!-- header.template ends here -->
 </head>
 <!-- preamble.template starts here -->
-<body>
- <div id="segment-header" class="segment">  <!-- segment-header -->
-  <div class="container">  <!-- container -->
-   <a id="logo" no-external="true" href="http://hl7.org/fhir"><img alt="logo fhir" src="https://hl7.org/fhir/assets-hist/images/fhir-logo-www.png"/></a>
-<div>
-<a id="hl7-logo" no-external="true" href="http://www.hl7.org">
-     <img alt="visit the hl7 website" src="https://hl7.org/fhir/assets-hist/images/hl7-logo.png"/>
-    </a>
-   </div>
-   <div id="ig-status" style="font-size:24px;padding-top: 20px;">
-<b id="ig-title">Czech FHIR Terminology Package</b>
-</div>
- </div>
-  <div class="container">  <!-- container -->
- </div></div>  <!-- /segment-header -->
+<body class="history-page">
+   <div id="segment-header" class="segment"> <!-- segment-header -->
+      <div class="container"> <!-- container -->
 
- <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
-  <div id="stripe"> </div>
-  <div class="container">  <!-- container -->
-   <!-- HEADER CONTENT -->
+            <div class="header-left">
+               <a id="logo" no-external="true" href="https://www.hl7.cz">
+                  <img alt="visit the hl7 website" height="60" src="assets-hist/images/hl7cz-logo.png" />
+               </a>
+               <a id="ncez-logo" no-external="true" href="https://ncez.mzcr.cz/cs">
+                  <img alt="visit NCEZ website" height="50" src="assets-hist/images/NCEZ-logo.png" />
+               </a>
+            </div>
+            <div id="ig-status" style="font-size:24px;padding-top: 20px;">
+               <b id="ig-title">Czech FHIR Terminology Package</b>
+            </div>
+            <div class="header-right">
+               <a id="project-logo" no-external="true" href="https://mzd.gov.cz">
+                  <img alt="MZCR" height="60" src="assets-hist/images/NPO-logo.png" />
+               </a>
+            </div>
+      </div>
+      <div class="container"> <!-- container -->
+      </div>
+   </div> <!-- /segment-header -->
 
-   <nav class="navbar navbar-inverse">
-    <div class="container">
-     <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
-      <span class="icon-bar"> </span>
-      <span class="icon-bar"> </span>
-      <span class="icon-bar"> </span>
-     </button>
-     <a class="navbar-brand hidden" href="http://hl7.org/fhir/index.html">FHIR</a>
-     <div class="nav-collapse collapse navbar-inverse-collapse">
-      <ul class="nav navbar-nav">
-              <li><a href="history.html">History</a></li>
-            </ul>
+   <div id="segment-navbar" class="segment"> <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container"> <!-- container -->
+         <!-- HEADER CONTENT -->
 
-     </div>  <!-- /.nav-collapse -->
-    </div>  <!-- /.container -->
-   </nav>  <!-- /.navbar -->
+         <nav class="navbar navbar-inverse">
+            <div class="container">
+               <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse"
+                  type="button">
+                  <span class="icon-bar"> </span>
+                  <span class="icon-bar"> </span>
+                  <span class="icon-bar"> </span>
+               </button>
+               <a class="navbar-brand hidden" href="http://hl7.org/fhir/index.html">FHIR</a>
+               <div class="nav-collapse collapse navbar-inverse-collapse">
+                  <ul class="nav navbar-nav">
+                     <li><a href="history.html">History</a></li>
+                  </ul>
 
-  <!-- /HEADER CONTENT -->
-  </div>  <!-- /container -->
- </div>  <!-- /segment-navbar -->
+               </div> <!-- /.nav-collapse -->
+            </div> <!-- /.container -->
+         </nav> <!-- /.navbar -->
 
-
-
-  <!-- ============BreadCrumb=============== -->
-
-  </div>  <!-- /container -->
- </div>  <!-- /segment-breadcrumb -->
-
- <div id="segment-content" class="segment">  <!-- segment-content -->
- <div class="container">  <!-- container -->
-            <div class="row">
-             <div class="inner-wrapper">
+         <!-- /HEADER CONTENT -->
+      </div> <!-- /container -->
+   </div> <!-- /segment-navbar -->
 
 
+
+   <!-- ============BreadCrumb=============== -->
+
+   </div> <!-- /container -->
+   </div> <!-- /segment-breadcrumb -->
+
+   <div id="segment-content" class="segment"> <!-- segment-content -->
+      <div class="container"> <!-- container -->
+         <div class="row">
+            <div class="inner-wrapper">
 <!-- preamble.template ends here -->
 
 <div class="col-12">
@@ -108,7 +116,7 @@
     </div>  <!-- /segment-content -->
 
 
-    
+
 </div>
 
     </div>  <!-- /inner-wrapper -->
@@ -155,11 +163,9 @@
 
 <!--- Include in the page --->
 <script>
-var pageJSON = '{"list":[{"version":"current","path":"https://build.fhir.org/ig/HL7-cz/terminology","status":"ci-build","sequence":"ci-build","desc":"Continuous Integration Build (latest in version control) - Content subject to frequent changes"},{"version":"0.2.0","path":"https://hl7.cz/terminology/0.2.0","status":"release","sequence":"Release 1","fhirversion":"4.0.1","date":"2025-12-23","current":true,"desc":"This is a first release of the Czech FHIR Terminology package."}],"package-id":"hl7.fhir.cz.terminology","canonical":"https://hl7.cz/terminology","title":"Czech FHIR Terminology Package","category":"Terminology","introduction":"This package contains FHIR Terminology resources, including code systems, value sets, and other related resources. It is intended to support the use of FHIR in the Czech healthcare system."}';
+var pageJSON = '{"list":[{"version":"current","path":"https://build.fhir.org/ig/HL7-cz/terminology","status":"ci-build","sequence":"ci-build","desc":"Continuous Integration Build (latest in version control) - Content subject to frequent changes"},{"version":"0.2.0","path":"https://hl7.cz/terminology/0.2.0","status":"release","sequence":"Release 1","fhirversion":"4.0.1","date":"2026-02-02","current":true,"desc":"This is a first release of the Czech FHIR Terminology package."}],"package-id":"hl7.fhir.cz.terminology","canonical":"https://hl7.cz/terminology","title":"Czech FHIR Terminology Package","category":"Terminology","introduction":"This package contains FHIR Terminology resources, including code systems, value sets, and other related resources. It is intended to support the use of FHIR in the Czech healthcare system."}';
 load(pageJSON);
 </script>
 
 </body>
 </html>
-
-

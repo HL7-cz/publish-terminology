@@ -13,7 +13,7 @@
       "status" : "release",
       "sequence" : "Release 1",
       "fhirversion" : "4.0.1",
-      "date" : "2025-12-23",
+      "date" : "2026-02-02",
       "current" : true,
       "desc" : "This is a first release of the Czech FHIR Terminology package."
     }

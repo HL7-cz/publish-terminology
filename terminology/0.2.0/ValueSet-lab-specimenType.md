@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://ncez.mzcr.cz/terminology/ValueSet/lab-specimenType | *Version*:0.2.0 |
-| Draft as of 2025-12-23 | *Computable Name*:LabSpecimentype |
+| Draft as of 2026-02-02 | *Computable Name*:LabSpecimentype |
 | **Copyright/Legal**: This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement | |
 
  
@@ -53,7 +53,7 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
   "title" : "Materiál vzorků",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2025-12-23T18:27:27+01:00",
+  "date" : "2026-02-02T07:59:02+01:00",
   "publisher" : "HL7 Czech Republic",
   "contact" : [
     {

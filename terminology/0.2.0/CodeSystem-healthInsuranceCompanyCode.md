@@ -9,7 +9,7 @@
 | | | |
 | :--- | :--- | :--- |
 | *Official URL*:https://ncez.mzcr.cz/terminology/CodeSystem/healthInsuranceCompanyCode | *Version*:0.2.0 | |
-| *Standards status:*[Trial-use](http://hl7.org/fhir/R4/versions.html#std-process) | [Maturity Level](http://hl7.org/fhir/versions.html#maturity): 2 | *Computable Name*:CS_HealthInsuranceCompanyCode |
+| * Standards status: *[Trial-use](http://hl7.org/fhir/R4/versions.html#std-process) | [Maturity Level](http://hl7.org/fhir/versions.html#maturity): 2 | *Computable Name*:CS_HealthInsuranceCompanyCode |
 
  
 National codes of health insurance companies. 

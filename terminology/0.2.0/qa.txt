@@ -2,8 +2,8 @@ HL7CzTerminologyImplementationGuide : Validation Results
 =========================================
 
 err = 7, warn = 8, info = 1051
-IG Publisher Version: 2.0.29 Out of date - current version is null
-Generated Tue Dec 23 18:32:53 CET 2025. FHIR version 4.0.1 for hl7.fhir.cz.terminology#0.2.0 (canonical = https://hl7.cz/terminology)
+IG Publisher Version: 2.0.30
+Generated Mon Feb 02 08:04:12 CET 2026. FHIR version 4.0.1 for hl7.fhir.cz.terminology#0.2.0 (canonical = https://hl7.cz/terminology)
  Build Errors : 0 / 1 / 0
  /Users/kruzik/dev/FHIR_publication/temp/ig-builds/hl7.fhir.cz.terminology#0.2.0/fsh-generated/resources/CodeSystem-absent-unknown-uv-ips-cz : 0 / 0 / 1
  /Users/kruzik/dev/FHIR_publication/temp/ig-builds/hl7.fhir.cz.terminology#0.2.0/fsh-generated/resources/CodeSystem-administrative-gender-cz : 0 / 4 / 1

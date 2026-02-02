@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://ncez.mzcr.cz/terminology/ValueSet/eHDSIAbsentOrUnknownDevice-cz | *Version*:0.2.0 |
-| Active as of 2025-12-23 | *Computable Name*:EHDSIAbsentOrUnknownDeviceCZ |
+| Active as of 2026-02-02 | *Computable Name*:EHDSIAbsentOrUnknownDeviceCZ |
 | *Other Identifiers:*OID:1.3.6.1.4.1.12559.11.10.1.3.1.42.48 | |
 
  
@@ -65,7 +65,7 @@ The Value set is used to encode absent or unknown medical devices.
   "title" : "eHDSI Absent Or Unknown Device",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-23T18:33:07+01:00",
+  "date" : "2026-02-02T08:04:31+01:00",
   "publisher" : "HL7 Czech Republic",
   "contact" : [
     {
