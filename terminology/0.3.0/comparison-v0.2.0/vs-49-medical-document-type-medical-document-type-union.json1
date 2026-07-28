@@ -1,0 +1,72 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "5bc82b81-07ce-410b-8d29-8298f2cfafcb-134",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/5bc82b81-07ce-410b-8d29-8298f2cfafcb-134",
+  "name" : "UnionMedicalDocumentTypeAndMedicalDocumentType",
+  "title" : "Union of Typy lékařské dokumentace And Typy lékařské dokumentace",
+  "status" : "draft",
+  "date" : "2026-07-27T16:47:06+02:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CZ",
+      "display" : "Czechia"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "18842-5",
+        "display" : "Propouštěcí zpráva"
+      },
+      {
+        "code" : "11488-4",
+        "display" : "Konsiliární zpráva"
+      },
+      {
+        "code" : "11506-3",
+        "display" : "Průběžná zpráva"
+      },
+      {
+        "code" : "67851-6",
+        "display" : "Vstupní vyšetření"
+      },
+      {
+        "code" : "11504-8",
+        "display" : "Operační protokol"
+      },
+      {
+        "code" : "60591-5",
+        "display" : "Pacientský souhrn"
+      },
+      {
+        "code" : "67781-5",
+        "display" : "Zpráva o vyšetření či ošetření"
+      },
+      {
+        "code" : "34133-9",
+        "display" : "Souhrn poskytnuté péče"
+      },
+      {
+        "code" : "51848-0",
+        "display" : "Lékařský posudek"
+      },
+      {
+        "code" : "67796-3",
+        "display" : "Záznam o výjezdu"
+      },
+      {
+        "code" : "18743-5",
+        "display" : "Pitevní protokol"
+      },
+      {
+        "code" : "34748-4",
+        "display" : "Zpráva o telekonzultaci"
+      },
+      {
+        "code" : "74207-2",
+        "display" : "Souhrn pre-hospitalizační péče"
+      }]
+    }]
+  }
+}

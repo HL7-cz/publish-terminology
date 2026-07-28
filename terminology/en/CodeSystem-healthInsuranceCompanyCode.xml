@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="healthInsuranceCompanyCode"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="2"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use"/>
+  </extension>
+  <url value="https://ncez.mzcr.cz/terminology/CodeSystem/healthInsuranceCompanyCode"/>
+  <version value="1.0.0"/>
+  <name value="CS_HealthInsuranceCompanyCode"/>
+  <title value="Codesystem of Health Insurance Companies"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-01-17"/>
+  <publisher value="HL7 Czech Republic"/>
+  <contact>
+    <name value="HL7 Czech Republic"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hl7.cz/"/>
+    </telecom>
+  </contact>
+  <description value="National codes of health insurance companies."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CZ"/>
+      <display value="Czechia"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="32"/>
+  <concept>
+    <code value="111"/>
+    <display value="Všeobecná zdravotní pojišťovna ČR"/>
+  </concept>
+  <concept>
+    <code value="201"/>
+    <display value="Vojenská zdravotní pojišťovna ČR"/>
+  </concept>
+  <concept>
+    <code value="202"/>
+    <display value="Hornická zaměstnanecká zdrav.pojišťovna"/>
+  </concept>
+  <concept>
+    <code value="203"/>
+    <display value="GRÁL-Železniční zdravotní pojišťovna"/>
+  </concept>
+  <concept>
+    <code value="204"/>
+    <display value="Pojišťovna GARANT-HOSPITAL"/>
+  </concept>
+  <concept>
+    <code value="205"/>
+    <display value="Česká průmyslová zdravotní pojišťovna"/>
+  </concept>
+  <concept>
+    <code value="206"/>
+    <display value="Moravská zdravotní pojišťovna"/>
+  </concept>
+  <concept>
+    <code value="207"/>
+    <display value="Obor.zdravot.poj.zam.bank,pojiš. a stav."/>
+  </concept>
+  <concept>
+    <code value="208"/>
+    <display value="Zaměstnanecká zdravotní pojišťov.ATLAS"/>
+  </concept>
+  <concept>
+    <code value="209"/>
+    <display value="Zaměstnanecká pojišťovna ŠKODA"/>
+  </concept>
+  <concept>
+    <code value="210"/>
+    <display value="Zdravotní pokladna škodováků"/>
+  </concept>
+  <concept>
+    <code value="211"/>
+    <display value="Zdravotní pojišťovna minister.vnitra ČR"/>
+  </concept>
+  <concept>
+    <code value="212"/>
+    <display value="STAZPO - Stavební zdravotní pojišťovna"/>
+  </concept>
+  <concept>
+    <code value="213"/>
+    <display value="Revírní bratrská pokladna, zdravot.poj."/>
+  </concept>
+  <concept>
+    <code value="214"/>
+    <display value="Regionální zdravotní pojišťovna REZAPO"/>
+  </concept>
+  <concept>
+    <code value="215"/>
+    <display value="IMPULS-Moravskoslezská zdravotní pojišť."/>
+  </concept>
+  <concept>
+    <code value="216"/>
+    <display value="Sdruž.dopr.a zem.-podnik.zdr.poj.SALVUS"/>
+  </concept>
+  <concept>
+    <code value="217"/>
+    <display value="Zdravotní pojišťovna METAL-ALIANCE"/>
+  </concept>
+  <concept>
+    <code value="218"/>
+    <display value="Zdravotní pojišťovna CRYSTAL"/>
+  </concept>
+  <concept>
+    <code value="219"/>
+    <display value="Prostějovská zdravotní pojišťovna"/>
+  </concept>
+  <concept>
+    <code value="220"/>
+    <display value="Zaměstnanecká zdravot.pojišťovna PRIMA"/>
+  </concept>
+  <concept>
+    <code value="221"/>
+    <display value="Mendlova zdravotní pojišťovna"/>
+  </concept>
+  <concept>
+    <code value="222"/>
+    <display value="Česká národní zdravotní pojišťovna"/>
+  </concept>
+  <concept>
+    <code value="223"/>
+    <display value="Zemědělsko-potravinářská zdrav.pojišť."/>
+  </concept>
+  <concept>
+    <code value="224"/>
+    <display value="Zaměstnanecká zdravotní pojišťovna RADIX"/>
+  </concept>
+  <concept>
+    <code value="225"/>
+    <display value="Zdravotní pojišťovna SPORT"/>
+  </concept>
+  <concept>
+    <code value="226"/>
+    <display value="Zdrav.pojišť.chemie,zdravot. a farmacie"/>
+  </concept>
+  <concept>
+    <code value="227"/>
+    <display value="Zdravotní pojišťovna AGEL"/>
+  </concept>
+  <concept>
+    <code value="228"/>
+    <display value="Zdravotní pojišťovna Média"/>
+  </concept>
+  <concept>
+    <code value="333"/>
+    <display value="Všeobecná zdravotní pojišťovna - pojištění cizinců"/>
+  </concept>
+  <concept>
+    <code value="800"/>
+    <display value="Vládní stipendista - hradí MZ ČR"/>
+  </concept>
+  <concept>
+    <code value="000"/>
+    <display value="Bez smlouvy se zdravotní pojišťovnou"/>
+  </concept>
+</CodeSystem>

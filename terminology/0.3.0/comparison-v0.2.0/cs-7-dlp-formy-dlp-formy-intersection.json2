@@ -1,0 +1,45 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "5bc82b81-07ce-410b-8d29-8298f2cfafcb-21",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/5bc82b81-07ce-410b-8d29-8298f2cfafcb-21",
+  "name" : "IntersectionCS_DLP_formyAndCS_DLP_formy",
+  "title" : "Intersection of DLP formy And DLP formy",
+  "status" : "active",
+  "date" : "2026-07-27T16:47:06+02:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CZ",
+      "display" : "Czechia"
+    }]
+  }],
+  "property" : [{
+    "code" : "FORMA",
+    "type" : "string"
+  },
+  {
+    "code" : "JE_KONOPI",
+    "type" : "string"
+  },
+  {
+    "code" : "KOD_EDQM",
+    "type" : "Coding"
+  },
+  {
+    "code" : "NAZEV",
+    "type" : "string"
+  },
+  {
+    "code" : "NAZEV_EN",
+    "type" : "string"
+  },
+  {
+    "code" : "NAZEV_LAT",
+    "type" : "string"
+  },
+  {
+    "code" : "definition",
+    "description" : "Definition",
+    "type" : "string"
+  }]
+}

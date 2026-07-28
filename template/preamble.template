@@ -1,18 +1,9 @@
-<body>
+<body class="history-page">
    <div id="segment-header" class="segment"> <!-- segment-header -->
       <div class="container"> <!-- container -->
          <div class="header-left">
-            <a id="logo" no-external="true" href="http://hl7.org/fhir"><img alt="logo fhir"
-                  src="assets-hist/images/fhir-logo-www.png" /></a>
-         <!--
-         <div>
-            <a id="hl7-logo" no-external="true" href="http://www.hl7.org">
-               <img alt="visit the hl7 website" width="42" height="50" src="assets-hist/images/hl7-logo.png" />
-            </a>
-         </div>
-         -->
             <a id="hl7-logo" no-external="true" href="https://www.hl7.cz">
-               <img alt="visit the hl7 website" height="50" src="assets-hist/images/hl7cz-logo.png" />
+               <img alt="visit the hl7 website" height="60" src="assets-hist/images/hl7cz-logo.png" />
             </a>
             <a id="ncez-logo" no-external="true" href="https://ncez.mzcr.cz/cs">
                <img alt="visit NCEZ website" height="50" src="assets-hist/images/NCEZ-logo.png" />
@@ -23,7 +14,7 @@
          </div>
          <div class="header-right">
             <a id="project-logo" no-external="true" href="https://mzd.gov.cz">
-               <img alt="MZCR" height="50" src="assets-hist/images/NPO-logo.png" />
+               <img alt="MZCR" height="60" src="assets-hist/images/NPO-logo.png" />
             </a>
          </div>
       </div>

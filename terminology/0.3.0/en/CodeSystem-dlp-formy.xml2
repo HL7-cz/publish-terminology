@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="dlp-formy"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/>
+  </text>
+  <url value="https://sukl.cz/terminology/CodeSystem/dlp-formy"/>
+  <version value="1.0.0"/>
+  <name value="CS_DLP_formy"/>
+  <title value="DLP formy"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-07-31T19:26:26.67951Z"/>
+  <publisher value="HL7 Czech Republic"/>
+  <contact>
+    <name value="HL7 Czech Republic"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hl7.cz/"/>
+    </telecom>
+  </contact>
+  <description value="Lékové formy dle DLP."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CZ"/>
+      <display value="Czechia"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="false"/>
+  <content value="not-present"/>
+</CodeSystem>

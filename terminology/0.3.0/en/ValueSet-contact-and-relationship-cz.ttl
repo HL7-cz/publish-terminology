@@ -1,0 +1,66 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hl7.cz/terminology/ValueSet/contact-and-relationship-cz> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "contact-and-relationship-cz"] ;
+  fhir:Resource.language [ fhir:value "en"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ]
+  ] ;
+  fhir:ValueSet.url [ fhir:value "https://hl7.cz/terminology/ValueSet/contact-and-relationship-cz"] ;
+  fhir:ValueSet.version [ fhir:value "1.0.0"] ;
+  fhir:ValueSet.name [ fhir:value "Hl7vsContactAndRelationshipCz100"] ;
+  fhir:ValueSet.title [ fhir:value "Contact and Relationship (CZ)"] ;
+  fhir:ValueSet.status [ fhir:value "active"] ;
+  fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:ValueSet.date [ fhir:value "2025-04-03T08:40:10.799745Z"^^xsd:dateTime] ;
+  fhir:ValueSet.publisher [ fhir:value "HL7 Czech Republic"] ;
+  fhir:ValueSet.contact [
+     fhir:index -1 ;
+     fhir:ContactDetail.name [ fhir:value "HL7 Czech Republic" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index -1 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://www.hl7.cz/" ]
+     ]
+  ] ;
+  fhir:ValueSet.description [ fhir:value "Číselník vztahů a rolí kontaktních osob k pacientovi. Číselník zahrnuje dva samostatné číselníky: relationship a contact role."] ;
+  fhir:ValueSet.jurisdiction [
+     fhir:index -1 ;
+     fhir:CodeableConcept.coding [
+       fhir:index -1 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "CZ" ] ;
+       fhir:Coding.display [ fhir:value "Czechia" ]
+     ]
+  ] ;
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index -1 ;
+       fhir:ValueSet.compose.include.valueSet [
+         fhir:value "https://hl7.cz/terminology/ValueSet/contactrole-cz" ;
+         fhir:index -1 ;
+         fhir:link <https://hl7.cz/terminology/ValueSet/contactrole-cz>
+       ]
+     ], [
+       fhir:index -1 ;
+       fhir:ValueSet.compose.include.valueSet [
+         fhir:value "https://hl7.cz/terminology/ValueSet/personal-relationship-cz" ;
+         fhir:index -1 ;
+         fhir:link <https://hl7.cz/terminology/ValueSet/personal-relationship-cz>
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://hl7.cz/terminology/ValueSet/contact-and-relationship-cz.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

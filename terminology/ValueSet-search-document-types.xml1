@@ -7,10 +7,10 @@
     <status value="generated"/><div xml:lang="cs" xmlns="http://www.w3.org/1999/xhtml" lang="cs"><p class="res-header-id"><b>Generated Narrative: ValueSet search-document-types</b></p><a name="search-document-types"> </a><a name="hcsearch-document-types"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: cs</p></div><p>This value set includes codes based on the following rules:</p><ul><li>Import all the codes that are contained in <a href="ValueSet-imaging-document-types.html">Typy dokumentů obrazového komplementu</a></li><li>Import all the codes that are contained in <a href="ValueSet-nursing-document-type.html">Typ ošetřovatelské dokumentace</a></li><li>Import all the codes that are contained in <a href="ValueSet-referralorder-types.html">Typy žádanek</a></li><li>Import all the codes that are contained in <a href="ValueSet-lab-document-types.html">Typy laboratorních dokumentů</a></li><li>Import all the codes that are contained in <a href="ValueSet-medical-document-type.html">Typy lékařské dokumentace</a></li></ul></div>
   </text>
   <url value="https://ncez.mzcr.cz/terminology/ValueSet/search-document-types"/>
-  <version value="0.2.0"/>
+  <version value="1.0.0"/>
   <name value="SearchDocumentTypes"/>
   <title value="Všechny typy dokumentů"/>
-  <status value="draft"/>
+  <status value="active"/>
   <experimental value="false"/>
   <date value="2025-11-19T19:22:51.629952Z"/>
   <publisher value="HL7 Czech Republic"/>

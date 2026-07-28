@@ -1,0 +1,91 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "3be28065-604a-49db-82ac-da3be23fd237-2",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/3be28065-604a-49db-82ac-da3be23fd237-2",
+  "name" : "UnionAbsentAndUnknownDataUvIpsAndAbsentAndUnknownDataUvIps",
+  "title" : "Union of Absent a Unknown Data - IPS And Absent a Unknown Data - IPS",
+  "status" : "active",
+  "date" : "2026-07-27T16:56:47+02:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CZ",
+      "display" : "Czechia"
+    }]
+  }],
+  "concept" : [{
+    "code" : "no-allergy-info",
+    "display" : "žádné informace o alergiích",
+    "definition" : "Nejsou známy žádné informace o alergiích pacienta."
+  },
+  {
+    "code" : "no-device-info",
+    "display" : "žádné informace o používaných zdravotnických prostředcích a implantátech",
+    "definition" : "Nejsou k dispozici žádné informace o implantátech nebo externích zdravotnických prostředcích používaných pacientem."
+  },
+  {
+    "code" : "no-immunization-info",
+    "display" : "žádné informace o očkování",
+    "definition" : "Historie očkování není známa."
+  },
+  {
+    "code" : "no-known-allergies",
+    "display" : "žádné známé alergie",
+    "definition" : "Nejsou známy žádné alergie pacienta."
+  },
+  {
+    "code" : "no-known-devices",
+    "display" : "žádné implantáty ani jiné zdravotnické prostředky",
+    "definition" : "Nejsou známy žádné významné implantáty či externí zdravotnické prostředky které pacient používá. To znamená, že pacient žádné zdravotnické prostředky nepoužívá nebo že nejsou pro účel tohoto záznamu relevantní."
+  },
+  {
+    "code" : "no-known-environmental-allergies",
+    "display" : "žádné známé alergie na vnější prostředí",
+    "definition" : "Pacient nemá žádné známé alergie na vnější prostředí."
+  },
+  {
+    "code" : "no-known-food-allergies",
+    "display" : "žádné známé alergie na potraviny",
+    "definition" : "Pacient nemá žádné známé alergie na potraviny."
+  },
+  {
+    "code" : "no-known-immunizations",
+    "display" : "žádné známé očkování",
+    "definition" : "Historie očkování neobsahuje žádné záznamy. To znamená, že pacient buď nebyl v minulosti očkován nebo údaje o provedeném očkování nejsou pro účely tohoto záznamu relevantní."
+  },
+  {
+    "code" : "no-known-medication-allergies",
+    "display" : "žádné známé alergie na léky",
+    "definition" : "Pacient nemá žádné známé alergie na léky."
+  },
+  {
+    "code" : "no-known-medications",
+    "display" : "žádná známá medikace",
+    "definition" : "Žádná známá medikace. To znamená, že pacient buď nemá žádnou medikaci, či medikace není pro účely tohoto záznamu relevantní."
+  },
+  {
+    "code" : "no-known-problems",
+    "display" : "žádné známé zdravotní problémy",
+    "definition" : "Pacient nemá žádné známé zdravotní problémy či onemocnění, která by byla relevantní pro účely tohoto záznamu."
+  },
+  {
+    "code" : "no-known-procedures",
+    "display" : "žádné provedené výkony",
+    "definition" : "Pacientovy nebyly provedeny žádné zdravotní výkony relevantní pro účely tohoto záznamu."
+  },
+  {
+    "code" : "no-medication-info",
+    "display" : "žádné informace o medikaci",
+    "definition" : "Nejsou k dispozici žádné informace o medikaci či o podávání léků pacientovi."
+  },
+  {
+    "code" : "no-problem-info",
+    "display" : "žádné informace o zdravotních problémech",
+    "definition" : "Nejsou k dispozici žádné informace o zdravotních problémech či onemocněních pacienta."
+  },
+  {
+    "code" : "no-procedure-info",
+    "display" : "žádné informace o provedených výkonech",
+    "definition" : "Nejsou k dispozici žádné informace o provedených výkonech."
+  }]
+}

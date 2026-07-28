@@ -1,0 +1,38 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "mkn-10",
+  "language" : "en",
+  "text" : {
+    "status" : "generated"
+  },
+  "url" : "https://uzis.cz/terminology/CodeSystem/mkn-10",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.203.24341.11.2.1"
+  }],
+  "version" : "2025-01",
+  "name" : "MKN10_5",
+  "title" : "Kódový systém MKN-10",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2025-12-22T17:42:13.32582Z",
+  "publisher" : "HL7 Czech Republic",
+  "contact" : [{
+    "name" : "HL7 Czech Republic",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.hl7.cz/"
+    }]
+  }],
+  "description" : "Národní systém pro kódování diagnóz a zdravotních problémů odvozený od ICD-10 WHO.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CZ",
+      "display" : "Czechia"
+    }]
+  }],
+  "caseSensitive" : false,
+  "hierarchyMeaning" : "is-a",
+  "content" : "not-present"
+}

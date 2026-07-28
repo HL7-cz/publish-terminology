@@ -1,18 +1,29 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:fhir="http://hl7.org/fhir/feed" version="2.0">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:fhir="http://hl7.org/fhir/feed" version="2.0">
     <channel>
         <title>HL7 Czech Republic – Terminology IG Packages</title>
         <description>Packages published or hosted by HL7 Czech Republic</description>
         <link>https://hl7.cz/terminology/package-feed.xml</link>
         <generator>HL7 FHIR Publication tooling</generator>
-        <lastBuildDate>Mon, 02 Feb 2026 07:59:02 +0100</lastBuildDate>
+        <lastBuildDate>Mon, 27 Jul 2026 04:44:21 +0200</lastBuildDate>
         <atom:link href="https://hl7.cz/terminology/package-feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 02 Feb 2026 07:59:02 +0100</pubDate>
+        <pubDate>Mon, 27 Jul 2026 04:44:21 +0200</pubDate>
         <language>en</language>
         <ttl>600</ttl>
 
         <!-- ========== HL7 CZ Terminology =================== -->
         <!-- Entries will be added/updated by the publication process -->
-    
+
+    <item>
+      <title>hl7.fhir.cz.terminology#0.3.0</title>
+      <description>This is a first updated release of the Czech FHIR Terminology package.</description>
+      <link>https://hl7.cz/terminology/0.3.0/package.tgz</link>
+      <guid isPermaLink="true">https://hl7.cz/terminology/0.3.0/package.tgz</guid>
+      <dc:creator>HL7 Czech Republic</dc:creator>
+      <fhir:version>4.0.1</fhir:version>
+      <fhir:kind>IG</fhir:kind>
+      <pubDate>Mon, 27 Jul 2026 04:44:21 +0200</pubDate>
+      <fhir:details>Publication run at 27/07/2026 by kruzik using Version 2.2.11 (Git# 0ec4807574e3). Built 2026-07-15T17:53:55.408Z (11 days old) source id Unknown (todo)</fhir:details>
+    </item>
     <item>
       <title>hl7.fhir.cz.terminology#0.2.0</title>
       <description>This is a first release of the Czech FHIR Terminology package.</description>

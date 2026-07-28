@@ -1,0 +1,3930 @@
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+
+
+
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>OdbornostVZP - HL7 Czech Terminology Implementation Guide v0.3.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <link href="assets/css/project.css" rel="stylesheet"/>
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <link href="assets/css/cz-core.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+    <script type="text/javascript" src="assets/js/direction-management.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script type="text/javascript" src="assets/js/prism.js"></script>
+	  <script type="text/javascript" src="assets/js/prism-fhirpath.js"></script>
+	  <script type="text/javascript" src="assets/js/prism-cql.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"5.71"}
+    h3,h4,h5,h6{--heading-prefix:"5.71"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <style>
+  #segment-header > .container {
+    display: grid;
+    grid-template-columns: auto minmax(280px, 1fr) auto;
+    align-items: center;
+    column-gap: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+
+  .cz-header-left {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: start;
+  }
+
+  #hl7-nav,
+  #family-nav,
+  #project-nav {
+    float: none;
+    margin: 0;
+    line-height: normal;
+  }
+
+  #hl7-logo,
+  #family-logo,
+  #project-logo {
+    float: none;
+    margin: 0;
+    display: inline-flex;
+    align-items: center;
+  }
+
+  #segment-header #ig-status {
+    grid-column: 2;
+    grid-row: 1;
+    margin: 0;
+    height: auto;
+    text-align: center;
+    line-height: 1.2;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #segment-header #ig-status p {
+    margin: 0;
+  }
+
+  #project-nav img {
+    height: 82px;
+    width: auto;
+  }
+
+  #project-nav {
+    grid-column: 3;
+    grid-row: 1;
+    justify-self: end;
+  }
+
+  @media (max-width: 991px) {
+    #segment-header > .container {
+      grid-template-columns: 1fr;
+      row-gap: 10px;
+      justify-items: center;
+    }
+
+    .cz-header-left,
+    #project-nav {
+      justify-content: center;
+      justify-self: center;
+    }
+
+    #segment-header #ig-status {
+      grid-column: 1;
+      order: 2;
+    }
+
+    #project-nav img {
+      height: 68px;
+    }
+  }
+</style>
+
+<div class="cz-header-left">
+  <div id="hl7-nav">
+    <a id="hl7-logo" no-external="true" href="https://www.hl7cr.eu/">
+      <img height="60" alt="Visit the HL7 Czech website" src="assets/images/hl7cz-logo.png" />
+    </a>
+  </div>
+  <div id="family-nav">
+    <a id="family-logo" no-external="true" href="https://ncez.mzcr.cz/">
+      <img height="60" alt="NCEZ MZCR" src="assets/images/logo.png" />
+    </a>
+  </div>
+</div>
+<div id="project-nav">
+  <a id="project-logo" no-external="true" href="https://ncez.mzcr.cz/cs/node/573">
+    <img alt="MZCR NPO logo" src="assets/images/NPO_logo.png" />
+  </a>
+</div>
+
+
+        <div id="ig-status" data-fhir="generated">
+          <p><span style="font-size:12pt;font-weight:bold">HL7 Czech Terminology Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.3.0 - release
+
+
+
+  <img alt="Czechia flag" src="../assets/images/cze.svg" height="16" title="Czechia"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment" data-fhir="generated">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="artifactsPage.html">Terminologies</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+
+              
+
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment" data-fhir="generated">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>OdbornostVZP</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<!-- layouts\layout-codesystem -->
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">This page is part of the Czech FHIR Terminology Package (v0.3.0: Release) based on <a data-no-external="true" href="http://hl7.org/fhir/R4">FHIR (HL7® FHIR® Standard) R4</a>. This is the current published version.  For a full list of available versions, see the <a data-no-external="true" href="https://hl7.cz/terminology/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  
+
+
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li class="active">
+    <a href="#">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="CodeSystem-nzis-OdbornostVZP.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="CodeSystem-nzis-OdbornostVZP.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="CodeSystem-nzis-OdbornostVZP.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+  <a name="root"> </a>
+
+  <h2 id="root">CodeSystem: OdbornostVZP
+
+  </h2>
+
+  <table class="colsi" data-fhir="generated">
+
+    <tr>
+      <td colspan="4"><i>Official URL</i>: <span class="copy-text">https://uzis.cz/terminology/CodeSystem/OdbornostVZP<button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://uzis.cz/terminology/CodeSystem/OdbornostVZP"/></span>
+      </td>
+      <td><i>Version</i>:
+      <span class="copy-text">1.0.0<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="https://uzis.cz/terminology/CodeSystem/OdbornostVZP|1.0.0"/></span>
+      </td>
+      <td style="text-align: right;border-left-style: hidden" title="Enable this to see changes since the last official release">
+        <span id="toggle-change-display"><label style="margin:0;font-weight:normal" for="showChanges">Highlight text changes?</label>
+  
+        <input style="margin:0" type="checkbox" id="showChanges" onchange="toggleChanges()"/>
+  
+      </span>
+      </td>
+    </tr>
+
+    <tr>
+
+
+
+
+
+
+
+      <td colspan="5">
+        
+          Active
+          
+
+            as of 
+2026-07-27
+
+          
+        
+      </td>
+
+
+
+      <td><i>Computable Name</i>: <span style="font-family: monospace;">CS_OdbornostVZP</span></td>
+    </tr>
+
+
+
+
+  </table>
+
+<p>
+<p>Kódový systém smluvních odborností poskytovatele (VZP)</p>
+
+</p>
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <p>This Code system is referenced in the definition of the following value sets:</p>
+
+  
+<ul>
+ <li><a href="ValueSet-nzis-odbornostvzp.html">OdbornostVZP</a></li>
+</ul>
+
+
+  <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="cs" lang="cs" data-fhir="generated"><p class="res-header-id"></p><a name="nzis-OdbornostVZP"> </a><a name="hcnzis-OdbornostVZP"> </a>
+<div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: cs</p></div><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p>
+<table class="grid" data-fhir="generated"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>Type</b></td></tr>
+<tr><td>hospitalizace</td>
+<td>hospitalizace</td>
+<td>boolean</td></tr>
+<tr><td>kategorie</td>
+<td>kategorie</td>
+<td>string</td></tr>
+<tr><td>kod</td>
+<td>kod</td>
+<td>string</td></tr>
+<tr><td>nazev</td>
+<td>nazev</td>
+<td>string</td></tr>
+<tr><td>plati_do</td>
+<td>plati_do</td>
+<td>dateTime</td></tr>
+<tr><td>plati_od</td>
+<td>plati_od</td>
+<td>dateTime</td></tr>
+<tr><td>popis</td>
+<td>popis</td>
+<td>string</td></tr>
+<tr><td>poradi</td>
+<td>poradi</td>
+<td>string</td></tr>
+<tr><td>trida</td>
+<td>trida</td>
+<td>string</td></tr>
+<tr><td>typ</td>
+<td>typ</td>
+<td>string</td></tr></table><p><b>Concepts</b></p><p>This case-sensitive code system <code>https://uzis.cz/terminology/CodeSystem/OdbornostVZP</code> defines the following codes:</p>
+<table class="codes" data-fhir="generated"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>hospitalizace</b></td><td><b>kategorie</b></td><td><b>kod</b></td><td><b>nazev</b></td><td><b>plati_od</b></td><td><b>popis</b></td><td><b>trida</b></td><td><b>typ</b></td></tr>
+<tr><td style="white-space:nowrap">001<a name="nzis-OdbornostVZP-001"> </a></td>
+<td>PL dospělí</td>
+<td>false</td>
+<td>Interní obory</td>
+<td>001</td>
+<td>PL dospělí</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště praktického lékaře pro dospělé</td>
+<td>PL dospělí</td>
+<td>Ambulantní péče</td></tr>
+<tr><td style="white-space:nowrap">002<a name="nzis-OdbornostVZP-002"> </a></td>
+<td>PL děti a dorost</td>
+<td>false</td>
+<td>Interní obory</td>
+<td>002</td>
+<td>PL děti a dorost</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště praktického lékaře pro děti a dorost</td>
+<td>PL děti a dorost</td>
+<td>Ambulantní péče</td></tr>
+<tr><td style="white-space:nowrap">003<a name="nzis-OdbornostVZP-003"> </a></td>
+<td>LSPP</td>
+<td>false</td>
+<td>Interní obory</td>
+<td>003</td>
+<td>LSPP</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště LSPP</td>
+<td>LSPP</td>
+<td>Ambulantní péče</td></tr>
+<tr><td style="white-space:nowrap">004<a name="nzis-OdbornostVZP-004"> </a></td>
+<td>zvláštní ambulantní péče</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>004</td>
+<td>zvláštní ambulantní péče</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště zvláštní ambulantní péče v ZZ ústavní péče</td>
+<td>sociální lůžka</td>
+<td>Dlouhodobá péče</td></tr>
+<tr><td style="white-space:nowrap">014<a name="nzis-OdbornostVZP-014"> </a></td>
+<td>stomatologie</td>
+<td>false</td>
+<td>Chirurgické obory</td>
+<td>014</td>
+<td>stomatologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště praktického zubního lékaře</td>
+<td>stomatologie</td>
+<td>Ambulantní péče</td></tr>
+<tr><td style="white-space:nowrap">015<a name="nzis-OdbornostVZP-015"> </a></td>
+<td>čelistní ortopedie</td>
+<td>false</td>
+<td>Chirurgické obory</td>
+<td>015</td>
+<td>čelistní ortopedie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště čelistní ortopedie</td>
+<td>čelistní ortopedie</td>
+<td>Ambulantní péče</td></tr>
+<tr><td style="white-space:nowrap">017<a name="nzis-OdbornostVZP-017"> </a></td>
+<td>čelistní ortopedie</td>
+<td>false</td>
+<td>Chirurgické obory</td>
+<td>017</td>
+<td>čelistní ortopedie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště čelistní ortopedie</td>
+<td>čelistní ortopedie</td>
+<td>Ambulantní péče</td></tr>
+<tr><td style="white-space:nowrap">019<a name="nzis-OdbornostVZP-019"> </a></td>
+<td>stomatologická LSPP</td>
+<td>false</td>
+<td>Chirurgické obory</td>
+<td>019</td>
+<td>stomatologická LSPP</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště stomatologické LSPP</td>
+<td>stomatologická LSPP</td>
+<td>Ambulantní péče</td></tr>
+<tr><td style="white-space:nowrap">091<a name="nzis-OdbornostVZP-091"> </a></td>
+<td>péče o dárce krvetvornýc</td>
+<td>false</td>
+<td>Interní obory</td>
+<td>091</td>
+<td>péče o dárce krvetvornýc</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště péče o dárce krvetvorných buněk</td>
+<td>péče o dárce krvetvorných buněk</td>
+<td>Ambulantní péče</td></tr>
+<tr><td style="white-space:nowrap">101<a name="nzis-OdbornostVZP-101"> </a></td>
+<td>interní lékařství</td>
+<td>false</td>
+<td>Interní obory</td>
+<td>101</td>
+<td>interní lékařství</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště interního lékařství</td>
+<td>interní lékařství</td>
+<td>Ambulantní péče</td></tr>
+<tr><td style="white-space:nowrap">102<a name="nzis-OdbornostVZP-102"> </a></td>
+<td>angiologie</td>
+<td>false</td>
+<td>Interní obory</td>
+<td>102</td>
+<td>angiologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště angiologie</td>
+<td>angiologie</td>
+<td>Ambulantní péče</td></tr>
+<tr><td style="white-space:nowrap">103<a name="nzis-OdbornostVZP-103"> </a></td>
+<td>diabetologie</td>
+<td>false</td>
+<td>Interní obory</td>
+<td>103</td>
+<td>diabetologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště diabetologie</td>
+<td>diabetologie</td>
+<td>Ambulantní péče</td></tr>
+<tr><td style="white-space:nowrap">104<a name="nzis-OdbornostVZP-104"> </a></td>
+<td>endokrinologie (mimo lab</td>
+<td>false</td>
+<td>Interní obory</td>
+<td>104</td>
+<td>endokrinologie (mimo lab</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště endokrinologie (mimo laboratorní činnosti)</td>
+<td>endokrinologie (mimo laboratoř)</td>
+<td>Ambulantní péče</td></tr>
+<tr><td style="white-space:nowrap">105<a name="nzis-OdbornostVZP-105"> </a></td>
+<td>gastroenterologie a hepa</td>
+<td>false</td>
+<td>Interní obory</td>
+<td>105</td>
+<td>gastroenterologie a hepa</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště gastroenterologie a hepatologie</td>
+<td>gastroenterologie a hepatologie</td>
+<td>Ambulantní péče</td></tr>
+<tr><td style="white-space:nowrap">106<a name="nzis-OdbornostVZP-106"> </a></td>
+<td>geriatrie</td>
+<td>false</td>
+<td>Interní obory</td>
+<td>106</td>
+<td>geriatrie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště geriatrie</td>
+<td>geriatrie</td>
+<td>Ambulantní péče</td></tr>
+<tr><td style="white-space:nowrap">107<a name="nzis-OdbornostVZP-107"> </a></td>
+<td>kardiologie</td>
+<td>false</td>
+<td>Interní obory</td>
+<td>107</td>
+<td>kardiologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště kardiologie</td>
+<td>kardiologie</td>
+<td>Ambulantní péče</td></tr>
+<tr><td style="white-space:nowrap">108<a name="nzis-OdbornostVZP-108"> </a></td>
+<td>nefrologie</td>
+<td>false</td>
+<td>Interní obory</td>
+<td>108</td>
+<td>nefrologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště nefrologie</td>
+<td>nefrologie</td>
+<td>Ambulantní péče</td></tr>
+<tr><td style="white-space:nowrap">109<a name="nzis-OdbornostVZP-109"> </a></td>
+<td>revmatologie</td>
+<td>false</td>
+<td>Interní obory</td>
+<td>109</td>
+<td>revmatologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště revmatologie</td>
+<td>revmatologie</td>
+<td>Ambulantní péče</td></tr>
+<tr><td style="white-space:nowrap">128<a name="nzis-OdbornostVZP-128"> </a></td>
+<td>hemodialýza</td>
+<td>false</td>
+<td>Interní obory</td>
+<td>128</td>
+<td>hemodialýza</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště hemodialýzy</td>
+<td>hemodialýza</td>
+<td>Ambulantní péče</td></tr>
+<tr><td style="white-space:nowrap">1F1<a name="nzis-OdbornostVZP-1F1"> </a></td>
+<td>std.interní</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>1F1</td>
+<td>std.interní</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště standardní ústavní lůžkové péče interní - F typu</td>
+<td>interní lékařství</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">1F2<a name="nzis-OdbornostVZP-1F2"> </a></td>
+<td>std.kardiologie</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>1F2</td>
+<td>std.kardiologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště standard. úst. lůžk. péče kardiologické  - F typu</td>
+<td>angiologie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">1F3<a name="nzis-OdbornostVZP-1F3"> </a></td>
+<td>std.diabetologie</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>1F3</td>
+<td>std.diabetologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště standard. úst. lůžk. péče diabetologické - F typu</td>
+<td>diabetologie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">1F4<a name="nzis-OdbornostVZP-1F4"> </a></td>
+<td>std.endokrinologie</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>1F4</td>
+<td>std.endokrinologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště stand. úst. lůžk. péče endokrinologické - F typu</td>
+<td>endokrinologie (mimo laboratoř)</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">1F5<a name="nzis-OdbornostVZP-1F5"> </a></td>
+<td>std.gastroent. a hepatol</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>1F5</td>
+<td>std.gastroent. a hepatol</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Prac. stand. úst. lůžk. péče gastroent. a hepatol. - F typu</td>
+<td>gastroenterologie a hepatologie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">1F6<a name="nzis-OdbornostVZP-1F6"> </a></td>
+<td>std.geriatrie</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>1F6</td>
+<td>std.geriatrie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště standardní ústav. lůžk. péče geriatrické - F typu</td>
+<td>geriatrie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">1F7<a name="nzis-OdbornostVZP-1F7"> </a></td>
+<td>std.kardiologie</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>1F7</td>
+<td>std.kardiologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště standard. úst. lůžk. péče kardiologické  - F typu</td>
+<td>kardiologie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">1F8<a name="nzis-OdbornostVZP-1F8"> </a></td>
+<td>std.nefrologie</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>1F8</td>
+<td>std.nefrologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště standard. ústav. lůžk. péče nefrologické - F typu</td>
+<td>nefrologie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">1F9<a name="nzis-OdbornostVZP-1F9"> </a></td>
+<td>std.revmatologie</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>1F9</td>
+<td>std.revmatologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště standard. úst. lůžk. péče revmatologické - F typu</td>
+<td>revmatologie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">1H1<a name="nzis-OdbornostVZP-1H1"> </a></td>
+<td>std.interní</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>1H1</td>
+<td>std.interní</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště standardní ústavní lůžk. péče interní - H typu</td>
+<td>interní lékařství</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">1H3<a name="nzis-OdbornostVZP-1H3"> </a></td>
+<td>std.diabetologie</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>1H3</td>
+<td>std.diabetologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště standard. úst. lůžk. péče diabetologické - H typu</td>
+<td>diabetologie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">1H4<a name="nzis-OdbornostVZP-1H4"> </a></td>
+<td>std.endokrinologie</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>1H4</td>
+<td>std.endokrinologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště stand. úst. lůžk. péče endokrinologické - H typu</td>
+<td>endokrinologie (mimo laboratoř)</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">1H5<a name="nzis-OdbornostVZP-1H5"> </a></td>
+<td>std.gastroent. a hepatol</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>1H5</td>
+<td>std.gastroent. a hepatol</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Prac. stand. úst. lůžk. péče gastroent. a hepatol. - H typu</td>
+<td>gastroenterologie a hepatologie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">1H6<a name="nzis-OdbornostVZP-1H6"> </a></td>
+<td>std.geriatrie</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>1H6</td>
+<td>std.geriatrie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště standardní ústav. lůžk. péče geriatrické - H typu</td>
+<td>geriatrie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">1H7<a name="nzis-OdbornostVZP-1H7"> </a></td>
+<td>std.kardiologie</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>1H7</td>
+<td>std.kardiologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště standard. úst. lůžk. péče kardiologické - H typu</td>
+<td>kardiologie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">1H8<a name="nzis-OdbornostVZP-1H8"> </a></td>
+<td>std.nefrologie</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>1H8</td>
+<td>std.nefrologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště standardní ústav. lůžk.péče nefrologické - H typu</td>
+<td>nefrologie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">1H9<a name="nzis-OdbornostVZP-1H9"> </a></td>
+<td>std.revmatologie</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>1H9</td>
+<td>std.revmatologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště standard. úst. lůžk. péče revmatologické - H typu</td>
+<td>revmatologie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">1I1<a name="nzis-OdbornostVZP-1I1"> </a></td>
+<td>JIP interní</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>1I1</td>
+<td>JIP interní</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Prac. resusc. a intenziv. ústavní lůž. péče interní - I typu</td>
+<td>interní lékařství</td>
+<td>Intenzivní péče</td></tr>
+<tr><td style="white-space:nowrap">1I3<a name="nzis-OdbornostVZP-1I3"> </a></td>
+<td>JIP diabetologie</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>1I3</td>
+<td>JIP diabetologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště intenzivní ústavní lůž.péče diabetolog.- I typu</td>
+<td>diabetologie</td>
+<td>Intenzivní péče</td></tr>
+<tr><td style="white-space:nowrap">1I5<a name="nzis-OdbornostVZP-1I5"> </a></td>
+<td>JIP hepatologie</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>1I5</td>
+<td>JIP hepatologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště intenzivní ústavní lůž. péče hepatolog. - I typu</td>
+<td>gastroenterologie a hepatologie</td>
+<td>Intenzivní péče</td></tr>
+<tr><td style="white-space:nowrap">1I6<a name="nzis-OdbornostVZP-1I6"> </a></td>
+<td>JIP geriatrie</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>1I6</td>
+<td>JIP geriatrie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov.resusc. a intenziv.úst. lůž. péče geriatric. - I typu</td>
+<td>geriatrie</td>
+<td>Intenzivní péče</td></tr>
+<tr><td style="white-space:nowrap">1I7<a name="nzis-OdbornostVZP-1I7"> </a></td>
+<td>JIP kardiologie</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>1I7</td>
+<td>JIP kardiologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov.resusc.a intenziv.úst. lůž. péče kardiologic.- I typu</td>
+<td>kardiologie</td>
+<td>Intenzivní péče</td></tr>
+<tr><td style="white-space:nowrap">1I8<a name="nzis-OdbornostVZP-1I8"> </a></td>
+<td>JIP nefrologie</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>1I8</td>
+<td>JIP nefrologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště intenziv. úst. lůž. péče nefrologic. - I typu</td>
+<td>nefrologie</td>
+<td>Intenzivní péče</td></tr>
+<tr><td style="white-space:nowrap">1T1<a name="nzis-OdbornostVZP-1T1"> </a></td>
+<td>JIP interní</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>1T1</td>
+<td>JIP interní</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. resusc. a intenziv. úst. lůž. péče interní - T typu</td>
+<td>interní lékařství</td>
+<td>Intenzivní péče</td></tr>
+<tr><td style="white-space:nowrap">1T3<a name="nzis-OdbornostVZP-1T3"> </a></td>
+<td>JIP diabetologie</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>1T3</td>
+<td>JIP diabetologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště intenziv. ústav. lůž. péče  diabetolog. - T typu</td>
+<td>diabetologie</td>
+<td>Intenzivní péče</td></tr>
+<tr><td style="white-space:nowrap">1T5<a name="nzis-OdbornostVZP-1T5"> </a></td>
+<td>JIP hepatologie</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>1T5</td>
+<td>JIP hepatologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště intenziv. ústavní lůž. péče  hepatolog. - T typu</td>
+<td>gastroenterologie a hepatologie</td>
+<td>Intenzivní péče</td></tr>
+<tr><td style="white-space:nowrap">1T6<a name="nzis-OdbornostVZP-1T6"> </a></td>
+<td>JIP geriatrie</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>1T6</td>
+<td>JIP geriatrie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. resusc.a intenziv.úst.lůž. péče geriatric. - T typu</td>
+<td>geriatrie</td>
+<td>Intenzivní péče</td></tr>
+<tr><td style="white-space:nowrap">1T7<a name="nzis-OdbornostVZP-1T7"> </a></td>
+<td>JIP kardiologie</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>1T7</td>
+<td>JIP kardiologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. resusc.a intenziv.ústav.lůž. péče kardiolog.- T typu</td>
+<td>kardiologie</td>
+<td>Intenzivní péče</td></tr>
+<tr><td style="white-space:nowrap">1T8<a name="nzis-OdbornostVZP-1T8"> </a></td>
+<td>JIP nefrologie</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>1T8</td>
+<td>JIP nefrologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště intenziv. úst. lůž. péče nefrologic. - T typu</td>
+<td>nefrologie</td>
+<td>Intenzivní péče</td></tr>
+<tr><td style="white-space:nowrap">1U1<a name="nzis-OdbornostVZP-1U1"> </a></td>
+<td>dlhd.interní</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>1U1</td>
+<td>dlhd.interní</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště dlouhodobé (chronické) interní lůž.péče - U typu</td>
+<td>interní lékařství</td>
+<td>Dlouhodobá péče</td></tr>
+<tr><td style="white-space:nowrap">1U6<a name="nzis-OdbornostVZP-1U6"> </a></td>
+<td>dlhd.geriatrie</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>1U6</td>
+<td>dlhd.geriatrie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. dlouhodobé (chronické) geriatrické lůž.péče - U typu</td>
+<td>geriatrie</td>
+<td>Dlouhodobá péče</td></tr>
+<tr><td style="white-space:nowrap">1U9<a name="nzis-OdbornostVZP-1U9"> </a></td>
+<td>dlhd.revmatologie</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>1U9</td>
+<td>dlhd.revmatologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov.dlouhodobé (chronické) revmatolog. lůž. péče - U typu</td>
+<td>revmatologie</td>
+<td>Dlouhodobá péče</td></tr>
+<tr><td style="white-space:nowrap">201<a name="nzis-OdbornostVZP-201"> </a></td>
+<td>fyziatrie a rehabilitace</td>
+<td>false</td>
+<td>Interní obory</td>
+<td>201</td>
+<td>fyziatrie a rehabilitace</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště fyziatrie a rehabilitačního lékařství</td>
+<td>fyziatrie a rehabilitace</td>
+<td>Ambulantní péče</td></tr>
+<tr><td style="white-space:nowrap">202<a name="nzis-OdbornostVZP-202"> </a></td>
+<td>klinická hematologie</td>
+<td>false</td>
+<td>Interní obory</td>
+<td>202</td>
+<td>klinická hematologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště klinické hematologie</td>
+<td>klinická hematologie</td>
+<td>Ambulantní péče</td></tr>
+<tr><td style="white-space:nowrap">203<a name="nzis-OdbornostVZP-203"> </a></td>
+<td>přenosné nemoci</td>
+<td>false</td>
+<td>Interní obory</td>
+<td>203</td>
+<td>přenosné nemoci</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště přenosných nemocí</td>
+<td>přenosné nemoci</td>
+<td>Ambulantní péče</td></tr>
+<tr><td style="white-space:nowrap">204<a name="nzis-OdbornostVZP-204"> </a></td>
+<td>tělovýchovné lékařství</td>
+<td>false</td>
+<td>Interní obory</td>
+<td>204</td>
+<td>tělovýchovné lékařství</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště tělovýchovného lékařství</td>
+<td>tělovýchovné lékařství</td>
+<td>Ambulantní péče</td></tr>
+<tr><td style="white-space:nowrap">205<a name="nzis-OdbornostVZP-205"> </a></td>
+<td>TRN a pneumologie</td>
+<td>false</td>
+<td>Interní obory</td>
+<td>205</td>
+<td>TRN a pneumologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště tuberkulózy a respiračních nemocí</td>
+<td>TRN a pneumologie</td>
+<td>Ambulantní péče</td></tr>
+<tr><td style="white-space:nowrap">206<a name="nzis-OdbornostVZP-206"> </a></td>
+<td>klinická farmakologie</td>
+<td>false</td>
+<td>Interní obory</td>
+<td>206</td>
+<td>klinická farmakologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště klinické farmakologie (mimo laboratorní činnosti)</td>
+<td>klinická farmakologie</td>
+<td>Ambulantní péče</td></tr>
+<tr><td style="white-space:nowrap">207<a name="nzis-OdbornostVZP-207"> </a></td>
+<td>imunologie a alergologie</td>
+<td>false</td>
+<td>Interní obory</td>
+<td>207</td>
+<td>imunologie a alergologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště alergologie a klinické imunologie</td>
+<td>imunologie a alergologie</td>
+<td>Ambulantní péče</td></tr>
+<tr><td style="white-space:nowrap">208<a name="nzis-OdbornostVZP-208"> </a></td>
+<td>lékařská genetiky</td>
+<td>false</td>
+<td>Interní obory</td>
+<td>208</td>
+<td>lékařská genetiky</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště lékařské genetiky</td>
+<td>lékařská genetiky</td>
+<td>Ambulantní péče</td></tr>
+<tr><td style="white-space:nowrap">209<a name="nzis-OdbornostVZP-209"> </a></td>
+<td>neurologie</td>
+<td>false</td>
+<td>Interní obory</td>
+<td>209</td>
+<td>neurologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště neurologie</td>
+<td>neurologie</td>
+<td>Ambulantní péče</td></tr>
+<tr><td style="white-space:nowrap">222<a name="nzis-OdbornostVZP-222"> </a></td>
+<td>transfúzní služba</td>
+<td>false</td>
+<td>Jiné</td>
+<td>222</td>
+<td>transfúzní služba</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště transfúzní služby</td>
+<td>transfúzní služba</td>
+<td>Laboratoře</td></tr>
+<tr><td style="white-space:nowrap">2F1<a name="nzis-OdbornostVZP-2F1"> </a></td>
+<td>std.rehabilitace</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>2F1</td>
+<td>std.rehabilitace</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. standardní ústav. lůž. péče rehabilitační - F typu</td>
+<td>fyziatrie a rehabilitace</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">2F2<a name="nzis-OdbornostVZP-2F2"> </a></td>
+<td>std.klinická hematologie</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>2F2</td>
+<td>std.klinická hematologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. standard.úst.lůž. péče klinické hematologie - F typu</td>
+<td>klinická hematologie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">2F3<a name="nzis-OdbornostVZP-2F3"> </a></td>
+<td>std.přenosné nemoci</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>2F3</td>
+<td>std.přenosné nemoci</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. standard. úst. lůž. péče přenosných nemocí - F typu</td>
+<td>přenosné nemoci</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">2F5<a name="nzis-OdbornostVZP-2F5"> </a></td>
+<td>std.TRN a pneumologie</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>2F5</td>
+<td>std.TRN a pneumologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. standard. ústav. lůž. péče TRN a pneumolog. - F typu</td>
+<td>TRN a pneumologie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">2F6<a name="nzis-OdbornostVZP-2F6"> </a></td>
+<td>std.klinická farmakologi</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>2F6</td>
+<td>std.klinická farmakologi</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. standard.úst.lůž.péče klinické farmakologie - F typu</td>
+<td>klinická farmakologie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">2F7<a name="nzis-OdbornostVZP-2F7"> </a></td>
+<td>std.imunologie a alergol</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>2F7</td>
+<td>std.imunologie a alergol</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Prac.stand.úst.lůžk.péče klin.imunolog.a alergolog. - F typu</td>
+<td>imunologie a alergologie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">2F9<a name="nzis-OdbornostVZP-2F9"> </a></td>
+<td>std.neurologie</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>2F9</td>
+<td>std.neurologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. standardní ústavní lůžk. péče neurologické - F typu</td>
+<td>neurologie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">2H1<a name="nzis-OdbornostVZP-2H1"> </a></td>
+<td>std.rehabilitace</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>2H1</td>
+<td>std.rehabilitace</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. standardní ústavní lůžk. péče rehabilitační - H typu</td>
+<td>fyziatrie a rehabilitace</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">2H2<a name="nzis-OdbornostVZP-2H2"> </a></td>
+<td>std.klinická hematologie</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>2H2</td>
+<td>std.klinická hematologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Prac.standard.ústav.lůžk. péče klinické hematologie - H typu</td>
+<td>klinická hematologie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">2H3<a name="nzis-OdbornostVZP-2H3"> </a></td>
+<td>std.přenosné nemoci</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>2H3</td>
+<td>std.přenosné nemoci</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. standard. úst. lůž. péče přenosných nemocí - H typu</td>
+<td>přenosné nemoci</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">2H5<a name="nzis-OdbornostVZP-2H5"> </a></td>
+<td>std.TRN a pneumologie</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>2H5</td>
+<td>std.TRN a pneumologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. standard.ústav. lůžk. péče TRN a pneumolog. - H typu</td>
+<td>TRN a pneumologie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">2H7<a name="nzis-OdbornostVZP-2H7"> </a></td>
+<td>std.imunologie a alergol</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>2H7</td>
+<td>std.imunologie a alergol</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Prac. stand.úst.lůž.péče klin.imunolog.a alergolog. - H typu</td>
+<td>imunologie a alergologie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">2H9<a name="nzis-OdbornostVZP-2H9"> </a></td>
+<td>std.neurologie</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>2H9</td>
+<td>std.neurologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov.standardní ústavní lůžkové péče neurologické - H typu</td>
+<td>neurologie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">2I2<a name="nzis-OdbornostVZP-2I2"> </a></td>
+<td>JIP klinická hematologie</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>2I2</td>
+<td>JIP klinická hematologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Prac. resusc. a intenz. úst.lůž.péče klin.hematolog.- I typu</td>
+<td>klinická hematologie</td>
+<td>Intenzivní péče</td></tr>
+<tr><td style="white-space:nowrap">2I3<a name="nzis-OdbornostVZP-2I3"> </a></td>
+<td>JIP přenosné nemoci</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>2I3</td>
+<td>JIP přenosné nemoci</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Prac. resusc. a intenz. úst. lůž.péče přenos.nemocí - I typu</td>
+<td>přenosné nemoci</td>
+<td>Intenzivní péče</td></tr>
+<tr><td style="white-space:nowrap">2I5<a name="nzis-OdbornostVZP-2I5"> </a></td>
+<td>JIP TRN a pneumologie</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>2I5</td>
+<td>JIP TRN a pneumologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Prac.resusc. a intenz.úst.lůž.péče TRN a pneumolog. - I typu</td>
+<td>TRN a pneumologie</td>
+<td>Intenzivní péče</td></tr>
+<tr><td style="white-space:nowrap">2I9<a name="nzis-OdbornostVZP-2I9"> </a></td>
+<td>JIP neurologie</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>2I9</td>
+<td>JIP neurologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. resusc. a intenz.úst.lůž. péče neurologické - I typu</td>
+<td>neurologie</td>
+<td>Intenzivní péče</td></tr>
+<tr><td style="white-space:nowrap">2S1<a name="nzis-OdbornostVZP-2S1"> </a></td>
+<td>spinální rehabilitační j</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>2S1</td>
+<td>spinální rehabilitační j</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Prac. poskyt.péči na spinálních rehabil.jednotkách</td>
+<td>spinální rehabilitační jednotka</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">2T2<a name="nzis-OdbornostVZP-2T2"> </a></td>
+<td>JIP klinická hematologie</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>2T2</td>
+<td>JIP klinická hematologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Prac. resusc. a intenz. úst.lůž.péče klin.hematolog.- T typu</td>
+<td>klinická hematologie</td>
+<td>Intenzivní péče</td></tr>
+<tr><td style="white-space:nowrap">2T3<a name="nzis-OdbornostVZP-2T3"> </a></td>
+<td>JIP přenosné nemoci</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>2T3</td>
+<td>JIP přenosné nemoci</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Prac. resusc. a intenz. úst. lůž.péče přenos.nemocí - T typu</td>
+<td>přenosné nemoci</td>
+<td>Intenzivní péče</td></tr>
+<tr><td style="white-space:nowrap">2T5<a name="nzis-OdbornostVZP-2T5"> </a></td>
+<td>JIP TRN a pneumologie</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>2T5</td>
+<td>JIP TRN a pneumologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Prac.resusc. a intenz.úst.lůž.péče TRN a pneumolog. - T typu</td>
+<td>TRN a pneumologie</td>
+<td>Intenzivní péče</td></tr>
+<tr><td style="white-space:nowrap">2T9<a name="nzis-OdbornostVZP-2T9"> </a></td>
+<td>JIP neurologie</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>2T9</td>
+<td>JIP neurologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Prac. resusc. a intenz. úst. lůž. péče neurologické - T typu</td>
+<td>neurologie</td>
+<td>Intenzivní péče</td></tr>
+<tr><td style="white-space:nowrap">2U1<a name="nzis-OdbornostVZP-2U1"> </a></td>
+<td>dlhd.rehabilitace</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>2U1</td>
+<td>dlhd.rehabilitace</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. dlouhodobé ústav. lůž. rehabilitační péče - U typu</td>
+<td>fyziatrie a rehabilitace</td>
+<td>Dlouhodobá péče</td></tr>
+<tr><td style="white-space:nowrap">2U5<a name="nzis-OdbornostVZP-2U5"> </a></td>
+<td>dlhd.TRN a pneumologie</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>2U5</td>
+<td>dlhd.TRN a pneumologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. dlouhodobé ústav.lůž.TRN a pneumolog.péče - U typu</td>
+<td>TRN a pneumologie</td>
+<td>Dlouhodobá péče</td></tr>
+<tr><td style="white-space:nowrap">2U9<a name="nzis-OdbornostVZP-2U9"> </a></td>
+<td>dlhd.neurologie</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>2U9</td>
+<td>dlhd.neurologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. dlouhodobé (chronické) úst.neurolog. péče - U typu</td>
+<td>neurologie</td>
+<td>Dlouhodobá péče</td></tr>
+<tr><td style="white-space:nowrap">301<a name="nzis-OdbornostVZP-301"> </a></td>
+<td>pediatrie</td>
+<td>false</td>
+<td>Interní obory</td>
+<td>301</td>
+<td>pediatrie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště pediatrie</td>
+<td>pediatrie</td>
+<td>Ambulantní péče</td></tr>
+<tr><td style="white-space:nowrap">302<a name="nzis-OdbornostVZP-302"> </a></td>
+<td>dětská kardiologie</td>
+<td>false</td>
+<td>Interní obory</td>
+<td>302</td>
+<td>dětská kardiologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště dětské kardiologie</td>
+<td>dětská kardiologie</td>
+<td>Ambulantní péče</td></tr>
+<tr><td style="white-space:nowrap">303<a name="nzis-OdbornostVZP-303"> </a></td>
+<td>dorostové lékařství</td>
+<td>false</td>
+<td>Interní obory</td>
+<td>303</td>
+<td>dorostové lékařství</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště dorostového lékařství</td>
+<td>dorostové lékařství</td>
+<td>Ambulantní péče</td></tr>
+<tr><td style="white-space:nowrap">304<a name="nzis-OdbornostVZP-304"> </a></td>
+<td>neonatologie</td>
+<td>false</td>
+<td>Interní obory</td>
+<td>304</td>
+<td>neonatologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště neonatologie</td>
+<td>neonatologie</td>
+<td>Ambulantní péče</td></tr>
+<tr><td style="white-space:nowrap">305<a name="nzis-OdbornostVZP-305"> </a></td>
+<td>psychiatrie</td>
+<td>false</td>
+<td>Psychiatrie</td>
+<td>305</td>
+<td>psychiatrie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště psychiatrie</td>
+<td>psychiatrie</td>
+<td>Ambulantní péče</td></tr>
+<tr><td style="white-space:nowrap">306<a name="nzis-OdbornostVZP-306"> </a></td>
+<td>dětská psychiatrie</td>
+<td>false</td>
+<td>Psychiatrie</td>
+<td>306</td>
+<td>dětská psychiatrie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště dětské psychiatrie</td>
+<td>dětská psychiatrie</td>
+<td>Ambulantní péče</td></tr>
+<tr><td style="white-space:nowrap">307<a name="nzis-OdbornostVZP-307"> </a></td>
+<td>gerontopsychiatrie</td>
+<td>false</td>
+<td>Psychiatrie</td>
+<td>307</td>
+<td>gerontopsychiatrie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště gerontopsychiatrie</td>
+<td>gerontopsychiatrie</td>
+<td>Ambulantní péče</td></tr>
+<tr><td style="white-space:nowrap">308<a name="nzis-OdbornostVZP-308"> </a></td>
+<td>alkoholismus a toxikoman</td>
+<td>false</td>
+<td>Psychiatrie</td>
+<td>308</td>
+<td>alkoholismus a toxikoman</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště léčby alkoholismu a jiných toxikomanií</td>
+<td>alkoholismus a toxikomanie</td>
+<td>Ambulantní péče</td></tr>
+<tr><td style="white-space:nowrap">309<a name="nzis-OdbornostVZP-309"> </a></td>
+<td>sexuologie</td>
+<td>false</td>
+<td>Psychiatrie</td>
+<td>309</td>
+<td>sexuologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště sexuologie</td>
+<td>sexuologie</td>
+<td>Ambulantní péče</td></tr>
+<tr><td style="white-space:nowrap">3F1<a name="nzis-OdbornostVZP-3F1"> </a></td>
+<td>std.pediatrie</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>3F1</td>
+<td>std.pediatrie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. standardní ústavní lůžkové péče pediatrické - F typu</td>
+<td>pediatrie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">3F2<a name="nzis-OdbornostVZP-3F2"> </a></td>
+<td>std.dětská kardiologie</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>3F2</td>
+<td>std.dětská kardiologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. standard. úst. lůž. péče dětské kardiologie - F typu</td>
+<td>dětská kardiologie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">3F3<a name="nzis-OdbornostVZP-3F3"> </a></td>
+<td>std.dorostové lékařství</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>3F3</td>
+<td>std.dorostové lékařství</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Prac. standard.úst.lůžk. péče dorostového lékařství - F typu</td>
+<td>dorostové lékařství</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">3F4<a name="nzis-OdbornostVZP-3F4"> </a></td>
+<td>std.neonatologie</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>3F4</td>
+<td>std.neonatologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. standard. úst. lůžk. péče o novorozence - F typu</td>
+<td>neonatologie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">3F5<a name="nzis-OdbornostVZP-3F5"> </a></td>
+<td>std.psychiatrie</td>
+<td>true</td>
+<td>Psychiatrie</td>
+<td>3F5</td>
+<td>std.psychiatrie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. standard. úst. lůž. péče psychiatrické - F typu</td>
+<td>psychiatrie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">3F6<a name="nzis-OdbornostVZP-3F6"> </a></td>
+<td>std.dětská psychiatrie</td>
+<td>true</td>
+<td>Psychiatrie</td>
+<td>3F6</td>
+<td>std.dětská psychiatrie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Prac. standard. úst. lůž. péče dětské psychiatrie - F typu</td>
+<td>dětská psychiatrie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">3F7<a name="nzis-OdbornostVZP-3F7"> </a></td>
+<td>std.gerontopsychiatrie</td>
+<td>true</td>
+<td>Psychiatrie</td>
+<td>3F7</td>
+<td>std.gerontopsychiatrie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Prac. standard. úst. lůž. péče gerontopsychiatric. - F typu</td>
+<td>gerontopsychiatrie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">3H1<a name="nzis-OdbornostVZP-3H1"> </a></td>
+<td>std.pediatrie</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>3H1</td>
+<td>std.pediatrie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. standard. úst. lůž. péče pediatrické - H typu</td>
+<td>pediatrie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">3H2<a name="nzis-OdbornostVZP-3H2"> </a></td>
+<td>std.dětská kardiologie</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>3H2</td>
+<td>std.dětská kardiologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. standard. úst. lůž. péče dětské kardiologie - H typu</td>
+<td>dětská kardiologie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">3H3<a name="nzis-OdbornostVZP-3H3"> </a></td>
+<td>std.dorostové lékařství</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>3H3</td>
+<td>std.dorostové lékařství</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Prac.standard. úst. lůž. péče dorostového lékařství - H typu</td>
+<td>dorostové lékařství</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">3H4<a name="nzis-OdbornostVZP-3H4"> </a></td>
+<td>std.neonatologie</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>3H4</td>
+<td>std.neonatologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. standard. úst. lůž. péče o novorozence - H typu</td>
+<td>neonatologie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">3H5<a name="nzis-OdbornostVZP-3H5"> </a></td>
+<td>std.psychiatrie</td>
+<td>true</td>
+<td>Psychiatrie</td>
+<td>3H5</td>
+<td>std.psychiatrie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. standard. ústav. lůžk. péče psychiatrické - H typu</td>
+<td>psychiatrie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">3H6<a name="nzis-OdbornostVZP-3H6"> </a></td>
+<td>std.dětské psychiatrie</td>
+<td>true</td>
+<td>Psychiatrie</td>
+<td>3H6</td>
+<td>std.dětské psychiatrie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. standard. úst. lůž. péče dětské psychiatrie - H typu</td>
+<td>dětská psychiatrie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">3H7<a name="nzis-OdbornostVZP-3H7"> </a></td>
+<td>std.gerontopsychiatrie</td>
+<td>true</td>
+<td>Psychiatrie</td>
+<td>3H7</td>
+<td>std.gerontopsychiatrie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov.standard. úst. lůž. péče gerontopsychiatric. - H typu</td>
+<td>gerontopsychiatrie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">3I1<a name="nzis-OdbornostVZP-3I1"> </a></td>
+<td>JIP pediatrie</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>3I1</td>
+<td>JIP pediatrie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov.resusc. a intenz. úst. lůž. péče pediatrické - I typu</td>
+<td>pediatrie</td>
+<td>Intenzivní péče</td></tr>
+<tr><td style="white-space:nowrap">3I2<a name="nzis-OdbornostVZP-3I2"> </a></td>
+<td>JIP dětská kardiologie</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>3I2</td>
+<td>JIP dětská kardiologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Prac. resusc.a intenz.úst.lůž.péče dětské kardiolog - I typu</td>
+<td>dětská kardiologie</td>
+<td>Intenzivní péče</td></tr>
+<tr><td style="white-space:nowrap">3I4<a name="nzis-OdbornostVZP-3I4"> </a></td>
+<td>JIP neonatologie</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>3I4</td>
+<td>JIP neonatologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Prac.resuscit.a intenziv. ústav.lůž. péče neonatol. - I typu</td>
+<td>neonatologie</td>
+<td>Intenzivní péče</td></tr>
+<tr><td style="white-space:nowrap">3I5<a name="nzis-OdbornostVZP-3I5"> </a></td>
+<td>JIP psychiatrie</td>
+<td>true</td>
+<td>Psychiatrie</td>
+<td>3I5</td>
+<td>JIP psychiatrie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Prac.resusc. a intenz. úst. lůž. péče psychiatrické - I typu</td>
+<td>psychiatrie</td>
+<td>Intenzivní péče</td></tr>
+<tr><td style="white-space:nowrap">3I6<a name="nzis-OdbornostVZP-3I6"> </a></td>
+<td>JIP dětská psychiatrie</td>
+<td>true</td>
+<td>Psychiatrie</td>
+<td>3I6</td>
+<td>JIP dětská psychiatrie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Prac. resusc. a intenz. úst. lůž. péče dět.psychiatr. I typu</td>
+<td>dětská psychiatrie</td>
+<td>Intenzivní péče</td></tr>
+<tr><td style="white-space:nowrap">3T1<a name="nzis-OdbornostVZP-3T1"> </a></td>
+<td>JIP pediatrie</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>3T1</td>
+<td>JIP pediatrie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Prac. resusc. a intenz. úst. lůž. péče pediatrické - T typu</td>
+<td>pediatrie</td>
+<td>Intenzivní péče</td></tr>
+<tr><td style="white-space:nowrap">3T2<a name="nzis-OdbornostVZP-3T2"> </a></td>
+<td>JIP dětská kardiologie</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>3T2</td>
+<td>JIP dětská kardiologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Prac.resusc. a intenz.úst.lůž.péče dětské kardiolog - T typu</td>
+<td>dětská kardiologie</td>
+<td>Intenzivní péče</td></tr>
+<tr><td style="white-space:nowrap">3T4<a name="nzis-OdbornostVZP-3T4"> </a></td>
+<td>JIP neonatologie</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>3T4</td>
+<td>JIP neonatologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Prac. resusc. a intenz. úst. lůž. péče neonatol. - T typu</td>
+<td>neonatologie</td>
+<td>Intenzivní péče</td></tr>
+<tr><td style="white-space:nowrap">3T5<a name="nzis-OdbornostVZP-3T5"> </a></td>
+<td>JIP psychiatrie</td>
+<td>true</td>
+<td>Psychiatrie</td>
+<td>3T5</td>
+<td>JIP psychiatrie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Prac.resusc. a intenz. úst. lůž. péče psychiatrické - T typu</td>
+<td>psychiatrie</td>
+<td>Intenzivní péče</td></tr>
+<tr><td style="white-space:nowrap">3T6<a name="nzis-OdbornostVZP-3T6"> </a></td>
+<td>JIP dětská psychiatrie</td>
+<td>true</td>
+<td>Psychiatrie</td>
+<td>3T6</td>
+<td>JIP dětská psychiatrie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Prac. resusc. a intenz. úst.lůž.péče dět.psychiatr. - T typu</td>
+<td>dětská psychiatrie</td>
+<td>Intenzivní péče</td></tr>
+<tr><td style="white-space:nowrap">3U1<a name="nzis-OdbornostVZP-3U1"> </a></td>
+<td>dlhd.pediatrie</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>3U1</td>
+<td>dlhd.pediatrie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Prac.dlouhodobé (chronic.) úst.lůž.péče pediatrické - U typu</td>
+<td>pediatrie</td>
+<td>Dlouhodobá péče</td></tr>
+<tr><td style="white-space:nowrap">3U5<a name="nzis-OdbornostVZP-3U5"> </a></td>
+<td>dlhd.psychiatrie</td>
+<td>true</td>
+<td>Psychiatrie</td>
+<td>3U5</td>
+<td>dlhd.psychiatrie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Prac. dlouhodobé (chronic.) úst.lůž.péče psychiatr. - U typu</td>
+<td>psychiatrie</td>
+<td>Dlouhodobá péče</td></tr>
+<tr><td style="white-space:nowrap">3U6<a name="nzis-OdbornostVZP-3U6"> </a></td>
+<td>dlhd.dětská psychiatrie</td>
+<td>true</td>
+<td>Psychiatrie</td>
+<td>3U6</td>
+<td>dlhd.dětská psychiatrie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Prac. dlouhod.(chronic.) úst.lůž.péče dět.psychiatr.- U typu</td>
+<td>dětská psychiatrie</td>
+<td>Dlouhodobá péče</td></tr>
+<tr><td style="white-space:nowrap">3U7<a name="nzis-OdbornostVZP-3U7"> </a></td>
+<td>dlhd.gerontopsychiatrie</td>
+<td>true</td>
+<td>Psychiatrie</td>
+<td>3U7</td>
+<td>dlhd.gerontopsychiatrie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Prac.dlouhod.(chronic.)úst.lůž.péče gerontopsychiatr.-U typu</td>
+<td>gerontopsychiatrie</td>
+<td>Dlouhodobá péče</td></tr>
+<tr><td style="white-space:nowrap">3U8<a name="nzis-OdbornostVZP-3U8"> </a></td>
+<td>dlhd.alkoholismus a toxi</td>
+<td>true</td>
+<td>Psychiatrie</td>
+<td>3U8</td>
+<td>dlhd.alkoholismus a toxi</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Prac. dlouhod.(chronic.) léčba alkohol.a j. toxikom. -U typu</td>
+<td>alkoholismus a toxikomanie</td>
+<td>Dlouhodobá péče</td></tr>
+<tr><td style="white-space:nowrap">3U9<a name="nzis-OdbornostVZP-3U9"> </a></td>
+<td>dlhd.sexuologie</td>
+<td>true</td>
+<td>Psychiatrie</td>
+<td>3U9</td>
+<td>dlhd.sexuologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Prac. dlouhodobé (chronic.) úst.lůž.péče sexuolog. - U typu</td>
+<td>sexuologie</td>
+<td>Dlouhodobá péče</td></tr>
+<tr><td style="white-space:nowrap">401<a name="nzis-OdbornostVZP-401"> </a></td>
+<td>pracovní lékařství</td>
+<td>false</td>
+<td>Interní obory</td>
+<td>401</td>
+<td>pracovní lékařství</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště pracovního lékařství</td>
+<td>pracovní lékařství</td>
+<td>Ambulantní péče</td></tr>
+<tr><td style="white-space:nowrap">402<a name="nzis-OdbornostVZP-402"> </a></td>
+<td>onkologie (bez radiotera</td>
+<td>false</td>
+<td>Interní obory</td>
+<td>402</td>
+<td>onkologie (bez radiotera</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště klinické onkologie (bez radiační onkologie)</td>
+<td>onkologie (bez radioterapie)</td>
+<td>Ambulantní péče</td></tr>
+<tr><td style="white-space:nowrap">403<a name="nzis-OdbornostVZP-403"> </a></td>
+<td>radioterapie</td>
+<td>false</td>
+<td>Interní obory</td>
+<td>403</td>
+<td>radioterapie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště radioterapie a radiační onkologie</td>
+<td>radioterapie</td>
+<td>Ambulantní péče</td></tr>
+<tr><td style="white-space:nowrap">404<a name="nzis-OdbornostVZP-404"> </a></td>
+<td>dermatovenerologie</td>
+<td>false</td>
+<td>Chirurgické obory</td>
+<td>404</td>
+<td>dermatovenerologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště dermatovenerologie</td>
+<td>dermatovenerologie</td>
+<td>Ambulantní péče</td></tr>
+<tr><td style="white-space:nowrap">405<a name="nzis-OdbornostVZP-405"> </a></td>
+<td>dětská dermatologie</td>
+<td>false</td>
+<td>Chirurgické obory</td>
+<td>405</td>
+<td>dětská dermatologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště dětské dermatologie</td>
+<td>dětská dermatologie</td>
+<td>Ambulantní péče</td></tr>
+<tr><td style="white-space:nowrap">406<a name="nzis-OdbornostVZP-406"> </a></td>
+<td>korektivní dermatologie</td>
+<td>false</td>
+<td>Chirurgické obory</td>
+<td>406</td>
+<td>korektivní dermatologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště korektivní dermatologie</td>
+<td>korektivní dermatologie</td>
+<td>Ambulantní péče</td></tr>
+<tr><td style="white-space:nowrap">407<a name="nzis-OdbornostVZP-407"> </a></td>
+<td>nukleární medicína</td>
+<td>false</td>
+<td>Jiné</td>
+<td>407</td>
+<td>nukleární medicína</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště nukleární medicíny</td>
+<td>nukleární medicína</td>
+<td>Zobrazovací metody</td></tr>
+<tr><td style="white-space:nowrap">409<a name="nzis-OdbornostVZP-409"> </a></td>
+<td>dětská neurologie</td>
+<td>false</td>
+<td>Interní obory</td>
+<td>409</td>
+<td>dětská neurologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště dětské neurologie</td>
+<td>dětská neurologie</td>
+<td>Ambulantní péče</td></tr>
+<tr><td style="white-space:nowrap">4F1<a name="nzis-OdbornostVZP-4F1"> </a></td>
+<td>std.nemoci z povolání</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>4F1</td>
+<td>std.nemoci z povolání</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. standard. úst. lůž. péče nemocí z povolání - F typu</td>
+<td>pracovní lékařství</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">4F2<a name="nzis-OdbornostVZP-4F2"> </a></td>
+<td>std.onkologie</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>4F2</td>
+<td>std.onkologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. standard. úst. lůž. péče onkologické - F typu</td>
+<td>onkologie (bez radioterapie)</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">4F3<a name="nzis-OdbornostVZP-4F3"> </a></td>
+<td>std.radioterapeutie</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>4F3</td>
+<td>std.radioterapeutie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. standard. úst. lůž. péče radioterapeutické - F typu</td>
+<td>radioterapie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">4F4<a name="nzis-OdbornostVZP-4F4"> </a></td>
+<td>std.dermatovenerologie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>4F4</td>
+<td>std.dermatovenerologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. standard. úst.lůž.péče dermatovenerologické - F typu</td>
+<td>dermatovenerologie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">4F5<a name="nzis-OdbornostVZP-4F5"> </a></td>
+<td>std.dětská dermatologie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>4F5</td>
+<td>std.dětská dermatologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. standard. úst.lůž. péče dětské dermatologie - F typu</td>
+<td>dětská dermatologie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">4F7<a name="nzis-OdbornostVZP-4F7"> </a></td>
+<td>std.nukleární medicína</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>4F7</td>
+<td>std.nukleární medicína</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. standard. úst. lůž. péče nukleární medicíny - F typu</td>
+<td>nukleární medicína</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">4F9<a name="nzis-OdbornostVZP-4F9"> </a></td>
+<td>std.dětská neurologie</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>4F9</td>
+<td>std.dětská neurologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. standard. úst. lůž. péče dětské neurologie - F typu</td>
+<td>dětská neurologie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">4H1<a name="nzis-OdbornostVZP-4H1"> </a></td>
+<td>std.nemoci z povolání</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>4H1</td>
+<td>std.nemoci z povolání</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. standard. úst. lůž. péče nemocí z povolání - H typu</td>
+<td>pracovní lékařství</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">4H2<a name="nzis-OdbornostVZP-4H2"> </a></td>
+<td>std.onkologie</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>4H2</td>
+<td>std.onkologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. standardní ústavní lůžkové péče onkologické - H typu</td>
+<td>onkologie (bez radioterapie)</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">4H3<a name="nzis-OdbornostVZP-4H3"> </a></td>
+<td>std.radioterapie</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>4H3</td>
+<td>std.radioterapie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. standard. úst. lůž. péče radioterapeutické - H typu</td>
+<td>radioterapie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">4H4<a name="nzis-OdbornostVZP-4H4"> </a></td>
+<td>std.dermatovenerologie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>4H4</td>
+<td>std.dermatovenerologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Prac. standard. úst. lůž. péče dermatovenerologické - H typu</td>
+<td>dermatovenerologie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">4H5<a name="nzis-OdbornostVZP-4H5"> </a></td>
+<td>std.dětská dermatologie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>4H5</td>
+<td>std.dětská dermatologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov.standard. úst. lůž. péče dětské dermatologie - H typu</td>
+<td>dětská dermatologie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">4H7<a name="nzis-OdbornostVZP-4H7"> </a></td>
+<td>std.nukleární medicína</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>4H7</td>
+<td>std.nukleární medicína</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. standard. úst. lůž. péče nukleární medicíny - H typu</td>
+<td>nukleární medicína</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">4H9<a name="nzis-OdbornostVZP-4H9"> </a></td>
+<td>std.dětská neurologie</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>4H9</td>
+<td>std.dětská neurologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. standard. úst. lůž. péče dětské neurologie - H typu</td>
+<td>dětská neurologie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">4I2<a name="nzis-OdbornostVZP-4I2"> </a></td>
+<td>JIP onkologie</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>4I2</td>
+<td>JIP onkologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. resusc. a intenz. úst. lůž.péče onkologické - I typu</td>
+<td>onkologie (bez radioterapie)</td>
+<td>Intenzivní péče</td></tr>
+<tr><td style="white-space:nowrap">4I3<a name="nzis-OdbornostVZP-4I3"> </a></td>
+<td>JIP radioterapie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>4I3</td>
+<td>JIP radioterapie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov.resusc. a intenz. úst. lůž. péče radioterap. - I typu</td>
+<td>radioterapie</td>
+<td>Intenzivní péče</td></tr>
+<tr><td style="white-space:nowrap">4I9<a name="nzis-OdbornostVZP-4I9"> </a></td>
+<td>JIP dětská neurologie</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>4I9</td>
+<td>JIP dětská neurologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov.resusc. a intenz.úst.lůž.péče dětské neurol. - I typu</td>
+<td>dětská neurologie</td>
+<td>Intenzivní péče</td></tr>
+<tr><td style="white-space:nowrap">4T2<a name="nzis-OdbornostVZP-4T2"> </a></td>
+<td>JIP onkologie</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>4T2</td>
+<td>JIP onkologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. resusc. a intenz. úst. lůž.péče onkologické - T typu</td>
+<td>onkologie (bez radioterapie)</td>
+<td>Intenzivní péče</td></tr>
+<tr><td style="white-space:nowrap">4T3<a name="nzis-OdbornostVZP-4T3"> </a></td>
+<td>JIP radioterapie</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>4T3</td>
+<td>JIP radioterapie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov.resusc. a intenz. úst. lůž. péče radioterap. - T typu</td>
+<td>radioterapie</td>
+<td>Intenzivní péče</td></tr>
+<tr><td style="white-space:nowrap">4T9<a name="nzis-OdbornostVZP-4T9"> </a></td>
+<td>JIP dětské neurologie</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>4T9</td>
+<td>JIP dětské neurologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Prac. resusc. a intenz. úst.lůž.péče dětské neurol. - T typu</td>
+<td>dětská neurologie</td>
+<td>Intenzivní péče</td></tr>
+<tr><td style="white-space:nowrap">4U5<a name="nzis-OdbornostVZP-4U5"> </a></td>
+<td>dlhd.dětská dermatologie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>4U5</td>
+<td>dlhd.dětská dermatologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Prac.dlouhod.(chronic.) úst.lůž.péče dětské dermatol.-U typu</td>
+<td>dětská dermatologie</td>
+<td>Dlouhodobá péče</td></tr>
+<tr><td style="white-space:nowrap">4U9<a name="nzis-OdbornostVZP-4U9"> </a></td>
+<td>dlhd.dětská neurologie</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>4U9</td>
+<td>dlhd.dětská neurologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Prac.dlouhod.(chronic.) úst.lůž.péče dětské neurolog.-U typu</td>
+<td>dětská neurologie</td>
+<td>Dlouhodobá péče</td></tr>
+<tr><td style="white-space:nowrap">501<a name="nzis-OdbornostVZP-501"> </a></td>
+<td>chirurgie</td>
+<td>false</td>
+<td>Chirurgické obory</td>
+<td>501</td>
+<td>chirurgie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště chirurgie</td>
+<td>chirurgie</td>
+<td>Ambulantní péče</td></tr>
+<tr><td style="white-space:nowrap">502<a name="nzis-OdbornostVZP-502"> </a></td>
+<td>dětská chirurgie</td>
+<td>false</td>
+<td>Chirurgické obory</td>
+<td>502</td>
+<td>dětská chirurgie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště dětské chirurgie</td>
+<td>dětská chirurgie</td>
+<td>Ambulantní péče</td></tr>
+<tr><td style="white-space:nowrap">503<a name="nzis-OdbornostVZP-503"> </a></td>
+<td>úrazová chirurgie</td>
+<td>false</td>
+<td>Chirurgické obory</td>
+<td>503</td>
+<td>úrazová chirurgie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště úrazové chirurgie</td>
+<td>úrazová chirurgie</td>
+<td>Ambulantní péče</td></tr>
+<tr><td style="white-space:nowrap">504<a name="nzis-OdbornostVZP-504"> </a></td>
+<td>cévní chirurgie</td>
+<td>false</td>
+<td>Chirurgické obory</td>
+<td>504</td>
+<td>cévní chirurgie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště cévní chirurgie</td>
+<td>cévní chirurgie</td>
+<td>Ambulantní péče</td></tr>
+<tr><td style="white-space:nowrap">505<a name="nzis-OdbornostVZP-505"> </a></td>
+<td>kardiochirurgie</td>
+<td>false</td>
+<td>Chirurgické obory</td>
+<td>505</td>
+<td>kardiochirurgie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště kardiochirurgie</td>
+<td>kardiochirurgie</td>
+<td>Ambulantní péče</td></tr>
+<tr><td style="white-space:nowrap">506<a name="nzis-OdbornostVZP-506"> </a></td>
+<td>neurochirurgie</td>
+<td>false</td>
+<td>Chirurgické obory</td>
+<td>506</td>
+<td>neurochirurgie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště neurochirurgie</td>
+<td>neurochirurgie</td>
+<td>Ambulantní péče</td></tr>
+<tr><td style="white-space:nowrap">507<a name="nzis-OdbornostVZP-507"> </a></td>
+<td>hrudní chirurgie</td>
+<td>false</td>
+<td>Chirurgické obory</td>
+<td>507</td>
+<td>hrudní chirurgie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště hrudní chirurgie</td>
+<td>hrudní chirurgie</td>
+<td>Ambulantní péče</td></tr>
+<tr><td style="white-space:nowrap">5F1<a name="nzis-OdbornostVZP-5F1"> </a></td>
+<td>std.chirurgie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>5F1</td>
+<td>std.chirurgie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. standard. úst. lůž. péče chirurgické - F typu</td>
+<td>chirurgie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">5F2<a name="nzis-OdbornostVZP-5F2"> </a></td>
+<td>std.dětská chirurgie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>5F2</td>
+<td>std.dětská chirurgie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. standard. úst. lůž. péče dětské chirurgie - F typu</td>
+<td>dětská chirurgie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">5F3<a name="nzis-OdbornostVZP-5F3"> </a></td>
+<td>std.úrazová chirurgie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>5F3</td>
+<td>std.úrazová chirurgie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. standard. úst. lůž. péče úrazové chirurgie - F typu</td>
+<td>úrazová chirurgie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">5F4<a name="nzis-OdbornostVZP-5F4"> </a></td>
+<td>std.cévní chirurgie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>5F4</td>
+<td>std.cévní chirurgie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. standard. úst. lůž. péče cévní chirurgie - F typu</td>
+<td>cévní chirurgie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">5F5<a name="nzis-OdbornostVZP-5F5"> </a></td>
+<td>std.kardiochirurgie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>5F5</td>
+<td>std.kardiochirurgie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. standard. úst. lůž. péče kardiochirurgické - F typu</td>
+<td>kardiochirurgie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">5F6<a name="nzis-OdbornostVZP-5F6"> </a></td>
+<td>std.neurochirurgie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>5F6</td>
+<td>std.neurochirurgie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. standard. úst. lůž. péče neurochirurgické - F typu</td>
+<td>neurochirurgie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">5F7<a name="nzis-OdbornostVZP-5F7"> </a></td>
+<td>std.hrudní chirurgie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>5F7</td>
+<td>std.hrudní chirurgie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. standard. úst. lůž. péče hrudní chirurgie - F typu</td>
+<td>hrudní chirurgie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">5H1<a name="nzis-OdbornostVZP-5H1"> </a></td>
+<td>std.chirurgie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>5H1</td>
+<td>std.chirurgie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. standard. úst. lůž. péče chirurgické - H typu</td>
+<td>chirurgie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">5H2<a name="nzis-OdbornostVZP-5H2"> </a></td>
+<td>std.dětská chirurgie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>5H2</td>
+<td>std.dětská chirurgie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. standard. úst. lůž. péče dětské chirurgie - H typu</td>
+<td>dětská chirurgie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">5H3<a name="nzis-OdbornostVZP-5H3"> </a></td>
+<td>std.úrazová chirurgie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>5H3</td>
+<td>std.úrazová chirurgie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. standard. úst. lůž. péče úrazové chirurgie - H typu</td>
+<td>úrazová chirurgie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">5H4<a name="nzis-OdbornostVZP-5H4"> </a></td>
+<td>std.cévní chirurgie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>5H4</td>
+<td>std.cévní chirurgie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. standard. úst. lůž. péče cévní chirurgie - H typu</td>
+<td>cévní chirurgie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">5H5<a name="nzis-OdbornostVZP-5H5"> </a></td>
+<td>std.kardiochirurgie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>5H5</td>
+<td>std.kardiochirurgie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. standard. úst. lůž. péče kardiochirurgické - H typu</td>
+<td>kardiochirurgie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">5H6<a name="nzis-OdbornostVZP-5H6"> </a></td>
+<td>std.neurochirurgie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>5H6</td>
+<td>std.neurochirurgie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. standard. úst. lůž. péče neurochirurgické - H typu</td>
+<td>neurochirurgie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">5H7<a name="nzis-OdbornostVZP-5H7"> </a></td>
+<td>std.hrudní chirurgie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>5H7</td>
+<td>std.hrudní chirurgie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. standard. úst. lůž. péče hrudní chirurgie - H typu</td>
+<td>hrudní chirurgie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">5I1<a name="nzis-OdbornostVZP-5I1"> </a></td>
+<td>JIP chirurgie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>5I1</td>
+<td>JIP chirurgie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. resusc. a intenz. úst. lůž.péče chirurgické - I typu</td>
+<td>chirurgie</td>
+<td>Intenzivní péče</td></tr>
+<tr><td style="white-space:nowrap">5I2<a name="nzis-OdbornostVZP-5I2"> </a></td>
+<td>JIP dětská chirurgie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>5I2</td>
+<td>JIP dětská chirurgie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Prac. resusc. a intenz. úst.lůž. péče dět.chirurgie - I typu</td>
+<td>dětská chirurgie</td>
+<td>Intenzivní péče</td></tr>
+<tr><td style="white-space:nowrap">5I3<a name="nzis-OdbornostVZP-5I3"> </a></td>
+<td>JIP úrazová chirur.</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>5I3</td>
+<td>JIP úrazová chirur.</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. resusc. a intenz.úst.lůž.péče úraz. chirur. - I typu</td>
+<td>úrazová chirurgie</td>
+<td>Intenzivní péče</td></tr>
+<tr><td style="white-space:nowrap">5I4<a name="nzis-OdbornostVZP-5I4"> </a></td>
+<td>JIP cévní chirurgie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>5I4</td>
+<td>JIP cévní chirurgie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Prac.resusc. a intenz. úst. lůž.péče cévní chirurgie- I typu</td>
+<td>cévní chirurgie</td>
+<td>Intenzivní péče</td></tr>
+<tr><td style="white-space:nowrap">5I5<a name="nzis-OdbornostVZP-5I5"> </a></td>
+<td>JIP kardiochirurgie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>5I5</td>
+<td>JIP kardiochirurgie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov.resusc. a intenz. úst. lůž. péče kardiochir. - I typu</td>
+<td>kardiochirurgie</td>
+<td>Intenzivní péče</td></tr>
+<tr><td style="white-space:nowrap">5I6<a name="nzis-OdbornostVZP-5I6"> </a></td>
+<td>JIP neurochirurgie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>5I6</td>
+<td>JIP neurochirurgie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. resusc. a intenz. úst. lůž. péče neurochir. - I typu</td>
+<td>neurochirurgie</td>
+<td>Intenzivní péče</td></tr>
+<tr><td style="white-space:nowrap">5I7<a name="nzis-OdbornostVZP-5I7"> </a></td>
+<td>JIP hrudní chirurgie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>5I7</td>
+<td>JIP hrudní chirurgie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Prac. resusc. a intenz. úst. lůž. péče hrudní chir. - I typu</td>
+<td>hrudní chirurgie</td>
+<td>Intenzivní péče</td></tr>
+<tr><td style="white-space:nowrap">5J1<a name="nzis-OdbornostVZP-5J1"> </a></td>
+<td>jednodenní chirurgie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>5J1</td>
+<td>jednodenní chirurgie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště jednodenní péče v oboru chirurgie</td>
+<td>chirurgie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">5R1<a name="nzis-OdbornostVZP-5R1"> </a></td>
+<td>sál chirurgie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>5R1</td>
+<td>sál chirurgie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště-operační sály chirurgie</td>
+<td>chirurgie</td>
+<td>Operační sály a sterilizace</td></tr>
+<tr><td style="white-space:nowrap">5R2<a name="nzis-OdbornostVZP-5R2"> </a></td>
+<td>sál dětská chirurgie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>5R2</td>
+<td>sál dětská chirurgie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště-operační sály dětské chirurgie</td>
+<td>dětská chirurgie</td>
+<td>Operační sály a sterilizace</td></tr>
+<tr><td style="white-space:nowrap">5R3<a name="nzis-OdbornostVZP-5R3"> </a></td>
+<td>sál úrazová chirurgie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>5R3</td>
+<td>sál úrazová chirurgie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště-operační sály úrazové chirurgie</td>
+<td>úrazová chirurgie</td>
+<td>Operační sály a sterilizace</td></tr>
+<tr><td style="white-space:nowrap">5R4<a name="nzis-OdbornostVZP-5R4"> </a></td>
+<td>sál cévní chirurgie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>5R4</td>
+<td>sál cévní chirurgie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště-operační sály cévní chirurgie</td>
+<td>cévní chirurgie</td>
+<td>Operační sály a sterilizace</td></tr>
+<tr><td style="white-space:nowrap">5R5<a name="nzis-OdbornostVZP-5R5"> </a></td>
+<td>sál kardiochirurgie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>5R5</td>
+<td>sál kardiochirurgie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště-operační sály kardiochirurgie</td>
+<td>kardiochirurgie</td>
+<td>Operační sály a sterilizace</td></tr>
+<tr><td style="white-space:nowrap">5R6<a name="nzis-OdbornostVZP-5R6"> </a></td>
+<td>sál neurochirurgie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>5R6</td>
+<td>sál neurochirurgie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště-operační sály neurochirurgie</td>
+<td>neurochirurgie</td>
+<td>Operační sály a sterilizace</td></tr>
+<tr><td style="white-space:nowrap">5R7<a name="nzis-OdbornostVZP-5R7"> </a></td>
+<td>sál hrudní chirurgie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>5R7</td>
+<td>sál hrudní chirurgie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště-operační sály hrudní chirurgie</td>
+<td>hrudní chirurgie</td>
+<td>Operační sály a sterilizace</td></tr>
+<tr><td style="white-space:nowrap">5S1<a name="nzis-OdbornostVZP-5S1"> </a></td>
+<td>hrudní chirurgie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>5S1</td>
+<td>hrudní chirurgie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště-hrudní chirurgie</td>
+<td>hrudní chirurgie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">5S9<a name="nzis-OdbornostVZP-5S9"> </a></td>
+<td>spinální jednotka</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>5S9</td>
+<td>spinální jednotka</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. poskytující péči na spinálních jednotkách</td>
+<td>spinální jednotka</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">5T1<a name="nzis-OdbornostVZP-5T1"> </a></td>
+<td>JIP chirurgie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>5T1</td>
+<td>JIP chirurgie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov.resusc. a intenz. úst. lůž. péče chirurgické - T typu</td>
+<td>chirurgie</td>
+<td>Intenzivní péče</td></tr>
+<tr><td style="white-space:nowrap">5T2<a name="nzis-OdbornostVZP-5T2"> </a></td>
+<td>JIP dětská chirurgie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>5T2</td>
+<td>JIP dětská chirurgie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Prac.resusc. a intenz. úst. lůž. péče dět.chirurgie - T typu</td>
+<td>dětská chirurgie</td>
+<td>Intenzivní péče</td></tr>
+<tr><td style="white-space:nowrap">5T3<a name="nzis-OdbornostVZP-5T3"> </a></td>
+<td>JIP úrazová chirur.</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>5T3</td>
+<td>JIP úrazová chirur.</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. resusc. a intenz.úst.lůž.péče úraz. chirur. - T typu</td>
+<td>úrazová chirurgie</td>
+<td>Intenzivní péče</td></tr>
+<tr><td style="white-space:nowrap">5T4<a name="nzis-OdbornostVZP-5T4"> </a></td>
+<td>JIP cévní chirurgie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>5T4</td>
+<td>JIP cévní chirurgie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Prac.resusc. a intenz. úst. lůž.péče cévní chirurgie- T typu</td>
+<td>cévní chirurgie</td>
+<td>Intenzivní péče</td></tr>
+<tr><td style="white-space:nowrap">5T5<a name="nzis-OdbornostVZP-5T5"> </a></td>
+<td>JIP kardiochirurgie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>5T5</td>
+<td>JIP kardiochirurgie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov.resusc. a intenz. úst. lůž. péče kardiochir. - T typu</td>
+<td>kardiochirurgie</td>
+<td>Intenzivní péče</td></tr>
+<tr><td style="white-space:nowrap">5T6<a name="nzis-OdbornostVZP-5T6"> </a></td>
+<td>JIP neurochirurgie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>5T6</td>
+<td>JIP neurochirurgie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. resusc. a intenz. úst. lůž. péče neurochir. - T typu</td>
+<td>neurochirurgie</td>
+<td>Intenzivní péče</td></tr>
+<tr><td style="white-space:nowrap">5T7<a name="nzis-OdbornostVZP-5T7"> </a></td>
+<td>JIP hrudní chirurgie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>5T7</td>
+<td>JIP hrudní chirurgie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. resusc. a intenz. úst. lůž.péče hrudní chir.- T typu</td>
+<td>hrudní chirurgie</td>
+<td>Intenzivní péče</td></tr>
+<tr><td style="white-space:nowrap">601<a name="nzis-OdbornostVZP-601"> </a></td>
+<td>plastická chirurgie</td>
+<td>false</td>
+<td>Chirurgické obory</td>
+<td>601</td>
+<td>plastická chirurgie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště plastické chirurgie</td>
+<td>plastická chirurgie</td>
+<td>Ambulantní péče</td></tr>
+<tr><td style="white-space:nowrap">602<a name="nzis-OdbornostVZP-602"> </a></td>
+<td>popáleninová medicína</td>
+<td>false</td>
+<td>Chirurgické obory</td>
+<td>602</td>
+<td>popáleninová medicína</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště popáleninové medicíny</td>
+<td>popáleninová medicína</td>
+<td>Ambulantní péče</td></tr>
+<tr><td style="white-space:nowrap">603<a name="nzis-OdbornostVZP-603"> </a></td>
+<td>gynekologie a porodnictv</td>
+<td>false</td>
+<td>Chirurgické obory</td>
+<td>603</td>
+<td>gynekologie a porodnictv</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště gynekologie a porodnictví</td>
+<td>gynekologie a porodnictví</td>
+<td>Ambulantní péče</td></tr>
+<tr><td style="white-space:nowrap">604<a name="nzis-OdbornostVZP-604"> </a></td>
+<td>dětská gynekologie</td>
+<td>false</td>
+<td>Chirurgické obory</td>
+<td>604</td>
+<td>dětská gynekologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště dětské gynekologie</td>
+<td>dětská gynekologie</td>
+<td>Ambulantní péče</td></tr>
+<tr><td style="white-space:nowrap">605<a name="nzis-OdbornostVZP-605"> </a></td>
+<td>čelistní a obličejová ch</td>
+<td>false</td>
+<td>Chirurgické obory</td>
+<td>605</td>
+<td>čelistní a obličejová ch</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště čelistní a obličejové chirurgie</td>
+<td>čelistní a obličejová chirurgie</td>
+<td>Ambulantní péče</td></tr>
+<tr><td style="white-space:nowrap">606<a name="nzis-OdbornostVZP-606"> </a></td>
+<td>ortopedie</td>
+<td>false</td>
+<td>Chirurgické obory</td>
+<td>606</td>
+<td>ortopedie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště ortopedie</td>
+<td>ortopedie</td>
+<td>Ambulantní péče</td></tr>
+<tr><td style="white-space:nowrap">607<a name="nzis-OdbornostVZP-607"> </a></td>
+<td>ortopedická protetika</td>
+<td>false</td>
+<td>Chirurgické obory</td>
+<td>607</td>
+<td>ortopedická protetika</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště ortopedické protetiky</td>
+<td>ortopedická protetika</td>
+<td>Ambulantní péče</td></tr>
+<tr><td style="white-space:nowrap">613<a name="nzis-OdbornostVZP-613"> </a></td>
+<td>asistovaná reprodukce</td>
+<td>false</td>
+<td>Chirurgické obory</td>
+<td>613</td>
+<td>asistovaná reprodukce</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště akreditovaného centra asistované reprodukce</td>
+<td>asistovaná reprodukce</td>
+<td>Ambulantní péče</td></tr>
+<tr><td style="white-space:nowrap">6F1<a name="nzis-OdbornostVZP-6F1"> </a></td>
+<td>std.plastická chirurgie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>6F1</td>
+<td>std.plastická chirurgie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. standard. úst. lůž.péče plastické chirurgie - F typu</td>
+<td>plastická chirurgie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">6F2<a name="nzis-OdbornostVZP-6F2"> </a></td>
+<td>std.popáleninová medicín</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>6F2</td>
+<td>std.popáleninová medicín</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Prac. standard. úst. lůž.péče popáleninové medicíny - F typu</td>
+<td>popáleninová medicína</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">6F3<a name="nzis-OdbornostVZP-6F3"> </a></td>
+<td>std.gynekologie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>6F3</td>
+<td>std.gynekologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. standard. úst. lůž. péče gynekologické - F typu</td>
+<td>gynekologie a porodnictví</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">6F4<a name="nzis-OdbornostVZP-6F4"> </a></td>
+<td>std.dětská gynekologie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>6F4</td>
+<td>std.dětská gynekologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. standard. úst. lůž. péče dětské gynekologie - F typu</td>
+<td>dětská gynekologie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">6F5<a name="nzis-OdbornostVZP-6F5"> </a></td>
+<td>std.stomatochirurgie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>6F5</td>
+<td>std.stomatochirurgie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Prac.stand.úst.lůž.péče stomatochir.a čelist.ortop. - F typu</td>
+<td>čelistní a obličejová chirurgie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">6F6<a name="nzis-OdbornostVZP-6F6"> </a></td>
+<td>std.ortopedie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>6F6</td>
+<td>std.ortopedie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. standardní ústavní lůž. péče ortopedické - F typu</td>
+<td>ortopedie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">6F7<a name="nzis-OdbornostVZP-6F7"> </a></td>
+<td>std.ortopedická protetik</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>6F7</td>
+<td>std.ortopedická protetik</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Prac.standard. úst. lůž. péče ortopedické protetiky - F typu</td>
+<td>ortopedická protetika</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">6H1<a name="nzis-OdbornostVZP-6H1"> </a></td>
+<td>std.plastická chirurgie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>6H1</td>
+<td>std.plastická chirurgie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Prac. standard. úst. lůž. péče plastické chirurgie - H typu</td>
+<td>plastická chirurgie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">6H2<a name="nzis-OdbornostVZP-6H2"> </a></td>
+<td>std.popáleninová medicín</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>6H2</td>
+<td>std.popáleninová medicín</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Prac.standard. úst. lůž. péče popáleninové medicíny - H typu</td>
+<td>popáleninová medicína</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">6H3<a name="nzis-OdbornostVZP-6H3"> </a></td>
+<td>std.gynekologie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>6H3</td>
+<td>std.gynekologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. standard. úst. lůž. péče gynekologické - H typu</td>
+<td>gynekologie a porodnictví</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">6H4<a name="nzis-OdbornostVZP-6H4"> </a></td>
+<td>std.dětská gynekologie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>6H4</td>
+<td>std.dětská gynekologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. standard. úst. lůž. péče dětské gynekologie - H typu</td>
+<td>dětská gynekologie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">6H6<a name="nzis-OdbornostVZP-6H6"> </a></td>
+<td>std.ortopedie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>6H6</td>
+<td>std.ortopedie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. standardní ústavní lůžkové péče ortopedické - H typu</td>
+<td>ortopedie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">6H7<a name="nzis-OdbornostVZP-6H7"> </a></td>
+<td>std.ortopedická protetik</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>6H7</td>
+<td>std.ortopedická protetik</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Prac.standard. úst. lůž. péče ortopedické protetiky - H typu</td>
+<td>ortopedická protetika</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">6I1<a name="nzis-OdbornostVZP-6I1"> </a></td>
+<td>JIP plastická chirurgie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>6I1</td>
+<td>JIP plastická chirurgie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Prac. resusc. a intenz.úst.lůž.péče plastic.chirur. - I typu</td>
+<td>plastická chirurgie</td>
+<td>Intenzivní péče</td></tr>
+<tr><td style="white-space:nowrap">6I2<a name="nzis-OdbornostVZP-6I2"> </a></td>
+<td>JIP popáleninová medicín</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>6I2</td>
+<td>JIP popáleninová medicín</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Prac.resusc. a intenz.úst.lůž.péče popálen.medicín. - I typu</td>
+<td>popáleninová medicína</td>
+<td>Intenzivní péče</td></tr>
+<tr><td style="white-space:nowrap">6I3<a name="nzis-OdbornostVZP-6I3"> </a></td>
+<td>JIP gynekologie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>6I3</td>
+<td>JIP gynekologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Prac. resusc. a intenz. úst.lůž. péče gynekologické - I typu</td>
+<td>gynekologie a porodnictví</td>
+<td>Intenzivní péče</td></tr>
+<tr><td style="white-space:nowrap">6I4<a name="nzis-OdbornostVZP-6I4"> </a></td>
+<td>JIP dětská gynekologie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>6I4</td>
+<td>JIP dětská gynekologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Prac.resusc. a intenz.úst.lůž. péče dětské gynekol. - I typu</td>
+<td>dětská gynekologie</td>
+<td>Intenzivní péče</td></tr>
+<tr><td style="white-space:nowrap">6I5<a name="nzis-OdbornostVZP-6I5"> </a></td>
+<td>JIP stomatochirurgie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>6I5</td>
+<td>JIP stomatochirurgie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Prac. intenz.úst.lůž. péče stomatoch.a čelis.ortop.-I typu</td>
+<td>čelistní a obličejová chirurgie</td>
+<td>Intenzivní péče</td></tr>
+<tr><td style="white-space:nowrap">6I6<a name="nzis-OdbornostVZP-6I6"> </a></td>
+<td>JIP ortopedie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>6I6</td>
+<td>JIP ortopedie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Prac. resusc. a intenz. úst. lůž. péče ortopedické - I typu</td>
+<td>ortopedie</td>
+<td>Intenzivní péče</td></tr>
+<tr><td style="white-space:nowrap">6J1<a name="nzis-OdbornostVZP-6J1"> </a></td>
+<td>jednodenní plastická chi</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>6J1</td>
+<td>jednodenní plastická chi</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště jednodenní péče v oboru plastické chirurgie</td>
+<td>plastická chirurgie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">6J3<a name="nzis-OdbornostVZP-6J3"> </a></td>
+<td>jednodenní gynekologie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>6J3</td>
+<td>jednodenní gynekologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště jednodenní péče v oboru gynekologie</td>
+<td>gynekologie a porodnictví</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">6J6<a name="nzis-OdbornostVZP-6J6"> </a></td>
+<td>jednodenní ortopedie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>6J6</td>
+<td>jednodenní ortopedie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště jednodenní péče v oboru ortopedie</td>
+<td>ortopedie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">6P3<a name="nzis-OdbornostVZP-6P3"> </a></td>
+<td>intermediár porodnictví</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>6P3</td>
+<td>intermediár porodnictví</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště intenz. a intermediární úst.lůž. porodnické péče</td>
+<td>intermediár porodnictví</td>
+<td>Intenzivní péče</td></tr>
+<tr><td style="white-space:nowrap">6R1<a name="nzis-OdbornostVZP-6R1"> </a></td>
+<td>sál plastická chirurgie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>6R1</td>
+<td>sál plastická chirurgie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracovište-operační sály plastické chirurgie</td>
+<td>plastická chirurgie</td>
+<td>Operační sály a sterilizace</td></tr>
+<tr><td style="white-space:nowrap">6R2<a name="nzis-OdbornostVZP-6R2"> </a></td>
+<td>sál popáleninová medicín</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>6R2</td>
+<td>sál popáleninová medicín</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracovište-operační sály popáleninové medicíny</td>
+<td>popáleninová medicína</td>
+<td>Operační sály a sterilizace</td></tr>
+<tr><td style="white-space:nowrap">6R3<a name="nzis-OdbornostVZP-6R3"> </a></td>
+<td>sál gynekologie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>6R3</td>
+<td>sál gynekologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracovište-operační sály gynekologie</td>
+<td>gynekologie a porodnictví</td>
+<td>Operační sály a sterilizace</td></tr>
+<tr><td style="white-space:nowrap">6R4<a name="nzis-OdbornostVZP-6R4"> </a></td>
+<td>sál dětská gynekologie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>6R4</td>
+<td>sál dětská gynekologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracovište-operační sály dětské gynekologie</td>
+<td>dětská gynekologie</td>
+<td>Operační sály a sterilizace</td></tr>
+<tr><td style="white-space:nowrap">6R5<a name="nzis-OdbornostVZP-6R5"> </a></td>
+<td>sál stomatochirurgie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>6R5</td>
+<td>sál stomatochirurgie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracovište-operační sály stomatochirurgie a čelist.ortopedie</td>
+<td>čelistní a obličejová chirurgie</td>
+<td>Operační sály a sterilizace</td></tr>
+<tr><td style="white-space:nowrap">6R6<a name="nzis-OdbornostVZP-6R6"> </a></td>
+<td>sál ortopedie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>6R6</td>
+<td>sál ortopedie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracovište-operační sály ortopedie</td>
+<td>ortopedie</td>
+<td>Operační sály a sterilizace</td></tr>
+<tr><td style="white-space:nowrap">6T1<a name="nzis-OdbornostVZP-6T1"> </a></td>
+<td>JIP plastická chirurgie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>6T1</td>
+<td>JIP plastická chirurgie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Prac.resusc. a intenz. úst.lůž.péče plastic.chirur. - T typu</td>
+<td>plastická chirurgie</td>
+<td>Intenzivní péče</td></tr>
+<tr><td style="white-space:nowrap">6T2<a name="nzis-OdbornostVZP-6T2"> </a></td>
+<td>JIP popáleninová medicín</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>6T2</td>
+<td>JIP popáleninová medicín</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Prac.resusc. a intenz.úst.lůž.péče popálen.medicín. - T typu</td>
+<td>popáleninová medicína</td>
+<td>Intenzivní péče</td></tr>
+<tr><td style="white-space:nowrap">6T3<a name="nzis-OdbornostVZP-6T3"> </a></td>
+<td>JIP gynekologie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>6T3</td>
+<td>JIP gynekologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Prac. resusc. a intenz. úst.lůž. péče gynekologické - T typu</td>
+<td>gynekologie a porodnictví</td>
+<td>Intenzivní péče</td></tr>
+<tr><td style="white-space:nowrap">6T4<a name="nzis-OdbornostVZP-6T4"> </a></td>
+<td>JIP dětská gynekologie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>6T4</td>
+<td>JIP dětská gynekologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Prac.resusc. a intenz. úst.lůž.péče dětské gynekol. - T typu</td>
+<td>dětská gynekologie</td>
+<td>Intenzivní péče</td></tr>
+<tr><td style="white-space:nowrap">6T5<a name="nzis-OdbornostVZP-6T5"> </a></td>
+<td>JIP stomatochirurgie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>6T5</td>
+<td>JIP stomatochirurgie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Prac. res.a inten.úst.lůž.péče stomatoch.a čelis.ortop.-T t.</td>
+<td>čelistní a obličejová chirurgie</td>
+<td>Intenzivní péče</td></tr>
+<tr><td style="white-space:nowrap">6T6<a name="nzis-OdbornostVZP-6T6"> </a></td>
+<td>JIP ortopedie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>6T6</td>
+<td>JIP ortopedie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. resusc. a intenz. úst.lůž. péče ortopedické - T typu</td>
+<td>ortopedie</td>
+<td>Intenzivní péče</td></tr>
+<tr><td style="white-space:nowrap">701<a name="nzis-OdbornostVZP-701"> </a></td>
+<td>otorinolaryngologie</td>
+<td>false</td>
+<td>Chirurgické obory</td>
+<td>701</td>
+<td>otorinolaryngologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště otorinolaryngologie</td>
+<td>otorinolaryngologie</td>
+<td>Ambulantní péče</td></tr>
+<tr><td style="white-space:nowrap">702<a name="nzis-OdbornostVZP-702"> </a></td>
+<td>foniatrie</td>
+<td>false</td>
+<td>Chirurgické obory</td>
+<td>702</td>
+<td>foniatrie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště foniatrie</td>
+<td>foniatrie</td>
+<td>Ambulantní péče</td></tr>
+<tr><td style="white-space:nowrap">703<a name="nzis-OdbornostVZP-703"> </a></td>
+<td>audiologie</td>
+<td>false</td>
+<td>Chirurgické obory</td>
+<td>703</td>
+<td>audiologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště audiologie</td>
+<td>audiologie</td>
+<td>Ambulantní péče</td></tr>
+<tr><td style="white-space:nowrap">704<a name="nzis-OdbornostVZP-704"> </a></td>
+<td>dětská otorinolaryngolog</td>
+<td>false</td>
+<td>Chirurgické obory</td>
+<td>704</td>
+<td>dětská otorinolaryngolog</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště dětské otorinolaryngologie</td>
+<td>dětská otorinolaryngologie</td>
+<td>Ambulantní péče</td></tr>
+<tr><td style="white-space:nowrap">705<a name="nzis-OdbornostVZP-705"> </a></td>
+<td>oftalmologie</td>
+<td>false</td>
+<td>Chirurgické obory</td>
+<td>705</td>
+<td>oftalmologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště oftalmologie</td>
+<td>oftalmologie</td>
+<td>Ambulantní péče</td></tr>
+<tr><td style="white-space:nowrap">706<a name="nzis-OdbornostVZP-706"> </a></td>
+<td>urologie</td>
+<td>false</td>
+<td>Chirurgické obory</td>
+<td>706</td>
+<td>urologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště urologie</td>
+<td>urologie</td>
+<td>Ambulantní péče</td></tr>
+<tr><td style="white-space:nowrap">707<a name="nzis-OdbornostVZP-707"> </a></td>
+<td>dětská urologie</td>
+<td>false</td>
+<td>Chirurgické obory</td>
+<td>707</td>
+<td>dětská urologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště dětské urologie</td>
+<td>dětská urologie</td>
+<td>Ambulantní péče</td></tr>
+<tr><td style="white-space:nowrap">708<a name="nzis-OdbornostVZP-708"> </a></td>
+<td>anesteziologie-resuscita</td>
+<td>false</td>
+<td>Chirurgické obory</td>
+<td>708</td>
+<td>anesteziologie-resuscita</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště anesteziologicko - resuscitační</td>
+<td>anesteziologie-resuscitace</td>
+<td>Ambulantní péče</td></tr>
+<tr><td style="white-space:nowrap">709<a name="nzis-OdbornostVZP-709"> </a></td>
+<td>zdravotnická záchranná s</td>
+<td>false</td>
+<td>Chirurgické obory</td>
+<td>709</td>
+<td>zdravotnická záchranná s</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště zdravotnické záchranné služby (RZP+RLP)</td>
+<td>zdravotnická záchranná služba</td>
+<td>Ambulantní péče</td></tr>
+<tr><td style="white-space:nowrap">7D8<a name="nzis-OdbornostVZP-7D8"> </a></td>
+<td>dlhd.intenzivní péče</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>7D8</td>
+<td>dlhd.intenzivní péče</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště dlouhodobé intenzivní péče (DIP)</td>
+<td>anesteziologie-resuscitace</td>
+<td>Dlouhodobá péče</td></tr>
+<tr><td style="white-space:nowrap">7F1<a name="nzis-OdbornostVZP-7F1"> </a></td>
+<td>std.ORL</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>7F1</td>
+<td>std.ORL</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště standardní ústavní lůžkové péče ORL - F typu</td>
+<td>otorinolaryngologie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">7F2<a name="nzis-OdbornostVZP-7F2"> </a></td>
+<td>std.foniatrie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>7F2</td>
+<td>std.foniatrie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. standardní ústavní lůžkové péče foniatrické - F typu</td>
+<td>foniatrie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">7F4<a name="nzis-OdbornostVZP-7F4"> </a></td>
+<td>std.dětská ORL</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>7F4</td>
+<td>std.dětská ORL</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. standardní ústavní lůžkové péče dětské ORL - F typu</td>
+<td>dětská otorinolaryngologie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">7F5<a name="nzis-OdbornostVZP-7F5"> </a></td>
+<td>std.oftalmologie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>7F5</td>
+<td>std.oftalmologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Prac. standard. ústavní lůžkové péče oftalmologické - F typu</td>
+<td>oftalmologie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">7F6<a name="nzis-OdbornostVZP-7F6"> </a></td>
+<td>std.urologie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>7F6</td>
+<td>std.urologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. standardní ústavní lůžkové péče urologické - F typu</td>
+<td>urologie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">7F7<a name="nzis-OdbornostVZP-7F7"> </a></td>
+<td>std.dětská urologie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>7F7</td>
+<td>std.dětská urologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Prac. standard. ústav. lůžkové péče dětské urologie - F typu</td>
+<td>dětská urologie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">7H1<a name="nzis-OdbornostVZP-7H1"> </a></td>
+<td>std.ORL</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>7H1</td>
+<td>std.ORL</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. standardní ústavní lůžkové péče ORL - H typu</td>
+<td>otorinolaryngologie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">7H2<a name="nzis-OdbornostVZP-7H2"> </a></td>
+<td>std.foniatrie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>7H2</td>
+<td>std.foniatrie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. standardní ústavní lůžkové péče foniatrické - H typu</td>
+<td>foniatrie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">7H4<a name="nzis-OdbornostVZP-7H4"> </a></td>
+<td>std.dětské ORL</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>7H4</td>
+<td>std.dětské ORL</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. standardní ústavní lůžkové péče dětské ORL - H typu</td>
+<td>dětská otorinolaryngologie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">7H5<a name="nzis-OdbornostVZP-7H5"> </a></td>
+<td>std.oftalmologie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>7H5</td>
+<td>std.oftalmologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Prac. standard. ústavní lůžkové péče oftalmologické - H typu</td>
+<td>oftalmologie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">7H6<a name="nzis-OdbornostVZP-7H6"> </a></td>
+<td>std.urologie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>7H6</td>
+<td>std.urologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. standardní ústavní lůžkové péče urologické - H typu</td>
+<td>urologie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">7H7<a name="nzis-OdbornostVZP-7H7"> </a></td>
+<td>std.dětská urologie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>7H7</td>
+<td>std.dětská urologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. standard. ústav. lůž. péče dětské urologie - H typu</td>
+<td>dětská urologie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">7I1<a name="nzis-OdbornostVZP-7I1"> </a></td>
+<td>JIP lůžková péče ORL</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>7I1</td>
+<td>JIP lůžková péče ORL</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. resusc. a intenz. ústav. lůžkové péče ORL - I typu</td>
+<td>otorinolaryngologie</td>
+<td>Intenzivní péče</td></tr>
+<tr><td style="white-space:nowrap">7I4<a name="nzis-OdbornostVZP-7I4"> </a></td>
+<td>JIP dětská ORL</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>7I4</td>
+<td>JIP dětská ORL</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. resusc. a intenz. úst. lůž. péče dětské ORL - I typu</td>
+<td>dětská otorinolaryngologie</td>
+<td>Intenzivní péče</td></tr>
+<tr><td style="white-space:nowrap">7I6<a name="nzis-OdbornostVZP-7I6"> </a></td>
+<td>JIP urologie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>7I6</td>
+<td>JIP urologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov.resusc. a intenz. ústav. lůž.péče urologické - I typu</td>
+<td>urologie</td>
+<td>Intenzivní péče</td></tr>
+<tr><td style="white-space:nowrap">7I7<a name="nzis-OdbornostVZP-7I7"> </a></td>
+<td>JIP dětská urologie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>7I7</td>
+<td>JIP dětská urologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov.resusc. a intenz. úst. lůž.péče dět.urologie - I typu</td>
+<td>dětská urologie</td>
+<td>Intenzivní péče</td></tr>
+<tr><td style="white-space:nowrap">7I8<a name="nzis-OdbornostVZP-7I8"> </a></td>
+<td>ARO</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>7I8</td>
+<td>ARO</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. resuscitační ústavní lůžkové péče - ARO - I typu</td>
+<td>anesteziologie-resuscitace</td>
+<td>Intenzivní péče</td></tr>
+<tr><td style="white-space:nowrap">7J1<a name="nzis-OdbornostVZP-7J1"> </a></td>
+<td>jednodenní ORL</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>7J1</td>
+<td>jednodenní ORL</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště jednodenní péče v oboru ORL</td>
+<td>otorinolaryngologie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">7J6<a name="nzis-OdbornostVZP-7J6"> </a></td>
+<td>jednodenní urologie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>7J6</td>
+<td>jednodenní urologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště jednodenní péče v oboru urologie</td>
+<td>urologie</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">7R1<a name="nzis-OdbornostVZP-7R1"> </a></td>
+<td>sál ORL</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>7R1</td>
+<td>sál ORL</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště-operační sály ORL</td>
+<td>otorinolaryngologie</td>
+<td>Operační sály a sterilizace</td></tr>
+<tr><td style="white-space:nowrap">7R5<a name="nzis-OdbornostVZP-7R5"> </a></td>
+<td>sál oftalmologie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>7R5</td>
+<td>sál oftalmologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště-operační sály oftalmologie</td>
+<td>oftalmologie</td>
+<td>Operační sály a sterilizace</td></tr>
+<tr><td style="white-space:nowrap">7R6<a name="nzis-OdbornostVZP-7R6"> </a></td>
+<td>sál urologie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>7R6</td>
+<td>sál urologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště-operační sály urologie</td>
+<td>urologie</td>
+<td>Operační sály a sterilizace</td></tr>
+<tr><td style="white-space:nowrap">7R7<a name="nzis-OdbornostVZP-7R7"> </a></td>
+<td>sál dětská urologie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>7R7</td>
+<td>sál dětská urologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště-operační sály dětské urologie</td>
+<td>dětská urologie</td>
+<td>Operační sály a sterilizace</td></tr>
+<tr><td style="white-space:nowrap">7T1<a name="nzis-OdbornostVZP-7T1"> </a></td>
+<td>JIP ORL</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>7T1</td>
+<td>JIP ORL</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. resusc. a intenz. ústav. lůžkové péče ORL - T typu</td>
+<td>otorinolaryngologie</td>
+<td>Intenzivní péče</td></tr>
+<tr><td style="white-space:nowrap">7T4<a name="nzis-OdbornostVZP-7T4"> </a></td>
+<td>JIP dětská ORL</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>7T4</td>
+<td>JIP dětská ORL</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. resusc. a intenz. úst. lůž. péče dětské ORL - T typu</td>
+<td>dětská otorinolaryngologie</td>
+<td>Intenzivní péče</td></tr>
+<tr><td style="white-space:nowrap">7T6<a name="nzis-OdbornostVZP-7T6"> </a></td>
+<td>JIP urologie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>7T6</td>
+<td>JIP urologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. resusc. a intenz. úst. lůž. péče urologické - T typu</td>
+<td>urologie</td>
+<td>Intenzivní péče</td></tr>
+<tr><td style="white-space:nowrap">7T7<a name="nzis-OdbornostVZP-7T7"> </a></td>
+<td>JIP dětská urologie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>7T7</td>
+<td>JIP dětská urologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov.resusc. a intenz. úst. lůž.péče dět.urologie - T typu</td>
+<td>dětská urologie</td>
+<td>Intenzivní péče</td></tr>
+<tr><td style="white-space:nowrap">7T8<a name="nzis-OdbornostVZP-7T8"> </a></td>
+<td>ARO</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>7T8</td>
+<td>ARO</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. resuscitační ústavní lůžkové péče - ARO - T typu</td>
+<td>anesteziologie-resuscitace</td>
+<td>Intenzivní péče</td></tr>
+<tr><td style="white-space:nowrap">7U4<a name="nzis-OdbornostVZP-7U4"> </a></td>
+<td>dlhd.dětská ORL</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>7U4</td>
+<td>dlhd.dětská ORL</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. dlouhod. (chronic.) úst.lůž.péče dětské ORL - U typu</td>
+<td>dětská otorinolaryngologie</td>
+<td>Dlouhodobá péče</td></tr>
+<tr><td style="white-space:nowrap">7U5<a name="nzis-OdbornostVZP-7U5"> </a></td>
+<td>dlhd.oftalmologie</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>7U5</td>
+<td>dlhd.oftalmologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. dlouhod.(chronic.) úst.lůž.péče oftalmolog. - U typu</td>
+<td>oftalmologie</td>
+<td>Dlouhodobá péče</td></tr>
+<tr><td style="white-space:nowrap">7U8<a name="nzis-OdbornostVZP-7U8"> </a></td>
+<td>dlhd.intenzivní oš.péče</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>7U8</td>
+<td>dlhd.intenzivní oš.péče</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště dlouhodobé intenzivní ošetřovatelské péče (DIOP)</td>
+<td>anesteziologie-resuscitace</td>
+<td>Dlouhodobá péče</td></tr>
+<tr><td style="white-space:nowrap">801<a name="nzis-OdbornostVZP-801"> </a></td>
+<td>biochemie</td>
+<td>false</td>
+<td>Jiné</td>
+<td>801</td>
+<td>biochemie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště klinické biochemie</td>
+<td>biochemie</td>
+<td>Laboratoře</td></tr>
+<tr><td style="white-space:nowrap">802<a name="nzis-OdbornostVZP-802"> </a></td>
+<td>mikrobiologie</td>
+<td>false</td>
+<td>Jiné</td>
+<td>802</td>
+<td>mikrobiologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště lékařské mikrobiologie</td>
+<td>mikrobiologie</td>
+<td>Laboratoře</td></tr>
+<tr><td style="white-space:nowrap">803<a name="nzis-OdbornostVZP-803"> </a></td>
+<td>bakteriologie</td>
+<td>false</td>
+<td>Jiné</td>
+<td>803</td>
+<td>bakteriologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště lékařské bakteriologie</td>
+<td>bakteriologie</td>
+<td>Laboratoře</td></tr>
+<tr><td style="white-space:nowrap">804<a name="nzis-OdbornostVZP-804"> </a></td>
+<td>parazitologie</td>
+<td>false</td>
+<td>Jiné</td>
+<td>804</td>
+<td>parazitologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště lékařské parazitologie</td>
+<td>parazitologie</td>
+<td>Laboratoře</td></tr>
+<tr><td style="white-space:nowrap">805<a name="nzis-OdbornostVZP-805"> </a></td>
+<td>virologie</td>
+<td>false</td>
+<td>Jiné</td>
+<td>805</td>
+<td>virologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště lékařské virologie</td>
+<td>virologie</td>
+<td>Laboratoře</td></tr>
+<tr><td style="white-space:nowrap">806<a name="nzis-OdbornostVZP-806"> </a></td>
+<td>screeningu nádoru prsu</td>
+<td>false</td>
+<td>Jiné</td>
+<td>806</td>
+<td>screeningu nádoru prsu</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště s osvědčením pro provádění screeningu nádoru prsu</td>
+<td>screeningu nádoru prsu</td>
+<td>Laboratoře</td></tr>
+<tr><td style="white-space:nowrap">807<a name="nzis-OdbornostVZP-807"> </a></td>
+<td>patologická anatomie</td>
+<td>false</td>
+<td>Jiné</td>
+<td>807</td>
+<td>patologická anatomie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště patologické anatomie</td>
+<td>patologická anatomie</td>
+<td>Laboratoře</td></tr>
+<tr><td style="white-space:nowrap">808<a name="nzis-OdbornostVZP-808"> </a></td>
+<td>patologická anatomie</td>
+<td>false</td>
+<td>Jiné</td>
+<td>808</td>
+<td>patologická anatomie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště patologické anatomie</td>
+<td>patologická anatomie</td>
+<td>Laboratoře</td></tr>
+<tr><td style="white-space:nowrap">809<a name="nzis-OdbornostVZP-809"> </a></td>
+<td>radiodiagnostika</td>
+<td>false</td>
+<td>Jiné</td>
+<td>809</td>
+<td>radiodiagnostika</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště radiodiagnostiky</td>
+<td>radiodiagnostika</td>
+<td>Zobrazovací metody</td></tr>
+<tr><td style="white-space:nowrap">810<a name="nzis-OdbornostVZP-810"> </a></td>
+<td>magnetická rezonance</td>
+<td>false</td>
+<td>Jiné</td>
+<td>810</td>
+<td>magnetická rezonance</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště magnetické rezonance</td>
+<td>magnetická rezonance</td>
+<td>Zobrazovací metody</td></tr>
+<tr><td style="white-space:nowrap">812<a name="nzis-OdbornostVZP-812"> </a></td>
+<td>jiný laboratorní obor</td>
+<td>false</td>
+<td>Jiné</td>
+<td>812</td>
+<td>jiný laboratorní obor</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště jiného laboratorního oboru</td>
+<td>jiný laboratorní obor</td>
+<td>Laboratoře</td></tr>
+<tr><td style="white-space:nowrap">813<a name="nzis-OdbornostVZP-813"> </a></td>
+<td>Lab.alergologie a imunol</td>
+<td>false</td>
+<td>Jiné</td>
+<td>813</td>
+<td>Lab.alergologie a imunol</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Laboratoř alergologická a imunologická</td>
+<td>Lab.alergologie a imunologie</td>
+<td>Laboratoře</td></tr>
+<tr><td style="white-space:nowrap">814<a name="nzis-OdbornostVZP-814"> </a></td>
+<td>Lab.toxikologie</td>
+<td>false</td>
+<td>Jiné</td>
+<td>814</td>
+<td>Lab.toxikologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Laboratoř toxikologická</td>
+<td>Lab.toxikologie</td>
+<td>Laboratoře</td></tr>
+<tr><td style="white-space:nowrap">815<a name="nzis-OdbornostVZP-815"> </a></td>
+<td>Lab.nukleární mediciny</td>
+<td>false</td>
+<td>Jiné</td>
+<td>815</td>
+<td>Lab.nukleární mediciny</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Laboratoř nukleární mediciny</td>
+<td>Lab.nukleární mediciny</td>
+<td>Laboratoře</td></tr>
+<tr><td style="white-space:nowrap">816<a name="nzis-OdbornostVZP-816"> </a></td>
+<td>Lab.lékařské genetiky</td>
+<td>false</td>
+<td>Jiné</td>
+<td>816</td>
+<td>Lab.lékařské genetiky</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Laboratoř lékařské genetiky</td>
+<td>Lab.lékařské genetiky</td>
+<td>Laboratoře</td></tr>
+<tr><td style="white-space:nowrap">817<a name="nzis-OdbornostVZP-817"> </a></td>
+<td>Lab.klinické cytologie</td>
+<td>false</td>
+<td>Jiné</td>
+<td>817</td>
+<td>Lab.klinické cytologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Laboratoř klinické cytologie</td>
+<td>Lab.klinické cytologie</td>
+<td>Laboratoře</td></tr>
+<tr><td style="white-space:nowrap">818<a name="nzis-OdbornostVZP-818"> </a></td>
+<td>Lab.hematologie</td>
+<td>false</td>
+<td>Jiné</td>
+<td>818</td>
+<td>Lab.hematologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Laboratoř hematologická</td>
+<td>Lab.hematologie</td>
+<td>Laboratoře</td></tr>
+<tr><td style="white-space:nowrap">820<a name="nzis-OdbornostVZP-820"> </a></td>
+<td>Lab.pro karcinom děložní</td>
+<td>false</td>
+<td>Jiné</td>
+<td>820</td>
+<td>Lab.pro karcinom děložní</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Laboratoř provádějící screening karcinomu děložního hrdla</td>
+<td>Lab.pro karcinom děložního hrdla</td>
+<td>Laboratoře</td></tr>
+<tr><td style="white-space:nowrap">822<a name="nzis-OdbornostVZP-822"> </a></td>
+<td>Lab.mykologie</td>
+<td>false</td>
+<td>Jiné</td>
+<td>822</td>
+<td>Lab.mykologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Laboratoř mykologická</td>
+<td>Lab.mykologie</td>
+<td>Laboratoře</td></tr>
+<tr><td style="white-space:nowrap">823<a name="nzis-OdbornostVZP-823"> </a></td>
+<td>patologická anatomie</td>
+<td>false</td>
+<td>Jiné</td>
+<td>823</td>
+<td>patologická anatomie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště patologické anatomie</td>
+<td>patologická anatomie</td>
+<td>Laboratoře</td></tr>
+<tr><td style="white-space:nowrap">881<a name="nzis-OdbornostVZP-881"> </a></td>
+<td>biochemie</td>
+<td>false</td>
+<td>Jiné</td>
+<td>881</td>
+<td>biochemie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště klinické biochemie</td>
+<td>biochemie</td>
+<td>Laboratoře</td></tr>
+<tr><td style="white-space:nowrap">901<a name="nzis-OdbornostVZP-901"> </a></td>
+<td>klinická psychologie</td>
+<td>false</td>
+<td>Psychiatrie</td>
+<td>901</td>
+<td>klinická psychologie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště klinické psychologie</td>
+<td>klinická psychologie</td>
+<td>Nelékařská péče</td></tr>
+<tr><td style="white-space:nowrap">902<a name="nzis-OdbornostVZP-902"> </a></td>
+<td>fyzioterapeuti</td>
+<td>false</td>
+<td>Interní obory</td>
+<td>902</td>
+<td>fyzioterapeuti</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Samostatné pracoviště fyzioterapeutů</td>
+<td>fyzioterapeuti</td>
+<td>Nelékařská péče</td></tr>
+<tr><td style="white-space:nowrap">903<a name="nzis-OdbornostVZP-903"> </a></td>
+<td>klinická logopedie</td>
+<td>false</td>
+<td>Psychiatrie</td>
+<td>903</td>
+<td>klinická logopedie</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště klinické logopedie</td>
+<td>klinická logopedie</td>
+<td>Nelékařská péče</td></tr>
+<tr><td style="white-space:nowrap">904<a name="nzis-OdbornostVZP-904"> </a></td>
+<td>jiní zdrav. pracovníci (</td>
+<td>false</td>
+<td>Jiné</td>
+<td>904</td>
+<td>jiní zdrav. pracovníci (</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Samostatné prac. jiných zdrav. pracovníků - vysokoškoláků</td>
+<td>jiní zdrav. pracovníci (VŠ)</td>
+<td>Nelékařská péče</td></tr>
+<tr><td style="white-space:nowrap">913<a name="nzis-OdbornostVZP-913"> </a></td>
+<td>sociální lůžka</td>
+<td>false</td>
+<td>Interní obory</td>
+<td>913</td>
+<td>sociální lůžka</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Prac.ošetřovat. a rehabilit.péče v pobyt.zaříz.sociál.služeb</td>
+<td>sociální lůžka</td>
+<td>Nelékařská péče</td></tr>
+<tr><td style="white-space:nowrap">914<a name="nzis-OdbornostVZP-914"> </a></td>
+<td>psychiatrické sestry</td>
+<td>false</td>
+<td>Psychiatrie</td>
+<td>914</td>
+<td>psychiatrické sestry</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Samostatné pracoviště psychiatrických sester</td>
+<td>psychiatrické sestry</td>
+<td>Nelékařská péče</td></tr>
+<tr><td style="white-space:nowrap">916<a name="nzis-OdbornostVZP-916"> </a></td>
+<td>nutriční terapeuti</td>
+<td>false</td>
+<td>Jiné</td>
+<td>916</td>
+<td>nutriční terapeuti</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště nutričních terapeutů</td>
+<td>nutriční terapeuti</td>
+<td>Nelékařská péče</td></tr>
+<tr><td style="white-space:nowrap">917<a name="nzis-OdbornostVZP-917"> </a></td>
+<td>ergoterapeuti</td>
+<td>false</td>
+<td>Psychiatrie</td>
+<td>917</td>
+<td>ergoterapeuti</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Samostatné pracoviště ergoterapeutů</td>
+<td>ergoterapeuti</td>
+<td>Nelékařská péče</td></tr>
+<tr><td style="white-space:nowrap">918<a name="nzis-OdbornostVZP-918"> </a></td>
+<td>rehabilitační pracovníci</td>
+<td>false</td>
+<td>Interní obory</td>
+<td>918</td>
+<td>rehabilitační pracovníci</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Samostatné prac. rehabilit. pracovníků - absolventů SZŠ</td>
+<td>rehabilitační pracovníci (SZŠ)</td>
+<td>Nelékařská péče</td></tr>
+<tr><td style="white-space:nowrap">921<a name="nzis-OdbornostVZP-921"> </a></td>
+<td>porodní asistentky</td>
+<td>false</td>
+<td>Chirurgické obory</td>
+<td>921</td>
+<td>porodní asistentky</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Samostatné pracoviště porodních asistentek</td>
+<td>porodní asistentky</td>
+<td>Nelékařská péče</td></tr>
+<tr><td style="white-space:nowrap">925<a name="nzis-OdbornostVZP-925"> </a></td>
+<td>domácí péče (SZP)</td>
+<td>false</td>
+<td>Interní obory</td>
+<td>925</td>
+<td>domácí péče (SZP)</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště domácí péče - SZP</td>
+<td>domácí péče (SZP)</td>
+<td>Nelékařská péče</td></tr>
+<tr><td style="white-space:nowrap">927<a name="nzis-OdbornostVZP-927"> </a></td>
+<td>ortoptické sestry</td>
+<td>false</td>
+<td>Chirurgické obory</td>
+<td>927</td>
+<td>ortoptické sestry</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Samostatné prac. ortoptických sester</td>
+<td>ortoptické sestry</td>
+<td>Nelékařská péče</td></tr>
+<tr><td style="white-space:nowrap">989<a name="nzis-OdbornostVZP-989"> </a></td>
+<td>doprava</td>
+<td>false</td>
+<td>Nezdravotnické</td>
+<td>989</td>
+<td>doprava</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště dopravy raněných, nemocných a rodiček</td>
+<td>doprava</td>
+<td>Nezdravotnické pracoviště</td></tr>
+<tr><td style="white-space:nowrap">994<a name="nzis-OdbornostVZP-994"> </a></td>
+<td>indikace komplementu (ko</td>
+<td>false</td>
+<td>Nezdravotnické</td>
+<td>994</td>
+<td>indikace komplementu (ko</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Odb.pouze pro indik.péče komplementu (lékař.zaměstn.koj.úst)</td>
+<td>indikace komplementu (koj.úst.)</td>
+<td>Nezdravotnické pracoviště</td></tr>
+<tr><td style="white-space:nowrap">995<a name="nzis-OdbornostVZP-995"> </a></td>
+<td>indikace dopravy zpět</td>
+<td>false</td>
+<td>Nezdravotnické</td>
+<td>995</td>
+<td>indikace dopravy zpět</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Odbornost pouze pro indikaci dopravy zpět do místa bydliště</td>
+<td>indikace dopravy zpět</td>
+<td>Nezdravotnické pracoviště</td></tr>
+<tr><td style="white-space:nowrap">996<a name="nzis-OdbornostVZP-996"> </a></td>
+<td>úhrada cestovného pacien</td>
+<td>false</td>
+<td>Nezdravotnické</td>
+<td>996</td>
+<td>úhrada cestovného pacien</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Odbornost pouze pro úhradu cestovného pacientům</td>
+<td>úhrada cestovného pacientům</td>
+<td>Nezdravotnické pracoviště</td></tr>
+<tr><td style="white-space:nowrap">999<a name="nzis-OdbornostVZP-999"> </a></td>
+<td>výzkumná laboratoř</td>
+<td>false</td>
+<td>Jiné</td>
+<td>999</td>
+<td>výzkumná laboratoř</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Výzkumná laboratoř</td>
+<td>výzkumná laboratoř</td>
+<td>Laboratoře</td></tr>
+<tr><td style="white-space:nowrap">9F8<a name="nzis-OdbornostVZP-9F8"> </a></td>
+<td>std.neúplná péče</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>9F8</td>
+<td>std.neúplná péče</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště neúplné ústavní péče - F typu</td>
+<td>neúplná péče</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">9F9<a name="nzis-OdbornostVZP-9F9"> </a></td>
+<td>std.ošetřovatelství</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>9F9</td>
+<td>std.ošetřovatelství</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. ústavní péče na ošetřovatelském lůžku - F typu</td>
+<td>hospic</td>
+<td>Dlouhodobá péče</td></tr>
+<tr><td style="white-space:nowrap">9H8<a name="nzis-OdbornostVZP-9H8"> </a></td>
+<td>std.neúplná péče</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>9H8</td>
+<td>std.neúplná péče</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště neúplné ústavní péče - H typu</td>
+<td>neúplná péče</td>
+<td>Standardní péče</td></tr>
+<tr><td style="white-space:nowrap">9H9<a name="nzis-OdbornostVZP-9H9"> </a></td>
+<td>std.ošetřovatelství</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>9H9</td>
+<td>std.ošetřovatelství</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. ústavní péče na ošetřovatelském lůžku - H typu</td>
+<td>hospic</td>
+<td>Dlouhodobá péče</td></tr>
+<tr><td style="white-space:nowrap">9U7<a name="nzis-OdbornostVZP-9U7"> </a></td>
+<td>LDN</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>9U7</td>
+<td>LDN</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. ústavní následné péče v LDN</td>
+<td>LDN</td>
+<td>Dlouhodobá péče</td></tr>
+<tr><td style="white-space:nowrap">9U9<a name="nzis-OdbornostVZP-9U9"> </a></td>
+<td>hospic</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>9U9</td>
+<td>hospic</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracov. ústavní následné ošetřovatelské péče v hospici</td>
+<td>hospic</td>
+<td>Dlouhodobá péče</td></tr>
+<tr><td style="white-space:nowrap">?<a name="nzis-OdbornostVZP-.63"> </a></td>
+<td>neznámé</td>
+<td>false</td>
+<td>Neznámé</td>
+<td>?</td>
+<td>neznámé</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Neznámé</td>
+<td>neznámé</td>
+<td>Neznámá péče</td></tr>
+<tr><td style="white-space:nowrap">CENT<a name="nzis-OdbornostVZP-CENT"> </a></td>
+<td>centrální příjem</td>
+<td>false</td>
+<td>Interní obory</td>
+<td>CENT</td>
+<td>centrální příjem</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Centrální příjem</td>
+<td>centrální příjem</td>
+<td>Ambulantní péče</td></tr>
+<tr><td style="white-space:nowrap">DETC<a name="nzis-OdbornostVZP-DETC"> </a></td>
+<td>dětské centrum</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>DETC</td>
+<td>dětské centrum</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Dětské centrum</td>
+<td>dětské centrum</td>
+<td>Dlouhodobá péče</td></tr>
+<tr><td style="white-space:nowrap">DOSP<a name="nzis-OdbornostVZP-DOSP"> </a></td>
+<td>dospávací pokoj</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>DOSP</td>
+<td>dospávací pokoj</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Dospávací pokoj</td>
+<td>dospávací pokoj</td>
+<td>Intenzivní péče</td></tr>
+<tr><td style="white-space:nowrap">JINE<a name="nzis-OdbornostVZP-JINE"> </a></td>
+<td>jiné zdravotnické pracov</td>
+<td>false</td>
+<td>Jiné</td>
+<td>JINE</td>
+<td>jiné zdravotnické pracov</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Jiné zdravotnické pracoviště</td>
+<td>jiné zdravotnické pracoviště</td>
+<td>Jiná péče</td></tr>
+<tr><td style="white-space:nowrap">LABO<a name="nzis-OdbornostVZP-LABO"> </a></td>
+<td>laboratoře</td>
+<td>false</td>
+<td>Jiné</td>
+<td>LABO</td>
+<td>laboratoře</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Laboratoře</td>
+<td>laboratoře</td>
+<td>Laboratoře</td></tr>
+<tr><td style="white-space:nowrap">MIMO<a name="nzis-OdbornostVZP-MIMO"> </a></td>
+<td>místo mimo areál</td>
+<td>false</td>
+<td>Nezdravotnické</td>
+<td>MIMO</td>
+<td>místo mimo areál</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Místo mimo areál</td>
+<td>místo mimo areál</td>
+<td>Místo mimo areál</td></tr>
+<tr><td style="white-space:nowrap">NEZD<a name="nzis-OdbornostVZP-NEZD"> </a></td>
+<td>nezdravotnické pracovišt</td>
+<td>false</td>
+<td>Nezdravotnické</td>
+<td>NEZD</td>
+<td>nezdravotnické pracovišt</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Nezdravotnické pracoviště</td>
+<td>nezdravotnické pracoviště</td>
+<td>Nezdravotnické pracoviště</td></tr>
+<tr><td style="white-space:nowrap">NEZN<a name="nzis-OdbornostVZP-NEZN"> </a></td>
+<td>neznámé</td>
+<td>false</td>
+<td>Neznámé</td>
+<td>NEZN</td>
+<td>neznámé</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Neznámé</td>
+<td>neznámé</td>
+<td>Neznámá péče</td></tr>
+<tr><td style="white-space:nowrap">NLEK<a name="nzis-OdbornostVZP-NLEK"> </a></td>
+<td>nelékaři</td>
+<td>false</td>
+<td>Jiné</td>
+<td>NLEK</td>
+<td>nelékaři</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště nelékařských pracovníků</td>
+<td>nelékaři</td>
+<td>Nelékařská péče</td></tr>
+<tr><td style="white-space:nowrap">NUTR<a name="nzis-OdbornostVZP-NUTR"> </a></td>
+<td>nutriční terapeuti</td>
+<td>false</td>
+<td>Jiné</td>
+<td>NUTR</td>
+<td>nutriční terapeuti</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště nutričních terapeutů</td>
+<td>nutriční terapeuti</td>
+<td>Nelékařská péče</td></tr>
+<tr><td style="white-space:nowrap">OPER<a name="nzis-OdbornostVZP-OPER"> </a></td>
+<td>centrální operační sály</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>OPER</td>
+<td>centrální operační sály</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Centrální operační sály</td>
+<td>centrální operační sály</td>
+<td>Operační sály a sterilizace</td></tr>
+<tr><td style="white-space:nowrap">PHAR<a name="nzis-OdbornostVZP-PHAR"> </a></td>
+<td>lékárna</td>
+<td>false</td>
+<td>Jiné</td>
+<td>PHAR</td>
+<td>lékárna</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Lékárna</td>
+<td>lékárna</td>
+<td>Lékárna</td></tr>
+<tr><td style="white-space:nowrap">SANI<a name="nzis-OdbornostVZP-SANI"> </a></td>
+<td>sanitáři</td>
+<td>false</td>
+<td>Jiné</td>
+<td>SANI</td>
+<td>sanitáři</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Pracoviště sanitářů</td>
+<td>sanitáři</td>
+<td>Nelékařská péče</td></tr>
+<tr><td style="white-space:nowrap">SOCI<a name="nzis-OdbornostVZP-SOCI"> </a></td>
+<td>sociální lůžka</td>
+<td>true</td>
+<td>Interní obory</td>
+<td>SOCI</td>
+<td>sociální lůžka</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Sociální lůžka</td>
+<td>sociální lůžka</td>
+<td>Dlouhodobá péče</td></tr>
+<tr><td style="white-space:nowrap">SPOL<a name="nzis-OdbornostVZP-SPOL"> </a></td>
+<td>společné prostory odděle</td>
+<td>false</td>
+<td>Nezdravotnické</td>
+<td>SPOL</td>
+<td>společné prostory odděle</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Společné prostory oddělení</td>
+<td>společné prostory oddělení</td>
+<td>Nezdravotnické pracoviště</td></tr>
+<tr><td style="white-space:nowrap">STER<a name="nzis-OdbornostVZP-STER"> </a></td>
+<td>sterilizace</td>
+<td>true</td>
+<td>Chirurgické obory</td>
+<td>STER</td>
+<td>sterilizace</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Sterilizace</td>
+<td>sterilizace</td>
+<td>Operační sály a sterilizace</td></tr>
+<tr><td style="white-space:nowrap">VERE<a name="nzis-OdbornostVZP-VERE"> </a></td>
+<td>veřejné místo</td>
+<td>false</td>
+<td>Nezdravotnické</td>
+<td>VERE</td>
+<td>veřejné místo</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Veřejné místo</td>
+<td>veřejné místo</td>
+<td>Nezdravotnické pracoviště</td></tr>
+<tr><td style="white-space:nowrap">X<a name="nzis-OdbornostVZP-X"> </a></td>
+<td>jiné</td>
+<td>false</td>
+<td>Jiné</td>
+<td>X</td>
+<td>jiné</td>
+<td>2015-01-01T00:00:00Z</td>
+<td>Jiné</td>
+<td>jiné</td>
+<td>Jiná péče</td></tr></table></div>
+
+  <hr/>
+  <p>
+    <a href="http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#terminology">Description of the above table(s)</a>.
+  </p>
+  
+
+  <!-- insert notes if present -->
+  
+
+
+
+  
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+  <script type="text/javascript" src="assets/js/flags.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <script type="text/javascript" src="assets/js/togglechanges.js"> </script>
+  <script type="text/javascript" src="assets/js/requirements-table.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container" data-fhir="generated">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+
+
+
+          IG © 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hl7.cz/">HL7 Czech Republic</a>.  
+          Package hl7.fhir.cz.terminology#0.3.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
+          Generated 
+  <span title="2026-07-27 16:55:00 +0200">
+    2026-07-27
+  </span>
+
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="../qa.html">QA Report</a>
+                 
+                
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

@@ -1,0 +1,85 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hl7.cz/terminology/ValueSet/document-category> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "document-category"] ;
+  fhir:Resource.language [ fhir:value "en"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ]
+  ] ;
+  fhir:ValueSet.url [ fhir:value "https://ncez.mzcr.cz/terminology/ValueSet/document-category"] ;
+  fhir:ValueSet.version [ fhir:value "1.0.0"] ;
+  fhir:ValueSet.name [ fhir:value "DocumentCategory"] ;
+  fhir:ValueSet.title [ fhir:value "Kategorie dokumentů"] ;
+  fhir:ValueSet.status [ fhir:value "active"] ;
+  fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:ValueSet.date [ fhir:value "2025-11-19T14:36:29.065962Z"^^xsd:dateTime] ;
+  fhir:ValueSet.publisher [ fhir:value "HL7 Czech Republic"] ;
+  fhir:ValueSet.contact [
+     fhir:index -1 ;
+     fhir:ContactDetail.name [ fhir:value "HL7 Czech Republic" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index -1 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://www.hl7.cz/" ]
+     ]
+  ] ;
+  fhir:ValueSet.description [ fhir:value "Kategorie dokumentů pro vyhledávání"] ;
+  fhir:ValueSet.jurisdiction [
+     fhir:index -1 ;
+     fhir:CodeableConcept.coding [
+       fhir:index -1 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "CZ" ] ;
+       fhir:Coding.display [ fhir:value "Czechia" ]
+     ]
+  ] ;
+  fhir:ValueSet.copyright [ fhir:value "This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc"] ;
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index -1 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://loinc.org" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "107904-5" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Administrativní záznamy" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "18682-5" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Záznamy zdravotnické záchranné služby" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "11503-0" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Lékařské záznamy" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "34746-8" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ošetřovatelské záznamy" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "11502-2" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Laboratorní nálezy" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "85430-7" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Nálezy zobrazovacího komplementu" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "57133-1" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Žádanky" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://hl7.cz/terminology/ValueSet/document-category.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

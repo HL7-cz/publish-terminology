@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="nrzp-povolani"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/>
+  </text>
+  <url value="https://ncez.mzcr.cz/terminology/CodeSystem/nrzp-povolani"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:1.2.203.24341.11.2.10.2.1"/>
+  </identifier>
+  <version value="1.0.0"/>
+  <name value="NRZP_Povolani"/>
+  <title value="NRZP - Czech health professional occupation"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="1980-01-01"/>
+  <publisher value="HL7 Czech Republic"/>
+  <contact>
+    <name value="HL7 Czech Republic"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hl7.cz/"/>
+    </telecom>
+  </contact>
+  <description value="Czech national code system for health professional occupation used in the national registry of healthcare practicioners."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CZ"/>
+      <display value="Czechia"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="53"/>
+  <concept>
+    <code value="L1"/>
+    <display value="Lékař po absolvování odborné způsobilosti (L1)"/>
+  </concept>
+  <concept>
+    <code value="L2"/>
+    <display value="Lékař po absolvování základního kmene (L2)"/>
+  </concept>
+  <concept>
+    <code value="L3"/>
+    <display value="Lékař po absolvování specializačního vzdělání (L3)"/>
+  </concept>
+  <concept>
+    <code value="Z00"/>
+    <display value="Zubní lékař"/>
+  </concept>
+  <concept>
+    <code value="F00"/>
+    <display value="Farmaceut"/>
+  </concept>
+  <concept>
+    <code value="NL01"/>
+    <display value="Všeobecná sestra"/>
+  </concept>
+  <concept>
+    <code value="NL013"/>
+    <display value="Dětská sestra"/>
+  </concept>
+  <concept>
+    <code value="NL02"/>
+    <display value="Porodní asistentka"/>
+  </concept>
+  <concept>
+    <code value="NL03"/>
+    <display value="Ergoterapeut"/>
+  </concept>
+  <concept>
+    <code value="NL04"/>
+    <display value="Radiologický asistent"/>
+  </concept>
+  <concept>
+    <code value="NL05"/>
+    <display value="Zdravotní laborant"/>
+  </concept>
+  <concept>
+    <code value="NL06"/>
+    <display value="Zdravotně-sociální pracovník"/>
+  </concept>
+  <concept>
+    <code value="NL07"/>
+    <display value="Optometrista"/>
+  </concept>
+  <concept>
+    <code value="NL08"/>
+    <display value="Ortoptista"/>
+  </concept>
+  <concept>
+    <code value="NL09"/>
+    <display value="Asistent ochrany a podpory veřejného zdraví"/>
+  </concept>
+  <concept>
+    <code value="NL10"/>
+    <display value="Ortotik-protetik"/>
+  </concept>
+  <concept>
+    <code value="NL11"/>
+    <display value="Nutriční terapeut"/>
+  </concept>
+  <concept>
+    <code value="NL12"/>
+    <display value="Zubní technik"/>
+  </concept>
+  <concept>
+    <code value="NL13"/>
+    <display value="Dentální hygienistka"/>
+  </concept>
+  <concept>
+    <code value="NL14"/>
+    <display value="Zdravotnický záchranář"/>
+  </concept>
+  <concept>
+    <code value="NL15"/>
+    <display value="Farmaceutický asistent"/>
+  </concept>
+  <concept>
+    <code value="NL16"/>
+    <display value="Biomedicínský technik"/>
+  </concept>
+  <concept>
+    <code value="NL24"/>
+    <display value="Radiologický fyzik"/>
+  </concept>
+  <concept>
+    <code value="NL19"/>
+    <display value="Adiktolog"/>
+  </concept>
+  <concept>
+    <code value="NL20"/>
+    <display value="Psycholog ve zdravotnictví"/>
+  </concept>
+  <concept>
+    <code value="NL21"/>
+    <display value="Logoped ve zdravotnictví"/>
+  </concept>
+  <concept>
+    <code value="NL22"/>
+    <display value="Zrakový terapeut"/>
+  </concept>
+  <concept>
+    <code value="NL23"/>
+    <display value="Fyzioterapeut"/>
+  </concept>
+  <concept>
+    <code value="NL18"/>
+    <display value="Radiologický technik"/>
+  </concept>
+  <concept>
+    <code value="NL25"/>
+    <display value="Odborný pracovník v laboratorních metodách a v přípravě léčivých přípravků"/>
+  </concept>
+  <concept>
+    <code value="NL26"/>
+    <display value="Biomedicínský inženýr"/>
+  </concept>
+  <concept>
+    <code value="NL27"/>
+    <display value="Odborný pracovník v ochraně a podpoře veřejného zdraví"/>
+  </concept>
+  <concept>
+    <code value="NL28"/>
+    <display value="Praktická sestra"/>
+  </concept>
+  <concept>
+    <code value="NL29"/>
+    <display value="Behaviorální analytik"/>
+  </concept>
+  <concept>
+    <code value="NL31"/>
+    <display value="Specialista tradiční čínské medicíny"/>
+  </concept>
+  <concept>
+    <code value="NL30"/>
+    <display value="Terapeut tradiční čínské medicíny"/>
+  </concept>
+  <concept>
+    <code value="NL60"/>
+    <display value="Asistent behaviorálního analytika"/>
+  </concept>
+  <concept>
+    <code value="NL61"/>
+    <display value="Behaviorální technik"/>
+  </concept>
+  <concept>
+    <code value="NL63"/>
+    <display value="Laboratorní asistent"/>
+  </concept>
+  <concept>
+    <code value="NL64"/>
+    <display value="Ortoticko-protetický technik"/>
+  </concept>
+  <concept>
+    <code value="NL65"/>
+    <display value="Nutriční asistent"/>
+  </concept>
+  <concept>
+    <code value="NL66"/>
+    <display value="Asistent zubního technika"/>
+  </concept>
+  <concept>
+    <code value="NL68"/>
+    <display value="Řidič vozidla zdravotnické záchranné služby"/>
+  </concept>
+  <concept>
+    <code value="NL69"/>
+    <display value="Ošetřovatel"/>
+  </concept>
+  <concept>
+    <code value="NL70"/>
+    <display value="Masér ve zdravotnictví, nevidomý a slabozraký masér ve zdravotnictví"/>
+  </concept>
+  <concept>
+    <code value="NL73"/>
+    <display value="Zubní instrumentářka"/>
+  </concept>
+  <concept>
+    <code value="NL74"/>
+    <display value="Řidič zdravotnické dopravní služby"/>
+  </concept>
+  <concept>
+    <code value="NL75"/>
+    <display value="Autoptický laborant"/>
+  </concept>
+  <concept>
+    <code value="NL76"/>
+    <display value="Sanitář"/>
+  </concept>
+  <concept>
+    <code value="L00"/>
+    <display value="Lékař"/>
+  </concept>
+  <concept>
+    <code value="LA"/>
+    <display value="Lékař po absolvování studijního oboru v anglickém jazyce"/>
+  </concept>
+  <concept>
+    <code value="FA"/>
+    <display value="Farmaceut po absolvování studijního oboru v anglickém jazyce"/>
+  </concept>
+  <concept>
+    <code value="ZA"/>
+    <display value="Zubní lékař po absolvování studijního oboru v anglickém jazyce"/>
+  </concept>
+</CodeSystem>

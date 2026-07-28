@@ -1,0 +1,46 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "medical-test-code",
+  "language" : "cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"cs\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"cs\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet medical-test-code</b></p><a name=\"medical-test-code\"> </a><a name=\"hcmedical-test-code\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: cs</p></div><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href=\"CodeSystem-NCLPPOL.html\"><code>https://ncez.mzcr.cz/nclp/CodeSystem/nclppol</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span></li><li>Include codes from<a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span> where concept  is-a 363787002 (Observable entity)</li></ul></div>"
+  },
+  "url" : "https://ncez.mzcr.cz/terminology/ValueSet/medical-test-code",
+  "version" : "1.0.0",
+  "name" : "MedicalTestCodeVs",
+  "title" : "Medical Test Result Code",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-01-01",
+  "publisher" : "HL7 Czech Republic",
+  "contact" : [{
+    "name" : "HL7 Czech Republic",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.hl7.cz/"
+    }]
+  }],
+  "description" : "Medical test result codes. List of Medical test result codes containing LOINC, NCLP and Snomed CT.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CZ",
+      "display" : "Czechia"
+    }]
+  }],
+  "copyright" : "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement",
+  "compose" : {
+    "include" : [{
+      "system" : "https://ncez.mzcr.cz/nclp/CodeSystem/nclppol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "363787002"
+      }]
+    }]
+  }
+}

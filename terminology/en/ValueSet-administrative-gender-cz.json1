@@ -1,0 +1,41 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "administrative-gender-cz",
+  "language" : "en",
+  "text" : {
+    "status" : "generated"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/valueset-supplement",
+    "valueCanonical" : "https://hl7.cz/terminology/CodeSystem/administrative-gender-cz|4.0.1"
+  }],
+  "url" : "https://hl7.cz/terminology/ValueSet/administrative-gender-cz",
+  "version" : "1.0.0",
+  "name" : "AdministrativeGenderCzVs",
+  "title" : "Gender for administrative purposes",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2022-12-26",
+  "publisher" : "HL7 Czech Republic",
+  "contact" : [{
+    "name" : "HL7 Czech Republic",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.hl7.cz/"
+    }]
+  }],
+  "description" : "Pohlaví pro administrativní účely. (Gender for administrative purposes)",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CZ",
+      "display" : "Czechia"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://hl7.org/fhir/administrative-gender",
+      "version" : "4.0.1"
+    }]
+  }
+}

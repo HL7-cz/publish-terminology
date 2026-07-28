@@ -1,0 +1,71 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hl7.cz/terminology/CodeSystem/allergy-intolerance-criticality-cz> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "allergy-intolerance-criticality-cz"] ;
+  fhir:Resource.language [ fhir:value "en"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem allergy-intolerance-criticality-cz</b></p><a name=\"allergy-intolerance-criticality-cz\"> </a><a name=\"hcallergy-intolerance-criticality-cz\"> </a><p>This code system supplement <code>https://hl7.cz/terminology/CodeSystem/allergy-intolerance-criticality-cz</code> defines features on the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://hl7.org/fhir/R4/codesystem-allergy-intolerance-criticality.html#allergy-intolerance-criticality-high\">high</a><a name=\"allergy-intolerance-criticality-cz-high\"> </a></td><td>vysoké riziko</td><td>V nejhorším případě je výsledek budoucí expozice hodnocen jako život ohrožující nebo s vysokým rizikem selhání orgánového systému.</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://hl7.org/fhir/R4/codesystem-allergy-intolerance-criticality.html#allergy-intolerance-criticality-low\">low</a><a name=\"allergy-intolerance-criticality-cz-low\"> </a></td><td>nízké riziko</td><td>Nejhorší možný výsledek budoucí expozice není hodnocen jako život ohrožující ani jako vysoce pravděpodobný selhání orgánového systému.</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://hl7.org/fhir/R4/codesystem-allergy-intolerance-criticality.html#allergy-intolerance-criticality-unable-to-assess\">unable-to-assess</a><a name=\"allergy-intolerance-criticality-cz-unable-to-assess\"> </a></td><td>riziko nelze posoudit</td><td>Není možné odhadnout nejhorší možný výsledek budoucí expozice.</td></tr></table></div>"
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://hl7.cz/terminology/CodeSystem/allergy-intolerance-criticality-cz"] ;
+  fhir:CodeSystem.version [ fhir:value "4.0.1"] ;
+  fhir:CodeSystem.name [ fhir:value "AllergyIntoleranceCriticalityCz"] ;
+  fhir:CodeSystem.title [ fhir:value "AllergyIntoleranceCriticality (CZ supplement)"] ;
+  fhir:CodeSystem.status [ fhir:value "active"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2025-12-15T12:06:46.649344Z"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "HL7 Czech Republic"] ;
+  fhir:CodeSystem.contact [
+     fhir:index -1 ;
+     fhir:ContactDetail.name [ fhir:value "HL7 Czech Republic" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index -1 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://www.hl7.cz/" ]
+     ]
+  ] ;
+  fhir:CodeSystem.description [ fhir:value "AllergyIntoleranceCriticality CZ Code system supplement"] ;
+  fhir:CodeSystem.jurisdiction [
+     fhir:index -1 ;
+     fhir:CodeableConcept.coding [
+       fhir:index -1 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "CZ" ] ;
+       fhir:Coding.display [ fhir:value "Czechia" ]
+     ]
+  ] ;
+  fhir:CodeSystem.content [ fhir:value "supplement"] ;
+  fhir:CodeSystem.supplements [
+     fhir:value "http://hl7.org/fhir/allergy-intolerance-criticality" ;
+     fhir:link <http://hl7.org/fhir/allergy-intolerance-criticality>
+  ] ;
+  fhir:CodeSystem.concept [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "high" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "vysoké riziko" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "V nejhorším případě je výsledek budoucí expozice hodnocen jako život ohrožující nebo s vysokým rizikem selhání orgánového systému." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "low" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "nízké riziko" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Nejhorší možný výsledek budoucí expozice není hodnocen jako život ohrožující ani jako vysoce pravděpodobný selhání orgánového systému." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "unable-to-assess" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "riziko nelze posoudit" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Není možné odhadnout nejhorší možný výsledek budoucí expozice." ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://hl7.cz/terminology/CodeSystem/allergy-intolerance-criticality-cz.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

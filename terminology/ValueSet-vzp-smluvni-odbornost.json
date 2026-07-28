@@ -1,0 +1,37 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "vzp-smluvni-odbornost",
+  "language" : "cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"cs\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"cs\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet vzp-smluvni-odbornost</b></p><a name=\"vzp-smluvni-odbornost\"> </a><a name=\"hcvzp-smluvni-odbornost\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: cs</p></div><ul><li>Include all codes defined in <a href=\"CodeSystem-vzp-smluvni-odbornost.html\"><code>https://ncez.mzcr.cz/terminology/CodeSystem/vzp-smluvni-odbornost</code></a><span title=\"Version is explicitly stated to be 770\"> version &#x1F4CD;770</span></li></ul></div>"
+  },
+  "url" : "https://ncez.mzcr.cz/terminology/ValueSet/vzp-smluvni-odbornost",
+  "version" : "770",
+  "name" : "VZPSmluvniOdbornost",
+  "title" : "Číselník VZP - smluvní odbornost pracovišť",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-07-27T08:52:28.170257Z",
+  "publisher" : "HL7 Czech Republic",
+  "contact" : [{
+    "name" : "HL7 Czech Republic",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.hl7.cz/"
+    }]
+  }],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CZ",
+      "display" : "Czechia"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://ncez.mzcr.cz/terminology/CodeSystem/vzp-smluvni-odbornost",
+      "version" : "770"
+    }]
+  }
+}

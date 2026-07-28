@@ -1,0 +1,2410 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hl7.cz/terminology/CodeSystem/vzp-smluvni-odbornost> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "vzp-smluvni-odbornost"] ;
+  fhir:Resource.language [ fhir:value "cs"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xml:lang=\"cs\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"cs\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem vzp-smluvni-odbornost</b></p><a name=\"vzp-smluvni-odbornost\"> </a><a name=\"hcvzp-smluvni-odbornost\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: cs</p></div><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>Type</b></td></tr><tr><td>SODB</td><td>SODB</td><td>string</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://ncez.mzcr.cz/terminology/CodeSystem/vzp-smluvni-odbornost</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>SODB</b></td></tr><tr><td style=\"white-space:nowrap\">001<a name=\"vzp-smluvni-odbornost-001\"> </a></td><td>Pracoviště praktického lékaře pro dospělé</td><td/></tr><tr><td style=\"white-space:nowrap\">002<a name=\"vzp-smluvni-odbornost-002\"> </a></td><td>Pracoviště praktického lékaře pro děti a dorost</td><td/></tr><tr><td style=\"white-space:nowrap\">003<a name=\"vzp-smluvni-odbornost-003\"> </a></td><td>Pracoviště LSPP</td><td/></tr><tr><td style=\"white-space:nowrap\">004<a name=\"vzp-smluvni-odbornost-004\"> </a></td><td>Pracoviště zvláštní ambulantní péče v ZZ ústavní péče</td><td/></tr><tr><td style=\"white-space:nowrap\">014<a name=\"vzp-smluvni-odbornost-014\"> </a></td><td>Pracoviště praktického zubního lékaře</td><td/></tr><tr><td style=\"white-space:nowrap\">015<a name=\"vzp-smluvni-odbornost-015\"> </a></td><td>Pracoviště čelistní ortopedie</td><td/></tr><tr><td style=\"white-space:nowrap\">019<a name=\"vzp-smluvni-odbornost-019\"> </a></td><td>Pracoviště stomatologické LSPP</td><td/></tr><tr><td style=\"white-space:nowrap\">091<a name=\"vzp-smluvni-odbornost-091\"> </a></td><td>Pracoviště péče o dárce krvetvorných buněk</td><td/></tr><tr><td style=\"white-space:nowrap\">101<a name=\"vzp-smluvni-odbornost-101\"> </a></td><td>Pracoviště interního lékařství</td><td/></tr><tr><td style=\"white-space:nowrap\">102<a name=\"vzp-smluvni-odbornost-102\"> </a></td><td>Pracoviště angiologie</td><td/></tr><tr><td style=\"white-space:nowrap\">103<a name=\"vzp-smluvni-odbornost-103\"> </a></td><td>Pracoviště diabetologie</td><td/></tr><tr><td style=\"white-space:nowrap\">104<a name=\"vzp-smluvni-odbornost-104\"> </a></td><td>Pracoviště endokrinologie (mimo laboratorní činnosti)</td><td/></tr><tr><td style=\"white-space:nowrap\">105<a name=\"vzp-smluvni-odbornost-105\"> </a></td><td>Pracoviště gastroenterologie a hepatologie</td><td/></tr><tr><td style=\"white-space:nowrap\">106<a name=\"vzp-smluvni-odbornost-106\"> </a></td><td>Pracoviště geriatrie</td><td/></tr><tr><td style=\"white-space:nowrap\">107<a name=\"vzp-smluvni-odbornost-107\"> </a></td><td>Pracoviště kardiologie</td><td/></tr><tr><td style=\"white-space:nowrap\">108<a name=\"vzp-smluvni-odbornost-108\"> </a></td><td>Pracoviště nefrologie</td><td/></tr><tr><td style=\"white-space:nowrap\">109<a name=\"vzp-smluvni-odbornost-109\"> </a></td><td>Pracoviště revmatologie</td><td/></tr><tr><td style=\"white-space:nowrap\">128<a name=\"vzp-smluvni-odbornost-128\"> </a></td><td>Pracoviště hemodialýzy</td><td/></tr><tr><td style=\"white-space:nowrap\">1F1<a name=\"vzp-smluvni-odbornost-1F1\"> </a></td><td>Pracoviště standardní ústavní lůžkové péče interní - F typu</td><td>1_1</td></tr><tr><td style=\"white-space:nowrap\">1F3<a name=\"vzp-smluvni-odbornost-1F3\"> </a></td><td>Pracoviště standard. úst. lůžk. péče diabetologické - F typu</td><td>1_1</td></tr><tr><td style=\"white-space:nowrap\">1F4<a name=\"vzp-smluvni-odbornost-1F4\"> </a></td><td>Pracoviště stand. úst. lůžk. péče endokrinologické - F typu</td><td>1_1</td></tr><tr><td style=\"white-space:nowrap\">1F5<a name=\"vzp-smluvni-odbornost-1F5\"> </a></td><td>Prac. stand. úst. lůžk. péče gastroent. a hepatol. - F typu</td><td>1_1</td></tr><tr><td style=\"white-space:nowrap\">1F6<a name=\"vzp-smluvni-odbornost-1F6\"> </a></td><td>Pracoviště standardní ústav. lůžk. péče geriatrické - F typu</td><td>1_6</td></tr><tr><td style=\"white-space:nowrap\">1F7<a name=\"vzp-smluvni-odbornost-1F7\"> </a></td><td>Pracoviště standard. úst. lůžk. péče kardiologické  - F typu</td><td>1_7</td></tr><tr><td style=\"white-space:nowrap\">1F8<a name=\"vzp-smluvni-odbornost-1F8\"> </a></td><td>Pracoviště standard. ústav. lůžk. péče nefrologické - F typu</td><td>1_1</td></tr><tr><td style=\"white-space:nowrap\">1F9<a name=\"vzp-smluvni-odbornost-1F9\"> </a></td><td>Pracoviště standard. úst. lůžk. péče revmatologické - F typu</td><td>1_9</td></tr><tr><td style=\"white-space:nowrap\">1H1<a name=\"vzp-smluvni-odbornost-1H1\"> </a></td><td>Pracoviště standardní ústavní lůžk. péče interní - H typu</td><td>1_1</td></tr><tr><td style=\"white-space:nowrap\">1H3<a name=\"vzp-smluvni-odbornost-1H3\"> </a></td><td>Pracoviště standard. úst. lůžk. péče diabetologické - H typu</td><td>1_1</td></tr><tr><td style=\"white-space:nowrap\">1H4<a name=\"vzp-smluvni-odbornost-1H4\"> </a></td><td>Pracoviště stand. úst. lůžk. péče endokrinologické - H typu</td><td>1_1</td></tr><tr><td style=\"white-space:nowrap\">1H5<a name=\"vzp-smluvni-odbornost-1H5\"> </a></td><td>Prac. stand. úst. lůžk. péče gastroent. a hepatol. - H typu</td><td>1_1</td></tr><tr><td style=\"white-space:nowrap\">1H6<a name=\"vzp-smluvni-odbornost-1H6\"> </a></td><td>Pracoviště standardní ústav. lůžk. péče geriatrické - H typu</td><td>1_6</td></tr><tr><td style=\"white-space:nowrap\">1H7<a name=\"vzp-smluvni-odbornost-1H7\"> </a></td><td>Pracoviště standard. úst. lůžk. péče kardiologické - H typu</td><td>1_7</td></tr><tr><td style=\"white-space:nowrap\">1H8<a name=\"vzp-smluvni-odbornost-1H8\"> </a></td><td>Pracoviště standardní ústav. lůžk.péče nefrologické - H typu</td><td>1_1</td></tr><tr><td style=\"white-space:nowrap\">1H9<a name=\"vzp-smluvni-odbornost-1H9\"> </a></td><td>Pracoviště standard. úst. lůžk. péče revmatologické - H typu</td><td>1_9</td></tr><tr><td style=\"white-space:nowrap\">1I1<a name=\"vzp-smluvni-odbornost-1I1\"> </a></td><td>Prac. resusc. a intenziv. ústavní lůž. péče interní - I typu</td><td>1_1</td></tr><tr><td style=\"white-space:nowrap\">1I3<a name=\"vzp-smluvni-odbornost-1I3\"> </a></td><td>Pracoviště intenzivní ústavní lůž.péče diabetolog.- I typu</td><td>1_1</td></tr><tr><td style=\"white-space:nowrap\">1I5<a name=\"vzp-smluvni-odbornost-1I5\"> </a></td><td>Pracoviště intenzivní ústavní lůž. péče hepatolog. - I typu</td><td>1_1</td></tr><tr><td style=\"white-space:nowrap\">1I6<a name=\"vzp-smluvni-odbornost-1I6\"> </a></td><td>Pracov.resusc. a intenziv.úst. lůž. péče geriatric. - I typu</td><td>1_6</td></tr><tr><td style=\"white-space:nowrap\">1I7<a name=\"vzp-smluvni-odbornost-1I7\"> </a></td><td>Pracov.resusc.a intenziv.úst. lůž. péče kardiologic.- I typu</td><td>1_7</td></tr><tr><td style=\"white-space:nowrap\">1I8<a name=\"vzp-smluvni-odbornost-1I8\"> </a></td><td>Pracoviště intenziv. úst. lůž. péče nefrologic. - I typu</td><td>1_1</td></tr><tr><td style=\"white-space:nowrap\">1R7<a name=\"vzp-smluvni-odbornost-1R7\"> </a></td><td>Pracoviště - operační sály kardiologie</td><td>1_7</td></tr><tr><td style=\"white-space:nowrap\">1T1<a name=\"vzp-smluvni-odbornost-1T1\"> </a></td><td>Pracov. resusc. a intenziv. úst. lůž. péče interní - T typu</td><td>1_1</td></tr><tr><td style=\"white-space:nowrap\">1T3<a name=\"vzp-smluvni-odbornost-1T3\"> </a></td><td>Pracoviště intenziv. ústav. lůž. péče  diabetolog. - T typu</td><td>1_1</td></tr><tr><td style=\"white-space:nowrap\">1T5<a name=\"vzp-smluvni-odbornost-1T5\"> </a></td><td>Pracoviště intenziv. ústavní lůž. péče  hepatolog. - T typu</td><td>1_1</td></tr><tr><td style=\"white-space:nowrap\">1T6<a name=\"vzp-smluvni-odbornost-1T6\"> </a></td><td>Pracov. resusc.a intenziv.úst.lůž. péče geriatric. - T typu</td><td>1_6</td></tr><tr><td style=\"white-space:nowrap\">1T7<a name=\"vzp-smluvni-odbornost-1T7\"> </a></td><td>Pracov. resusc.a intenziv.ústav.lůž. péče kardiolog.- T typu</td><td>1_7</td></tr><tr><td style=\"white-space:nowrap\">1T8<a name=\"vzp-smluvni-odbornost-1T8\"> </a></td><td>Pracoviště intenziv. úst. lůž. péče nefrologic. - T typu</td><td>1_1</td></tr><tr><td style=\"white-space:nowrap\">1U1<a name=\"vzp-smluvni-odbornost-1U1\"> </a></td><td>Pracoviště dlouhodobé (chronické) interní lůž.péče - U typu</td><td>1_1</td></tr><tr><td style=\"white-space:nowrap\">1U6<a name=\"vzp-smluvni-odbornost-1U6\"> </a></td><td>Pracov. dlouhodobé (chronické) geriatrické lůž.péče - U typu</td><td>1_6</td></tr><tr><td style=\"white-space:nowrap\">1U9<a name=\"vzp-smluvni-odbornost-1U9\"> </a></td><td>Pracov.dlouhodobé (chronické) revmatolog. lůž. péče - U typu</td><td>1_9</td></tr><tr><td style=\"white-space:nowrap\">201<a name=\"vzp-smluvni-odbornost-201\"> </a></td><td>Pracoviště fyziatrie a rehabilitačního lékařství</td><td/></tr><tr><td style=\"white-space:nowrap\">202<a name=\"vzp-smluvni-odbornost-202\"> </a></td><td>Pracoviště klinické hematologie</td><td/></tr><tr><td style=\"white-space:nowrap\">203<a name=\"vzp-smluvni-odbornost-203\"> </a></td><td>Pracoviště přenosných nemocí</td><td/></tr><tr><td style=\"white-space:nowrap\">204<a name=\"vzp-smluvni-odbornost-204\"> </a></td><td>Pracoviště tělovýchovného lékařství</td><td/></tr><tr><td style=\"white-space:nowrap\">205<a name=\"vzp-smluvni-odbornost-205\"> </a></td><td>Pracoviště tuberkulózy a respiračních nemocí</td><td/></tr><tr><td style=\"white-space:nowrap\">206<a name=\"vzp-smluvni-odbornost-206\"> </a></td><td>Pracoviště klinické farmakologie (mimo laboratorní činnosti)</td><td/></tr><tr><td style=\"white-space:nowrap\">207<a name=\"vzp-smluvni-odbornost-207\"> </a></td><td>Pracoviště alergologie a klinické imunologie</td><td/></tr><tr><td style=\"white-space:nowrap\">208<a name=\"vzp-smluvni-odbornost-208\"> </a></td><td>Pracoviště lékařské genetiky</td><td/></tr><tr><td style=\"white-space:nowrap\">209<a name=\"vzp-smluvni-odbornost-209\"> </a></td><td>Pracoviště neurologie</td><td/></tr><tr><td style=\"white-space:nowrap\">222<a name=\"vzp-smluvni-odbornost-222\"> </a></td><td>Pracoviště transfúzní služby</td><td/></tr><tr><td style=\"white-space:nowrap\">2F1<a name=\"vzp-smluvni-odbornost-2F1\"> </a></td><td>Pracov. standardní ústav. lůž. péče rehabilitační - F typu</td><td>2_1</td></tr><tr><td style=\"white-space:nowrap\">2F2<a name=\"vzp-smluvni-odbornost-2F2\"> </a></td><td>Pracov. standard.úst.lůž. péče klinické hematologie - F typu</td><td>2_2</td></tr><tr><td style=\"white-space:nowrap\">2F3<a name=\"vzp-smluvni-odbornost-2F3\"> </a></td><td>Pracov. standard. úst. lůž. péče přenosných nemocí - F typu</td><td>2_3</td></tr><tr><td style=\"white-space:nowrap\">2F5<a name=\"vzp-smluvni-odbornost-2F5\"> </a></td><td>Pracov. standard. ústav. lůž. péče TRN a pneumolog. - F typu</td><td>2_5</td></tr><tr><td style=\"white-space:nowrap\">2F6<a name=\"vzp-smluvni-odbornost-2F6\"> </a></td><td>Pracov. standard.úst.lůž.péče klinické farmakologie - F typu</td><td>2_6</td></tr><tr><td style=\"white-space:nowrap\">2F7<a name=\"vzp-smluvni-odbornost-2F7\"> </a></td><td>Prac.stand.úst.lůžk.péče klin.imunolog.a alergolog. - F typu</td><td>2_7</td></tr><tr><td style=\"white-space:nowrap\">2F9<a name=\"vzp-smluvni-odbornost-2F9\"> </a></td><td>Pracov. standardní ústavní lůžk. péče neurologické - F typu</td><td>2_9</td></tr><tr><td style=\"white-space:nowrap\">2H1<a name=\"vzp-smluvni-odbornost-2H1\"> </a></td><td>Pracov. standardní ústavní lůžk. péče rehabilitační - H typu</td><td>2_1</td></tr><tr><td style=\"white-space:nowrap\">2H2<a name=\"vzp-smluvni-odbornost-2H2\"> </a></td><td>Prac.standard.ústav.lůžk. péče klinické hematologie - H typu</td><td>2_2</td></tr><tr><td style=\"white-space:nowrap\">2H3<a name=\"vzp-smluvni-odbornost-2H3\"> </a></td><td>Pracov. standard. úst. lůž. péče přenosných nemocí - H typu</td><td>2_3</td></tr><tr><td style=\"white-space:nowrap\">2H5<a name=\"vzp-smluvni-odbornost-2H5\"> </a></td><td>Pracov. standard.ústav. lůžk. péče TRN a pneumolog. - H typu</td><td>2_5</td></tr><tr><td style=\"white-space:nowrap\">2H7<a name=\"vzp-smluvni-odbornost-2H7\"> </a></td><td>Prac. stand.úst.lůž.péče klin.imunolog.a alergolog. - H typu</td><td>2_7</td></tr><tr><td style=\"white-space:nowrap\">2H9<a name=\"vzp-smluvni-odbornost-2H9\"> </a></td><td>Pracov.standardní ústavní lůžkové péče neurologické - H typu</td><td>2_9</td></tr><tr><td style=\"white-space:nowrap\">2I2<a name=\"vzp-smluvni-odbornost-2I2\"> </a></td><td>Prac. resusc. a intenz. úst.lůž.péče klin.hematolog.- I typu</td><td>2_2</td></tr><tr><td style=\"white-space:nowrap\">2I3<a name=\"vzp-smluvni-odbornost-2I3\"> </a></td><td>Prac. resusc. a intenz. úst. lůž.péče přenos.nemocí - I typu</td><td>2_3</td></tr><tr><td style=\"white-space:nowrap\">2I5<a name=\"vzp-smluvni-odbornost-2I5\"> </a></td><td>Prac.resusc. a intenz.úst.lůž.péče TRN a pneumolog. - I typu</td><td>2_5</td></tr><tr><td style=\"white-space:nowrap\">2I9<a name=\"vzp-smluvni-odbornost-2I9\"> </a></td><td>Pracov. resusc. a intenz.úst.lůž. péče neurologické - I typu</td><td>2_9</td></tr><tr><td style=\"white-space:nowrap\">2S1<a name=\"vzp-smluvni-odbornost-2S1\"> </a></td><td>Prac. poskyt.péči na spinálních rehabil.jednotkách</td><td>2_1</td></tr><tr><td style=\"white-space:nowrap\">2T2<a name=\"vzp-smluvni-odbornost-2T2\"> </a></td><td>Prac. resusc. a intenz. úst.lůž.péče klin.hematolog.- T typu</td><td>2_2</td></tr><tr><td style=\"white-space:nowrap\">2T3<a name=\"vzp-smluvni-odbornost-2T3\"> </a></td><td>Prac. resusc. a intenz. úst. lůž.péče přenos.nemocí - T typu</td><td>2_3</td></tr><tr><td style=\"white-space:nowrap\">2T5<a name=\"vzp-smluvni-odbornost-2T5\"> </a></td><td>Prac.resusc. a intenz.úst.lůž.péče TRN a pneumolog. - T typu</td><td>2_5</td></tr><tr><td style=\"white-space:nowrap\">2T9<a name=\"vzp-smluvni-odbornost-2T9\"> </a></td><td>Prac. resusc. a intenz. úst. lůž. péče neurologické - T typu</td><td>2_9</td></tr><tr><td style=\"white-space:nowrap\">2U1<a name=\"vzp-smluvni-odbornost-2U1\"> </a></td><td>Pracov. dlouhodobé ústav. lůž. rehabilitační péče - U typu</td><td>2_1</td></tr><tr><td style=\"white-space:nowrap\">2U5<a name=\"vzp-smluvni-odbornost-2U5\"> </a></td><td>Pracov. dlouhodobé ústav.lůž.TRN a pneumolog.péče - U typu</td><td>2_5</td></tr><tr><td style=\"white-space:nowrap\">2U9<a name=\"vzp-smluvni-odbornost-2U9\"> </a></td><td>Pracov. dlouhodobé (chronické) úst.neurolog. péče - U typu</td><td>2_9</td></tr><tr><td style=\"white-space:nowrap\">301<a name=\"vzp-smluvni-odbornost-301\"> </a></td><td>Pracoviště pediatrie</td><td/></tr><tr><td style=\"white-space:nowrap\">302<a name=\"vzp-smluvni-odbornost-302\"> </a></td><td>Pracoviště dětské kardiologie</td><td/></tr><tr><td style=\"white-space:nowrap\">303<a name=\"vzp-smluvni-odbornost-303\"> </a></td><td>Pracoviště dorostového lékařství</td><td/></tr><tr><td style=\"white-space:nowrap\">304<a name=\"vzp-smluvni-odbornost-304\"> </a></td><td>Pracoviště neonatologie</td><td/></tr><tr><td style=\"white-space:nowrap\">305<a name=\"vzp-smluvni-odbornost-305\"> </a></td><td>Pracoviště psychiatrie</td><td/></tr><tr><td style=\"white-space:nowrap\">306<a name=\"vzp-smluvni-odbornost-306\"> </a></td><td>Pracoviště dětské psychiatrie</td><td/></tr><tr><td style=\"white-space:nowrap\">307<a name=\"vzp-smluvni-odbornost-307\"> </a></td><td>Pracoviště gerontopsychiatrie</td><td/></tr><tr><td style=\"white-space:nowrap\">308<a name=\"vzp-smluvni-odbornost-308\"> </a></td><td>Pracoviště léčby alkoholismu a jiných toxikomanií</td><td/></tr><tr><td style=\"white-space:nowrap\">309<a name=\"vzp-smluvni-odbornost-309\"> </a></td><td>Pracoviště sexuologie</td><td/></tr><tr><td style=\"white-space:nowrap\">3F1<a name=\"vzp-smluvni-odbornost-3F1\"> </a></td><td>Pracov. standardní ústavní lůžkové péče pediatrické - F typu</td><td>3_1</td></tr><tr><td style=\"white-space:nowrap\">3F2<a name=\"vzp-smluvni-odbornost-3F2\"> </a></td><td>Pracov. standard. úst. lůž. péče dětské kardiologie - F typu</td><td>1_7</td></tr><tr><td style=\"white-space:nowrap\">3F3<a name=\"vzp-smluvni-odbornost-3F3\"> </a></td><td>Prac. standard.úst.lůžk. péče dorostového lékařství - F typu</td><td>1_1</td></tr><tr><td style=\"white-space:nowrap\">3F4<a name=\"vzp-smluvni-odbornost-3F4\"> </a></td><td>Pracov. standard. úst. lůžk. péče o novorozence - F typu</td><td>3_4</td></tr><tr><td style=\"white-space:nowrap\">3F5<a name=\"vzp-smluvni-odbornost-3F5\"> </a></td><td>Pracov. standard. úst. lůž. péče psychiatrické - F typu</td><td>3_5</td></tr><tr><td style=\"white-space:nowrap\">3F6<a name=\"vzp-smluvni-odbornost-3F6\"> </a></td><td>Prac. standard. úst. lůž. péče dětské psychiatrie - F typu</td><td>3_5</td></tr><tr><td style=\"white-space:nowrap\">3F7<a name=\"vzp-smluvni-odbornost-3F7\"> </a></td><td>Prac. standard. úst. lůž. péče gerontopsychiatric. - F typu</td><td>3_5</td></tr><tr><td style=\"white-space:nowrap\">3H1<a name=\"vzp-smluvni-odbornost-3H1\"> </a></td><td>Pracov. standard. úst. lůž. péče pediatrické - H typu</td><td>3_1</td></tr><tr><td style=\"white-space:nowrap\">3H2<a name=\"vzp-smluvni-odbornost-3H2\"> </a></td><td>Pracov. standard. úst. lůž. péče dětské kardiologie - H typu</td><td>1_7</td></tr><tr><td style=\"white-space:nowrap\">3H3<a name=\"vzp-smluvni-odbornost-3H3\"> </a></td><td>Prac.standard. úst. lůž. péče dorostového lékařství - H typu</td><td>1_1</td></tr><tr><td style=\"white-space:nowrap\">3H4<a name=\"vzp-smluvni-odbornost-3H4\"> </a></td><td>Pracov. standard. úst. lůž. péče o novorozence - H typu</td><td>3_4</td></tr><tr><td style=\"white-space:nowrap\">3H5<a name=\"vzp-smluvni-odbornost-3H5\"> </a></td><td>Pracov. standard. ústav. lůžk. péče psychiatrické - H typu</td><td>3_5</td></tr><tr><td style=\"white-space:nowrap\">3H6<a name=\"vzp-smluvni-odbornost-3H6\"> </a></td><td>Pracov. standard. úst. lůž. péče dětské psychiatrie - H typu</td><td>3_5</td></tr><tr><td style=\"white-space:nowrap\">3H7<a name=\"vzp-smluvni-odbornost-3H7\"> </a></td><td>Pracov.standard. úst. lůž. péče gerontopsychiatric. - H typu</td><td>3_5</td></tr><tr><td style=\"white-space:nowrap\">3I1<a name=\"vzp-smluvni-odbornost-3I1\"> </a></td><td>Pracov.resusc. a intenz. úst. lůž. péče pediatrické - I typu</td><td>3_1</td></tr><tr><td style=\"white-space:nowrap\">3I2<a name=\"vzp-smluvni-odbornost-3I2\"> </a></td><td>Prac. resusc.a intenz.úst.lůž.péče dětské kardiolog - I typu</td><td>1_7</td></tr><tr><td style=\"white-space:nowrap\">3I4<a name=\"vzp-smluvni-odbornost-3I4\"> </a></td><td>Prac.resuscit.a intenziv. ústav.lůž. péče neonatol. - I typu</td><td>3_4</td></tr><tr><td style=\"white-space:nowrap\">3I5<a name=\"vzp-smluvni-odbornost-3I5\"> </a></td><td>Prac.resusc. a intenz. úst. lůž. péče psychiatrické - I typu</td><td>3_5</td></tr><tr><td style=\"white-space:nowrap\">3I6<a name=\"vzp-smluvni-odbornost-3I6\"> </a></td><td>Prac. resusc. a intenz. úst. lůž. péče dět.psychiatr. I typu</td><td>3_5</td></tr><tr><td style=\"white-space:nowrap\">3T1<a name=\"vzp-smluvni-odbornost-3T1\"> </a></td><td>Prac. resusc. a intenz. úst. lůž. péče pediatrické - T typu</td><td>3_1</td></tr><tr><td style=\"white-space:nowrap\">3T2<a name=\"vzp-smluvni-odbornost-3T2\"> </a></td><td>Prac.resusc. a intenz.úst.lůž.péče dětské kardiolog - T typu</td><td>1_7</td></tr><tr><td style=\"white-space:nowrap\">3T4<a name=\"vzp-smluvni-odbornost-3T4\"> </a></td><td>Prac. resusc. a intenz. úst. lůž. péče neonatol. - T typu</td><td>3_4</td></tr><tr><td style=\"white-space:nowrap\">3T5<a name=\"vzp-smluvni-odbornost-3T5\"> </a></td><td>Prac.resusc. a intenz. úst. lůž. péče psychiatrické - T typu</td><td>3_5</td></tr><tr><td style=\"white-space:nowrap\">3T6<a name=\"vzp-smluvni-odbornost-3T6\"> </a></td><td>Prac. resusc. a intenz. úst.lůž.péče dět.psychiatr. - T typu</td><td>3_5</td></tr><tr><td style=\"white-space:nowrap\">3U1<a name=\"vzp-smluvni-odbornost-3U1\"> </a></td><td>Prac.dlouhodobé (chronic.) úst.lůž.péče pediatrické - U typu</td><td>3_1</td></tr><tr><td style=\"white-space:nowrap\">3U5<a name=\"vzp-smluvni-odbornost-3U5\"> </a></td><td>Prac. dlouhodobé (chronic.) úst.lůž.péče psychiatr. - U typu</td><td>3_5</td></tr><tr><td style=\"white-space:nowrap\">3U6<a name=\"vzp-smluvni-odbornost-3U6\"> </a></td><td>Prac. dlouhod.(chronic.) úst.lůž.péče dět.psychiatr.- U typu</td><td>3_5</td></tr><tr><td style=\"white-space:nowrap\">3U7<a name=\"vzp-smluvni-odbornost-3U7\"> </a></td><td>Prac.dlouhod.(chronic.)úst.lůž.péče gerontopsychiatr.-U typu</td><td>3_5</td></tr><tr><td style=\"white-space:nowrap\">3U8<a name=\"vzp-smluvni-odbornost-3U8\"> </a></td><td>Prac. dlouhod.(chronic.) léčba alkohol.a j. toxikom. -U typu</td><td>3_5</td></tr><tr><td style=\"white-space:nowrap\">401<a name=\"vzp-smluvni-odbornost-401\"> </a></td><td>Pracoviště pracovního lékařství</td><td/></tr><tr><td style=\"white-space:nowrap\">402<a name=\"vzp-smluvni-odbornost-402\"> </a></td><td>Pracoviště klinické onkologie (bez radiační onkologie)</td><td/></tr><tr><td style=\"white-space:nowrap\">403<a name=\"vzp-smluvni-odbornost-403\"> </a></td><td>Pracoviště radioterapie a radiační onkologie</td><td/></tr><tr><td style=\"white-space:nowrap\">404<a name=\"vzp-smluvni-odbornost-404\"> </a></td><td>Pracoviště dermatovenerologie</td><td/></tr><tr><td style=\"white-space:nowrap\">405<a name=\"vzp-smluvni-odbornost-405\"> </a></td><td>Pracoviště dětské dermatologie</td><td/></tr><tr><td style=\"white-space:nowrap\">406<a name=\"vzp-smluvni-odbornost-406\"> </a></td><td>Pracoviště korektivní dermatologie</td><td/></tr><tr><td style=\"white-space:nowrap\">407<a name=\"vzp-smluvni-odbornost-407\"> </a></td><td>Pracoviště nukleární medicíny</td><td/></tr><tr><td style=\"white-space:nowrap\">409<a name=\"vzp-smluvni-odbornost-409\"> </a></td><td>Pracoviště dětské neurologie</td><td/></tr><tr><td style=\"white-space:nowrap\">4F1<a name=\"vzp-smluvni-odbornost-4F1\"> </a></td><td>Pracov. standard. úst. lůž. péče nemocí z povolání - F typu</td><td>4_1</td></tr><tr><td style=\"white-space:nowrap\">4F2<a name=\"vzp-smluvni-odbornost-4F2\"> </a></td><td>Pracov. standard. úst. lůž. péče onkologické - F typu</td><td>4_2</td></tr><tr><td style=\"white-space:nowrap\">4F3<a name=\"vzp-smluvni-odbornost-4F3\"> </a></td><td>Pracov. standard. úst. lůž. péče radioterapeutické - F typu</td><td>4_3</td></tr><tr><td style=\"white-space:nowrap\">4F4<a name=\"vzp-smluvni-odbornost-4F4\"> </a></td><td>Pracov. standard. úst.lůž.péče dermatovenerologické - F typu</td><td>4_4</td></tr><tr><td style=\"white-space:nowrap\">4F5<a name=\"vzp-smluvni-odbornost-4F5\"> </a></td><td>Pracov. standard. úst.lůž. péče dětské dermatologie - F typu</td><td>4_4</td></tr><tr><td style=\"white-space:nowrap\">4F7<a name=\"vzp-smluvni-odbornost-4F7\"> </a></td><td>Pracov. standard. úst. lůž. péče nukleární medicíny - F typu</td><td>4_7</td></tr><tr><td style=\"white-space:nowrap\">4F9<a name=\"vzp-smluvni-odbornost-4F9\"> </a></td><td>Pracov. standard. úst. lůž. péče dětské neurologie - F typu</td><td>2_9</td></tr><tr><td style=\"white-space:nowrap\">4H1<a name=\"vzp-smluvni-odbornost-4H1\"> </a></td><td>Pracov. standard. úst. lůž. péče nemocí z povolání - H typu</td><td>4_1</td></tr><tr><td style=\"white-space:nowrap\">4H2<a name=\"vzp-smluvni-odbornost-4H2\"> </a></td><td>Pracov. standardní ústavní lůžkové péče onkologické - H typu</td><td>4_2</td></tr><tr><td style=\"white-space:nowrap\">4H3<a name=\"vzp-smluvni-odbornost-4H3\"> </a></td><td>Pracov. standard. úst. lůž. péče radioterapeutické - H typu</td><td>4_3</td></tr><tr><td style=\"white-space:nowrap\">4H4<a name=\"vzp-smluvni-odbornost-4H4\"> </a></td><td>Prac. standard. úst. lůž. péče dermatovenerologické - H typu</td><td>4_4</td></tr><tr><td style=\"white-space:nowrap\">4H5<a name=\"vzp-smluvni-odbornost-4H5\"> </a></td><td>Pracov.standard. úst. lůž. péče dětské dermatologie - H typu</td><td>4_4</td></tr><tr><td style=\"white-space:nowrap\">4H7<a name=\"vzp-smluvni-odbornost-4H7\"> </a></td><td>Pracov. standard. úst. lůž. péče nukleární medicíny - H typu</td><td>4_7</td></tr><tr><td style=\"white-space:nowrap\">4H9<a name=\"vzp-smluvni-odbornost-4H9\"> </a></td><td>Pracov. standard. úst. lůž. péče dětské neurologie - H typu</td><td>2_9</td></tr><tr><td style=\"white-space:nowrap\">4I2<a name=\"vzp-smluvni-odbornost-4I2\"> </a></td><td>Pracov. resusc. a intenz. úst. lůž.péče onkologické - I typu</td><td>4_2</td></tr><tr><td style=\"white-space:nowrap\">4I3<a name=\"vzp-smluvni-odbornost-4I3\"> </a></td><td>Pracov.resusc. a intenz. úst. lůž. péče radioterap. - I typu</td><td>4_3</td></tr><tr><td style=\"white-space:nowrap\">4I9<a name=\"vzp-smluvni-odbornost-4I9\"> </a></td><td>Pracov.resusc. a intenz.úst.lůž.péče dětské neurol. - I typu</td><td>2_9</td></tr><tr><td style=\"white-space:nowrap\">4T2<a name=\"vzp-smluvni-odbornost-4T2\"> </a></td><td>Pracov. resusc. a intenz. úst. lůž.péče onkologické - T typu</td><td>4_2</td></tr><tr><td style=\"white-space:nowrap\">4T3<a name=\"vzp-smluvni-odbornost-4T3\"> </a></td><td>Pracov.resusc. a intenz. úst. lůž. péče radioterap. - T typu</td><td>4_3</td></tr><tr><td style=\"white-space:nowrap\">4T9<a name=\"vzp-smluvni-odbornost-4T9\"> </a></td><td>Prac. resusc. a intenz. úst.lůž.péče dětské neurol. - T typu</td><td>2_9</td></tr><tr><td style=\"white-space:nowrap\">4U5<a name=\"vzp-smluvni-odbornost-4U5\"> </a></td><td>Prac.dlouhod.(chronic.) úst.lůž.péče dětské dermatol.-U typu</td><td>4_4</td></tr><tr><td style=\"white-space:nowrap\">4U9<a name=\"vzp-smluvni-odbornost-4U9\"> </a></td><td>Prac.dlouhod.(chronic.) úst.lůž.péče dětské neurolog.-U typu</td><td>2_9</td></tr><tr><td style=\"white-space:nowrap\">501<a name=\"vzp-smluvni-odbornost-501\"> </a></td><td>Pracoviště chirurgie</td><td/></tr><tr><td style=\"white-space:nowrap\">502<a name=\"vzp-smluvni-odbornost-502\"> </a></td><td>Pracoviště dětské chirurgie</td><td/></tr><tr><td style=\"white-space:nowrap\">503<a name=\"vzp-smluvni-odbornost-503\"> </a></td><td>Pracoviště úrazové chirurgie</td><td/></tr><tr><td style=\"white-space:nowrap\">504<a name=\"vzp-smluvni-odbornost-504\"> </a></td><td>Pracoviště cévní chirurgie</td><td/></tr><tr><td style=\"white-space:nowrap\">505<a name=\"vzp-smluvni-odbornost-505\"> </a></td><td>Pracoviště kardiochirurgie</td><td/></tr><tr><td style=\"white-space:nowrap\">506<a name=\"vzp-smluvni-odbornost-506\"> </a></td><td>Pracoviště neurochirurgie</td><td/></tr><tr><td style=\"white-space:nowrap\">507<a name=\"vzp-smluvni-odbornost-507\"> </a></td><td>Pracoviště hrudní chirurgie</td><td/></tr><tr><td style=\"white-space:nowrap\">5F1<a name=\"vzp-smluvni-odbornost-5F1\"> </a></td><td>Pracov. standard. úst. lůž. péče chirurgické - F typu</td><td>5_1</td></tr><tr><td style=\"white-space:nowrap\">5F2<a name=\"vzp-smluvni-odbornost-5F2\"> </a></td><td>Pracov. standard. úst. lůž. péče dětské chirurgie - F typu</td><td>5_1</td></tr><tr><td style=\"white-space:nowrap\">5F3<a name=\"vzp-smluvni-odbornost-5F3\"> </a></td><td>Pracov. standard. úst. lůž. péče úrazové chirurgie - F typu</td><td>5_3</td></tr><tr><td style=\"white-space:nowrap\">5F4<a name=\"vzp-smluvni-odbornost-5F4\"> </a></td><td>Pracov. standard. úst. lůž. péče cévní chirurgie - F typu</td><td>5_1</td></tr><tr><td style=\"white-space:nowrap\">5F5<a name=\"vzp-smluvni-odbornost-5F5\"> </a></td><td>Pracov. standard. úst. lůž. péče kardiochirurgické - F typu</td><td>5_5</td></tr><tr><td style=\"white-space:nowrap\">5F6<a name=\"vzp-smluvni-odbornost-5F6\"> </a></td><td>Pracov. standard. úst. lůž. péče neurochirurgické - F typu</td><td>5_6</td></tr><tr><td style=\"white-space:nowrap\">5F7<a name=\"vzp-smluvni-odbornost-5F7\"> </a></td><td>Pracov. standard. úst. lůž. péče hrudní chirurgie - F typu</td><td>5_1</td></tr><tr><td style=\"white-space:nowrap\">5H1<a name=\"vzp-smluvni-odbornost-5H1\"> </a></td><td>Pracov. standard. úst. lůž. péče chirurgické - H typu</td><td>5_1</td></tr><tr><td style=\"white-space:nowrap\">5H2<a name=\"vzp-smluvni-odbornost-5H2\"> </a></td><td>Pracov. standard. úst. lůž. péče dětské chirurgie - H typu</td><td>5_1</td></tr><tr><td style=\"white-space:nowrap\">5H3<a name=\"vzp-smluvni-odbornost-5H3\"> </a></td><td>Pracov. standard. úst. lůž. péče úrazové chirurgie - H typu</td><td>5_3</td></tr><tr><td style=\"white-space:nowrap\">5H4<a name=\"vzp-smluvni-odbornost-5H4\"> </a></td><td>Pracov. standard. úst. lůž. péče cévní chirurgie - H typu</td><td>5_1</td></tr><tr><td style=\"white-space:nowrap\">5H5<a name=\"vzp-smluvni-odbornost-5H5\"> </a></td><td>Pracov. standard. úst. lůž. péče kardiochirurgické - H typu</td><td>5_5</td></tr><tr><td style=\"white-space:nowrap\">5H6<a name=\"vzp-smluvni-odbornost-5H6\"> </a></td><td>Pracov. standard. úst. lůž. péče neurochirurgické - H typu</td><td>5_6</td></tr><tr><td style=\"white-space:nowrap\">5H7<a name=\"vzp-smluvni-odbornost-5H7\"> </a></td><td>Pracov. standard. úst. lůž. péče hrudní chirurgie - H typu</td><td>5_1</td></tr><tr><td style=\"white-space:nowrap\">5I1<a name=\"vzp-smluvni-odbornost-5I1\"> </a></td><td>Pracov. resusc. a intenz. úst. lůž.péče chirurgické - I typu</td><td>5_1</td></tr><tr><td style=\"white-space:nowrap\">5I2<a name=\"vzp-smluvni-odbornost-5I2\"> </a></td><td>Prac. resusc. a intenz. úst.lůž. péče dět.chirurgie - I typu</td><td>5_1</td></tr><tr><td style=\"white-space:nowrap\">5I3<a name=\"vzp-smluvni-odbornost-5I3\"> </a></td><td>Pracov. resusc. a intenz.úst.lůž.péče úraz. chirur. - I typu</td><td>5_3</td></tr><tr><td style=\"white-space:nowrap\">5I4<a name=\"vzp-smluvni-odbornost-5I4\"> </a></td><td>Prac.resusc. a intenz. úst. lůž.péče cévní chirurgie- I typu</td><td>5_1</td></tr><tr><td style=\"white-space:nowrap\">5I5<a name=\"vzp-smluvni-odbornost-5I5\"> </a></td><td>Pracov.resusc. a intenz. úst. lůž. péče kardiochir. - I typu</td><td>5_5</td></tr><tr><td style=\"white-space:nowrap\">5I6<a name=\"vzp-smluvni-odbornost-5I6\"> </a></td><td>Pracov. resusc. a intenz. úst. lůž. péče neurochir. - I typu</td><td>5_6</td></tr><tr><td style=\"white-space:nowrap\">5I7<a name=\"vzp-smluvni-odbornost-5I7\"> </a></td><td>Prac. resusc. a intenz. úst. lůž. péče hrudní chir. - I typu</td><td>5_1</td></tr><tr><td style=\"white-space:nowrap\">5J1<a name=\"vzp-smluvni-odbornost-5J1\"> </a></td><td>Pracoviště jednodenní péče v oboru chirurgie</td><td/></tr><tr><td style=\"white-space:nowrap\">5R1<a name=\"vzp-smluvni-odbornost-5R1\"> </a></td><td>Pracoviště-operační sály chirurgie</td><td>5_1</td></tr><tr><td style=\"white-space:nowrap\">5R2<a name=\"vzp-smluvni-odbornost-5R2\"> </a></td><td>Pracoviště-operační sály dětské chirurgie</td><td>5_1</td></tr><tr><td style=\"white-space:nowrap\">5R3<a name=\"vzp-smluvni-odbornost-5R3\"> </a></td><td>Pracoviště-operační sály úrazové chirurgie</td><td>5_3</td></tr><tr><td style=\"white-space:nowrap\">5R4<a name=\"vzp-smluvni-odbornost-5R4\"> </a></td><td>Pracoviště-operační sály cévní chirurgie</td><td>5_1</td></tr><tr><td style=\"white-space:nowrap\">5R5<a name=\"vzp-smluvni-odbornost-5R5\"> </a></td><td>Pracoviště-operační sály kardiochirurgie</td><td>5_5</td></tr><tr><td style=\"white-space:nowrap\">5R6<a name=\"vzp-smluvni-odbornost-5R6\"> </a></td><td>Pracoviště-operační sály neurochirurgie</td><td>5_6</td></tr><tr><td style=\"white-space:nowrap\">5R7<a name=\"vzp-smluvni-odbornost-5R7\"> </a></td><td>Pracoviště-operační sály hrudní chirurgie</td><td>5_1</td></tr><tr><td style=\"white-space:nowrap\">5S9<a name=\"vzp-smluvni-odbornost-5S9\"> </a></td><td>Pracov. poskytující péči na spinálních jednotkách</td><td>5_1</td></tr><tr><td style=\"white-space:nowrap\">5T1<a name=\"vzp-smluvni-odbornost-5T1\"> </a></td><td>Pracov.resusc. a intenz. úst. lůž. péče chirurgické - T typu</td><td>5_1</td></tr><tr><td style=\"white-space:nowrap\">5T2<a name=\"vzp-smluvni-odbornost-5T2\"> </a></td><td>Prac.resusc. a intenz. úst. lůž. péče dět.chirurgie - T typu</td><td>5_1</td></tr><tr><td style=\"white-space:nowrap\">5T3<a name=\"vzp-smluvni-odbornost-5T3\"> </a></td><td>Pracov. resusc. a intenz.úst.lůž.péče úraz. chirur. - T typu</td><td>5_3</td></tr><tr><td style=\"white-space:nowrap\">5T4<a name=\"vzp-smluvni-odbornost-5T4\"> </a></td><td>Prac.resusc. a intenz. úst. lůž.péče cévní chirurgie- T typu</td><td>5_1</td></tr><tr><td style=\"white-space:nowrap\">5T5<a name=\"vzp-smluvni-odbornost-5T5\"> </a></td><td>Pracov.resusc. a intenz. úst. lůž. péče kardiochir. - T typu</td><td>5_5</td></tr><tr><td style=\"white-space:nowrap\">5T6<a name=\"vzp-smluvni-odbornost-5T6\"> </a></td><td>Pracov. resusc. a intenz. úst. lůž. péče neurochir. - T typu</td><td>5_6</td></tr><tr><td style=\"white-space:nowrap\">5T7<a name=\"vzp-smluvni-odbornost-5T7\"> </a></td><td>Pracov. resusc. a intenz. úst. lůž.péče hrudní chir.- T typu</td><td>5_1</td></tr><tr><td style=\"white-space:nowrap\">601<a name=\"vzp-smluvni-odbornost-601\"> </a></td><td>Pracoviště plastické chirurgie</td><td/></tr><tr><td style=\"white-space:nowrap\">602<a name=\"vzp-smluvni-odbornost-602\"> </a></td><td>Pracoviště popáleninové medicíny</td><td/></tr><tr><td style=\"white-space:nowrap\">603<a name=\"vzp-smluvni-odbornost-603\"> </a></td><td>Pracoviště gynekologie a porodnictví</td><td/></tr><tr><td style=\"white-space:nowrap\">604<a name=\"vzp-smluvni-odbornost-604\"> </a></td><td>Pracoviště dětské gynekologie</td><td/></tr><tr><td style=\"white-space:nowrap\">605<a name=\"vzp-smluvni-odbornost-605\"> </a></td><td>Pracoviště čelistní a obličejové chirurgie</td><td/></tr><tr><td style=\"white-space:nowrap\">606<a name=\"vzp-smluvni-odbornost-606\"> </a></td><td>Pracoviště ortopedie</td><td/></tr><tr><td style=\"white-space:nowrap\">607<a name=\"vzp-smluvni-odbornost-607\"> </a></td><td>Pracoviště ortopedické protetiky</td><td/></tr><tr><td style=\"white-space:nowrap\">613<a name=\"vzp-smluvni-odbornost-613\"> </a></td><td>Pracoviště akreditovaného centra asistované reprodukce</td><td/></tr><tr><td style=\"white-space:nowrap\">6F1<a name=\"vzp-smluvni-odbornost-6F1\"> </a></td><td>Pracov. standard. úst. lůž.péče plastické chirurgie - F typu</td><td>6_1</td></tr><tr><td style=\"white-space:nowrap\">6F2<a name=\"vzp-smluvni-odbornost-6F2\"> </a></td><td>Prac. standard. úst. lůž.péče popáleninové medicíny - F typu</td><td>6_2</td></tr><tr><td style=\"white-space:nowrap\">6F3<a name=\"vzp-smluvni-odbornost-6F3\"> </a></td><td>Pracov. standard. úst. lůž. péče gynekologické - F typu</td><td>6_3</td></tr><tr><td style=\"white-space:nowrap\">6F4<a name=\"vzp-smluvni-odbornost-6F4\"> </a></td><td>Pracov. standard. úst. lůž. péče dětské gynekologie - F typu</td><td>6_3</td></tr><tr><td style=\"white-space:nowrap\">6F5<a name=\"vzp-smluvni-odbornost-6F5\"> </a></td><td>Prac.stand.úst.lůž.péče stomatochir.a čelist.ortop. - F typu</td><td>6_5</td></tr><tr><td style=\"white-space:nowrap\">6F6<a name=\"vzp-smluvni-odbornost-6F6\"> </a></td><td>Pracov. standardní ústavní lůž. péče ortopedické - F typu</td><td>6_6</td></tr><tr><td style=\"white-space:nowrap\">6F7<a name=\"vzp-smluvni-odbornost-6F7\"> </a></td><td>Prac.standard. úst. lůž. péče ortopedické protetiky - F typu</td><td>6_7</td></tr><tr><td style=\"white-space:nowrap\">6H1<a name=\"vzp-smluvni-odbornost-6H1\"> </a></td><td>Prac. standard. úst. lůž. péče plastické chirurgie - H typu</td><td>6_1</td></tr><tr><td style=\"white-space:nowrap\">6H2<a name=\"vzp-smluvni-odbornost-6H2\"> </a></td><td>Prac.standard. úst. lůž. péče popáleninové medicíny - H typu</td><td>6_2</td></tr><tr><td style=\"white-space:nowrap\">6H3<a name=\"vzp-smluvni-odbornost-6H3\"> </a></td><td>Pracov. standard. úst. lůž. péče gynekologické - H typu</td><td>6_3</td></tr><tr><td style=\"white-space:nowrap\">6H4<a name=\"vzp-smluvni-odbornost-6H4\"> </a></td><td>Pracov. standard. úst. lůž. péče dětské gynekologie - H typu</td><td>6_3</td></tr><tr><td style=\"white-space:nowrap\">6H6<a name=\"vzp-smluvni-odbornost-6H6\"> </a></td><td>Pracov. standardní ústavní lůžkové péče ortopedické - H typu</td><td>6_6</td></tr><tr><td style=\"white-space:nowrap\">6H7<a name=\"vzp-smluvni-odbornost-6H7\"> </a></td><td>Prac.standard. úst. lůž. péče ortopedické protetiky - H typu</td><td>6_7</td></tr><tr><td style=\"white-space:nowrap\">6I1<a name=\"vzp-smluvni-odbornost-6I1\"> </a></td><td>Prac. resusc. a intenz.úst.lůž.péče plastic.chirur. - I typu</td><td>6_1</td></tr><tr><td style=\"white-space:nowrap\">6I2<a name=\"vzp-smluvni-odbornost-6I2\"> </a></td><td>Prac.resusc. a intenz.úst.lůž.péče popálen.medicín. - I typu</td><td>6_2</td></tr><tr><td style=\"white-space:nowrap\">6I3<a name=\"vzp-smluvni-odbornost-6I3\"> </a></td><td>Prac. resusc. a intenz. úst.lůž. péče gynekologické - I typu</td><td>6_3</td></tr><tr><td style=\"white-space:nowrap\">6I4<a name=\"vzp-smluvni-odbornost-6I4\"> </a></td><td>Prac.resusc. a intenz.úst.lůž. péče dětské gynekol. - I typu</td><td>6_3</td></tr><tr><td style=\"white-space:nowrap\">6I5<a name=\"vzp-smluvni-odbornost-6I5\"> </a></td><td>Prac. intenz.úst.lůž. péče stomatoch.a čelis.ortop.-I typu</td><td>6_5</td></tr><tr><td style=\"white-space:nowrap\">6I6<a name=\"vzp-smluvni-odbornost-6I6\"> </a></td><td>Prac. resusc. a intenz. úst. lůž. péče ortopedické - I typu</td><td>6_6</td></tr><tr><td style=\"white-space:nowrap\">6J1<a name=\"vzp-smluvni-odbornost-6J1\"> </a></td><td>Pracoviště jednodenní péče v oboru plastické chirurgie</td><td/></tr><tr><td style=\"white-space:nowrap\">6J3<a name=\"vzp-smluvni-odbornost-6J3\"> </a></td><td>Pracoviště jednodenní péče v oboru gynekologie</td><td/></tr><tr><td style=\"white-space:nowrap\">6J6<a name=\"vzp-smluvni-odbornost-6J6\"> </a></td><td>Pracoviště jednodenní péče v oboru ortopedie</td><td/></tr><tr><td style=\"white-space:nowrap\">6P3<a name=\"vzp-smluvni-odbornost-6P3\"> </a></td><td>Pracoviště intenz. a intermediární úst.lůž. porodnické péče</td><td>6_3</td></tr><tr><td style=\"white-space:nowrap\">6R1<a name=\"vzp-smluvni-odbornost-6R1\"> </a></td><td>Pracovište-operační sály plastické chirurgie</td><td>6_1</td></tr><tr><td style=\"white-space:nowrap\">6R2<a name=\"vzp-smluvni-odbornost-6R2\"> </a></td><td>Pracovište-operační sály popáleninové medicíny</td><td>6_2</td></tr><tr><td style=\"white-space:nowrap\">6R3<a name=\"vzp-smluvni-odbornost-6R3\"> </a></td><td>Pracovište-operační sály gynekologie</td><td>6_3</td></tr><tr><td style=\"white-space:nowrap\">6R4<a name=\"vzp-smluvni-odbornost-6R4\"> </a></td><td>Pracovište-operační sály dětské gynekologie</td><td>6_3</td></tr><tr><td style=\"white-space:nowrap\">6R5<a name=\"vzp-smluvni-odbornost-6R5\"> </a></td><td>Pracovište-operační sály stomatochirurgie a čelist.ortopedie</td><td>6_5</td></tr><tr><td style=\"white-space:nowrap\">6R6<a name=\"vzp-smluvni-odbornost-6R6\"> </a></td><td>Pracovište-operační sály ortopedie</td><td>6_6</td></tr><tr><td style=\"white-space:nowrap\">6T1<a name=\"vzp-smluvni-odbornost-6T1\"> </a></td><td>Prac.resusc. a intenz. úst.lůž.péče plastic.chirur. - T typu</td><td>6_1</td></tr><tr><td style=\"white-space:nowrap\">6T2<a name=\"vzp-smluvni-odbornost-6T2\"> </a></td><td>Prac.resusc. a intenz.úst.lůž.péče popálen.medicín. - T typu</td><td>6_2</td></tr><tr><td style=\"white-space:nowrap\">6T3<a name=\"vzp-smluvni-odbornost-6T3\"> </a></td><td>Prac. resusc. a intenz. úst.lůž. péče gynekologické - T typu</td><td>6_3</td></tr><tr><td style=\"white-space:nowrap\">6T4<a name=\"vzp-smluvni-odbornost-6T4\"> </a></td><td>Prac.resusc. a intenz. úst.lůž.péče dětské gynekol. - T typu</td><td>6_3</td></tr><tr><td style=\"white-space:nowrap\">6T5<a name=\"vzp-smluvni-odbornost-6T5\"> </a></td><td>Prac. res.a inten.úst.lůž.péče stomatoch.a čelis.ortop.-T t.</td><td>6_5</td></tr><tr><td style=\"white-space:nowrap\">6T6<a name=\"vzp-smluvni-odbornost-6T6\"> </a></td><td>Pracov. resusc. a intenz. úst.lůž. péče ortopedické - T typu</td><td>6_6</td></tr><tr><td style=\"white-space:nowrap\">6Z1<a name=\"vzp-smluvni-odbornost-6Z1\"> </a></td><td>Pracoviště-péče na zákrokovém sálku v oboru plastic.chirurg</td><td/></tr><tr><td style=\"white-space:nowrap\">6Z3<a name=\"vzp-smluvni-odbornost-6Z3\"> </a></td><td>Pracoviště-péče na zákrokovém sálku v oboru gynekologie</td><td/></tr><tr><td style=\"white-space:nowrap\">6Z6<a name=\"vzp-smluvni-odbornost-6Z6\"> </a></td><td>Pracoviště-péče na zákrokovém sálku v oboru ortopedie</td><td/></tr><tr><td style=\"white-space:nowrap\">701<a name=\"vzp-smluvni-odbornost-701\"> </a></td><td>Pracoviště otorinolaryngologie</td><td/></tr><tr><td style=\"white-space:nowrap\">702<a name=\"vzp-smluvni-odbornost-702\"> </a></td><td>Pracoviště foniatrie</td><td/></tr><tr><td style=\"white-space:nowrap\">703<a name=\"vzp-smluvni-odbornost-703\"> </a></td><td>Pracoviště audiologie</td><td/></tr><tr><td style=\"white-space:nowrap\">704<a name=\"vzp-smluvni-odbornost-704\"> </a></td><td>Pracoviště dětské otorinolaryngologie</td><td/></tr><tr><td style=\"white-space:nowrap\">705<a name=\"vzp-smluvni-odbornost-705\"> </a></td><td>Pracoviště oftalmologie</td><td/></tr><tr><td style=\"white-space:nowrap\">706<a name=\"vzp-smluvni-odbornost-706\"> </a></td><td>Pracoviště urologie</td><td/></tr><tr><td style=\"white-space:nowrap\">707<a name=\"vzp-smluvni-odbornost-707\"> </a></td><td>Pracoviště dětské urologie</td><td/></tr><tr><td style=\"white-space:nowrap\">708<a name=\"vzp-smluvni-odbornost-708\"> </a></td><td>Pracoviště anesteziologicko - resuscitační</td><td/></tr><tr><td style=\"white-space:nowrap\">709<a name=\"vzp-smluvni-odbornost-709\"> </a></td><td>Pracoviště zdravotnické záchranné služby (RZP+RLP)</td><td/></tr><tr><td style=\"white-space:nowrap\">7D8<a name=\"vzp-smluvni-odbornost-7D8\"> </a></td><td>Pracoviště dlouhodobé intenzivní péče (DIP)</td><td>7_8</td></tr><tr><td style=\"white-space:nowrap\">7F1<a name=\"vzp-smluvni-odbornost-7F1\"> </a></td><td>Pracoviště standardní ústavní lůžkové péče ORL - F typu</td><td>7_1</td></tr><tr><td style=\"white-space:nowrap\">7F2<a name=\"vzp-smluvni-odbornost-7F2\"> </a></td><td>Pracov. standardní ústavní lůžkové péče foniatrické - F typu</td><td>7_2</td></tr><tr><td style=\"white-space:nowrap\">7F4<a name=\"vzp-smluvni-odbornost-7F4\"> </a></td><td>Pracov. standardní ústavní lůžkové péče dětské ORL - F typu</td><td>7_1</td></tr><tr><td style=\"white-space:nowrap\">7F5<a name=\"vzp-smluvni-odbornost-7F5\"> </a></td><td>Prac. standard. ústavní lůžkové péče oftalmologické - F typu</td><td>7_5</td></tr><tr><td style=\"white-space:nowrap\">7F6<a name=\"vzp-smluvni-odbornost-7F6\"> </a></td><td>Pracov. standardní ústavní lůžkové péče urologické - F typu</td><td>7_6</td></tr><tr><td style=\"white-space:nowrap\">7F7<a name=\"vzp-smluvni-odbornost-7F7\"> </a></td><td>Prac. standard. ústav. lůžkové péče dětské urologie - F typu</td><td>7_6</td></tr><tr><td style=\"white-space:nowrap\">7H1<a name=\"vzp-smluvni-odbornost-7H1\"> </a></td><td>Pracov. standardní ústavní lůžkové péče ORL - H typu</td><td>7_1</td></tr><tr><td style=\"white-space:nowrap\">7H2<a name=\"vzp-smluvni-odbornost-7H2\"> </a></td><td>Pracov. standardní ústavní lůžkové péče foniatrické - H typu</td><td>7_2</td></tr><tr><td style=\"white-space:nowrap\">7H4<a name=\"vzp-smluvni-odbornost-7H4\"> </a></td><td>Pracov. standardní ústavní lůžkové péče dětské ORL - H typu</td><td>7_1</td></tr><tr><td style=\"white-space:nowrap\">7H5<a name=\"vzp-smluvni-odbornost-7H5\"> </a></td><td>Prac. standard. ústavní lůžkové péče oftalmologické - H typu</td><td>7_5</td></tr><tr><td style=\"white-space:nowrap\">7H6<a name=\"vzp-smluvni-odbornost-7H6\"> </a></td><td>Pracov. standardní ústavní lůžkové péče urologické - H typu</td><td>7_6</td></tr><tr><td style=\"white-space:nowrap\">7H7<a name=\"vzp-smluvni-odbornost-7H7\"> </a></td><td>Pracov. standard. ústav. lůž. péče dětské urologie - H typu</td><td>7_6</td></tr><tr><td style=\"white-space:nowrap\">7I1<a name=\"vzp-smluvni-odbornost-7I1\"> </a></td><td>Pracov. resusc. a intenz. ústav. lůžkové péče ORL - I typu</td><td>7_1</td></tr><tr><td style=\"white-space:nowrap\">7I4<a name=\"vzp-smluvni-odbornost-7I4\"> </a></td><td>Pracov. resusc. a intenz. úst. lůž. péče dětské ORL - I typu</td><td>7_1</td></tr><tr><td style=\"white-space:nowrap\">7I6<a name=\"vzp-smluvni-odbornost-7I6\"> </a></td><td>Pracov.resusc. a intenz. ústav. lůž.péče urologické - I typu</td><td>7_6</td></tr><tr><td style=\"white-space:nowrap\">7I7<a name=\"vzp-smluvni-odbornost-7I7\"> </a></td><td>Pracov.resusc. a intenz. úst. lůž.péče dět.urologie - I typu</td><td>7_6</td></tr><tr><td style=\"white-space:nowrap\">7I8<a name=\"vzp-smluvni-odbornost-7I8\"> </a></td><td>Pracov. resuscitační ústavní lůžkové péče - ARO - I typu</td><td>7_8</td></tr><tr><td style=\"white-space:nowrap\">7J1<a name=\"vzp-smluvni-odbornost-7J1\"> </a></td><td>Pracoviště jednodenní péče v oboru ORL</td><td/></tr><tr><td style=\"white-space:nowrap\">7J6<a name=\"vzp-smluvni-odbornost-7J6\"> </a></td><td>Pracoviště jednodenní péče v oboru urologie</td><td/></tr><tr><td style=\"white-space:nowrap\">7R1<a name=\"vzp-smluvni-odbornost-7R1\"> </a></td><td>Pracoviště-operační sály ORL</td><td>7_1</td></tr><tr><td style=\"white-space:nowrap\">7R5<a name=\"vzp-smluvni-odbornost-7R5\"> </a></td><td>Pracoviště-operační sály oftalmologie</td><td/></tr><tr><td style=\"white-space:nowrap\">7R6<a name=\"vzp-smluvni-odbornost-7R6\"> </a></td><td>Pracoviště-operační sály urologie</td><td>7_6</td></tr><tr><td style=\"white-space:nowrap\">7R7<a name=\"vzp-smluvni-odbornost-7R7\"> </a></td><td>Pracoviště-operační sály dětské urologie</td><td>7_6</td></tr><tr><td style=\"white-space:nowrap\">7T1<a name=\"vzp-smluvni-odbornost-7T1\"> </a></td><td>Pracov. resusc. a intenz. ústav. lůžkové péče ORL - T typu</td><td>7_1</td></tr><tr><td style=\"white-space:nowrap\">7T4<a name=\"vzp-smluvni-odbornost-7T4\"> </a></td><td>Pracov. resusc. a intenz. úst. lůž. péče dětské ORL - T typu</td><td>7_1</td></tr><tr><td style=\"white-space:nowrap\">7T6<a name=\"vzp-smluvni-odbornost-7T6\"> </a></td><td>Pracov. resusc. a intenz. úst. lůž. péče urologické - T typu</td><td>7_6</td></tr><tr><td style=\"white-space:nowrap\">7T7<a name=\"vzp-smluvni-odbornost-7T7\"> </a></td><td>Pracov.resusc. a intenz. úst. lůž.péče dět.urologie - T typu</td><td>7_6</td></tr><tr><td style=\"white-space:nowrap\">7T8<a name=\"vzp-smluvni-odbornost-7T8\"> </a></td><td>Pracov. resuscitační ústavní lůžkové péče - ARO - T typu</td><td>7_8</td></tr><tr><td style=\"white-space:nowrap\">7U4<a name=\"vzp-smluvni-odbornost-7U4\"> </a></td><td>Pracov. dlouhod. (chronic.) úst.lůž.péče dětské ORL - U typu</td><td>7_1</td></tr><tr><td style=\"white-space:nowrap\">7U5<a name=\"vzp-smluvni-odbornost-7U5\"> </a></td><td>Pracov. dlouhod.(chronic.) úst.lůž.péče oftalmolog. - U typu</td><td>7_5</td></tr><tr><td style=\"white-space:nowrap\">7U8<a name=\"vzp-smluvni-odbornost-7U8\"> </a></td><td>Pracoviště dlouhodobé intenzivní ošetřovatelské péče (DIOP)</td><td>7_8</td></tr><tr><td style=\"white-space:nowrap\">801<a name=\"vzp-smluvni-odbornost-801\"> </a></td><td>Pracoviště klinické biochemie</td><td/></tr><tr><td style=\"white-space:nowrap\">802<a name=\"vzp-smluvni-odbornost-802\"> </a></td><td>Pracoviště lékařské mikrobiologie</td><td/></tr><tr><td style=\"white-space:nowrap\">803<a name=\"vzp-smluvni-odbornost-803\"> </a></td><td>Pracoviště lékařské bakteriologie</td><td/></tr><tr><td style=\"white-space:nowrap\">804<a name=\"vzp-smluvni-odbornost-804\"> </a></td><td>Pracoviště lékařské parazitologie</td><td/></tr><tr><td style=\"white-space:nowrap\">805<a name=\"vzp-smluvni-odbornost-805\"> </a></td><td>Pracoviště lékařské virologie</td><td/></tr><tr><td style=\"white-space:nowrap\">806<a name=\"vzp-smluvni-odbornost-806\"> </a></td><td>Pracoviště s osvědčením pro provádění screeningu nádoru prsu</td><td/></tr><tr><td style=\"white-space:nowrap\">807<a name=\"vzp-smluvni-odbornost-807\"> </a></td><td>Pracoviště patologické anatomie</td><td/></tr><tr><td style=\"white-space:nowrap\">808<a name=\"vzp-smluvni-odbornost-808\"> </a></td><td>Pracoviště soudního lékařství</td><td/></tr><tr><td style=\"white-space:nowrap\">809<a name=\"vzp-smluvni-odbornost-809\"> </a></td><td>Pracoviště radiodiagnostiky</td><td/></tr><tr><td style=\"white-space:nowrap\">810<a name=\"vzp-smluvni-odbornost-810\"> </a></td><td>Pracoviště magnetické rezonance</td><td/></tr><tr><td style=\"white-space:nowrap\">812<a name=\"vzp-smluvni-odbornost-812\"> </a></td><td>Pracoviště jiného laboratorního oboru</td><td/></tr><tr><td style=\"white-space:nowrap\">813<a name=\"vzp-smluvni-odbornost-813\"> </a></td><td>Laboratoř alergologická a imunologická</td><td/></tr><tr><td style=\"white-space:nowrap\">814<a name=\"vzp-smluvni-odbornost-814\"> </a></td><td>Laboratoř toxikologická</td><td/></tr><tr><td style=\"white-space:nowrap\">815<a name=\"vzp-smluvni-odbornost-815\"> </a></td><td>Laboratoř nukleární mediciny</td><td/></tr><tr><td style=\"white-space:nowrap\">816<a name=\"vzp-smluvni-odbornost-816\"> </a></td><td>Laboratoř lékařské genetiky</td><td/></tr><tr><td style=\"white-space:nowrap\">817<a name=\"vzp-smluvni-odbornost-817\"> </a></td><td>Laboratoř klinické cytologie</td><td/></tr><tr><td style=\"white-space:nowrap\">818<a name=\"vzp-smluvni-odbornost-818\"> </a></td><td>Laboratoř hematologická</td><td/></tr><tr><td style=\"white-space:nowrap\">820<a name=\"vzp-smluvni-odbornost-820\"> </a></td><td>Laboratoř provádějící screening karcinomu děložního hrdla</td><td/></tr><tr><td style=\"white-space:nowrap\">822<a name=\"vzp-smluvni-odbornost-822\"> </a></td><td>Laboratoř mykologická</td><td/></tr><tr><td style=\"white-space:nowrap\">881<a name=\"vzp-smluvni-odbornost-881\"> </a></td><td>Ambulance klinické biochemie</td><td/></tr><tr><td style=\"white-space:nowrap\">901<a name=\"vzp-smluvni-odbornost-901\"> </a></td><td>Pracoviště klinické psychologie</td><td/></tr><tr><td style=\"white-space:nowrap\">902<a name=\"vzp-smluvni-odbornost-902\"> </a></td><td>Samostatné pracoviště fyzioterapeutů</td><td/></tr><tr><td style=\"white-space:nowrap\">903<a name=\"vzp-smluvni-odbornost-903\"> </a></td><td>Pracoviště klinické logopedie</td><td/></tr><tr><td style=\"white-space:nowrap\">904<a name=\"vzp-smluvni-odbornost-904\"> </a></td><td>Samostatné prac. jiných zdrav. pracovníků - vysokoškoláků</td><td/></tr><tr><td style=\"white-space:nowrap\">913<a name=\"vzp-smluvni-odbornost-913\"> </a></td><td>Prac.ošetřovat. a rehabilit.péče v pobyt.zaříz.sociál.služeb</td><td/></tr><tr><td style=\"white-space:nowrap\">914<a name=\"vzp-smluvni-odbornost-914\"> </a></td><td>Samostatné pracoviště psychiatrických sester</td><td/></tr><tr><td style=\"white-space:nowrap\">917<a name=\"vzp-smluvni-odbornost-917\"> </a></td><td>Samostatné pracoviště ergoterapeutů</td><td/></tr><tr><td style=\"white-space:nowrap\">921<a name=\"vzp-smluvni-odbornost-921\"> </a></td><td>Samostatné pracoviště porodních asistentek</td><td/></tr><tr><td style=\"white-space:nowrap\">925<a name=\"vzp-smluvni-odbornost-925\"> </a></td><td>Pracoviště domácí péče - SZP</td><td/></tr><tr><td style=\"white-space:nowrap\">927<a name=\"vzp-smluvni-odbornost-927\"> </a></td><td>Samostatné prac. ortoptických sester</td><td/></tr><tr><td style=\"white-space:nowrap\">989<a name=\"vzp-smluvni-odbornost-989\"> </a></td><td>Pracoviště dopravy raněných, nemocných a rodiček</td><td/></tr><tr><td style=\"white-space:nowrap\">994<a name=\"vzp-smluvni-odbornost-994\"> </a></td><td>Odb.pouze pro indik.péče komplementu (lékař.zaměstn.koj.úst)</td><td/></tr><tr><td style=\"white-space:nowrap\">995<a name=\"vzp-smluvni-odbornost-995\"> </a></td><td>Odbornost pouze pro indikaci dopravy zpět do místa bydliště</td><td/></tr><tr><td style=\"white-space:nowrap\">996<a name=\"vzp-smluvni-odbornost-996\"> </a></td><td>Odbornost pouze pro úhradu cestovného pacientům</td><td/></tr><tr><td style=\"white-space:nowrap\">9F8<a name=\"vzp-smluvni-odbornost-9F8\"> </a></td><td>Pracoviště neúplné ústavní péče - F typu</td><td>9_8</td></tr><tr><td style=\"white-space:nowrap\">9F9<a name=\"vzp-smluvni-odbornost-9F9\"> </a></td><td>Pracov. ústavní péče na ošetřovatelském lůžku - F typu</td><td>9_9</td></tr><tr><td style=\"white-space:nowrap\">9H8<a name=\"vzp-smluvni-odbornost-9H8\"> </a></td><td>Pracoviště neúplné ústavní péče - H typu</td><td>9_8</td></tr><tr><td style=\"white-space:nowrap\">9H9<a name=\"vzp-smluvni-odbornost-9H9\"> </a></td><td>Pracov. ústavní péče na ošetřovatelském lůžku - H typu</td><td>9_9</td></tr><tr><td style=\"white-space:nowrap\">9U7<a name=\"vzp-smluvni-odbornost-9U7\"> </a></td><td>Pracov. ústavní následné péče v LDN</td><td>9_7</td></tr><tr><td style=\"white-space:nowrap\">9U9<a name=\"vzp-smluvni-odbornost-9U9\"> </a></td><td>Pracov. ústavní následné ošetřovatelské péče v hospici</td><td>9_9</td></tr></table></div>"
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://ncez.mzcr.cz/terminology/CodeSystem/vzp-smluvni-odbornost"] ;
+  fhir:CodeSystem.version [ fhir:value "770"] ;
+  fhir:CodeSystem.name [ fhir:value "VzpSmluvniOdbornost"] ;
+  fhir:CodeSystem.title [ fhir:value "VZP - smluvní odbornost pracovišť"] ;
+  fhir:CodeSystem.status [ fhir:value "active"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2026-07-27T08:33:56.224248Z"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "HL7 Czech Republic"] ;
+  fhir:CodeSystem.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.name [ fhir:value "HL7 Czech Republic" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://www.hl7.cz/" ]
+     ]
+  ] ;
+  fhir:CodeSystem.description [ fhir:value "Kódový systém VZP - smluvní odbornost pracovišť je využíván pro objednávání a vykazování/vyúčtování zdravotních služeb."] ;
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "CZ" ] ;
+       fhir:Coding.display [ fhir:value "Czechia" ]
+     ]
+  ] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.count [ fhir:value "324"^^xsd:nonNegativeInteger] ;
+  fhir:CodeSystem.property [
+     fhir:index 0 ;
+     fhir:CodeSystem.property.code [ fhir:value "SODB" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "string" ]
+  ] ;
+  fhir:CodeSystem.concept [
+     fhir:index 0 ;
+     fhir:CodeSystem.concept.code [ fhir:value "001" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště praktického lékaře pro dospělé" ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "002" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště praktického lékaře pro děti a dorost" ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.concept.code [ fhir:value "003" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště LSPP" ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.concept.code [ fhir:value "004" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště zvláštní ambulantní péče v ZZ ústavní péče" ]
+  ], [
+     fhir:index 4 ;
+     fhir:CodeSystem.concept.code [ fhir:value "014" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště praktického zubního lékaře" ]
+  ], [
+     fhir:index 5 ;
+     fhir:CodeSystem.concept.code [ fhir:value "015" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště čelistní ortopedie" ]
+  ], [
+     fhir:index 6 ;
+     fhir:CodeSystem.concept.code [ fhir:value "019" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště stomatologické LSPP" ]
+  ], [
+     fhir:index 7 ;
+     fhir:CodeSystem.concept.code [ fhir:value "091" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště péče o dárce krvetvorných buněk" ]
+  ], [
+     fhir:index 8 ;
+     fhir:CodeSystem.concept.code [ fhir:value "101" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště interního lékařství" ]
+  ], [
+     fhir:index 9 ;
+     fhir:CodeSystem.concept.code [ fhir:value "102" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště angiologie" ]
+  ], [
+     fhir:index 10 ;
+     fhir:CodeSystem.concept.code [ fhir:value "103" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště diabetologie" ]
+  ], [
+     fhir:index 11 ;
+     fhir:CodeSystem.concept.code [ fhir:value "104" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště endokrinologie (mimo laboratorní činnosti)" ]
+  ], [
+     fhir:index 12 ;
+     fhir:CodeSystem.concept.code [ fhir:value "105" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště gastroenterologie a hepatologie" ]
+  ], [
+     fhir:index 13 ;
+     fhir:CodeSystem.concept.code [ fhir:value "106" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště geriatrie" ]
+  ], [
+     fhir:index 14 ;
+     fhir:CodeSystem.concept.code [ fhir:value "107" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště kardiologie" ]
+  ], [
+     fhir:index 15 ;
+     fhir:CodeSystem.concept.code [ fhir:value "108" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště nefrologie" ]
+  ], [
+     fhir:index 16 ;
+     fhir:CodeSystem.concept.code [ fhir:value "109" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště revmatologie" ]
+  ], [
+     fhir:index 17 ;
+     fhir:CodeSystem.concept.code [ fhir:value "128" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště hemodialýzy" ]
+  ], [
+     fhir:index 18 ;
+     fhir:CodeSystem.concept.code [ fhir:value "1F1" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště standardní ústavní lůžkové péče interní - F typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "1_1" ]
+     ]
+  ], [
+     fhir:index 19 ;
+     fhir:CodeSystem.concept.code [ fhir:value "1F3" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště standard. úst. lůžk. péče diabetologické - F typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "1_1" ]
+     ]
+  ], [
+     fhir:index 20 ;
+     fhir:CodeSystem.concept.code [ fhir:value "1F4" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště stand. úst. lůžk. péče endokrinologické - F typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "1_1" ]
+     ]
+  ], [
+     fhir:index 21 ;
+     fhir:CodeSystem.concept.code [ fhir:value "1F5" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Prac. stand. úst. lůžk. péče gastroent. a hepatol. - F typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "1_1" ]
+     ]
+  ], [
+     fhir:index 22 ;
+     fhir:CodeSystem.concept.code [ fhir:value "1F6" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště standardní ústav. lůžk. péče geriatrické - F typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "1_6" ]
+     ]
+  ], [
+     fhir:index 23 ;
+     fhir:CodeSystem.concept.code [ fhir:value "1F7" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště standard. úst. lůžk. péče kardiologické  - F typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "1_7" ]
+     ]
+  ], [
+     fhir:index 24 ;
+     fhir:CodeSystem.concept.code [ fhir:value "1F8" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště standard. ústav. lůžk. péče nefrologické - F typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "1_1" ]
+     ]
+  ], [
+     fhir:index 25 ;
+     fhir:CodeSystem.concept.code [ fhir:value "1F9" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště standard. úst. lůžk. péče revmatologické - F typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "1_9" ]
+     ]
+  ], [
+     fhir:index 26 ;
+     fhir:CodeSystem.concept.code [ fhir:value "1H1" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště standardní ústavní lůžk. péče interní - H typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "1_1" ]
+     ]
+  ], [
+     fhir:index 27 ;
+     fhir:CodeSystem.concept.code [ fhir:value "1H3" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště standard. úst. lůžk. péče diabetologické - H typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "1_1" ]
+     ]
+  ], [
+     fhir:index 28 ;
+     fhir:CodeSystem.concept.code [ fhir:value "1H4" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště stand. úst. lůžk. péče endokrinologické - H typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "1_1" ]
+     ]
+  ], [
+     fhir:index 29 ;
+     fhir:CodeSystem.concept.code [ fhir:value "1H5" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Prac. stand. úst. lůžk. péče gastroent. a hepatol. - H typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "1_1" ]
+     ]
+  ], [
+     fhir:index 30 ;
+     fhir:CodeSystem.concept.code [ fhir:value "1H6" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště standardní ústav. lůžk. péče geriatrické - H typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "1_6" ]
+     ]
+  ], [
+     fhir:index 31 ;
+     fhir:CodeSystem.concept.code [ fhir:value "1H7" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště standard. úst. lůžk. péče kardiologické - H typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "1_7" ]
+     ]
+  ], [
+     fhir:index 32 ;
+     fhir:CodeSystem.concept.code [ fhir:value "1H8" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště standardní ústav. lůžk.péče nefrologické - H typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "1_1" ]
+     ]
+  ], [
+     fhir:index 33 ;
+     fhir:CodeSystem.concept.code [ fhir:value "1H9" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště standard. úst. lůžk. péče revmatologické - H typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "1_9" ]
+     ]
+  ], [
+     fhir:index 34 ;
+     fhir:CodeSystem.concept.code [ fhir:value "1I1" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Prac. resusc. a intenziv. ústavní lůž. péče interní - I typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "1_1" ]
+     ]
+  ], [
+     fhir:index 35 ;
+     fhir:CodeSystem.concept.code [ fhir:value "1I3" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště intenzivní ústavní lůž.péče diabetolog.- I typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "1_1" ]
+     ]
+  ], [
+     fhir:index 36 ;
+     fhir:CodeSystem.concept.code [ fhir:value "1I5" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště intenzivní ústavní lůž. péče hepatolog. - I typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "1_1" ]
+     ]
+  ], [
+     fhir:index 37 ;
+     fhir:CodeSystem.concept.code [ fhir:value "1I6" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov.resusc. a intenziv.úst. lůž. péče geriatric. - I typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "1_6" ]
+     ]
+  ], [
+     fhir:index 38 ;
+     fhir:CodeSystem.concept.code [ fhir:value "1I7" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov.resusc.a intenziv.úst. lůž. péče kardiologic.- I typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "1_7" ]
+     ]
+  ], [
+     fhir:index 39 ;
+     fhir:CodeSystem.concept.code [ fhir:value "1I8" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště intenziv. úst. lůž. péče nefrologic. - I typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "1_1" ]
+     ]
+  ], [
+     fhir:index 40 ;
+     fhir:CodeSystem.concept.code [ fhir:value "1R7" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště - operační sály kardiologie" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "1_7" ]
+     ]
+  ], [
+     fhir:index 41 ;
+     fhir:CodeSystem.concept.code [ fhir:value "1T1" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. resusc. a intenziv. úst. lůž. péče interní - T typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "1_1" ]
+     ]
+  ], [
+     fhir:index 42 ;
+     fhir:CodeSystem.concept.code [ fhir:value "1T3" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště intenziv. ústav. lůž. péče  diabetolog. - T typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "1_1" ]
+     ]
+  ], [
+     fhir:index 43 ;
+     fhir:CodeSystem.concept.code [ fhir:value "1T5" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště intenziv. ústavní lůž. péče  hepatolog. - T typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "1_1" ]
+     ]
+  ], [
+     fhir:index 44 ;
+     fhir:CodeSystem.concept.code [ fhir:value "1T6" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. resusc.a intenziv.úst.lůž. péče geriatric. - T typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "1_6" ]
+     ]
+  ], [
+     fhir:index 45 ;
+     fhir:CodeSystem.concept.code [ fhir:value "1T7" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. resusc.a intenziv.ústav.lůž. péče kardiolog.- T typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "1_7" ]
+     ]
+  ], [
+     fhir:index 46 ;
+     fhir:CodeSystem.concept.code [ fhir:value "1T8" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště intenziv. úst. lůž. péče nefrologic. - T typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "1_1" ]
+     ]
+  ], [
+     fhir:index 47 ;
+     fhir:CodeSystem.concept.code [ fhir:value "1U1" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště dlouhodobé (chronické) interní lůž.péče - U typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "1_1" ]
+     ]
+  ], [
+     fhir:index 48 ;
+     fhir:CodeSystem.concept.code [ fhir:value "1U6" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. dlouhodobé (chronické) geriatrické lůž.péče - U typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "1_6" ]
+     ]
+  ], [
+     fhir:index 49 ;
+     fhir:CodeSystem.concept.code [ fhir:value "1U9" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov.dlouhodobé (chronické) revmatolog. lůž. péče - U typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "1_9" ]
+     ]
+  ], [
+     fhir:index 50 ;
+     fhir:CodeSystem.concept.code [ fhir:value "201" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště fyziatrie a rehabilitačního lékařství" ]
+  ], [
+     fhir:index 51 ;
+     fhir:CodeSystem.concept.code [ fhir:value "202" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště klinické hematologie" ]
+  ], [
+     fhir:index 52 ;
+     fhir:CodeSystem.concept.code [ fhir:value "203" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště přenosných nemocí" ]
+  ], [
+     fhir:index 53 ;
+     fhir:CodeSystem.concept.code [ fhir:value "204" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště tělovýchovného lékařství" ]
+  ], [
+     fhir:index 54 ;
+     fhir:CodeSystem.concept.code [ fhir:value "205" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště tuberkulózy a respiračních nemocí" ]
+  ], [
+     fhir:index 55 ;
+     fhir:CodeSystem.concept.code [ fhir:value "206" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště klinické farmakologie (mimo laboratorní činnosti)" ]
+  ], [
+     fhir:index 56 ;
+     fhir:CodeSystem.concept.code [ fhir:value "207" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště alergologie a klinické imunologie" ]
+  ], [
+     fhir:index 57 ;
+     fhir:CodeSystem.concept.code [ fhir:value "208" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště lékařské genetiky" ]
+  ], [
+     fhir:index 58 ;
+     fhir:CodeSystem.concept.code [ fhir:value "209" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště neurologie" ]
+  ], [
+     fhir:index 59 ;
+     fhir:CodeSystem.concept.code [ fhir:value "222" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště transfúzní služby" ]
+  ], [
+     fhir:index 60 ;
+     fhir:CodeSystem.concept.code [ fhir:value "2F1" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. standardní ústav. lůž. péče rehabilitační - F typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "2_1" ]
+     ]
+  ], [
+     fhir:index 61 ;
+     fhir:CodeSystem.concept.code [ fhir:value "2F2" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. standard.úst.lůž. péče klinické hematologie - F typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "2_2" ]
+     ]
+  ], [
+     fhir:index 62 ;
+     fhir:CodeSystem.concept.code [ fhir:value "2F3" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. standard. úst. lůž. péče přenosných nemocí - F typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "2_3" ]
+     ]
+  ], [
+     fhir:index 63 ;
+     fhir:CodeSystem.concept.code [ fhir:value "2F5" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. standard. ústav. lůž. péče TRN a pneumolog. - F typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "2_5" ]
+     ]
+  ], [
+     fhir:index 64 ;
+     fhir:CodeSystem.concept.code [ fhir:value "2F6" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. standard.úst.lůž.péče klinické farmakologie - F typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "2_6" ]
+     ]
+  ], [
+     fhir:index 65 ;
+     fhir:CodeSystem.concept.code [ fhir:value "2F7" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Prac.stand.úst.lůžk.péče klin.imunolog.a alergolog. - F typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "2_7" ]
+     ]
+  ], [
+     fhir:index 66 ;
+     fhir:CodeSystem.concept.code [ fhir:value "2F9" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. standardní ústavní lůžk. péče neurologické - F typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "2_9" ]
+     ]
+  ], [
+     fhir:index 67 ;
+     fhir:CodeSystem.concept.code [ fhir:value "2H1" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. standardní ústavní lůžk. péče rehabilitační - H typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "2_1" ]
+     ]
+  ], [
+     fhir:index 68 ;
+     fhir:CodeSystem.concept.code [ fhir:value "2H2" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Prac.standard.ústav.lůžk. péče klinické hematologie - H typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "2_2" ]
+     ]
+  ], [
+     fhir:index 69 ;
+     fhir:CodeSystem.concept.code [ fhir:value "2H3" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. standard. úst. lůž. péče přenosných nemocí - H typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "2_3" ]
+     ]
+  ], [
+     fhir:index 70 ;
+     fhir:CodeSystem.concept.code [ fhir:value "2H5" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. standard.ústav. lůžk. péče TRN a pneumolog. - H typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "2_5" ]
+     ]
+  ], [
+     fhir:index 71 ;
+     fhir:CodeSystem.concept.code [ fhir:value "2H7" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Prac. stand.úst.lůž.péče klin.imunolog.a alergolog. - H typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "2_7" ]
+     ]
+  ], [
+     fhir:index 72 ;
+     fhir:CodeSystem.concept.code [ fhir:value "2H9" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov.standardní ústavní lůžkové péče neurologické - H typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "2_9" ]
+     ]
+  ], [
+     fhir:index 73 ;
+     fhir:CodeSystem.concept.code [ fhir:value "2I2" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Prac. resusc. a intenz. úst.lůž.péče klin.hematolog.- I typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "2_2" ]
+     ]
+  ], [
+     fhir:index 74 ;
+     fhir:CodeSystem.concept.code [ fhir:value "2I3" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Prac. resusc. a intenz. úst. lůž.péče přenos.nemocí - I typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "2_3" ]
+     ]
+  ], [
+     fhir:index 75 ;
+     fhir:CodeSystem.concept.code [ fhir:value "2I5" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Prac.resusc. a intenz.úst.lůž.péče TRN a pneumolog. - I typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "2_5" ]
+     ]
+  ], [
+     fhir:index 76 ;
+     fhir:CodeSystem.concept.code [ fhir:value "2I9" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. resusc. a intenz.úst.lůž. péče neurologické - I typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "2_9" ]
+     ]
+  ], [
+     fhir:index 77 ;
+     fhir:CodeSystem.concept.code [ fhir:value "2S1" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Prac. poskyt.péči na spinálních rehabil.jednotkách" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "2_1" ]
+     ]
+  ], [
+     fhir:index 78 ;
+     fhir:CodeSystem.concept.code [ fhir:value "2T2" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Prac. resusc. a intenz. úst.lůž.péče klin.hematolog.- T typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "2_2" ]
+     ]
+  ], [
+     fhir:index 79 ;
+     fhir:CodeSystem.concept.code [ fhir:value "2T3" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Prac. resusc. a intenz. úst. lůž.péče přenos.nemocí - T typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "2_3" ]
+     ]
+  ], [
+     fhir:index 80 ;
+     fhir:CodeSystem.concept.code [ fhir:value "2T5" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Prac.resusc. a intenz.úst.lůž.péče TRN a pneumolog. - T typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "2_5" ]
+     ]
+  ], [
+     fhir:index 81 ;
+     fhir:CodeSystem.concept.code [ fhir:value "2T9" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Prac. resusc. a intenz. úst. lůž. péče neurologické - T typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "2_9" ]
+     ]
+  ], [
+     fhir:index 82 ;
+     fhir:CodeSystem.concept.code [ fhir:value "2U1" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. dlouhodobé ústav. lůž. rehabilitační péče - U typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "2_1" ]
+     ]
+  ], [
+     fhir:index 83 ;
+     fhir:CodeSystem.concept.code [ fhir:value "2U5" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. dlouhodobé ústav.lůž.TRN a pneumolog.péče - U typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "2_5" ]
+     ]
+  ], [
+     fhir:index 84 ;
+     fhir:CodeSystem.concept.code [ fhir:value "2U9" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. dlouhodobé (chronické) úst.neurolog. péče - U typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "2_9" ]
+     ]
+  ], [
+     fhir:index 85 ;
+     fhir:CodeSystem.concept.code [ fhir:value "301" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště pediatrie" ]
+  ], [
+     fhir:index 86 ;
+     fhir:CodeSystem.concept.code [ fhir:value "302" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště dětské kardiologie" ]
+  ], [
+     fhir:index 87 ;
+     fhir:CodeSystem.concept.code [ fhir:value "303" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště dorostového lékařství" ]
+  ], [
+     fhir:index 88 ;
+     fhir:CodeSystem.concept.code [ fhir:value "304" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště neonatologie" ]
+  ], [
+     fhir:index 89 ;
+     fhir:CodeSystem.concept.code [ fhir:value "305" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště psychiatrie" ]
+  ], [
+     fhir:index 90 ;
+     fhir:CodeSystem.concept.code [ fhir:value "306" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště dětské psychiatrie" ]
+  ], [
+     fhir:index 91 ;
+     fhir:CodeSystem.concept.code [ fhir:value "307" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště gerontopsychiatrie" ]
+  ], [
+     fhir:index 92 ;
+     fhir:CodeSystem.concept.code [ fhir:value "308" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště léčby alkoholismu a jiných toxikomanií" ]
+  ], [
+     fhir:index 93 ;
+     fhir:CodeSystem.concept.code [ fhir:value "309" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště sexuologie" ]
+  ], [
+     fhir:index 94 ;
+     fhir:CodeSystem.concept.code [ fhir:value "3F1" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. standardní ústavní lůžkové péče pediatrické - F typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "3_1" ]
+     ]
+  ], [
+     fhir:index 95 ;
+     fhir:CodeSystem.concept.code [ fhir:value "3F2" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. standard. úst. lůž. péče dětské kardiologie - F typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "1_7" ]
+     ]
+  ], [
+     fhir:index 96 ;
+     fhir:CodeSystem.concept.code [ fhir:value "3F3" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Prac. standard.úst.lůžk. péče dorostového lékařství - F typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "1_1" ]
+     ]
+  ], [
+     fhir:index 97 ;
+     fhir:CodeSystem.concept.code [ fhir:value "3F4" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. standard. úst. lůžk. péče o novorozence - F typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "3_4" ]
+     ]
+  ], [
+     fhir:index 98 ;
+     fhir:CodeSystem.concept.code [ fhir:value "3F5" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. standard. úst. lůž. péče psychiatrické - F typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "3_5" ]
+     ]
+  ], [
+     fhir:index 99 ;
+     fhir:CodeSystem.concept.code [ fhir:value "3F6" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Prac. standard. úst. lůž. péče dětské psychiatrie - F typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "3_5" ]
+     ]
+  ], [
+     fhir:index 100 ;
+     fhir:CodeSystem.concept.code [ fhir:value "3F7" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Prac. standard. úst. lůž. péče gerontopsychiatric. - F typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "3_5" ]
+     ]
+  ], [
+     fhir:index 101 ;
+     fhir:CodeSystem.concept.code [ fhir:value "3H1" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. standard. úst. lůž. péče pediatrické - H typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "3_1" ]
+     ]
+  ], [
+     fhir:index 102 ;
+     fhir:CodeSystem.concept.code [ fhir:value "3H2" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. standard. úst. lůž. péče dětské kardiologie - H typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "1_7" ]
+     ]
+  ], [
+     fhir:index 103 ;
+     fhir:CodeSystem.concept.code [ fhir:value "3H3" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Prac.standard. úst. lůž. péče dorostového lékařství - H typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "1_1" ]
+     ]
+  ], [
+     fhir:index 104 ;
+     fhir:CodeSystem.concept.code [ fhir:value "3H4" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. standard. úst. lůž. péče o novorozence - H typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "3_4" ]
+     ]
+  ], [
+     fhir:index 105 ;
+     fhir:CodeSystem.concept.code [ fhir:value "3H5" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. standard. ústav. lůžk. péče psychiatrické - H typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "3_5" ]
+     ]
+  ], [
+     fhir:index 106 ;
+     fhir:CodeSystem.concept.code [ fhir:value "3H6" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. standard. úst. lůž. péče dětské psychiatrie - H typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "3_5" ]
+     ]
+  ], [
+     fhir:index 107 ;
+     fhir:CodeSystem.concept.code [ fhir:value "3H7" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov.standard. úst. lůž. péče gerontopsychiatric. - H typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "3_5" ]
+     ]
+  ], [
+     fhir:index 108 ;
+     fhir:CodeSystem.concept.code [ fhir:value "3I1" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov.resusc. a intenz. úst. lůž. péče pediatrické - I typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "3_1" ]
+     ]
+  ], [
+     fhir:index 109 ;
+     fhir:CodeSystem.concept.code [ fhir:value "3I2" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Prac. resusc.a intenz.úst.lůž.péče dětské kardiolog - I typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "1_7" ]
+     ]
+  ], [
+     fhir:index 110 ;
+     fhir:CodeSystem.concept.code [ fhir:value "3I4" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Prac.resuscit.a intenziv. ústav.lůž. péče neonatol. - I typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "3_4" ]
+     ]
+  ], [
+     fhir:index 111 ;
+     fhir:CodeSystem.concept.code [ fhir:value "3I5" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Prac.resusc. a intenz. úst. lůž. péče psychiatrické - I typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "3_5" ]
+     ]
+  ], [
+     fhir:index 112 ;
+     fhir:CodeSystem.concept.code [ fhir:value "3I6" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Prac. resusc. a intenz. úst. lůž. péče dět.psychiatr. I typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "3_5" ]
+     ]
+  ], [
+     fhir:index 113 ;
+     fhir:CodeSystem.concept.code [ fhir:value "3T1" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Prac. resusc. a intenz. úst. lůž. péče pediatrické - T typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "3_1" ]
+     ]
+  ], [
+     fhir:index 114 ;
+     fhir:CodeSystem.concept.code [ fhir:value "3T2" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Prac.resusc. a intenz.úst.lůž.péče dětské kardiolog - T typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "1_7" ]
+     ]
+  ], [
+     fhir:index 115 ;
+     fhir:CodeSystem.concept.code [ fhir:value "3T4" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Prac. resusc. a intenz. úst. lůž. péče neonatol. - T typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "3_4" ]
+     ]
+  ], [
+     fhir:index 116 ;
+     fhir:CodeSystem.concept.code [ fhir:value "3T5" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Prac.resusc. a intenz. úst. lůž. péče psychiatrické - T typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "3_5" ]
+     ]
+  ], [
+     fhir:index 117 ;
+     fhir:CodeSystem.concept.code [ fhir:value "3T6" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Prac. resusc. a intenz. úst.lůž.péče dět.psychiatr. - T typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "3_5" ]
+     ]
+  ], [
+     fhir:index 118 ;
+     fhir:CodeSystem.concept.code [ fhir:value "3U1" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Prac.dlouhodobé (chronic.) úst.lůž.péče pediatrické - U typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "3_1" ]
+     ]
+  ], [
+     fhir:index 119 ;
+     fhir:CodeSystem.concept.code [ fhir:value "3U5" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Prac. dlouhodobé (chronic.) úst.lůž.péče psychiatr. - U typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "3_5" ]
+     ]
+  ], [
+     fhir:index 120 ;
+     fhir:CodeSystem.concept.code [ fhir:value "3U6" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Prac. dlouhod.(chronic.) úst.lůž.péče dět.psychiatr.- U typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "3_5" ]
+     ]
+  ], [
+     fhir:index 121 ;
+     fhir:CodeSystem.concept.code [ fhir:value "3U7" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Prac.dlouhod.(chronic.)úst.lůž.péče gerontopsychiatr.-U typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "3_5" ]
+     ]
+  ], [
+     fhir:index 122 ;
+     fhir:CodeSystem.concept.code [ fhir:value "3U8" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Prac. dlouhod.(chronic.) léčba alkohol.a j. toxikom. -U typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "3_5" ]
+     ]
+  ], [
+     fhir:index 123 ;
+     fhir:CodeSystem.concept.code [ fhir:value "401" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště pracovního lékařství" ]
+  ], [
+     fhir:index 124 ;
+     fhir:CodeSystem.concept.code [ fhir:value "402" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště klinické onkologie (bez radiační onkologie)" ]
+  ], [
+     fhir:index 125 ;
+     fhir:CodeSystem.concept.code [ fhir:value "403" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště radioterapie a radiační onkologie" ]
+  ], [
+     fhir:index 126 ;
+     fhir:CodeSystem.concept.code [ fhir:value "404" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště dermatovenerologie" ]
+  ], [
+     fhir:index 127 ;
+     fhir:CodeSystem.concept.code [ fhir:value "405" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště dětské dermatologie" ]
+  ], [
+     fhir:index 128 ;
+     fhir:CodeSystem.concept.code [ fhir:value "406" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště korektivní dermatologie" ]
+  ], [
+     fhir:index 129 ;
+     fhir:CodeSystem.concept.code [ fhir:value "407" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště nukleární medicíny" ]
+  ], [
+     fhir:index 130 ;
+     fhir:CodeSystem.concept.code [ fhir:value "409" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště dětské neurologie" ]
+  ], [
+     fhir:index 131 ;
+     fhir:CodeSystem.concept.code [ fhir:value "4F1" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. standard. úst. lůž. péče nemocí z povolání - F typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "4_1" ]
+     ]
+  ], [
+     fhir:index 132 ;
+     fhir:CodeSystem.concept.code [ fhir:value "4F2" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. standard. úst. lůž. péče onkologické - F typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "4_2" ]
+     ]
+  ], [
+     fhir:index 133 ;
+     fhir:CodeSystem.concept.code [ fhir:value "4F3" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. standard. úst. lůž. péče radioterapeutické - F typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "4_3" ]
+     ]
+  ], [
+     fhir:index 134 ;
+     fhir:CodeSystem.concept.code [ fhir:value "4F4" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. standard. úst.lůž.péče dermatovenerologické - F typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "4_4" ]
+     ]
+  ], [
+     fhir:index 135 ;
+     fhir:CodeSystem.concept.code [ fhir:value "4F5" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. standard. úst.lůž. péče dětské dermatologie - F typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "4_4" ]
+     ]
+  ], [
+     fhir:index 136 ;
+     fhir:CodeSystem.concept.code [ fhir:value "4F7" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. standard. úst. lůž. péče nukleární medicíny - F typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "4_7" ]
+     ]
+  ], [
+     fhir:index 137 ;
+     fhir:CodeSystem.concept.code [ fhir:value "4F9" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. standard. úst. lůž. péče dětské neurologie - F typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "2_9" ]
+     ]
+  ], [
+     fhir:index 138 ;
+     fhir:CodeSystem.concept.code [ fhir:value "4H1" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. standard. úst. lůž. péče nemocí z povolání - H typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "4_1" ]
+     ]
+  ], [
+     fhir:index 139 ;
+     fhir:CodeSystem.concept.code [ fhir:value "4H2" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. standardní ústavní lůžkové péče onkologické - H typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "4_2" ]
+     ]
+  ], [
+     fhir:index 140 ;
+     fhir:CodeSystem.concept.code [ fhir:value "4H3" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. standard. úst. lůž. péče radioterapeutické - H typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "4_3" ]
+     ]
+  ], [
+     fhir:index 141 ;
+     fhir:CodeSystem.concept.code [ fhir:value "4H4" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Prac. standard. úst. lůž. péče dermatovenerologické - H typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "4_4" ]
+     ]
+  ], [
+     fhir:index 142 ;
+     fhir:CodeSystem.concept.code [ fhir:value "4H5" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov.standard. úst. lůž. péče dětské dermatologie - H typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "4_4" ]
+     ]
+  ], [
+     fhir:index 143 ;
+     fhir:CodeSystem.concept.code [ fhir:value "4H7" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. standard. úst. lůž. péče nukleární medicíny - H typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "4_7" ]
+     ]
+  ], [
+     fhir:index 144 ;
+     fhir:CodeSystem.concept.code [ fhir:value "4H9" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. standard. úst. lůž. péče dětské neurologie - H typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "2_9" ]
+     ]
+  ], [
+     fhir:index 145 ;
+     fhir:CodeSystem.concept.code [ fhir:value "4I2" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. resusc. a intenz. úst. lůž.péče onkologické - I typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "4_2" ]
+     ]
+  ], [
+     fhir:index 146 ;
+     fhir:CodeSystem.concept.code [ fhir:value "4I3" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov.resusc. a intenz. úst. lůž. péče radioterap. - I typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "4_3" ]
+     ]
+  ], [
+     fhir:index 147 ;
+     fhir:CodeSystem.concept.code [ fhir:value "4I9" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov.resusc. a intenz.úst.lůž.péče dětské neurol. - I typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "2_9" ]
+     ]
+  ], [
+     fhir:index 148 ;
+     fhir:CodeSystem.concept.code [ fhir:value "4T2" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. resusc. a intenz. úst. lůž.péče onkologické - T typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "4_2" ]
+     ]
+  ], [
+     fhir:index 149 ;
+     fhir:CodeSystem.concept.code [ fhir:value "4T3" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov.resusc. a intenz. úst. lůž. péče radioterap. - T typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "4_3" ]
+     ]
+  ], [
+     fhir:index 150 ;
+     fhir:CodeSystem.concept.code [ fhir:value "4T9" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Prac. resusc. a intenz. úst.lůž.péče dětské neurol. - T typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "2_9" ]
+     ]
+  ], [
+     fhir:index 151 ;
+     fhir:CodeSystem.concept.code [ fhir:value "4U5" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Prac.dlouhod.(chronic.) úst.lůž.péče dětské dermatol.-U typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "4_4" ]
+     ]
+  ], [
+     fhir:index 152 ;
+     fhir:CodeSystem.concept.code [ fhir:value "4U9" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Prac.dlouhod.(chronic.) úst.lůž.péče dětské neurolog.-U typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "2_9" ]
+     ]
+  ], [
+     fhir:index 153 ;
+     fhir:CodeSystem.concept.code [ fhir:value "501" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště chirurgie" ]
+  ], [
+     fhir:index 154 ;
+     fhir:CodeSystem.concept.code [ fhir:value "502" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště dětské chirurgie" ]
+  ], [
+     fhir:index 155 ;
+     fhir:CodeSystem.concept.code [ fhir:value "503" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště úrazové chirurgie" ]
+  ], [
+     fhir:index 156 ;
+     fhir:CodeSystem.concept.code [ fhir:value "504" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště cévní chirurgie" ]
+  ], [
+     fhir:index 157 ;
+     fhir:CodeSystem.concept.code [ fhir:value "505" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště kardiochirurgie" ]
+  ], [
+     fhir:index 158 ;
+     fhir:CodeSystem.concept.code [ fhir:value "506" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště neurochirurgie" ]
+  ], [
+     fhir:index 159 ;
+     fhir:CodeSystem.concept.code [ fhir:value "507" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště hrudní chirurgie" ]
+  ], [
+     fhir:index 160 ;
+     fhir:CodeSystem.concept.code [ fhir:value "5F1" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. standard. úst. lůž. péče chirurgické - F typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "5_1" ]
+     ]
+  ], [
+     fhir:index 161 ;
+     fhir:CodeSystem.concept.code [ fhir:value "5F2" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. standard. úst. lůž. péče dětské chirurgie - F typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "5_1" ]
+     ]
+  ], [
+     fhir:index 162 ;
+     fhir:CodeSystem.concept.code [ fhir:value "5F3" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. standard. úst. lůž. péče úrazové chirurgie - F typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "5_3" ]
+     ]
+  ], [
+     fhir:index 163 ;
+     fhir:CodeSystem.concept.code [ fhir:value "5F4" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. standard. úst. lůž. péče cévní chirurgie - F typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "5_1" ]
+     ]
+  ], [
+     fhir:index 164 ;
+     fhir:CodeSystem.concept.code [ fhir:value "5F5" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. standard. úst. lůž. péče kardiochirurgické - F typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "5_5" ]
+     ]
+  ], [
+     fhir:index 165 ;
+     fhir:CodeSystem.concept.code [ fhir:value "5F6" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. standard. úst. lůž. péče neurochirurgické - F typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "5_6" ]
+     ]
+  ], [
+     fhir:index 166 ;
+     fhir:CodeSystem.concept.code [ fhir:value "5F7" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. standard. úst. lůž. péče hrudní chirurgie - F typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "5_1" ]
+     ]
+  ], [
+     fhir:index 167 ;
+     fhir:CodeSystem.concept.code [ fhir:value "5H1" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. standard. úst. lůž. péče chirurgické - H typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "5_1" ]
+     ]
+  ], [
+     fhir:index 168 ;
+     fhir:CodeSystem.concept.code [ fhir:value "5H2" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. standard. úst. lůž. péče dětské chirurgie - H typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "5_1" ]
+     ]
+  ], [
+     fhir:index 169 ;
+     fhir:CodeSystem.concept.code [ fhir:value "5H3" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. standard. úst. lůž. péče úrazové chirurgie - H typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "5_3" ]
+     ]
+  ], [
+     fhir:index 170 ;
+     fhir:CodeSystem.concept.code [ fhir:value "5H4" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. standard. úst. lůž. péče cévní chirurgie - H typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "5_1" ]
+     ]
+  ], [
+     fhir:index 171 ;
+     fhir:CodeSystem.concept.code [ fhir:value "5H5" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. standard. úst. lůž. péče kardiochirurgické - H typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "5_5" ]
+     ]
+  ], [
+     fhir:index 172 ;
+     fhir:CodeSystem.concept.code [ fhir:value "5H6" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. standard. úst. lůž. péče neurochirurgické - H typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "5_6" ]
+     ]
+  ], [
+     fhir:index 173 ;
+     fhir:CodeSystem.concept.code [ fhir:value "5H7" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. standard. úst. lůž. péče hrudní chirurgie - H typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "5_1" ]
+     ]
+  ], [
+     fhir:index 174 ;
+     fhir:CodeSystem.concept.code [ fhir:value "5I1" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. resusc. a intenz. úst. lůž.péče chirurgické - I typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "5_1" ]
+     ]
+  ], [
+     fhir:index 175 ;
+     fhir:CodeSystem.concept.code [ fhir:value "5I2" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Prac. resusc. a intenz. úst.lůž. péče dět.chirurgie - I typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "5_1" ]
+     ]
+  ], [
+     fhir:index 176 ;
+     fhir:CodeSystem.concept.code [ fhir:value "5I3" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. resusc. a intenz.úst.lůž.péče úraz. chirur. - I typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "5_3" ]
+     ]
+  ], [
+     fhir:index 177 ;
+     fhir:CodeSystem.concept.code [ fhir:value "5I4" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Prac.resusc. a intenz. úst. lůž.péče cévní chirurgie- I typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "5_1" ]
+     ]
+  ], [
+     fhir:index 178 ;
+     fhir:CodeSystem.concept.code [ fhir:value "5I5" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov.resusc. a intenz. úst. lůž. péče kardiochir. - I typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "5_5" ]
+     ]
+  ], [
+     fhir:index 179 ;
+     fhir:CodeSystem.concept.code [ fhir:value "5I6" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. resusc. a intenz. úst. lůž. péče neurochir. - I typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "5_6" ]
+     ]
+  ], [
+     fhir:index 180 ;
+     fhir:CodeSystem.concept.code [ fhir:value "5I7" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Prac. resusc. a intenz. úst. lůž. péče hrudní chir. - I typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "5_1" ]
+     ]
+  ], [
+     fhir:index 181 ;
+     fhir:CodeSystem.concept.code [ fhir:value "5J1" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště jednodenní péče v oboru chirurgie" ]
+  ], [
+     fhir:index 182 ;
+     fhir:CodeSystem.concept.code [ fhir:value "5R1" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště-operační sály chirurgie" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "5_1" ]
+     ]
+  ], [
+     fhir:index 183 ;
+     fhir:CodeSystem.concept.code [ fhir:value "5R2" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště-operační sály dětské chirurgie" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "5_1" ]
+     ]
+  ], [
+     fhir:index 184 ;
+     fhir:CodeSystem.concept.code [ fhir:value "5R3" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště-operační sály úrazové chirurgie" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "5_3" ]
+     ]
+  ], [
+     fhir:index 185 ;
+     fhir:CodeSystem.concept.code [ fhir:value "5R4" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště-operační sály cévní chirurgie" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "5_1" ]
+     ]
+  ], [
+     fhir:index 186 ;
+     fhir:CodeSystem.concept.code [ fhir:value "5R5" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště-operační sály kardiochirurgie" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "5_5" ]
+     ]
+  ], [
+     fhir:index 187 ;
+     fhir:CodeSystem.concept.code [ fhir:value "5R6" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště-operační sály neurochirurgie" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "5_6" ]
+     ]
+  ], [
+     fhir:index 188 ;
+     fhir:CodeSystem.concept.code [ fhir:value "5R7" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště-operační sály hrudní chirurgie" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "5_1" ]
+     ]
+  ], [
+     fhir:index 189 ;
+     fhir:CodeSystem.concept.code [ fhir:value "5S9" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. poskytující péči na spinálních jednotkách" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "5_1" ]
+     ]
+  ], [
+     fhir:index 190 ;
+     fhir:CodeSystem.concept.code [ fhir:value "5T1" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov.resusc. a intenz. úst. lůž. péče chirurgické - T typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "5_1" ]
+     ]
+  ], [
+     fhir:index 191 ;
+     fhir:CodeSystem.concept.code [ fhir:value "5T2" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Prac.resusc. a intenz. úst. lůž. péče dět.chirurgie - T typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "5_1" ]
+     ]
+  ], [
+     fhir:index 192 ;
+     fhir:CodeSystem.concept.code [ fhir:value "5T3" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. resusc. a intenz.úst.lůž.péče úraz. chirur. - T typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "5_3" ]
+     ]
+  ], [
+     fhir:index 193 ;
+     fhir:CodeSystem.concept.code [ fhir:value "5T4" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Prac.resusc. a intenz. úst. lůž.péče cévní chirurgie- T typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "5_1" ]
+     ]
+  ], [
+     fhir:index 194 ;
+     fhir:CodeSystem.concept.code [ fhir:value "5T5" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov.resusc. a intenz. úst. lůž. péče kardiochir. - T typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "5_5" ]
+     ]
+  ], [
+     fhir:index 195 ;
+     fhir:CodeSystem.concept.code [ fhir:value "5T6" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. resusc. a intenz. úst. lůž. péče neurochir. - T typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "5_6" ]
+     ]
+  ], [
+     fhir:index 196 ;
+     fhir:CodeSystem.concept.code [ fhir:value "5T7" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. resusc. a intenz. úst. lůž.péče hrudní chir.- T typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "5_1" ]
+     ]
+  ], [
+     fhir:index 197 ;
+     fhir:CodeSystem.concept.code [ fhir:value "601" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště plastické chirurgie" ]
+  ], [
+     fhir:index 198 ;
+     fhir:CodeSystem.concept.code [ fhir:value "602" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště popáleninové medicíny" ]
+  ], [
+     fhir:index 199 ;
+     fhir:CodeSystem.concept.code [ fhir:value "603" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště gynekologie a porodnictví" ]
+  ], [
+     fhir:index 200 ;
+     fhir:CodeSystem.concept.code [ fhir:value "604" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště dětské gynekologie" ]
+  ], [
+     fhir:index 201 ;
+     fhir:CodeSystem.concept.code [ fhir:value "605" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště čelistní a obličejové chirurgie" ]
+  ], [
+     fhir:index 202 ;
+     fhir:CodeSystem.concept.code [ fhir:value "606" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště ortopedie" ]
+  ], [
+     fhir:index 203 ;
+     fhir:CodeSystem.concept.code [ fhir:value "607" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště ortopedické protetiky" ]
+  ], [
+     fhir:index 204 ;
+     fhir:CodeSystem.concept.code [ fhir:value "613" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště akreditovaného centra asistované reprodukce" ]
+  ], [
+     fhir:index 205 ;
+     fhir:CodeSystem.concept.code [ fhir:value "6F1" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. standard. úst. lůž.péče plastické chirurgie - F typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "6_1" ]
+     ]
+  ], [
+     fhir:index 206 ;
+     fhir:CodeSystem.concept.code [ fhir:value "6F2" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Prac. standard. úst. lůž.péče popáleninové medicíny - F typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "6_2" ]
+     ]
+  ], [
+     fhir:index 207 ;
+     fhir:CodeSystem.concept.code [ fhir:value "6F3" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. standard. úst. lůž. péče gynekologické - F typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "6_3" ]
+     ]
+  ], [
+     fhir:index 208 ;
+     fhir:CodeSystem.concept.code [ fhir:value "6F4" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. standard. úst. lůž. péče dětské gynekologie - F typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "6_3" ]
+     ]
+  ], [
+     fhir:index 209 ;
+     fhir:CodeSystem.concept.code [ fhir:value "6F5" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Prac.stand.úst.lůž.péče stomatochir.a čelist.ortop. - F typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "6_5" ]
+     ]
+  ], [
+     fhir:index 210 ;
+     fhir:CodeSystem.concept.code [ fhir:value "6F6" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. standardní ústavní lůž. péče ortopedické - F typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "6_6" ]
+     ]
+  ], [
+     fhir:index 211 ;
+     fhir:CodeSystem.concept.code [ fhir:value "6F7" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Prac.standard. úst. lůž. péče ortopedické protetiky - F typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "6_7" ]
+     ]
+  ], [
+     fhir:index 212 ;
+     fhir:CodeSystem.concept.code [ fhir:value "6H1" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Prac. standard. úst. lůž. péče plastické chirurgie - H typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "6_1" ]
+     ]
+  ], [
+     fhir:index 213 ;
+     fhir:CodeSystem.concept.code [ fhir:value "6H2" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Prac.standard. úst. lůž. péče popáleninové medicíny - H typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "6_2" ]
+     ]
+  ], [
+     fhir:index 214 ;
+     fhir:CodeSystem.concept.code [ fhir:value "6H3" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. standard. úst. lůž. péče gynekologické - H typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "6_3" ]
+     ]
+  ], [
+     fhir:index 215 ;
+     fhir:CodeSystem.concept.code [ fhir:value "6H4" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. standard. úst. lůž. péče dětské gynekologie - H typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "6_3" ]
+     ]
+  ], [
+     fhir:index 216 ;
+     fhir:CodeSystem.concept.code [ fhir:value "6H6" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. standardní ústavní lůžkové péče ortopedické - H typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "6_6" ]
+     ]
+  ], [
+     fhir:index 217 ;
+     fhir:CodeSystem.concept.code [ fhir:value "6H7" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Prac.standard. úst. lůž. péče ortopedické protetiky - H typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "6_7" ]
+     ]
+  ], [
+     fhir:index 218 ;
+     fhir:CodeSystem.concept.code [ fhir:value "6I1" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Prac. resusc. a intenz.úst.lůž.péče plastic.chirur. - I typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "6_1" ]
+     ]
+  ], [
+     fhir:index 219 ;
+     fhir:CodeSystem.concept.code [ fhir:value "6I2" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Prac.resusc. a intenz.úst.lůž.péče popálen.medicín. - I typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "6_2" ]
+     ]
+  ], [
+     fhir:index 220 ;
+     fhir:CodeSystem.concept.code [ fhir:value "6I3" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Prac. resusc. a intenz. úst.lůž. péče gynekologické - I typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "6_3" ]
+     ]
+  ], [
+     fhir:index 221 ;
+     fhir:CodeSystem.concept.code [ fhir:value "6I4" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Prac.resusc. a intenz.úst.lůž. péče dětské gynekol. - I typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "6_3" ]
+     ]
+  ], [
+     fhir:index 222 ;
+     fhir:CodeSystem.concept.code [ fhir:value "6I5" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Prac. intenz.úst.lůž. péče stomatoch.a čelis.ortop.-I typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "6_5" ]
+     ]
+  ], [
+     fhir:index 223 ;
+     fhir:CodeSystem.concept.code [ fhir:value "6I6" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Prac. resusc. a intenz. úst. lůž. péče ortopedické - I typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "6_6" ]
+     ]
+  ], [
+     fhir:index 224 ;
+     fhir:CodeSystem.concept.code [ fhir:value "6J1" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště jednodenní péče v oboru plastické chirurgie" ]
+  ], [
+     fhir:index 225 ;
+     fhir:CodeSystem.concept.code [ fhir:value "6J3" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště jednodenní péče v oboru gynekologie" ]
+  ], [
+     fhir:index 226 ;
+     fhir:CodeSystem.concept.code [ fhir:value "6J6" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště jednodenní péče v oboru ortopedie" ]
+  ], [
+     fhir:index 227 ;
+     fhir:CodeSystem.concept.code [ fhir:value "6P3" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště intenz. a intermediární úst.lůž. porodnické péče" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "6_3" ]
+     ]
+  ], [
+     fhir:index 228 ;
+     fhir:CodeSystem.concept.code [ fhir:value "6R1" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracovište-operační sály plastické chirurgie" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "6_1" ]
+     ]
+  ], [
+     fhir:index 229 ;
+     fhir:CodeSystem.concept.code [ fhir:value "6R2" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracovište-operační sály popáleninové medicíny" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "6_2" ]
+     ]
+  ], [
+     fhir:index 230 ;
+     fhir:CodeSystem.concept.code [ fhir:value "6R3" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracovište-operační sály gynekologie" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "6_3" ]
+     ]
+  ], [
+     fhir:index 231 ;
+     fhir:CodeSystem.concept.code [ fhir:value "6R4" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracovište-operační sály dětské gynekologie" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "6_3" ]
+     ]
+  ], [
+     fhir:index 232 ;
+     fhir:CodeSystem.concept.code [ fhir:value "6R5" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracovište-operační sály stomatochirurgie a čelist.ortopedie" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "6_5" ]
+     ]
+  ], [
+     fhir:index 233 ;
+     fhir:CodeSystem.concept.code [ fhir:value "6R6" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracovište-operační sály ortopedie" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "6_6" ]
+     ]
+  ], [
+     fhir:index 234 ;
+     fhir:CodeSystem.concept.code [ fhir:value "6T1" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Prac.resusc. a intenz. úst.lůž.péče plastic.chirur. - T typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "6_1" ]
+     ]
+  ], [
+     fhir:index 235 ;
+     fhir:CodeSystem.concept.code [ fhir:value "6T2" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Prac.resusc. a intenz.úst.lůž.péče popálen.medicín. - T typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "6_2" ]
+     ]
+  ], [
+     fhir:index 236 ;
+     fhir:CodeSystem.concept.code [ fhir:value "6T3" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Prac. resusc. a intenz. úst.lůž. péče gynekologické - T typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "6_3" ]
+     ]
+  ], [
+     fhir:index 237 ;
+     fhir:CodeSystem.concept.code [ fhir:value "6T4" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Prac.resusc. a intenz. úst.lůž.péče dětské gynekol. - T typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "6_3" ]
+     ]
+  ], [
+     fhir:index 238 ;
+     fhir:CodeSystem.concept.code [ fhir:value "6T5" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Prac. res.a inten.úst.lůž.péče stomatoch.a čelis.ortop.-T t." ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "6_5" ]
+     ]
+  ], [
+     fhir:index 239 ;
+     fhir:CodeSystem.concept.code [ fhir:value "6T6" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. resusc. a intenz. úst.lůž. péče ortopedické - T typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "6_6" ]
+     ]
+  ], [
+     fhir:index 240 ;
+     fhir:CodeSystem.concept.code [ fhir:value "6Z1" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště-péče na zákrokovém sálku v oboru plastic.chirurg" ]
+  ], [
+     fhir:index 241 ;
+     fhir:CodeSystem.concept.code [ fhir:value "6Z3" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště-péče na zákrokovém sálku v oboru gynekologie" ]
+  ], [
+     fhir:index 242 ;
+     fhir:CodeSystem.concept.code [ fhir:value "6Z6" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště-péče na zákrokovém sálku v oboru ortopedie" ]
+  ], [
+     fhir:index 243 ;
+     fhir:CodeSystem.concept.code [ fhir:value "701" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště otorinolaryngologie" ]
+  ], [
+     fhir:index 244 ;
+     fhir:CodeSystem.concept.code [ fhir:value "702" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště foniatrie" ]
+  ], [
+     fhir:index 245 ;
+     fhir:CodeSystem.concept.code [ fhir:value "703" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště audiologie" ]
+  ], [
+     fhir:index 246 ;
+     fhir:CodeSystem.concept.code [ fhir:value "704" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště dětské otorinolaryngologie" ]
+  ], [
+     fhir:index 247 ;
+     fhir:CodeSystem.concept.code [ fhir:value "705" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště oftalmologie" ]
+  ], [
+     fhir:index 248 ;
+     fhir:CodeSystem.concept.code [ fhir:value "706" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště urologie" ]
+  ], [
+     fhir:index 249 ;
+     fhir:CodeSystem.concept.code [ fhir:value "707" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště dětské urologie" ]
+  ], [
+     fhir:index 250 ;
+     fhir:CodeSystem.concept.code [ fhir:value "708" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště anesteziologicko - resuscitační" ]
+  ], [
+     fhir:index 251 ;
+     fhir:CodeSystem.concept.code [ fhir:value "709" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště zdravotnické záchranné služby (RZP+RLP)" ]
+  ], [
+     fhir:index 252 ;
+     fhir:CodeSystem.concept.code [ fhir:value "7D8" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště dlouhodobé intenzivní péče (DIP)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "7_8" ]
+     ]
+  ], [
+     fhir:index 253 ;
+     fhir:CodeSystem.concept.code [ fhir:value "7F1" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště standardní ústavní lůžkové péče ORL - F typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "7_1" ]
+     ]
+  ], [
+     fhir:index 254 ;
+     fhir:CodeSystem.concept.code [ fhir:value "7F2" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. standardní ústavní lůžkové péče foniatrické - F typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "7_2" ]
+     ]
+  ], [
+     fhir:index 255 ;
+     fhir:CodeSystem.concept.code [ fhir:value "7F4" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. standardní ústavní lůžkové péče dětské ORL - F typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "7_1" ]
+     ]
+  ], [
+     fhir:index 256 ;
+     fhir:CodeSystem.concept.code [ fhir:value "7F5" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Prac. standard. ústavní lůžkové péče oftalmologické - F typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "7_5" ]
+     ]
+  ], [
+     fhir:index 257 ;
+     fhir:CodeSystem.concept.code [ fhir:value "7F6" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. standardní ústavní lůžkové péče urologické - F typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "7_6" ]
+     ]
+  ], [
+     fhir:index 258 ;
+     fhir:CodeSystem.concept.code [ fhir:value "7F7" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Prac. standard. ústav. lůžkové péče dětské urologie - F typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "7_6" ]
+     ]
+  ], [
+     fhir:index 259 ;
+     fhir:CodeSystem.concept.code [ fhir:value "7H1" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. standardní ústavní lůžkové péče ORL - H typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "7_1" ]
+     ]
+  ], [
+     fhir:index 260 ;
+     fhir:CodeSystem.concept.code [ fhir:value "7H2" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. standardní ústavní lůžkové péče foniatrické - H typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "7_2" ]
+     ]
+  ], [
+     fhir:index 261 ;
+     fhir:CodeSystem.concept.code [ fhir:value "7H4" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. standardní ústavní lůžkové péče dětské ORL - H typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "7_1" ]
+     ]
+  ], [
+     fhir:index 262 ;
+     fhir:CodeSystem.concept.code [ fhir:value "7H5" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Prac. standard. ústavní lůžkové péče oftalmologické - H typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "7_5" ]
+     ]
+  ], [
+     fhir:index 263 ;
+     fhir:CodeSystem.concept.code [ fhir:value "7H6" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. standardní ústavní lůžkové péče urologické - H typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "7_6" ]
+     ]
+  ], [
+     fhir:index 264 ;
+     fhir:CodeSystem.concept.code [ fhir:value "7H7" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. standard. ústav. lůž. péče dětské urologie - H typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "7_6" ]
+     ]
+  ], [
+     fhir:index 265 ;
+     fhir:CodeSystem.concept.code [ fhir:value "7I1" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. resusc. a intenz. ústav. lůžkové péče ORL - I typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "7_1" ]
+     ]
+  ], [
+     fhir:index 266 ;
+     fhir:CodeSystem.concept.code [ fhir:value "7I4" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. resusc. a intenz. úst. lůž. péče dětské ORL - I typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "7_1" ]
+     ]
+  ], [
+     fhir:index 267 ;
+     fhir:CodeSystem.concept.code [ fhir:value "7I6" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov.resusc. a intenz. ústav. lůž.péče urologické - I typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "7_6" ]
+     ]
+  ], [
+     fhir:index 268 ;
+     fhir:CodeSystem.concept.code [ fhir:value "7I7" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov.resusc. a intenz. úst. lůž.péče dět.urologie - I typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "7_6" ]
+     ]
+  ], [
+     fhir:index 269 ;
+     fhir:CodeSystem.concept.code [ fhir:value "7I8" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. resuscitační ústavní lůžkové péče - ARO - I typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "7_8" ]
+     ]
+  ], [
+     fhir:index 270 ;
+     fhir:CodeSystem.concept.code [ fhir:value "7J1" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště jednodenní péče v oboru ORL" ]
+  ], [
+     fhir:index 271 ;
+     fhir:CodeSystem.concept.code [ fhir:value "7J6" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště jednodenní péče v oboru urologie" ]
+  ], [
+     fhir:index 272 ;
+     fhir:CodeSystem.concept.code [ fhir:value "7R1" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště-operační sály ORL" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "7_1" ]
+     ]
+  ], [
+     fhir:index 273 ;
+     fhir:CodeSystem.concept.code [ fhir:value "7R5" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště-operační sály oftalmologie" ]
+  ], [
+     fhir:index 274 ;
+     fhir:CodeSystem.concept.code [ fhir:value "7R6" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště-operační sály urologie" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "7_6" ]
+     ]
+  ], [
+     fhir:index 275 ;
+     fhir:CodeSystem.concept.code [ fhir:value "7R7" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště-operační sály dětské urologie" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "7_6" ]
+     ]
+  ], [
+     fhir:index 276 ;
+     fhir:CodeSystem.concept.code [ fhir:value "7T1" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. resusc. a intenz. ústav. lůžkové péče ORL - T typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "7_1" ]
+     ]
+  ], [
+     fhir:index 277 ;
+     fhir:CodeSystem.concept.code [ fhir:value "7T4" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. resusc. a intenz. úst. lůž. péče dětské ORL - T typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "7_1" ]
+     ]
+  ], [
+     fhir:index 278 ;
+     fhir:CodeSystem.concept.code [ fhir:value "7T6" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. resusc. a intenz. úst. lůž. péče urologické - T typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "7_6" ]
+     ]
+  ], [
+     fhir:index 279 ;
+     fhir:CodeSystem.concept.code [ fhir:value "7T7" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov.resusc. a intenz. úst. lůž.péče dět.urologie - T typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "7_6" ]
+     ]
+  ], [
+     fhir:index 280 ;
+     fhir:CodeSystem.concept.code [ fhir:value "7T8" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. resuscitační ústavní lůžkové péče - ARO - T typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "7_8" ]
+     ]
+  ], [
+     fhir:index 281 ;
+     fhir:CodeSystem.concept.code [ fhir:value "7U4" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. dlouhod. (chronic.) úst.lůž.péče dětské ORL - U typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "7_1" ]
+     ]
+  ], [
+     fhir:index 282 ;
+     fhir:CodeSystem.concept.code [ fhir:value "7U5" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. dlouhod.(chronic.) úst.lůž.péče oftalmolog. - U typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "7_5" ]
+     ]
+  ], [
+     fhir:index 283 ;
+     fhir:CodeSystem.concept.code [ fhir:value "7U8" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště dlouhodobé intenzivní ošetřovatelské péče (DIOP)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "7_8" ]
+     ]
+  ], [
+     fhir:index 284 ;
+     fhir:CodeSystem.concept.code [ fhir:value "801" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště klinické biochemie" ]
+  ], [
+     fhir:index 285 ;
+     fhir:CodeSystem.concept.code [ fhir:value "802" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště lékařské mikrobiologie" ]
+  ], [
+     fhir:index 286 ;
+     fhir:CodeSystem.concept.code [ fhir:value "803" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště lékařské bakteriologie" ]
+  ], [
+     fhir:index 287 ;
+     fhir:CodeSystem.concept.code [ fhir:value "804" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště lékařské parazitologie" ]
+  ], [
+     fhir:index 288 ;
+     fhir:CodeSystem.concept.code [ fhir:value "805" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště lékařské virologie" ]
+  ], [
+     fhir:index 289 ;
+     fhir:CodeSystem.concept.code [ fhir:value "806" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště s osvědčením pro provádění screeningu nádoru prsu" ]
+  ], [
+     fhir:index 290 ;
+     fhir:CodeSystem.concept.code [ fhir:value "807" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště patologické anatomie" ]
+  ], [
+     fhir:index 291 ;
+     fhir:CodeSystem.concept.code [ fhir:value "808" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště soudního lékařství" ]
+  ], [
+     fhir:index 292 ;
+     fhir:CodeSystem.concept.code [ fhir:value "809" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště radiodiagnostiky" ]
+  ], [
+     fhir:index 293 ;
+     fhir:CodeSystem.concept.code [ fhir:value "810" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště magnetické rezonance" ]
+  ], [
+     fhir:index 294 ;
+     fhir:CodeSystem.concept.code [ fhir:value "812" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště jiného laboratorního oboru" ]
+  ], [
+     fhir:index 295 ;
+     fhir:CodeSystem.concept.code [ fhir:value "813" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Laboratoř alergologická a imunologická" ]
+  ], [
+     fhir:index 296 ;
+     fhir:CodeSystem.concept.code [ fhir:value "814" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Laboratoř toxikologická" ]
+  ], [
+     fhir:index 297 ;
+     fhir:CodeSystem.concept.code [ fhir:value "815" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Laboratoř nukleární mediciny" ]
+  ], [
+     fhir:index 298 ;
+     fhir:CodeSystem.concept.code [ fhir:value "816" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Laboratoř lékařské genetiky" ]
+  ], [
+     fhir:index 299 ;
+     fhir:CodeSystem.concept.code [ fhir:value "817" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Laboratoř klinické cytologie" ]
+  ], [
+     fhir:index 300 ;
+     fhir:CodeSystem.concept.code [ fhir:value "818" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Laboratoř hematologická" ]
+  ], [
+     fhir:index 301 ;
+     fhir:CodeSystem.concept.code [ fhir:value "820" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Laboratoř provádějící screening karcinomu děložního hrdla" ]
+  ], [
+     fhir:index 302 ;
+     fhir:CodeSystem.concept.code [ fhir:value "822" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Laboratoř mykologická" ]
+  ], [
+     fhir:index 303 ;
+     fhir:CodeSystem.concept.code [ fhir:value "881" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Ambulance klinické biochemie" ]
+  ], [
+     fhir:index 304 ;
+     fhir:CodeSystem.concept.code [ fhir:value "901" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště klinické psychologie" ]
+  ], [
+     fhir:index 305 ;
+     fhir:CodeSystem.concept.code [ fhir:value "902" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Samostatné pracoviště fyzioterapeutů" ]
+  ], [
+     fhir:index 306 ;
+     fhir:CodeSystem.concept.code [ fhir:value "903" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště klinické logopedie" ]
+  ], [
+     fhir:index 307 ;
+     fhir:CodeSystem.concept.code [ fhir:value "904" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Samostatné prac. jiných zdrav. pracovníků - vysokoškoláků" ]
+  ], [
+     fhir:index 308 ;
+     fhir:CodeSystem.concept.code [ fhir:value "913" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Prac.ošetřovat. a rehabilit.péče v pobyt.zaříz.sociál.služeb" ]
+  ], [
+     fhir:index 309 ;
+     fhir:CodeSystem.concept.code [ fhir:value "914" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Samostatné pracoviště psychiatrických sester" ]
+  ], [
+     fhir:index 310 ;
+     fhir:CodeSystem.concept.code [ fhir:value "917" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Samostatné pracoviště ergoterapeutů" ]
+  ], [
+     fhir:index 311 ;
+     fhir:CodeSystem.concept.code [ fhir:value "921" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Samostatné pracoviště porodních asistentek" ]
+  ], [
+     fhir:index 312 ;
+     fhir:CodeSystem.concept.code [ fhir:value "925" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště domácí péče - SZP" ]
+  ], [
+     fhir:index 313 ;
+     fhir:CodeSystem.concept.code [ fhir:value "927" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Samostatné prac. ortoptických sester" ]
+  ], [
+     fhir:index 314 ;
+     fhir:CodeSystem.concept.code [ fhir:value "989" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště dopravy raněných, nemocných a rodiček" ]
+  ], [
+     fhir:index 315 ;
+     fhir:CodeSystem.concept.code [ fhir:value "994" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Odb.pouze pro indik.péče komplementu (lékař.zaměstn.koj.úst)" ]
+  ], [
+     fhir:index 316 ;
+     fhir:CodeSystem.concept.code [ fhir:value "995" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Odbornost pouze pro indikaci dopravy zpět do místa bydliště" ]
+  ], [
+     fhir:index 317 ;
+     fhir:CodeSystem.concept.code [ fhir:value "996" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Odbornost pouze pro úhradu cestovného pacientům" ]
+  ], [
+     fhir:index 318 ;
+     fhir:CodeSystem.concept.code [ fhir:value "9F8" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště neúplné ústavní péče - F typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "9_8" ]
+     ]
+  ], [
+     fhir:index 319 ;
+     fhir:CodeSystem.concept.code [ fhir:value "9F9" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. ústavní péče na ošetřovatelském lůžku - F typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "9_9" ]
+     ]
+  ], [
+     fhir:index 320 ;
+     fhir:CodeSystem.concept.code [ fhir:value "9H8" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracoviště neúplné ústavní péče - H typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "9_8" ]
+     ]
+  ], [
+     fhir:index 321 ;
+     fhir:CodeSystem.concept.code [ fhir:value "9H9" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. ústavní péče na ošetřovatelském lůžku - H typu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "9_9" ]
+     ]
+  ], [
+     fhir:index 322 ;
+     fhir:CodeSystem.concept.code [ fhir:value "9U7" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. ústavní následné péče v LDN" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "9_7" ]
+     ]
+  ], [
+     fhir:index 323 ;
+     fhir:CodeSystem.concept.code [ fhir:value "9U9" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracov. ústavní následné ošetřovatelské péče v hospici" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "SODB" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "9_9" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://hl7.cz/terminology/CodeSystem/vzp-smluvni-odbornost.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

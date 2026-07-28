@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="nclppol"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/>
+  </text>
+  <url value="https://ncez.mzcr.cz/nclp/ValueSet/nclppol"/>
+  <version value="02.97.01"/>
+  <name value="NCLPPOL"/>
+  <title value="NCLPPOL Value Set"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2026-07-27T16:55:21+02:00"/>
+  <publisher value="HL7 Czech Republic"/>
+  <contact>
+    <name value="HL7 Czech Republic"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hl7.cz/"/>
+    </telecom>
+  </contact>
+  <description value="Číselník obsahující koncepty z kódového systému NCLPPOL. Národní číselník laboratorních položek"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CZ"/>
+      <display value="Czechia"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="https://ncez.mzcr.cz/nclp/CodeSystem/nclppol"/>
+      <version value="02.97.01"/>
+    </include>
+  </compose>
+</ValueSet>

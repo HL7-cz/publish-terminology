@@ -1,0 +1,1458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="eHDSIAllergenNoDrug"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="2"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use"/>
+  </extension>
+  <url value="https://ncez.mzcr.cz/terminology/ValueSet/eHDSIAllergenNoDrug"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.19"/>
+  </identifier>
+  <version value="8.1.0"/>
+  <name value="EHDSIAllergenNoDrug"/>
+  <title value="eHDSI Allergen No Drug"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-07-27T16:55:21+02:00"/>
+  <publisher value="HL7 Czech Republic"/>
+  <contact>
+    <name value="HL7 Czech Republic"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hl7.cz/"/>
+    </telecom>
+  </contact>
+  <description value="The value set is used to code the patient's kind of adverse reactions against substance, food or drugs"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CZ"/>
+      <display value="Czechia"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"/>
+  <compose>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <concept>
+        <code value="432003"/>
+      </concept>
+      <concept>
+        <code value="2159007"/>
+      </concept>
+      <concept>
+        <code value="2309006"/>
+      </concept>
+      <concept>
+        <code value="2799001"/>
+      </concept>
+      <concept>
+        <code value="3718001"/>
+      </concept>
+      <concept>
+        <code value="3829006"/>
+      </concept>
+      <concept>
+        <code value="6725000"/>
+      </concept>
+      <concept>
+        <code value="7434003"/>
+      </concept>
+      <concept>
+        <code value="8204009"/>
+      </concept>
+      <concept>
+        <code value="9010006"/>
+      </concept>
+      <concept>
+        <code value="9021002"/>
+      </concept>
+      <concept>
+        <code value="11526002"/>
+      </concept>
+      <concept>
+        <code value="12503006"/>
+      </concept>
+      <concept>
+        <code value="12510000"/>
+      </concept>
+      <concept>
+        <code value="13577000"/>
+      </concept>
+      <concept>
+        <code value="13652007"/>
+      </concept>
+      <concept>
+        <code value="14402002"/>
+      </concept>
+      <concept>
+        <code value="16313001"/>
+      </concept>
+      <concept>
+        <code value="17172002"/>
+      </concept>
+      <concept>
+        <code value="17486007"/>
+      </concept>
+      <concept>
+        <code value="17693003"/>
+      </concept>
+      <concept>
+        <code value="19839007"/>
+      </concept>
+      <concept>
+        <code value="19893005"/>
+      </concept>
+      <concept>
+        <code value="21592006"/>
+      </concept>
+      <concept>
+        <code value="22242006"/>
+      </concept>
+      <concept>
+        <code value="22836000"/>
+      </concept>
+      <concept>
+        <code value="22931006"/>
+      </concept>
+      <concept>
+        <code value="24102007"/>
+      </concept>
+      <concept>
+        <code value="24215009"/>
+      </concept>
+      <concept>
+        <code value="25761002"/>
+      </concept>
+      <concept>
+        <code value="27119002"/>
+      </concept>
+      <concept>
+        <code value="28230009"/>
+      </concept>
+      <concept>
+        <code value="28421003"/>
+      </concept>
+      <concept>
+        <code value="28647000"/>
+      </concept>
+      <concept>
+        <code value="29263009"/>
+      </concept>
+      <concept>
+        <code value="29522004"/>
+      </concept>
+      <concept>
+        <code value="31006001"/>
+      </concept>
+      <concept>
+        <code value="31347007"/>
+      </concept>
+      <concept>
+        <code value="33008008"/>
+      </concept>
+      <concept>
+        <code value="33396006"/>
+      </concept>
+      <concept>
+        <code value="35605007"/>
+      </concept>
+      <concept>
+        <code value="35609001"/>
+      </concept>
+      <concept>
+        <code value="37017009"/>
+      </concept>
+      <concept>
+        <code value="37575004"/>
+      </concept>
+      <concept>
+        <code value="38271009"/>
+      </concept>
+      <concept>
+        <code value="41750006"/>
+      </concept>
+      <concept>
+        <code value="41967008"/>
+      </concept>
+      <concept>
+        <code value="42416001"/>
+      </concept>
+      <concept>
+        <code value="43230003"/>
+      </concept>
+      <concept>
+        <code value="43735007"/>
+      </concept>
+      <concept>
+        <code value="44027008"/>
+      </concept>
+      <concept>
+        <code value="47703008"/>
+      </concept>
+      <concept>
+        <code value="48540004"/>
+      </concept>
+      <concept>
+        <code value="50593009"/>
+      </concept>
+      <concept>
+        <code value="51503008"/>
+      </concept>
+      <concept>
+        <code value="51905005"/>
+      </concept>
+      <concept>
+        <code value="51963001"/>
+      </concept>
+      <concept>
+        <code value="52454007"/>
+      </concept>
+      <concept>
+        <code value="52836003"/>
+      </concept>
+      <concept>
+        <code value="54041009"/>
+      </concept>
+      <concept>
+        <code value="56822005"/>
+      </concept>
+      <concept>
+        <code value="57126000"/>
+      </concept>
+      <concept>
+        <code value="57720001"/>
+      </concept>
+      <concept>
+        <code value="59351004"/>
+      </concept>
+      <concept>
+        <code value="59533004"/>
+      </concept>
+      <concept>
+        <code value="59545008"/>
+      </concept>
+      <concept>
+        <code value="61088005"/>
+      </concept>
+      <concept>
+        <code value="61789006"/>
+      </concept>
+      <concept>
+        <code value="63338004"/>
+      </concept>
+      <concept>
+        <code value="64601002"/>
+      </concept>
+      <concept>
+        <code value="65123005"/>
+      </concept>
+      <concept>
+        <code value="65345002"/>
+      </concept>
+      <concept>
+        <code value="66562002"/>
+      </concept>
+      <concept>
+        <code value="66925006"/>
+      </concept>
+      <concept>
+        <code value="67324005"/>
+      </concept>
+      <concept>
+        <code value="68524009"/>
+      </concept>
+      <concept>
+        <code value="71463006"/>
+      </concept>
+      <concept>
+        <code value="72179002"/>
+      </concept>
+      <concept>
+        <code value="72511004"/>
+      </concept>
+      <concept>
+        <code value="75044009"/>
+      </concept>
+      <concept>
+        <code value="75665004"/>
+      </concept>
+      <concept>
+        <code value="80237000"/>
+      </concept>
+      <concept>
+        <code value="81911001"/>
+      </concept>
+      <concept>
+        <code value="82566005"/>
+      </concept>
+      <concept>
+        <code value="83595008"/>
+      </concept>
+      <concept>
+        <code value="83619009"/>
+      </concept>
+      <concept>
+        <code value="84212004"/>
+      </concept>
+      <concept>
+        <code value="84791008"/>
+      </concept>
+      <concept>
+        <code value="89889006"/>
+      </concept>
+      <concept>
+        <code value="102259006"/>
+      </concept>
+      <concept>
+        <code value="102261002"/>
+      </concept>
+      <concept>
+        <code value="102262009"/>
+      </concept>
+      <concept>
+        <code value="102263004"/>
+      </concept>
+      <concept>
+        <code value="102264005"/>
+      </concept>
+      <concept>
+        <code value="102697003"/>
+      </concept>
+      <concept>
+        <code value="105590001"/>
+      </concept>
+      <concept>
+        <code value="111095003"/>
+      </concept>
+      <concept>
+        <code value="115589000"/>
+      </concept>
+      <concept>
+        <code value="116364004"/>
+      </concept>
+      <concept>
+        <code value="116549003"/>
+      </concept>
+      <concept>
+        <code value="116637007"/>
+      </concept>
+      <concept>
+        <code value="119417004"/>
+      </concept>
+      <concept>
+        <code value="128488006"/>
+      </concept>
+      <concept>
+        <code value="226491003"/>
+      </concept>
+      <concept>
+        <code value="226723006"/>
+      </concept>
+      <concept>
+        <code value="226776001"/>
+      </concept>
+      <concept>
+        <code value="226791004"/>
+      </concept>
+      <concept>
+        <code value="226915003"/>
+      </concept>
+      <concept>
+        <code value="226916002"/>
+      </concept>
+      <concept>
+        <code value="226942002"/>
+      </concept>
+      <concept>
+        <code value="226955001"/>
+      </concept>
+      <concept>
+        <code value="226963000"/>
+      </concept>
+      <concept>
+        <code value="226967004"/>
+      </concept>
+      <concept>
+        <code value="227067008"/>
+      </concept>
+      <concept>
+        <code value="227072004"/>
+      </concept>
+      <concept>
+        <code value="227078000"/>
+      </concept>
+      <concept>
+        <code value="227083008"/>
+      </concept>
+      <concept>
+        <code value="227099002"/>
+      </concept>
+      <concept>
+        <code value="227106004"/>
+      </concept>
+      <concept>
+        <code value="227136008"/>
+      </concept>
+      <concept>
+        <code value="227139001"/>
+      </concept>
+      <concept>
+        <code value="227151004"/>
+      </concept>
+      <concept>
+        <code value="227156009"/>
+      </concept>
+      <concept>
+        <code value="227183005"/>
+      </concept>
+      <concept>
+        <code value="227215000"/>
+      </concept>
+      <concept>
+        <code value="227219006"/>
+      </concept>
+      <concept>
+        <code value="227220000"/>
+      </concept>
+      <concept>
+        <code value="227227002"/>
+      </concept>
+      <concept>
+        <code value="227229004"/>
+      </concept>
+      <concept>
+        <code value="227230009"/>
+      </concept>
+      <concept>
+        <code value="227313005"/>
+      </concept>
+      <concept>
+        <code value="227350006"/>
+      </concept>
+      <concept>
+        <code value="227362005"/>
+      </concept>
+      <concept>
+        <code value="227376006"/>
+      </concept>
+      <concept>
+        <code value="227379004"/>
+      </concept>
+      <concept>
+        <code value="227382009"/>
+      </concept>
+      <concept>
+        <code value="227383004"/>
+      </concept>
+      <concept>
+        <code value="227385006"/>
+      </concept>
+      <concept>
+        <code value="227388008"/>
+      </concept>
+      <concept>
+        <code value="227390009"/>
+      </concept>
+      <concept>
+        <code value="227391008"/>
+      </concept>
+      <concept>
+        <code value="227395004"/>
+      </concept>
+      <concept>
+        <code value="227396003"/>
+      </concept>
+      <concept>
+        <code value="227400003"/>
+      </concept>
+      <concept>
+        <code value="227404007"/>
+      </concept>
+      <concept>
+        <code value="227405008"/>
+      </concept>
+      <concept>
+        <code value="227407000"/>
+      </concept>
+      <concept>
+        <code value="227408005"/>
+      </concept>
+      <concept>
+        <code value="227409002"/>
+      </concept>
+      <concept>
+        <code value="227411006"/>
+      </concept>
+      <concept>
+        <code value="227413009"/>
+      </concept>
+      <concept>
+        <code value="227414003"/>
+      </concept>
+      <concept>
+        <code value="227425007"/>
+      </concept>
+      <concept>
+        <code value="227435001"/>
+      </concept>
+      <concept>
+        <code value="227444000"/>
+      </concept>
+      <concept>
+        <code value="227447007"/>
+      </concept>
+      <concept>
+        <code value="227493005"/>
+      </concept>
+      <concept>
+        <code value="227501001"/>
+      </concept>
+      <concept>
+        <code value="227514000"/>
+      </concept>
+      <concept>
+        <code value="227515004"/>
+      </concept>
+      <concept>
+        <code value="227538001"/>
+      </concept>
+      <concept>
+        <code value="227598003"/>
+      </concept>
+      <concept>
+        <code value="228104004"/>
+      </concept>
+      <concept>
+        <code value="229934002"/>
+      </concept>
+      <concept>
+        <code value="229941008"/>
+      </concept>
+      <concept>
+        <code value="230034002"/>
+      </concept>
+      <concept>
+        <code value="255640000"/>
+      </concept>
+      <concept>
+        <code value="255667006"/>
+      </concept>
+      <concept>
+        <code value="255764006"/>
+      </concept>
+      <concept>
+        <code value="255769001"/>
+      </concept>
+      <concept>
+        <code value="255772008"/>
+      </concept>
+      <concept>
+        <code value="255775005"/>
+      </concept>
+      <concept>
+        <code value="255842006"/>
+      </concept>
+      <concept>
+        <code value="255859001"/>
+      </concept>
+      <concept>
+        <code value="255864002"/>
+      </concept>
+      <concept>
+        <code value="255868004"/>
+      </concept>
+      <concept>
+        <code value="255924000"/>
+      </concept>
+      <concept>
+        <code value="256260009"/>
+      </concept>
+      <concept>
+        <code value="256272003"/>
+      </concept>
+      <concept>
+        <code value="256289006"/>
+      </concept>
+      <concept>
+        <code value="256292005"/>
+      </concept>
+      <concept>
+        <code value="256293000"/>
+      </concept>
+      <concept>
+        <code value="256303006"/>
+      </concept>
+      <concept>
+        <code value="256305004"/>
+      </concept>
+      <concept>
+        <code value="256306003"/>
+      </concept>
+      <concept>
+        <code value="256307007"/>
+      </concept>
+      <concept>
+        <code value="256313003"/>
+      </concept>
+      <concept>
+        <code value="256315005"/>
+      </concept>
+      <concept>
+        <code value="256316006"/>
+      </concept>
+      <concept>
+        <code value="256317002"/>
+      </concept>
+      <concept>
+        <code value="256318007"/>
+      </concept>
+      <concept>
+        <code value="256319004"/>
+      </concept>
+      <concept>
+        <code value="256326004"/>
+      </concept>
+      <concept>
+        <code value="256329006"/>
+      </concept>
+      <concept>
+        <code value="256331002"/>
+      </concept>
+      <concept>
+        <code value="256350002"/>
+      </concept>
+      <concept>
+        <code value="256351003"/>
+      </concept>
+      <concept>
+        <code value="256352005"/>
+      </concept>
+      <concept>
+        <code value="256353000"/>
+      </concept>
+      <concept>
+        <code value="256354006"/>
+      </concept>
+      <concept>
+        <code value="256363008"/>
+      </concept>
+      <concept>
+        <code value="256419000"/>
+      </concept>
+      <concept>
+        <code value="256435007"/>
+      </concept>
+      <concept>
+        <code value="256443002"/>
+      </concept>
+      <concept>
+        <code value="256506002"/>
+      </concept>
+      <concept>
+        <code value="256526003"/>
+      </concept>
+      <concept>
+        <code value="256579008"/>
+      </concept>
+      <concept>
+        <code value="256596009"/>
+      </concept>
+      <concept>
+        <code value="256607001"/>
+      </concept>
+      <concept>
+        <code value="256633009"/>
+      </concept>
+      <concept>
+        <code value="259221006"/>
+      </concept>
+      <concept>
+        <code value="260118006"/>
+      </concept>
+      <concept>
+        <code value="260126003"/>
+      </concept>
+      <concept>
+        <code value="260152009"/>
+      </concept>
+      <concept>
+        <code value="260153004"/>
+      </concept>
+      <concept>
+        <code value="260154005"/>
+      </concept>
+      <concept>
+        <code value="260167008"/>
+      </concept>
+      <concept>
+        <code value="260168003"/>
+      </concept>
+      <concept>
+        <code value="260176001"/>
+      </concept>
+      <concept>
+        <code value="260177005"/>
+      </concept>
+      <concept>
+        <code value="260179008"/>
+      </concept>
+      <concept>
+        <code value="260184002"/>
+      </concept>
+      <concept>
+        <code value="260189007"/>
+      </concept>
+      <concept>
+        <code value="260204008"/>
+      </concept>
+      <concept>
+        <code value="260205009"/>
+      </concept>
+      <concept>
+        <code value="261249004"/>
+      </concept>
+      <concept>
+        <code value="261712009"/>
+      </concept>
+      <concept>
+        <code value="264287008"/>
+      </concept>
+      <concept>
+        <code value="264295007"/>
+      </concept>
+      <concept>
+        <code value="264331002"/>
+      </concept>
+      <concept>
+        <code value="264337003"/>
+      </concept>
+      <concept>
+        <code value="276310004"/>
+      </concept>
+      <concept>
+        <code value="277016007"/>
+      </concept>
+      <concept>
+        <code value="278840001"/>
+      </concept>
+      <concept>
+        <code value="280939008"/>
+      </concept>
+      <concept>
+        <code value="288326000"/>
+      </concept>
+      <concept>
+        <code value="288328004"/>
+      </concept>
+      <concept>
+        <code value="288460008"/>
+      </concept>
+      <concept>
+        <code value="290008007"/>
+      </concept>
+      <concept>
+        <code value="301093003"/>
+      </concept>
+      <concept>
+        <code value="303300008"/>
+      </concept>
+      <concept>
+        <code value="303314008"/>
+      </concept>
+      <concept>
+        <code value="303315009"/>
+      </concept>
+      <concept>
+        <code value="311443003"/>
+      </concept>
+      <concept>
+        <code value="311731000"/>
+      </concept>
+      <concept>
+        <code value="387293003"/>
+      </concept>
+      <concept>
+        <code value="395734009"/>
+      </concept>
+      <concept>
+        <code value="396049000"/>
+      </concept>
+      <concept>
+        <code value="398705004"/>
+      </concept>
+      <concept>
+        <code value="410853002"/>
+      </concept>
+      <concept>
+        <code value="412056003"/>
+      </concept>
+      <concept>
+        <code value="412060000"/>
+      </concept>
+      <concept>
+        <code value="412061001"/>
+      </concept>
+      <concept>
+        <code value="412068007"/>
+      </concept>
+      <concept>
+        <code value="412070003"/>
+      </concept>
+      <concept>
+        <code value="412071004"/>
+      </concept>
+      <concept>
+        <code value="412145001"/>
+      </concept>
+      <concept>
+        <code value="412150007"/>
+      </concept>
+      <concept>
+        <code value="412153009"/>
+      </concept>
+      <concept>
+        <code value="412156001"/>
+      </concept>
+      <concept>
+        <code value="412357001"/>
+      </concept>
+      <concept>
+        <code value="415710007"/>
+      </concept>
+      <concept>
+        <code value="418266005"/>
+      </concept>
+      <concept>
+        <code value="418785009"/>
+      </concept>
+      <concept>
+        <code value="418920007"/>
+      </concept>
+      <concept>
+        <code value="419420009"/>
+      </concept>
+      <concept>
+        <code value="419604006"/>
+      </concept>
+      <concept>
+        <code value="419633007"/>
+      </concept>
+      <concept>
+        <code value="421556008"/>
+      </concept>
+      <concept>
+        <code value="425620007"/>
+      </concept>
+      <concept>
+        <code value="430503006"/>
+      </concept>
+      <concept>
+        <code value="434162003"/>
+      </concept>
+      <concept>
+        <code value="472731004"/>
+      </concept>
+      <concept>
+        <code value="702730004"/>
+      </concept>
+      <concept>
+        <code value="710039005"/>
+      </concept>
+      <concept>
+        <code value="710172008"/>
+      </concept>
+      <concept>
+        <code value="710179004"/>
+      </concept>
+      <concept>
+        <code value="710184005"/>
+      </concept>
+      <concept>
+        <code value="710900003"/>
+      </concept>
+      <concept>
+        <code value="710902006"/>
+      </concept>
+      <concept>
+        <code value="710930006"/>
+      </concept>
+      <concept>
+        <code value="710937009"/>
+      </concept>
+      <concept>
+        <code value="711088004"/>
+      </concept>
+      <concept>
+        <code value="711089007"/>
+      </concept>
+      <concept>
+        <code value="711090003"/>
+      </concept>
+      <concept>
+        <code value="711092006"/>
+      </concept>
+      <concept>
+        <code value="711096009"/>
+      </concept>
+      <concept>
+        <code value="711097000"/>
+      </concept>
+      <concept>
+        <code value="719108000"/>
+      </concept>
+      <concept>
+        <code value="726758002"/>
+      </concept>
+      <concept>
+        <code value="726759005"/>
+      </concept>
+      <concept>
+        <code value="726761001"/>
+      </concept>
+      <concept>
+        <code value="726763003"/>
+      </concept>
+      <concept>
+        <code value="734881000"/>
+      </concept>
+      <concept>
+        <code value="735004000"/>
+      </concept>
+      <concept>
+        <code value="735006003"/>
+      </concept>
+      <concept>
+        <code value="735029006"/>
+      </concept>
+      <concept>
+        <code value="735034005"/>
+      </concept>
+      <concept>
+        <code value="735035006"/>
+      </concept>
+      <concept>
+        <code value="735042006"/>
+      </concept>
+      <concept>
+        <code value="735043001"/>
+      </concept>
+      <concept>
+        <code value="735045008"/>
+      </concept>
+      <concept>
+        <code value="735047000"/>
+      </concept>
+      <concept>
+        <code value="735049002"/>
+      </concept>
+      <concept>
+        <code value="735050002"/>
+      </concept>
+      <concept>
+        <code value="735051003"/>
+      </concept>
+      <concept>
+        <code value="735053000"/>
+      </concept>
+      <concept>
+        <code value="735106000"/>
+      </concept>
+      <concept>
+        <code value="735123009"/>
+      </concept>
+      <concept>
+        <code value="735124003"/>
+      </concept>
+      <concept>
+        <code value="735211005"/>
+      </concept>
+      <concept>
+        <code value="735212003"/>
+      </concept>
+      <concept>
+        <code value="735213008"/>
+      </concept>
+      <concept>
+        <code value="735245003"/>
+      </concept>
+      <concept>
+        <code value="735246002"/>
+      </concept>
+      <concept>
+        <code value="735248001"/>
+      </concept>
+      <concept>
+        <code value="735249009"/>
+      </concept>
+      <concept>
+        <code value="735336002"/>
+      </concept>
+      <concept>
+        <code value="735337006"/>
+      </concept>
+      <concept>
+        <code value="735340006"/>
+      </concept>
+      <concept>
+        <code value="735341005"/>
+      </concept>
+      <concept>
+        <code value="735959004"/>
+      </concept>
+      <concept>
+        <code value="735971005"/>
+      </concept>
+      <concept>
+        <code value="735972003"/>
+      </concept>
+      <concept>
+        <code value="735974002"/>
+      </concept>
+      <concept>
+        <code value="735977009"/>
+      </concept>
+      <concept>
+        <code value="735979007"/>
+      </concept>
+      <concept>
+        <code value="736027000"/>
+      </concept>
+      <concept>
+        <code value="736031006"/>
+      </concept>
+      <concept>
+        <code value="736162008"/>
+      </concept>
+      <concept>
+        <code value="736258006"/>
+      </concept>
+      <concept>
+        <code value="764166003"/>
+      </concept>
+      <concept>
+        <code value="765099008"/>
+      </concept>
+      <concept>
+        <code value="767406000"/>
+      </concept>
+      <concept>
+        <code value="770326002"/>
+      </concept>
+      <concept>
+        <code value="771518004"/>
+      </concept>
+      <concept>
+        <code value="772245002"/>
+      </concept>
+      <concept>
+        <code value="1003736004"/>
+      </concept>
+      <concept>
+        <code value="1003752001"/>
+      </concept>
+      <concept>
+        <code value="1137358000"/>
+      </concept>
+      <concept>
+        <code value="24515005"/>
+      </concept>
+      <concept>
+        <code value="37663002"/>
+      </concept>
+      <concept>
+        <code value="51386004"/>
+      </concept>
+      <concept>
+        <code value="63045006"/>
+      </concept>
+      <concept>
+        <code value="70813002"/>
+      </concept>
+      <concept>
+        <code value="80259003"/>
+      </concept>
+      <concept>
+        <code value="87918000"/>
+      </concept>
+      <concept>
+        <code value="116274004"/>
+      </concept>
+      <concept>
+        <code value="227038007"/>
+      </concept>
+      <concept>
+        <code value="227110001"/>
+      </concept>
+      <concept>
+        <code value="256248008"/>
+      </concept>
+      <concept>
+        <code value="256406004"/>
+      </concept>
+      <concept>
+        <code value="289954006"/>
+      </concept>
+      <concept>
+        <code value="735108004"/>
+      </concept>
+      <concept>
+        <code value="442571000124108"/>
+      </concept>
+      <concept>
+        <code value="3692009"/>
+      </concept>
+      <concept>
+        <code value="7791007"/>
+      </concept>
+      <concept>
+        <code value="10827009"/>
+      </concept>
+      <concept>
+        <code value="14006006"/>
+      </concept>
+      <concept>
+        <code value="22968009"/>
+      </concept>
+      <concept>
+        <code value="23182003"/>
+      </concept>
+      <concept>
+        <code value="35233000"/>
+      </concept>
+      <concept>
+        <code value="55700001"/>
+      </concept>
+      <concept>
+        <code value="63766005"/>
+      </concept>
+      <concept>
+        <code value="73892005"/>
+      </concept>
+      <concept>
+        <code value="79549001"/>
+      </concept>
+      <concept>
+        <code value="85066006"/>
+      </concept>
+      <concept>
+        <code value="89811004"/>
+      </concept>
+      <concept>
+        <code value="111088007"/>
+      </concept>
+      <concept>
+        <code value="128489003"/>
+      </concept>
+      <concept>
+        <code value="226934003"/>
+      </concept>
+      <concept>
+        <code value="227066004"/>
+      </concept>
+      <concept>
+        <code value="227081005"/>
+      </concept>
+      <concept>
+        <code value="227131003"/>
+      </concept>
+      <concept>
+        <code value="227147001"/>
+      </concept>
+      <concept>
+        <code value="227150003"/>
+      </concept>
+      <concept>
+        <code value="227339008"/>
+      </concept>
+      <concept>
+        <code value="227346004"/>
+      </concept>
+      <concept>
+        <code value="227374009"/>
+      </concept>
+      <concept>
+        <code value="227387003"/>
+      </concept>
+      <concept>
+        <code value="227389000"/>
+      </concept>
+      <concept>
+        <code value="227398002"/>
+      </concept>
+      <concept>
+        <code value="227410007"/>
+      </concept>
+      <concept>
+        <code value="227423000"/>
+      </concept>
+      <concept>
+        <code value="227511008"/>
+      </concept>
+      <concept>
+        <code value="227512001"/>
+      </concept>
+      <concept>
+        <code value="229944000"/>
+      </concept>
+      <concept>
+        <code value="255620007"/>
+      </concept>
+      <concept>
+        <code value="255786007"/>
+      </concept>
+      <concept>
+        <code value="255844007"/>
+      </concept>
+      <concept>
+        <code value="255871007"/>
+      </concept>
+      <concept>
+        <code value="256186006"/>
+      </concept>
+      <concept>
+        <code value="256218005"/>
+      </concept>
+      <concept>
+        <code value="256262001"/>
+      </concept>
+      <concept>
+        <code value="256267007"/>
+      </concept>
+      <concept>
+        <code value="256270006"/>
+      </concept>
+      <concept>
+        <code value="256277009"/>
+      </concept>
+      <concept>
+        <code value="256281009"/>
+      </concept>
+      <concept>
+        <code value="256417003"/>
+      </concept>
+      <concept>
+        <code value="256440004"/>
+      </concept>
+      <concept>
+        <code value="256496006"/>
+      </concept>
+      <concept>
+        <code value="256501007"/>
+      </concept>
+      <concept>
+        <code value="256504004"/>
+      </concept>
+      <concept>
+        <code value="260108001"/>
+      </concept>
+      <concept>
+        <code value="260131001"/>
+      </concept>
+      <concept>
+        <code value="260156007"/>
+      </concept>
+      <concept>
+        <code value="261243003"/>
+      </concept>
+      <concept>
+        <code value="286550009"/>
+      </concept>
+      <concept>
+        <code value="289949002"/>
+      </concept>
+      <concept>
+        <code value="289955007"/>
+      </concept>
+      <concept>
+        <code value="311846002"/>
+      </concept>
+      <concept>
+        <code value="373780001"/>
+      </concept>
+      <concept>
+        <code value="387239001"/>
+      </concept>
+      <concept>
+        <code value="391737006"/>
+      </concept>
+      <concept>
+        <code value="409595003"/>
+      </concept>
+      <concept>
+        <code value="412161004"/>
+      </concept>
+      <concept>
+        <code value="418504009"/>
+      </concept>
+      <concept>
+        <code value="431510009"/>
+      </concept>
+      <concept>
+        <code value="698730007"/>
+      </concept>
+      <concept>
+        <code value="710171001"/>
+      </concept>
+      <concept>
+        <code value="710178007"/>
+      </concept>
+      <concept>
+        <code value="710183004"/>
+      </concept>
+      <concept>
+        <code value="710932003"/>
+      </concept>
+      <concept>
+        <code value="711143002"/>
+      </concept>
+      <concept>
+        <code value="711316002"/>
+      </concept>
+      <concept>
+        <code value="720687003"/>
+      </concept>
+      <concept>
+        <code value="726731009"/>
+      </concept>
+      <concept>
+        <code value="726764009"/>
+      </concept>
+      <concept>
+        <code value="735030001"/>
+      </concept>
+      <concept>
+        <code value="735046009"/>
+      </concept>
+      <concept>
+        <code value="735214002"/>
+      </concept>
+      <concept>
+        <code value="735215001"/>
+      </concept>
+      <concept>
+        <code value="762766007"/>
+      </concept>
+      <concept>
+        <code value="782576004"/>
+      </concept>
+      <concept>
+        <code value="785344003"/>
+      </concept>
+      <concept>
+        <code value="442461000124102"/>
+      </concept>
+      <concept>
+        <code value="14321009"/>
+      </concept>
+      <concept>
+        <code value="15896008"/>
+      </concept>
+      <concept>
+        <code value="77249007"/>
+      </concept>
+      <concept>
+        <code value="84181009"/>
+      </concept>
+      <concept>
+        <code value="125706008"/>
+      </concept>
+      <concept>
+        <code value="226793001"/>
+      </concept>
+      <concept>
+        <code value="227042005"/>
+      </concept>
+      <concept>
+        <code value="227105000"/>
+      </concept>
+      <concept>
+        <code value="227144008"/>
+      </concept>
+      <concept>
+        <code value="227392001"/>
+      </concept>
+      <concept>
+        <code value="255814009"/>
+      </concept>
+      <concept>
+        <code value="255840003"/>
+      </concept>
+      <concept>
+        <code value="256259004"/>
+      </concept>
+      <concept>
+        <code value="256290002"/>
+      </concept>
+      <concept>
+        <code value="256330001"/>
+      </concept>
+      <concept>
+        <code value="256355007"/>
+      </concept>
+      <concept>
+        <code value="261250004"/>
+      </concept>
+      <concept>
+        <code value="289122001"/>
+      </concept>
+      <concept>
+        <code value="301712000"/>
+      </concept>
+      <concept>
+        <code value="408742009"/>
+      </concept>
+      <concept>
+        <code value="412548006"/>
+      </concept>
+      <concept>
+        <code value="710226003"/>
+      </concept>
+      <concept>
+        <code value="710943006"/>
+      </concept>
+      <concept>
+        <code value="711094007"/>
+      </concept>
+      <concept>
+        <code value="711098005"/>
+      </concept>
+      <concept>
+        <code value="726749009"/>
+      </concept>
+      <concept>
+        <code value="726755004"/>
+      </concept>
+      <concept>
+        <code value="735009005"/>
+      </concept>
+      <concept>
+        <code value="736030007"/>
+      </concept>
+      <concept>
+        <code value="736159005"/>
+      </concept>
+      <concept>
+        <code value="773757000"/>
+      </concept>
+      <concept>
+        <code value="1137359008"/>
+      </concept>
+      <concept>
+        <code value="711319009"/>
+      </concept>
+      <concept>
+        <code value="762952008"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

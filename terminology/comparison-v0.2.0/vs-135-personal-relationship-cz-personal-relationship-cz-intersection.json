@@ -1,0 +1,185 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "3be28065-604a-49db-82ac-da3be23fd237-153",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/3be28065-604a-49db-82ac-da3be23fd237-153",
+  "name" : "IntersectionPersonalRelationshipCzVSAndPersonalRelationshipCzVS",
+  "title" : "Intersection of Role code (CZ) And Role code (CZ)",
+  "status" : "active",
+  "date" : "2026-07-27T16:56:47+02:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CZ",
+      "display" : "Czechia"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "NOK"
+      },
+      {
+        "code" : "FAMMEMB"
+      },
+      {
+        "code" : "FRND"
+      },
+      {
+        "code" : "NBOR"
+      },
+      {
+        "code" : "DAUFOST"
+      },
+      {
+        "code" : "AUNT"
+      },
+      {
+        "code" : "GRNDSON"
+      },
+      {
+        "code" : "GRMTH"
+      },
+      {
+        "code" : "DOMPART"
+      },
+      {
+        "code" : "DAUADOPT"
+      },
+      {
+        "code" : "SONINLAW"
+      },
+      {
+        "code" : "NIENEPH"
+      },
+      {
+        "code" : "UNCLE"
+      },
+      {
+        "code" : "GGRFTH"
+      },
+      {
+        "code" : "BROINLAW"
+      },
+      {
+        "code" : "CHLDFOST"
+      },
+      {
+        "code" : "DAUC"
+      },
+      {
+        "code" : "SONC"
+      },
+      {
+        "code" : "STPCHLD"
+      },
+      {
+        "code" : "DAUINLAW"
+      },
+      {
+        "code" : "COUSN"
+      },
+      {
+        "code" : "SON"
+      },
+      {
+        "code" : "SPS"
+      },
+      {
+        "code" : "CHLDADOPT"
+      },
+      {
+        "code" : "NCHILD"
+      },
+      {
+        "code" : "SIGOTHR"
+      },
+      {
+        "code" : "GGRMTH"
+      },
+      {
+        "code" : "MTH"
+      },
+      {
+        "code" : "MTHINLAW"
+      },
+      {
+        "code" : "BRO"
+      },
+      {
+        "code" : "HUSB"
+      },
+      {
+        "code" : "PRN"
+      },
+      {
+        "code" : "SIB"
+      },
+      {
+        "code" : "NIECE"
+      },
+      {
+        "code" : "FTH"
+      },
+      {
+        "code" : "FTHINLAW"
+      },
+      {
+        "code" : "STPSON"
+      },
+      {
+        "code" : "SONFOST"
+      },
+      {
+        "code" : "GGRPRN"
+      },
+      {
+        "code" : "GRNDCHILD"
+      },
+      {
+        "code" : "EXT"
+      },
+      {
+        "code" : "SISINLAW"
+      },
+      {
+        "code" : "WIFE"
+      },
+      {
+        "code" : "DAU"
+      },
+      {
+        "code" : "GRPRN"
+      },
+      {
+        "code" : "CHILD"
+      },
+      {
+        "code" : "GRNDDAU"
+      },
+      {
+        "code" : "GRFTH"
+      },
+      {
+        "code" : "PRNINLAW"
+      },
+      {
+        "code" : "ROOM"
+      },
+      {
+        "code" : "CHLDINLAW"
+      },
+      {
+        "code" : "SONADOPT"
+      },
+      {
+        "code" : "STPDAU"
+      },
+      {
+        "code" : "NEPHEW"
+      },
+      {
+        "code" : "SIS"
+      }]
+    }]
+  }
+}

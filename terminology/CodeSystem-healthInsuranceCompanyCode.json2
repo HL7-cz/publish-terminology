@@ -15,7 +15,7 @@
     "valueCode" : "trial-use"
   }],
   "url" : "https://ncez.mzcr.cz/terminology/CodeSystem/healthInsuranceCompanyCode",
-  "version" : "0.2.0",
+  "version" : "1.0.0",
   "name" : "CS_HealthInsuranceCompanyCode",
   "title" : "Codesystem of Health Insurance Companies",
   "status" : "active",

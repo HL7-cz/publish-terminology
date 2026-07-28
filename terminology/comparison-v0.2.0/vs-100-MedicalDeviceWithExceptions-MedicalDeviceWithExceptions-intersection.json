@@ -1,0 +1,21 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "3be28065-604a-49db-82ac-da3be23fd237-60",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/3be28065-604a-49db-82ac-da3be23fd237-60",
+  "name" : "IntersectionMedicalDeviceWithExceptionsVSAndMedicalDeviceWithExceptionsVS",
+  "title" : "Intersection of Medical Device with exceptions And Medical Device with exceptions",
+  "status" : "active",
+  "date" : "2026-07-27T16:56:47+02:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CZ",
+      "display" : "Czechia"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "valueSet" : ["https://ncez.mzcr.cz/terminology/ValueSet/medical-device"]
+    }]
+  }
+}

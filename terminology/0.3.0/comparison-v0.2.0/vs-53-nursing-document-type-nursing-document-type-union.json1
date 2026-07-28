@@ -1,0 +1,40 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "5bc82b81-07ce-410b-8d29-8298f2cfafcb-146",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/5bc82b81-07ce-410b-8d29-8298f2cfafcb-146",
+  "name" : "UnionNursingDocumentTypeAndNursingDocumentType",
+  "title" : "Union of Typ ošetřovatelské dokumentace And Typ ošetřovatelské dokumentace",
+  "status" : "draft",
+  "date" : "2026-07-27T16:47:06+02:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CZ",
+      "display" : "Czechia"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "34746-8",
+        "display" : "Ošetřovatelský záznam"
+      },
+      {
+        "code" : "97681-1",
+        "display" : "Ošetřovatelská anamnéza"
+      },
+      {
+        "code" : "64295-9",
+        "display" : "Ošetřovatelský plán péče"
+      },
+      {
+        "code" : "28623-7",
+        "display" : "Ošetřovatelské hodnocení"
+      },
+      {
+        "code" : "34745-0",
+        "display" : "Ošetřovatelská propouštěcí zpráva"
+      }]
+    }]
+  }
+}

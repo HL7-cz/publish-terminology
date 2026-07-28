@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="contact-and-relationship-cz"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/>
+  </text>
+  <url value="https://hl7.cz/terminology/ValueSet/contact-and-relationship-cz"/>
+  <version value="1.0.0"/>
+  <name value="Hl7vsContactAndRelationshipCz100"/>
+  <title value="Contact and Relationship (CZ)"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-04-03T08:40:10.799745Z"/>
+  <publisher value="HL7 Czech Republic"/>
+  <contact>
+    <name value="HL7 Czech Republic"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hl7.cz/"/>
+    </telecom>
+  </contact>
+  <description value="Číselník vztahů a rolí kontaktních osob k pacientovi. Číselník zahrnuje dva samostatné číselníky: relationship a contact role."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CZ"/>
+      <display value="Czechia"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <valueSet value="https://hl7.cz/terminology/ValueSet/contactrole-cz"/>
+    </include>
+    <include>
+      <valueSet value="https://hl7.cz/terminology/ValueSet/personal-relationship-cz"/>
+    </include>
+  </compose>
+</ValueSet>

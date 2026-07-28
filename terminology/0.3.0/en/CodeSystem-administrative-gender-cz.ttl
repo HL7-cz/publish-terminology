@@ -1,0 +1,95 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hl7.cz/terminology/CodeSystem/administrative-gender-cz> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "administrative-gender-cz"] ;
+  fhir:Resource.language [ fhir:value "en"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ]
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://hl7.cz/terminology/CodeSystem/administrative-gender-cz"] ;
+  fhir:CodeSystem.version [ fhir:value "4.0.1"] ;
+  fhir:CodeSystem.name [ fhir:value "AdministrativeGenderCz"] ;
+  fhir:CodeSystem.title [ fhir:value "Administrative Gender (CZ supplement)"] ;
+  fhir:CodeSystem.status [ fhir:value "active"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2025-03-10T09:50:30.338711Z"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "HL7 Czech Republic"] ;
+  fhir:CodeSystem.contact [
+     fhir:index -1 ;
+     fhir:ContactDetail.name [ fhir:value "HL7 Czech Republic" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index -1 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://www.hl7.cz/" ]
+     ]
+  ] ;
+  fhir:CodeSystem.description [ fhir:value "Pohlaví osoby používané pro administrativní účely. The gender of a person used for administrative purposes."] ;
+  fhir:CodeSystem.jurisdiction [
+     fhir:index -1 ;
+     fhir:CodeableConcept.coding [
+       fhir:index -1 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "CZ" ] ;
+       fhir:Coding.display [ fhir:value "Czechia" ]
+     ]
+  ] ;
+  fhir:CodeSystem.content [ fhir:value "supplement"] ;
+  fhir:CodeSystem.supplements [
+     fhir:value "http://hl7.org/fhir/administrative-gender|4.0.1" ;
+     fhir:link <http://hl7.org/fhir/administrative-gender|4.0.1>
+  ] ;
+  fhir:CodeSystem.concept [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "female" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "žena" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Žena" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "cs" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "žena" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "male" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "muž" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Muž" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "cs" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "muž" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "other" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "jiné" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Jiné" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "cs" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "jiné" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "unknown" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "neznámé" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Neznámé" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "cs" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "neznámé" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://hl7.cz/terminology/CodeSystem/administrative-gender-cz.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

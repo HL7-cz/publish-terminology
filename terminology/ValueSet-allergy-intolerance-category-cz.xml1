@@ -9,9 +9,9 @@
     <valueCanonical value="https://hl7.cz/terminology/CodeSystem/allergy-intolerance-category-cz"/>
   </extension>
   <url value="https://hl7.cz/terminology/ValueSet/allergy-intolerance-category-cz"/>
-  <version value="0.2.0"/>
+  <version value="1.0.0"/>
   <name value="AllergyIntoleranceCategory"/>
-  <title value="Allergy Intolerance Category (CZ supplement)"/>
+  <title value="Allergy Intolerance Category (CZ supplement value set)"/>
   <status value="active"/>
   <experimental value="false"/>
   <date value="2025-12-12T16:18:06.331637Z"/>

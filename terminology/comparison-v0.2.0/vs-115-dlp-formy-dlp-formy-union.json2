@@ -1,0 +1,16 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "3be28065-604a-49db-82ac-da3be23fd237-104",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/3be28065-604a-49db-82ac-da3be23fd237-104",
+  "name" : "UnionDLP_formyAndDLP_formy",
+  "title" : "Union of Lékové formy And Lékové formy",
+  "status" : "active",
+  "date" : "2026-07-27T16:56:47+02:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CZ",
+      "display" : "Czechia"
+    }]
+  }]
+}

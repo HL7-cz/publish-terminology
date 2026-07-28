@@ -1,0 +1,1068 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hl7.cz/terminology/ValueSet/OP-NS> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "OP-NS"] ;
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/StructureDefinition/shareablevalueset" ;
+       fhir:index -1 ;
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
+     ]
+  ] ;
+  fhir:Resource.language [ fhir:value "en"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ]
+  ] ;
+  fhir:DomainResource.extension [
+     fhir:index -1 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm" ] ;
+     fhir:Extension.valueInteger [ fhir:value "2"^^xsd:integer ]
+  ], [
+     fhir:index -1 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status" ] ;
+     fhir:Extension.valueCode [ fhir:value "trial-use" ]
+  ] ;
+  fhir:ValueSet.url [ fhir:value "https://hl7.cz/terminology/ValueSet/OP-NS"] ;
+  fhir:ValueSet.version [ fhir:value "1.0.0"] ;
+  fhir:ValueSet.name [ fhir:value "OPNSVS"] ;
+  fhir:ValueSet.title [ fhir:value "Standard namespaces for national identity card"] ;
+  fhir:ValueSet.status [ fhir:value "active"] ;
+  fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:ValueSet.date [ fhir:value "2023-01-01"^^xsd:date] ;
+  fhir:ValueSet.publisher [ fhir:value "HL7 Czech Republic"] ;
+  fhir:ValueSet.contact [
+     fhir:index -1 ;
+     fhir:ContactDetail.name [ fhir:value "HL7 Czech Republic" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index -1 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://www.hl7.cz/" ]
+     ]
+  ] ;
+  fhir:ValueSet.description [ fhir:value "National identity card's namespaces (CZ)"] ;
+  fhir:ValueSet.jurisdiction [
+     fhir:index -1 ;
+     fhir:CodeableConcept.coding [
+       fhir:index -1 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "CZ" ] ;
+       fhir:Coding.display [ fhir:value "Czechia" ]
+     ]
+  ] ;
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index -1 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "urn:ietf:rfc:3986" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-AFG" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Afghánistán" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-ALB" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Albánie" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-DZA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Alžírsko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-ASM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Americká Samoa" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-AND" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Andorra" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-AGO" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Angola" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-AIA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Anguilla" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-ATA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Antarktida" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-ATG" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Antigua a Barbuda" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-ARG" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Argentina" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-ARM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Arménie" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-ABW" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Aruba" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-AUS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Austrálie" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-AUT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Rakousko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-AZE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Ázerbájdžán" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-BHS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Bahamy" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-BHR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Bahrajn" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-BGD" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Bangladéš" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-BRB" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Barbados" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-BLR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Bělorusko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-BEL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Belgie" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-BLZ" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Belize" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-BEN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Benin" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-BMU" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Bermudy" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-BTN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Bhútán" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-BOL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Bolívie" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-BES" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Bonaire, Svatý Eustach a Saba" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-BIH" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Bosna a Hercegovina" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-BWA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Botswana" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-BVT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Bouvetův ostrov" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-BRA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Brazílie" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-IOT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Britské indickooceánské území" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-BRN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Brunej" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-BGR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Bulharsko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-BFA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Burkina Faso" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-BDI" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Burundi" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-CPV" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Burundi" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-KHM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Kambodža" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-CMR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Kamerun" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-CAN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Kanada" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-CYM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Kajmanské ostrovy" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-CAF" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Středoafrická republika" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-TCD" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Čad" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-CHL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Chile" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-CHN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Čína" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-CXR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Vánoční ostrov" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-CCK" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Kokosové (Keelingovy) ostrovy" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-COL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Kolumbie" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-COM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Komory" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-COD" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Konžská republika" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-COG" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Konžská republika" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-COK" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Cookovy ostrovy" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-CRI" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Kostarika" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-HRV" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Chorvatsko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-CUB" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Kuba" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-CUW" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Curaçao" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-CYP" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Kypr" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-CZE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Česko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-CIV" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Pobřeží slonoviny" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-DNK" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Dánsko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-DJI" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Džibutsko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-DMA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Dominika" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-DOM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Dominikánská republika" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-ECU" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Ekvádor" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-EGY" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Egypt" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-SLV" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Salvador" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-GNQ" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Rovníková Guinea" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-ERI" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Eritrea" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-EST" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Estonsko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-SWZ" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Estonsko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-ETH" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Etiopie" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-FLK" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Falklandy" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-FRO" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Faerské ostrovy" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-FJI" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Fidži" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-FIN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Finsko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-FRA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Francie" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-GUF" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Francouzská Guyana" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-PYF" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Francouzská Polynésie" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-ATF" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Francouzská jižní a antarktická území" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-GAB" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Gabon" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-GMB" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Gambie" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-GEO" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Gruzie" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-DEU" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Německo" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-GHA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Ghana" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-GIB" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Gibraltar" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-GRC" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Řecko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-GRL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Grónsko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-GRD" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Grenada" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-GLP" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Guadeloupe" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-GUM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Guam" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-GTM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Guatemala" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-GGY" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Guernsey" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-GIN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Guinea" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-GNB" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Guinea-Bissau" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-GUY" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Guyana" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-HTI" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Haiti" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-HMD" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Heardův ostrov a MacDonaldovy ostrovy" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-VAT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Vatikán" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-HND" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Honduras" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-HKG" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Hongkong" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-HUN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Maďarsko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-ISL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Island" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-IND" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Indie" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-IDN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Indonésie" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-IRN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Írán" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-IRQ" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Irák" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-IRL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Irsko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-IMN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Man" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-ISR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Izrael" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-ITA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Itálie" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-JAM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Jamajka" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-JPN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Japonsko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-JEY" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Jersey" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-JOR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Jordánsko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-KAZ" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Kazachstán" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-KEN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Keňa" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-KIR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Kiribati" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-PRK" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Korejská lidově demokratická republika" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-KOR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Korejská lidově demokratická republika" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-KWT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Kuvajt" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-KGZ" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Kyrgyzstán" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-LAO" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Laos" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-LVA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Lotyšsko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-LBN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Libanon" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-LSO" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Lesotho" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-LBR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Libérie" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-LBY" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Libye" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-LIE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Lichtenštejnsko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-LTU" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Litva" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-LUX" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Lucembursko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-MAC" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Macao" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-MDG" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Madagaskar" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-MWI" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Malawi" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-MYS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Malajsie" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-MDV" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Maledivy" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-MLI" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Mali" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-MLT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Malta" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-MHL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Marshallovy ostrovy" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-MTQ" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Martinik" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-MRT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Mauritánie" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-MUS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Mauricius" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-MYT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Mayotte" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-MEX" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Mexiko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-FSM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Mikronésie" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-MDA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Mikronésie" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-MCO" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Monako" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-MNG" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Mongolsko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-MNE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Černá Hora" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-MSR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Montserrat" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-MAR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Maroko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-MOZ" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Mosambik" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-MMR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Myanmar" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-NAM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Namibie" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-NRU" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Nauru" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-NPL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Nepál" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-NLD" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Nizozemsko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-NCL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Nová Kaledonie" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-NZL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Nový Zéland" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-NIC" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Nikaragua" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-NER" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Niger" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-NGA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Nigérie" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-NIU" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Niue" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-NFK" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Norfolk" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-MKD" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Norfolk" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-MNP" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Severní Mariany" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-NOR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Norsko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-OMN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Omán" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-PAK" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Pákistán" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-PLW" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Palau" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-PSE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Palestina" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-PAN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Panama" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-PNG" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Papua Nová Guinea" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-PRY" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Paraguay" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-PER" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Peru" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-PHL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Filipíny" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-PCN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Pitcairn" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-POL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Polsko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-PRT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Portugalsko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-PRI" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Portoriko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-QAT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Katar" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-ROU" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Rumunsko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-RUS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Rusko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-RWA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Rwanda" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-REU" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Réunion" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-BLM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Svatý Bartoloměj" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-SHN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Svatá Helena" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-KNA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Svatý Kryštof a Nevis" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-LCA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Svatá Lucie" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-MAF" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Svatý Martin (FR)" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-SPM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Saint Pierre a Miquelon" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-VCT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Svatý Vincenc a Grenadiny" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-WSM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Samoa" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-SMR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: San Marino" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-STP" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Svatý Tomáš a Princův ostrov" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-SAU" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Saúdská Arábie" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-SEN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Senegal" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-SRB" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Srbsko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-SYC" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Seychely" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-SLE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Sierra Leone" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-SGP" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Singapur" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-SXM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Svatý Martin (NL)" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-SVK" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Slovensko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-SVN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Slovinsko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-SLB" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Šalomounovy ostrovy" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-SOM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Somálsko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-ZAF" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Jižní Afrika" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-SGS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Jižní Georgie a Jižní Sandwichovy ostrovy" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-SSD" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Jižní Súdán" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-ESP" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Španělsko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-LKA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Šrí Lanka" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-SDN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Súdán" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-SUR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Surinam" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-SJM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Špicberky a Jan Mayen" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-SWE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Švédsko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-CHE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Švýcarsko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-SYR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Sýrie" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-TWN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Sýrie" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-TJK" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Tádžikistán" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-TZA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Tádžikistán" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-THA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Thajsko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-TLS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Východní Timor" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-TGO" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Togo" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-TKL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Tokelau" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-TON" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Tonga" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-TTO" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Trinidad a Tobago" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-TUN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Tunisko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-TKM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Turkmenistán" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-TCA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Turks a Caicos" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-TUV" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Tuvalu" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-TUR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Turecko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-UGA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Uganda" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-UKR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Ukrajina" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-ARE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Spojené arabské emiráty" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-GBR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Velká Británie" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-UMI" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Menší odlehlé ostrovy USA" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-USA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Spojené státy" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-URY" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Uruguay" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-UZB" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Uzbekistán" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-VUT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Vanuatu" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-VEN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Venezuela" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-VNM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Vietnam" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-VGB" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Vietnam" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-VIR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Vietnam" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-WLF" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Wallis a Futuna" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-ESH" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Západní Sahara" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-YEM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Jemen" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-ZMB" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Zambie" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-ZWE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Zimbabwe" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "https://hl7.cz/NamingSystem/IdCardNumNS-ALA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OP: Alandy" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://hl7.cz/terminology/ValueSet/OP-NS.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

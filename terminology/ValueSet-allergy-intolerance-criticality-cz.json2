@@ -11,9 +11,9 @@
     "valueCanonical" : "https://hl7.cz/terminology/CodeSystem/allergy-intolerance-criticality-cz"
   }],
   "url" : "https://hl7.cz/terminology/ValueSet/allergy-intolerance-criticality-cz",
-  "version" : "0.2.0",
+  "version" : "1.0.0",
   "name" : "AllergyIntoleranceCriticality",
-  "title" : "AllergyIntoleranceCriticality (CZ supplement)",
+  "title" : "AllergyIntoleranceCriticality (CZ supplement value set)",
   "status" : "active",
   "experimental" : false,
   "date" : "2025-12-15T12:08:45.155576Z",

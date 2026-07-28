@@ -1,0 +1,36 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "nzis-nahradyzazdravotnipeci",
+  "language" : "en",
+  "text" : {
+    "status" : "generated"
+  },
+  "url" : "https://uzis.cz/terminology/ValueSet/nzis-nahradyzazdravotnipeci",
+  "version" : "1.0.0",
+  "name" : "NahradyZaZdravotniPeci",
+  "title" : "Číselník NahradyZaZdravotniPeci",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-02-11T11:59:29.782157Z",
+  "publisher" : "HL7 Czech Republic",
+  "contact" : [{
+    "name" : "HL7 Czech Republic",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.hl7.cz/"
+    }]
+  }],
+  "description" : "Číselník obsahující koncepty z kódového systému NahradyZaZdravotniPeci. Číselník použitý v NRHOSP",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CZ",
+      "display" : "Czechia"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://uzis.cz/terminology/CodeSystem/nzis-NahradyZaZdravotniPeci"
+    }]
+  }
+}

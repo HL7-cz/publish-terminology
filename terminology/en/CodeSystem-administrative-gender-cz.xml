@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="administrative-gender-cz"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/>
+  </text>
+  <url value="https://hl7.cz/terminology/CodeSystem/administrative-gender-cz"/>
+  <version value="4.0.1"/>
+  <name value="AdministrativeGenderCz"/>
+  <title value="Administrative Gender (CZ supplement)"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-03-10T09:50:30.338711Z"/>
+  <publisher value="HL7 Czech Republic"/>
+  <contact>
+    <name value="HL7 Czech Republic"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hl7.cz/"/>
+    </telecom>
+  </contact>
+  <description value="Pohlaví osoby používané pro administrativní účely. The gender of a person used for administrative purposes."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CZ"/>
+      <display value="Czechia"/>
+    </coding>
+  </jurisdiction>
+  <content value="supplement"/>
+  <supplements value="http://hl7.org/fhir/administrative-gender|4.0.1"/>
+  <concept>
+    <code value="female"/>
+    <display value="žena"/>
+    <definition value="Žena"/>
+    <designation>
+      <language value="cs"/>
+      <value value="žena"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="male"/>
+    <display value="muž"/>
+    <definition value="Muž"/>
+    <designation>
+      <language value="cs"/>
+      <value value="muž"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="other"/>
+    <display value="jiné"/>
+    <definition value="Jiné"/>
+    <designation>
+      <language value="cs"/>
+      <value value="jiné"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="unknown"/>
+    <display value="neznámé"/>
+    <definition value="Neznámé"/>
+    <designation>
+      <language value="cs"/>
+      <value value="neznámé"/>
+    </designation>
+  </concept>
+</CodeSystem>

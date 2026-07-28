@@ -1,16 +1,17 @@
 {
   "resourceType" : "ImplementationGuide",
   "id" : "hl7.fhir.cz.terminology",
+  "language" : "en",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide hl7.fhir.cz.terminology</b></p><a name=\"hl7.fhir.cz.terminology\"> </a><a name=\"hchl7.fhir.cz.terminology\"> </a><h2>HL7CzTerminologyImplementationGuide</h2><p>The official URL for this implementation guide is: </p><pre>https://hl7.cz/terminology/ImplementationGuide/hl7.fhir.cz.terminology</pre><div><p>HL7 Czech Terminology Implementation Guide</p>\n</div></div>"
+    "div" : "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide hl7.fhir.cz.terminology</b></p><a name=\"hl7.fhir.cz.terminology\"> </a><a name=\"hchl7.fhir.cz.terminology\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: en</p></div><h2>HL7CzTerminologyImplementationGuide</h2><p>The official URL for this implementation guide is: </p><pre>https://hl7.cz/terminology/ImplementationGuide/hl7.fhir.cz.terminology</pre><div><p>HL7 Czech Terminology Implementation Guide</p>\n</div></div>"
   },
   "url" : "https://hl7.cz/terminology/ImplementationGuide/hl7.fhir.cz.terminology",
-  "version" : "0.2.0",
+  "version" : "0.3.0",
   "name" : "HL7CzTerminologyImplementationGuide",
   "title" : "HL7 Czech Terminology Implementation Guide",
-  "status" : "active",
-  "date" : "2026-02-02T08:04:31+01:00",
+  "status" : "draft",
+  "date" : "2026-07-27T16:55:21+02:00",
   "publisher" : "HL7 Czech Republic",
   "contact" : [{
     "name" : "HL7 Czech Republic",
@@ -38,7 +39,7 @@
     }],
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
     "packageId" : "hl7.terminology.r4",
-    "version" : "7.0.1"
+    "version" : "7.3.0"
   },
   {
     "id" : "hl7ext",
@@ -48,13 +49,7 @@
     }],
     "uri" : "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions",
     "packageId" : "hl7.fhir.uv.extensions.r4",
-    "version" : "5.2.0"
-  },
-  {
-    "id" : "hl7_fhir_uv_ips",
-    "uri" : "http://hl7.org/fhir/uv/ips/ImplementationGuide/hl7.fhir.uv.ips",
-    "packageId" : "hl7.fhir.uv.ips",
-    "version" : "1.1.0"
+    "version" : "5.3.0"
   }],
   "definition" : {
     "extension" : [{
@@ -76,6 +71,28 @@
       {
         "url" : "value",
         "valueString" : "release"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "http://standardterms.edqm.eu"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://www.orpha.net"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -141,7 +158,238 @@
       },
       {
         "url" : "value",
+        "valueString" : "https://ncez.mzcr.cz/nclp/CodeSystem/nclppol"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://ncez.mzcr.cz/nclp/CodeSystem/nclp-aktualnost"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://ncez.mzcr.cz/nclp/CodeSystem/nclpfh"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://ncez.mzcr.cz/nclp/CodeSystem/nclpfrm"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://ncez.mzcr.cz/nclp/CodeSystem/nclptng"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://ncez.mzcr.cz/nclp/CodeSystem/nclptk"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://ncez.mzcr.cz/nclp/CodeSystem/nclpdrvl"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://ncez.mzcr.cz/nclp/CodeSystem/nclpjedn"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://ncez.mzcr.cz/nclp/CodeSystem/nclpkomp"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://ncez.mzcr.cz/nclp/CodeSystem/nclpmat"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://ncez.mzcr.cz/nclp/CodeSystem/nclponp"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://ncez.mzcr.cz/nclp/CodeSystem/nclpproc"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://ncez.mzcr.cz/nclp/CodeSystem/nclpsyst"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://ncez.mzcr.cz/nclp/CodeSystem/nclpmtv"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://ncez.mzcr.cz/nclp/CodeSystem/nclpskal"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://ncez.mzcr.cz/nclp/CodeSystem/nclpaz"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://ncez.mzcr.cz/nclp/CodeSystem/nclptypd"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://ncez.mzcr.cz/nclp/CodeSystem/nclpvznk"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://ncez.mzcr.cz/nclp/CodeSystem/ncmpagtk"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "special-url"
+      },
+      {
+        "url" : "value",
         "valueString" : "https://uzis.cz/terminology/CodeSystem/mkn-10"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://uzis.cz/terminology/CodeSystem/nzis-NahradyZaZdravotniPeci"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://uzis.cz/terminology/CodeSystem/OdbornostVZP"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -203,6 +451,39 @@
     {
       "extension" : [{
         "url" : "code",
+        "valueString" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://uzis.cz/terminology/ValueSet/nzis-nahradyzazdravotnipeci"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://uzis.cz/terminology/ValueSet/OdbornostVZP"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://ncez.mzcr.cz/nclp/ValueSet/nclppol"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
         "valueString" : "special-url-base"
       },
       {
@@ -218,7 +499,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "../../input/tx-params.json"
+        "valueString" : "../../expansion-params.json"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -262,7 +543,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "true"
+        "valueString" : "false"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -498,6 +779,17 @@
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
     {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "i18n-default-lang"
+      },
+      {
+        "url" : "value",
+        "valueString" : "en"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/expansion-parameters",
       "valueReference" : {
         "reference" : "Parameters/expansion-parameters"
@@ -505,7 +797,7 @@
     },
     {
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency",
-      "valueCode" : "hl7.fhir.uv.tools.r4#0.9.0"
+      "valueCode" : "hl7.fhir.uv.tools.r4#1.1.2"
     },
     {
       "extension" : [{
@@ -526,6 +818,28 @@
       {
         "url" : "value",
         "valueString" : "release"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "http://standardterms.edqm.eu"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://www.orpha.net"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -591,7 +905,238 @@
       },
       {
         "url" : "value",
+        "valueString" : "https://ncez.mzcr.cz/nclp/CodeSystem/nclppol"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://ncez.mzcr.cz/nclp/CodeSystem/nclp-aktualnost"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://ncez.mzcr.cz/nclp/CodeSystem/nclpfh"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://ncez.mzcr.cz/nclp/CodeSystem/nclpfrm"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://ncez.mzcr.cz/nclp/CodeSystem/nclptng"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://ncez.mzcr.cz/nclp/CodeSystem/nclptk"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://ncez.mzcr.cz/nclp/CodeSystem/nclpdrvl"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://ncez.mzcr.cz/nclp/CodeSystem/nclpjedn"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://ncez.mzcr.cz/nclp/CodeSystem/nclpkomp"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://ncez.mzcr.cz/nclp/CodeSystem/nclpmat"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://ncez.mzcr.cz/nclp/CodeSystem/nclponp"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://ncez.mzcr.cz/nclp/CodeSystem/nclpproc"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://ncez.mzcr.cz/nclp/CodeSystem/nclpsyst"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://ncez.mzcr.cz/nclp/CodeSystem/nclpmtv"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://ncez.mzcr.cz/nclp/CodeSystem/nclpskal"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://ncez.mzcr.cz/nclp/CodeSystem/nclpaz"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://ncez.mzcr.cz/nclp/CodeSystem/nclptypd"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://ncez.mzcr.cz/nclp/CodeSystem/nclpvznk"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://ncez.mzcr.cz/nclp/CodeSystem/ncmpagtk"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "special-url"
+      },
+      {
+        "url" : "value",
         "valueString" : "https://uzis.cz/terminology/CodeSystem/mkn-10"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://uzis.cz/terminology/CodeSystem/nzis-NahradyZaZdravotniPeci"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://uzis.cz/terminology/CodeSystem/OdbornostVZP"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -653,6 +1198,39 @@
     {
       "extension" : [{
         "url" : "code",
+        "valueCode" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://uzis.cz/terminology/ValueSet/nzis-nahradyzazdravotnipeci"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://uzis.cz/terminology/ValueSet/OdbornostVZP"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://ncez.mzcr.cz/nclp/ValueSet/nclppol"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
         "valueCode" : "special-url-base"
       },
       {
@@ -668,7 +1246,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "../../input/tx-params.json"
+        "valueString" : "../../expansion-params.json"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -712,7 +1290,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "true"
+        "valueString" : "false"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -946,6 +1524,17 @@
         "valueString" : "true"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "i18n-default-lang"
+      },
+      {
+        "url" : "value",
+        "valueString" : "en"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     }],
     "resource" : [{
       "extension" : [{
@@ -957,6 +1546,18 @@
       },
       "name" : "Absent a Unknown Data - IPS",
       "description" : "Kódový systém pro označení nepřítomnosti nebo neznalosti údajů. Doplněk kódového systému hl7-IPS (International patient Summary).",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/v3-ActCode-cz"
+      },
+      "name" : "ActCode (CZ supplement)",
+      "description" : "This code system supplements v3 ActCode.",
       "exampleBoolean" : false
     },
     {
@@ -979,7 +1580,7 @@
       "reference" : {
         "reference" : "ValueSet/allergy-intolerance-category-cz"
       },
-      "name" : "Allergy Intolerance Category (CZ supplement)",
+      "name" : "Allergy Intolerance Category (CZ supplement value set)",
       "description" : "Category of an identified substance associated with allergies or intolerances.",
       "exampleBoolean" : false
     },
@@ -1003,7 +1604,7 @@
       "reference" : {
         "reference" : "ValueSet/allergy-intolerance-criticality-cz"
       },
-      "name" : "AllergyIntoleranceCriticality (CZ supplement)",
+      "name" : "AllergyIntoleranceCriticality (CZ supplement value set)",
       "description" : "Estimate of the potential clinical harm, or seriousness, of a reaction to an identified substance.",
       "exampleBoolean" : false
     },
@@ -1053,30 +1654,6 @@
       },
       "name" : "Body Structure Qualifier",
       "description" : "Body Structure site qualifier. It indicates the body site qualifier from which a specimen is collected. (based on SNOMED CT)",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/dlp-lecivelatky"
-      },
-      "name" : "Codesystem of DLP Lecive latky",
-      "description" : "Codesystem of DLP Lecive latky. Identification ingredient.",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/dlp-lecivepripravky"
-      },
-      "name" : "Codesystem of DLP Lecive pripravky",
-      "description" : "Codesystem of DLP Lecive pripravky. Identification medication.",
       "exampleBoolean" : false
     },
     {
@@ -1166,6 +1743,30 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/dlp-lecivelatky"
+      },
+      "name" : "DLP Lecive latky",
+      "description" : "DLP Lecive latky - Czech national code system for active drug substances.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/dlp-lecivepripravky"
+      },
+      "name" : "DLP Lecive pripravky",
+      "description" : "DLP Lecive pripravky - Czech national registry of the pharmaceutical products.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
       }],
       "reference" : {
@@ -1181,7 +1782,7 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/eHDSIAbsentOrUnknownAllergy-cz"
+        "reference" : "ValueSet/eHDSIAbsentOrUnknownAllergy"
       },
       "name" : "eHDSI Absent Or Unknown Allergy",
       "description" : "The Value set is used to encode absent or unknown medical allergies.",
@@ -1193,7 +1794,7 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/eHDSIAbsentOrUnknownDevice-cz"
+        "reference" : "ValueSet/eHDSIAbsentOrUnknownDevice"
       },
       "name" : "eHDSI Absent Or Unknown Device",
       "description" : "The Value set is used to encode absent or unknown medical devices.",
@@ -1217,7 +1818,7 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/eHDSIAllergenNoDrug-cz"
+        "reference" : "ValueSet/eHDSIAllergenNoDrug"
       },
       "name" : "eHDSI Allergen No Drug",
       "description" : "The value set is used to code the patient's kind of adverse reactions against substance, food or drugs",
@@ -1229,10 +1830,46 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/eHDSIExceptionalValue-cz"
+        "reference" : "ValueSet/eHDSIDoseForm"
+      },
+      "name" : "eHDSI Dose Form",
+      "description" : "eHDSIDoseForm",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/eHDSIExceptionalValue"
       },
       "name" : "eHDSI Exceptional Value",
       "description" : "The Value Set is used to code exceptional values for the required binding in FHIR IGs",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/eHDSIReactionAllergy"
+      },
+      "name" : "eHDSI Reaction Allergy",
+      "description" : "Value Set is used to encode clinical manifestation of the allergic reaction.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/eHDSIRouteofAdministration"
+      },
+      "name" : "eHDSI Route of Administration",
+      "description" : "eHDSIRouteofAdministration",
       "exampleBoolean" : false
     },
     {
@@ -1245,6 +1882,18 @@
       },
       "name" : "Gender for administrative purposes",
       "description" : "Pohlaví pro administrativní účely. (Gender for administrative purposes)",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/idcard-uri"
+      },
+      "name" : "ID Card URIs",
+      "description" : "A country specific URI for personal Id card numbers",
       "exampleBoolean" : false
     },
     {
@@ -1268,7 +1917,19 @@
         "reference" : "CodeSystem/mkn-10"
       },
       "name" : "Kódový systém MKN-10",
-      "description" : "Národní systém pro kódování diagnóz a zdravotních problémů.",
+      "description" : "Národní systém pro kódování diagnóz a zdravotních problémů odvozený od ICD-10 WHO.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/nzis-NahradyZaZdravotniPeci"
+      },
+      "name" : "Kódový systém NahradyZaZdravotniPeci",
+      "description" : "Kódový systém použitý v Národním registru hospitalizovaných (NRHOSP) pro kódování důvodů náhrady za zdravotní péči.",
       "exampleBoolean" : false
     },
     {
@@ -1337,6 +1998,18 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/medical-test-code"
+      },
+      "name" : "Medical Test Result Code",
+      "description" : "Medical test result codes. List of Medical test result codes containing LOINC, NCLP and Snomed CT.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/cz-logo-mime-types"
       },
       "name" : "Mime types permissible for logo attachment",
@@ -1361,10 +2034,34 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
-        "reference" : "CodeSystem/nclp-NCLPMAT"
+        "reference" : "CodeSystem/NCLPMAT"
       },
       "name" : "NCLPMAT",
-      "description" : "NCLP - Číselník materiálů pro laboratoře.",
+      "description" : "Číselník materiálů pro laboratoře",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/NCLPPOL"
+      },
+      "name" : "NCLPPOL Code System",
+      "description" : "Národní číselník laboratorních položek",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/nclppol"
+      },
+      "name" : "NCLPPOL Value Set",
+      "description" : "Číselník obsahující koncepty z kódového systému NCLPPOL. Národní číselník laboratorních položek",
       "exampleBoolean" : false
     },
     {
@@ -1401,6 +2098,42 @@
       },
       "name" : "Occupation of healthcare practitioner (CZ)",
       "description" : "Povolání zdravotnických pracovníků dle registru NRZP. (Occupation of health practitioner registered in the national register of health practitioners (NRZP).)",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/nzis-OdbornostVZP"
+      },
+      "name" : "OdbornostVZP",
+      "description" : "Kódový systém smluvních odborností poskytovatele (VZP)",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/ORPHAdisease"
+      },
+      "name" : "ORPHA vzácná onemocnění",
+      "description" : "Nomenklatura vzácných onemocnění ORPHAcode, která je nezbytná pro zlepšení viditelnosti vzácných onemocnění ve zdravotnických a výzkumných informačních systémech.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/passport-uri"
+      },
+      "name" : "Passport URIs",
+      "description" : "A country specific URI for passport numbers",
       "exampleBoolean" : false
     },
     {
@@ -1517,6 +2250,18 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/cz-lab-species-type"
+      },
+      "name" : "Types of species",
+      "description" : "Types of animal species for non-human subjects",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/imaging-document-types"
       },
       "name" : "Typy dokumentů obrazového komplementu",
@@ -1562,18 +2307,6 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/v3-ActCode-cz"
-      },
-      "name" : "v3 Code System ActCode",
-      "description" : "This code system supplements v3 ActCode.",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
       }],
       "reference" : {
@@ -1593,6 +2326,18 @@
       },
       "name" : "ValueSet of Health Insurance Company Code",
       "description" : "Číselník kódů zdravotních pojišťoven.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/vzp-smluvni-odbornost"
+      },
+      "name" : "VZP - smluvní odbornost pracovišť",
+      "description" : "Kódový systém VZP - smluvní odbornost pracovišť je využíván pro objednávání a vykazování/vyúčtování zdravotních služeb.",
       "exampleBoolean" : false
     },
     {
@@ -1625,6 +2370,18 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/nzis-nahradyzazdravotnipeci"
+      },
+      "name" : "Číselník NahradyZaZdravotniPeci",
+      "description" : "Číselník obsahující koncepty z kódového systému NahradyZaZdravotniPeci. Číselník použitý v NRHOSP",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/nclpmat"
       },
       "name" : "Číselník NCLPMAT",
@@ -1637,10 +2394,45 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/nzis-odbornostvzp"
+      },
+      "name" : "Číselník OdbornostVZP",
+      "description" : "Číselník obsahující koncepty z kódového systému OdbornostVZP. Číselník použitý v elektronických žádankách a NSHNU.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/orphanet-rare-diseases"
+      },
+      "name" : "Číselník ORPHAcode vzácná onemocnění",
+      "description" : "Číselník vzácných onemocnění ORPHACode",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/cz-coverage-type"
       },
       "name" : "Číselník typů úhrady",
       "description" : "Číselník typů úhrady zdravotní péče.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vzp-smluvni-odbornost"
+      },
+      "name" : "Číselník VZP - smluvní odbornost pracovišť",
       "exampleBoolean" : false
     }],
     "page" : {
@@ -1739,6 +2531,10 @@
     {
       "code" : "path-pages",
       "value" : "template/config"
+    },
+    {
+      "code" : "path-pages",
+      "value" : "input/assets"
     },
     {
       "code" : "path-pages",

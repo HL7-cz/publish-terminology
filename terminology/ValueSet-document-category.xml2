@@ -4,13 +4,13 @@
   <id value="document-category"/>
   <language value="cs"/>
   <text>
-    <status value="generated"/><div xml:lang="cs" xmlns="http://www.w3.org/1999/xhtml" lang="cs"><p class="res-header-id"><b>Generated Narrative: ValueSet document-category</b></p><a name="document-category"> </a><a name="hcdocument-category"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: cs</p></div><ul><li>Include these codes as defined in <a href="http://loinc.org"><code>http://loinc.org</code></a><span title="Version is not explicitly stated. No matching Code System found"> version Not Stated (use latest from terminology server)</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="https://loinc.org/107904-5/">107904-5</a></td><td>Administrativní záznamy</td></tr><tr><td><a href="https://loinc.org/18682-5/">18682-5</a></td><td>Záznamy zdravotnické záchranné služby</td></tr><tr><td><a href="https://loinc.org/11503-0/">11503-0</a></td><td>Lékařské záznamy</td></tr><tr><td><a href="https://loinc.org/11543-6/">11543-6</a></td><td>Ošetřovatelské záznamy</td></tr><tr><td><a href="https://loinc.org/26436-6/">26436-6</a></td><td>Laboratorní nálezy</td></tr><tr><td><a href="https://loinc.org/18726-0/">18726-0</a></td><td>Nálezy zobrazovacího komplementu</td></tr><tr><td><a href="https://loinc.org/57133-1/">57133-1</a></td><td>Žádanky</td></tr></table></li></ul></div>
+    <status value="generated"/><div xml:lang="cs" xmlns="http://www.w3.org/1999/xhtml" lang="cs"><p class="res-header-id"><b>Generated Narrative: ValueSet document-category</b></p><a name="document-category"> </a><a name="hcdocument-category"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: cs</p></div><ul><li>Include these codes as defined in <a href="http://loinc.org"><code>http://loinc.org</code></a><span title="Version is not explicitly stated. No matching Code System found"> version Not Stated (use latest from terminology server)</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="https://loinc.org/107904-5/">107904-5</a></td><td>Administrativní záznamy</td></tr><tr><td><a href="https://loinc.org/18682-5/">18682-5</a></td><td>Záznamy zdravotnické záchranné služby</td></tr><tr><td><a href="https://loinc.org/11503-0/">11503-0</a></td><td>Lékařské záznamy</td></tr><tr><td><a href="https://loinc.org/34746-8/">34746-8</a></td><td>Ošetřovatelské záznamy</td></tr><tr><td><a href="https://loinc.org/11502-2/">11502-2</a></td><td>Laboratorní nálezy</td></tr><tr><td><a href="https://loinc.org/85430-7/">85430-7</a></td><td>Nálezy zobrazovacího komplementu</td></tr><tr><td><a href="https://loinc.org/57133-1/">57133-1</a></td><td>Žádanky</td></tr></table></li></ul></div>
   </text>
   <url value="https://ncez.mzcr.cz/terminology/ValueSet/document-category"/>
-  <version value="0.2.0"/>
+  <version value="1.0.0"/>
   <name value="DocumentCategory"/>
   <title value="Kategorie dokumentů"/>
-  <status value="draft"/>
+  <status value="active"/>
   <experimental value="false"/>
   <date value="2025-11-19T14:36:29.065962Z"/>
   <publisher value="HL7 Czech Republic"/>
@@ -46,15 +46,15 @@
         <display value="Lékařské záznamy"/>
       </concept>
       <concept>
-        <code value="11543-6"/>
+        <code value="34746-8"/>
         <display value="Ošetřovatelské záznamy"/>
       </concept>
       <concept>
-        <code value="26436-6"/>
+        <code value="11502-2"/>
         <display value="Laboratorní nálezy"/>
       </concept>
       <concept>
-        <code value="18726-0"/>
+        <code value="85430-7"/>
         <display value="Nálezy zobrazovacího komplementu"/>
       </concept>
       <concept>

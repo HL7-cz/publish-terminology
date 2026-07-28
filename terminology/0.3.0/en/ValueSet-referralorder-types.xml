@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="referralorder-types"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/>
+  </text>
+  <url value="https://ncez.mzcr.cz/terminology/ValueSet/referralorder-types"/>
+  <version value="1.0.0"/>
+  <name value="ReferralorderTypes"/>
+  <title value="Typy žádanek"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-11-19T15:26:54.549507Z"/>
+  <publisher value="HL7 Czech Republic"/>
+  <contact>
+    <name value="HL7 Czech Republic"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hl7.cz/"/>
+    </telecom>
+  </contact>
+  <description value="Číselník typů žádanek"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CZ"/>
+      <display value="Czechia"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="This value set includes content from SNOMED CT and LOINC.&#xA;&#xA;SNOMED CT is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement&#xA;&#xA;LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc"/>
+  <compose>
+    <include>
+      <system value="http://loinc.org"/>
+      <concept>
+        <code value="57133-1"/>
+        <display value="žádanka o vyšetření"/>
+      </concept>
+      <concept>
+        <code value="57830-2"/>
+        <display value="žádanka o hospitalizaci"/>
+      </concept>
+      <concept>
+        <code value="57154-7"/>
+        <display value="žádanka o fyzioterapii"/>
+      </concept>
+    </include>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <concept>
+        <code value="721965002"/>
+        <display value="žádanka o laboratorní vyšetření"/>
+      </concept>
+      <concept>
+        <code value="721964003"/>
+        <display value="žádanka o zobrazovací vyšetření"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

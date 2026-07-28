@@ -1,0 +1,226 @@
+# Kódový systém NahradyZaZdravotniPeci - HL7 Czech Terminology Implementation Guide v0.3.0
+
+## CodeSystem: Kódový systém NahradyZaZdravotniPeci 
+
+ 
+Kódový systém použitý v Národním registru hospitalizovaných (NRHOSP) pro kódování důvodů náhrady za zdravotní péči. 
+
+This Code system is referenced in the definition of the following value sets:
+
+* [NahradyZaZdravotniPeci](ValueSet-nzis-nahradyzazdravotnipeci.md)
+
+-------
+
+ [Description of the above table(s)](http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#terminology). 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "CodeSystem",
+  "id" : "nzis-NahradyZaZdravotniPeci",
+  "language" : "cs",
+  "url" : "https://uzis.cz/terminology/CodeSystem/nzis-NahradyZaZdravotniPeci",
+  "version" : "1.0.0",
+  "name" : "CS_NahradyZaZdravotniPeci",
+  "title" : "Kódový systém NahradyZaZdravotniPeci",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-07-27T16:44:21+02:00",
+  "publisher" : "HL7 Czech Republic",
+  "contact" : [{
+    "name" : "HL7 Czech Republic",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.hl7.cz/"
+    }]
+  }],
+  "description" : "Kódový systém použitý v Národním registru hospitalizovaných (NRHOSP) pro kódování důvodů náhrady za zdravotní péči.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CZ",
+      "display" : "Czechia"
+    }]
+  }],
+  "caseSensitive" : false,
+  "content" : "complete",
+  "count" : 6,
+  "property" : [{
+    "code" : "definition",
+    "description" : "Definition",
+    "type" : "string"
+  },
+  {
+    "code" : "kod",
+    "type" : "string"
+  },
+  {
+    "code" : "plati_do",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "plati_od",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "popis",
+    "type" : "string"
+  },
+  {
+    "code" : "poradi",
+    "type" : "string"
+  },
+  {
+    "code" : "skupina_platnosti_01",
+    "type" : "boolean"
+  },
+  {
+    "code" : "skupina_platnosti_02",
+    "type" : "boolean"
+  },
+  {
+    "code" : "skupina_platnosti_03",
+    "type" : "boolean"
+  },
+  {
+    "code" : "skupina_platnosti_04",
+    "type" : "boolean"
+  },
+  {
+    "code" : "skupina_platnosti_05",
+    "type" : "boolean"
+  },
+  {
+    "code" : "skupina_platnosti_06",
+    "type" : "boolean"
+  },
+  {
+    "code" : "skupina_platnosti_07",
+    "type" : "boolean"
+  },
+  {
+    "code" : "skupina_platnosti_08",
+    "type" : "boolean"
+  },
+  {
+    "code" : "skupina_platnosti_09",
+    "type" : "boolean"
+  },
+  {
+    "code" : "skupina_platnosti_10",
+    "type" : "boolean"
+  },
+  {
+    "code" : "skupina_platnosti_11",
+    "type" : "boolean"
+  },
+  {
+    "code" : "skupina_platnosti_12",
+    "type" : "boolean"
+  },
+  {
+    "code" : "skupina_platnosti_13",
+    "type" : "boolean"
+  }],
+  "concept" : [{
+    "code" : "3",
+    "display" : "Úraz zaviněný jinou osobou",
+    "property" : [{
+      "code" : "kod",
+      "valueString" : "3"
+    },
+    {
+      "code" : "plati_od",
+      "valueDateTime" : "2015-01-01T00:00:00Z"
+    },
+    {
+      "code" : "popis",
+      "valueString" : "Úraz zaviněný jinou osobou"
+    }]
+  },
+  {
+    "code" : "4",
+    "display" : "Alkohol, omamné látky",
+    "property" : [{
+      "code" : "kod",
+      "valueString" : "4"
+    },
+    {
+      "code" : "plati_od",
+      "valueDateTime" : "2015-01-01T00:00:00Z"
+    },
+    {
+      "code" : "popis",
+      "valueString" : "Alkohol, omamné látky"
+    }]
+  },
+  {
+    "code" : "5",
+    "display" : "Pracovní úraz",
+    "property" : [{
+      "code" : "kod",
+      "valueString" : "5"
+    },
+    {
+      "code" : "plati_od",
+      "valueDateTime" : "2015-01-01T00:00:00Z"
+    },
+    {
+      "code" : "popis",
+      "valueString" : "Pracovní úraz"
+    }]
+  },
+  {
+    "code" : "6",
+    "display" : "Sociální důvod hospitalizace",
+    "property" : [{
+      "code" : "kod",
+      "valueString" : "6"
+    },
+    {
+      "code" : "plati_od",
+      "valueDateTime" : "2015-01-01T00:00:00Z"
+    },
+    {
+      "code" : "popis",
+      "valueString" : "Sociální důvod hospitalizace"
+    }]
+  },
+  {
+    "code" : "7",
+    "display" : "Porušení léčebného režimu",
+    "property" : [{
+      "code" : "kod",
+      "valueString" : "7"
+    },
+    {
+      "code" : "plati_od",
+      "valueDateTime" : "2015-01-01T00:00:00Z"
+    },
+    {
+      "code" : "popis",
+      "valueString" : "Porušení léčebného režimu"
+    }]
+  },
+  {
+    "code" : "9",
+    "display" : "Nemoc z povolání",
+    "property" : [{
+      "code" : "kod",
+      "valueString" : "9"
+    },
+    {
+      "code" : "plati_od",
+      "valueDateTime" : "2015-01-01T00:00:00Z"
+    },
+    {
+      "code" : "popis",
+      "valueString" : "Nemoc z povolání"
+    }]
+  }]
+}
+
+```

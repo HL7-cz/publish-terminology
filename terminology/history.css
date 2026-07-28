@@ -56,3 +56,8 @@ table.history-grid td {
 	flex: 1 1 auto;
 }
 
+.history-page #segment-header,
+.history-page #segment-header > .container {
+	background-color: #ffffff;
+}
+

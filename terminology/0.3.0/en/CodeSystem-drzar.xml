@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="drzar"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/>
+  </text>
+  <url value="https://ncez.mzcr.cz/terminology/CodeSystem/drzar"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:1.2.203.24341.11.2.10.1"/>
+  </identifier>
+  <version value="1.0.0"/>
+  <name value="CS_Drzar"/>
+  <title value="Type of healthcare facility"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="1980-01-01"/>
+  <publisher value="HL7 Czech Republic"/>
+  <contact>
+    <name value="HL7 Czech Republic"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hl7.cz/"/>
+    </telecom>
+  </contact>
+  <description value="Czech national code system for type of healthcare facility."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CZ"/>
+      <display value="Czechia"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="77"/>
+  <concept>
+    <code value="010"/>
+    <display value="Sdružení zdravotnických zařízení"/>
+  </concept>
+  <concept>
+    <code value="101"/>
+    <display value="Fakultní nemocnice"/>
+  </concept>
+  <concept>
+    <code value="102"/>
+    <display value="Nemocnice"/>
+  </concept>
+  <concept>
+    <code value="103"/>
+    <display value="Specializovaná nemocnice"/>
+  </concept>
+  <concept>
+    <code value="104"/>
+    <display value="Psychiatrická nemocnice"/>
+  </concept>
+  <concept>
+    <code value="105"/>
+    <display value="Nemocnice následné péče"/>
+  </concept>
+  <concept>
+    <code value="109"/>
+    <display value="Porodnice"/>
+  </concept>
+  <concept>
+    <code value="110"/>
+    <display value="Léčebna pro dlouhodobě nemocné (LDN)"/>
+  </concept>
+  <concept>
+    <code value="111"/>
+    <display value="Léčebna tuberkul.a respir.nemocí (TRN)"/>
+  </concept>
+  <concept>
+    <code value="112"/>
+    <display value="Psychiatrická léčebna"/>
+  </concept>
+  <concept>
+    <code value="113"/>
+    <display value="Rehabilitační ústav"/>
+  </concept>
+  <concept>
+    <code value="119"/>
+    <display value="Ostatní odborné léčebné ústavy"/>
+  </concept>
+  <concept>
+    <code value="122"/>
+    <display value="Dětská psychiatrická léčebna"/>
+  </concept>
+  <concept>
+    <code value="129"/>
+    <display value="Ostatní dětské odborné léčebné ústavy"/>
+  </concept>
+  <concept>
+    <code value="130"/>
+    <display value="Lázeňská léčebna"/>
+  </concept>
+  <concept>
+    <code value="141"/>
+    <display value="Dětská ozdravovna"/>
+  </concept>
+  <concept>
+    <code value="180"/>
+    <display value="Hospic"/>
+  </concept>
+  <concept>
+    <code value="190"/>
+    <display value="Další lůžkové zařízení"/>
+  </concept>
+  <concept>
+    <code value="300"/>
+    <display value="Sdružení ambulantních zařízení"/>
+  </concept>
+  <concept>
+    <code value="301"/>
+    <display value="Poskytovatel amb. služeb (nad 5 oborů)"/>
+  </concept>
+  <concept>
+    <code value="302"/>
+    <display value="Poskytovatel amb. služeb (do 5 oborů)"/>
+  </concept>
+  <concept>
+    <code value="310"/>
+    <display value="Zdravotnické středisko"/>
+  </concept>
+  <concept>
+    <code value="312"/>
+    <display value="Zařízení závodní preventivní péče"/>
+  </concept>
+  <concept>
+    <code value="320"/>
+    <display value="Samost. ordinace všeob. prakt. lékaře"/>
+  </concept>
+  <concept>
+    <code value="321"/>
+    <display value="Sam.ord.prakt.lékaře pro děti a dorost"/>
+  </concept>
+  <concept>
+    <code value="322"/>
+    <display value="Samostatná ordinace PL - stomatologa"/>
+  </concept>
+  <concept>
+    <code value="323"/>
+    <display value="Samostatná ordinace PL - gynekologa"/>
+  </concept>
+  <concept>
+    <code value="324"/>
+    <display value="Samostatná ordinace lékaře specialisty"/>
+  </concept>
+  <concept>
+    <code value="340"/>
+    <display value="Samostatné zařízení psychologa"/>
+  </concept>
+  <concept>
+    <code value="341"/>
+    <display value="Samostatné zařízení logopeda"/>
+  </concept>
+  <concept>
+    <code value="350"/>
+    <display value="Domácí zdravotní péče"/>
+  </concept>
+  <concept>
+    <code value="351"/>
+    <display value="Samostatné zařízení fyzioterapeuta"/>
+  </concept>
+  <concept>
+    <code value="354"/>
+    <display value="Zdravotní péče v ústavech sociální p."/>
+  </concept>
+  <concept>
+    <code value="359"/>
+    <display value="Samostatné zařízení nelékaře - jiné"/>
+  </concept>
+  <concept>
+    <code value="360"/>
+    <display value="Samostatná stomatologická laboratoř"/>
+  </concept>
+  <concept>
+    <code value="361"/>
+    <display value="Samostatná odborná laboratoř"/>
+  </concept>
+  <concept>
+    <code value="362"/>
+    <display value="Odběrová místnost"/>
+  </concept>
+  <concept>
+    <code value="370"/>
+    <display value="Samostatná transfuzní stanice"/>
+  </concept>
+  <concept>
+    <code value="380"/>
+    <display value="Zařízení LPS"/>
+  </concept>
+  <concept>
+    <code value="389"/>
+    <display value="Koroner"/>
+  </concept>
+  <concept>
+    <code value="390"/>
+    <display value="Hemodialyzační středisko"/>
+  </concept>
+  <concept>
+    <code value="398"/>
+    <display value="Zařízení pro léčbu závislostí"/>
+  </concept>
+  <concept>
+    <code value="399"/>
+    <display value="Ostatní ambulantní zařízení"/>
+  </concept>
+  <concept>
+    <code value="400"/>
+    <display value="Sdružení dětských zařízení"/>
+  </concept>
+  <concept>
+    <code value="420"/>
+    <display value="Dětský domov pro děti do 3 let"/>
+  </concept>
+  <concept>
+    <code value="430"/>
+    <display value="Dětské centrum"/>
+  </concept>
+  <concept>
+    <code value="431"/>
+    <display value="Dětský stacionář"/>
+  </concept>
+  <concept>
+    <code value="460"/>
+    <display value="Stacionář"/>
+  </concept>
+  <concept>
+    <code value="461"/>
+    <display value="Psychoterapeutický stacionář"/>
+  </concept>
+  <concept>
+    <code value="465"/>
+    <display value="Krizové centrum"/>
+  </concept>
+  <concept>
+    <code value="466"/>
+    <display value="Centrum duševního zdraví"/>
+  </concept>
+  <concept>
+    <code value="476"/>
+    <display value="Záchytná stanice"/>
+  </concept>
+  <concept>
+    <code value="480"/>
+    <display value="Zdravotnická dopravní služba"/>
+  </concept>
+  <concept>
+    <code value="481"/>
+    <display value="Zdravotnická zachranná služba"/>
+  </concept>
+  <concept>
+    <code value="483"/>
+    <display value="Výjezdová skupina záchranné služby"/>
+  </concept>
+  <concept>
+    <code value="484"/>
+    <display value="Další zařízení záchranné služby"/>
+  </concept>
+  <concept>
+    <code value="485"/>
+    <display value="Přeprava pacientů neodkladné péče"/>
+  </concept>
+  <concept>
+    <code value="499"/>
+    <display value="Ostatní zvláštní zdravotnická zařízení"/>
+  </concept>
+  <concept>
+    <code value="501"/>
+    <display value="Sdružení lékáren"/>
+  </concept>
+  <concept>
+    <code value="510"/>
+    <display value="Lékárna"/>
+  </concept>
+  <concept>
+    <code value="521"/>
+    <display value="Oční optika"/>
+  </concept>
+  <concept>
+    <code value="530"/>
+    <display value="Státní ústav pro kontrolu léčiv"/>
+  </concept>
+  <concept>
+    <code value="600"/>
+    <display value="Státní zdravotní ústav"/>
+  </concept>
+  <concept>
+    <code value="601"/>
+    <display value="Krajská hygienická stanice"/>
+  </concept>
+  <concept>
+    <code value="605"/>
+    <display value="Zdravotní ústav"/>
+  </concept>
+  <concept>
+    <code value="609"/>
+    <display value="Další zařízení hygienické služby"/>
+  </concept>
+  <concept>
+    <code value="831"/>
+    <display value="IPVZ"/>
+  </concept>
+  <concept>
+    <code value="832"/>
+    <display value="NCONZO"/>
+  </concept>
+  <concept>
+    <code value="900"/>
+    <display value="Ostatní organizace MZ"/>
+  </concept>
+  <concept>
+    <code value="950"/>
+    <display value="Ostatní zdravotnická zařízení"/>
+  </concept>
+  <concept>
+    <code value="952"/>
+    <display value="Lázeňský dům (jen ubyt. hotel. typu)"/>
+  </concept>
+  <concept>
+    <code value="961"/>
+    <display value="Zdravotnické zařízení v likvidaci"/>
+  </concept>
+  <concept>
+    <code value="962"/>
+    <display value="Hospodářská org. neposkyt. zdrav. péči"/>
+  </concept>
+  <concept>
+    <code value="963"/>
+    <display value="Servisní organizace"/>
+  </concept>
+  <concept>
+    <code value="964"/>
+    <display value="COVID zařízení"/>
+  </concept>
+  <concept>
+    <code value="368"/>
+    <display value="Centrum očkování COVID"/>
+  </concept>
+  <concept>
+    <code value="363"/>
+    <display value="Odběr krevní plasmy"/>
+  </concept>
+</CodeSystem>

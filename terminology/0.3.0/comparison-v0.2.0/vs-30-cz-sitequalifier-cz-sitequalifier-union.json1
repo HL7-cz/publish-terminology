@@ -1,0 +1,120 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "5bc82b81-07ce-410b-8d29-8298f2cfafcb-89",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/5bc82b81-07ce-410b-8d29-8298f2cfafcb-89",
+  "name" : "UnionCZ_SiteQualifierAndCZ_SiteQualifier",
+  "title" : "Union of Body Structure Qualifier And Body Structure Qualifier",
+  "status" : "active",
+  "date" : "2026-07-27T16:47:06+02:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CZ",
+      "display" : "Czechia"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "7771000",
+        "display" : "levý"
+      },
+      {
+        "code" : "24028007",
+        "display" : "pravý"
+      },
+      {
+        "code" : "51440002",
+        "display" : "laterálně"
+      },
+      {
+        "code" : "46053002",
+        "display" : "distálně"
+      },
+      {
+        "code" : "255554000",
+        "display" : "dorzálně"
+      },
+      {
+        "code" : "261183002",
+        "display" : "horní"
+      },
+      {
+        "code" : "261122009",
+        "display" : "dolní"
+      },
+      {
+        "code" : "255561001",
+        "display" : "mediální"
+      },
+      {
+        "code" : "49370004",
+        "display" : "laterální"
+      },
+      {
+        "code" : "264217000",
+        "display" : "superioriní"
+      },
+      {
+        "code" : "261089000",
+        "display" : "inferiorní"
+      },
+      {
+        "code" : "255551008",
+        "display" : "posteriorní"
+      },
+      {
+        "code" : "351726001",
+        "display" : "pod"
+      },
+      {
+        "code" : "352730000",
+        "display" : "nad"
+      },
+      {
+        "code" : "40415009",
+        "display" : "proximální"
+      },
+      {
+        "code" : "255549009",
+        "display" : "anteriorní"
+      },
+      {
+        "code" : "26283006",
+        "display" : "povrchový"
+      },
+      {
+        "code" : "795002",
+        "display" : "hloboký"
+      },
+      {
+        "code" : "57195005",
+        "display" : "bazální"
+      },
+      {
+        "code" : "3583002",
+        "display" : "kaudální"
+      },
+      {
+        "code" : "66787007",
+        "display" : "cefalický"
+      },
+      {
+        "code" : "255481003",
+        "display" : "levý horní kvadrant"
+      },
+      {
+        "code" : "255497008",
+        "display" : "pravý horní kvadrant"
+      },
+      {
+        "code" : "255480002",
+        "display" : "levý dolní kvadrant"
+      },
+      {
+        "code" : "255495000",
+        "display" : "pravý dolní kvadrant"
+      }]
+    }]
+  }
+}

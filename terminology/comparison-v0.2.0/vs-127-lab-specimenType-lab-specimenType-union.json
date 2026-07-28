@@ -1,0 +1,5908 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "3be28065-604a-49db-82ac-da3be23fd237-128",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/3be28065-604a-49db-82ac-da3be23fd237-128",
+  "name" : "UnionLabSpecimentypeAndLabSpecimentype",
+  "title" : "Union of Materiál vzorků And Materiál vzorků",
+  "status" : "draft",
+  "date" : "2026-07-27T16:56:47+02:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CZ",
+      "display" : "Czechia"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "258497007",
+        "display" : "Stěr z abscesu"
+      },
+      {
+        "code" : "258407001",
+        "display" : "Tkáně z abscesu"
+      },
+      {
+        "code" : "119373006",
+        "display" : "Vzorek plodové vody"
+      },
+      {
+        "code" : "122552005",
+        "display" : "Vzorek arteriální krve"
+      },
+      {
+        "code" : "309201001",
+        "display" : "Vzorek ascitické tekutiny"
+      },
+      {
+        "code" : "119341000",
+        "display" : "Vzorek žluči"
+      },
+      {
+        "code" : "258493006",
+        "display" : "Vzorek močového kamene"
+      },
+      {
+        "code" : "258582006",
+        "display" : "Vzorek krevní sraženiny"
+      },
+      {
+        "code" : "119297000",
+        "display" : "Vzorek krve"
+      },
+      {
+        "code" : "309051001",
+        "display" : "Vzorek tělesné tekutiny"
+      },
+      {
+        "code" : "432825001",
+        "display" : "Vzorek tělesného sekretu"
+      },
+      {
+        "code" : "258583001",
+        "display" : "Vzorek sraženiny kostní dřeně"
+      },
+      {
+        "code" : "119359002",
+        "display" : "Vzorek kostní dřeně"
+      },
+      {
+        "code" : "258417006",
+        "display" : "Vzorek kostní tkáně"
+      },
+      {
+        "code" : "309176002",
+        "display" : "Kartáčkový odběr z bronchů"
+      },
+      {
+        "code" : "258446004",
+        "display" : "Vzorek bronchální tekutiny"
+      },
+      {
+        "code" : "258564008",
+        "display" : "Stěr z bukální sliznice"
+      },
+      {
+        "code" : "258418001",
+        "display" : "Tkáně z popáleniny"
+      },
+      {
+        "code" : "258448003",
+        "display" : "Vzorek tekutiny z burzy"
+      },
+      {
+        "code" : "309110000",
+        "display" : "Vzorek tkáně burzy"
+      },
+      {
+        "code" : "119350003",
+        "display" : "Vzorek konkrementu"
+      },
+      {
+        "code" : "258627009",
+        "display" : "Špička kanyly jako vzorek"
+      },
+      {
+        "code" : "122554006",
+        "display" : "Kapilární krevní vzorek"
+      },
+      {
+        "code" : "309101008",
+        "display" : "Vzorek chrupavky"
+      },
+      {
+        "code" : "119312009",
+        "display" : "Špička katétru jako vzorek"
+      },
+      {
+        "code" : "258450006",
+        "display" : "Vzorek mozkomíšního moku"
+      },
+      {
+        "code" : "122580007",
+        "display" : "Vzorek ušního mazu"
+      },
+      {
+        "code" : "258452003",
+        "display" : "Vzorek chylózní tekutiny"
+      },
+      {
+        "code" : "258581004",
+        "display" : "Vzorek sražené krve"
+      },
+      {
+        "code" : "168136008",
+        "display" : "Vzorek tekutiny z kolostomie"
+      },
+      {
+        "code" : "119329007",
+        "display" : "Vzorek mleziva"
+      },
+      {
+        "code" : "258498002",
+        "display" : "Stěr ze spojivky"
+      },
+      {
+        "code" : "122556008",
+        "display" : "Vzorek pupečníkové krve"
+      },
+      {
+        "code" : "258499005",
+        "display" : "Stěr po kašli"
+      },
+      {
+        "code" : "258419009",
+        "display" : "Kyretážní materiál"
+      },
+      {
+        "code" : "258453008",
+        "display" : "Vzorek tekutiny z cysty"
+      },
+      {
+        "code" : "258420003",
+        "display" : "Tkáně z cysty"
+      },
+      {
+        "code" : "119338009",
+        "display" : "Vzorek dentinu"
+      },
+      {
+        "code" : "472919007",
+        "display" : "Zdravotnická pomůcka jako vzorek"
+      },
+      {
+        "code" : "258454002",
+        "display" : "Vzorek dialyzátu"
+      },
+      {
+        "code" : "258439008",
+        "display" : "Vzorek sekretu"
+      },
+      {
+        "code" : "258566005",
+        "display" : "Vzorek DNA"
+      },
+      {
+        "code" : "1003705007",
+        "display" : "Špička drénu jako vzorek"
+      },
+      {
+        "code" : "258455001",
+        "display" : "Vzorek drenážní tekutiny"
+      },
+      {
+        "code" : "119294007",
+        "display" : "Vzorek zaschlé krve"
+      },
+      {
+        "code" : "258440005",
+        "display" : "Vzorek výpotku"
+      },
+      {
+        "code" : "258456000",
+        "display" : "Vzorek tekutiny z empyému"
+      },
+      {
+        "code" : "119336008",
+        "display" : "Vzorek vydechovaného vzduchu"
+      },
+      {
+        "code" : "258470000",
+        "display" : "Vzorek prostatického sekretu"
+      },
+      {
+        "code" : "258441009",
+        "display" : "Vzorek exsudátu"
+      },
+      {
+        "code" : "309128003",
+        "display" : "Vzorek nitrooční tekutiny"
+      },
+      {
+        "code" : "258487003",
+        "display" : "Stěr stolice"
+      },
+      {
+        "code" : "119339001",
+        "display" : "Vzorek stolice"
+      },
+      {
+        "code" : "309117002",
+        "display" : "Vzorek fascie"
+      },
+      {
+        "code" : "258458004",
+        "display" : "Vzorek tekutiny z píštěle"
+      },
+      {
+        "code" : "258442002",
+        "display" : "Vzorek tekutiny"
+      },
+      {
+        "code" : "445744006",
+        "display" : "Vzorek tekutiny ze seromu"
+      },
+      {
+        "code" : "309502007",
+        "display" : "Vzorek z plodu"
+      },
+      {
+        "code" : "447103002",
+        "display" : "Cizí těleso jako vzorek"
+      },
+      {
+        "code" : "258492001",
+        "display" : "Vzorek žlučového kamene"
+      },
+      {
+        "code" : "432657002",
+        "display" : "Vzorek gangliové cysty"
+      },
+      {
+        "code" : "309213006",
+        "display" : "Kartáčkový odběr ze žaludku"
+      },
+      {
+        "code" : "309199003",
+        "display" : "Vzorek gastrointestinální tekutiny"
+      },
+      {
+        "code" : "258562007",
+        "display" : "Genetický vzorek"
+      },
+      {
+        "code" : "258508008",
+        "display" : "Genitální stěr"
+      },
+      {
+        "code" : "258559009",
+        "display" : "Vzorek tekutiny z gingivální rýhy"
+      },
+      {
+        "code" : "440493002",
+        "display" : "Štěp od pacienta jako vzorek"
+      },
+      {
+        "code" : "258588005",
+        "display" : "Vzorek hematomu"
+      },
+      {
+        "code" : "119326000",
+        "display" : "Vzorek vlasů"
+      },
+      {
+        "code" : "258424007",
+        "display" : "Tkáně srdeční chlopně"
+      },
+      {
+        "code" : "258521001",
+        "display" : "Stěr z horní části pochvy"
+      },
+      {
+        "code" : "258461003",
+        "display" : "Vzorek tekutiny z hydrokély"
+      },
+      {
+        "code" : "258462005",
+        "display" : "Vzorek tekutiny z ileostomie"
+      },
+      {
+        "code" : "258479004",
+        "display" : "Vzorek intersticiální tekutiny"
+      },
+      {
+        "code" : "309114009",
+        "display" : "Vzorek vazu"
+      },
+      {
+        "code" : "258522008",
+        "display" : "Stěr z dolní části pochvy"
+      },
+      {
+        "code" : "309171007",
+        "display" : "Vzorek tekutiny z dolních dýchacích cest"
+      },
+      {
+        "code" : "302795002",
+        "display" : "Aspirát z lymfatické uzliny"
+      },
+      {
+        "code" : "258488008",
+        "display" : "Nátěr z lymfatické uzliny"
+      },
+      {
+        "code" : "309078004",
+        "display" : "Vzorek tkáně lymfatické uzliny"
+      },
+      {
+        "code" : "119340004",
+        "display" : "Vzorek smolky"
+      },
+      {
+        "code" : "119345009",
+        "display" : "Vzorek menstruační krve"
+      },
+      {
+        "code" : "119303007",
+        "display" : "Mikrobiální izolát"
+      },
+      {
+        "code" : "119328004",
+        "display" : "Vzorek mateřského mléka"
+      },
+      {
+        "code" : "258483004",
+        "display" : "Vzorek hlenu"
+      },
+      {
+        "code" : "119327009",
+        "display" : "Vzorek nehtu"
+      },
+      {
+        "code" : "168141000",
+        "display" : "Vzorek nosní tekutiny"
+      },
+      {
+        "code" : "258467004",
+        "display" : "Výplach nosohltanu"
+      },
+      {
+        "code" : "433799002",
+        "display" : "Vzorek nervového ganglia"
+      },
+      {
+        "code" : "309129006",
+        "display" : "Vzorek nervové tkáně"
+      },
+      {
+        "code" : "309131002",
+        "display" : "Vzorek neuromu"
+      },
+      {
+        "code" : "258468009",
+        "display" : "Vzorek edémové tekutiny"
+      },
+      {
+        "code" : "309210009",
+        "display" : "Kartáčkový odběr z jícnu"
+      },
+      {
+        "code" : "258494000",
+        "display" : "Vzorek pankreatického kamene"
+      },
+      {
+        "code" : "122571007",
+        "display" : "Vzorek perikardiální tekutiny"
+      },
+      {
+        "code" : "168139001",
+        "display" : "Vzorek peritoneální tekutiny"
+      },
+      {
+        "code" : "258469001",
+        "display" : "Výplach hltanu"
+      },
+      {
+        "code" : "119361006",
+        "display" : "Vzorek plazmy"
+      },
+      {
+        "code" : "110913002",
+        "display" : "Cytologický materiál z pleurální tekutiny"
+      },
+      {
+        "code" : "418564007",
+        "display" : "Vzorek pleurální tekutiny"
+      },
+      {
+        "code" : "258484005",
+        "display" : "Posmrtný tkáňový vzorek"
+      },
+      {
+        "code" : "258428005",
+        "display" : "Tkáně produktů početí"
+      },
+      {
+        "code" : "119323008",
+        "display" : "Vzorek hnisu"
+      },
+      {
+        "code" : "258502009",
+        "display" : "Stěr z hnisu"
+      },
+      {
+        "code" : "119351004",
+        "display" : "Vzorek erytrocytů"
+      },
+      {
+        "code" : "258495004",
+        "display" : "Vzorek ledvinového kamene"
+      },
+      {
+        "code" : "119342007",
+        "display" : "Vzorek slin"
+      },
+      {
+        "code" : "258431006",
+        "display" : "Seškrab"
+      },
+      {
+        "code" : "258432004",
+        "display" : "Vzorek kožního mazu"
+      },
+      {
+        "code" : "119347001",
+        "display" : "Vzorek semenné tekutiny"
+      },
+      {
+        "code" : "119364003",
+        "display" : "Vzorek séra"
+      },
+      {
+        "code" : "309261004",
+        "display" : "Kartáčkový odběr ze sigmatu"
+      },
+      {
+        "code" : "258475005",
+        "display" : "Výplach z paranazálních dutin"
+      },
+      {
+        "code" : "119331003",
+        "display" : "Vzorek kosterního svalu"
+      },
+      {
+        "code" : "119325001",
+        "display" : "Vzorek kožní tkáně"
+      },
+      {
+        "code" : "258505006",
+        "display" : "Stěr z kožního vředu"
+      },
+      {
+        "code" : "258433009",
+        "display" : "Nátěrový vzorek"
+      },
+      {
+        "code" : "309072003",
+        "display" : "Vzorek měkké tkáně"
+      },
+      {
+        "code" : "119300005",
+        "display" : "Vzorek z krevního přípravku"
+      },
+      {
+        "code" : "898201001",
+        "display" : "Vzorek ze zdravotnického prostředku"
+      },
+      {
+        "code" : "1003706008",
+        "display" : "Vzorek ze špičky drénu"
+      },
+      {
+        "code" : "119305000",
+        "display" : "Vzorek z vaku s plazmou"
+      },
+      {
+        "code" : "119349003",
+        "display" : "Vzorek spermií"
+      },
+      {
+        "code" : "258434003",
+        "display" : "Vycentrovaný močový sediment"
+      },
+      {
+        "code" : "119334006",
+        "display" : "Vzorek sputa"
+      },
+      {
+        "code" : "257261003",
+        "display" : "Stěr"
+      },
+      {
+        "code" : "445160003",
+        "display" : "Stěr z oka"
+      },
+      {
+        "code" : "122569007",
+        "display" : "Vzorek potu"
+      },
+      {
+        "code" : "119332005",
+        "display" : "Vzorek synoviální tekutiny"
+      },
+      {
+        "code" : "309123007",
+        "display" : "Vzorek synovie"
+      },
+      {
+        "code" : "309121009",
+        "display" : "Vzorek synoviální tkáně"
+      },
+      {
+        "code" : "440468004",
+        "display" : "Tampon jako vzorek"
+      },
+      {
+        "code" : "258465007",
+        "display" : "Vzorek slzné tekutiny"
+      },
+      {
+        "code" : "122594008",
+        "display" : "Vzorek slz"
+      },
+      {
+        "code" : "309481000",
+        "display" : "Vzorek temporální arterie"
+      },
+      {
+        "code" : "309107007",
+        "display" : "Vzorek šlachy"
+      },
+      {
+        "code" : "258529004",
+        "display" : "Stěr z krku"
+      },
+      {
+        "code" : "119376003",
+        "display" : "Tkáňový vzorek"
+      },
+      {
+        "code" : "258538002",
+        "display" : "Vzorek transudátu"
+      },
+      {
+        "code" : "258435002",
+        "display" : "Vzorek nádorové tkáně"
+      },
+      {
+        "code" : "441479001",
+        "display" : "Vzorek čerstvé tkáně"
+      },
+      {
+        "code" : "439628000",
+        "display" : "Močový sběrný sáček jako vzorek"
+      },
+      {
+        "code" : "439580004",
+        "display" : "Močová savá podložka jako vzorek"
+      },
+      {
+        "code" : "122567009",
+        "display" : "Vzorek močového sedimentu"
+      },
+      {
+        "code" : "122575003",
+        "display" : "Vzorek moči"
+      },
+      {
+        "code" : "258437005",
+        "display" : "Vegetace ze srdeční chlopně"
+      },
+      {
+        "code" : "122555007",
+        "display" : "Vzorek žilní krve"
+      },
+      {
+        "code" : "122572000",
+        "display" : "Vzorek zvratků"
+      },
+      {
+        "code" : "258591005",
+        "display" : "Vzorek leukocytů"
+      },
+      {
+        "code" : "258580003",
+        "display" : "Vzorek plné krve"
+      },
+      {
+        "code" : "438805006",
+        "display" : "Vzorek celého zubu"
+      },
+      {
+        "code" : "122566000",
+        "display" : "Vzorek tekutiny z rány"
+      },
+      {
+        "code" : "258531008",
+        "display" : "Stěr z rány"
+      },
+      {
+        "code" : "446302006",
+        "display" : "Vzorek vzduchu"
+      },
+      {
+        "code" : "33631000087102",
+        "display" : "Alogenní kostní štěp jako vzorek"
+      },
+      {
+        "code" : "703430008",
+        "display" : "Vzorek arteriální pupečníkové krve"
+      },
+      {
+        "code" : "16215211000119100",
+        "display" : "Vzorek tekutiny z Bartholiniho žlázy"
+      },
+      {
+        "code" : "446129006",
+        "display" : "Vzorek žluči ze společného žlučovodu"
+      },
+      {
+        "code" : "446817004",
+        "display" : "Vzorek žluči ze žlučníku"
+      },
+      {
+        "code" : "258490009",
+        "display" : "Vzorek biliárního kamene"
+      },
+      {
+        "code" : "309105004",
+        "display" : "Bioptický vzorek kosti"
+      },
+      {
+        "code" : "258607008",
+        "display" : "Vzorek bronchoalveolární laváže"
+      },
+      {
+        "code" : "122577006",
+        "display" : "Vzorek cervikálního hlenu"
+      },
+      {
+        "code" : "16216411000119106",
+        "display" : "Nátěr ze spojivky"
+      },
+      {
+        "code" : "1003707004",
+        "display" : "Drén jako vzorek"
+      },
+      {
+        "code" : "309216003",
+        "display" : "Bioptický vzorek duodena"
+      },
+      {
+        "code" : "122574004",
+        "display" : "Vzorek duodenální tekutiny"
+      },
+      {
+        "code" : "309166000",
+        "display" : "Stěr z ucha"
+      },
+      {
+        "code" : "119314005",
+        "display" : "Elektroda jako vzorek"
+      },
+      {
+        "code" : "419695002",
+        "display" : "Stěr z prostředí"
+      },
+      {
+        "code" : "309211008",
+        "display" : "Bioptický vzorek žaludku"
+      },
+      {
+        "code" : "122573005",
+        "display" : "Vzorek žaludečního obsahu"
+      },
+      {
+        "code" : "258459007",
+        "display" : "Vzorek žaludeční tekutiny"
+      },
+      {
+        "code" : "122579009",
+        "display" : "Vzorek lochií"
+      },
+      {
+        "code" : "258512002",
+        "display" : "Stěr z glans penis"
+      },
+      {
+        "code" : "473415003",
+        "display" : "Nitroděložní tělísko jako vzorek"
+      },
+      {
+        "code" : "258649003",
+        "display" : "Vzorek infuzní tekutiny"
+      },
+      {
+        "code" : "309049000",
+        "display" : "Vzorek z léze"
+      },
+      {
+        "code" : "309203003",
+        "display" : "Bioptický vzorek jater"
+      },
+      {
+        "code" : "258589002",
+        "display" : "Vzorek lymfatické uzliny"
+      },
+      {
+        "code" : "258466008",
+        "display" : "Vzorek tekutiny ze středního ucha"
+      },
+      {
+        "code" : "119298005",
+        "display" : "Vzorek smíšené žilní krve"
+      },
+      {
+        "code" : "705054005",
+        "display" : "Vzorek svalu"
+      },
+      {
+        "code" : "309104000",
+        "display" : "Vzorek pohybového aparátu"
+      },
+      {
+        "code" : "447339001",
+        "display" : "Nátěr z nosu"
+      },
+      {
+        "code" : "258500001",
+        "display" : "Stěr z nosohltanu"
+      },
+      {
+        "code" : "16220931000119104",
+        "display" : "Vzorek tekutiny z cysty pankreatu"
+      },
+      {
+        "code" : "119343002",
+        "display" : "Vzorek pankreatické tekutiny"
+      },
+      {
+        "code" : "309154006",
+        "display" : "Vzorek hypofýzy"
+      },
+      {
+        "code" : "708317005",
+        "display" : "Smíšený vzorek z introitu a rektálního stěru"
+      },
+      {
+        "code" : "258513007",
+        "display" : "Stěr z předkožky"
+      },
+      {
+        "code" : "258528007",
+        "display" : "Rektální stěr"
+      },
+      {
+        "code" : "410580001",
+        "display" : "Vzorek respirační tekutiny"
+      },
+      {
+        "code" : "732293002",
+        "display" : "Vzorek slinného kamene"
+      },
+      {
+        "code" : "309066003",
+        "display" : "Bioptický vzorek kůže"
+      },
+      {
+        "code" : "430268003",
+        "display" : "Vzorek z kosti"
+      },
+      {
+        "code" : "119398007",
+        "display" : "Vzorek z mozku"
+      },
+      {
+        "code" : "122601001",
+        "display" : "Bioptický vzorek z prsu"
+      },
+      {
+        "code" : "119307008",
+        "display" : "Vzorek z endotracheální kanyly"
+      },
+      {
+        "code" : "119399004",
+        "display" : "Vzorek z oka"
+      },
+      {
+        "code" : "127476006",
+        "display" : "Vzorek z vejcovodu"
+      },
+      {
+        "code" : "446951004",
+        "display" : "Vzorek z granulační tkáně"
+      },
+      {
+        "code" : "127473003",
+        "display" : "Vzorek z ledviny"
+      },
+      {
+        "code" : "119383005",
+        "display" : "Vzorek z jater"
+      },
+      {
+        "code" : "122610009",
+        "display" : "Bioptický vzorek z plic"
+      },
+      {
+        "code" : "447407009",
+        "display" : "Vzorek z nekrotické tkáně"
+      },
+      {
+        "code" : "127469001",
+        "display" : "Vzorek z pankreatu"
+      },
+      {
+        "code" : "119403008",
+        "display" : "Vzorek z placenty"
+      },
+      {
+        "code" : "1003711005",
+        "display" : "Vzorek z náhrady kloubu"
+      },
+      {
+        "code" : "608969007",
+        "display" : "Vzorek z kůže"
+      },
+      {
+        "code" : "433308004",
+        "display" : "Vzorek ze sleziny"
+      },
+      {
+        "code" : "119379005",
+        "display" : "Vzorek ze žaludku"
+      },
+      {
+        "code" : "445447003",
+        "display" : "Aspirát z trachey"
+      },
+      {
+        "code" : "441903006",
+        "display" : "Vzorek z bronchální aspirace"
+      },
+      {
+        "code" : "440674008",
+        "display" : "Vzorek získaný laváží"
+      },
+      {
+        "code" : "57711000052109",
+        "display" : "Vzorek získaný punkcí"
+      },
+      {
+        "code" : "16220971000119101",
+        "display" : "Vzorek tekutiny z cysty ledviny"
+      },
+      {
+        "code" : "278020009",
+        "display" : "Jednorázový vzorek moči"
+      },
+      {
+        "code" : "271514008",
+        "display" : "Vzorek kostní dřeně ze sterna"
+      },
+      {
+        "code" : "472894002",
+        "display" : "Stěr z rohovky"
+      },
+      {
+        "code" : "472900002",
+        "display" : "Stěr z dásně"
+      },
+      {
+        "code" : "472888005",
+        "display" : "Stěr z hrtanu"
+      },
+      {
+        "code" : "16210971000119108",
+        "display" : "Stěr z léze"
+      },
+      {
+        "code" : "472862007",
+        "display" : "Stěr z kožní léze"
+      },
+      {
+        "code" : "472879001",
+        "display" : "Stěr z placenty"
+      },
+      {
+        "code" : "472885008",
+        "display" : "Stěr z dekubitu"
+      },
+      {
+        "code" : "472883001",
+        "display" : "Stěr z chirurgické rány"
+      },
+      {
+        "code" : "472866005",
+        "display" : "Stěr z jazyka"
+      },
+      {
+        "code" : "472867001",
+        "display" : "Stěr z tonsily"
+      },
+      {
+        "code" : "461911000124106",
+        "display" : "Orofaryngeální stěr"
+      },
+      {
+        "code" : "309478005",
+        "display" : "Vzorek trombu"
+      },
+      {
+        "code" : "258480001",
+        "display" : "Transtracheální aspirát"
+      },
+      {
+        "code" : "258436001",
+        "display" : "Vzorek tkáně pupečníku"
+      },
+      {
+        "code" : "258530009",
+        "display" : "Uretrální stěr"
+      },
+      {
+        "code" : "444937002",
+        "display" : "Vzorek moči z ureteru"
+      },
+      {
+        "code" : "447589008",
+        "display" : "Moč po jednorázové katetrizaci"
+      },
+      {
+        "code" : "446907008",
+        "display" : "Vzorek moči z ledviny"
+      },
+      {
+        "code" : "258520000",
+        "display" : "Vaginální stěr"
+      },
+      {
+        "code" : "703431007",
+        "display" : "Vzorek žilní pupečníkové krve"
+      },
+      {
+        "code" : "258482009",
+        "display" : "Vzorek tekutiny z puchýře"
+      },
+      {
+        "code" : "258523003",
+        "display" : "Stěr z vulvy"
+      },
+      {
+        "code" : "258662004",
+        "display" : "Vzorek na adhezním sklíčku"
+      },
+      {
+        "code" : "258527002",
+        "display" : "Anální stěr"
+      },
+      {
+        "code" : "258415003",
+        "display" : "Bioptický vzorek"
+      },
+      {
+        "code" : "303248007",
+        "display" : "Krevní nátěr"
+      },
+      {
+        "code" : "737535000",
+        "display" : "Krevní nátěr"
+      },
+      {
+        "code" : "122560006",
+        "display" : "Krevní vzorek dárce"
+      },
+      {
+        "code" : "866033003",
+        "display" : "Krev v aerobní hemokultivační lahvi"
+      },
+      {
+        "code" : "866032008",
+        "display" : "Krev v anaerobní hemokultivační lahvi"
+      },
+      {
+        "code" : "878861003",
+        "display" : "Krev v hemokultivační lahvi"
+      },
+      {
+        "code" : "445295009",
+        "display" : "Krevní vzorek v EDTA"
+      },
+      {
+        "code" : "309061008",
+        "display" : "Aspirát z prsu tenkou jehlou"
+      },
+      {
+        "code" : "309503002",
+        "display" : "Sekret z bradavky"
+      },
+      {
+        "code" : "309174004",
+        "display" : "Biopsie bronchu"
+      },
+      {
+        "code" : "119308003",
+        "display" : "Kanyla jako vzorek"
+      },
+      {
+        "code" : "473409003",
+        "display" : "Centrální žilní katétr jako vzorek"
+      },
+      {
+        "code" : "472929000",
+        "display" : "Špička centrálního žilního katétru"
+      },
+      {
+        "code" : "445372002",
+        "display" : "Mozkomíšní mok z mozkové komory"
+      },
+      {
+        "code" : "258524009",
+        "display" : "Cervikální stěr"
+      },
+      {
+        "code" : "440473005",
+        "display" : "Kontaktní čočka jako vzorek"
+      },
+      {
+        "code" : "440500007",
+        "display" : "Suchá kapka krve"
+      },
+      {
+        "code" : "119319000",
+        "display" : "Vzorek léčiva"
+      },
+      {
+        "code" : "309165001",
+        "display" : "Vzorek ucha"
+      },
+      {
+        "code" : "258575007",
+        "display" : "Ranní moč"
+      },
+      {
+        "code" : "446676001",
+        "display" : "Odsáté mateřské mléko"
+      },
+      {
+        "code" : "122568004",
+        "display" : "Exsudát z rány"
+      },
+      {
+        "code" : "258519006",
+        "display" : "Stěr z ženského genitálu"
+      },
+      {
+        "code" : "737357006",
+        "display" : "Vzorek fetální krve"
+      },
+      {
+        "code" : "698276005",
+        "display" : "První proud moči"
+      },
+      {
+        "code" : "733056005",
+        "display" : "Vzorek tekutiny z ucha"
+      },
+      {
+        "code" : "732976006",
+        "display" : "Vzorek tekutiny ze zevního zvukovodu"
+      },
+      {
+        "code" : "16214171000119101",
+        "display" : "Vzorek genitální tekutiny"
+      },
+      {
+        "code" : "258570002",
+        "display" : "Urogenitální vzorek"
+      },
+      {
+        "code" : "309124001",
+        "display" : "Biopsie kloubu"
+      },
+      {
+        "code" : "431361003",
+        "display" : "Kloubní tekutina"
+      },
+      {
+        "code" : "309079007",
+        "display" : "Biopsie lymfatické uzliny"
+      },
+      {
+        "code" : "309052008",
+        "display" : "Vzorek mužského genitálu"
+      },
+      {
+        "code" : "258574006",
+        "display" : "Střední proud moči"
+      },
+      {
+        "code" : "119321005",
+        "display" : "Vzorek mléka"
+      },
+      {
+        "code" : "119377007",
+        "display" : "Vzorek myokardu"
+      },
+      {
+        "code" : "16224371000119105",
+        "display" : "Výplach nosu"
+      },
+      {
+        "code" : "16223051000119101",
+        "display" : "Obsah paranazální dutiny"
+      },
+      {
+        "code" : "258411007",
+        "display" : "Aspirát z nosohltanu"
+      },
+      {
+        "code" : "441620008",
+        "display" : "Orální tekutina"
+      },
+      {
+        "code" : "418932006",
+        "display" : "Orální stěr"
+      },
+      {
+        "code" : "258511009",
+        "display" : "Uretrální stěr u muže"
+      },
+      {
+        "code" : "258510005",
+        "display" : "Stěr z penisu"
+      },
+      {
+        "code" : "258526006",
+        "display" : "Perianální stěr"
+      },
+      {
+        "code" : "258525005",
+        "display" : "Perineální stěr"
+      },
+      {
+        "code" : "472923004",
+        "display" : "Špička periferního katétru"
+      },
+      {
+        "code" : "168140004",
+        "display" : "Peritoneální dialyzát"
+      },
+      {
+        "code" : "788707000",
+        "display" : "Plazma / sérum / plná krev"
+      },
+      {
+        "code" : "708049000",
+        "display" : "Plazma s EDTA"
+      },
+      {
+        "code" : "309172000",
+        "display" : "Biopsie pleury"
+      },
+      {
+        "code" : "258471001",
+        "display" : "Sekret po masáži prostaty"
+      },
+      {
+        "code" : "708112008",
+        "display" : "Aspirát z Douglasova prostoru"
+      },
+      {
+        "code" : "258664003",
+        "display" : "Vzorek pomocí lepicí pásky"
+      },
+      {
+        "code" : "119348006",
+        "display" : "Semenná plazma"
+      },
+      {
+        "code" : "122589008",
+        "display" : "Sérum od dárce krve"
+      },
+      {
+        "code" : "122590004",
+        "display" : "Sérum od pacienta"
+      },
+      {
+        "code" : "258549008",
+        "display" : "Kožní šupina"
+      },
+      {
+        "code" : "258503004",
+        "display" : "Kožní stěr"
+      },
+      {
+        "code" : "1179252003",
+        "display" : "Mikroskopické sklíčko jako vzorek"
+      },
+      {
+        "code" : "119371008",
+        "display" : "Vzorek z abscesu"
+      },
+      {
+        "code" : "446972001",
+        "display" : "Aspirát z abscesu"
+      },
+      {
+        "code" : "119392008",
+        "display" : "Vzorek z anu"
+      },
+      {
+        "code" : "127456000",
+        "display" : "Vzorek z prsu"
+      },
+      {
+        "code" : "16211051000119109",
+        "display" : "Vzorek z hluboké rány"
+      },
+      {
+        "code" : "119396006",
+        "display" : "Vzorek z endometria"
+      },
+      {
+        "code" : "440229008",
+        "display" : "Vzorek z prostředí"
+      },
+      {
+        "code" : "16212771000119105",
+        "display" : "Biopsie z víčka"
+      },
+      {
+        "code" : "449446003",
+        "display" : "Vzorek ze žlučníku"
+      },
+      {
+        "code" : "119344008",
+        "display" : "Vzorek z genitálního systému"
+      },
+      {
+        "code" : "447098004",
+        "display" : "Seškrab z nehtu"
+      },
+      {
+        "code" : "430248009",
+        "display" : "Vzorek z nosohltanu"
+      },
+      {
+        "code" : "447154002",
+        "display" : "Vzorek z nosu"
+      },
+      {
+        "code" : "119397002",
+        "display" : "Vzorek z penisu"
+      },
+      {
+        "code" : "434250007",
+        "display" : "Biopsie perikardu"
+      },
+      {
+        "code" : "438660002",
+        "display" : "Vzorek z implantátu"
+      },
+      {
+        "code" : "446952006",
+        "display" : "Seškrab z kůže"
+      },
+      {
+        "code" : "119295008",
+        "display" : "Aspirát"
+      },
+      {
+        "code" : "119324002",
+        "display" : "Vzorek neznámého materiálu"
+      },
+      {
+        "code" : "703691002",
+        "display" : "Vycentrovaný mozkomíšní mok"
+      },
+      {
+        "code" : "258609006",
+        "display" : "Aspirát sputa z trachey"
+      },
+      {
+        "code" : "447488002",
+        "display" : "Suprapubická moč"
+      },
+      {
+        "code" : "373826004",
+        "display" : "Chirurgicky odstraněná tkáň"
+      },
+      {
+        "code" : "472896000",
+        "display" : "Stěr z puchýře"
+      },
+      {
+        "code" : "733104004",
+        "display" : "Stěr z bukální sliznice"
+      },
+      {
+        "code" : "472884007",
+        "display" : "Stěr z hluboké rány"
+      },
+      {
+        "code" : "472886009",
+        "display" : "Stěr z gastrostomie"
+      },
+      {
+        "code" : "472901003",
+        "display" : "Stěr z paranazální dutiny"
+      },
+      {
+        "code" : "472881004",
+        "display" : "Stěr z hltanu"
+      },
+      {
+        "code" : "472882006",
+        "display" : "Stěr z povrchové rány"
+      },
+      {
+        "code" : "33901000087104",
+        "display" : "Stěr z tracheostomie"
+      },
+      {
+        "code" : "472871003",
+        "display" : "Stěr z vředu"
+      },
+      {
+        "code" : "445364004",
+        "display" : "Stěr z axily"
+      },
+      {
+        "code" : "445444005",
+        "display" : "Stěr z třísla"
+      },
+      {
+        "code" : "445367006",
+        "display" : "Stěr z pupku"
+      },
+      {
+        "code" : "710069003",
+        "display" : "Vzorek klíštěte"
+      },
+      {
+        "code" : "128157004",
+        "display" : "Tkáně z mozku"
+      },
+      {
+        "code" : "399492000",
+        "display" : "Tkáně z plic"
+      },
+      {
+        "code" : "699874006",
+        "display" : "Tkáně z perikardu"
+      },
+      {
+        "code" : "57741000052105",
+        "display" : "Tracheální sekret"
+      },
+      {
+        "code" : "472938003",
+        "display" : "Tracheální kanyla jako vzorek"
+      },
+      {
+        "code" : "122877000",
+        "display" : "Aspirát z horních dýchacích cest"
+      },
+      {
+        "code" : "258604001",
+        "display" : "Vzorek z horních dýchacích cest"
+      },
+      {
+        "code" : "122565001",
+        "display" : "Vzorek z močového katétru"
+      },
+      {
+        "code" : "446130001",
+        "display" : "Vzorek moči z močového měchýře"
+      },
+      {
+        "code" : "442173007",
+        "display" : "Vzorek moči z nefrostomie"
+      },
+      {
+        "code" : "446306009",
+        "display" : "Vzorek moči ze sběrného sáčku"
+      },
+      {
+        "code" : "446846006",
+        "display" : "Moč z permanentního katétru"
+      },
+      {
+        "code" : "16221251000119108",
+        "display" : "Moč z jednorázového katétru"
+      },
+      {
+        "code" : "258577004",
+        "display" : "Vaginální sekret"
+      },
+      {
+        "code" : "472932002",
+        "display" : "Vaskulární katétr jako vzorek"
+      },
+      {
+        "code" : "703432000",
+        "display" : "Vzorek žilní plazmy"
+      },
+      {
+        "code" : "472942000",
+        "display" : "Ventrikuloperitoneální shunt jako vzorek"
+      },
+      {
+        "code" : "258438000",
+        "display" : "Vzorek sklivce"
+      },
+      {
+        "code" : "119318008",
+        "display" : "Vzorek vody"
+      },
+      {
+        "code" : "57921000052103",
+        "display" : "Plná krev s edetovou kyselinou"
+      },
+      {
+        "code" : "258565009",
+        "display" : "Vzorek choriových klků"
+      },
+      {
+        "code" : "258599007",
+        "display" : "Roztok z kontaktní čočky"
+      },
+      {
+        "code" : "439961009",
+        "display" : "Implantát jako vzorek"
+      },
+      {
+        "code" : "258603007",
+        "display" : "Vzorek z dýchacího systému"
+      },
+      {
+        "code" : "119368000",
+        "display" : "Vzorek z cysty"
+      },
+      {
+        "code" : "433861002",
+        "display" : "FNAB z paranazální dutiny"
+      },
+      {
+        "code" : "734379005",
+        "display" : "Vzorek z periodoncia"
+      },
+      {
+        "code" : "119369008",
+        "display" : "Vzorek z vředu"
+      },
+      {
+        "code" : "430304001",
+        "display" : "Vzorek z neurčené lokalizace"
+      },
+      {
+        "code" : "127479004",
+        "display" : "Vzorek z dělohy"
+      },
+      {
+        "code" : "122550002",
+        "display" : "FNAB vzorek"
+      },
+      {
+        "code" : "258576008",
+        "display" : "Suprapubický aspirát"
+      },
+      {
+        "code" : "445297001",
+        "display" : "Stěr z vnitřní části nosu"
+      },
+      {
+        "code" : "699287008",
+        "display" : "Moč ze suprapubického permanentního katétru"
+      },
+      {
+        "code" : "444946008",
+        "display" : "Dialyzační tekutina před dialýzou"
+      },
+      {
+        "code" : "122592007",
+        "display" : "Sérum nebo plazma"
+      },
+      {
+        "code" : "309141004",
+        "display" : "Vzorek nadledvin"
+      },
+      {
+        "code" : "309479002",
+        "display" : "Vzorek tepny"
+      },
+      {
+        "code" : "122558009",
+        "display" : "Vzorek krve z krevního přípravku"
+      },
+      {
+        "code" : "122559001",
+        "display" : "Kontrolní krevní vzorek"
+      },
+      {
+        "code" : "122562003",
+        "display" : "Krevní vzorek novorozence"
+      },
+      {
+        "code" : "258587000",
+        "display" : "Buffy coat (vrstva leukocytů)"
+      },
+      {
+        "code" : "433116003",
+        "display" : "FNAB z jater"
+      },
+      {
+        "code" : "119346005",
+        "display" : "Vzorek vaječného žloutku"
+      },
+      {
+        "code" : "122582004",
+        "display" : "Vzorek erytrocytů z krevního přípravku"
+      },
+      {
+        "code" : "119333000",
+        "display" : "Vzorek fibroblastů"
+      },
+      {
+        "code" : "119320006",
+        "display" : "Vzorek potraviny"
+      },
+      {
+        "code" : "122576002",
+        "display" : "Genitální hlen"
+      },
+      {
+        "code" : "119337004",
+        "display" : "Vzorek vdechovaného plynu"
+      },
+      {
+        "code" : "258606004",
+        "display" : "Vzorek z dolních dýchacích cest"
+      },
+      {
+        "code" : "119316007",
+        "display" : "Nebuněčná (nebiologická) tekutina"
+      },
+      {
+        "code" : "122551003",
+        "display" : "Vzorek periferní krve"
+      },
+      {
+        "code" : "119301009",
+        "display" : "Vzorek rostliny"
+      },
+      {
+        "code" : "119362004",
+        "display" : "Plazma chudá na trombocyty"
+      },
+      {
+        "code" : "119363009",
+        "display" : "Plazma bohatá na trombocyty"
+      },
+      {
+        "code" : "119358005",
+        "display" : "Vzorek trombocytů"
+      },
+      {
+        "code" : "725946000",
+        "display" : "Vzorek retikulocytů"
+      },
+      {
+        "code" : "309508006",
+        "display" : "FNAB z léze měkkých tkání"
+      },
+      {
+        "code" : "119391001",
+        "display" : "Vzorek z bronchu"
+      },
+      {
+        "code" : "119367005",
+        "display" : "Vzorek z popáleniny"
+      },
+      {
+        "code" : "702701006",
+        "display" : "Vzorek z čípku nebo pochvy"
+      },
+      {
+        "code" : "119400006",
+        "display" : "Vzorek z rohovky"
+      },
+      {
+        "code" : "1003708009",
+        "display" : "Vzorek z drénu"
+      },
+      {
+        "code" : "127462005",
+        "display" : "Vzorek ze srdce"
+      },
+      {
+        "code" : "127458004",
+        "display" : "Vzorek z plic"
+      },
+      {
+        "code" : "122614000",
+        "display" : "FNAB z plic"
+      },
+      {
+        "code" : "432382007",
+        "display" : "FNAB z lymfatické uzliny"
+      },
+      {
+        "code" : "128155007",
+        "display" : "Vzorek z ovaria"
+      },
+      {
+        "code" : "431406009",
+        "display" : "FNAB z pankreatu"
+      },
+      {
+        "code" : "441695007",
+        "display" : "FNAB z příušní žlázy"
+      },
+      {
+        "code" : "430250001",
+        "display" : "Vzorek z peritonea"
+      },
+      {
+        "code" : "127459007",
+        "display" : "Vzorek z pleury"
+      },
+      {
+        "code" : "119386002",
+        "display" : "Vzorek z prostaty"
+      },
+      {
+        "code" : "384819001",
+        "display" : "Jehlová biopsie prostaty"
+      },
+      {
+        "code" : "434406008",
+        "display" : "FNAB ze slinné žlázy"
+      },
+      {
+        "code" : "441810001",
+        "display" : "FNAB z měkké tkáně"
+      },
+      {
+        "code" : "441749007",
+        "display" : "FNAB z podčelistní žlázy"
+      },
+      {
+        "code" : "128154006",
+        "display" : "Vzorek z varlete"
+      },
+      {
+        "code" : "119389009",
+        "display" : "Vzorek z hrdla"
+      },
+      {
+        "code" : "399680007",
+        "display" : "Vzorek ze štítné žlázy"
+      },
+      {
+        "code" : "119390000",
+        "display" : "Vzorek z trachey"
+      },
+      {
+        "code" : "399411006",
+        "display" : "Vzorek z trofoblastu"
+      },
+      {
+        "code" : "119393003",
+        "display" : "Vzorek z uretry"
+      },
+      {
+        "code" : "450872001",
+        "display" : "Vzorek z močového měchýře"
+      },
+      {
+        "code" : "119395005",
+        "display" : "Vzorek z děložního čípku"
+      },
+      {
+        "code" : "119394009",
+        "display" : "Vzorek z pochvy"
+      },
+      {
+        "code" : "119365002",
+        "display" : "Vzorek z rány"
+      },
+      {
+        "code" : "309146009",
+        "display" : "FNAB štítné žlázy"
+      },
+      {
+        "code" : "122638001",
+        "display" : "Tkáně z tenkého střeva"
+      },
+      {
+        "code" : "258444001",
+        "display" : "Vzorek komorové vody"
+      },
+      {
+        "code" : "258485006",
+        "display" : "Seškrab z rohovky"
+      },
+      {
+        "code" : "168137004",
+        "display" : "Gastrický aspirát"
+      },
+      {
+        "code" : "1259931002",
+        "display" : "Vzorek vousů"
+      },
+      {
+        "code" : "168145009",
+        "display" : "Vzorek lymfy"
+      },
+      {
+        "code" : "309507001",
+        "display" : "Biopsie svalu"
+      },
+      {
+        "code" : "16224171000119108",
+        "display" : "Nasotracheální aspirát"
+      },
+      {
+        "code" : "309068002",
+        "display" : "Vzorek kožní léze"
+      },
+      {
+        "code" : "396997002",
+        "display" : "Aspirát z kostní dřeně"
+      },
+      {
+        "code" : "16215771000119101",
+        "display" : "FNAB z tříselné uzliny"
+      },
+      {
+        "code" : "430236006",
+        "display" : "Vzorek z nervu"
+      },
+      {
+        "code" : "472898004",
+        "display" : "Stěr z ruky"
+      },
+      {
+        "code" : "472868006",
+        "display" : "Stěr z peritoneální dutiny"
+      },
+      {
+        "code" : "444787003",
+        "display" : "Stěr z endocervixu"
+      },
+      {
+        "code" : "16223971000119109",
+        "display" : "FNAB synoviální tekutiny"
+      },
+      {
+        "code" : "122656001",
+        "display" : "Tkáně ze žlučníku"
+      },
+      {
+        "code" : "122736005",
+        "display" : "Tkáně z placenty"
+      },
+      {
+        "code" : "369611008",
+        "display" : "Biopsie tenkého střeva"
+      },
+      {
+        "code" : "309191000",
+        "display" : "Biopsie tonsily"
+      },
+      {
+        "code" : "697989009",
+        "display" : "Stěr z přední části nosu"
+      },
+      {
+        "code" : "57931000052101",
+        "display" : "Kombinovaný vzorek cervikálního hlenu a moči"
+      },
+      {
+        "code" : "433324003",
+        "display" : "Vzorek z oční krajiny"
+      },
+      {
+        "code" : "16216171000119108",
+        "display" : "Aspirát z jater"
+      },
+      {
+        "code" : "16221491000119104",
+        "display" : "Samovolně vyloučená moč"
+      },
+      {
+        "code" : "16216211000119105"
+      },
+      {
+        "code" : "16212571000119100"
+      },
+      {
+        "code" : "16209731000119104"
+      },
+      {
+        "code" : "16209291000119109"
+      },
+      {
+        "code" : "2541000181108"
+      },
+      {
+        "code" : "2511000181107"
+      },
+      {
+        "code" : "447158004"
+      },
+      {
+        "code" : "445069004"
+      },
+      {
+        "code" : "444656005"
+      },
+      {
+        "code" : "443498007"
+      },
+      {
+        "code" : "430245007"
+      },
+      {
+        "code" : "396356004"
+      },
+      {
+        "code" : "309120005"
+      },
+      {
+        "code" : "122734008"
+      },
+      {
+        "code" : "122660003"
+      },
+      {
+        "code" : "122607002"
+      },
+      {
+        "code" : "110965000"
+      },
+      {
+        "code" : "110899003"
+      },
+      {
+        "code" : "16223771000119107"
+      },
+      {
+        "code" : "16216371000119105"
+      },
+      {
+        "code" : "16211531000119105"
+      },
+      {
+        "code" : "472922009"
+      },
+      {
+        "code" : "127461003"
+      },
+      {
+        "code" : "122689001"
+      },
+      {
+        "code" : "122619005"
+      },
+      {
+        "code" : "1293160008"
+      },
+      {
+        "code" : "787149001"
+      },
+      {
+        "code" : "432141003"
+      },
+      {
+        "code" : "399388008"
+      },
+      {
+        "code" : "309281003"
+      },
+      {
+        "code" : "309187005"
+      },
+      {
+        "code" : "258506007"
+      },
+      {
+        "code" : "122730004"
+      },
+      {
+        "code" : "122700007"
+      },
+      {
+        "code" : "110915009"
+      },
+      {
+        "code" : "110898006"
+      },
+      {
+        "code" : "16215611000119102"
+      },
+      {
+        "code" : "697988001"
+      },
+      {
+        "code" : "440472000"
+      },
+      {
+        "code" : "433860001"
+      },
+      {
+        "code" : "431697001"
+      },
+      {
+        "code" : "430133009"
+      },
+      {
+        "code" : "405902005"
+      },
+      {
+        "code" : "397131006"
+      },
+      {
+        "code" : "258561000"
+      },
+      {
+        "code" : "122587005"
+      },
+      {
+        "code" : "122585002"
+      },
+      {
+        "code" : "16211211000119102"
+      },
+      {
+        "code" : "472889002"
+      },
+      {
+        "code" : "472863002"
+      },
+      {
+        "code" : "446235003"
+      },
+      {
+        "code" : "430856003"
+      },
+      {
+        "code" : "110925004"
+      },
+      {
+        "code" : "454911000124104"
+      },
+      {
+        "code" : "35321000087105"
+      },
+      {
+        "code" : "866035005"
+      },
+      {
+        "code" : "433118002"
+      },
+      {
+        "code" : "432140002"
+      },
+      {
+        "code" : "309496001"
+      },
+      {
+        "code" : "258652006"
+      },
+      {
+        "code" : "258617003"
+      },
+      {
+        "code" : "258554004"
+      },
+      {
+        "code" : "122658000"
+      },
+      {
+        "code" : "110956007"
+      },
+      {
+        "code" : "16216571000119104"
+      },
+      {
+        "code" : "472903000"
+      },
+      {
+        "code" : "406101006"
+      },
+      {
+        "code" : "384744003"
+      },
+      {
+        "code" : "309263001"
+      },
+      {
+        "code" : "309151003"
+      },
+      {
+        "code" : "16214131000119104"
+      },
+      {
+        "code" : "16213851000119101"
+      },
+      {
+        "code" : "16210451000119109"
+      },
+      {
+        "code" : "1335920009"
+      },
+      {
+        "code" : "472890006"
+      },
+      {
+        "code" : "447392008"
+      },
+      {
+        "code" : "443654002"
+      },
+      {
+        "code" : "399640003"
+      },
+      {
+        "code" : "396359006"
+      },
+      {
+        "code" : "309193002"
+      },
+      {
+        "code" : "258650003"
+      },
+      {
+        "code" : "258412000"
+      },
+      {
+        "code" : "119385003"
+      },
+      {
+        "code" : "16213451000119104"
+      },
+      {
+        "code" : "2521000181103"
+      },
+      {
+        "code" : "439479000"
+      },
+      {
+        "code" : "438352005"
+      },
+      {
+        "code" : "309490007"
+      },
+      {
+        "code" : "128174004"
+      },
+      {
+        "code" : "122600000"
+      },
+      {
+        "code" : "16210891000119102"
+      },
+      {
+        "code" : "1345219005"
+      },
+      {
+        "code" : "732227008"
+      },
+      {
+        "code" : "440138003"
+      },
+      {
+        "code" : "399693002"
+      },
+      {
+        "code" : "396526009"
+      },
+      {
+        "code" : "309289001"
+      },
+      {
+        "code" : "309225009"
+      },
+      {
+        "code" : "309224008"
+      },
+      {
+        "code" : "309222007"
+      },
+      {
+        "code" : "309112008"
+      },
+      {
+        "code" : "127467004"
+      },
+      {
+        "code" : "122880004"
+      },
+      {
+        "code" : "122879002"
+      },
+      {
+        "code" : "122647009"
+      },
+      {
+        "code" : "110910004"
+      },
+      {
+        "code" : "16222771000119104"
+      },
+      {
+        "code" : "16215171000119102"
+      },
+      {
+        "code" : "16214291000119108"
+      },
+      {
+        "code" : "16213491000119109"
+      },
+      {
+        "code" : "433781000124108"
+      },
+      {
+        "code" : "33501000087106"
+      },
+      {
+        "code" : "733475007"
+      },
+      {
+        "code" : "733103005"
+      },
+      {
+        "code" : "446304007"
+      },
+      {
+        "code" : "442524009"
+      },
+      {
+        "code" : "426815000"
+      },
+      {
+        "code" : "399402006"
+      },
+      {
+        "code" : "397077004"
+      },
+      {
+        "code" : "371783005"
+      },
+      {
+        "code" : "309272009"
+      },
+      {
+        "code" : "309067007"
+      },
+      {
+        "code" : "258590006"
+      },
+      {
+        "code" : "110949001"
+      },
+      {
+        "code" : "734427005"
+      },
+      {
+        "code" : "734333000"
+      },
+      {
+        "code" : "472943005"
+      },
+      {
+        "code" : "441652008"
+      },
+      {
+        "code" : "434244002"
+      },
+      {
+        "code" : "432099000"
+      },
+      {
+        "code" : "399741007"
+      },
+      {
+        "code" : "399713008"
+      },
+      {
+        "code" : "309549006"
+      },
+      {
+        "code" : "309058007"
+      },
+      {
+        "code" : "122618002"
+      },
+      {
+        "code" : "119309006"
+      },
+      {
+        "code" : "16215451000119103"
+      },
+      {
+        "code" : "16211331000119100"
+      },
+      {
+        "code" : "16210411000119108"
+      },
+      {
+        "code" : "773611006"
+      },
+      {
+        "code" : "443418008"
+      },
+      {
+        "code" : "431889006"
+      },
+      {
+        "code" : "426924005"
+      },
+      {
+        "code" : "399657004"
+      },
+      {
+        "code" : "396904001"
+      },
+      {
+        "code" : "396527000"
+      },
+      {
+        "code" : "309227001"
+      },
+      {
+        "code" : "258563002"
+      },
+      {
+        "code" : "127483004"
+      },
+      {
+        "code" : "122713001"
+      },
+      {
+        "code" : "122675006"
+      },
+      {
+        "code" : "16215651000119101"
+      },
+      {
+        "code" : "433801000124107"
+      },
+      {
+        "code" : "30961000087106"
+      },
+      {
+        "code" : "1173097006"
+      },
+      {
+        "code" : "708285007"
+      },
+      {
+        "code" : "473414004"
+      },
+      {
+        "code" : "473404008"
+      },
+      {
+        "code" : "445743000"
+      },
+      {
+        "code" : "445384000"
+      },
+      {
+        "code" : "397334006"
+      },
+      {
+        "code" : "309285007"
+      },
+      {
+        "code" : "258425008"
+      },
+      {
+        "code" : "127481002"
+      },
+      {
+        "code" : "122684006"
+      },
+      {
+        "code" : "16220041000119107"
+      },
+      {
+        "code" : "16215931000119102"
+      },
+      {
+        "code" : "16211131000119102"
+      },
+      {
+        "code" : "16210251000119108"
+      },
+      {
+        "code" : "33331000087108"
+      },
+      {
+        "code" : "734420007"
+      },
+      {
+        "code" : "447375004"
+      },
+      {
+        "code" : "433120004"
+      },
+      {
+        "code" : "430221008"
+      },
+      {
+        "code" : "421615004"
+      },
+      {
+        "code" : "415293009"
+      },
+      {
+        "code" : "397457001"
+      },
+      {
+        "code" : "309548003"
+      },
+      {
+        "code" : "258426009"
+      },
+      {
+        "code" : "127475005"
+      },
+      {
+        "code" : "122691009"
+      },
+      {
+        "code" : "122676007"
+      },
+      {
+        "code" : "119378002"
+      },
+      {
+        "code" : "119370009"
+      },
+      {
+        "code" : "110955006"
+      },
+      {
+        "code" : "290211000146104"
+      },
+      {
+        "code" : "142261000146106"
+      },
+      {
+        "code" : "399751008"
+      },
+      {
+        "code" : "373193000"
+      },
+      {
+        "code" : "309138008"
+      },
+      {
+        "code" : "258602002"
+      },
+      {
+        "code" : "258539005"
+      },
+      {
+        "code" : "258517008"
+      },
+      {
+        "code" : "122702004"
+      },
+      {
+        "code" : "122678008"
+      },
+      {
+        "code" : "16213531000119109"
+      },
+      {
+        "code" : "16211011000119108"
+      },
+      {
+        "code" : "33651000087106"
+      },
+      {
+        "code" : "446137003"
+      },
+      {
+        "code" : "399619004"
+      },
+      {
+        "code" : "399526005"
+      },
+      {
+        "code" : "309273004"
+      },
+      {
+        "code" : "309134005"
+      },
+      {
+        "code" : "128168004"
+      },
+      {
+        "code" : "122623002"
+      },
+      {
+        "code" : "122583009"
+      },
+      {
+        "code" : "119313004"
+      },
+      {
+        "code" : "110941003"
+      },
+      {
+        "code" : "16214331000119102"
+      },
+      {
+        "code" : "1345235003"
+      },
+      {
+        "code" : "472865009"
+      },
+      {
+        "code" : "447355008"
+      },
+      {
+        "code" : "439034006"
+      },
+      {
+        "code" : "432983009"
+      },
+      {
+        "code" : "431696005"
+      },
+      {
+        "code" : "399689008"
+      },
+      {
+        "code" : "373192005"
+      },
+      {
+        "code" : "309293007"
+      },
+      {
+        "code" : "309177006"
+      },
+      {
+        "code" : "258504005"
+      },
+      {
+        "code" : "167913002"
+      },
+      {
+        "code" : "128172000"
+      },
+      {
+        "code" : "127482009"
+      },
+      {
+        "code" : "122608007"
+      },
+      {
+        "code" : "122595009"
+      },
+      {
+        "code" : "119401005"
+      },
+      {
+        "code" : "110950001"
+      },
+      {
+        "code" : "110903005"
+      },
+      {
+        "code" : "434140003"
+      },
+      {
+        "code" : "397458006"
+      },
+      {
+        "code" : "363328006"
+      },
+      {
+        "code" : "309290005"
+      },
+      {
+        "code" : "309264007"
+      },
+      {
+        "code" : "309206006"
+      },
+      {
+        "code" : "122649007"
+      },
+      {
+        "code" : "116161004"
+      },
+      {
+        "code" : "16213931000119103"
+      },
+      {
+        "code" : "16211411000119101"
+      },
+      {
+        "code" : "35311000087102"
+      },
+      {
+        "code" : "1285640000"
+      },
+      {
+        "code" : "397482001"
+      },
+      {
+        "code" : "371780008"
+      },
+      {
+        "code" : "309484008"
+      },
+      {
+        "code" : "309482007"
+      },
+      {
+        "code" : "309050000"
+      },
+      {
+        "code" : "258546001"
+      },
+      {
+        "code" : "110937002"
+      },
+      {
+        "code" : "57721000052101"
+      },
+      {
+        "code" : "472944004"
+      },
+      {
+        "code" : "444824001"
+      },
+      {
+        "code" : "432060008"
+      },
+      {
+        "code" : "430214008"
+      },
+      {
+        "code" : "258651004"
+      },
+      {
+        "code" : "110901007"
+      },
+      {
+        "code" : "16222251000119102"
+      },
+      {
+        "code" : "16221011000119101"
+      },
+      {
+        "code" : "16215251000119104"
+      },
+      {
+        "code" : "16212331000119108"
+      },
+      {
+        "code" : "29011000087100"
+      },
+      {
+        "code" : "734336008"
+      },
+      {
+        "code" : "473408006"
+      },
+      {
+        "code" : "446212001"
+      },
+      {
+        "code" : "399551006"
+      },
+      {
+        "code" : "399447007"
+      },
+      {
+        "code" : "396805001"
+      },
+      {
+        "code" : "258515000"
+      },
+      {
+        "code" : "167870008"
+      },
+      {
+        "code" : "128169007"
+      },
+      {
+        "code" : "16213251000119100"
+      },
+      {
+        "code" : "737016007"
+      },
+      {
+        "code" : "430387006"
+      },
+      {
+        "code" : "420548004"
+      },
+      {
+        "code" : "371784004"
+      },
+      {
+        "code" : "309476009"
+      },
+      {
+        "code" : "309292002"
+      },
+      {
+        "code" : "309183009"
+      },
+      {
+        "code" : "309181006"
+      },
+      {
+        "code" : "258545002"
+      },
+      {
+        "code" : "116213003"
+      },
+      {
+        "code" : "110924000"
+      },
+      {
+        "code" : "16212171000119109"
+      },
+      {
+        "code" : "29031000087105"
+      },
+      {
+        "code" : "1343300000"
+      },
+      {
+        "code" : "703475006"
+      },
+      {
+        "code" : "440135000"
+      },
+      {
+        "code" : "309486005"
+      },
+      {
+        "code" : "309139000"
+      },
+      {
+        "code" : "128167009"
+      },
+      {
+        "code" : "122724004"
+      },
+      {
+        "code" : "122685007"
+      },
+      {
+        "code" : "122683000"
+      },
+      {
+        "code" : "33931000087107"
+      },
+      {
+        "code" : "30941000087105"
+      },
+      {
+        "code" : "2531000181101"
+      },
+      {
+        "code" : "1345230008"
+      },
+      {
+        "code" : "472930005"
+      },
+      {
+        "code" : "472864008"
+      },
+      {
+        "code" : "441876003"
+      },
+      {
+        "code" : "430318008"
+      },
+      {
+        "code" : "396899000"
+      },
+      {
+        "code" : "369614000"
+      },
+      {
+        "code" : "258476006"
+      },
+      {
+        "code" : "258430007"
+      },
+      {
+        "code" : "122739003"
+      },
+      {
+        "code" : "119381007"
+      },
+      {
+        "code" : "472931009"
+      },
+      {
+        "code" : "446131002"
+      },
+      {
+        "code" : "441518000"
+      },
+      {
+        "code" : "440136004"
+      },
+      {
+        "code" : "433859006"
+      },
+      {
+        "code" : "384820007"
+      },
+      {
+        "code" : "369617007"
+      },
+      {
+        "code" : "309494003"
+      },
+      {
+        "code" : "309119004"
+      },
+      {
+        "code" : "122657005"
+      },
+      {
+        "code" : "122644002"
+      },
+      {
+        "code" : "122620004"
+      },
+      {
+        "code" : "35261000087106"
+      },
+      {
+        "code" : "732975005"
+      },
+      {
+        "code" : "718684005"
+      },
+      {
+        "code" : "472933007"
+      },
+      {
+        "code" : "472899007"
+      },
+      {
+        "code" : "433115004"
+      },
+      {
+        "code" : "309133004"
+      },
+      {
+        "code" : "309048008"
+      },
+      {
+        "code" : "258629007"
+      },
+      {
+        "code" : "122718005"
+      },
+      {
+        "code" : "122593002"
+      },
+      {
+        "code" : "898205005"
+      },
+      {
+        "code" : "773630006"
+      },
+      {
+        "code" : "472874006"
+      },
+      {
+        "code" : "399672000"
+      },
+      {
+        "code" : "309506005"
+      },
+      {
+        "code" : "309501000"
+      },
+      {
+        "code" : "309495002"
+      },
+      {
+        "code" : "309147000"
+      },
+      {
+        "code" : "258423001"
+      },
+      {
+        "code" : "122670001"
+      },
+      {
+        "code" : "122634004"
+      },
+      {
+        "code" : "16214651000119100"
+      },
+      {
+        "code" : "16211731000119101"
+      },
+      {
+        "code" : "3040001000004107"
+      },
+      {
+        "code" : "1003522007"
+      },
+      {
+        "code" : "866034009"
+      },
+      {
+        "code" : "473410008"
+      },
+      {
+        "code" : "445369009"
+      },
+      {
+        "code" : "442043001"
+      },
+      {
+        "code" : "438595008"
+      },
+      {
+        "code" : "438343001"
+      },
+      {
+        "code" : "431412004"
+      },
+      {
+        "code" : "430249001"
+      },
+      {
+        "code" : "309485009"
+      },
+      {
+        "code" : "276446009"
+      },
+      {
+        "code" : "119302002"
+      },
+      {
+        "code" : "16216491000119102"
+      },
+      {
+        "code" : "16214611000119101"
+      },
+      {
+        "code" : "16211371000119102"
+      },
+      {
+        "code" : "16210931000119105"
+      },
+      {
+        "code" : "435541000124108"
+      },
+      {
+        "code" : "1343301001"
+      },
+      {
+        "code" : "1332490003"
+      },
+      {
+        "code" : "765469005"
+      },
+      {
+        "code" : "472873000"
+      },
+      {
+        "code" : "447337004"
+      },
+      {
+        "code" : "399752001"
+      },
+      {
+        "code" : "397456005"
+      },
+      {
+        "code" : "397111007"
+      },
+      {
+        "code" : "396897003"
+      },
+      {
+        "code" : "396476009"
+      },
+      {
+        "code" : "258628004"
+      },
+      {
+        "code" : "122672009"
+      },
+      {
+        "code" : "122666009"
+      },
+      {
+        "code" : "110893002"
+      },
+      {
+        "code" : "16216091000119108"
+      },
+      {
+        "code" : "33891000087100"
+      },
+      {
+        "code" : "446838005"
+      },
+      {
+        "code" : "438960000"
+      },
+      {
+        "code" : "432134009"
+      },
+      {
+        "code" : "431771004"
+      },
+      {
+        "code" : "399645008"
+      },
+      {
+        "code" : "309226005"
+      },
+      {
+        "code" : "309132009"
+      },
+      {
+        "code" : "122553000"
+      },
+      {
+        "code" : "110966004"
+      },
+      {
+        "code" : "16224291000119101"
+      },
+      {
+        "code" : "16215691000119106"
+      },
+      {
+        "code" : "399484009"
+      },
+      {
+        "code" : "309150002"
+      },
+      {
+        "code" : "122679000"
+      },
+      {
+        "code" : "119366001"
+      },
+      {
+        "code" : "16222091000119100"
+      },
+      {
+        "code" : "16216451000119107"
+      },
+      {
+        "code" : "16214371000119104"
+      },
+      {
+        "code" : "16212251000119107"
+      },
+      {
+        "code" : "1149105007"
+      },
+      {
+        "code" : "447345009"
+      },
+      {
+        "code" : "430244006"
+      },
+      {
+        "code" : "397132004"
+      },
+      {
+        "code" : "309483002"
+      },
+      {
+        "code" : "309218002"
+      },
+      {
+        "code" : "309126004"
+      },
+      {
+        "code" : "122624008"
+      },
+      {
+        "code" : "1003517007"
+      },
+      {
+        "code" : "445529007"
+      },
+      {
+        "code" : "444623009"
+      },
+      {
+        "code" : "309547008"
+      },
+      {
+        "code" : "258608003"
+      },
+      {
+        "code" : "258571003"
+      },
+      {
+        "code" : "127471001"
+      },
+      {
+        "code" : "127468009"
+      },
+      {
+        "code" : "122635003"
+      },
+      {
+        "code" : "122578001"
+      },
+      {
+        "code" : "110932008"
+      },
+      {
+        "code" : "16214411000119103"
+      },
+      {
+        "code" : "734377007"
+      },
+      {
+        "code" : "438454007"
+      },
+      {
+        "code" : "432144006"
+      },
+      {
+        "code" : "128173005"
+      },
+      {
+        "code" : "127457009"
+      },
+      {
+        "code" : "122604009"
+      },
+      {
+        "code" : "116158000"
+      },
+      {
+        "code" : "110943000"
+      },
+      {
+        "code" : "1345270001"
+      },
+      {
+        "code" : "733482006"
+      },
+      {
+        "code" : "699285000"
+      },
+      {
+        "code" : "446562005"
+      },
+      {
+        "code" : "445742005"
+      },
+      {
+        "code" : "309220004"
+      },
+      {
+        "code" : "167877006"
+      },
+      {
+        "code" : "122584003"
+      },
+      {
+        "code" : "16213331000119104"
+      },
+      {
+        "code" : "608868000"
+      },
+      {
+        "code" : "444865001"
+      },
+      {
+        "code" : "399407000"
+      },
+      {
+        "code" : "309278008"
+      },
+      {
+        "code" : "128156008"
+      },
+      {
+        "code" : "127466008"
+      },
+      {
+        "code" : "110917001"
+      },
+      {
+        "code" : "16209851000119100"
+      },
+      {
+        "code" : "734442008"
+      },
+      {
+        "code" : "734417004"
+      },
+      {
+        "code" : "432136006"
+      },
+      {
+        "code" : "432098008"
+      },
+      {
+        "code" : "396998007"
+      },
+      {
+        "code" : "309103006"
+      },
+      {
+        "code" : "258655008"
+      },
+      {
+        "code" : "167872000"
+      },
+      {
+        "code" : "116159008"
+      },
+      {
+        "code" : "110936006"
+      },
+      {
+        "code" : "16214211000119104"
+      },
+      {
+        "code" : "52041000087106"
+      },
+      {
+        "code" : "1340203001"
+      },
+      {
+        "code" : "1331990008"
+      },
+      {
+        "code" : "473403002"
+      },
+      {
+        "code" : "472937008"
+      },
+      {
+        "code" : "472893008"
+      },
+      {
+        "code" : "441673008"
+      },
+      {
+        "code" : "309215004"
+      },
+      {
+        "code" : "122591000"
+      },
+      {
+        "code" : "16210331000119109"
+      },
+      {
+        "code" : "734341000"
+      },
+      {
+        "code" : "399603006"
+      },
+      {
+        "code" : "128162003"
+      },
+      {
+        "code" : "128160006"
+      },
+      {
+        "code" : "110938007"
+      },
+      {
+        "code" : "110916005"
+      },
+      {
+        "code" : "110902000"
+      },
+      {
+        "code" : "16222971000119102"
+      },
+      {
+        "code" : "2421000181104"
+      },
+      {
+        "code" : "732964006"
+      },
+      {
+        "code" : "396928004"
+      },
+      {
+        "code" : "396480004"
+      },
+      {
+        "code" : "396477000"
+      },
+      {
+        "code" : "369615004"
+      },
+      {
+        "code" : "276833005"
+      },
+      {
+        "code" : "258585008"
+      },
+      {
+        "code" : "127460002"
+      },
+      {
+        "code" : "122673004"
+      },
+      {
+        "code" : "122667000"
+      },
+      {
+        "code" : "122627001"
+      },
+      {
+        "code" : "1173996004"
+      },
+      {
+        "code" : "472875007"
+      },
+      {
+        "code" : "433854001"
+      },
+      {
+        "code" : "404643001"
+      },
+      {
+        "code" : "399467003"
+      },
+      {
+        "code" : "309291009"
+      },
+      {
+        "code" : "309283000"
+      },
+      {
+        "code" : "309184003"
+      },
+      {
+        "code" : "122663001"
+      },
+      {
+        "code" : "110935005"
+      },
+      {
+        "code" : "430297000"
+      },
+      {
+        "code" : "397221008"
+      },
+      {
+        "code" : "309208007"
+      },
+      {
+        "code" : "119388001"
+      },
+      {
+        "code" : "110942005"
+      },
+      {
+        "code" : "40511003"
+      },
+      {
+        "code" : "732211001"
+      },
+      {
+        "code" : "399572009"
+      },
+      {
+        "code" : "309073008"
+      },
+      {
+        "code" : "258616007"
+      },
+      {
+        "code" : "258474009"
+      },
+      {
+        "code" : "127480001"
+      },
+      {
+        "code" : "122639009"
+      },
+      {
+        "code" : "119317003"
+      },
+      {
+        "code" : "16215331000119103"
+      },
+      {
+        "code" : "16211091000119104"
+      },
+      {
+        "code" : "1177151008"
+      },
+      {
+        "code" : "473411007"
+      },
+      {
+        "code" : "447155001"
+      },
+      {
+        "code" : "438803004"
+      },
+      {
+        "code" : "432384008"
+      },
+      {
+        "code" : "431413009"
+      },
+      {
+        "code" : "397436009"
+      },
+      {
+        "code" : "309212001"
+      },
+      {
+        "code" : "122692002"
+      },
+      {
+        "code" : "122633005"
+      },
+      {
+        "code" : "16210211000119107"
+      },
+      {
+        "code" : "429931000124105"
+      },
+      {
+        "code" : "33551000087107"
+      },
+      {
+        "code" : "32651000087104"
+      },
+      {
+        "code" : "28981000087104"
+      },
+      {
+        "code" : "734343002"
+      },
+      {
+        "code" : "732226004"
+      },
+      {
+        "code" : "472927003"
+      },
+      {
+        "code" : "447403008"
+      },
+      {
+        "code" : "430386002"
+      },
+      {
+        "code" : "399542003"
+      },
+      {
+        "code" : "396357008"
+      },
+      {
+        "code" : "309266009"
+      },
+      {
+        "code" : "309217007"
+      },
+      {
+        "code" : "258544003"
+      },
+      {
+        "code" : "122564002"
+      },
+      {
+        "code" : "35281000087100"
+      },
+      {
+        "code" : "28971000087101"
+      },
+      {
+        "code" : "735950000"
+      },
+      {
+        "code" : "708110000"
+      },
+      {
+        "code" : "473413005"
+      },
+      {
+        "code" : "430389009"
+      },
+      {
+        "code" : "399624001"
+      },
+      {
+        "code" : "128175003"
+      },
+      {
+        "code" : "708048008"
+      },
+      {
+        "code" : "16211571000119108"
+      },
+      {
+        "code" : "16210491000119104"
+      },
+      {
+        "code" : "472904006"
+      },
+      {
+        "code" : "440675009"
+      },
+      {
+        "code" : "309190004"
+      },
+      {
+        "code" : "258496003"
+      },
+      {
+        "code" : "122710003"
+      },
+      {
+        "code" : "110933003"
+      },
+      {
+        "code" : "423696009"
+      },
+      {
+        "code" : "309504008"
+      },
+      {
+        "code" : "309288009"
+      },
+      {
+        "code" : "397135002"
+      },
+      {
+        "code" : "122707005"
+      },
+      {
+        "code" : "122641005"
+      },
+      {
+        "code" : "725957005"
+      },
+      {
+        "code" : "608860007"
+      },
+      {
+        "code" : "432145007"
+      },
+      {
+        "code" : "258457009"
+      },
+      {
+        "code" : "122705002"
+      },
+      {
+        "code" : "50841000087100"
+      },
+      {
+        "code" : "40371000087100"
+      },
+      {
+        "code" : "444832009"
+      },
+      {
+        "code" : "309267000"
+      },
+      {
+        "code" : "258584007"
+      },
+      {
+        "code" : "122677003"
+      },
+      {
+        "code" : "122646000"
+      },
+      {
+        "code" : "16215291000119109"
+      },
+      {
+        "code" : "16213011000119107"
+      },
+      {
+        "code" : "16210531000119104"
+      },
+      {
+        "code" : "16210371000119107"
+      },
+      {
+        "code" : "33481000087100"
+      },
+      {
+        "code" : "1163592005"
+      },
+      {
+        "code" : "472892003"
+      },
+      {
+        "code" : "472870002"
+      },
+      {
+        "code" : "309200000"
+      },
+      {
+        "code" : "309142006"
+      },
+      {
+        "code" : "258660007"
+      },
+      {
+        "code" : "122729009"
+      },
+      {
+        "code" : "16224091000119108"
+      },
+      {
+        "code" : "16221891000119102"
+      },
+      {
+        "code" : "1003714002"
+      },
+      {
+        "code" : "441884004"
+      },
+      {
+        "code" : "431205006"
+      },
+      {
+        "code" : "430132004"
+      },
+      {
+        "code" : "397438005"
+      },
+      {
+        "code" : "371782000"
+      },
+      {
+        "code" : "258421004"
+      },
+      {
+        "code" : "122611008"
+      },
+      {
+        "code" : "16210611000119105"
+      },
+      {
+        "code" : "1345268005"
+      },
+      {
+        "code" : "441750007"
+      },
+      {
+        "code" : "309178001"
+      },
+      {
+        "code" : "122733002"
+      },
+      {
+        "code" : "122669002"
+      },
+      {
+        "code" : "16215731000119104"
+      },
+      {
+        "code" : "16213211000119101"
+      },
+      {
+        "code" : "16213091000119103"
+      },
+      {
+        "code" : "734381007"
+      },
+      {
+        "code" : "472861000"
+      },
+      {
+        "code" : "309505009"
+      },
+      {
+        "code" : "309497005"
+      },
+      {
+        "code" : "309057002"
+      },
+      {
+        "code" : "271516005"
+      },
+      {
+        "code" : "258658005"
+      },
+      {
+        "code" : "258509000"
+      },
+      {
+        "code" : "119352006"
+      },
+      {
+        "code" : "16214971000119103"
+      },
+      {
+        "code" : "38851000087103"
+      },
+      {
+        "code" : "29041000087104"
+      },
+      {
+        "code" : "608852006"
+      },
+      {
+        "code" : "446300003"
+      },
+      {
+        "code" : "258472008"
+      },
+      {
+        "code" : "122712006"
+      },
+      {
+        "code" : "110970007"
+      },
+      {
+        "code" : "110952009"
+      },
+      {
+        "code" : "16212691000119100"
+      },
+      {
+        "code" : "57481000052108"
+      },
+      {
+        "code" : "737087006"
+      },
+      {
+        "code" : "409876003"
+      },
+      {
+        "code" : "309269002"
+      },
+      {
+        "code" : "122735009"
+      },
+      {
+        "code" : "16215491000119108"
+      },
+      {
+        "code" : "16214531000119107"
+      },
+      {
+        "code" : "473405009"
+      },
+      {
+        "code" : "473399006"
+      },
+      {
+        "code" : "312494007"
+      },
+      {
+        "code" : "309182004"
+      },
+      {
+        "code" : "122697008"
+      },
+      {
+        "code" : "122598006"
+      },
+      {
+        "code" : "110897001"
+      },
+      {
+        "code" : "110894008"
+      },
+      {
+        "code" : "446577002"
+      },
+      {
+        "code" : "399541005"
+      },
+      {
+        "code" : "396479002"
+      },
+      {
+        "code" : "309274005"
+      },
+      {
+        "code" : "447955000"
+      },
+      {
+        "code" : "434014007"
+      },
+      {
+        "code" : "256912003"
+      },
+      {
+        "code" : "110940002"
+      },
+      {
+        "code" : "472939006"
+      },
+      {
+        "code" : "472887000"
+      },
+      {
+        "code" : "431233006"
+      },
+      {
+        "code" : "399622002"
+      },
+      {
+        "code" : "309271002"
+      },
+      {
+        "code" : "122617007"
+      },
+      {
+        "code" : "16214451000119102"
+      },
+      {
+        "code" : "454951000124103"
+      },
+      {
+        "code" : "1331991007"
+      },
+      {
+        "code" : "737017003"
+      },
+      {
+        "code" : "446837000"
+      },
+      {
+        "code" : "432608000"
+      },
+      {
+        "code" : "385338007"
+      },
+      {
+        "code" : "384747005"
+      },
+      {
+        "code" : "309148005"
+      },
+      {
+        "code" : "122665008"
+      },
+      {
+        "code" : "119353001"
+      },
+      {
+        "code" : "734334006"
+      },
+      {
+        "code" : "472926007"
+      },
+      {
+        "code" : "472877004"
+      },
+      {
+        "code" : "430312009"
+      },
+      {
+        "code" : "408654003"
+      },
+      {
+        "code" : "309192007"
+      },
+      {
+        "code" : "309188000"
+      },
+      {
+        "code" : "258631003"
+      },
+      {
+        "code" : "110931001"
+      },
+      {
+        "code" : "840395001"
+      },
+      {
+        "code" : "438659007"
+      },
+      {
+        "code" : "396354001"
+      },
+      {
+        "code" : "309262006"
+      },
+      {
+        "code" : "167875003"
+      },
+      {
+        "code" : "16210811000119106"
+      },
+      {
+        "code" : "473433009"
+      },
+      {
+        "code" : "309270001"
+      },
+      {
+        "code" : "258532001"
+      },
+      {
+        "code" : "16222611000119100"
+      },
+      {
+        "code" : "732295009"
+      },
+      {
+        "code" : "472872005"
+      },
+      {
+        "code" : "446561003"
+      },
+      {
+        "code" : "445405002"
+      },
+      {
+        "code" : "441709004"
+      },
+      {
+        "code" : "432058006"
+      },
+      {
+        "code" : "370108001"
+      },
+      {
+        "code" : "122642003"
+      },
+      {
+        "code" : "116162006"
+      },
+      {
+        "code" : "16216131000119105"
+      },
+      {
+        "code" : "16212371000119106"
+      },
+      {
+        "code" : "16210291000119103"
+      },
+      {
+        "code" : "33911000087102"
+      },
+      {
+        "code" : "438351003"
+      },
+      {
+        "code" : "430408004"
+      },
+      {
+        "code" : "430144001"
+      },
+      {
+        "code" : "363311008"
+      },
+      {
+        "code" : "309207002"
+      },
+      {
+        "code" : "122715008"
+      },
+      {
+        "code" : "122668005"
+      },
+      {
+        "code" : "16216611000119108"
+      },
+      {
+        "code" : "16213651000119102"
+      },
+      {
+        "code" : "29021000087108"
+      },
+      {
+        "code" : "472920001"
+      },
+      {
+        "code" : "443241002"
+      },
+      {
+        "code" : "397136001"
+      },
+      {
+        "code" : "309277003"
+      },
+      {
+        "code" : "122605005"
+      },
+      {
+        "code" : "122596005"
+      },
+      {
+        "code" : "110919003"
+      },
+      {
+        "code" : "16209931000119102"
+      },
+      {
+        "code" : "57731000052104"
+      },
+      {
+        "code" : "1335922001"
+      },
+      {
+        "code" : "399747006"
+      },
+      {
+        "code" : "399649002"
+      },
+      {
+        "code" : "258555003"
+      },
+      {
+        "code" : "110907006"
+      },
+      {
+        "code" : "16212131000119106"
+      },
+      {
+        "code" : "1345269002"
+      },
+      {
+        "code" : "444959000"
+      },
+      {
+        "code" : "410581002"
+      },
+      {
+        "code" : "399732002"
+      },
+      {
+        "code" : "309189008"
+      },
+      {
+        "code" : "258535004"
+      },
+      {
+        "code" : "167867009"
+      },
+      {
+        "code" : "122728001"
+      },
+      {
+        "code" : "16223491000119100"
+      },
+      {
+        "code" : "16223091000119106"
+      },
+      {
+        "code" : "16216331000119107"
+      },
+      {
+        "code" : "35291000087103"
+      },
+      {
+        "code" : "732222002"
+      },
+      {
+        "code" : "473400004"
+      },
+      {
+        "code" : "258572005"
+      },
+      {
+        "code" : "127465007"
+      },
+      {
+        "code" : "122738006"
+      },
+      {
+        "code" : "733105003"
+      },
+      {
+        "code" : "708111001"
+      },
+      {
+        "code" : "397133009"
+      },
+      {
+        "code" : "258514001"
+      },
+      {
+        "code" : "122632000"
+      },
+      {
+        "code" : "16213051000119108"
+      },
+      {
+        "code" : "16209251000119104"
+      },
+      {
+        "code" : "127470000"
+      },
+      {
+        "code" : "122630008"
+      },
+      {
+        "code" : "119335007"
+      },
+      {
+        "code" : "16212731000119107"
+      },
+      {
+        "code" : "446299006"
+      },
+      {
+        "code" : "431776009"
+      },
+      {
+        "code" : "122671002"
+      },
+      {
+        "code" : "116155002"
+      },
+      {
+        "code" : "787151002"
+      },
+      {
+        "code" : "734421006"
+      },
+      {
+        "code" : "473412000"
+      },
+      {
+        "code" : "472902005"
+      },
+      {
+        "code" : "445383006"
+      },
+      {
+        "code" : "397134003"
+      },
+      {
+        "code" : "396273004"
+      },
+      {
+        "code" : "309276007"
+      },
+      {
+        "code" : "309275006"
+      },
+      {
+        "code" : "122613006"
+      },
+      {
+        "code" : "16224251000119106"
+      },
+      {
+        "code" : "433119005"
+      },
+      {
+        "code" : "432986001"
+      },
+      {
+        "code" : "431232001"
+      },
+      {
+        "code" : "399502008"
+      },
+      {
+        "code" : "309480004"
+      },
+      {
+        "code" : "128164002"
+      },
+      {
+        "code" : "122687004"
+      },
+      {
+        "code" : "122654003"
+      },
+      {
+        "code" : "110961009"
+      },
+      {
+        "code" : "16213691000119107"
+      },
+      {
+        "code" : "2431000181102"
+      },
+      {
+        "code" : "898203003"
+      },
+      {
+        "code" : "765470006"
+      },
+      {
+        "code" : "441694006"
+      },
+      {
+        "code" : "432061007"
+      },
+      {
+        "code" : "256889002"
+      },
+      {
+        "code" : "168138009"
+      },
+      {
+        "code" : "15650601000119102"
+      },
+      {
+        "code" : "430310001"
+      },
+      {
+        "code" : "397235005"
+      },
+      {
+        "code" : "309137003"
+      },
+      {
+        "code" : "16211251000119101"
+      },
+      {
+        "code" : "472880003"
+      },
+      {
+        "code" : "432980007"
+      },
+      {
+        "code" : "430131006"
+      },
+      {
+        "code" : "409821005"
+      },
+      {
+        "code" : "309280002"
+      },
+      {
+        "code" : "122681003"
+      },
+      {
+        "code" : "110957003"
+      },
+      {
+        "code" : "16209331000119103"
+      },
+      {
+        "code" : "608840004"
+      },
+      {
+        "code" : "472941007"
+      },
+      {
+        "code" : "445421007"
+      },
+      {
+        "code" : "430861001"
+      },
+      {
+        "code" : "430157009"
+      },
+      {
+        "code" : "122708000"
+      },
+      {
+        "code" : "399396003"
+      },
+      {
+        "code" : "258615006"
+      },
+      {
+        "code" : "258553005"
+      },
+      {
+        "code" : "122628006"
+      },
+      {
+        "code" : "122621000"
+      },
+      {
+        "code" : "699284001"
+      },
+      {
+        "code" : "432441006"
+      },
+      {
+        "code" : "309489003"
+      },
+      {
+        "code" : "309265008"
+      },
+      {
+        "code" : "303247002"
+      },
+      {
+        "code" : "258657000"
+      },
+      {
+        "code" : "116157005"
+      },
+      {
+        "code" : "48469005"
+      },
+      {
+        "code" : "34141000087102"
+      },
+      {
+        "code" : "709024005"
+      },
+      {
+        "code" : "433309007"
+      },
+      {
+        "code" : "432897002"
+      },
+      {
+        "code" : "397245007"
+      },
+      {
+        "code" : "258518003"
+      },
+      {
+        "code" : "2501000181105"
+      },
+      {
+        "code" : "1003713008"
+      },
+      {
+        "code" : "446364005"
+      },
+      {
+        "code" : "430346005"
+      },
+      {
+        "code" : "399460001"
+      },
+      {
+        "code" : "397246008"
+      },
+      {
+        "code" : "309122002"
+      },
+      {
+        "code" : "122717000"
+      },
+      {
+        "code" : "119311002"
+      },
+      {
+        "code" : "16212971000119107"
+      },
+      {
+        "code" : "1172660005"
+      },
+      {
+        "code" : "472925006"
+      },
+      {
+        "code" : "373101006"
+      },
+      {
+        "code" : "16219801000119102"
+      },
+      {
+        "code" : "16212491000119103"
+      },
+      {
+        "code" : "46121000146104"
+      },
+      {
+        "code" : "608858005"
+      },
+      {
+        "code" : "473406005"
+      },
+      {
+        "code" : "396804002"
+      },
+      {
+        "code" : "309144007"
+      },
+      {
+        "code" : "309053003"
+      },
+      {
+        "code" : "122711004"
+      },
+      {
+        "code" : "122664007"
+      },
+      {
+        "code" : "16216051000119103"
+      },
+      {
+        "code" : "446277003"
+      },
+      {
+        "code" : "432436003"
+      },
+      {
+        "code" : "431234000"
+      },
+      {
+        "code" : "271518006"
+      },
+      {
+        "code" : "110960005"
+      },
+      {
+        "code" : "16212451000119108"
+      },
+      {
+        "code" : "433871000124101"
+      },
+      {
+        "code" : "621000009105"
+      },
+      {
+        "code" : "1345107007"
+      },
+      {
+        "code" : "432984003"
+      },
+      {
+        "code" : "430855004"
+      },
+      {
+        "code" : "258611002"
+      },
+      {
+        "code" : "16223731000119109"
+      },
+      {
+        "code" : "734335007"
+      },
+      {
+        "code" : "447357000"
+      },
+      {
+        "code" : "430232008"
+      },
+      {
+        "code" : "397053005"
+      },
+      {
+        "code" : "396896007"
+      },
+      {
+        "code" : "309287004"
+      },
+      {
+        "code" : "309286008"
+      },
+      {
+        "code" : "258548000"
+      },
+      {
+        "code" : "258507003"
+      },
+      {
+        "code" : "110923006"
+      },
+      {
+        "code" : "258614005"
+      },
+      {
+        "code" : "122709008"
+      },
+      {
+        "code" : "57221000087106"
+      },
+      {
+        "code" : "1335921008"
+      },
+      {
+        "code" : "608856009"
+      },
+      {
+        "code" : "397232008"
+      },
+      {
+        "code" : "309219005"
+      },
+      {
+        "code" : "309143001"
+      },
+      {
+        "code" : "16215051000119107"
+      },
+      {
+        "code" : "16211771000119103"
+      },
+      {
+        "code" : "472897009"
+      },
+      {
+        "code" : "396525008"
+      },
+      {
+        "code" : "309130001"
+      },
+      {
+        "code" : "309113003"
+      },
+      {
+        "code" : "127464006"
+      },
+      {
+        "code" : "447148003"
+      },
+      {
+        "code" : "432982004"
+      },
+      {
+        "code" : "431235004"
+      },
+      {
+        "code" : "397455009"
+      },
+      {
+        "code" : "309102001"
+      },
+      {
+        "code" : "110958008"
+      },
+      {
+        "code" : "1003709001"
+      },
+      {
+        "code" : "737356002"
+      },
+      {
+        "code" : "438543000"
+      },
+      {
+        "code" : "432865002"
+      },
+      {
+        "code" : "309268005"
+      },
+      {
+        "code" : "271515009"
+      },
+      {
+        "code" : "110948009"
+      },
+      {
+        "code" : "434249007"
+      },
+      {
+        "code" : "122597001"
+      },
+      {
+        "code" : "110963007"
+      },
+      {
+        "code" : "16213891000119106"
+      },
+      {
+        "code" : "16210651000119106"
+      },
+      {
+        "code" : "733485008"
+      },
+      {
+        "code" : "472878009"
+      },
+      {
+        "code" : "431196006"
+      },
+      {
+        "code" : "399559008"
+      },
+      {
+        "code" : "309055005"
+      },
+      {
+        "code" : "110912007"
+      },
+      {
+        "code" : "16214691000119105"
+      },
+      {
+        "code" : "432985002"
+      },
+      {
+        "code" : "309223002"
+      },
+      {
+        "code" : "309167009"
+      },
+      {
+        "code" : "122659008"
+      },
+      {
+        "code" : "110951002"
+      },
+      {
+        "code" : "110946008"
+      },
+      {
+        "code" : "110920009"
+      },
+      {
+        "code" : "16215131000119100"
+      },
+      {
+        "code" : "431884001"
+      },
+      {
+        "code" : "258560004"
+      },
+      {
+        "code" : "122661004"
+      },
+      {
+        "code" : "472935000"
+      },
+      {
+        "code" : "432143000"
+      },
+      {
+        "code" : "309125000"
+      },
+      {
+        "code" : "16211611000119104"
+      },
+      {
+        "code" : "16210571000119101"
+      },
+      {
+        "code" : "33921000087105"
+      },
+      {
+        "code" : "444831002"
+      },
+      {
+        "code" : "369618002"
+      },
+      {
+        "code" : "258536003"
+      },
+      {
+        "code" : "110962002"
+      },
+      {
+        "code" : "734422004"
+      },
+      {
+        "code" : "396481000"
+      },
+      {
+        "code" : "309149002"
+      },
+      {
+        "code" : "122720008"
+      },
+      {
+        "code" : "110896005"
+      },
+      {
+        "code" : "399735000"
+      },
+      {
+        "code" : "122680002"
+      },
+      {
+        "code" : "16214571000119105"
+      },
+      {
+        "code" : "35271000087102"
+      },
+      {
+        "code" : "258429002"
+      },
+      {
+        "code" : "110934009"
+      },
+      {
+        "code" : "712559006"
+      },
+      {
+        "code" : "397130007"
+      },
+      {
+        "code" : "309175003"
+      },
+      {
+        "code" : "122732007"
+      },
+      {
+        "code" : "122721007"
+      },
+      {
+        "code" : "119384004"
+      },
+      {
+        "code" : "110945007"
+      },
+      {
+        "code" : "472869003"
+      },
+      {
+        "code" : "438336007"
+      },
+      {
+        "code" : "396906004"
+      },
+      {
+        "code" : "309491006"
+      },
+      {
+        "code" : "309169007"
+      },
+      {
+        "code" : "2441000181109"
+      },
+      {
+        "code" : "433322004"
+      },
+      {
+        "code" : "309071005"
+      },
+      {
+        "code" : "122616003"
+      },
+      {
+        "code" : "432139004"
+      },
+      {
+        "code" : "430379005"
+      },
+      {
+        "code" : "122706001"
+      },
+      {
+        "code" : "16216291000119101"
+      },
+      {
+        "code" : "1335924000"
+      },
+      {
+        "code" : "472921002"
+      },
+      {
+        "code" : "446211008"
+      },
+      {
+        "code" : "430246008"
+      },
+      {
+        "code" : "397056002"
+      },
+      {
+        "code" : "167869007"
+      },
+      {
+        "code" : "110905003"
+      },
+      {
+        "code" : "16211451000119100"
+      },
+      {
+        "code" : "399614009"
+      },
+      {
+        "code" : "119357000"
+      },
+      {
+        "code" : "16211291000119106"
+      },
+      {
+        "code" : "1335925004"
+      },
+      {
+        "code" : "735197003"
+      },
+      {
+        "code" : "734426001"
+      },
+      {
+        "code" : "110918006"
+      },
+      {
+        "code" : "33641000087108"
+      },
+      {
+        "code" : "258656009"
+      },
+      {
+        "code" : "122696004"
+      },
+      {
+        "code" : "122652004"
+      },
+      {
+        "code" : "42061000087105"
+      },
+      {
+        "code" : "309493009"
+      },
+      {
+        "code" : "309204009"
+      },
+      {
+        "code" : "309109005"
+      },
+      {
+        "code" : "110969006"
+      },
+      {
+        "code" : "110953004"
+      },
+      {
+        "code" : "16223251000119109"
+      },
+      {
+        "code" : "16212091000119109"
+      },
+      {
+        "code" : "737089009"
+      },
+      {
+        "code" : "373102004"
+      },
+      {
+        "code" : "309498000"
+      },
+      {
+        "code" : "309487001"
+      },
+      {
+        "code" : "309214000"
+      },
+      {
+        "code" : "258659002"
+      },
+      {
+        "code" : "122693007"
+      },
+      {
+        "code" : "110939004"
+      },
+      {
+        "code" : "16212811000119105"
+      },
+      {
+        "code" : "16209891000119105"
+      },
+      {
+        "code" : "29001000087102"
+      },
+      {
+        "code" : "732972008"
+      },
+      {
+        "code" : "440469007"
+      },
+      {
+        "code" : "309186001"
+      },
+      {
+        "code" : "440137008"
+      },
+      {
+        "code" : "258569003"
+      },
+      {
+        "code" : "34151000087104"
+      },
+      {
+        "code" : "446305008"
+      },
+      {
+        "code" : "429836002"
+      },
+      {
+        "code" : "472934001"
+      },
+      {
+        "code" : "472876008"
+      },
+      {
+        "code" : "16209811000119101"
+      },
+      {
+        "code" : "33491000087103"
+      },
+      {
+        "code" : "396806000"
+      },
+      {
+        "code" : "384746001"
+      },
+      {
+        "code" : "309179009"
+      },
+      {
+        "code" : "258601009"
+      },
+      {
+        "code" : "167873005"
+      },
+      {
+        "code" : "122662006"
+      },
+      {
+        "code" : "110928002"
+      },
+      {
+        "code" : "473432004"
+      },
+      {
+        "code" : "472895001"
+      },
+      {
+        "code" : "447881000"
+      },
+      {
+        "code" : "128158009"
+      },
+      {
+        "code" : "33531000087103"
+      },
+      {
+        "code" : "447391001"
+      },
+      {
+        "code" : "431405008"
+      },
+      {
+        "code" : "373103009"
+      },
+      {
+        "code" : "32641000087102"
+      },
+      {
+        "code" : "444936006"
+      },
+      {
+        "code" : "396900005"
+      },
+      {
+        "code" : "363329003"
+      },
+      {
+        "code" : "110909009"
+      },
+      {
+        "code" : "704663000"
+      },
+      {
+        "code" : "442219007"
+      },
+      {
+        "code" : "410729004"
+      },
+      {
+        "code" : "788524009"
+      },
+      {
+        "code" : "732217002"
+      },
+      {
+        "code" : "472891005"
+      },
+      {
+        "code" : "438545007"
+      },
+      {
+        "code" : "432864003"
+      },
+      {
+        "code" : "110929005"
+      },
+      {
+        "code" : "16210691000119101"
+      },
+      {
+        "code" : "732220005"
+      },
+      {
+        "code" : "441792002"
+      },
+      {
+        "code" : "396902002"
+      },
+      {
+        "code" : "122645001"
+      },
+      {
+        "code" : "446842008"
+      },
+      {
+        "code" : "439895009"
+      },
+      {
+        "code" : "110900008"
+      },
+      {
+        "code" : "446700001"
+      },
+      {
+        "code" : "438804005"
+      },
+      {
+        "code" : "432385009"
+      },
+      {
+        "code" : "128165001"
+      },
+      {
+        "code" : "787152009"
+      },
+      {
+        "code" : "399629006"
+      },
+      {
+        "code" : "309185002"
+      },
+      {
+        "code" : "369613006"
+      },
+      {
+        "code" : "433323009"
+      },
+      {
+        "code" : "399633004"
+      },
+      {
+        "code" : "258422006"
+      },
+      {
+        "code" : "733484007"
+      },
+      {
+        "code" : "258558001"
+      },
+      {
+        "code" : "122699006"
+      },
+      {
+        "code" : "16216011000119104"
+      },
+      {
+        "code" : "309546004"
+      },
+      {
+        "code" : "122563008"
+      },
+      {
+        "code" : "119355008"
+      },
+      {
+        "code" : "110926003"
+      },
+      {
+        "code" : "122648004"
+      },
+      {
+        "code" : "433881000124103"
+      },
+      {
+        "code" : "791000009104"
+      },
+      {
+        "code" : "473401000"
+      },
+      {
+        "code" : "432420000"
+      },
+      {
+        "code" : "258653001"
+      },
+      {
+        "code" : "397199005"
+      },
+      {
+        "code" : "258610001"
+      },
+      {
+        "code" : "309116006"
+      },
+      {
+        "code" : "122588000"
+      },
+      {
+        "code" : "16210851000119107"
+      },
+      {
+        "code" : "399731009"
+      },
+      {
+        "code" : "397333000"
+      },
+      {
+        "code" : "309140003"
+      },
+      {
+        "code" : "258537007"
+      },
+      {
+        "code" : "16223931000119106"
+      },
+      {
+        "code" : "16216251000119106"
+      },
+      {
+        "code" : "734375004"
+      },
+      {
+        "code" : "473407001"
+      },
+      {
+        "code" : "442166002"
+      },
+      {
+        "code" : "399440009"
+      },
+      {
+        "code" : "258516004"
+      },
+      {
+        "code" : "16212051000119104"
+      },
+      {
+        "code" : "399661005"
+      },
+      {
+        "code" : "309070006"
+      },
+      {
+        "code" : "127478007"
+      },
+      {
+        "code" : "122686008"
+      },
+      {
+        "code" : "122640006"
+      },
+      {
+        "code" : "1345231007"
+      },
+      {
+        "code" : "440515008"
+      },
+      {
+        "code" : "397055003"
+      },
+      {
+        "code" : "15650671000119107"
+      },
+      {
+        "code" : "432910000"
+      },
+      {
+        "code" : "167876002"
+      },
+      {
+        "code" : "127463000"
+      },
+      {
+        "code" : "16235301000119101"
+      },
+      {
+        "code" : "473417006"
+      },
+      {
+        "code" : "110921008"
+      },
+      {
+        "code" : "16215851000119100"
+      },
+      {
+        "code" : "16215411000119104"
+      },
+      {
+        "code" : "258541006"
+      },
+      {
+        "code" : "122727006"
+      },
+      {
+        "code" : "33541000087109"
+      },
+      {
+        "code" : "704243004"
+      },
+      {
+        "code" : "446908003"
+      },
+      {
+        "code" : "444965000"
+      },
+      {
+        "code" : "431058008"
+      },
+      {
+        "code" : "734342007"
+      },
+      {
+        "code" : "258568006"
+      },
+      {
+        "code" : "396355000"
+      },
+      {
+        "code" : "122609004"
+      },
+      {
+        "code" : "33661000087109"
+      },
+      {
+        "code" : "399436000"
+      },
+      {
+        "code" : "309209004"
+      },
+      {
+        "code" : "258618008"
+      },
+      {
+        "code" : "110914008"
+      },
+      {
+        "code" : "16224131000119105"
+      },
+      {
+        "code" : "473416002"
+      },
+      {
+        "code" : "432057001"
+      },
+      {
+        "code" : "430309006"
+      },
+      {
+        "code" : "430241003"
+      },
+      {
+        "code" : "430228002"
+      },
+      {
+        "code" : "2451000181107"
+      },
+      {
+        "code" : "446774006"
+      },
+      {
+        "code" : "432607005"
+      },
+      {
+        "code" : "422991009"
+      },
+      {
+        "code" : "433117007"
+      },
+      {
+        "code" : "309202008"
+      },
+      {
+        "code" : "309164002"
+      },
+      {
+        "code" : "309059004"
+      },
+      {
+        "code" : "167871007"
+      },
+      {
+        "code" : "1344978009"
+      },
+      {
+        "code" : "734307008"
+      },
+      {
+        "code" : "122561005"
+      },
+      {
+        "code" : "16215571000119106"
+      },
+      {
+        "code" : "441710009"
+      },
+      {
+        "code" : "423671006"
+      },
+      {
+        "code" : "167874004"
+      },
+      {
+        "code" : "116160003"
+      },
+      {
+        "code" : "734338009"
+      },
+      {
+        "code" : "699286004"
+      },
+      {
+        "code" : "448789008"
+      },
+      {
+        "code" : "415563002"
+      },
+      {
+        "code" : "399512001"
+      },
+      {
+        "code" : "16214091000119101"
+      },
+      {
+        "code" : "309170008"
+      },
+      {
+        "code" : "128171007"
+      },
+      {
+        "code" : "122694001"
+      },
+      {
+        "code" : "734380008"
+      },
+      {
+        "code" : "302794003"
+      },
+      {
+        "code" : "122651006"
+      },
+      {
+        "code" : "33671000087100"
+      },
+      {
+        "code" : "432383002"
+      },
+      {
+        "code" : "128170008"
+      },
+      {
+        "code" : "446272009"
+      },
+      {
+        "code" : "399486006"
+      },
+      {
+        "code" : "385339004"
+      },
+      {
+        "code" : "472940008"
+      },
+      {
+        "code" : "472928008"
+      },
+      {
+        "code" : "258542004"
+      },
+      {
+        "code" : "16213371000119101"
+      },
+      {
+        "code" : "16212931000119109"
+      },
+      {
+        "code" : "16221811000119106"
+      },
+      {
+        "code" : "16216531000119102"
+      },
+      {
+        "code" : "110959000"
+      },
+      {
+        "code" : "110904004"
+      },
+      {
+        "code" : "432981006"
+      },
+      {
+        "code" : "445516007"
+      },
+      {
+        "code" : "433760005"
+      },
+      {
+        "code" : "309180007"
+      },
+      {
+        "code" : "399499009"
+      },
+      {
+        "code" : "122723005"
+      },
+      {
+        "code" : "16223651000119107"
+      },
+      {
+        "code" : "15650531000119105"
+      },
+      {
+        "code" : "427558003"
+      },
+      {
+        "code" : "396353007"
+      },
+      {
+        "code" : "122698003"
+      },
+      {
+        "code" : "16212851000119106"
+      },
+      {
+        "code" : "472936004"
+      },
+      {
+        "code" : "430319000"
+      },
+      {
+        "code" : "258463000"
+      },
+      {
+        "code" : "122726002"
+      },
+      {
+        "code" : "733476008"
+      },
+      {
+        "code" : "397233003"
+      },
+      {
+        "code" : "110927007"
+      },
+      {
+        "code" : "425804000"
+      },
+      {
+        "code" : "396898008"
+      },
+      {
+        "code" : "110944006"
+      },
+      {
+        "code" : "110968003"
+      },
+      {
+        "code" : "1003712003"
+      },
+      {
+        "code" : "258481002"
+      },
+      {
+        "code" : "122636002"
+      },
+      {
+        "code" : "122631007"
+      },
+      {
+        "code" : "119380008"
+      },
+      {
+        "code" : "712562009"
+      },
+      {
+        "code" : "396358003"
+      },
+      {
+        "code" : "33521000087100"
+      },
+      {
+        "code" : "441906003"
+      },
+      {
+        "code" : "397462000"
+      },
+      {
+        "code" : "122725003"
+      },
+      {
+        "code" : "309499008"
+      },
+      {
+        "code" : "309260003"
+      },
+      {
+        "code" : "446675002"
+      },
+      {
+        "code" : "442649003"
+      },
+      {
+        "code" : "309127008"
+      },
+      {
+        "code" : "258613004"
+      },
+      {
+        "code" : "122688009"
+      },
+      {
+        "code" : "258567001"
+      },
+      {
+        "code" : "122655002"
+      },
+      {
+        "code" : "1335919003"
+      },
+      {
+        "code" : "472924005"
+      },
+      {
+        "code" : "309111001"
+      },
+      {
+        "code" : "122650007"
+      },
+      {
+        "code" : "608842007"
+      },
+      {
+        "code" : "122602008"
+      },
+      {
+        "code" : "119382000"
+      },
+      {
+        "code" : "33511000087108"
+      },
+      {
+        "code" : "397129002"
+      },
+      {
+        "code" : "122682005"
+      },
+      {
+        "code" : "110954005"
+      },
+      {
+        "code" : "16212531000119103"
+      },
+      {
+        "code" : "16221371000119107"
+      },
+      {
+        "code" : "309173005"
+      },
+      {
+        "code" : "258414004"
+      },
+      {
+        "code" : "122690005"
+      },
+      {
+        "code" : "16215811000119101"
+      },
+      {
+        "code" : "16212411000119107"
+      },
+      {
+        "code" : "441510007"
+      },
+      {
+        "code" : "430238007"
+      },
+      {
+        "code" : "309153000"
+      },
+      {
+        "code" : "127474009"
+      },
+      {
+        "code" : "369616003"
+      },
+      {
+        "code" : "127472008"
+      },
+      {
+        "code" : "16211651000119103"
+      },
+      {
+        "code" : "110908001"
+      },
+      {
+        "code" : "446861007"
+      },
+      {
+        "code" : "110930000"
+      },
+      {
+        "code" : "1338034005"
+      },
+      {
+        "code" : "122737001"
+      },
+      {
+        "code" : "432135005"
+      },
+      {
+        "code" : "33351000087104"
+      },
+      {
+        "code" : "699283007"
+      },
+      {
+        "code" : "397078009"
+      },
+      {
+        "code" : "385340002"
+      },
+      {
+        "code" : "734419001"
+      },
+      {
+        "code" : "431404007"
+      },
+      {
+        "code" : "110906002"
+      },
+      {
+        "code" : "1003710006"
+      },
+      {
+        "code" : "309077009"
+      },
+      {
+        "code" : "16213411000119100"
+      },
+      {
+        "code" : "430117006"
+      },
+      {
+        "code" : "110922001"
+      },
+      {
+        "code" : "16223571000119102"
+      },
+      {
+        "code" : "16209691000119106"
+      },
+      {
+        "code" : "122701006"
+      },
+      {
+        "code" : "734337004"
+      },
+      {
+        "code" : "397326000"
+      },
+      {
+        "code" : "110947004"
+      },
+      {
+        "code" : "16214011000119105"
+      },
+      {
+        "code" : "397234009"
+      },
+      {
+        "code" : "309145008"
+      },
+      {
+        "code" : "16213731000119100"
+      },
+      {
+        "code" : "309075001"
+      },
+      {
+        "code" : "258663009"
+      },
+      {
+        "code" : "122557004"
+      },
+      {
+        "code" : "787150001"
+      },
+      {
+        "code" : "432146008"
+      },
+      {
+        "code" : "122643008"
+      },
+      {
+        "code" : "128159001"
+      },
+      {
+        "code" : "122716009"
+      },
+      {
+        "code" : "699868006"
+      },
+      {
+        "code" : "396478005"
+      },
+      {
+        "code" : "396999004"
+      },
+      {
+        "code" : "122719002"
+      },
+      {
+        "code" : "399451009"
+      },
+      {
+        "code" : "128166000"
+      },
+      {
+        "code" : "396807009"
+      },
+      {
+        "code" : "122599003"
+      },
+      {
+        "code" : "128163008"
+      },
+      {
+        "code" : "309168004"
+      },
+      {
+        "code" : "119299002"
+      },
+      {
+        "code" : "258489000"
+      },
+      {
+        "code" : "122703009"
+      },
+      {
+        "code" : "430222001"
+      },
+      {
+        "code" : "431905001"
+      },
+      {
+        "code" : "258547005"
+      },
+      {
+        "code" : "122722000"
+      },
+      {
+        "code" : "16211491000119105"
+      },
+      {
+        "code" : "309074002"
+      },
+      {
+        "code" : "258654007"
+      },
+      {
+        "code" : "725372003"
+      },
+      {
+        "code" : "122622007"
+      },
+      {
+        "code" : "309118007"
+      },
+      {
+        "code" : "1201985008"
+      },
+      {
+        "code" : "399532000"
+      },
+      {
+        "code" : "440502004"
+      },
+      {
+        "code" : "608870009"
+      },
+      {
+        "code" : "397483006"
+      },
+      {
+        "code" : "430970004"
+      },
+      {
+        "code" : "430234009"
+      },
+      {
+        "code" : "438661003"
+      },
+      {
+        "code" : "16213171000119103"
+      },
+      {
+        "code" : "122606006"
+      },
+      {
+        "code" : "122581006"
+      },
+      {
+        "code" : "735198008"
+      },
+      {
+        "code" : "16209771000119101"
+      },
+      {
+        "code" : "128161005"
+      },
+      {
+        "code" : "16214491000119107"
+      },
+      {
+        "code" : "1237234002"
+      },
+      {
+        "code" : "122637006"
+      },
+      {
+        "code" : "734443003"
+      },
+      {
+        "code" : "122704003"
+      },
+      {
+        "code" : "119356009"
+      },
+      {
+        "code" : "16223531000119100"
+      },
+      {
+        "code" : "433326001"
+      },
+      {
+        "code" : "447358005"
+      },
+      {
+        "code" : "122674005"
+      },
+      {
+        "code" : "116156001"
+      },
+      {
+        "code" : "258630002"
+      },
+      {
+        "code" : "119304001"
+      },
+      {
+        "code" : "442427000"
+      },
+      {
+        "code" : "309135006"
+      },
+      {
+        "code" : "16215531000119108"
+      },
+      {
+        "code" : "309205005"
+      },
+      {
+        "code" : "396685001"
+      },
+      {
+        "code" : "110964001"
+      },
+      {
+        "code" : "438542005"
+      },
+      {
+        "code" : "433873002"
+      },
+      {
+        "code" : "446674003"
+      },
+      {
+        "code" : "309221000"
+      },
+      {
+        "code" : "432097003"
+      },
+      {
+        "code" : "309108002"
+      },
+      {
+        "code" : "309488006"
+      },
+      {
+        "code" : "122629003"
+      },
+      {
+        "code" : "122714007"
+      },
+      {
+        "code" : "447341000"
+      },
+      {
+        "code" : "733101007"
+      },
+      {
+        "code" : "399658009"
+      },
+      {
+        "code" : "399443006"
+      },
+      {
+        "code" : "432059003"
+      },
+      {
+        "code" : "446906004"
+      },
+      {
+        "code" : "28991000087102"
+      },
+      {
+        "code" : "432142005"
+      },
+      {
+        "code" : "399728008"
+      },
+      {
+        "code" : "122626005"
+      },
+      {
+        "code" : "712560001"
+      },
+      {
+        "code" : "167868004"
+      },
+      {
+        "code" : "446128003"
+      },
+      {
+        "code" : "429832000"
+      },
+      {
+        "code" : "734425002"
+      },
+      {
+        "code" : "447104008"
+      },
+      {
+        "code" : "432419006"
+      },
+      {
+        "code" : "16215091000119102"
+      },
+      {
+        "code" : "110967008"
+      },
+      {
+        "code" : "16213571000119107"
+      },
+      {
+        "code" : "122625009"
+      },
+      {
+        "code" : "309115005"
+      },
+      {
+        "code" : "445745007"
+      },
+      {
+        "code" : "447359002"
+      },
+      {
+        "code" : "264380007"
+      },
+      {
+        "code" : "1345234004"
+      },
+      {
+        "code" : "396483002"
+      },
+      {
+        "code" : "122653009"
+      }]
+    }]
+  }
+}

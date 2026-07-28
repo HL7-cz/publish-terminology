@@ -1,0 +1,16 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "5bc82b81-07ce-410b-8d29-8298f2cfafcb-27",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/5bc82b81-07ce-410b-8d29-8298f2cfafcb-27",
+  "name" : "IntersectionCS_DLP_lecivepripravkyAndCS_DLP_lecivepripravky",
+  "title" : "Intersection of Codesystem of DLP Lecive pripravky And DLP Lecive pripravky",
+  "status" : "active",
+  "date" : "2026-07-27T16:47:06+02:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CZ",
+      "display" : "Czechia"
+    }]
+  }]
+}

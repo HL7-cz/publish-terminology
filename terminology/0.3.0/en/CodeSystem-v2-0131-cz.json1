@@ -1,0 +1,115 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "v2-0131-cz",
+  "language" : "en",
+  "text" : {
+    "status" : "generated"
+  },
+  "url" : "https://hl7.cz/terminology/CodeSystem/v2-0131-cz",
+  "version" : "3.0.0",
+  "name" : "ContactRole2Cz",
+  "title" : "Contact Role (CZ supplement)",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2025-03-03T10:36:45.465879Z",
+  "publisher" : "HL7 Czech Republic",
+  "contact" : [{
+    "name" : "HL7 Czech Republic",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.hl7.cz/"
+    }]
+  }],
+  "description" : "Role kontaktní osoby. FHIR Code system definition for HL7 v2 table 0131 (Contact Role).",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CZ",
+      "display" : "Czechia"
+    }]
+  }],
+  "content" : "supplement",
+  "supplements" : "http://terminology.hl7.org/CodeSystem/v2-0131|3.0.0",
+  "property" : [{
+    "code" : "preferredForLanguage",
+    "type" : "string"
+  },
+  {
+    "code" : "status",
+    "uri" : "http://hl7.org/fhir/concept-properties#status",
+    "description" : "Status",
+    "type" : "code"
+  }],
+  "concept" : [{
+    "code" : "C",
+    "display" : "emergentní kontakt",
+    "definition" : "Emergentní kontakt",
+    "property" : [{
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "E",
+    "display" : "zaměstnavatel",
+    "definition" : "Zaměstnavatel",
+    "property" : [{
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "F",
+    "display" : "federální orgán",
+    "definition" : "Federální orgán",
+    "property" : [{
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "I",
+    "display" : "pojišťovna",
+    "definition" : "Pojišťovna",
+    "property" : [{
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "N",
+    "display" : "příbuzný",
+    "definition" : "Příbuzný",
+    "property" : [{
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "O",
+    "display" : "ostatní",
+    "definition" : "Ostatní",
+    "property" : [{
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "S",
+    "display" : "státní orgán",
+    "definition" : "Státní orgán",
+    "property" : [{
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "U",
+    "display" : "neznámý",
+    "definition" : "Neznámý",
+    "property" : [{
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  }]
+}

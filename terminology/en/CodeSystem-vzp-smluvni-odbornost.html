@@ -1,0 +1,1405 @@
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+
+
+
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>VZP - smluvní odbornost pracovišť - HL7 Czech Terminology Implementation Guide v0.3.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <link href="assets/css/project.css" rel="stylesheet"/>
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <link href="assets/css/cz-core.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+    <script type="text/javascript" src="assets/js/direction-management.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script type="text/javascript" src="assets/js/prism.js"></script>
+	  <script type="text/javascript" src="assets/js/prism-fhirpath.js"></script>
+	  <script type="text/javascript" src="assets/js/prism-cql.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"5.75"}
+    h3,h4,h5,h6{--heading-prefix:"5.75"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <style>
+  #segment-header > .container {
+    display: grid;
+    grid-template-columns: auto minmax(280px, 1fr) auto;
+    align-items: center;
+    column-gap: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+
+  .cz-header-left {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: start;
+  }
+
+  #hl7-nav,
+  #family-nav,
+  #project-nav {
+    float: none;
+    margin: 0;
+    line-height: normal;
+  }
+
+  #hl7-logo,
+  #family-logo,
+  #project-logo {
+    float: none;
+    margin: 0;
+    display: inline-flex;
+    align-items: center;
+  }
+
+  #segment-header #ig-status {
+    grid-column: 2;
+    grid-row: 1;
+    margin: 0;
+    height: auto;
+    text-align: center;
+    line-height: 1.2;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #segment-header #ig-status p {
+    margin: 0;
+  }
+
+  #project-nav img {
+    height: 82px;
+    width: auto;
+  }
+
+  #project-nav {
+    grid-column: 3;
+    grid-row: 1;
+    justify-self: end;
+  }
+
+  @media (max-width: 991px) {
+    #segment-header > .container {
+      grid-template-columns: 1fr;
+      row-gap: 10px;
+      justify-items: center;
+    }
+
+    .cz-header-left,
+    #project-nav {
+      justify-content: center;
+      justify-self: center;
+    }
+
+    #segment-header #ig-status {
+      grid-column: 1;
+      order: 2;
+    }
+
+    #project-nav img {
+      height: 68px;
+    }
+  }
+</style>
+
+<div class="cz-header-left">
+  <div id="hl7-nav">
+    <a id="hl7-logo" no-external="true" href="https://www.hl7cr.eu/">
+      <img height="60" alt="Visit the HL7 Czech website" src="assets/images/hl7cz-logo.png" />
+    </a>
+  </div>
+  <div id="family-nav">
+    <a id="family-logo" no-external="true" href="https://ncez.mzcr.cz/">
+      <img height="60" alt="NCEZ MZCR" src="assets/images/logo.png" />
+    </a>
+  </div>
+</div>
+<div id="project-nav">
+  <a id="project-logo" no-external="true" href="https://ncez.mzcr.cz/cs/node/573">
+    <img alt="MZCR NPO logo" src="assets/images/NPO_logo.png" />
+  </a>
+</div>
+
+
+        <div id="ig-status" data-fhir="generated">
+          <p><span style="font-size:12pt;font-weight:bold">HL7 Czech Terminology Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.3.0 - release
+
+
+
+  <img alt="Czechia flag" src="../assets/images/cze.svg" height="16" title="Czechia"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment" data-fhir="generated">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="artifactsPage.html">Terminologies</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+
+              
+
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment" data-fhir="generated">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VZP - smluvní odbornost pracovišť</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<!-- layouts\layout-codesystem -->
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">This page is part of the Czech FHIR Terminology Package (v0.3.0: Release) based on <a data-no-external="true" href="http://hl7.org/fhir/R4">FHIR (HL7® FHIR® Standard) R4</a>. This is the current published version.  For a full list of available versions, see the <a data-no-external="true" href="https://hl7.cz/terminology/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  
+
+
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li class="active">
+    <a href="#">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="CodeSystem-vzp-smluvni-odbornost.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="CodeSystem-vzp-smluvni-odbornost.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="CodeSystem-vzp-smluvni-odbornost.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+  <a name="root"> </a>
+
+  <h2 id="root">CodeSystem: VZP - smluvní odbornost pracovišť
+
+  </h2>
+
+  <table class="colsi" data-fhir="generated">
+
+    <tr>
+      <td colspan="4"><i>Official URL</i>: <span class="copy-text">https://ncez.mzcr.cz/terminology/CodeSystem/vzp-smluvni-odbornost<button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://ncez.mzcr.cz/terminology/CodeSystem/vzp-smluvni-odbornost"/></span>
+      </td>
+      <td><i>Version</i>:
+      <span class="copy-text">770<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="https://ncez.mzcr.cz/terminology/CodeSystem/vzp-smluvni-odbornost|770"/></span>
+      </td>
+      <td style="text-align: right;border-left-style: hidden" title="Enable this to see changes since the last official release">
+        <span id="toggle-change-display"><label style="margin:0;font-weight:normal" for="showChanges">Highlight text changes?</label>
+  
+        <input style="margin:0" type="checkbox" id="showChanges" onchange="toggleChanges()"/>
+  
+      </span>
+      </td>
+    </tr>
+
+    <tr>
+
+
+
+
+
+
+
+      <td colspan="5">
+        
+          Active
+          
+
+            as of 
+2026-07-27
+
+          
+        
+      </td>
+
+
+
+      <td><i>Computable Name</i>: <span style="font-family: monospace;">VzpSmluvniOdbornost</span></td>
+    </tr>
+
+
+
+
+  </table>
+
+<p>
+<p>Kódový systém VZP - smluvní odbornost pracovišť je využíván pro objednávání a vykazování/vyúčtování zdravotních služeb.</p>
+
+</p>
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <p>This Code system is referenced in the definition of the following value sets:</p>
+
+  
+<ul>
+ <li><a href="ValueSet-vzp-smluvni-odbornost.html">VZPSmluvniOdbornost</a></li>
+</ul>
+
+
+  <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="cs" lang="cs" data-fhir="generated"><p class="res-header-id"></p><a name="vzp-smluvni-odbornost"> </a><a name="hcvzp-smluvni-odbornost"> </a>
+<div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: cs</p></div><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p>
+<table class="grid" data-fhir="generated"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>Type</b></td></tr>
+<tr><td>SODB</td>
+<td>SODB</td>
+<td>string</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://ncez.mzcr.cz/terminology/CodeSystem/vzp-smluvni-odbornost</code> defines the following codes:</p>
+<table class="codes" data-fhir="generated"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>SODB</b></td></tr>
+<tr><td style="white-space:nowrap">001<a name="vzp-smluvni-odbornost-001"> </a></td>
+<td>Pracoviště praktického lékaře pro dospělé</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">002<a name="vzp-smluvni-odbornost-002"> </a></td>
+<td>Pracoviště praktického lékaře pro děti a dorost</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">003<a name="vzp-smluvni-odbornost-003"> </a></td>
+<td>Pracoviště LSPP</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">004<a name="vzp-smluvni-odbornost-004"> </a></td>
+<td>Pracoviště zvláštní ambulantní péče v ZZ ústavní péče</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">014<a name="vzp-smluvni-odbornost-014"> </a></td>
+<td>Pracoviště praktického zubního lékaře</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">015<a name="vzp-smluvni-odbornost-015"> </a></td>
+<td>Pracoviště čelistní ortopedie</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">019<a name="vzp-smluvni-odbornost-019"> </a></td>
+<td>Pracoviště stomatologické LSPP</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">091<a name="vzp-smluvni-odbornost-091"> </a></td>
+<td>Pracoviště péče o dárce krvetvorných buněk</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">101<a name="vzp-smluvni-odbornost-101"> </a></td>
+<td>Pracoviště interního lékařství</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">102<a name="vzp-smluvni-odbornost-102"> </a></td>
+<td>Pracoviště angiologie</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">103<a name="vzp-smluvni-odbornost-103"> </a></td>
+<td>Pracoviště diabetologie</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">104<a name="vzp-smluvni-odbornost-104"> </a></td>
+<td>Pracoviště endokrinologie (mimo laboratorní činnosti)</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">105<a name="vzp-smluvni-odbornost-105"> </a></td>
+<td>Pracoviště gastroenterologie a hepatologie</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">106<a name="vzp-smluvni-odbornost-106"> </a></td>
+<td>Pracoviště geriatrie</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">107<a name="vzp-smluvni-odbornost-107"> </a></td>
+<td>Pracoviště kardiologie</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">108<a name="vzp-smluvni-odbornost-108"> </a></td>
+<td>Pracoviště nefrologie</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">109<a name="vzp-smluvni-odbornost-109"> </a></td>
+<td>Pracoviště revmatologie</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">128<a name="vzp-smluvni-odbornost-128"> </a></td>
+<td>Pracoviště hemodialýzy</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">1F1<a name="vzp-smluvni-odbornost-1F1"> </a></td>
+<td>Pracoviště standardní ústavní lůžkové péče interní - F typu</td>
+<td>1_1</td></tr>
+<tr><td style="white-space:nowrap">1F3<a name="vzp-smluvni-odbornost-1F3"> </a></td>
+<td>Pracoviště standard. úst. lůžk. péče diabetologické - F typu</td>
+<td>1_1</td></tr>
+<tr><td style="white-space:nowrap">1F4<a name="vzp-smluvni-odbornost-1F4"> </a></td>
+<td>Pracoviště stand. úst. lůžk. péče endokrinologické - F typu</td>
+<td>1_1</td></tr>
+<tr><td style="white-space:nowrap">1F5<a name="vzp-smluvni-odbornost-1F5"> </a></td>
+<td>Prac. stand. úst. lůžk. péče gastroent. a hepatol. - F typu</td>
+<td>1_1</td></tr>
+<tr><td style="white-space:nowrap">1F6<a name="vzp-smluvni-odbornost-1F6"> </a></td>
+<td>Pracoviště standardní ústav. lůžk. péče geriatrické - F typu</td>
+<td>1_6</td></tr>
+<tr><td style="white-space:nowrap">1F7<a name="vzp-smluvni-odbornost-1F7"> </a></td>
+<td>Pracoviště standard. úst. lůžk. péče kardiologické  - F typu</td>
+<td>1_7</td></tr>
+<tr><td style="white-space:nowrap">1F8<a name="vzp-smluvni-odbornost-1F8"> </a></td>
+<td>Pracoviště standard. ústav. lůžk. péče nefrologické - F typu</td>
+<td>1_1</td></tr>
+<tr><td style="white-space:nowrap">1F9<a name="vzp-smluvni-odbornost-1F9"> </a></td>
+<td>Pracoviště standard. úst. lůžk. péče revmatologické - F typu</td>
+<td>1_9</td></tr>
+<tr><td style="white-space:nowrap">1H1<a name="vzp-smluvni-odbornost-1H1"> </a></td>
+<td>Pracoviště standardní ústavní lůžk. péče interní - H typu</td>
+<td>1_1</td></tr>
+<tr><td style="white-space:nowrap">1H3<a name="vzp-smluvni-odbornost-1H3"> </a></td>
+<td>Pracoviště standard. úst. lůžk. péče diabetologické - H typu</td>
+<td>1_1</td></tr>
+<tr><td style="white-space:nowrap">1H4<a name="vzp-smluvni-odbornost-1H4"> </a></td>
+<td>Pracoviště stand. úst. lůžk. péče endokrinologické - H typu</td>
+<td>1_1</td></tr>
+<tr><td style="white-space:nowrap">1H5<a name="vzp-smluvni-odbornost-1H5"> </a></td>
+<td>Prac. stand. úst. lůžk. péče gastroent. a hepatol. - H typu</td>
+<td>1_1</td></tr>
+<tr><td style="white-space:nowrap">1H6<a name="vzp-smluvni-odbornost-1H6"> </a></td>
+<td>Pracoviště standardní ústav. lůžk. péče geriatrické - H typu</td>
+<td>1_6</td></tr>
+<tr><td style="white-space:nowrap">1H7<a name="vzp-smluvni-odbornost-1H7"> </a></td>
+<td>Pracoviště standard. úst. lůžk. péče kardiologické - H typu</td>
+<td>1_7</td></tr>
+<tr><td style="white-space:nowrap">1H8<a name="vzp-smluvni-odbornost-1H8"> </a></td>
+<td>Pracoviště standardní ústav. lůžk.péče nefrologické - H typu</td>
+<td>1_1</td></tr>
+<tr><td style="white-space:nowrap">1H9<a name="vzp-smluvni-odbornost-1H9"> </a></td>
+<td>Pracoviště standard. úst. lůžk. péče revmatologické - H typu</td>
+<td>1_9</td></tr>
+<tr><td style="white-space:nowrap">1I1<a name="vzp-smluvni-odbornost-1I1"> </a></td>
+<td>Prac. resusc. a intenziv. ústavní lůž. péče interní - I typu</td>
+<td>1_1</td></tr>
+<tr><td style="white-space:nowrap">1I3<a name="vzp-smluvni-odbornost-1I3"> </a></td>
+<td>Pracoviště intenzivní ústavní lůž.péče diabetolog.- I typu</td>
+<td>1_1</td></tr>
+<tr><td style="white-space:nowrap">1I5<a name="vzp-smluvni-odbornost-1I5"> </a></td>
+<td>Pracoviště intenzivní ústavní lůž. péče hepatolog. - I typu</td>
+<td>1_1</td></tr>
+<tr><td style="white-space:nowrap">1I6<a name="vzp-smluvni-odbornost-1I6"> </a></td>
+<td>Pracov.resusc. a intenziv.úst. lůž. péče geriatric. - I typu</td>
+<td>1_6</td></tr>
+<tr><td style="white-space:nowrap">1I7<a name="vzp-smluvni-odbornost-1I7"> </a></td>
+<td>Pracov.resusc.a intenziv.úst. lůž. péče kardiologic.- I typu</td>
+<td>1_7</td></tr>
+<tr><td style="white-space:nowrap">1I8<a name="vzp-smluvni-odbornost-1I8"> </a></td>
+<td>Pracoviště intenziv. úst. lůž. péče nefrologic. - I typu</td>
+<td>1_1</td></tr>
+<tr><td style="white-space:nowrap">1R7<a name="vzp-smluvni-odbornost-1R7"> </a></td>
+<td>Pracoviště - operační sály kardiologie</td>
+<td>1_7</td></tr>
+<tr><td style="white-space:nowrap">1T1<a name="vzp-smluvni-odbornost-1T1"> </a></td>
+<td>Pracov. resusc. a intenziv. úst. lůž. péče interní - T typu</td>
+<td>1_1</td></tr>
+<tr><td style="white-space:nowrap">1T3<a name="vzp-smluvni-odbornost-1T3"> </a></td>
+<td>Pracoviště intenziv. ústav. lůž. péče  diabetolog. - T typu</td>
+<td>1_1</td></tr>
+<tr><td style="white-space:nowrap">1T5<a name="vzp-smluvni-odbornost-1T5"> </a></td>
+<td>Pracoviště intenziv. ústavní lůž. péče  hepatolog. - T typu</td>
+<td>1_1</td></tr>
+<tr><td style="white-space:nowrap">1T6<a name="vzp-smluvni-odbornost-1T6"> </a></td>
+<td>Pracov. resusc.a intenziv.úst.lůž. péče geriatric. - T typu</td>
+<td>1_6</td></tr>
+<tr><td style="white-space:nowrap">1T7<a name="vzp-smluvni-odbornost-1T7"> </a></td>
+<td>Pracov. resusc.a intenziv.ústav.lůž. péče kardiolog.- T typu</td>
+<td>1_7</td></tr>
+<tr><td style="white-space:nowrap">1T8<a name="vzp-smluvni-odbornost-1T8"> </a></td>
+<td>Pracoviště intenziv. úst. lůž. péče nefrologic. - T typu</td>
+<td>1_1</td></tr>
+<tr><td style="white-space:nowrap">1U1<a name="vzp-smluvni-odbornost-1U1"> </a></td>
+<td>Pracoviště dlouhodobé (chronické) interní lůž.péče - U typu</td>
+<td>1_1</td></tr>
+<tr><td style="white-space:nowrap">1U6<a name="vzp-smluvni-odbornost-1U6"> </a></td>
+<td>Pracov. dlouhodobé (chronické) geriatrické lůž.péče - U typu</td>
+<td>1_6</td></tr>
+<tr><td style="white-space:nowrap">1U9<a name="vzp-smluvni-odbornost-1U9"> </a></td>
+<td>Pracov.dlouhodobé (chronické) revmatolog. lůž. péče - U typu</td>
+<td>1_9</td></tr>
+<tr><td style="white-space:nowrap">201<a name="vzp-smluvni-odbornost-201"> </a></td>
+<td>Pracoviště fyziatrie a rehabilitačního lékařství</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">202<a name="vzp-smluvni-odbornost-202"> </a></td>
+<td>Pracoviště klinické hematologie</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">203<a name="vzp-smluvni-odbornost-203"> </a></td>
+<td>Pracoviště přenosných nemocí</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">204<a name="vzp-smluvni-odbornost-204"> </a></td>
+<td>Pracoviště tělovýchovného lékařství</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">205<a name="vzp-smluvni-odbornost-205"> </a></td>
+<td>Pracoviště tuberkulózy a respiračních nemocí</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">206<a name="vzp-smluvni-odbornost-206"> </a></td>
+<td>Pracoviště klinické farmakologie (mimo laboratorní činnosti)</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">207<a name="vzp-smluvni-odbornost-207"> </a></td>
+<td>Pracoviště alergologie a klinické imunologie</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">208<a name="vzp-smluvni-odbornost-208"> </a></td>
+<td>Pracoviště lékařské genetiky</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">209<a name="vzp-smluvni-odbornost-209"> </a></td>
+<td>Pracoviště neurologie</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">222<a name="vzp-smluvni-odbornost-222"> </a></td>
+<td>Pracoviště transfúzní služby</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">2F1<a name="vzp-smluvni-odbornost-2F1"> </a></td>
+<td>Pracov. standardní ústav. lůž. péče rehabilitační - F typu</td>
+<td>2_1</td></tr>
+<tr><td style="white-space:nowrap">2F2<a name="vzp-smluvni-odbornost-2F2"> </a></td>
+<td>Pracov. standard.úst.lůž. péče klinické hematologie - F typu</td>
+<td>2_2</td></tr>
+<tr><td style="white-space:nowrap">2F3<a name="vzp-smluvni-odbornost-2F3"> </a></td>
+<td>Pracov. standard. úst. lůž. péče přenosných nemocí - F typu</td>
+<td>2_3</td></tr>
+<tr><td style="white-space:nowrap">2F5<a name="vzp-smluvni-odbornost-2F5"> </a></td>
+<td>Pracov. standard. ústav. lůž. péče TRN a pneumolog. - F typu</td>
+<td>2_5</td></tr>
+<tr><td style="white-space:nowrap">2F6<a name="vzp-smluvni-odbornost-2F6"> </a></td>
+<td>Pracov. standard.úst.lůž.péče klinické farmakologie - F typu</td>
+<td>2_6</td></tr>
+<tr><td style="white-space:nowrap">2F7<a name="vzp-smluvni-odbornost-2F7"> </a></td>
+<td>Prac.stand.úst.lůžk.péče klin.imunolog.a alergolog. - F typu</td>
+<td>2_7</td></tr>
+<tr><td style="white-space:nowrap">2F9<a name="vzp-smluvni-odbornost-2F9"> </a></td>
+<td>Pracov. standardní ústavní lůžk. péče neurologické - F typu</td>
+<td>2_9</td></tr>
+<tr><td style="white-space:nowrap">2H1<a name="vzp-smluvni-odbornost-2H1"> </a></td>
+<td>Pracov. standardní ústavní lůžk. péče rehabilitační - H typu</td>
+<td>2_1</td></tr>
+<tr><td style="white-space:nowrap">2H2<a name="vzp-smluvni-odbornost-2H2"> </a></td>
+<td>Prac.standard.ústav.lůžk. péče klinické hematologie - H typu</td>
+<td>2_2</td></tr>
+<tr><td style="white-space:nowrap">2H3<a name="vzp-smluvni-odbornost-2H3"> </a></td>
+<td>Pracov. standard. úst. lůž. péče přenosných nemocí - H typu</td>
+<td>2_3</td></tr>
+<tr><td style="white-space:nowrap">2H5<a name="vzp-smluvni-odbornost-2H5"> </a></td>
+<td>Pracov. standard.ústav. lůžk. péče TRN a pneumolog. - H typu</td>
+<td>2_5</td></tr>
+<tr><td style="white-space:nowrap">2H7<a name="vzp-smluvni-odbornost-2H7"> </a></td>
+<td>Prac. stand.úst.lůž.péče klin.imunolog.a alergolog. - H typu</td>
+<td>2_7</td></tr>
+<tr><td style="white-space:nowrap">2H9<a name="vzp-smluvni-odbornost-2H9"> </a></td>
+<td>Pracov.standardní ústavní lůžkové péče neurologické - H typu</td>
+<td>2_9</td></tr>
+<tr><td style="white-space:nowrap">2I2<a name="vzp-smluvni-odbornost-2I2"> </a></td>
+<td>Prac. resusc. a intenz. úst.lůž.péče klin.hematolog.- I typu</td>
+<td>2_2</td></tr>
+<tr><td style="white-space:nowrap">2I3<a name="vzp-smluvni-odbornost-2I3"> </a></td>
+<td>Prac. resusc. a intenz. úst. lůž.péče přenos.nemocí - I typu</td>
+<td>2_3</td></tr>
+<tr><td style="white-space:nowrap">2I5<a name="vzp-smluvni-odbornost-2I5"> </a></td>
+<td>Prac.resusc. a intenz.úst.lůž.péče TRN a pneumolog. - I typu</td>
+<td>2_5</td></tr>
+<tr><td style="white-space:nowrap">2I9<a name="vzp-smluvni-odbornost-2I9"> </a></td>
+<td>Pracov. resusc. a intenz.úst.lůž. péče neurologické - I typu</td>
+<td>2_9</td></tr>
+<tr><td style="white-space:nowrap">2S1<a name="vzp-smluvni-odbornost-2S1"> </a></td>
+<td>Prac. poskyt.péči na spinálních rehabil.jednotkách</td>
+<td>2_1</td></tr>
+<tr><td style="white-space:nowrap">2T2<a name="vzp-smluvni-odbornost-2T2"> </a></td>
+<td>Prac. resusc. a intenz. úst.lůž.péče klin.hematolog.- T typu</td>
+<td>2_2</td></tr>
+<tr><td style="white-space:nowrap">2T3<a name="vzp-smluvni-odbornost-2T3"> </a></td>
+<td>Prac. resusc. a intenz. úst. lůž.péče přenos.nemocí - T typu</td>
+<td>2_3</td></tr>
+<tr><td style="white-space:nowrap">2T5<a name="vzp-smluvni-odbornost-2T5"> </a></td>
+<td>Prac.resusc. a intenz.úst.lůž.péče TRN a pneumolog. - T typu</td>
+<td>2_5</td></tr>
+<tr><td style="white-space:nowrap">2T9<a name="vzp-smluvni-odbornost-2T9"> </a></td>
+<td>Prac. resusc. a intenz. úst. lůž. péče neurologické - T typu</td>
+<td>2_9</td></tr>
+<tr><td style="white-space:nowrap">2U1<a name="vzp-smluvni-odbornost-2U1"> </a></td>
+<td>Pracov. dlouhodobé ústav. lůž. rehabilitační péče - U typu</td>
+<td>2_1</td></tr>
+<tr><td style="white-space:nowrap">2U5<a name="vzp-smluvni-odbornost-2U5"> </a></td>
+<td>Pracov. dlouhodobé ústav.lůž.TRN a pneumolog.péče - U typu</td>
+<td>2_5</td></tr>
+<tr><td style="white-space:nowrap">2U9<a name="vzp-smluvni-odbornost-2U9"> </a></td>
+<td>Pracov. dlouhodobé (chronické) úst.neurolog. péče - U typu</td>
+<td>2_9</td></tr>
+<tr><td style="white-space:nowrap">301<a name="vzp-smluvni-odbornost-301"> </a></td>
+<td>Pracoviště pediatrie</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">302<a name="vzp-smluvni-odbornost-302"> </a></td>
+<td>Pracoviště dětské kardiologie</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">303<a name="vzp-smluvni-odbornost-303"> </a></td>
+<td>Pracoviště dorostového lékařství</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">304<a name="vzp-smluvni-odbornost-304"> </a></td>
+<td>Pracoviště neonatologie</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">305<a name="vzp-smluvni-odbornost-305"> </a></td>
+<td>Pracoviště psychiatrie</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">306<a name="vzp-smluvni-odbornost-306"> </a></td>
+<td>Pracoviště dětské psychiatrie</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">307<a name="vzp-smluvni-odbornost-307"> </a></td>
+<td>Pracoviště gerontopsychiatrie</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">308<a name="vzp-smluvni-odbornost-308"> </a></td>
+<td>Pracoviště léčby alkoholismu a jiných toxikomanií</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">309<a name="vzp-smluvni-odbornost-309"> </a></td>
+<td>Pracoviště sexuologie</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">3F1<a name="vzp-smluvni-odbornost-3F1"> </a></td>
+<td>Pracov. standardní ústavní lůžkové péče pediatrické - F typu</td>
+<td>3_1</td></tr>
+<tr><td style="white-space:nowrap">3F2<a name="vzp-smluvni-odbornost-3F2"> </a></td>
+<td>Pracov. standard. úst. lůž. péče dětské kardiologie - F typu</td>
+<td>1_7</td></tr>
+<tr><td style="white-space:nowrap">3F3<a name="vzp-smluvni-odbornost-3F3"> </a></td>
+<td>Prac. standard.úst.lůžk. péče dorostového lékařství - F typu</td>
+<td>1_1</td></tr>
+<tr><td style="white-space:nowrap">3F4<a name="vzp-smluvni-odbornost-3F4"> </a></td>
+<td>Pracov. standard. úst. lůžk. péče o novorozence - F typu</td>
+<td>3_4</td></tr>
+<tr><td style="white-space:nowrap">3F5<a name="vzp-smluvni-odbornost-3F5"> </a></td>
+<td>Pracov. standard. úst. lůž. péče psychiatrické - F typu</td>
+<td>3_5</td></tr>
+<tr><td style="white-space:nowrap">3F6<a name="vzp-smluvni-odbornost-3F6"> </a></td>
+<td>Prac. standard. úst. lůž. péče dětské psychiatrie - F typu</td>
+<td>3_5</td></tr>
+<tr><td style="white-space:nowrap">3F7<a name="vzp-smluvni-odbornost-3F7"> </a></td>
+<td>Prac. standard. úst. lůž. péče gerontopsychiatric. - F typu</td>
+<td>3_5</td></tr>
+<tr><td style="white-space:nowrap">3H1<a name="vzp-smluvni-odbornost-3H1"> </a></td>
+<td>Pracov. standard. úst. lůž. péče pediatrické - H typu</td>
+<td>3_1</td></tr>
+<tr><td style="white-space:nowrap">3H2<a name="vzp-smluvni-odbornost-3H2"> </a></td>
+<td>Pracov. standard. úst. lůž. péče dětské kardiologie - H typu</td>
+<td>1_7</td></tr>
+<tr><td style="white-space:nowrap">3H3<a name="vzp-smluvni-odbornost-3H3"> </a></td>
+<td>Prac.standard. úst. lůž. péče dorostového lékařství - H typu</td>
+<td>1_1</td></tr>
+<tr><td style="white-space:nowrap">3H4<a name="vzp-smluvni-odbornost-3H4"> </a></td>
+<td>Pracov. standard. úst. lůž. péče o novorozence - H typu</td>
+<td>3_4</td></tr>
+<tr><td style="white-space:nowrap">3H5<a name="vzp-smluvni-odbornost-3H5"> </a></td>
+<td>Pracov. standard. ústav. lůžk. péče psychiatrické - H typu</td>
+<td>3_5</td></tr>
+<tr><td style="white-space:nowrap">3H6<a name="vzp-smluvni-odbornost-3H6"> </a></td>
+<td>Pracov. standard. úst. lůž. péče dětské psychiatrie - H typu</td>
+<td>3_5</td></tr>
+<tr><td style="white-space:nowrap">3H7<a name="vzp-smluvni-odbornost-3H7"> </a></td>
+<td>Pracov.standard. úst. lůž. péče gerontopsychiatric. - H typu</td>
+<td>3_5</td></tr>
+<tr><td style="white-space:nowrap">3I1<a name="vzp-smluvni-odbornost-3I1"> </a></td>
+<td>Pracov.resusc. a intenz. úst. lůž. péče pediatrické - I typu</td>
+<td>3_1</td></tr>
+<tr><td style="white-space:nowrap">3I2<a name="vzp-smluvni-odbornost-3I2"> </a></td>
+<td>Prac. resusc.a intenz.úst.lůž.péče dětské kardiolog - I typu</td>
+<td>1_7</td></tr>
+<tr><td style="white-space:nowrap">3I4<a name="vzp-smluvni-odbornost-3I4"> </a></td>
+<td>Prac.resuscit.a intenziv. ústav.lůž. péče neonatol. - I typu</td>
+<td>3_4</td></tr>
+<tr><td style="white-space:nowrap">3I5<a name="vzp-smluvni-odbornost-3I5"> </a></td>
+<td>Prac.resusc. a intenz. úst. lůž. péče psychiatrické - I typu</td>
+<td>3_5</td></tr>
+<tr><td style="white-space:nowrap">3I6<a name="vzp-smluvni-odbornost-3I6"> </a></td>
+<td>Prac. resusc. a intenz. úst. lůž. péče dět.psychiatr. I typu</td>
+<td>3_5</td></tr>
+<tr><td style="white-space:nowrap">3T1<a name="vzp-smluvni-odbornost-3T1"> </a></td>
+<td>Prac. resusc. a intenz. úst. lůž. péče pediatrické - T typu</td>
+<td>3_1</td></tr>
+<tr><td style="white-space:nowrap">3T2<a name="vzp-smluvni-odbornost-3T2"> </a></td>
+<td>Prac.resusc. a intenz.úst.lůž.péče dětské kardiolog - T typu</td>
+<td>1_7</td></tr>
+<tr><td style="white-space:nowrap">3T4<a name="vzp-smluvni-odbornost-3T4"> </a></td>
+<td>Prac. resusc. a intenz. úst. lůž. péče neonatol. - T typu</td>
+<td>3_4</td></tr>
+<tr><td style="white-space:nowrap">3T5<a name="vzp-smluvni-odbornost-3T5"> </a></td>
+<td>Prac.resusc. a intenz. úst. lůž. péče psychiatrické - T typu</td>
+<td>3_5</td></tr>
+<tr><td style="white-space:nowrap">3T6<a name="vzp-smluvni-odbornost-3T6"> </a></td>
+<td>Prac. resusc. a intenz. úst.lůž.péče dět.psychiatr. - T typu</td>
+<td>3_5</td></tr>
+<tr><td style="white-space:nowrap">3U1<a name="vzp-smluvni-odbornost-3U1"> </a></td>
+<td>Prac.dlouhodobé (chronic.) úst.lůž.péče pediatrické - U typu</td>
+<td>3_1</td></tr>
+<tr><td style="white-space:nowrap">3U5<a name="vzp-smluvni-odbornost-3U5"> </a></td>
+<td>Prac. dlouhodobé (chronic.) úst.lůž.péče psychiatr. - U typu</td>
+<td>3_5</td></tr>
+<tr><td style="white-space:nowrap">3U6<a name="vzp-smluvni-odbornost-3U6"> </a></td>
+<td>Prac. dlouhod.(chronic.) úst.lůž.péče dět.psychiatr.- U typu</td>
+<td>3_5</td></tr>
+<tr><td style="white-space:nowrap">3U7<a name="vzp-smluvni-odbornost-3U7"> </a></td>
+<td>Prac.dlouhod.(chronic.)úst.lůž.péče gerontopsychiatr.-U typu</td>
+<td>3_5</td></tr>
+<tr><td style="white-space:nowrap">3U8<a name="vzp-smluvni-odbornost-3U8"> </a></td>
+<td>Prac. dlouhod.(chronic.) léčba alkohol.a j. toxikom. -U typu</td>
+<td>3_5</td></tr>
+<tr><td style="white-space:nowrap">401<a name="vzp-smluvni-odbornost-401"> </a></td>
+<td>Pracoviště pracovního lékařství</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">402<a name="vzp-smluvni-odbornost-402"> </a></td>
+<td>Pracoviště klinické onkologie (bez radiační onkologie)</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">403<a name="vzp-smluvni-odbornost-403"> </a></td>
+<td>Pracoviště radioterapie a radiační onkologie</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">404<a name="vzp-smluvni-odbornost-404"> </a></td>
+<td>Pracoviště dermatovenerologie</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">405<a name="vzp-smluvni-odbornost-405"> </a></td>
+<td>Pracoviště dětské dermatologie</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">406<a name="vzp-smluvni-odbornost-406"> </a></td>
+<td>Pracoviště korektivní dermatologie</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">407<a name="vzp-smluvni-odbornost-407"> </a></td>
+<td>Pracoviště nukleární medicíny</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">409<a name="vzp-smluvni-odbornost-409"> </a></td>
+<td>Pracoviště dětské neurologie</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">4F1<a name="vzp-smluvni-odbornost-4F1"> </a></td>
+<td>Pracov. standard. úst. lůž. péče nemocí z povolání - F typu</td>
+<td>4_1</td></tr>
+<tr><td style="white-space:nowrap">4F2<a name="vzp-smluvni-odbornost-4F2"> </a></td>
+<td>Pracov. standard. úst. lůž. péče onkologické - F typu</td>
+<td>4_2</td></tr>
+<tr><td style="white-space:nowrap">4F3<a name="vzp-smluvni-odbornost-4F3"> </a></td>
+<td>Pracov. standard. úst. lůž. péče radioterapeutické - F typu</td>
+<td>4_3</td></tr>
+<tr><td style="white-space:nowrap">4F4<a name="vzp-smluvni-odbornost-4F4"> </a></td>
+<td>Pracov. standard. úst.lůž.péče dermatovenerologické - F typu</td>
+<td>4_4</td></tr>
+<tr><td style="white-space:nowrap">4F5<a name="vzp-smluvni-odbornost-4F5"> </a></td>
+<td>Pracov. standard. úst.lůž. péče dětské dermatologie - F typu</td>
+<td>4_4</td></tr>
+<tr><td style="white-space:nowrap">4F7<a name="vzp-smluvni-odbornost-4F7"> </a></td>
+<td>Pracov. standard. úst. lůž. péče nukleární medicíny - F typu</td>
+<td>4_7</td></tr>
+<tr><td style="white-space:nowrap">4F9<a name="vzp-smluvni-odbornost-4F9"> </a></td>
+<td>Pracov. standard. úst. lůž. péče dětské neurologie - F typu</td>
+<td>2_9</td></tr>
+<tr><td style="white-space:nowrap">4H1<a name="vzp-smluvni-odbornost-4H1"> </a></td>
+<td>Pracov. standard. úst. lůž. péče nemocí z povolání - H typu</td>
+<td>4_1</td></tr>
+<tr><td style="white-space:nowrap">4H2<a name="vzp-smluvni-odbornost-4H2"> </a></td>
+<td>Pracov. standardní ústavní lůžkové péče onkologické - H typu</td>
+<td>4_2</td></tr>
+<tr><td style="white-space:nowrap">4H3<a name="vzp-smluvni-odbornost-4H3"> </a></td>
+<td>Pracov. standard. úst. lůž. péče radioterapeutické - H typu</td>
+<td>4_3</td></tr>
+<tr><td style="white-space:nowrap">4H4<a name="vzp-smluvni-odbornost-4H4"> </a></td>
+<td>Prac. standard. úst. lůž. péče dermatovenerologické - H typu</td>
+<td>4_4</td></tr>
+<tr><td style="white-space:nowrap">4H5<a name="vzp-smluvni-odbornost-4H5"> </a></td>
+<td>Pracov.standard. úst. lůž. péče dětské dermatologie - H typu</td>
+<td>4_4</td></tr>
+<tr><td style="white-space:nowrap">4H7<a name="vzp-smluvni-odbornost-4H7"> </a></td>
+<td>Pracov. standard. úst. lůž. péče nukleární medicíny - H typu</td>
+<td>4_7</td></tr>
+<tr><td style="white-space:nowrap">4H9<a name="vzp-smluvni-odbornost-4H9"> </a></td>
+<td>Pracov. standard. úst. lůž. péče dětské neurologie - H typu</td>
+<td>2_9</td></tr>
+<tr><td style="white-space:nowrap">4I2<a name="vzp-smluvni-odbornost-4I2"> </a></td>
+<td>Pracov. resusc. a intenz. úst. lůž.péče onkologické - I typu</td>
+<td>4_2</td></tr>
+<tr><td style="white-space:nowrap">4I3<a name="vzp-smluvni-odbornost-4I3"> </a></td>
+<td>Pracov.resusc. a intenz. úst. lůž. péče radioterap. - I typu</td>
+<td>4_3</td></tr>
+<tr><td style="white-space:nowrap">4I9<a name="vzp-smluvni-odbornost-4I9"> </a></td>
+<td>Pracov.resusc. a intenz.úst.lůž.péče dětské neurol. - I typu</td>
+<td>2_9</td></tr>
+<tr><td style="white-space:nowrap">4T2<a name="vzp-smluvni-odbornost-4T2"> </a></td>
+<td>Pracov. resusc. a intenz. úst. lůž.péče onkologické - T typu</td>
+<td>4_2</td></tr>
+<tr><td style="white-space:nowrap">4T3<a name="vzp-smluvni-odbornost-4T3"> </a></td>
+<td>Pracov.resusc. a intenz. úst. lůž. péče radioterap. - T typu</td>
+<td>4_3</td></tr>
+<tr><td style="white-space:nowrap">4T9<a name="vzp-smluvni-odbornost-4T9"> </a></td>
+<td>Prac. resusc. a intenz. úst.lůž.péče dětské neurol. - T typu</td>
+<td>2_9</td></tr>
+<tr><td style="white-space:nowrap">4U5<a name="vzp-smluvni-odbornost-4U5"> </a></td>
+<td>Prac.dlouhod.(chronic.) úst.lůž.péče dětské dermatol.-U typu</td>
+<td>4_4</td></tr>
+<tr><td style="white-space:nowrap">4U9<a name="vzp-smluvni-odbornost-4U9"> </a></td>
+<td>Prac.dlouhod.(chronic.) úst.lůž.péče dětské neurolog.-U typu</td>
+<td>2_9</td></tr>
+<tr><td style="white-space:nowrap">501<a name="vzp-smluvni-odbornost-501"> </a></td>
+<td>Pracoviště chirurgie</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">502<a name="vzp-smluvni-odbornost-502"> </a></td>
+<td>Pracoviště dětské chirurgie</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">503<a name="vzp-smluvni-odbornost-503"> </a></td>
+<td>Pracoviště úrazové chirurgie</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">504<a name="vzp-smluvni-odbornost-504"> </a></td>
+<td>Pracoviště cévní chirurgie</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">505<a name="vzp-smluvni-odbornost-505"> </a></td>
+<td>Pracoviště kardiochirurgie</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">506<a name="vzp-smluvni-odbornost-506"> </a></td>
+<td>Pracoviště neurochirurgie</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">507<a name="vzp-smluvni-odbornost-507"> </a></td>
+<td>Pracoviště hrudní chirurgie</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">5F1<a name="vzp-smluvni-odbornost-5F1"> </a></td>
+<td>Pracov. standard. úst. lůž. péče chirurgické - F typu</td>
+<td>5_1</td></tr>
+<tr><td style="white-space:nowrap">5F2<a name="vzp-smluvni-odbornost-5F2"> </a></td>
+<td>Pracov. standard. úst. lůž. péče dětské chirurgie - F typu</td>
+<td>5_1</td></tr>
+<tr><td style="white-space:nowrap">5F3<a name="vzp-smluvni-odbornost-5F3"> </a></td>
+<td>Pracov. standard. úst. lůž. péče úrazové chirurgie - F typu</td>
+<td>5_3</td></tr>
+<tr><td style="white-space:nowrap">5F4<a name="vzp-smluvni-odbornost-5F4"> </a></td>
+<td>Pracov. standard. úst. lůž. péče cévní chirurgie - F typu</td>
+<td>5_1</td></tr>
+<tr><td style="white-space:nowrap">5F5<a name="vzp-smluvni-odbornost-5F5"> </a></td>
+<td>Pracov. standard. úst. lůž. péče kardiochirurgické - F typu</td>
+<td>5_5</td></tr>
+<tr><td style="white-space:nowrap">5F6<a name="vzp-smluvni-odbornost-5F6"> </a></td>
+<td>Pracov. standard. úst. lůž. péče neurochirurgické - F typu</td>
+<td>5_6</td></tr>
+<tr><td style="white-space:nowrap">5F7<a name="vzp-smluvni-odbornost-5F7"> </a></td>
+<td>Pracov. standard. úst. lůž. péče hrudní chirurgie - F typu</td>
+<td>5_1</td></tr>
+<tr><td style="white-space:nowrap">5H1<a name="vzp-smluvni-odbornost-5H1"> </a></td>
+<td>Pracov. standard. úst. lůž. péče chirurgické - H typu</td>
+<td>5_1</td></tr>
+<tr><td style="white-space:nowrap">5H2<a name="vzp-smluvni-odbornost-5H2"> </a></td>
+<td>Pracov. standard. úst. lůž. péče dětské chirurgie - H typu</td>
+<td>5_1</td></tr>
+<tr><td style="white-space:nowrap">5H3<a name="vzp-smluvni-odbornost-5H3"> </a></td>
+<td>Pracov. standard. úst. lůž. péče úrazové chirurgie - H typu</td>
+<td>5_3</td></tr>
+<tr><td style="white-space:nowrap">5H4<a name="vzp-smluvni-odbornost-5H4"> </a></td>
+<td>Pracov. standard. úst. lůž. péče cévní chirurgie - H typu</td>
+<td>5_1</td></tr>
+<tr><td style="white-space:nowrap">5H5<a name="vzp-smluvni-odbornost-5H5"> </a></td>
+<td>Pracov. standard. úst. lůž. péče kardiochirurgické - H typu</td>
+<td>5_5</td></tr>
+<tr><td style="white-space:nowrap">5H6<a name="vzp-smluvni-odbornost-5H6"> </a></td>
+<td>Pracov. standard. úst. lůž. péče neurochirurgické - H typu</td>
+<td>5_6</td></tr>
+<tr><td style="white-space:nowrap">5H7<a name="vzp-smluvni-odbornost-5H7"> </a></td>
+<td>Pracov. standard. úst. lůž. péče hrudní chirurgie - H typu</td>
+<td>5_1</td></tr>
+<tr><td style="white-space:nowrap">5I1<a name="vzp-smluvni-odbornost-5I1"> </a></td>
+<td>Pracov. resusc. a intenz. úst. lůž.péče chirurgické - I typu</td>
+<td>5_1</td></tr>
+<tr><td style="white-space:nowrap">5I2<a name="vzp-smluvni-odbornost-5I2"> </a></td>
+<td>Prac. resusc. a intenz. úst.lůž. péče dět.chirurgie - I typu</td>
+<td>5_1</td></tr>
+<tr><td style="white-space:nowrap">5I3<a name="vzp-smluvni-odbornost-5I3"> </a></td>
+<td>Pracov. resusc. a intenz.úst.lůž.péče úraz. chirur. - I typu</td>
+<td>5_3</td></tr>
+<tr><td style="white-space:nowrap">5I4<a name="vzp-smluvni-odbornost-5I4"> </a></td>
+<td>Prac.resusc. a intenz. úst. lůž.péče cévní chirurgie- I typu</td>
+<td>5_1</td></tr>
+<tr><td style="white-space:nowrap">5I5<a name="vzp-smluvni-odbornost-5I5"> </a></td>
+<td>Pracov.resusc. a intenz. úst. lůž. péče kardiochir. - I typu</td>
+<td>5_5</td></tr>
+<tr><td style="white-space:nowrap">5I6<a name="vzp-smluvni-odbornost-5I6"> </a></td>
+<td>Pracov. resusc. a intenz. úst. lůž. péče neurochir. - I typu</td>
+<td>5_6</td></tr>
+<tr><td style="white-space:nowrap">5I7<a name="vzp-smluvni-odbornost-5I7"> </a></td>
+<td>Prac. resusc. a intenz. úst. lůž. péče hrudní chir. - I typu</td>
+<td>5_1</td></tr>
+<tr><td style="white-space:nowrap">5J1<a name="vzp-smluvni-odbornost-5J1"> </a></td>
+<td>Pracoviště jednodenní péče v oboru chirurgie</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">5R1<a name="vzp-smluvni-odbornost-5R1"> </a></td>
+<td>Pracoviště-operační sály chirurgie</td>
+<td>5_1</td></tr>
+<tr><td style="white-space:nowrap">5R2<a name="vzp-smluvni-odbornost-5R2"> </a></td>
+<td>Pracoviště-operační sály dětské chirurgie</td>
+<td>5_1</td></tr>
+<tr><td style="white-space:nowrap">5R3<a name="vzp-smluvni-odbornost-5R3"> </a></td>
+<td>Pracoviště-operační sály úrazové chirurgie</td>
+<td>5_3</td></tr>
+<tr><td style="white-space:nowrap">5R4<a name="vzp-smluvni-odbornost-5R4"> </a></td>
+<td>Pracoviště-operační sály cévní chirurgie</td>
+<td>5_1</td></tr>
+<tr><td style="white-space:nowrap">5R5<a name="vzp-smluvni-odbornost-5R5"> </a></td>
+<td>Pracoviště-operační sály kardiochirurgie</td>
+<td>5_5</td></tr>
+<tr><td style="white-space:nowrap">5R6<a name="vzp-smluvni-odbornost-5R6"> </a></td>
+<td>Pracoviště-operační sály neurochirurgie</td>
+<td>5_6</td></tr>
+<tr><td style="white-space:nowrap">5R7<a name="vzp-smluvni-odbornost-5R7"> </a></td>
+<td>Pracoviště-operační sály hrudní chirurgie</td>
+<td>5_1</td></tr>
+<tr><td style="white-space:nowrap">5S9<a name="vzp-smluvni-odbornost-5S9"> </a></td>
+<td>Pracov. poskytující péči na spinálních jednotkách</td>
+<td>5_1</td></tr>
+<tr><td style="white-space:nowrap">5T1<a name="vzp-smluvni-odbornost-5T1"> </a></td>
+<td>Pracov.resusc. a intenz. úst. lůž. péče chirurgické - T typu</td>
+<td>5_1</td></tr>
+<tr><td style="white-space:nowrap">5T2<a name="vzp-smluvni-odbornost-5T2"> </a></td>
+<td>Prac.resusc. a intenz. úst. lůž. péče dět.chirurgie - T typu</td>
+<td>5_1</td></tr>
+<tr><td style="white-space:nowrap">5T3<a name="vzp-smluvni-odbornost-5T3"> </a></td>
+<td>Pracov. resusc. a intenz.úst.lůž.péče úraz. chirur. - T typu</td>
+<td>5_3</td></tr>
+<tr><td style="white-space:nowrap">5T4<a name="vzp-smluvni-odbornost-5T4"> </a></td>
+<td>Prac.resusc. a intenz. úst. lůž.péče cévní chirurgie- T typu</td>
+<td>5_1</td></tr>
+<tr><td style="white-space:nowrap">5T5<a name="vzp-smluvni-odbornost-5T5"> </a></td>
+<td>Pracov.resusc. a intenz. úst. lůž. péče kardiochir. - T typu</td>
+<td>5_5</td></tr>
+<tr><td style="white-space:nowrap">5T6<a name="vzp-smluvni-odbornost-5T6"> </a></td>
+<td>Pracov. resusc. a intenz. úst. lůž. péče neurochir. - T typu</td>
+<td>5_6</td></tr>
+<tr><td style="white-space:nowrap">5T7<a name="vzp-smluvni-odbornost-5T7"> </a></td>
+<td>Pracov. resusc. a intenz. úst. lůž.péče hrudní chir.- T typu</td>
+<td>5_1</td></tr>
+<tr><td style="white-space:nowrap">601<a name="vzp-smluvni-odbornost-601"> </a></td>
+<td>Pracoviště plastické chirurgie</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">602<a name="vzp-smluvni-odbornost-602"> </a></td>
+<td>Pracoviště popáleninové medicíny</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">603<a name="vzp-smluvni-odbornost-603"> </a></td>
+<td>Pracoviště gynekologie a porodnictví</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">604<a name="vzp-smluvni-odbornost-604"> </a></td>
+<td>Pracoviště dětské gynekologie</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">605<a name="vzp-smluvni-odbornost-605"> </a></td>
+<td>Pracoviště čelistní a obličejové chirurgie</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">606<a name="vzp-smluvni-odbornost-606"> </a></td>
+<td>Pracoviště ortopedie</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">607<a name="vzp-smluvni-odbornost-607"> </a></td>
+<td>Pracoviště ortopedické protetiky</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">613<a name="vzp-smluvni-odbornost-613"> </a></td>
+<td>Pracoviště akreditovaného centra asistované reprodukce</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">6F1<a name="vzp-smluvni-odbornost-6F1"> </a></td>
+<td>Pracov. standard. úst. lůž.péče plastické chirurgie - F typu</td>
+<td>6_1</td></tr>
+<tr><td style="white-space:nowrap">6F2<a name="vzp-smluvni-odbornost-6F2"> </a></td>
+<td>Prac. standard. úst. lůž.péče popáleninové medicíny - F typu</td>
+<td>6_2</td></tr>
+<tr><td style="white-space:nowrap">6F3<a name="vzp-smluvni-odbornost-6F3"> </a></td>
+<td>Pracov. standard. úst. lůž. péče gynekologické - F typu</td>
+<td>6_3</td></tr>
+<tr><td style="white-space:nowrap">6F4<a name="vzp-smluvni-odbornost-6F4"> </a></td>
+<td>Pracov. standard. úst. lůž. péče dětské gynekologie - F typu</td>
+<td>6_3</td></tr>
+<tr><td style="white-space:nowrap">6F5<a name="vzp-smluvni-odbornost-6F5"> </a></td>
+<td>Prac.stand.úst.lůž.péče stomatochir.a čelist.ortop. - F typu</td>
+<td>6_5</td></tr>
+<tr><td style="white-space:nowrap">6F6<a name="vzp-smluvni-odbornost-6F6"> </a></td>
+<td>Pracov. standardní ústavní lůž. péče ortopedické - F typu</td>
+<td>6_6</td></tr>
+<tr><td style="white-space:nowrap">6F7<a name="vzp-smluvni-odbornost-6F7"> </a></td>
+<td>Prac.standard. úst. lůž. péče ortopedické protetiky - F typu</td>
+<td>6_7</td></tr>
+<tr><td style="white-space:nowrap">6H1<a name="vzp-smluvni-odbornost-6H1"> </a></td>
+<td>Prac. standard. úst. lůž. péče plastické chirurgie - H typu</td>
+<td>6_1</td></tr>
+<tr><td style="white-space:nowrap">6H2<a name="vzp-smluvni-odbornost-6H2"> </a></td>
+<td>Prac.standard. úst. lůž. péče popáleninové medicíny - H typu</td>
+<td>6_2</td></tr>
+<tr><td style="white-space:nowrap">6H3<a name="vzp-smluvni-odbornost-6H3"> </a></td>
+<td>Pracov. standard. úst. lůž. péče gynekologické - H typu</td>
+<td>6_3</td></tr>
+<tr><td style="white-space:nowrap">6H4<a name="vzp-smluvni-odbornost-6H4"> </a></td>
+<td>Pracov. standard. úst. lůž. péče dětské gynekologie - H typu</td>
+<td>6_3</td></tr>
+<tr><td style="white-space:nowrap">6H6<a name="vzp-smluvni-odbornost-6H6"> </a></td>
+<td>Pracov. standardní ústavní lůžkové péče ortopedické - H typu</td>
+<td>6_6</td></tr>
+<tr><td style="white-space:nowrap">6H7<a name="vzp-smluvni-odbornost-6H7"> </a></td>
+<td>Prac.standard. úst. lůž. péče ortopedické protetiky - H typu</td>
+<td>6_7</td></tr>
+<tr><td style="white-space:nowrap">6I1<a name="vzp-smluvni-odbornost-6I1"> </a></td>
+<td>Prac. resusc. a intenz.úst.lůž.péče plastic.chirur. - I typu</td>
+<td>6_1</td></tr>
+<tr><td style="white-space:nowrap">6I2<a name="vzp-smluvni-odbornost-6I2"> </a></td>
+<td>Prac.resusc. a intenz.úst.lůž.péče popálen.medicín. - I typu</td>
+<td>6_2</td></tr>
+<tr><td style="white-space:nowrap">6I3<a name="vzp-smluvni-odbornost-6I3"> </a></td>
+<td>Prac. resusc. a intenz. úst.lůž. péče gynekologické - I typu</td>
+<td>6_3</td></tr>
+<tr><td style="white-space:nowrap">6I4<a name="vzp-smluvni-odbornost-6I4"> </a></td>
+<td>Prac.resusc. a intenz.úst.lůž. péče dětské gynekol. - I typu</td>
+<td>6_3</td></tr>
+<tr><td style="white-space:nowrap">6I5<a name="vzp-smluvni-odbornost-6I5"> </a></td>
+<td>Prac. intenz.úst.lůž. péče stomatoch.a čelis.ortop.-I typu</td>
+<td>6_5</td></tr>
+<tr><td style="white-space:nowrap">6I6<a name="vzp-smluvni-odbornost-6I6"> </a></td>
+<td>Prac. resusc. a intenz. úst. lůž. péče ortopedické - I typu</td>
+<td>6_6</td></tr>
+<tr><td style="white-space:nowrap">6J1<a name="vzp-smluvni-odbornost-6J1"> </a></td>
+<td>Pracoviště jednodenní péče v oboru plastické chirurgie</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">6J3<a name="vzp-smluvni-odbornost-6J3"> </a></td>
+<td>Pracoviště jednodenní péče v oboru gynekologie</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">6J6<a name="vzp-smluvni-odbornost-6J6"> </a></td>
+<td>Pracoviště jednodenní péče v oboru ortopedie</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">6P3<a name="vzp-smluvni-odbornost-6P3"> </a></td>
+<td>Pracoviště intenz. a intermediární úst.lůž. porodnické péče</td>
+<td>6_3</td></tr>
+<tr><td style="white-space:nowrap">6R1<a name="vzp-smluvni-odbornost-6R1"> </a></td>
+<td>Pracovište-operační sály plastické chirurgie</td>
+<td>6_1</td></tr>
+<tr><td style="white-space:nowrap">6R2<a name="vzp-smluvni-odbornost-6R2"> </a></td>
+<td>Pracovište-operační sály popáleninové medicíny</td>
+<td>6_2</td></tr>
+<tr><td style="white-space:nowrap">6R3<a name="vzp-smluvni-odbornost-6R3"> </a></td>
+<td>Pracovište-operační sály gynekologie</td>
+<td>6_3</td></tr>
+<tr><td style="white-space:nowrap">6R4<a name="vzp-smluvni-odbornost-6R4"> </a></td>
+<td>Pracovište-operační sály dětské gynekologie</td>
+<td>6_3</td></tr>
+<tr><td style="white-space:nowrap">6R5<a name="vzp-smluvni-odbornost-6R5"> </a></td>
+<td>Pracovište-operační sály stomatochirurgie a čelist.ortopedie</td>
+<td>6_5</td></tr>
+<tr><td style="white-space:nowrap">6R6<a name="vzp-smluvni-odbornost-6R6"> </a></td>
+<td>Pracovište-operační sály ortopedie</td>
+<td>6_6</td></tr>
+<tr><td style="white-space:nowrap">6T1<a name="vzp-smluvni-odbornost-6T1"> </a></td>
+<td>Prac.resusc. a intenz. úst.lůž.péče plastic.chirur. - T typu</td>
+<td>6_1</td></tr>
+<tr><td style="white-space:nowrap">6T2<a name="vzp-smluvni-odbornost-6T2"> </a></td>
+<td>Prac.resusc. a intenz.úst.lůž.péče popálen.medicín. - T typu</td>
+<td>6_2</td></tr>
+<tr><td style="white-space:nowrap">6T3<a name="vzp-smluvni-odbornost-6T3"> </a></td>
+<td>Prac. resusc. a intenz. úst.lůž. péče gynekologické - T typu</td>
+<td>6_3</td></tr>
+<tr><td style="white-space:nowrap">6T4<a name="vzp-smluvni-odbornost-6T4"> </a></td>
+<td>Prac.resusc. a intenz. úst.lůž.péče dětské gynekol. - T typu</td>
+<td>6_3</td></tr>
+<tr><td style="white-space:nowrap">6T5<a name="vzp-smluvni-odbornost-6T5"> </a></td>
+<td>Prac. res.a inten.úst.lůž.péče stomatoch.a čelis.ortop.-T t.</td>
+<td>6_5</td></tr>
+<tr><td style="white-space:nowrap">6T6<a name="vzp-smluvni-odbornost-6T6"> </a></td>
+<td>Pracov. resusc. a intenz. úst.lůž. péče ortopedické - T typu</td>
+<td>6_6</td></tr>
+<tr><td style="white-space:nowrap">6Z1<a name="vzp-smluvni-odbornost-6Z1"> </a></td>
+<td>Pracoviště-péče na zákrokovém sálku v oboru plastic.chirurg</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">6Z3<a name="vzp-smluvni-odbornost-6Z3"> </a></td>
+<td>Pracoviště-péče na zákrokovém sálku v oboru gynekologie</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">6Z6<a name="vzp-smluvni-odbornost-6Z6"> </a></td>
+<td>Pracoviště-péče na zákrokovém sálku v oboru ortopedie</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">701<a name="vzp-smluvni-odbornost-701"> </a></td>
+<td>Pracoviště otorinolaryngologie</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">702<a name="vzp-smluvni-odbornost-702"> </a></td>
+<td>Pracoviště foniatrie</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">703<a name="vzp-smluvni-odbornost-703"> </a></td>
+<td>Pracoviště audiologie</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">704<a name="vzp-smluvni-odbornost-704"> </a></td>
+<td>Pracoviště dětské otorinolaryngologie</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">705<a name="vzp-smluvni-odbornost-705"> </a></td>
+<td>Pracoviště oftalmologie</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">706<a name="vzp-smluvni-odbornost-706"> </a></td>
+<td>Pracoviště urologie</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">707<a name="vzp-smluvni-odbornost-707"> </a></td>
+<td>Pracoviště dětské urologie</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">708<a name="vzp-smluvni-odbornost-708"> </a></td>
+<td>Pracoviště anesteziologicko - resuscitační</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">709<a name="vzp-smluvni-odbornost-709"> </a></td>
+<td>Pracoviště zdravotnické záchranné služby (RZP+RLP)</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">7D8<a name="vzp-smluvni-odbornost-7D8"> </a></td>
+<td>Pracoviště dlouhodobé intenzivní péče (DIP)</td>
+<td>7_8</td></tr>
+<tr><td style="white-space:nowrap">7F1<a name="vzp-smluvni-odbornost-7F1"> </a></td>
+<td>Pracoviště standardní ústavní lůžkové péče ORL - F typu</td>
+<td>7_1</td></tr>
+<tr><td style="white-space:nowrap">7F2<a name="vzp-smluvni-odbornost-7F2"> </a></td>
+<td>Pracov. standardní ústavní lůžkové péče foniatrické - F typu</td>
+<td>7_2</td></tr>
+<tr><td style="white-space:nowrap">7F4<a name="vzp-smluvni-odbornost-7F4"> </a></td>
+<td>Pracov. standardní ústavní lůžkové péče dětské ORL - F typu</td>
+<td>7_1</td></tr>
+<tr><td style="white-space:nowrap">7F5<a name="vzp-smluvni-odbornost-7F5"> </a></td>
+<td>Prac. standard. ústavní lůžkové péče oftalmologické - F typu</td>
+<td>7_5</td></tr>
+<tr><td style="white-space:nowrap">7F6<a name="vzp-smluvni-odbornost-7F6"> </a></td>
+<td>Pracov. standardní ústavní lůžkové péče urologické - F typu</td>
+<td>7_6</td></tr>
+<tr><td style="white-space:nowrap">7F7<a name="vzp-smluvni-odbornost-7F7"> </a></td>
+<td>Prac. standard. ústav. lůžkové péče dětské urologie - F typu</td>
+<td>7_6</td></tr>
+<tr><td style="white-space:nowrap">7H1<a name="vzp-smluvni-odbornost-7H1"> </a></td>
+<td>Pracov. standardní ústavní lůžkové péče ORL - H typu</td>
+<td>7_1</td></tr>
+<tr><td style="white-space:nowrap">7H2<a name="vzp-smluvni-odbornost-7H2"> </a></td>
+<td>Pracov. standardní ústavní lůžkové péče foniatrické - H typu</td>
+<td>7_2</td></tr>
+<tr><td style="white-space:nowrap">7H4<a name="vzp-smluvni-odbornost-7H4"> </a></td>
+<td>Pracov. standardní ústavní lůžkové péče dětské ORL - H typu</td>
+<td>7_1</td></tr>
+<tr><td style="white-space:nowrap">7H5<a name="vzp-smluvni-odbornost-7H5"> </a></td>
+<td>Prac. standard. ústavní lůžkové péče oftalmologické - H typu</td>
+<td>7_5</td></tr>
+<tr><td style="white-space:nowrap">7H6<a name="vzp-smluvni-odbornost-7H6"> </a></td>
+<td>Pracov. standardní ústavní lůžkové péče urologické - H typu</td>
+<td>7_6</td></tr>
+<tr><td style="white-space:nowrap">7H7<a name="vzp-smluvni-odbornost-7H7"> </a></td>
+<td>Pracov. standard. ústav. lůž. péče dětské urologie - H typu</td>
+<td>7_6</td></tr>
+<tr><td style="white-space:nowrap">7I1<a name="vzp-smluvni-odbornost-7I1"> </a></td>
+<td>Pracov. resusc. a intenz. ústav. lůžkové péče ORL - I typu</td>
+<td>7_1</td></tr>
+<tr><td style="white-space:nowrap">7I4<a name="vzp-smluvni-odbornost-7I4"> </a></td>
+<td>Pracov. resusc. a intenz. úst. lůž. péče dětské ORL - I typu</td>
+<td>7_1</td></tr>
+<tr><td style="white-space:nowrap">7I6<a name="vzp-smluvni-odbornost-7I6"> </a></td>
+<td>Pracov.resusc. a intenz. ústav. lůž.péče urologické - I typu</td>
+<td>7_6</td></tr>
+<tr><td style="white-space:nowrap">7I7<a name="vzp-smluvni-odbornost-7I7"> </a></td>
+<td>Pracov.resusc. a intenz. úst. lůž.péče dět.urologie - I typu</td>
+<td>7_6</td></tr>
+<tr><td style="white-space:nowrap">7I8<a name="vzp-smluvni-odbornost-7I8"> </a></td>
+<td>Pracov. resuscitační ústavní lůžkové péče - ARO - I typu</td>
+<td>7_8</td></tr>
+<tr><td style="white-space:nowrap">7J1<a name="vzp-smluvni-odbornost-7J1"> </a></td>
+<td>Pracoviště jednodenní péče v oboru ORL</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">7J6<a name="vzp-smluvni-odbornost-7J6"> </a></td>
+<td>Pracoviště jednodenní péče v oboru urologie</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">7R1<a name="vzp-smluvni-odbornost-7R1"> </a></td>
+<td>Pracoviště-operační sály ORL</td>
+<td>7_1</td></tr>
+<tr><td style="white-space:nowrap">7R5<a name="vzp-smluvni-odbornost-7R5"> </a></td>
+<td>Pracoviště-operační sály oftalmologie</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">7R6<a name="vzp-smluvni-odbornost-7R6"> </a></td>
+<td>Pracoviště-operační sály urologie</td>
+<td>7_6</td></tr>
+<tr><td style="white-space:nowrap">7R7<a name="vzp-smluvni-odbornost-7R7"> </a></td>
+<td>Pracoviště-operační sály dětské urologie</td>
+<td>7_6</td></tr>
+<tr><td style="white-space:nowrap">7T1<a name="vzp-smluvni-odbornost-7T1"> </a></td>
+<td>Pracov. resusc. a intenz. ústav. lůžkové péče ORL - T typu</td>
+<td>7_1</td></tr>
+<tr><td style="white-space:nowrap">7T4<a name="vzp-smluvni-odbornost-7T4"> </a></td>
+<td>Pracov. resusc. a intenz. úst. lůž. péče dětské ORL - T typu</td>
+<td>7_1</td></tr>
+<tr><td style="white-space:nowrap">7T6<a name="vzp-smluvni-odbornost-7T6"> </a></td>
+<td>Pracov. resusc. a intenz. úst. lůž. péče urologické - T typu</td>
+<td>7_6</td></tr>
+<tr><td style="white-space:nowrap">7T7<a name="vzp-smluvni-odbornost-7T7"> </a></td>
+<td>Pracov.resusc. a intenz. úst. lůž.péče dět.urologie - T typu</td>
+<td>7_6</td></tr>
+<tr><td style="white-space:nowrap">7T8<a name="vzp-smluvni-odbornost-7T8"> </a></td>
+<td>Pracov. resuscitační ústavní lůžkové péče - ARO - T typu</td>
+<td>7_8</td></tr>
+<tr><td style="white-space:nowrap">7U4<a name="vzp-smluvni-odbornost-7U4"> </a></td>
+<td>Pracov. dlouhod. (chronic.) úst.lůž.péče dětské ORL - U typu</td>
+<td>7_1</td></tr>
+<tr><td style="white-space:nowrap">7U5<a name="vzp-smluvni-odbornost-7U5"> </a></td>
+<td>Pracov. dlouhod.(chronic.) úst.lůž.péče oftalmolog. - U typu</td>
+<td>7_5</td></tr>
+<tr><td style="white-space:nowrap">7U8<a name="vzp-smluvni-odbornost-7U8"> </a></td>
+<td>Pracoviště dlouhodobé intenzivní ošetřovatelské péče (DIOP)</td>
+<td>7_8</td></tr>
+<tr><td style="white-space:nowrap">801<a name="vzp-smluvni-odbornost-801"> </a></td>
+<td>Pracoviště klinické biochemie</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">802<a name="vzp-smluvni-odbornost-802"> </a></td>
+<td>Pracoviště lékařské mikrobiologie</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">803<a name="vzp-smluvni-odbornost-803"> </a></td>
+<td>Pracoviště lékařské bakteriologie</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">804<a name="vzp-smluvni-odbornost-804"> </a></td>
+<td>Pracoviště lékařské parazitologie</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">805<a name="vzp-smluvni-odbornost-805"> </a></td>
+<td>Pracoviště lékařské virologie</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">806<a name="vzp-smluvni-odbornost-806"> </a></td>
+<td>Pracoviště s osvědčením pro provádění screeningu nádoru prsu</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">807<a name="vzp-smluvni-odbornost-807"> </a></td>
+<td>Pracoviště patologické anatomie</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">808<a name="vzp-smluvni-odbornost-808"> </a></td>
+<td>Pracoviště soudního lékařství</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">809<a name="vzp-smluvni-odbornost-809"> </a></td>
+<td>Pracoviště radiodiagnostiky</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">810<a name="vzp-smluvni-odbornost-810"> </a></td>
+<td>Pracoviště magnetické rezonance</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">812<a name="vzp-smluvni-odbornost-812"> </a></td>
+<td>Pracoviště jiného laboratorního oboru</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">813<a name="vzp-smluvni-odbornost-813"> </a></td>
+<td>Laboratoř alergologická a imunologická</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">814<a name="vzp-smluvni-odbornost-814"> </a></td>
+<td>Laboratoř toxikologická</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">815<a name="vzp-smluvni-odbornost-815"> </a></td>
+<td>Laboratoř nukleární mediciny</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">816<a name="vzp-smluvni-odbornost-816"> </a></td>
+<td>Laboratoř lékařské genetiky</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">817<a name="vzp-smluvni-odbornost-817"> </a></td>
+<td>Laboratoř klinické cytologie</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">818<a name="vzp-smluvni-odbornost-818"> </a></td>
+<td>Laboratoř hematologická</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">820<a name="vzp-smluvni-odbornost-820"> </a></td>
+<td>Laboratoř provádějící screening karcinomu děložního hrdla</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">822<a name="vzp-smluvni-odbornost-822"> </a></td>
+<td>Laboratoř mykologická</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">881<a name="vzp-smluvni-odbornost-881"> </a></td>
+<td>Ambulance klinické biochemie</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">901<a name="vzp-smluvni-odbornost-901"> </a></td>
+<td>Pracoviště klinické psychologie</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">902<a name="vzp-smluvni-odbornost-902"> </a></td>
+<td>Samostatné pracoviště fyzioterapeutů</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">903<a name="vzp-smluvni-odbornost-903"> </a></td>
+<td>Pracoviště klinické logopedie</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">904<a name="vzp-smluvni-odbornost-904"> </a></td>
+<td>Samostatné prac. jiných zdrav. pracovníků - vysokoškoláků</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">913<a name="vzp-smluvni-odbornost-913"> </a></td>
+<td>Prac.ošetřovat. a rehabilit.péče v pobyt.zaříz.sociál.služeb</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">914<a name="vzp-smluvni-odbornost-914"> </a></td>
+<td>Samostatné pracoviště psychiatrických sester</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">917<a name="vzp-smluvni-odbornost-917"> </a></td>
+<td>Samostatné pracoviště ergoterapeutů</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">921<a name="vzp-smluvni-odbornost-921"> </a></td>
+<td>Samostatné pracoviště porodních asistentek</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">925<a name="vzp-smluvni-odbornost-925"> </a></td>
+<td>Pracoviště domácí péče - SZP</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">927<a name="vzp-smluvni-odbornost-927"> </a></td>
+<td>Samostatné prac. ortoptických sester</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">989<a name="vzp-smluvni-odbornost-989"> </a></td>
+<td>Pracoviště dopravy raněných, nemocných a rodiček</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">994<a name="vzp-smluvni-odbornost-994"> </a></td>
+<td>Odb.pouze pro indik.péče komplementu (lékař.zaměstn.koj.úst)</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">995<a name="vzp-smluvni-odbornost-995"> </a></td>
+<td>Odbornost pouze pro indikaci dopravy zpět do místa bydliště</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">996<a name="vzp-smluvni-odbornost-996"> </a></td>
+<td>Odbornost pouze pro úhradu cestovného pacientům</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">9F8<a name="vzp-smluvni-odbornost-9F8"> </a></td>
+<td>Pracoviště neúplné ústavní péče - F typu</td>
+<td>9_8</td></tr>
+<tr><td style="white-space:nowrap">9F9<a name="vzp-smluvni-odbornost-9F9"> </a></td>
+<td>Pracov. ústavní péče na ošetřovatelském lůžku - F typu</td>
+<td>9_9</td></tr>
+<tr><td style="white-space:nowrap">9H8<a name="vzp-smluvni-odbornost-9H8"> </a></td>
+<td>Pracoviště neúplné ústavní péče - H typu</td>
+<td>9_8</td></tr>
+<tr><td style="white-space:nowrap">9H9<a name="vzp-smluvni-odbornost-9H9"> </a></td>
+<td>Pracov. ústavní péče na ošetřovatelském lůžku - H typu</td>
+<td>9_9</td></tr>
+<tr><td style="white-space:nowrap">9U7<a name="vzp-smluvni-odbornost-9U7"> </a></td>
+<td>Pracov. ústavní následné péče v LDN</td>
+<td>9_7</td></tr>
+<tr><td style="white-space:nowrap">9U9<a name="vzp-smluvni-odbornost-9U9"> </a></td>
+<td>Pracov. ústavní následné ošetřovatelské péče v hospici</td>
+<td>9_9</td></tr></table></div>
+
+  <hr/>
+  <p>
+    <a href="http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#terminology">Description of the above table(s)</a>.
+  </p>
+  
+
+  <!-- insert notes if present -->
+  
+
+
+
+  
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+  <script type="text/javascript" src="assets/js/flags.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <script type="text/javascript" src="assets/js/togglechanges.js"> </script>
+  <script type="text/javascript" src="assets/js/requirements-table.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container" data-fhir="generated">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+
+
+
+          IG © 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hl7.cz/">HL7 Czech Republic</a>.  
+          Package hl7.fhir.cz.terminology#0.3.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
+          Generated 
+  <span title="2026-07-27 16:55:00 +0200">
+    2026-07-27
+  </span>
+
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="../qa.html">QA Report</a>
+                 
+                
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

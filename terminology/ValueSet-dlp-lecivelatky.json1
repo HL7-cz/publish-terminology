@@ -19,7 +19,7 @@
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.203.24341.11.1.11"
   }],
-  "version" : "0.2.0",
+  "version" : "1.0.0",
   "name" : "DLP_lecivelatky",
   "title" : "Value set of DLP Lecive latky",
   "status" : "active",

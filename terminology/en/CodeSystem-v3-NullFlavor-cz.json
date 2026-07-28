@@ -1,0 +1,118 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "v3-NullFlavor-cz",
+  "language" : "en",
+  "text" : {
+    "status" : "generated"
+  },
+  "url" : "https://hl7.cz/terminology/CodeSystem/v3-NullFlavor-cz",
+  "version" : "3.0.0",
+  "name" : "NullFlavor",
+  "title" : "Null Flavor (CZ supplement)",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2025-12-13T05:22:58.056901Z",
+  "publisher" : "HL7 Czech Republic",
+  "contact" : [{
+    "name" : "HL7 Czech Republic",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.hl7.cz/"
+    }]
+  }],
+  "description" : "Null Flavor (CZ Code system supplement)",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CZ",
+      "display" : "Czechia"
+    }]
+  }],
+  "content" : "supplement",
+  "supplements" : "http://terminology.hl7.org/CodeSystem/v3-NullFlavor|4.0.0",
+  "concept" : [{
+    "code" : "ASKU",
+    "display" : "dotázáno, ale neznámé",
+    "definition" : "Informace byla zjišťována, ale nebyla získána (např. pacient byl dotázán, ale nevěděl)."
+  },
+  {
+    "code" : "DER",
+    "display" : "odvozeno",
+    "definition" : "**Popis:** Skutečná hodnota může existovat, ale musí být odvozena z poskytnutých informací (k vyjádření odvozeného výrazu se obvykle používá rozšíření generického datového typu EXPR)."
+  },
+  {
+    "code" : "INV",
+    "display" : "neplatné",
+    "definition" : "**Popis:** Hodnota reprezentovaná v instanci není součástí stanoveného oboru hodnot proměnné."
+  },
+  {
+    "code" : "MSK",
+    "display" : "zatajeno",
+    "definition" : "K této položce jsou k dispozici informace, ale odesílatel je z bezpečnostních, soukromých nebo jiných důvodů neposkytl. K získání přístupu k těmto informacím může existovat alternativní mechanismus. Poznámka: použití této varianty null flavor sice neposkytuje žádné podrobné údaje, ale přesto může dojít k porušení důvěrnosti informací. Její primární účel spočívá v situacích, kdy je nutné informovat příjemce o existenci informací, aniž by byl poskytnut jejich obsah."
+  },
+  {
+    "code" : "NA",
+    "display" : "neuplatní se",
+    "definition" : "Je známo, že nemá žádnou odpovídající hodnotu (např. poslední menstruace u muže)."
+  },
+  {
+    "code" : "NASK",
+    "display" : "nezjišťováno",
+    "definition" : "Tato informace nebyla zjišťována (např. pacient nebyl dotazován)."
+  },
+  {
+    "code" : "NAV",
+    "display" : "dočasně neznámé",
+    "definition" : "Informace nejsou v tuto chvíli k dispozici, ale očekává se, že budou k dispozici později."
+  },
+  {
+    "code" : "NAVU",
+    "display" : "neznámé",
+    "definition" : "Informace nejsou v současné době k dispozici (bez očekávání, zda budou nebo nebudou k dispozici v budoucnu)."
+  },
+  {
+    "code" : "NI",
+    "display" : "žádné informace",
+    "definition" : "**Popis:** Hodnota je výjimečná (chybí, je vynechána, je neúplná, je nesprávná). Není uvedeno žádné vysvětlení, proč je hodnota označena jako výjimečná. Jedná se o nejobecnější a také výchozí způsob označení výjimečné hodnoty."
+  },
+  {
+    "code" : "NINF",
+    "display" : "záporná nekonečnost",
+    "definition" : "Záporná nekonečnost čísel."
+  },
+  {
+    "code" : "NP",
+    "display" : "není uvedeno",
+    "definition" : "Hodnota není přítomna ve zprávě. Definuje se pouze ve zprávách, nikdy v aplikačních datech! Všechny hodnoty, které nejsou přítomny ve zprávě, musí být v aplikačních datech nahrazeny příslušnou implicitní hodnotou nebo hodnotou „bez informací“ (NI)."
+  },
+  {
+    "code" : "OTH",
+    "display" : "jinak",
+    "definition" : "**Popis:** Skutečná hodnota není členem oboru hodnot proměnné. (např. pojem není obsažen v požadovaném kódovém systému). **Poznámky k použití**: Tento typ a jeho specializace se nejčastěji používají s datovým typem CD a jeho typy. Může se však vztahovat na \\*jakýkoli\\* datový typ, u kterého jsou omezení typu přísnější, než lze vyjádřit. U kódovaných datových typů lze tento typ null flavor použít pouze v případě, že vazba slovníku má kódovací sílu CNE. Podle definice jsou všechny místní kódy a původní text součástí sady hodnot, pokud je kódovací síla CWE."
+  },
+  {
+    "code" : "PINF",
+    "display" : "kladná nekonečnost",
+    "definition" : "Kladná nekonečnost čísel."
+  },
+  {
+    "code" : "QS",
+    "display" : "dostatečné množství",
+    "definition" : "**Popis:**Konkrétní množství není známo, ale je známo, že není nulové a není specifikováno, protože tvoří většinu materiálu. Např. „Přidejte 10 mg složky X, 50 mg složky Y a dostatečné množství vody na 100 ml.“ K vyjádření množství vody by se použila taro hodnota null flavor."
+  },
+  {
+    "code" : "TRC",
+    "display" : "stopa",
+    "definition" : "Obsah je větší než nula, ale příliš malý na to, aby mohl být kvantifikován."
+  },
+  {
+    "code" : "UNC",
+    "display" : "nekódováno",
+    "definition" : "**Popis:** Skutečná hodnota ještě nebyla zakódována pomocí schváleného oboru hodnot. **Příklad**: Byl zadán původní text nebo lokální kód, ale překlad nebo kódování do schválené sady hodnot ještě neproběhlo z důvodu omezení na straně odesílacího systému. Původní text byl zaznamenán pro PQ, ale nebyl proveden pokus o rozdělení hodnoty a jednotky nebo o zakódování jednotky v UCUM. **Poznámky k použití**: Pokud je známo, že není možné koncept zakódovat, mělo by se místo toho použít OTH. Použití UNC však nutně nezaručuje, že koncept bude zakódovatelný, pouze to, že se o kódování nepokusili. Vlastnosti datového typu, jako je původní text a překlady, mohou být přítomny, pokud je použita tato varianta."
+  },
+  {
+    "code" : "UNK",
+    "display" : "není známo",
+    "definition" : "**Popis:** Správná hodnota by měla být použita, ale není známa. **Poznámky k použití**: To znamená, že skutečná hodnota není známa. Pokud jedinou neznámou věcí je, jak správně vyjádřit požadovanou hodnotu v rámci daných omezení (sada hodnot, datový typ atd.), pak by se měla použít varianta OTH nebo UNC. Pro datový typ s touto vlastností by neměly být uvedeny žádné jiné vlastnosti, ledaže: 1. Tyto vlastnosti samy o sobě přímo odpovídají sémantice „neznámé“. (Např. lokální kód odeslaný jako překlad, který vyjadřuje „neznámé“). 2. Tyto vlastnosti dále upřesňují povahu toho, co je neznámé. (Např. zadání kódu použití „H“ a předpony URL „tel:“, aby bylo zřejmé, že se jedná o neznámé číslo domácího telefonu.)"
+  }]
+}

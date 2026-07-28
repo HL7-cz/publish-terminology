@@ -1,7 +1,7 @@
 {
   "website": {
     "style": "fhir.layout",
-    "url": "https://hl7.cz/terminology",
+    "url": "https://hl7.cz",
     "server": "apache",
     "org": "HL7 Czech Republic",
     "index-template": "index.template",

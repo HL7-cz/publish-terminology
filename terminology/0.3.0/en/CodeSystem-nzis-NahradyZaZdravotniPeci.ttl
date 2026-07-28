@@ -1,0 +1,233 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hl7.cz/terminology/CodeSystem/nzis-NahradyZaZdravotniPeci> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "nzis-NahradyZaZdravotniPeci"] ;
+  fhir:Resource.language [ fhir:value "en"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ]
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://uzis.cz/terminology/CodeSystem/nzis-NahradyZaZdravotniPeci"] ;
+  fhir:CodeSystem.version [ fhir:value "1.0.0"] ;
+  fhir:CodeSystem.name [ fhir:value "CS_NahradyZaZdravotniPeci"] ;
+  fhir:CodeSystem.title [ fhir:value "Kódový systém NahradyZaZdravotniPeci"] ;
+  fhir:CodeSystem.status [ fhir:value "active"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2026-07-27T16:44:21+02:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "HL7 Czech Republic"] ;
+  fhir:CodeSystem.contact [
+     fhir:index -1 ;
+     fhir:ContactDetail.name [ fhir:value "HL7 Czech Republic" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index -1 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://www.hl7.cz/" ]
+     ]
+  ] ;
+  fhir:CodeSystem.description [ fhir:value "Kódový systém použitý v Národním registru hospitalizovaných (NRHOSP) pro kódování důvodů náhrady za zdravotní péči."] ;
+  fhir:CodeSystem.jurisdiction [
+     fhir:index -1 ;
+     fhir:CodeableConcept.coding [
+       fhir:index -1 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "CZ" ] ;
+       fhir:Coding.display [ fhir:value "Czechia" ]
+     ]
+  ] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.count [ fhir:value "6"^^xsd:nonNegativeInteger] ;
+  fhir:CodeSystem.property [
+     fhir:index -1 ;
+     fhir:CodeSystem.property.code [ fhir:value "definition" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "Definition" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "string" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.property.code [ fhir:value "kod" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "string" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.property.code [ fhir:value "plati_do" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "dateTime" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.property.code [ fhir:value "plati_od" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "dateTime" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.property.code [ fhir:value "popis" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "string" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.property.code [ fhir:value "poradi" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "string" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.property.code [ fhir:value "skupina_platnosti_01" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "boolean" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.property.code [ fhir:value "skupina_platnosti_02" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "boolean" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.property.code [ fhir:value "skupina_platnosti_03" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "boolean" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.property.code [ fhir:value "skupina_platnosti_04" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "boolean" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.property.code [ fhir:value "skupina_platnosti_05" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "boolean" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.property.code [ fhir:value "skupina_platnosti_06" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "boolean" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.property.code [ fhir:value "skupina_platnosti_07" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "boolean" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.property.code [ fhir:value "skupina_platnosti_08" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "boolean" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.property.code [ fhir:value "skupina_platnosti_09" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "boolean" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.property.code [ fhir:value "skupina_platnosti_10" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "boolean" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.property.code [ fhir:value "skupina_platnosti_11" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "boolean" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.property.code [ fhir:value "skupina_platnosti_12" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "boolean" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.property.code [ fhir:value "skupina_platnosti_13" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "boolean" ]
+  ] ;
+  fhir:CodeSystem.concept [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "3" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Úraz zaviněný jinou osobou" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "kod" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "3" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "plati_od" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2015-01-01T00:00:00Z"^^xsd:dateTime ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "popis" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Úraz zaviněný jinou osobou" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "4" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Alkohol, omamné látky" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "kod" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "4" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "plati_od" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2015-01-01T00:00:00Z"^^xsd:dateTime ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "popis" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Alkohol, omamné látky" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "5" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pracovní úraz" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "kod" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "5" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "plati_od" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2015-01-01T00:00:00Z"^^xsd:dateTime ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "popis" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Pracovní úraz" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "6" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Sociální důvod hospitalizace" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "kod" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "6" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "plati_od" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2015-01-01T00:00:00Z"^^xsd:dateTime ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "popis" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Sociální důvod hospitalizace" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "7" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Porušení léčebného režimu" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "kod" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "7" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "plati_od" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2015-01-01T00:00:00Z"^^xsd:dateTime ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "popis" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Porušení léčebného režimu" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "9" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Nemoc z povolání" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "kod" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "9" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "plati_od" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2015-01-01T00:00:00Z"^^xsd:dateTime ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "popis" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Nemoc z povolání" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://hl7.cz/terminology/CodeSystem/nzis-NahradyZaZdravotniPeci.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

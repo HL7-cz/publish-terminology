@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="cz-coverage-type"/>
+  <language value="en"/>
+  <text>
+    <status value="extensions"/>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/valueset-supplement">
+    <valueCanonical value="https://hl7.cz/terminology/CodeSystem/coverage-selfpay-cz"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/valueset-supplement">
+    <valueCanonical value="https://hl7.cz/terminology/CodeSystem/v3-ActCode-cz"/>
+  </extension>
+  <url value="https://ncez.mzcr.cz/terminology/ValueSet/cz-coverage-type"/>
+  <version value="1.0.0"/>
+  <name value="CZ_CoverageType"/>
+  <title value="Číselník typů úhrady"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-01-01"/>
+  <publisher value="HL7 Czech Republic"/>
+  <contact>
+    <name value="HL7 Czech Republic"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hl7.cz/"/>
+    </telecom>
+  </contact>
+  <description value="Číselník typů úhrady zdravotní péče."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CZ"/>
+      <display value="Czechia"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"/>
+      <version value="11.0.0"/>
+      <concept>
+        <code value="HIP"/>
+        <display value="zdravotní pojištění"/>
+      </concept>
+    </include>
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/coverage-selfpay"/>
+      <version value="1.0.1"/>
+      <concept>
+        <code value="pay"/>
+        <display value="samoplátce"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

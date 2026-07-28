@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="eHDSIReactionAllergy"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/>
+  </text>
+  <url value="https://ncez.mzcr.cz/terminology/ValueSet/eHDSIReactionAllergy"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.11"/>
+  </identifier>
+  <version value="0.0.1"/>
+  <name value="eHDSIReactionAllergy"/>
+  <title value="eHDSI Reaction Allergy"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-12-19T11:53:30.209384Z"/>
+  <publisher value="HL7 Czech Republic"/>
+  <contact>
+    <name value="HL7 Czech Republic"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hl7.cz/"/>
+    </telecom>
+  </contact>
+  <description value="Value Set is used to encode clinical manifestation of the allergic reaction."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CZ"/>
+      <display value="Czechia"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"/>
+  <compose>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <concept>
+        <code value="2129002"/>
+      </concept>
+      <concept>
+        <code value="22649008"/>
+      </concept>
+      <concept>
+        <code value="24079001"/>
+      </concept>
+      <concept>
+        <code value="31996006"/>
+      </concept>
+      <concept>
+        <code value="35001004"/>
+      </concept>
+      <concept>
+        <code value="39579001"/>
+      </concept>
+      <concept>
+        <code value="44416002"/>
+      </concept>
+      <concept>
+        <code value="49727002"/>
+      </concept>
+      <concept>
+        <code value="62315008"/>
+      </concept>
+      <concept>
+        <code value="64144002"/>
+      </concept>
+      <concept>
+        <code value="70076002"/>
+      </concept>
+      <concept>
+        <code value="74776002"/>
+      </concept>
+      <concept>
+        <code value="79893008"/>
+      </concept>
+      <concept>
+        <code value="81950002"/>
+      </concept>
+      <concept>
+        <code value="90128006"/>
+      </concept>
+      <concept>
+        <code value="126485001"/>
+      </concept>
+      <concept>
+        <code value="191306005"/>
+      </concept>
+      <concept>
+        <code value="195951007"/>
+      </concept>
+      <concept>
+        <code value="247441003"/>
+      </concept>
+      <concept>
+        <code value="247470007"/>
+      </concept>
+      <concept>
+        <code value="247471006"/>
+      </concept>
+      <concept>
+        <code value="247472004"/>
+      </concept>
+      <concept>
+        <code value="267036007"/>
+      </concept>
+      <concept>
+        <code value="271756005"/>
+      </concept>
+      <concept>
+        <code value="271757001"/>
+      </concept>
+      <concept>
+        <code value="271759003"/>
+      </concept>
+      <concept>
+        <code value="271807003"/>
+      </concept>
+      <concept>
+        <code value="276444007"/>
+      </concept>
+      <concept>
+        <code value="281239006"/>
+      </concept>
+      <concept>
+        <code value="373932008"/>
+      </concept>
+      <concept>
+        <code value="386789004"/>
+      </concept>
+      <concept>
+        <code value="402407004"/>
+      </concept>
+      <concept>
+        <code value="410430005"/>
+      </concept>
+      <concept>
+        <code value="418290006"/>
+      </concept>
+      <concept>
+        <code value="418363000"/>
+      </concept>
+      <concept>
+        <code value="422400008"/>
+      </concept>
+      <concept>
+        <code value="432807008"/>
+      </concept>
+      <concept>
+        <code value="444827008"/>
+      </concept>
+      <concept>
+        <code value="768962006"/>
+      </concept>
+      <concept>
+        <code value="4386001"/>
+      </concept>
+      <concept>
+        <code value="9826008"/>
+      </concept>
+      <concept>
+        <code value="43116000"/>
+      </concept>
+      <concept>
+        <code value="51599000"/>
+      </concept>
+      <concept>
+        <code value="73442001"/>
+      </concept>
+      <concept>
+        <code value="76067001"/>
+      </concept>
+      <concept>
+        <code value="91175000"/>
+      </concept>
+      <concept>
+        <code value="162290004"/>
+      </concept>
+      <concept>
+        <code value="271811009"/>
+      </concept>
+      <concept>
+        <code value="271825005"/>
+      </concept>
+      <concept>
+        <code value="421262002"/>
+      </concept>
+      <concept>
+        <code value="702809001"/>
+      </concept>
+      <concept>
+        <code value="781682005"/>
+      </concept>
+      <concept>
+        <code value="23924001"/>
+      </concept>
+      <concept>
+        <code value="41291007"/>
+      </concept>
+      <concept>
+        <code value="60555002"/>
+      </concept>
+      <concept>
+        <code value="230145002"/>
+      </concept>
+      <concept>
+        <code value="399992009"/>
+      </concept>
+      <concept>
+        <code value="422587007"/>
+      </concept>
+      <concept>
+        <code value="7231009"/>
+      </concept>
+      <concept>
+        <code value="40275004"/>
+      </concept>
+      <concept>
+        <code value="195967001"/>
+      </concept>
+      <concept>
+        <code value="279333002"/>
+      </concept>
+      <concept>
+        <code value="698247007"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

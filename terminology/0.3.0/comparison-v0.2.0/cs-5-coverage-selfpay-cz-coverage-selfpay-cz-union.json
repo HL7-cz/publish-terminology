@@ -1,0 +1,28 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "5bc82b81-07ce-410b-8d29-8298f2cfafcb-14",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/5bc82b81-07ce-410b-8d29-8298f2cfafcb-14",
+  "name" : "UnionCoverageSelfPayCodesCZAndCoverageSelfPayCodesCZ",
+  "title" : "Union of Coverage SelfPay Codes (CZ supplement) And Coverage SelfPay Codes (CZ supplement)",
+  "status" : "draft",
+  "date" : "2026-07-27T16:47:06+02:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CZ",
+      "display" : "Czechia"
+    }]
+  }],
+  "concept" : [{
+    "code" : "pay",
+    "display" : "samoplátce",
+    "definition" : "An individual or organization is paying directly for goods and services.",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "Pay"
+    }]
+  }]
+}

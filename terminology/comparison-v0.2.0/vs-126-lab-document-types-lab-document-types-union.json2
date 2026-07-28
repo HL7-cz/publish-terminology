@@ -1,0 +1,52 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "3be28065-604a-49db-82ac-da3be23fd237-125",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/3be28065-604a-49db-82ac-da3be23fd237-125",
+  "name" : "UnionLabDocumentTypesAndLabDocumentTypes",
+  "title" : "Union of Typy laboratorních dokumentů And Typy laboratorních dokumentů",
+  "status" : "draft",
+  "date" : "2026-07-27T16:56:47+02:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CZ",
+      "display" : "Czechia"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "18716-1",
+        "display" : "Laboratorní zpráva alergologická"
+      },
+      {
+        "code" : "18717-9",
+        "display" : "Laboratorní zpráva transfůzní"
+      },
+      {
+        "code" : "18719-5",
+        "display" : "Laboratorní zpráva biochemická"
+      },
+      {
+        "code" : "18722-9",
+        "display" : "Laboratorní zpráva reprodukční"
+      },
+      {
+        "code" : "18723-7",
+        "display" : "Laboratorní zpráva hematologická"
+      },
+      {
+        "code" : "18725-2",
+        "display" : "Laboratorní zpráva mikrobiologická"
+      },
+      {
+        "code" : "18728-6",
+        "display" : "Laboratorní zpráva toxikologická"
+      },
+      {
+        "code" : "26436-6",
+        "display" : "Laboratorní zpráva"
+      }]
+    }]
+  }
+}

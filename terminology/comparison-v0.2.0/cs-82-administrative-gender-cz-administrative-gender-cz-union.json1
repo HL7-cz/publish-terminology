@@ -1,0 +1,64 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "3be28065-604a-49db-82ac-da3be23fd237-5",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/3be28065-604a-49db-82ac-da3be23fd237-5",
+  "name" : "UnionAdministrativeGenderCzAndAdministrativeGenderCz",
+  "title" : "Union of Administrative Gender (CZ supplement) And Administrative Gender (CZ supplement)",
+  "status" : "draft",
+  "date" : "2026-07-27T16:56:47+02:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CZ",
+      "display" : "Czechia"
+    }]
+  }],
+  "concept" : [{
+    "code" : "female",
+    "display" : "žena",
+    "definition" : "Žena",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "Female"
+    }]
+  },
+  {
+    "code" : "male",
+    "display" : "muž",
+    "definition" : "Muž",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "Male"
+    }]
+  },
+  {
+    "code" : "other",
+    "display" : "jiné",
+    "definition" : "Jiné",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "Other"
+    }]
+  },
+  {
+    "code" : "unknown",
+    "display" : "neznámé",
+    "definition" : "Neznámé",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "Unknown"
+    }]
+  }]
+}

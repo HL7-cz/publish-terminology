@@ -1,0 +1,60 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "3be28065-604a-49db-82ac-da3be23fd237-39",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/3be28065-604a-49db-82ac-da3be23fd237-39",
+  "name" : "IntersectionNCLPMATAndNCLPMAT",
+  "title" : "Intersection of NCLPMAT And NCLPMAT",
+  "status" : "active",
+  "date" : "2026-07-27T16:56:47+02:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CZ",
+      "display" : "Czechia"
+    }]
+  }],
+  "property" : [{
+    "code" : "klic",
+    "type" : "string"
+  },
+  {
+    "code" : "kod",
+    "type" : "string"
+  },
+  {
+    "code" : "kodl",
+    "type" : "string"
+  },
+  {
+    "code" : "n24",
+    "type" : "string"
+  },
+  {
+    "code" : "n32",
+    "type" : "string"
+  },
+  {
+    "code" : "n32l",
+    "type" : "string"
+  },
+  {
+    "code" : "n55",
+    "type" : "string"
+  },
+  {
+    "code" : "n55l",
+    "type" : "string"
+  },
+  {
+    "code" : "plati_do",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "plati_od",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "poradi",
+    "type" : "string"
+  }]
+}

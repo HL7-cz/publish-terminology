@@ -3,11 +3,11 @@
   "id" : "allergy-intolerance-criticality-cz",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem allergy-intolerance-criticality-cz</b></p><a name=\"allergy-intolerance-criticality-cz\"> </a><a name=\"hcallergy-intolerance-criticality-cz\"> </a><p>This code system supplement <code>https://hl7.cz/terminology/CodeSystem/allergy-intolerance-criticality-cz</code> defines displays on the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>English (English, en)</b></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://hl7.org/fhir/R4/codesystem-allergy-intolerance-criticality.html#allergy-intolerance-criticality-high\">high</a><a name=\"allergy-intolerance-criticality-cz-high\"> </a></td><td>vysoké riziko</td><td>V nejhorším případě je výsledek budoucí expozice hodnocen jako život ohrožující nebo s vysokým rizikem selhání orgánového systému.</td><td>Worst case result of a future exposure is assessed to be life-threatening or having high potential for organ system failure.</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://hl7.org/fhir/R4/codesystem-allergy-intolerance-criticality.html#allergy-intolerance-criticality-low\">low</a><a name=\"allergy-intolerance-criticality-cz-low\"> </a></td><td>nízké riziko</td><td>Nejhorší možný výsledek budoucí expozice není hodnocen jako život ohrožující ani jako vysoce pravděpodobný selhání orgánového systému.</td><td>Worst case result of a future exposure is not assessed to be life-threatening or having high potential for organ system failure.</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://hl7.org/fhir/R4/codesystem-allergy-intolerance-criticality.html#allergy-intolerance-criticality-unable-to-assess\">unable-to-assess</a><a name=\"allergy-intolerance-criticality-cz-unable-to-assess\"> </a></td><td>riziko nelze posoudit</td><td>Není možné odhadnout nejhorší možný výsledek budoucí expozice.</td><td>Unable to assess the worst case result of a future exposure.</td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem allergy-intolerance-criticality-cz</b></p><a name=\"allergy-intolerance-criticality-cz\"> </a><a name=\"hcallergy-intolerance-criticality-cz\"> </a><p>This code system supplement <code>https://hl7.cz/terminology/CodeSystem/allergy-intolerance-criticality-cz</code> defines features on the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://hl7.org/fhir/R4/codesystem-allergy-intolerance-criticality.html#allergy-intolerance-criticality-high\">high</a><a name=\"allergy-intolerance-criticality-cz-high\"> </a></td><td>vysoké riziko</td><td>V nejhorším případě je výsledek budoucí expozice hodnocen jako život ohrožující nebo s vysokým rizikem selhání orgánového systému.</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://hl7.org/fhir/R4/codesystem-allergy-intolerance-criticality.html#allergy-intolerance-criticality-low\">low</a><a name=\"allergy-intolerance-criticality-cz-low\"> </a></td><td>nízké riziko</td><td>Nejhorší možný výsledek budoucí expozice není hodnocen jako život ohrožující ani jako vysoce pravděpodobný selhání orgánového systému.</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://hl7.org/fhir/R4/codesystem-allergy-intolerance-criticality.html#allergy-intolerance-criticality-unable-to-assess\">unable-to-assess</a><a name=\"allergy-intolerance-criticality-cz-unable-to-assess\"> </a></td><td>riziko nelze posoudit</td><td>Není možné odhadnout nejhorší možný výsledek budoucí expozice.</td></tr></table></div>"
   },
   "url" : "https://hl7.cz/terminology/CodeSystem/allergy-intolerance-criticality-cz",
-  "version" : "0.2.0",
-  "name" : "AllergyIntoleranceCriticality",
+  "version" : "4.0.1",
+  "name" : "AllergyIntoleranceCriticalityCz",
   "title" : "AllergyIntoleranceCriticality (CZ supplement)",
   "status" : "active",
   "experimental" : false,
@@ -33,58 +33,16 @@
   "concept" : [{
     "code" : "high",
     "display" : "vysoké riziko",
-    "definition" : "V nejhorším případě je výsledek budoucí expozice hodnocen jako život ohrožující nebo s vysokým rizikem selhání orgánového systému.",
-    "designation" : [{
-      "language" : "en",
-      "use" : {
-        "code" : "definition"
-      },
-      "value" : "Worst case result of a future exposure is assessed to be life-threatening or having high potential for organ system failure."
-    },
-    {
-      "language" : "en",
-      "use" : {
-        "code" : "display"
-      },
-      "value" : "High Risk"
-    }]
+    "definition" : "V nejhorším případě je výsledek budoucí expozice hodnocen jako život ohrožující nebo s vysokým rizikem selhání orgánového systému."
   },
   {
     "code" : "low",
     "display" : "nízké riziko",
-    "definition" : "Nejhorší možný výsledek budoucí expozice není hodnocen jako život ohrožující ani jako vysoce pravděpodobný selhání orgánového systému.",
-    "designation" : [{
-      "language" : "en",
-      "use" : {
-        "code" : "definition"
-      },
-      "value" : "Worst case result of a future exposure is not assessed to be life-threatening or having high potential for organ system failure."
-    },
-    {
-      "language" : "en",
-      "use" : {
-        "code" : "display"
-      },
-      "value" : "Low Risk"
-    }]
+    "definition" : "Nejhorší možný výsledek budoucí expozice není hodnocen jako život ohrožující ani jako vysoce pravděpodobný selhání orgánového systému."
   },
   {
     "code" : "unable-to-assess",
     "display" : "riziko nelze posoudit",
-    "definition" : "Není možné odhadnout nejhorší možný výsledek budoucí expozice.",
-    "designation" : [{
-      "language" : "en",
-      "use" : {
-        "code" : "definition"
-      },
-      "value" : "Unable to assess the worst case result of a future exposure."
-    },
-    {
-      "language" : "en",
-      "use" : {
-        "code" : "display"
-      },
-      "value" : "Unable to Assess Risk"
-    }]
+    "definition" : "Není možné odhadnout nejhorší možný výsledek budoucí expozice."
   }]
 }

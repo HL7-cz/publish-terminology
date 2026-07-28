@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="cz-sitequalifier"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="2"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use"/>
+  </extension>
+  <url value="https://ncez.mzcr.cz/terminology/ValueSet/cz-sitequalifier"/>
+  <version value="1.0.0"/>
+  <name value="CZ_SiteQualifier"/>
+  <title value="Body Structure Qualifier"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2024-01-01"/>
+  <publisher value="HL7 Czech Republic"/>
+  <contact>
+    <name value="HL7 Czech Republic"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hl7.cz/"/>
+    </telecom>
+  </contact>
+  <description value="Body Structure site qualifier. It indicates the body site qualifier from which a specimen is collected. (based on SNOMED CT)"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CZ"/>
+      <display value="Czechia"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"/>
+  <compose>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <concept>
+        <code value="7771000"/>
+      </concept>
+      <concept>
+        <code value="24028007"/>
+      </concept>
+      <concept>
+        <code value="51440002"/>
+      </concept>
+      <concept>
+        <code value="46053002"/>
+      </concept>
+      <concept>
+        <code value="255554000"/>
+      </concept>
+      <concept>
+        <code value="261183002"/>
+      </concept>
+      <concept>
+        <code value="261122009"/>
+      </concept>
+      <concept>
+        <code value="255561001"/>
+      </concept>
+      <concept>
+        <code value="49370004"/>
+      </concept>
+      <concept>
+        <code value="264217000"/>
+      </concept>
+      <concept>
+        <code value="261089000"/>
+      </concept>
+      <concept>
+        <code value="255551008"/>
+      </concept>
+      <concept>
+        <code value="351726001"/>
+      </concept>
+      <concept>
+        <code value="352730000"/>
+      </concept>
+      <concept>
+        <code value="40415009"/>
+      </concept>
+      <concept>
+        <code value="255549009"/>
+      </concept>
+      <concept>
+        <code value="26283006"/>
+      </concept>
+      <concept>
+        <code value="795002"/>
+      </concept>
+      <concept>
+        <code value="57195005"/>
+      </concept>
+      <concept>
+        <code value="3583002"/>
+      </concept>
+      <concept>
+        <code value="66787007"/>
+      </concept>
+      <concept>
+        <code value="255481003"/>
+      </concept>
+      <concept>
+        <code value="255497008"/>
+      </concept>
+      <concept>
+        <code value="255480002"/>
+      </concept>
+      <concept>
+        <code value="255495000"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

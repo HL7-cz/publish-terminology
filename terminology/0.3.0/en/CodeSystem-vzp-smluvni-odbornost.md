@@ -1,0 +1,2197 @@
+# VZP - smluvní odbornost pracovišť - HL7 Czech Terminology Implementation Guide v0.3.0
+
+## CodeSystem: VZP - smluvní odbornost pracovišť 
+
+ 
+Kódový systém VZP - smluvní odbornost pracovišť je využíván pro objednávání a vykazování/vyúčtování zdravotních služeb. 
+
+This Code system is referenced in the definition of the following value sets:
+
+* [VZPSmluvniOdbornost](ValueSet-vzp-smluvni-odbornost.md)
+
+-------
+
+ [Description of the above table(s)](http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#terminology). 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "CodeSystem",
+  "id" : "vzp-smluvni-odbornost",
+  "language" : "cs",
+  "url" : "https://ncez.mzcr.cz/terminology/CodeSystem/vzp-smluvni-odbornost",
+  "version" : "770",
+  "name" : "VzpSmluvniOdbornost",
+  "title" : "VZP - smluvní odbornost pracovišť",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-07-27T08:33:56.224248Z",
+  "publisher" : "HL7 Czech Republic",
+  "contact" : [{
+    "name" : "HL7 Czech Republic",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.hl7.cz/"
+    }]
+  }],
+  "description" : "Kódový systém VZP - smluvní odbornost pracovišť je využíván pro objednávání a vykazování/vyúčtování zdravotních služeb.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CZ",
+      "display" : "Czechia"
+    }]
+  }],
+  "caseSensitive" : false,
+  "content" : "complete",
+  "count" : 324,
+  "property" : [{
+    "code" : "SODB",
+    "type" : "string"
+  }],
+  "concept" : [{
+    "code" : "001",
+    "display" : "Pracoviště praktického lékaře pro dospělé"
+  },
+  {
+    "code" : "002",
+    "display" : "Pracoviště praktického lékaře pro děti a dorost"
+  },
+  {
+    "code" : "003",
+    "display" : "Pracoviště LSPP"
+  },
+  {
+    "code" : "004",
+    "display" : "Pracoviště zvláštní ambulantní péče v ZZ ústavní péče"
+  },
+  {
+    "code" : "014",
+    "display" : "Pracoviště praktického zubního lékaře"
+  },
+  {
+    "code" : "015",
+    "display" : "Pracoviště čelistní ortopedie"
+  },
+  {
+    "code" : "019",
+    "display" : "Pracoviště stomatologické LSPP"
+  },
+  {
+    "code" : "091",
+    "display" : "Pracoviště péče o dárce krvetvorných buněk"
+  },
+  {
+    "code" : "101",
+    "display" : "Pracoviště interního lékařství"
+  },
+  {
+    "code" : "102",
+    "display" : "Pracoviště angiologie"
+  },
+  {
+    "code" : "103",
+    "display" : "Pracoviště diabetologie"
+  },
+  {
+    "code" : "104",
+    "display" : "Pracoviště endokrinologie (mimo laboratorní činnosti)"
+  },
+  {
+    "code" : "105",
+    "display" : "Pracoviště gastroenterologie a hepatologie"
+  },
+  {
+    "code" : "106",
+    "display" : "Pracoviště geriatrie"
+  },
+  {
+    "code" : "107",
+    "display" : "Pracoviště kardiologie"
+  },
+  {
+    "code" : "108",
+    "display" : "Pracoviště nefrologie"
+  },
+  {
+    "code" : "109",
+    "display" : "Pracoviště revmatologie"
+  },
+  {
+    "code" : "128",
+    "display" : "Pracoviště hemodialýzy"
+  },
+  {
+    "code" : "1F1",
+    "display" : "Pracoviště standardní ústavní lůžkové péče interní - F typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "1_1"
+    }]
+  },
+  {
+    "code" : "1F3",
+    "display" : "Pracoviště standard. úst. lůžk. péče diabetologické - F typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "1_1"
+    }]
+  },
+  {
+    "code" : "1F4",
+    "display" : "Pracoviště stand. úst. lůžk. péče endokrinologické - F typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "1_1"
+    }]
+  },
+  {
+    "code" : "1F5",
+    "display" : "Prac. stand. úst. lůžk. péče gastroent. a hepatol. - F typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "1_1"
+    }]
+  },
+  {
+    "code" : "1F6",
+    "display" : "Pracoviště standardní ústav. lůžk. péče geriatrické - F typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "1_6"
+    }]
+  },
+  {
+    "code" : "1F7",
+    "display" : "Pracoviště standard. úst. lůžk. péče kardiologické  - F typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "1_7"
+    }]
+  },
+  {
+    "code" : "1F8",
+    "display" : "Pracoviště standard. ústav. lůžk. péče nefrologické - F typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "1_1"
+    }]
+  },
+  {
+    "code" : "1F9",
+    "display" : "Pracoviště standard. úst. lůžk. péče revmatologické - F typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "1_9"
+    }]
+  },
+  {
+    "code" : "1H1",
+    "display" : "Pracoviště standardní ústavní lůžk. péče interní - H typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "1_1"
+    }]
+  },
+  {
+    "code" : "1H3",
+    "display" : "Pracoviště standard. úst. lůžk. péče diabetologické - H typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "1_1"
+    }]
+  },
+  {
+    "code" : "1H4",
+    "display" : "Pracoviště stand. úst. lůžk. péče endokrinologické - H typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "1_1"
+    }]
+  },
+  {
+    "code" : "1H5",
+    "display" : "Prac. stand. úst. lůžk. péče gastroent. a hepatol. - H typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "1_1"
+    }]
+  },
+  {
+    "code" : "1H6",
+    "display" : "Pracoviště standardní ústav. lůžk. péče geriatrické - H typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "1_6"
+    }]
+  },
+  {
+    "code" : "1H7",
+    "display" : "Pracoviště standard. úst. lůžk. péče kardiologické - H typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "1_7"
+    }]
+  },
+  {
+    "code" : "1H8",
+    "display" : "Pracoviště standardní ústav. lůžk.péče nefrologické - H typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "1_1"
+    }]
+  },
+  {
+    "code" : "1H9",
+    "display" : "Pracoviště standard. úst. lůžk. péče revmatologické - H typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "1_9"
+    }]
+  },
+  {
+    "code" : "1I1",
+    "display" : "Prac. resusc. a intenziv. ústavní lůž. péče interní - I typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "1_1"
+    }]
+  },
+  {
+    "code" : "1I3",
+    "display" : "Pracoviště intenzivní ústavní lůž.péče diabetolog.- I typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "1_1"
+    }]
+  },
+  {
+    "code" : "1I5",
+    "display" : "Pracoviště intenzivní ústavní lůž. péče hepatolog. - I typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "1_1"
+    }]
+  },
+  {
+    "code" : "1I6",
+    "display" : "Pracov.resusc. a intenziv.úst. lůž. péče geriatric. - I typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "1_6"
+    }]
+  },
+  {
+    "code" : "1I7",
+    "display" : "Pracov.resusc.a intenziv.úst. lůž. péče kardiologic.- I typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "1_7"
+    }]
+  },
+  {
+    "code" : "1I8",
+    "display" : "Pracoviště intenziv. úst. lůž. péče nefrologic. - I typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "1_1"
+    }]
+  },
+  {
+    "code" : "1R7",
+    "display" : "Pracoviště - operační sály kardiologie",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "1_7"
+    }]
+  },
+  {
+    "code" : "1T1",
+    "display" : "Pracov. resusc. a intenziv. úst. lůž. péče interní - T typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "1_1"
+    }]
+  },
+  {
+    "code" : "1T3",
+    "display" : "Pracoviště intenziv. ústav. lůž. péče  diabetolog. - T typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "1_1"
+    }]
+  },
+  {
+    "code" : "1T5",
+    "display" : "Pracoviště intenziv. ústavní lůž. péče  hepatolog. - T typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "1_1"
+    }]
+  },
+  {
+    "code" : "1T6",
+    "display" : "Pracov. resusc.a intenziv.úst.lůž. péče geriatric. - T typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "1_6"
+    }]
+  },
+  {
+    "code" : "1T7",
+    "display" : "Pracov. resusc.a intenziv.ústav.lůž. péče kardiolog.- T typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "1_7"
+    }]
+  },
+  {
+    "code" : "1T8",
+    "display" : "Pracoviště intenziv. úst. lůž. péče nefrologic. - T typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "1_1"
+    }]
+  },
+  {
+    "code" : "1U1",
+    "display" : "Pracoviště dlouhodobé (chronické) interní lůž.péče - U typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "1_1"
+    }]
+  },
+  {
+    "code" : "1U6",
+    "display" : "Pracov. dlouhodobé (chronické) geriatrické lůž.péče - U typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "1_6"
+    }]
+  },
+  {
+    "code" : "1U9",
+    "display" : "Pracov.dlouhodobé (chronické) revmatolog. lůž. péče - U typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "1_9"
+    }]
+  },
+  {
+    "code" : "201",
+    "display" : "Pracoviště fyziatrie a rehabilitačního lékařství"
+  },
+  {
+    "code" : "202",
+    "display" : "Pracoviště klinické hematologie"
+  },
+  {
+    "code" : "203",
+    "display" : "Pracoviště přenosných nemocí"
+  },
+  {
+    "code" : "204",
+    "display" : "Pracoviště tělovýchovného lékařství"
+  },
+  {
+    "code" : "205",
+    "display" : "Pracoviště tuberkulózy a respiračních nemocí"
+  },
+  {
+    "code" : "206",
+    "display" : "Pracoviště klinické farmakologie (mimo laboratorní činnosti)"
+  },
+  {
+    "code" : "207",
+    "display" : "Pracoviště alergologie a klinické imunologie"
+  },
+  {
+    "code" : "208",
+    "display" : "Pracoviště lékařské genetiky"
+  },
+  {
+    "code" : "209",
+    "display" : "Pracoviště neurologie"
+  },
+  {
+    "code" : "222",
+    "display" : "Pracoviště transfúzní služby"
+  },
+  {
+    "code" : "2F1",
+    "display" : "Pracov. standardní ústav. lůž. péče rehabilitační - F typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "2_1"
+    }]
+  },
+  {
+    "code" : "2F2",
+    "display" : "Pracov. standard.úst.lůž. péče klinické hematologie - F typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "2_2"
+    }]
+  },
+  {
+    "code" : "2F3",
+    "display" : "Pracov. standard. úst. lůž. péče přenosných nemocí - F typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "2_3"
+    }]
+  },
+  {
+    "code" : "2F5",
+    "display" : "Pracov. standard. ústav. lůž. péče TRN a pneumolog. - F typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "2_5"
+    }]
+  },
+  {
+    "code" : "2F6",
+    "display" : "Pracov. standard.úst.lůž.péče klinické farmakologie - F typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "2_6"
+    }]
+  },
+  {
+    "code" : "2F7",
+    "display" : "Prac.stand.úst.lůžk.péče klin.imunolog.a alergolog. - F typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "2_7"
+    }]
+  },
+  {
+    "code" : "2F9",
+    "display" : "Pracov. standardní ústavní lůžk. péče neurologické - F typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "2_9"
+    }]
+  },
+  {
+    "code" : "2H1",
+    "display" : "Pracov. standardní ústavní lůžk. péče rehabilitační - H typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "2_1"
+    }]
+  },
+  {
+    "code" : "2H2",
+    "display" : "Prac.standard.ústav.lůžk. péče klinické hematologie - H typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "2_2"
+    }]
+  },
+  {
+    "code" : "2H3",
+    "display" : "Pracov. standard. úst. lůž. péče přenosných nemocí - H typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "2_3"
+    }]
+  },
+  {
+    "code" : "2H5",
+    "display" : "Pracov. standard.ústav. lůžk. péče TRN a pneumolog. - H typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "2_5"
+    }]
+  },
+  {
+    "code" : "2H7",
+    "display" : "Prac. stand.úst.lůž.péče klin.imunolog.a alergolog. - H typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "2_7"
+    }]
+  },
+  {
+    "code" : "2H9",
+    "display" : "Pracov.standardní ústavní lůžkové péče neurologické - H typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "2_9"
+    }]
+  },
+  {
+    "code" : "2I2",
+    "display" : "Prac. resusc. a intenz. úst.lůž.péče klin.hematolog.- I typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "2_2"
+    }]
+  },
+  {
+    "code" : "2I3",
+    "display" : "Prac. resusc. a intenz. úst. lůž.péče přenos.nemocí - I typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "2_3"
+    }]
+  },
+  {
+    "code" : "2I5",
+    "display" : "Prac.resusc. a intenz.úst.lůž.péče TRN a pneumolog. - I typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "2_5"
+    }]
+  },
+  {
+    "code" : "2I9",
+    "display" : "Pracov. resusc. a intenz.úst.lůž. péče neurologické - I typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "2_9"
+    }]
+  },
+  {
+    "code" : "2S1",
+    "display" : "Prac. poskyt.péči na spinálních rehabil.jednotkách",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "2_1"
+    }]
+  },
+  {
+    "code" : "2T2",
+    "display" : "Prac. resusc. a intenz. úst.lůž.péče klin.hematolog.- T typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "2_2"
+    }]
+  },
+  {
+    "code" : "2T3",
+    "display" : "Prac. resusc. a intenz. úst. lůž.péče přenos.nemocí - T typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "2_3"
+    }]
+  },
+  {
+    "code" : "2T5",
+    "display" : "Prac.resusc. a intenz.úst.lůž.péče TRN a pneumolog. - T typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "2_5"
+    }]
+  },
+  {
+    "code" : "2T9",
+    "display" : "Prac. resusc. a intenz. úst. lůž. péče neurologické - T typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "2_9"
+    }]
+  },
+  {
+    "code" : "2U1",
+    "display" : "Pracov. dlouhodobé ústav. lůž. rehabilitační péče - U typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "2_1"
+    }]
+  },
+  {
+    "code" : "2U5",
+    "display" : "Pracov. dlouhodobé ústav.lůž.TRN a pneumolog.péče - U typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "2_5"
+    }]
+  },
+  {
+    "code" : "2U9",
+    "display" : "Pracov. dlouhodobé (chronické) úst.neurolog. péče - U typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "2_9"
+    }]
+  },
+  {
+    "code" : "301",
+    "display" : "Pracoviště pediatrie"
+  },
+  {
+    "code" : "302",
+    "display" : "Pracoviště dětské kardiologie"
+  },
+  {
+    "code" : "303",
+    "display" : "Pracoviště dorostového lékařství"
+  },
+  {
+    "code" : "304",
+    "display" : "Pracoviště neonatologie"
+  },
+  {
+    "code" : "305",
+    "display" : "Pracoviště psychiatrie"
+  },
+  {
+    "code" : "306",
+    "display" : "Pracoviště dětské psychiatrie"
+  },
+  {
+    "code" : "307",
+    "display" : "Pracoviště gerontopsychiatrie"
+  },
+  {
+    "code" : "308",
+    "display" : "Pracoviště léčby alkoholismu a jiných toxikomanií"
+  },
+  {
+    "code" : "309",
+    "display" : "Pracoviště sexuologie"
+  },
+  {
+    "code" : "3F1",
+    "display" : "Pracov. standardní ústavní lůžkové péče pediatrické - F typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "3_1"
+    }]
+  },
+  {
+    "code" : "3F2",
+    "display" : "Pracov. standard. úst. lůž. péče dětské kardiologie - F typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "1_7"
+    }]
+  },
+  {
+    "code" : "3F3",
+    "display" : "Prac. standard.úst.lůžk. péče dorostového lékařství - F typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "1_1"
+    }]
+  },
+  {
+    "code" : "3F4",
+    "display" : "Pracov. standard. úst. lůžk. péče o novorozence - F typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "3_4"
+    }]
+  },
+  {
+    "code" : "3F5",
+    "display" : "Pracov. standard. úst. lůž. péče psychiatrické - F typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "3_5"
+    }]
+  },
+  {
+    "code" : "3F6",
+    "display" : "Prac. standard. úst. lůž. péče dětské psychiatrie - F typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "3_5"
+    }]
+  },
+  {
+    "code" : "3F7",
+    "display" : "Prac. standard. úst. lůž. péče gerontopsychiatric. - F typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "3_5"
+    }]
+  },
+  {
+    "code" : "3H1",
+    "display" : "Pracov. standard. úst. lůž. péče pediatrické - H typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "3_1"
+    }]
+  },
+  {
+    "code" : "3H2",
+    "display" : "Pracov. standard. úst. lůž. péče dětské kardiologie - H typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "1_7"
+    }]
+  },
+  {
+    "code" : "3H3",
+    "display" : "Prac.standard. úst. lůž. péče dorostového lékařství - H typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "1_1"
+    }]
+  },
+  {
+    "code" : "3H4",
+    "display" : "Pracov. standard. úst. lůž. péče o novorozence - H typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "3_4"
+    }]
+  },
+  {
+    "code" : "3H5",
+    "display" : "Pracov. standard. ústav. lůžk. péče psychiatrické - H typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "3_5"
+    }]
+  },
+  {
+    "code" : "3H6",
+    "display" : "Pracov. standard. úst. lůž. péče dětské psychiatrie - H typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "3_5"
+    }]
+  },
+  {
+    "code" : "3H7",
+    "display" : "Pracov.standard. úst. lůž. péče gerontopsychiatric. - H typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "3_5"
+    }]
+  },
+  {
+    "code" : "3I1",
+    "display" : "Pracov.resusc. a intenz. úst. lůž. péče pediatrické - I typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "3_1"
+    }]
+  },
+  {
+    "code" : "3I2",
+    "display" : "Prac. resusc.a intenz.úst.lůž.péče dětské kardiolog - I typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "1_7"
+    }]
+  },
+  {
+    "code" : "3I4",
+    "display" : "Prac.resuscit.a intenziv. ústav.lůž. péče neonatol. - I typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "3_4"
+    }]
+  },
+  {
+    "code" : "3I5",
+    "display" : "Prac.resusc. a intenz. úst. lůž. péče psychiatrické - I typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "3_5"
+    }]
+  },
+  {
+    "code" : "3I6",
+    "display" : "Prac. resusc. a intenz. úst. lůž. péče dět.psychiatr. I typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "3_5"
+    }]
+  },
+  {
+    "code" : "3T1",
+    "display" : "Prac. resusc. a intenz. úst. lůž. péče pediatrické - T typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "3_1"
+    }]
+  },
+  {
+    "code" : "3T2",
+    "display" : "Prac.resusc. a intenz.úst.lůž.péče dětské kardiolog - T typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "1_7"
+    }]
+  },
+  {
+    "code" : "3T4",
+    "display" : "Prac. resusc. a intenz. úst. lůž. péče neonatol. - T typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "3_4"
+    }]
+  },
+  {
+    "code" : "3T5",
+    "display" : "Prac.resusc. a intenz. úst. lůž. péče psychiatrické - T typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "3_5"
+    }]
+  },
+  {
+    "code" : "3T6",
+    "display" : "Prac. resusc. a intenz. úst.lůž.péče dět.psychiatr. - T typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "3_5"
+    }]
+  },
+  {
+    "code" : "3U1",
+    "display" : "Prac.dlouhodobé (chronic.) úst.lůž.péče pediatrické - U typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "3_1"
+    }]
+  },
+  {
+    "code" : "3U5",
+    "display" : "Prac. dlouhodobé (chronic.) úst.lůž.péče psychiatr. - U typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "3_5"
+    }]
+  },
+  {
+    "code" : "3U6",
+    "display" : "Prac. dlouhod.(chronic.) úst.lůž.péče dět.psychiatr.- U typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "3_5"
+    }]
+  },
+  {
+    "code" : "3U7",
+    "display" : "Prac.dlouhod.(chronic.)úst.lůž.péče gerontopsychiatr.-U typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "3_5"
+    }]
+  },
+  {
+    "code" : "3U8",
+    "display" : "Prac. dlouhod.(chronic.) léčba alkohol.a j. toxikom. -U typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "3_5"
+    }]
+  },
+  {
+    "code" : "401",
+    "display" : "Pracoviště pracovního lékařství"
+  },
+  {
+    "code" : "402",
+    "display" : "Pracoviště klinické onkologie (bez radiační onkologie)"
+  },
+  {
+    "code" : "403",
+    "display" : "Pracoviště radioterapie a radiační onkologie"
+  },
+  {
+    "code" : "404",
+    "display" : "Pracoviště dermatovenerologie"
+  },
+  {
+    "code" : "405",
+    "display" : "Pracoviště dětské dermatologie"
+  },
+  {
+    "code" : "406",
+    "display" : "Pracoviště korektivní dermatologie"
+  },
+  {
+    "code" : "407",
+    "display" : "Pracoviště nukleární medicíny"
+  },
+  {
+    "code" : "409",
+    "display" : "Pracoviště dětské neurologie"
+  },
+  {
+    "code" : "4F1",
+    "display" : "Pracov. standard. úst. lůž. péče nemocí z povolání - F typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "4_1"
+    }]
+  },
+  {
+    "code" : "4F2",
+    "display" : "Pracov. standard. úst. lůž. péče onkologické - F typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "4_2"
+    }]
+  },
+  {
+    "code" : "4F3",
+    "display" : "Pracov. standard. úst. lůž. péče radioterapeutické - F typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "4_3"
+    }]
+  },
+  {
+    "code" : "4F4",
+    "display" : "Pracov. standard. úst.lůž.péče dermatovenerologické - F typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "4_4"
+    }]
+  },
+  {
+    "code" : "4F5",
+    "display" : "Pracov. standard. úst.lůž. péče dětské dermatologie - F typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "4_4"
+    }]
+  },
+  {
+    "code" : "4F7",
+    "display" : "Pracov. standard. úst. lůž. péče nukleární medicíny - F typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "4_7"
+    }]
+  },
+  {
+    "code" : "4F9",
+    "display" : "Pracov. standard. úst. lůž. péče dětské neurologie - F typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "2_9"
+    }]
+  },
+  {
+    "code" : "4H1",
+    "display" : "Pracov. standard. úst. lůž. péče nemocí z povolání - H typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "4_1"
+    }]
+  },
+  {
+    "code" : "4H2",
+    "display" : "Pracov. standardní ústavní lůžkové péče onkologické - H typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "4_2"
+    }]
+  },
+  {
+    "code" : "4H3",
+    "display" : "Pracov. standard. úst. lůž. péče radioterapeutické - H typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "4_3"
+    }]
+  },
+  {
+    "code" : "4H4",
+    "display" : "Prac. standard. úst. lůž. péče dermatovenerologické - H typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "4_4"
+    }]
+  },
+  {
+    "code" : "4H5",
+    "display" : "Pracov.standard. úst. lůž. péče dětské dermatologie - H typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "4_4"
+    }]
+  },
+  {
+    "code" : "4H7",
+    "display" : "Pracov. standard. úst. lůž. péče nukleární medicíny - H typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "4_7"
+    }]
+  },
+  {
+    "code" : "4H9",
+    "display" : "Pracov. standard. úst. lůž. péče dětské neurologie - H typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "2_9"
+    }]
+  },
+  {
+    "code" : "4I2",
+    "display" : "Pracov. resusc. a intenz. úst. lůž.péče onkologické - I typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "4_2"
+    }]
+  },
+  {
+    "code" : "4I3",
+    "display" : "Pracov.resusc. a intenz. úst. lůž. péče radioterap. - I typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "4_3"
+    }]
+  },
+  {
+    "code" : "4I9",
+    "display" : "Pracov.resusc. a intenz.úst.lůž.péče dětské neurol. - I typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "2_9"
+    }]
+  },
+  {
+    "code" : "4T2",
+    "display" : "Pracov. resusc. a intenz. úst. lůž.péče onkologické - T typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "4_2"
+    }]
+  },
+  {
+    "code" : "4T3",
+    "display" : "Pracov.resusc. a intenz. úst. lůž. péče radioterap. - T typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "4_3"
+    }]
+  },
+  {
+    "code" : "4T9",
+    "display" : "Prac. resusc. a intenz. úst.lůž.péče dětské neurol. - T typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "2_9"
+    }]
+  },
+  {
+    "code" : "4U5",
+    "display" : "Prac.dlouhod.(chronic.) úst.lůž.péče dětské dermatol.-U typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "4_4"
+    }]
+  },
+  {
+    "code" : "4U9",
+    "display" : "Prac.dlouhod.(chronic.) úst.lůž.péče dětské neurolog.-U typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "2_9"
+    }]
+  },
+  {
+    "code" : "501",
+    "display" : "Pracoviště chirurgie"
+  },
+  {
+    "code" : "502",
+    "display" : "Pracoviště dětské chirurgie"
+  },
+  {
+    "code" : "503",
+    "display" : "Pracoviště úrazové chirurgie"
+  },
+  {
+    "code" : "504",
+    "display" : "Pracoviště cévní chirurgie"
+  },
+  {
+    "code" : "505",
+    "display" : "Pracoviště kardiochirurgie"
+  },
+  {
+    "code" : "506",
+    "display" : "Pracoviště neurochirurgie"
+  },
+  {
+    "code" : "507",
+    "display" : "Pracoviště hrudní chirurgie"
+  },
+  {
+    "code" : "5F1",
+    "display" : "Pracov. standard. úst. lůž. péče chirurgické - F typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "5_1"
+    }]
+  },
+  {
+    "code" : "5F2",
+    "display" : "Pracov. standard. úst. lůž. péče dětské chirurgie - F typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "5_1"
+    }]
+  },
+  {
+    "code" : "5F3",
+    "display" : "Pracov. standard. úst. lůž. péče úrazové chirurgie - F typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "5_3"
+    }]
+  },
+  {
+    "code" : "5F4",
+    "display" : "Pracov. standard. úst. lůž. péče cévní chirurgie - F typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "5_1"
+    }]
+  },
+  {
+    "code" : "5F5",
+    "display" : "Pracov. standard. úst. lůž. péče kardiochirurgické - F typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "5_5"
+    }]
+  },
+  {
+    "code" : "5F6",
+    "display" : "Pracov. standard. úst. lůž. péče neurochirurgické - F typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "5_6"
+    }]
+  },
+  {
+    "code" : "5F7",
+    "display" : "Pracov. standard. úst. lůž. péče hrudní chirurgie - F typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "5_1"
+    }]
+  },
+  {
+    "code" : "5H1",
+    "display" : "Pracov. standard. úst. lůž. péče chirurgické - H typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "5_1"
+    }]
+  },
+  {
+    "code" : "5H2",
+    "display" : "Pracov. standard. úst. lůž. péče dětské chirurgie - H typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "5_1"
+    }]
+  },
+  {
+    "code" : "5H3",
+    "display" : "Pracov. standard. úst. lůž. péče úrazové chirurgie - H typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "5_3"
+    }]
+  },
+  {
+    "code" : "5H4",
+    "display" : "Pracov. standard. úst. lůž. péče cévní chirurgie - H typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "5_1"
+    }]
+  },
+  {
+    "code" : "5H5",
+    "display" : "Pracov. standard. úst. lůž. péče kardiochirurgické - H typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "5_5"
+    }]
+  },
+  {
+    "code" : "5H6",
+    "display" : "Pracov. standard. úst. lůž. péče neurochirurgické - H typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "5_6"
+    }]
+  },
+  {
+    "code" : "5H7",
+    "display" : "Pracov. standard. úst. lůž. péče hrudní chirurgie - H typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "5_1"
+    }]
+  },
+  {
+    "code" : "5I1",
+    "display" : "Pracov. resusc. a intenz. úst. lůž.péče chirurgické - I typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "5_1"
+    }]
+  },
+  {
+    "code" : "5I2",
+    "display" : "Prac. resusc. a intenz. úst.lůž. péče dět.chirurgie - I typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "5_1"
+    }]
+  },
+  {
+    "code" : "5I3",
+    "display" : "Pracov. resusc. a intenz.úst.lůž.péče úraz. chirur. - I typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "5_3"
+    }]
+  },
+  {
+    "code" : "5I4",
+    "display" : "Prac.resusc. a intenz. úst. lůž.péče cévní chirurgie- I typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "5_1"
+    }]
+  },
+  {
+    "code" : "5I5",
+    "display" : "Pracov.resusc. a intenz. úst. lůž. péče kardiochir. - I typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "5_5"
+    }]
+  },
+  {
+    "code" : "5I6",
+    "display" : "Pracov. resusc. a intenz. úst. lůž. péče neurochir. - I typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "5_6"
+    }]
+  },
+  {
+    "code" : "5I7",
+    "display" : "Prac. resusc. a intenz. úst. lůž. péče hrudní chir. - I typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "5_1"
+    }]
+  },
+  {
+    "code" : "5J1",
+    "display" : "Pracoviště jednodenní péče v oboru chirurgie"
+  },
+  {
+    "code" : "5R1",
+    "display" : "Pracoviště-operační sály chirurgie",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "5_1"
+    }]
+  },
+  {
+    "code" : "5R2",
+    "display" : "Pracoviště-operační sály dětské chirurgie",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "5_1"
+    }]
+  },
+  {
+    "code" : "5R3",
+    "display" : "Pracoviště-operační sály úrazové chirurgie",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "5_3"
+    }]
+  },
+  {
+    "code" : "5R4",
+    "display" : "Pracoviště-operační sály cévní chirurgie",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "5_1"
+    }]
+  },
+  {
+    "code" : "5R5",
+    "display" : "Pracoviště-operační sály kardiochirurgie",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "5_5"
+    }]
+  },
+  {
+    "code" : "5R6",
+    "display" : "Pracoviště-operační sály neurochirurgie",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "5_6"
+    }]
+  },
+  {
+    "code" : "5R7",
+    "display" : "Pracoviště-operační sály hrudní chirurgie",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "5_1"
+    }]
+  },
+  {
+    "code" : "5S9",
+    "display" : "Pracov. poskytující péči na spinálních jednotkách",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "5_1"
+    }]
+  },
+  {
+    "code" : "5T1",
+    "display" : "Pracov.resusc. a intenz. úst. lůž. péče chirurgické - T typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "5_1"
+    }]
+  },
+  {
+    "code" : "5T2",
+    "display" : "Prac.resusc. a intenz. úst. lůž. péče dět.chirurgie - T typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "5_1"
+    }]
+  },
+  {
+    "code" : "5T3",
+    "display" : "Pracov. resusc. a intenz.úst.lůž.péče úraz. chirur. - T typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "5_3"
+    }]
+  },
+  {
+    "code" : "5T4",
+    "display" : "Prac.resusc. a intenz. úst. lůž.péče cévní chirurgie- T typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "5_1"
+    }]
+  },
+  {
+    "code" : "5T5",
+    "display" : "Pracov.resusc. a intenz. úst. lůž. péče kardiochir. - T typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "5_5"
+    }]
+  },
+  {
+    "code" : "5T6",
+    "display" : "Pracov. resusc. a intenz. úst. lůž. péče neurochir. - T typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "5_6"
+    }]
+  },
+  {
+    "code" : "5T7",
+    "display" : "Pracov. resusc. a intenz. úst. lůž.péče hrudní chir.- T typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "5_1"
+    }]
+  },
+  {
+    "code" : "601",
+    "display" : "Pracoviště plastické chirurgie"
+  },
+  {
+    "code" : "602",
+    "display" : "Pracoviště popáleninové medicíny"
+  },
+  {
+    "code" : "603",
+    "display" : "Pracoviště gynekologie a porodnictví"
+  },
+  {
+    "code" : "604",
+    "display" : "Pracoviště dětské gynekologie"
+  },
+  {
+    "code" : "605",
+    "display" : "Pracoviště čelistní a obličejové chirurgie"
+  },
+  {
+    "code" : "606",
+    "display" : "Pracoviště ortopedie"
+  },
+  {
+    "code" : "607",
+    "display" : "Pracoviště ortopedické protetiky"
+  },
+  {
+    "code" : "613",
+    "display" : "Pracoviště akreditovaného centra asistované reprodukce"
+  },
+  {
+    "code" : "6F1",
+    "display" : "Pracov. standard. úst. lůž.péče plastické chirurgie - F typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "6_1"
+    }]
+  },
+  {
+    "code" : "6F2",
+    "display" : "Prac. standard. úst. lůž.péče popáleninové medicíny - F typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "6_2"
+    }]
+  },
+  {
+    "code" : "6F3",
+    "display" : "Pracov. standard. úst. lůž. péče gynekologické - F typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "6_3"
+    }]
+  },
+  {
+    "code" : "6F4",
+    "display" : "Pracov. standard. úst. lůž. péče dětské gynekologie - F typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "6_3"
+    }]
+  },
+  {
+    "code" : "6F5",
+    "display" : "Prac.stand.úst.lůž.péče stomatochir.a čelist.ortop. - F typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "6_5"
+    }]
+  },
+  {
+    "code" : "6F6",
+    "display" : "Pracov. standardní ústavní lůž. péče ortopedické - F typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "6_6"
+    }]
+  },
+  {
+    "code" : "6F7",
+    "display" : "Prac.standard. úst. lůž. péče ortopedické protetiky - F typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "6_7"
+    }]
+  },
+  {
+    "code" : "6H1",
+    "display" : "Prac. standard. úst. lůž. péče plastické chirurgie - H typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "6_1"
+    }]
+  },
+  {
+    "code" : "6H2",
+    "display" : "Prac.standard. úst. lůž. péče popáleninové medicíny - H typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "6_2"
+    }]
+  },
+  {
+    "code" : "6H3",
+    "display" : "Pracov. standard. úst. lůž. péče gynekologické - H typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "6_3"
+    }]
+  },
+  {
+    "code" : "6H4",
+    "display" : "Pracov. standard. úst. lůž. péče dětské gynekologie - H typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "6_3"
+    }]
+  },
+  {
+    "code" : "6H6",
+    "display" : "Pracov. standardní ústavní lůžkové péče ortopedické - H typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "6_6"
+    }]
+  },
+  {
+    "code" : "6H7",
+    "display" : "Prac.standard. úst. lůž. péče ortopedické protetiky - H typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "6_7"
+    }]
+  },
+  {
+    "code" : "6I1",
+    "display" : "Prac. resusc. a intenz.úst.lůž.péče plastic.chirur. - I typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "6_1"
+    }]
+  },
+  {
+    "code" : "6I2",
+    "display" : "Prac.resusc. a intenz.úst.lůž.péče popálen.medicín. - I typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "6_2"
+    }]
+  },
+  {
+    "code" : "6I3",
+    "display" : "Prac. resusc. a intenz. úst.lůž. péče gynekologické - I typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "6_3"
+    }]
+  },
+  {
+    "code" : "6I4",
+    "display" : "Prac.resusc. a intenz.úst.lůž. péče dětské gynekol. - I typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "6_3"
+    }]
+  },
+  {
+    "code" : "6I5",
+    "display" : "Prac. intenz.úst.lůž. péče stomatoch.a čelis.ortop.-I typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "6_5"
+    }]
+  },
+  {
+    "code" : "6I6",
+    "display" : "Prac. resusc. a intenz. úst. lůž. péče ortopedické - I typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "6_6"
+    }]
+  },
+  {
+    "code" : "6J1",
+    "display" : "Pracoviště jednodenní péče v oboru plastické chirurgie"
+  },
+  {
+    "code" : "6J3",
+    "display" : "Pracoviště jednodenní péče v oboru gynekologie"
+  },
+  {
+    "code" : "6J6",
+    "display" : "Pracoviště jednodenní péče v oboru ortopedie"
+  },
+  {
+    "code" : "6P3",
+    "display" : "Pracoviště intenz. a intermediární úst.lůž. porodnické péče",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "6_3"
+    }]
+  },
+  {
+    "code" : "6R1",
+    "display" : "Pracovište-operační sály plastické chirurgie",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "6_1"
+    }]
+  },
+  {
+    "code" : "6R2",
+    "display" : "Pracovište-operační sály popáleninové medicíny",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "6_2"
+    }]
+  },
+  {
+    "code" : "6R3",
+    "display" : "Pracovište-operační sály gynekologie",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "6_3"
+    }]
+  },
+  {
+    "code" : "6R4",
+    "display" : "Pracovište-operační sály dětské gynekologie",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "6_3"
+    }]
+  },
+  {
+    "code" : "6R5",
+    "display" : "Pracovište-operační sály stomatochirurgie a čelist.ortopedie",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "6_5"
+    }]
+  },
+  {
+    "code" : "6R6",
+    "display" : "Pracovište-operační sály ortopedie",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "6_6"
+    }]
+  },
+  {
+    "code" : "6T1",
+    "display" : "Prac.resusc. a intenz. úst.lůž.péče plastic.chirur. - T typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "6_1"
+    }]
+  },
+  {
+    "code" : "6T2",
+    "display" : "Prac.resusc. a intenz.úst.lůž.péče popálen.medicín. - T typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "6_2"
+    }]
+  },
+  {
+    "code" : "6T3",
+    "display" : "Prac. resusc. a intenz. úst.lůž. péče gynekologické - T typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "6_3"
+    }]
+  },
+  {
+    "code" : "6T4",
+    "display" : "Prac.resusc. a intenz. úst.lůž.péče dětské gynekol. - T typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "6_3"
+    }]
+  },
+  {
+    "code" : "6T5",
+    "display" : "Prac. res.a inten.úst.lůž.péče stomatoch.a čelis.ortop.-T t.",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "6_5"
+    }]
+  },
+  {
+    "code" : "6T6",
+    "display" : "Pracov. resusc. a intenz. úst.lůž. péče ortopedické - T typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "6_6"
+    }]
+  },
+  {
+    "code" : "6Z1",
+    "display" : "Pracoviště-péče na zákrokovém sálku v oboru plastic.chirurg"
+  },
+  {
+    "code" : "6Z3",
+    "display" : "Pracoviště-péče na zákrokovém sálku v oboru gynekologie"
+  },
+  {
+    "code" : "6Z6",
+    "display" : "Pracoviště-péče na zákrokovém sálku v oboru ortopedie"
+  },
+  {
+    "code" : "701",
+    "display" : "Pracoviště otorinolaryngologie"
+  },
+  {
+    "code" : "702",
+    "display" : "Pracoviště foniatrie"
+  },
+  {
+    "code" : "703",
+    "display" : "Pracoviště audiologie"
+  },
+  {
+    "code" : "704",
+    "display" : "Pracoviště dětské otorinolaryngologie"
+  },
+  {
+    "code" : "705",
+    "display" : "Pracoviště oftalmologie"
+  },
+  {
+    "code" : "706",
+    "display" : "Pracoviště urologie"
+  },
+  {
+    "code" : "707",
+    "display" : "Pracoviště dětské urologie"
+  },
+  {
+    "code" : "708",
+    "display" : "Pracoviště anesteziologicko - resuscitační"
+  },
+  {
+    "code" : "709",
+    "display" : "Pracoviště zdravotnické záchranné služby (RZP+RLP)"
+  },
+  {
+    "code" : "7D8",
+    "display" : "Pracoviště dlouhodobé intenzivní péče (DIP)",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "7_8"
+    }]
+  },
+  {
+    "code" : "7F1",
+    "display" : "Pracoviště standardní ústavní lůžkové péče ORL - F typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "7_1"
+    }]
+  },
+  {
+    "code" : "7F2",
+    "display" : "Pracov. standardní ústavní lůžkové péče foniatrické - F typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "7_2"
+    }]
+  },
+  {
+    "code" : "7F4",
+    "display" : "Pracov. standardní ústavní lůžkové péče dětské ORL - F typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "7_1"
+    }]
+  },
+  {
+    "code" : "7F5",
+    "display" : "Prac. standard. ústavní lůžkové péče oftalmologické - F typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "7_5"
+    }]
+  },
+  {
+    "code" : "7F6",
+    "display" : "Pracov. standardní ústavní lůžkové péče urologické - F typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "7_6"
+    }]
+  },
+  {
+    "code" : "7F7",
+    "display" : "Prac. standard. ústav. lůžkové péče dětské urologie - F typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "7_6"
+    }]
+  },
+  {
+    "code" : "7H1",
+    "display" : "Pracov. standardní ústavní lůžkové péče ORL - H typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "7_1"
+    }]
+  },
+  {
+    "code" : "7H2",
+    "display" : "Pracov. standardní ústavní lůžkové péče foniatrické - H typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "7_2"
+    }]
+  },
+  {
+    "code" : "7H4",
+    "display" : "Pracov. standardní ústavní lůžkové péče dětské ORL - H typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "7_1"
+    }]
+  },
+  {
+    "code" : "7H5",
+    "display" : "Prac. standard. ústavní lůžkové péče oftalmologické - H typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "7_5"
+    }]
+  },
+  {
+    "code" : "7H6",
+    "display" : "Pracov. standardní ústavní lůžkové péče urologické - H typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "7_6"
+    }]
+  },
+  {
+    "code" : "7H7",
+    "display" : "Pracov. standard. ústav. lůž. péče dětské urologie - H typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "7_6"
+    }]
+  },
+  {
+    "code" : "7I1",
+    "display" : "Pracov. resusc. a intenz. ústav. lůžkové péče ORL - I typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "7_1"
+    }]
+  },
+  {
+    "code" : "7I4",
+    "display" : "Pracov. resusc. a intenz. úst. lůž. péče dětské ORL - I typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "7_1"
+    }]
+  },
+  {
+    "code" : "7I6",
+    "display" : "Pracov.resusc. a intenz. ústav. lůž.péče urologické - I typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "7_6"
+    }]
+  },
+  {
+    "code" : "7I7",
+    "display" : "Pracov.resusc. a intenz. úst. lůž.péče dět.urologie - I typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "7_6"
+    }]
+  },
+  {
+    "code" : "7I8",
+    "display" : "Pracov. resuscitační ústavní lůžkové péče - ARO - I typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "7_8"
+    }]
+  },
+  {
+    "code" : "7J1",
+    "display" : "Pracoviště jednodenní péče v oboru ORL"
+  },
+  {
+    "code" : "7J6",
+    "display" : "Pracoviště jednodenní péče v oboru urologie"
+  },
+  {
+    "code" : "7R1",
+    "display" : "Pracoviště-operační sály ORL",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "7_1"
+    }]
+  },
+  {
+    "code" : "7R5",
+    "display" : "Pracoviště-operační sály oftalmologie"
+  },
+  {
+    "code" : "7R6",
+    "display" : "Pracoviště-operační sály urologie",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "7_6"
+    }]
+  },
+  {
+    "code" : "7R7",
+    "display" : "Pracoviště-operační sály dětské urologie",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "7_6"
+    }]
+  },
+  {
+    "code" : "7T1",
+    "display" : "Pracov. resusc. a intenz. ústav. lůžkové péče ORL - T typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "7_1"
+    }]
+  },
+  {
+    "code" : "7T4",
+    "display" : "Pracov. resusc. a intenz. úst. lůž. péče dětské ORL - T typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "7_1"
+    }]
+  },
+  {
+    "code" : "7T6",
+    "display" : "Pracov. resusc. a intenz. úst. lůž. péče urologické - T typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "7_6"
+    }]
+  },
+  {
+    "code" : "7T7",
+    "display" : "Pracov.resusc. a intenz. úst. lůž.péče dět.urologie - T typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "7_6"
+    }]
+  },
+  {
+    "code" : "7T8",
+    "display" : "Pracov. resuscitační ústavní lůžkové péče - ARO - T typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "7_8"
+    }]
+  },
+  {
+    "code" : "7U4",
+    "display" : "Pracov. dlouhod. (chronic.) úst.lůž.péče dětské ORL - U typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "7_1"
+    }]
+  },
+  {
+    "code" : "7U5",
+    "display" : "Pracov. dlouhod.(chronic.) úst.lůž.péče oftalmolog. - U typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "7_5"
+    }]
+  },
+  {
+    "code" : "7U8",
+    "display" : "Pracoviště dlouhodobé intenzivní ošetřovatelské péče (DIOP)",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "7_8"
+    }]
+  },
+  {
+    "code" : "801",
+    "display" : "Pracoviště klinické biochemie"
+  },
+  {
+    "code" : "802",
+    "display" : "Pracoviště lékařské mikrobiologie"
+  },
+  {
+    "code" : "803",
+    "display" : "Pracoviště lékařské bakteriologie"
+  },
+  {
+    "code" : "804",
+    "display" : "Pracoviště lékařské parazitologie"
+  },
+  {
+    "code" : "805",
+    "display" : "Pracoviště lékařské virologie"
+  },
+  {
+    "code" : "806",
+    "display" : "Pracoviště s osvědčením pro provádění screeningu nádoru prsu"
+  },
+  {
+    "code" : "807",
+    "display" : "Pracoviště patologické anatomie"
+  },
+  {
+    "code" : "808",
+    "display" : "Pracoviště soudního lékařství"
+  },
+  {
+    "code" : "809",
+    "display" : "Pracoviště radiodiagnostiky"
+  },
+  {
+    "code" : "810",
+    "display" : "Pracoviště magnetické rezonance"
+  },
+  {
+    "code" : "812",
+    "display" : "Pracoviště jiného laboratorního oboru"
+  },
+  {
+    "code" : "813",
+    "display" : "Laboratoř alergologická a imunologická"
+  },
+  {
+    "code" : "814",
+    "display" : "Laboratoř toxikologická"
+  },
+  {
+    "code" : "815",
+    "display" : "Laboratoř nukleární mediciny"
+  },
+  {
+    "code" : "816",
+    "display" : "Laboratoř lékařské genetiky"
+  },
+  {
+    "code" : "817",
+    "display" : "Laboratoř klinické cytologie"
+  },
+  {
+    "code" : "818",
+    "display" : "Laboratoř hematologická"
+  },
+  {
+    "code" : "820",
+    "display" : "Laboratoř provádějící screening karcinomu děložního hrdla"
+  },
+  {
+    "code" : "822",
+    "display" : "Laboratoř mykologická"
+  },
+  {
+    "code" : "881",
+    "display" : "Ambulance klinické biochemie"
+  },
+  {
+    "code" : "901",
+    "display" : "Pracoviště klinické psychologie"
+  },
+  {
+    "code" : "902",
+    "display" : "Samostatné pracoviště fyzioterapeutů"
+  },
+  {
+    "code" : "903",
+    "display" : "Pracoviště klinické logopedie"
+  },
+  {
+    "code" : "904",
+    "display" : "Samostatné prac. jiných zdrav. pracovníků - vysokoškoláků"
+  },
+  {
+    "code" : "913",
+    "display" : "Prac.ošetřovat. a rehabilit.péče v pobyt.zaříz.sociál.služeb"
+  },
+  {
+    "code" : "914",
+    "display" : "Samostatné pracoviště psychiatrických sester"
+  },
+  {
+    "code" : "917",
+    "display" : "Samostatné pracoviště ergoterapeutů"
+  },
+  {
+    "code" : "921",
+    "display" : "Samostatné pracoviště porodních asistentek"
+  },
+  {
+    "code" : "925",
+    "display" : "Pracoviště domácí péče - SZP"
+  },
+  {
+    "code" : "927",
+    "display" : "Samostatné prac. ortoptických sester"
+  },
+  {
+    "code" : "989",
+    "display" : "Pracoviště dopravy raněných, nemocných a rodiček"
+  },
+  {
+    "code" : "994",
+    "display" : "Odb.pouze pro indik.péče komplementu (lékař.zaměstn.koj.úst)"
+  },
+  {
+    "code" : "995",
+    "display" : "Odbornost pouze pro indikaci dopravy zpět do místa bydliště"
+  },
+  {
+    "code" : "996",
+    "display" : "Odbornost pouze pro úhradu cestovného pacientům"
+  },
+  {
+    "code" : "9F8",
+    "display" : "Pracoviště neúplné ústavní péče - F typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "9_8"
+    }]
+  },
+  {
+    "code" : "9F9",
+    "display" : "Pracov. ústavní péče na ošetřovatelském lůžku - F typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "9_9"
+    }]
+  },
+  {
+    "code" : "9H8",
+    "display" : "Pracoviště neúplné ústavní péče - H typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "9_8"
+    }]
+  },
+  {
+    "code" : "9H9",
+    "display" : "Pracov. ústavní péče na ošetřovatelském lůžku - H typu",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "9_9"
+    }]
+  },
+  {
+    "code" : "9U7",
+    "display" : "Pracov. ústavní následné péče v LDN",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "9_7"
+    }]
+  },
+  {
+    "code" : "9U9",
+    "display" : "Pracov. ústavní následné ošetřovatelské péče v hospici",
+    "property" : [{
+      "code" : "SODB",
+      "valueString" : "9_9"
+    }]
+  }]
+}
+
+```

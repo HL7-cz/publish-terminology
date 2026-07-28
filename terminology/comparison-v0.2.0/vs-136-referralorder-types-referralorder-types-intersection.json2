@@ -1,0 +1,42 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "3be28065-604a-49db-82ac-da3be23fd237-156",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/3be28065-604a-49db-82ac-da3be23fd237-156",
+  "name" : "IntersectionReferralorderTypesAndReferralorderTypes",
+  "title" : "Intersection of Typy žádanek And Typy žádanek",
+  "status" : "draft",
+  "date" : "2026-07-27T16:56:47+02:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CZ",
+      "display" : "Czechia"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "57133-1",
+        "display" : "žádanka o vyšetření"
+      },
+      {
+        "code" : "57830-2",
+        "display" : "žádanka o hospitalizaci"
+      },
+      {
+        "code" : "57154-7",
+        "display" : "žádanka o fyzioterapii"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "721965002",
+        "display" : "žádanka o laboratorní vyšetření"
+      },
+      {
+        "code" : "721964003",
+        "display" : "žádanka o zobrazovací vyšetření"
+      }]
+    }]
+  }
+}

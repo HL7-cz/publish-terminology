@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0131-cz"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/>
+  </text>
+  <url value="https://hl7.cz/terminology/CodeSystem/v2-0131-cz"/>
+  <version value="3.0.0"/>
+  <name value="ContactRole2Cz"/>
+  <title value="Contact Role (CZ supplement)"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-03-03T10:36:45.465879Z"/>
+  <publisher value="HL7 Czech Republic"/>
+  <contact>
+    <name value="HL7 Czech Republic"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hl7.cz/"/>
+    </telecom>
+  </contact>
+  <description value="Role kontaktní osoby. FHIR Code system definition for HL7 v2 table 0131 (Contact Role)."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CZ"/>
+      <display value="Czechia"/>
+    </coding>
+  </jurisdiction>
+  <content value="supplement"/>
+  <supplements value="http://terminology.hl7.org/CodeSystem/v2-0131|3.0.0"/>
+  <property>
+    <code value="preferredForLanguage"/>
+    <type value="string"/>
+  </property>
+  <property>
+    <code value="status"/>
+    <uri value="http://hl7.org/fhir/concept-properties#status"/>
+    <description value="Status"/>
+    <type value="code"/>
+  </property>
+  <concept>
+    <code value="C"/>
+    <display value="emergentní kontakt"/>
+    <definition value="Emergentní kontakt"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="E"/>
+    <display value="zaměstnavatel"/>
+    <definition value="Zaměstnavatel"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="F"/>
+    <display value="federální orgán"/>
+    <definition value="Federální orgán"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="I"/>
+    <display value="pojišťovna"/>
+    <definition value="Pojišťovna"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="N"/>
+    <display value="příbuzný"/>
+    <definition value="Příbuzný"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="O"/>
+    <display value="ostatní"/>
+    <definition value="Ostatní"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="S"/>
+    <display value="státní orgán"/>
+    <definition value="Státní orgán"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="U"/>
+    <display value="neznámý"/>
+    <definition value="Neznámý"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+  </concept>
+</CodeSystem>

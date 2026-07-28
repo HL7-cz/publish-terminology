@@ -1,0 +1,33 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "5bc82b81-07ce-410b-8d29-8298f2cfafcb-59",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/5bc82b81-07ce-410b-8d29-8298f2cfafcb-59",
+  "name" : "UnionMedicalDeviceWithExceptionsVSAndMedicalDeviceWithExceptionsVS",
+  "title" : "Union of Medical Device with exceptions And Medical Device with exceptions",
+  "status" : "active",
+  "date" : "2026-07-27T16:47:06+02:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CZ",
+      "display" : "Czechia"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "valueSet" : ["https://ncez.mzcr.cz/terminology/ValueSet/medical-device"]
+    },
+    {
+      "valueSet" : ["https://ncez.mzcr.cz/terminology/ValueSet/eHDSIAbsentOrUnknownDevice-cz"]
+    },
+    {
+      "valueSet" : ["https://ncez.mzcr.cz/terminology/ValueSet/eHDSIExceptionalValue-cz"]
+    },
+    {
+      "valueSet" : ["https://ncez.mzcr.cz/terminology/ValueSet/eHDSIAbsentOrUnknownDevice"]
+    },
+    {
+      "valueSet" : ["https://ncez.mzcr.cz/terminology/ValueSet/eHDSIExceptionalValue"]
+    }]
+  }
+}

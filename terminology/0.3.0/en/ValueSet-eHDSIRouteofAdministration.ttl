@@ -1,0 +1,826 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hl7.cz/terminology/ValueSet/eHDSIRouteofAdministration> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "eHDSIRouteofAdministration"] ;
+  fhir:Resource.language [ fhir:value "en"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "extensions" ]
+  ] ;
+  fhir:ValueSet.url [ fhir:value "https://ncez.mzcr.cz/terminology/ValueSet/eHDSIRouteofAdministration"] ;
+  fhir:ValueSet.identifier [
+     fhir:index -1 ;
+     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ] ;
+     fhir:Identifier.value [ fhir:value "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.12" ]
+  ] ;
+  fhir:ValueSet.version [ fhir:value "8.1.0"] ;
+  fhir:ValueSet.name [ fhir:value "eHDSIRouteofAdministration"] ;
+  fhir:ValueSet.title [ fhir:value "eHDSI Route of Administration"] ;
+  fhir:ValueSet.status [ fhir:value "active"] ;
+  fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:ValueSet.date [ fhir:value "2026-06-15T15:06:55.238088Z"^^xsd:dateTime] ;
+  fhir:ValueSet.publisher [ fhir:value "HL7 Czech Republic"] ;
+  fhir:ValueSet.contact [
+     fhir:index -1 ;
+     fhir:ContactDetail.name [ fhir:value "HL7 Czech Republic" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index -1 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://www.hl7.cz/" ]
+     ]
+  ] ;
+  fhir:ValueSet.description [ fhir:value "eHDSIRouteofAdministration"] ;
+  fhir:ValueSet.jurisdiction [
+     fhir:index -1 ;
+     fhir:CodeableConcept.coding [
+       fhir:index -1 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "CZ" ] ;
+       fhir:Coding.display [ fhir:value "Czechia" ]
+     ]
+  ] ;
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index -1 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://standardterms.edqm.eu" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20001000" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ušní podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Auricular use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20003000" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "kožní podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Cutaneous use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20004000" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "dentální podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Dental use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20006000" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "endocervikální podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Endocervical use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20007000" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "endosinusové podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Endosinusial use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20009000" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "epidurální podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Epidural use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20011000" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "extraamniotické podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Extraamniotic use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20011500" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "mimotělní podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Extracorporeal use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20013000" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "gastroenterální podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Gastroenteral use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20013500" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "žaludeční podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Gastric use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20014000" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "podání na dásně" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Gingival use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20015000" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "hemodialýza" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Haemodialysis" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20015500" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "implantace" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Implantation" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20019500" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "infiltrace" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Infiltration" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20020000" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "inhalační podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Inhalation use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20021000" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "intestinální podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Intestinal use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20023000" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "intraarteriální podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Intraarterial use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20024000" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "intraartikulární podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Intraarticular use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20025500" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "podání do přední oční komory" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Intracameral use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20026000" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "intrakardiální podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Intracardiac use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20026500" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "intrakartilaginózní podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Intracartilaginous use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20027000" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "intrakavernózní podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Intracavernous use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20027010" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "intracerebrální podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Intracerebral use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20028000" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "intracervikální podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Intracervical use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20028300" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "intracholangiopankreatické podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Intracholangiopancreatic use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20029000" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "intrakorornární podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Intracoronary use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20030000" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "intradermální podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Intradermal use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20031000" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "intradiskální podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Intradiscal use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20031500" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "intraepidermální podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Intraepidermal use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20031700" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "intraglandulární podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Intraglandular use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20032000" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "intralezionální podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Intralesional use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20033000" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "intralymfatické podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Intralymphatic use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20035000" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "intramuskulární podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Intramuscular use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20036000" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "nitrooční podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Intraocular use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20036500" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "intraoseální podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Intraosseous use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20037000" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "podání do osrdečníku" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Intrapericardial use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20039000" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "intrapleurální podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Intrapleural use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20039200" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "intraportální podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Intraportal use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20039500" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "intraprostatické podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Intraprostatic use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20041000" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "intrasternální podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Intrasternal use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20042000" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "intratekální podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Intrathecal use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20045000" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "intravenózní podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Intravenous use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20046000" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "intravezikální podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Intravesical use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20047000" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "intravitreální podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Intravitreal use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20047500" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "iontoforéza" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Iontophoresis" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20048000" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "laryngofaryngeální podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Laryngopharyngeal use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20051000" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "oční podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Ocular use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20055000" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "orofaryngeální podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Oropharyngeal use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20057000" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "periartikulární podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Periarticular use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20058000" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "perineurální podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Perineural use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20059300" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "perioseální podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Periosseous use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20059400" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "peritumorózní podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Peritumoral use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20059500" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "zadní juxtasklérální podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Posterior juxtascleral use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20061000" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "rektální podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Rectal use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20061500" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "retrobulbární podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Retrobulbar use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20062000" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "nespecifikovaný způsob podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Route of administration not applicable" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20063000" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "kožní skarifikace" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Skin scarification" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20065000" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "subkonjunktivální podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Subconjunctival use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20067000" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "sublingvální podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Sublingual use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20067500" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "submukosální podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Submucosal use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20070000" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "transdermální podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Transdermal use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20071000" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "uretrální podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Urethral use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20072000" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "vaginální podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Vaginal use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20080000" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "intracerebroventrikulární podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Intracerebroventricular use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20081000" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "subretinální podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Subretinal use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20084000" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "intrakorneální podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Intracorneal use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20086000" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "intraputaminální podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Intraputaminal use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20087000" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "extrapleurální podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Extrapleural use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20088000" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "perilezionální podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Perilesional use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20090000" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "podání do detruzoru" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Intradetrusorial use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20002500" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "bukální podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Buccal use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20008000" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "endotracheopulmonální podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Endotracheopulmonary use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20010000" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "epilezionální podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Epilesional use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20022000" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "intraamniotické podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Intraamniotic use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20025000" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "intraburzální podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Intrabursal use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20028500" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "intracisternální podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Intracisternal use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20038000" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "intraperitoneální podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Intraperitoneal use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20043000" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "intratumorózní podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Intratumoral use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20044000" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "intrauterinní podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Intrauterine use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20049000" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "nosní podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Nasal use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20053000" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "perorální podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Oral use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20054000" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "orální podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Oromucosal use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20059000" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "periodontální podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Periodontal use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20066000" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "subkutánní podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Subcutaneous use" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20089000" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "kardioplegické podání" ] ;
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index -1 ;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "en" ] ;
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Cardioplegic use" ]
+         ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://hl7.cz/terminology/ValueSet/eHDSIRouteofAdministration.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="document-category"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/>
+  </text>
+  <url value="https://ncez.mzcr.cz/terminology/ValueSet/document-category"/>
+  <version value="1.0.0"/>
+  <name value="DocumentCategory"/>
+  <title value="Kategorie dokumentů"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-11-19T14:36:29.065962Z"/>
+  <publisher value="HL7 Czech Republic"/>
+  <contact>
+    <name value="HL7 Czech Republic"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hl7.cz/"/>
+    </telecom>
+  </contact>
+  <description value="Kategorie dokumentů pro vyhledávání"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CZ"/>
+      <display value="Czechia"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc"/>
+  <compose>
+    <include>
+      <system value="http://loinc.org"/>
+      <concept>
+        <code value="107904-5"/>
+        <display value="Administrativní záznamy"/>
+      </concept>
+      <concept>
+        <code value="18682-5"/>
+        <display value="Záznamy zdravotnické záchranné služby"/>
+      </concept>
+      <concept>
+        <code value="11503-0"/>
+        <display value="Lékařské záznamy"/>
+      </concept>
+      <concept>
+        <code value="34746-8"/>
+        <display value="Ošetřovatelské záznamy"/>
+      </concept>
+      <concept>
+        <code value="11502-2"/>
+        <display value="Laboratorní nálezy"/>
+      </concept>
+      <concept>
+        <code value="85430-7"/>
+        <display value="Nálezy zobrazovacího komplementu"/>
+      </concept>
+      <concept>
+        <code value="57133-1"/>
+        <display value="Žádanky"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

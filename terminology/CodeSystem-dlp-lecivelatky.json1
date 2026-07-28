@@ -19,9 +19,9 @@
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.203.24341.11.2.7.5"
   }],
-  "version" : "0.2.0",
+  "version" : "1.0.0",
   "name" : "CS_DLP_lecivelatky",
-  "title" : "Codesystem of DLP Lecive latky",
+  "title" : "DLP Lecive latky",
   "status" : "active",
   "experimental" : false,
   "date" : "2025-01-17",
@@ -33,7 +33,7 @@
       "value" : "https://www.hl7.cz/"
     }]
   }],
-  "description" : "Codesystem of DLP Lecive latky. Identification ingredient.",
+  "description" : "DLP Lecive latky - Czech national code system for active drug substances.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

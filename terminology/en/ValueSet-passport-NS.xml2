@@ -1,0 +1,1039 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="passport-NS"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="2"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use"/>
+  </extension>
+  <url value="https://hl7.cz/terminology/ValueSet/passport-NS"/>
+  <version value="1.0.0"/>
+  <name value="PassportNSVS"/>
+  <title value="Standard namespaces for passports"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2023-01-01"/>
+  <publisher value="HL7 Czech Republic"/>
+  <contact>
+    <name value="HL7 Czech Republic"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hl7.cz/"/>
+    </telecom>
+  </contact>
+  <description value="Číselník jmenných prostorů pro pasy. (Passport namespaces.)"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CZ"/>
+      <display value="Czechia"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="urn:ietf:rfc:3986"/>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-AFG"/>
+        <display value="Pas: Afghánistán"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-ALB"/>
+        <display value="Pas: Albánie"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-DZA"/>
+        <display value="Pas: Alžírsko"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-ASM"/>
+        <display value="Pas: Americká Samoa"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-AND"/>
+        <display value="Pas: Andorra"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-AGO"/>
+        <display value="Pas: Angola"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-AIA"/>
+        <display value="Pas: Anguilla"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-ATA"/>
+        <display value="Pas: Antarktida"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-ATG"/>
+        <display value="Pas: Antigua a Barbuda"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-ARG"/>
+        <display value="Pas: Argentina"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-ARM"/>
+        <display value="Pas: Arménie"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-ABW"/>
+        <display value="Pas: Aruba"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-AUS"/>
+        <display value="Pas: Austrálie"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-AUT"/>
+        <display value="Pas: Rakousko"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-AZE"/>
+        <display value="Pas: Ázerbájdžán"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-BHS"/>
+        <display value="Pas: Bahamy"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-BHR"/>
+        <display value="Pas: Bahrajn"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-BGD"/>
+        <display value="Pas: Bangladéš"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-BRB"/>
+        <display value="Pas: Barbados"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-BLR"/>
+        <display value="Pas: Bělorusko"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-BEL"/>
+        <display value="Pas: Belgie"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-BLZ"/>
+        <display value="Pas: Belize"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-BEN"/>
+        <display value="Pas: Benin"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-BMU"/>
+        <display value="Pas: Bermudy"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-BTN"/>
+        <display value="Pas: Bhútán"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-BOL"/>
+        <display value="Pas: Bolívie"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-BES"/>
+        <display value="Pas: Bonaire, Svatý Eustach a Saba"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-BIH"/>
+        <display value="Pas: Bosna a Hercegovina"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-BWA"/>
+        <display value="Pas: Botswana"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-BVT"/>
+        <display value="Pas: Bouvetův ostrov"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-BRA"/>
+        <display value="Pas: Brazílie"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-IOT"/>
+        <display value="Pas: Britské indickooceánské území"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-BRN"/>
+        <display value="Pas: Brunej"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-BGR"/>
+        <display value="Pas: Bulharsko"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-BFA"/>
+        <display value="Pas: Burkina Faso"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-BDI"/>
+        <display value="Pas: Burundi"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-CPV"/>
+        <display value="Pas: Burundi"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-KHM"/>
+        <display value="Pas: Kambodža"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-CMR"/>
+        <display value="Pas: Kamerun"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-CAN"/>
+        <display value="Pas: Kanada"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-CYM"/>
+        <display value="Pas: Kajmanské ostrovy"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-CAF"/>
+        <display value="Pas: Středoafrická republika"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-TCD"/>
+        <display value="Pas: Čad"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-CHL"/>
+        <display value="Pas: Chile"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-CHN"/>
+        <display value="Pas: Čína"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-CXR"/>
+        <display value="Pas: Vánoční ostrov"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-CCK"/>
+        <display value="Pas: Kokosové (Keelingovy) ostrovy"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-COL"/>
+        <display value="Pas: Kolumbie"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-COM"/>
+        <display value="Pas: Komory"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-COD"/>
+        <display value="Pas: Konžská republika"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-COG"/>
+        <display value="Pas: Konžská republika"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-COK"/>
+        <display value="Pas: Cookovy ostrovy"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-CRI"/>
+        <display value="Pas: Kostarika"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-HRV"/>
+        <display value="Pas: Chorvatsko"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-CUB"/>
+        <display value="Pas: Kuba"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-CUW"/>
+        <display value="Pas: Curaçao"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-CYP"/>
+        <display value="Pas: Kypr"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-CZE"/>
+        <display value="Pas: Česko"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-CIV"/>
+        <display value="Pas: Pobřeží slonoviny"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-DNK"/>
+        <display value="Pas: Dánsko"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-DJI"/>
+        <display value="Pas: Džibutsko"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-DMA"/>
+        <display value="Pas: Dominika"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-DOM"/>
+        <display value="Pas: Dominikánská republika"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-ECU"/>
+        <display value="Pas: Ekvádor"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-EGY"/>
+        <display value="Pas: Egypt"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-SLV"/>
+        <display value="Pas: Salvador"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-GNQ"/>
+        <display value="Pas: Rovníková Guinea"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-ERI"/>
+        <display value="Pas: Eritrea"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-EST"/>
+        <display value="Pas: Estonsko"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-SWZ"/>
+        <display value="Pas: Estonsko"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-ETH"/>
+        <display value="Pas: Etiopie"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-FLK"/>
+        <display value="Pas: Falklandy"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-FRO"/>
+        <display value="Pas: Faerské ostrovy"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-FJI"/>
+        <display value="Pas: Fidži"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-FIN"/>
+        <display value="Pas: Finsko"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-FRA"/>
+        <display value="Pas: Francie"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-GUF"/>
+        <display value="Pas: Francouzská Guyana"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-PYF"/>
+        <display value="Pas: Francouzská Polynésie"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-ATF"/>
+        <display value="Pas: Francouzská jižní a antarktická území"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-GAB"/>
+        <display value="Pas: Gabon"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-GMB"/>
+        <display value="Pas: Gambie"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-GEO"/>
+        <display value="Pas: Gruzie"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-DEU"/>
+        <display value="Pas: Německo"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-GHA"/>
+        <display value="Pas: Ghana"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-GIB"/>
+        <display value="Pas: Gibraltar"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-GRC"/>
+        <display value="Pas: Řecko"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-GRL"/>
+        <display value="Pas: Grónsko"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-GRD"/>
+        <display value="Pas: Grenada"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-GLP"/>
+        <display value="Pas: Guadeloupe"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-GUM"/>
+        <display value="Pas: Guam"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-GTM"/>
+        <display value="Pas: Guatemala"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-GGY"/>
+        <display value="Pas: Guernsey"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-GIN"/>
+        <display value="Pas: Guinea"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-GNB"/>
+        <display value="Pas: Guinea-Bissau"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-GUY"/>
+        <display value="Pas: Guyana"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-HTI"/>
+        <display value="Pas: Haiti"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-HMD"/>
+        <display value="Pas: Heardův ostrov a MacDonaldovy ostrovy"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-VAT"/>
+        <display value="Pas: Vatikán"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-HND"/>
+        <display value="Pas: Honduras"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-HKG"/>
+        <display value="Pas: Hongkong"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-HUN"/>
+        <display value="Pas: Maďarsko"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-ISL"/>
+        <display value="Pas: Island"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-IND"/>
+        <display value="Pas: Indie"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-IDN"/>
+        <display value="Pas: Indonésie"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-IRN"/>
+        <display value="Pas: Írán"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-IRQ"/>
+        <display value="Pas: Irák"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-IRL"/>
+        <display value="Pas: Irsko"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-IMN"/>
+        <display value="Pas: Man"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-ISR"/>
+        <display value="Pas: Izrael"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-ITA"/>
+        <display value="Pas: Itálie"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-JAM"/>
+        <display value="Pas: Jamajka"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-JPN"/>
+        <display value="Pas: Japonsko"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-JEY"/>
+        <display value="Pas: Jersey"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-JOR"/>
+        <display value="Pas: Jordánsko"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-KAZ"/>
+        <display value="Pas: Kazachstán"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-KEN"/>
+        <display value="Pas: Keňa"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-KIR"/>
+        <display value="Pas: Kiribati"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-PRK"/>
+        <display value="Pas: Korejská lidově demokratická republika"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-KOR"/>
+        <display value="Pas: Korejská lidově demokratická republika"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-KWT"/>
+        <display value="Pas: Kuvajt"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-KGZ"/>
+        <display value="Pas: Kyrgyzstán"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-LAO"/>
+        <display value="Pas: Laos"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-LVA"/>
+        <display value="Pas: Lotyšsko"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-LBN"/>
+        <display value="Pas: Libanon"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-LSO"/>
+        <display value="Pas: Lesotho"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-LBR"/>
+        <display value="Pas: Libérie"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-LBY"/>
+        <display value="Pas: Libye"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-LIE"/>
+        <display value="Pas: Lichtenštejnsko"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-LTU"/>
+        <display value="Pas: Litva"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-LUX"/>
+        <display value="Pas: Lucembursko"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-MAC"/>
+        <display value="Pas: Macao"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-MDG"/>
+        <display value="Pas: Madagaskar"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-MWI"/>
+        <display value="Pas: Malawi"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-MYS"/>
+        <display value="Pas: Malajsie"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-MDV"/>
+        <display value="Pas: Maledivy"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-MLI"/>
+        <display value="Pas: Mali"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-MLT"/>
+        <display value="Pas: Malta"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-MHL"/>
+        <display value="Pas: Marshallovy ostrovy"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-MTQ"/>
+        <display value="Pas: Martinik"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-MRT"/>
+        <display value="Pas: Mauritánie"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-MUS"/>
+        <display value="Pas: Mauricius"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-MYT"/>
+        <display value="Pas: Mayotte"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-MEX"/>
+        <display value="Pas: Mexiko"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-FSM"/>
+        <display value="Pas: Mikronésie"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-MDA"/>
+        <display value="Pas: Mikronésie"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-MCO"/>
+        <display value="Pas: Monako"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-MNG"/>
+        <display value="Pas: Mongolsko"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-MNE"/>
+        <display value="Pas: Černá Hora"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-MSR"/>
+        <display value="Pas: Montserrat"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-MAR"/>
+        <display value="Pas: Maroko"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-MOZ"/>
+        <display value="Pas: Mosambik"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-MMR"/>
+        <display value="Pas: Myanmar"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-NAM"/>
+        <display value="Pas: Namibie"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-NRU"/>
+        <display value="Pas: Nauru"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-NPL"/>
+        <display value="Pas: Nepál"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-NLD"/>
+        <display value="Pas: Nizozemsko"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-NCL"/>
+        <display value="Pas: Nová Kaledonie"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-NZL"/>
+        <display value="Pas: Nový Zéland"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-NIC"/>
+        <display value="Pas: Nikaragua"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-NER"/>
+        <display value="Pas: Niger"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-NGA"/>
+        <display value="Pas: Nigérie"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-NIU"/>
+        <display value="Pas: Niue"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-NFK"/>
+        <display value="Pas: Norfolk"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-MKD"/>
+        <display value="Pas: Norfolk"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-MNP"/>
+        <display value="Pas: Severní Mariany"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-NOR"/>
+        <display value="Pas: Norsko"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-OMN"/>
+        <display value="Pas: Omán"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-PAK"/>
+        <display value="Pas: Pákistán"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-PLW"/>
+        <display value="Pas: Palau"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-PSE"/>
+        <display value="Pas: Palestina"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-PAN"/>
+        <display value="Pas: Panama"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-PNG"/>
+        <display value="Pas: Papua Nová Guinea"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-PRY"/>
+        <display value="Pas: Paraguay"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-PER"/>
+        <display value="Pas: Peru"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-PHL"/>
+        <display value="Pas: Filipíny"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-PCN"/>
+        <display value="Pas: Pitcairn"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-POL"/>
+        <display value="Pas: Polsko"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-PRT"/>
+        <display value="Pas: Portugalsko"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-PRI"/>
+        <display value="Pas: Portoriko"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-QAT"/>
+        <display value="Pas: Katar"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-ROU"/>
+        <display value="Pas: Rumunsko"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-RUS"/>
+        <display value="Pas: Rusko"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-RWA"/>
+        <display value="Pas: Rwanda"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-REU"/>
+        <display value="Pas: Réunion"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-BLM"/>
+        <display value="Pas: Svatý Bartoloměj"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-SHN"/>
+        <display value="Pas: Svatá Helena"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-KNA"/>
+        <display value="Pas: Svatý Kryštof a Nevis"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-LCA"/>
+        <display value="Pas: Svatá Lucie"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-MAF"/>
+        <display value="Pas: Svatý Martin (FR)"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-SPM"/>
+        <display value="Pas: Saint Pierre a Miquelon"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-VCT"/>
+        <display value="Pas: Svatý Vincenc a Grenadiny"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-WSM"/>
+        <display value="Pas: Samoa"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-SMR"/>
+        <display value="Pas: San Marino"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-STP"/>
+        <display value="Pas: Svatý Tomáš a Princův ostrov"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-SAU"/>
+        <display value="Pas: Saúdská Arábie"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-SEN"/>
+        <display value="Pas: Senegal"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-SRB"/>
+        <display value="Pas: Srbsko"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-SYC"/>
+        <display value="Pas: Seychely"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-SLE"/>
+        <display value="Pas: Sierra Leone"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-SGP"/>
+        <display value="Pas: Singapur"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-SXM"/>
+        <display value="Pas: Svatý Martin (NL)"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-SVK"/>
+        <display value="Pas: Slovensko"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-SVN"/>
+        <display value="Pas: Slovinsko"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-SLB"/>
+        <display value="Pas: Šalomounovy ostrovy"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-SOM"/>
+        <display value="Pas: Somálsko"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-ZAF"/>
+        <display value="Pas: Jižní Afrika"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-SGS"/>
+        <display value="Pas: Jižní Georgie a Jižní Sandwichovy ostrovy"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-SSD"/>
+        <display value="Pas: Jižní Súdán"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-ESP"/>
+        <display value="Pas: Španělsko"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-LKA"/>
+        <display value="Pas: Šrí Lanka"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-SDN"/>
+        <display value="Pas: Súdán"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-SUR"/>
+        <display value="Pas: Surinam"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-SJM"/>
+        <display value="Pas: Špicberky a Jan Mayen"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-SWE"/>
+        <display value="Pas: Švédsko"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-CHE"/>
+        <display value="Pas: Švýcarsko"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-SYR"/>
+        <display value="Pas: Sýrie"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-TWN"/>
+        <display value="Pas: Sýrie"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-TJK"/>
+        <display value="Pas: Tádžikistán"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-TZA"/>
+        <display value="Pas: Tádžikistán"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-THA"/>
+        <display value="Pas: Thajsko"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-TLS"/>
+        <display value="Pas: Východní Timor"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-TGO"/>
+        <display value="Pas: Togo"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-TKL"/>
+        <display value="Pas: Tokelau"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-TON"/>
+        <display value="Pas: Tonga"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-TTO"/>
+        <display value="Pas: Trinidad a Tobago"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-TUN"/>
+        <display value="Pas: Tunisko"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-TKM"/>
+        <display value="Pas: Turkmenistán"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-TCA"/>
+        <display value="Pas: Turks a Caicos"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-TUV"/>
+        <display value="Pas: Tuvalu"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-TUR"/>
+        <display value="Pas: Turecko"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-UGA"/>
+        <display value="Pas: Uganda"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-UKR"/>
+        <display value="Pas: Ukrajina"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-ARE"/>
+        <display value="Pas: Spojené arabské emiráty"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-GBR"/>
+        <display value="Pas: Velká Británie"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-UMI"/>
+        <display value="Pas: Menší odlehlé ostrovy USA"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-USA"/>
+        <display value="Pas: Spojené státy"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-URY"/>
+        <display value="Pas: Uruguay"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-UZB"/>
+        <display value="Pas: Uzbekistán"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-VUT"/>
+        <display value="Pas: Vanuatu"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-VEN"/>
+        <display value="Pas: Venezuela"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-VNM"/>
+        <display value="Pas: Vietnam"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-VGB"/>
+        <display value="Pas: Vietnam"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-VIR"/>
+        <display value="Pas: Vietnam"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-WLF"/>
+        <display value="Pas: Wallis a Futuna"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-ESH"/>
+        <display value="Pas: Západní Sahara"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-YEM"/>
+        <display value="Pas: Jemen"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-ZMB"/>
+        <display value="Pas: Zambie"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-ZWE"/>
+        <display value="Pas: Zimbabwe"/>
+      </concept>
+      <concept>
+        <code value="http://terminology.hl7.org/NamingSystem/passportNumNS-ALA"/>
+        <display value="Pas: Alandy"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

@@ -1,0 +1,366 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hl7.cz/terminology/CodeSystem/drzar> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "drzar"] ;
+  fhir:Resource.language [ fhir:value "en"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ]
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://ncez.mzcr.cz/terminology/CodeSystem/drzar"] ;
+  fhir:CodeSystem.identifier [
+     fhir:index -1 ;
+     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ] ;
+     fhir:Identifier.value [ fhir:value "urn:oid:1.2.203.24341.11.2.10.1" ]
+  ] ;
+  fhir:CodeSystem.version [ fhir:value "1.0.0"] ;
+  fhir:CodeSystem.name [ fhir:value "CS_Drzar"] ;
+  fhir:CodeSystem.title [ fhir:value "Type of healthcare facility"] ;
+  fhir:CodeSystem.status [ fhir:value "active"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "1980-01-01"^^xsd:date] ;
+  fhir:CodeSystem.publisher [ fhir:value "HL7 Czech Republic"] ;
+  fhir:CodeSystem.contact [
+     fhir:index -1 ;
+     fhir:ContactDetail.name [ fhir:value "HL7 Czech Republic" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index -1 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://www.hl7.cz/" ]
+     ]
+  ] ;
+  fhir:CodeSystem.description [ fhir:value "Czech national code system for type of healthcare facility."] ;
+  fhir:CodeSystem.jurisdiction [
+     fhir:index -1 ;
+     fhir:CodeableConcept.coding [
+       fhir:index -1 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "CZ" ] ;
+       fhir:Coding.display [ fhir:value "Czechia" ]
+     ]
+  ] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.count [ fhir:value "77"^^xsd:nonNegativeInteger] ;
+  fhir:CodeSystem.concept [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "010" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Sdružení zdravotnických zařízení" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "101" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Fakultní nemocnice" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "102" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Nemocnice" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "103" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Specializovaná nemocnice" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "104" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Psychiatrická nemocnice" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "105" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Nemocnice následné péče" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "109" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Porodnice" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "110" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Léčebna pro dlouhodobě nemocné (LDN)" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "111" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Léčebna tuberkul.a respir.nemocí (TRN)" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "112" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Psychiatrická léčebna" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "113" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Rehabilitační ústav" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "119" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Ostatní odborné léčebné ústavy" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "122" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Dětská psychiatrická léčebna" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "129" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Ostatní dětské odborné léčebné ústavy" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "130" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Lázeňská léčebna" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "141" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Dětská ozdravovna" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "180" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Hospic" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "190" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Další lůžkové zařízení" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "300" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Sdružení ambulantních zařízení" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "301" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Poskytovatel amb. služeb (nad 5 oborů)" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "302" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Poskytovatel amb. služeb (do 5 oborů)" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "310" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Zdravotnické středisko" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "312" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Zařízení závodní preventivní péče" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "320" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Samost. ordinace všeob. prakt. lékaře" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "321" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Sam.ord.prakt.lékaře pro děti a dorost" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "322" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Samostatná ordinace PL - stomatologa" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "323" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Samostatná ordinace PL - gynekologa" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "324" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Samostatná ordinace lékaře specialisty" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "340" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Samostatné zařízení psychologa" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "341" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Samostatné zařízení logopeda" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "350" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Domácí zdravotní péče" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "351" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Samostatné zařízení fyzioterapeuta" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "354" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Zdravotní péče v ústavech sociální p." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "359" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Samostatné zařízení nelékaře - jiné" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "360" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Samostatná stomatologická laboratoř" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "361" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Samostatná odborná laboratoř" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "362" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Odběrová místnost" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "370" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Samostatná transfuzní stanice" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "380" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Zařízení LPS" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "389" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Koroner" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "390" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Hemodialyzační středisko" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "398" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Zařízení pro léčbu závislostí" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "399" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Ostatní ambulantní zařízení" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "400" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Sdružení dětských zařízení" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "420" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Dětský domov pro děti do 3 let" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "430" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Dětské centrum" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "431" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Dětský stacionář" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "460" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Stacionář" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "461" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Psychoterapeutický stacionář" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "465" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Krizové centrum" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "466" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Centrum duševního zdraví" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "476" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Záchytná stanice" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "480" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Zdravotnická dopravní služba" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "481" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Zdravotnická zachranná služba" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "483" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Výjezdová skupina záchranné služby" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "484" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Další zařízení záchranné služby" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "485" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Přeprava pacientů neodkladné péče" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "499" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Ostatní zvláštní zdravotnická zařízení" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "501" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Sdružení lékáren" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "510" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Lékárna" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "521" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Oční optika" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "530" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Státní ústav pro kontrolu léčiv" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "600" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Státní zdravotní ústav" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "601" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Krajská hygienická stanice" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "605" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Zdravotní ústav" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "609" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Další zařízení hygienické služby" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "831" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "IPVZ" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "832" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "NCONZO" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "900" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Ostatní organizace MZ" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "950" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Ostatní zdravotnická zařízení" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "952" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Lázeňský dům (jen ubyt. hotel. typu)" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "961" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Zdravotnické zařízení v likvidaci" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "962" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Hospodářská org. neposkyt. zdrav. péči" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "963" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Servisní organizace" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "964" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "COVID zařízení" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "368" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Centrum očkování COVID" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "363" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Odběr krevní plasmy" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://hl7.cz/terminology/CodeSystem/drzar.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="mkn-10"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/>
+  </text>
+  <url value="https://uzis.cz/terminology/CodeSystem/mkn-10"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:1.2.203.24341.11.2.1"/>
+  </identifier>
+  <version value="2025-01"/>
+  <name value="MKN10_5"/>
+  <title value="Kódový systém MKN-10"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-12-22T17:42:13.32582Z"/>
+  <publisher value="HL7 Czech Republic"/>
+  <contact>
+    <name value="HL7 Czech Republic"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hl7.cz/"/>
+    </telecom>
+  </contact>
+  <description value="Národní systém pro kódování diagnóz a zdravotních problémů odvozený od ICD-10 WHO."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CZ"/>
+      <display value="Czechia"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="false"/>
+  <hierarchyMeaning value="is-a"/>
+  <content value="not-present"/>
+</CodeSystem>

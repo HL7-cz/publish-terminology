@@ -1,0 +1,16 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "5bc82b81-07ce-410b-8d29-8298f2cfafcb-36",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/5bc82b81-07ce-410b-8d29-8298f2cfafcb-36",
+  "name" : "IntersectionMKN10_5AndMKN10_5",
+  "title" : "Intersection of Kódový systém MKN-10 And Kódový systém MKN-10",
+  "status" : "active",
+  "date" : "2026-07-27T16:47:06+02:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CZ",
+      "display" : "Czechia"
+    }]
+  }]
+}

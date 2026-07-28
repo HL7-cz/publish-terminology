@@ -1,0 +1,360 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hl7.cz/terminology/CodeSystem/v3-RoleCode-cz> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "v3-RoleCode-cz"] ;
+  fhir:Resource.language [ fhir:value "en"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ]
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://hl7.cz/terminology/CodeSystem/v3-RoleCode-cz"] ;
+  fhir:CodeSystem.version [ fhir:value "1.0.0"] ;
+  fhir:CodeSystem.name [ fhir:value "RoleCodeCz"] ;
+  fhir:CodeSystem.title [ fhir:value "RoleCode (CZ Supplement)"] ;
+  fhir:CodeSystem.status [ fhir:value "active"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2025-02-09T10:38:00.271394Z"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "HL7 Czech Republic"] ;
+  fhir:CodeSystem.contact [
+     fhir:index -1 ;
+     fhir:ContactDetail.name [ fhir:value "HL7 Czech Republic" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index -1 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://www.hl7.cz/" ]
+     ]
+  ] ;
+  fhir:CodeSystem.description [ fhir:value "Český doplněk kódového systému v3-RoleCode, který je souborem kódů blíže specifikujících druh Role; obsahuje specifické klasifikační kódy pro další upřesnění kódů RoleClass. A Czech supplement to the v3-RoleCode code system which is a set of codes further specifying the kind of Role; specific classification codes for further qualifying RoleClass codes."] ;
+  fhir:CodeSystem.jurisdiction [
+     fhir:index -1 ;
+     fhir:CodeableConcept.coding [
+       fhir:index -1 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "CZ" ] ;
+       fhir:Coding.display [ fhir:value "Czechia" ]
+     ]
+  ] ;
+  fhir:CodeSystem.content [ fhir:value "supplement"] ;
+  fhir:CodeSystem.supplements [
+     fhir:value "http://terminology.hl7.org/CodeSystem/v3-RoleCode|4.0.0" ;
+     fhir:link <http://terminology.hl7.org/CodeSystem/v3-RoleCode|4.0.0>
+  ] ;
+  fhir:CodeSystem.concept [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUNT" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "teta" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Sestra matky nebo otce dotčené osoby." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "BRO" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "bratr" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Muž, který sdílí jednoho nebo oba společné rodiče s dotčenou osobou." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "BROINLAW" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "švagr" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "(1) bratr manžela nebo manželky dotčené osoby, nebo (2) manžel sestry dotčené osoby, nebo (3) manžel sestry manžela nebo manželky dotčené osoby." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "CHILD" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "dítě" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Dítě dotčené osoby." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "CHLDADOPT" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "osvojené dítě" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Dítě dotčené osoby, které bylo přijato do rodiny prostřednictvím právních prostředků a vychováváno dotčenou osobou (rodičem) jako vlastní dítě." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "CHLDFOST" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "dítě v náhradní péči (kromě osvojení)" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Dítě dotčené osoby, které přijímá rodičovskou péči a výchovu od dotčené osoby (rodiče), ale není s ním nebo s ní spojeno právními nebo pokrevními vazbami." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "CHLDINLAW" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "zeť/snacha" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Manžel nebo manželka dítěte dotčené osoby." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "COUSN" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "sestřenice/bratranec" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Příbuzný dotčené osoby, který pochází ze společného předka, jako je prarodič, po dvou nebo více krocích v rodové linii." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DAU" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "vlastní dcera" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Ženský potomek dotčené entity (rodiče)." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DAUADOPT" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "osvojená dcera" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Ženský potomek dotčené entity (rodiče), který byl přijat do rodiny prostřednictvím právních prostředků a vychováván dotčenou osobou (rodičem) jako vlastní dítě." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DAUC" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "dcera" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "**Popis:** Ženský potomek (jakéhokoliv typu) dotčené entity (rodiče)." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DAUFOST" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "dcera v náhradní péči (kromě osvojení)" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Ženský potomek dotčené entity (rodiče), který přijímá rodičovskou péči a výchovu od dotčené osoby (rodiče), ale není s ním nebo s ní spojeno právními nebo pokrevními vazbami." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DAUINLAW" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "snacha" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Manželka syna dotčené osoby." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DOMPART" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "druh/družka" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Osoba žijící s dotčenou osobou, která není manželem nebo manželkou dotčené osoby." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "EXT" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "člen širší rodiny" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "**Popis:** Rodinný příslušník, který není v bezprostředním genetickém nebo právním vztahu k dotčené osobě, např. teta, bratranec, sestřenice, prarodič, vnuk, praprarodič, neteř, synovec nebo strýc." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "FAMMEMB" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "rodinný příslušník" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Vztah mezi dvěma osobami, který je charakterizován jako vztah \\\"rodinný\\\"." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "FRND" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "přítel/přítelkyně" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Osoba, která je známá, oblíbená a důvěryhodná pro dotčenou osobu." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "FTH" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "otec" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Muž, který zplodil, vychoval nebo pečuje o dotčenou osobu (dítě)." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "FTHINLAW" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "tchán" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Muž, který je otcem manžela nebo manželky dotčené osoby." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "GGRFTH" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "pradědeček" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Muž, který je otcem prarodiče dotčené osoby." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "GGRMTH" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "prababička" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Žena, která je matkou prarodiče dotčené osoby." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "GGRPRN" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "praprarodič" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Osoba, která je rodičem prarodiče dotčené osoby." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "GRFTH" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "dědeček" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Muž, který je otcem rodiče dotčené osoby." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "GRMTH" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "babička" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Žena, která je matkou rodiče dotčené osoby." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "GRNDCHILD" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "vnouče" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Potomek, který je dítětem syna nebo dcery dotčené osoby." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "GRNDDAU" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "vnučka" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Dcera syna nebo dcery dotčené osoby." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "GRNDSON" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "vnuk" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Syn syna nebo dcery dotčené osoby." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "GRPRN" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "prarodič" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Osoba, která je rodičem rodiče dotčené osoby." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "HUSB" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "manžel" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Muž, který je spojen s dotčenou ženou v manželství." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "INLAW" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "příbuzní ze strany manžela/manželky" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Vztah mezi jednotlivcem a členem nejbližší rodiny jeho manželského partnera." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "MTH" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "matka" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Žena, která zplodila, porodila nebo vychovala a pečuje o dotčenou osobu (dítě)." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "MTHINLAW" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "tchýně" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Žena, která je matkou manžela nebo manželky dotčené osoby." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "MTHINLOAW" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "tchýně" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Žena, která je matkou manžela nebo manželky dotčené osoby." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "NBOR" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "soused/sousedka" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Osoba, která žije v blízkosti nebo vedle dotčené osoby." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "NCHILD" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "potomek" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Potomek dotčené entity (rodiče)." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "NEPHEW" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "synovec" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Syn bratra nebo sestry dotčené osoby." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "NIECE" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "neteř" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Dcera bratra nebo sestry dotčené osoby." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "NIENEPH" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "neteř/synovec" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Potomek bratra nebo sestry dotčené osoby nebo bratra nebo sestry manžela/manželky dotčené osoby." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "NOK" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "příbuzný" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Nejbližší příbuzný dotčené osoby." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PRN" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "rodič" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Osoba, která zplodila, porodila nebo vychovala a pečuje o dotčenou osobu (dítě)." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PRNINLAW" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "tchyně/tchán" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Rodič manžela nebo manželky dotčené osoby." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "ROOM" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "spolubydlící" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Osoba, která sdílí obytné prostory s dotčenou osobou." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "SIB" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "sourozenec" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Osoba, která sdílí jednoho nebo oba rodiče s dotčenou osobou." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "SIBINLAW" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "švagr/švagrová" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Osoba, která je: (1) sourozencem manžela/manželky dotčené osoby, nebo (2) manželem/manželkou sourozence dotčené osoby, nebo (3) manželem/manželkou sourozence manžela/manželky dotčené osoby." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "SIGOTHR" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "osoba blízká" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Osoba, která je důležitá pro blaho dotčené osoby; zejména manžel nebo osoba ve obdobném vztahu." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "SIS" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "sestra" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Žena, která sdílí jednoho nebo oba rodiče s dotčenou osobou." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "SISINLAW" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "švagrová" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Osoba, která je: (1) sestrou manžela/manželky dotčené osoby, nebo (2) manželkou bratra dotčené osoby, nebo (3) manželkou bratra manžela/manželky dotčené osoby." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "SISLINLAW" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "švagrová" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Osoba, která je: (1) sestrou manžela/manželky dotčené osoby, nebo (2) manželkou bratra dotčené osoby, nebo (3) manželkou bratra manžela/manželky dotčené osoby." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "SON" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "vlastní syn" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Mužský potomek dotčené entity (rodiče)." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "SONADOPT" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "osvojený syn" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Mužský potomek dotčené entity (rodiče), který byl přijat do rodiny prostřednictvím právních prostředků a vychováván dotčenou osobou (rodičem) jako vlastní dítě." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "SONC" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "syn" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "**Popis:** Mužský potomek (jakéhokoli typu) dotčené osoby (rodiče)." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "SONFOST" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "syn v náhradní péči (kromě osvojení)" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Mužský potomek dotčené entity (rodiče), který je v náhradní péči a výchově dotčené osoby (rodiče), ale není s ní spojen právními nebo biologickými vazbami." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "SONINLAW" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "zeť" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Manžel dcery dotčené osoby." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "SPS" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "manžel/maželka" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Osoba, která je manželským partnerem dotčené osoby." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "STPCHLD" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "nevlastní dítě" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Dítě manžela/manželky dotčené osoby z předchozího manželství." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "STPDAU" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "nevlastní dcera" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Ženský potomek manžela/manželky dotčené osoby z předchozího manželství." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "STPSON" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "nevlastní syn" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Mužský potomek manžela/manželky dotčené osoby z předchozího manželství." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "UNCLE" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "strýc" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Bratr matky nebo otce dotčené osoby." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "WIFE" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "manželka" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Žena, která je manželským partnerem dotčené osoby." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "_ContactRoleType" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ContactRoleType" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Typy kontaktů pro kód role \\\"CON\\“" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "_PersonalRelationshipRoleType" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "PersonalRelationshipRoleType" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Typy osobních vztahů pro kód role \\\"PRN\\“" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://hl7.cz/terminology/CodeSystem/v3-RoleCode-cz.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

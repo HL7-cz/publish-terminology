@@ -1,0 +1,33 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "dlp-formy",
+  "language" : "en",
+  "text" : {
+    "status" : "generated"
+  },
+  "url" : "https://sukl.cz/terminology/CodeSystem/dlp-formy",
+  "version" : "1.0.0",
+  "name" : "CS_DLP_formy",
+  "title" : "DLP formy",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2025-07-31T19:26:26.67951Z",
+  "publisher" : "HL7 Czech Republic",
+  "contact" : [{
+    "name" : "HL7 Czech Republic",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.hl7.cz/"
+    }]
+  }],
+  "description" : "Lékové formy dle DLP.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CZ",
+      "display" : "Czechia"
+    }]
+  }],
+  "caseSensitive" : false,
+  "content" : "not-present"
+}

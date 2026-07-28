@@ -13,7 +13,7 @@
     <valueCode value="trial-use"/>
   </extension>
   <url value="https://sukl.cz/terminology/ValueSet/dlp-lecivepripravky"/>
-  <version value="0.2.0"/>
+  <version value="1.0.0"/>
   <name value="DLP_lecivepripravky"/>
   <title value="Léčivé přípravky"/>
   <status value="active"/>

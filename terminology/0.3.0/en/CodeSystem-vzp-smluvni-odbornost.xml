@@ -1,0 +1,2179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="vzp-smluvni-odbornost"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/>
+  </text>
+  <url value="https://ncez.mzcr.cz/terminology/CodeSystem/vzp-smluvni-odbornost"/>
+  <version value="770"/>
+  <name value="VzpSmluvniOdbornost"/>
+  <title value="VZP - smluvní odbornost pracovišť"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-07-27T08:33:56.224248Z"/>
+  <publisher value="HL7 Czech Republic"/>
+  <contact>
+    <name value="HL7 Czech Republic"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hl7.cz/"/>
+    </telecom>
+  </contact>
+  <description value="Kódový systém VZP - smluvní odbornost pracovišť je využíván pro objednávání a vykazování/vyúčtování zdravotních služeb."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CZ"/>
+      <display value="Czechia"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="false"/>
+  <content value="complete"/>
+  <count value="324"/>
+  <property>
+    <code value="SODB"/>
+    <type value="string"/>
+  </property>
+  <concept>
+    <code value="001"/>
+    <display value="Pracoviště praktického lékaře pro dospělé"/>
+  </concept>
+  <concept>
+    <code value="002"/>
+    <display value="Pracoviště praktického lékaře pro děti a dorost"/>
+  </concept>
+  <concept>
+    <code value="003"/>
+    <display value="Pracoviště LSPP"/>
+  </concept>
+  <concept>
+    <code value="004"/>
+    <display value="Pracoviště zvláštní ambulantní péče v ZZ ústavní péče"/>
+  </concept>
+  <concept>
+    <code value="014"/>
+    <display value="Pracoviště praktického zubního lékaře"/>
+  </concept>
+  <concept>
+    <code value="015"/>
+    <display value="Pracoviště čelistní ortopedie"/>
+  </concept>
+  <concept>
+    <code value="019"/>
+    <display value="Pracoviště stomatologické LSPP"/>
+  </concept>
+  <concept>
+    <code value="091"/>
+    <display value="Pracoviště péče o dárce krvetvorných buněk"/>
+  </concept>
+  <concept>
+    <code value="101"/>
+    <display value="Pracoviště interního lékařství"/>
+  </concept>
+  <concept>
+    <code value="102"/>
+    <display value="Pracoviště angiologie"/>
+  </concept>
+  <concept>
+    <code value="103"/>
+    <display value="Pracoviště diabetologie"/>
+  </concept>
+  <concept>
+    <code value="104"/>
+    <display value="Pracoviště endokrinologie (mimo laboratorní činnosti)"/>
+  </concept>
+  <concept>
+    <code value="105"/>
+    <display value="Pracoviště gastroenterologie a hepatologie"/>
+  </concept>
+  <concept>
+    <code value="106"/>
+    <display value="Pracoviště geriatrie"/>
+  </concept>
+  <concept>
+    <code value="107"/>
+    <display value="Pracoviště kardiologie"/>
+  </concept>
+  <concept>
+    <code value="108"/>
+    <display value="Pracoviště nefrologie"/>
+  </concept>
+  <concept>
+    <code value="109"/>
+    <display value="Pracoviště revmatologie"/>
+  </concept>
+  <concept>
+    <code value="128"/>
+    <display value="Pracoviště hemodialýzy"/>
+  </concept>
+  <concept>
+    <code value="1F1"/>
+    <display value="Pracoviště standardní ústavní lůžkové péče interní - F typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="1_1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="1F3"/>
+    <display value="Pracoviště standard. úst. lůžk. péče diabetologické - F typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="1_1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="1F4"/>
+    <display value="Pracoviště stand. úst. lůžk. péče endokrinologické - F typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="1_1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="1F5"/>
+    <display value="Prac. stand. úst. lůžk. péče gastroent. a hepatol. - F typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="1_1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="1F6"/>
+    <display value="Pracoviště standardní ústav. lůžk. péče geriatrické - F typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="1_6"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="1F7"/>
+    <display value="Pracoviště standard. úst. lůžk. péče kardiologické  - F typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="1_7"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="1F8"/>
+    <display value="Pracoviště standard. ústav. lůžk. péče nefrologické - F typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="1_1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="1F9"/>
+    <display value="Pracoviště standard. úst. lůžk. péče revmatologické - F typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="1_9"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="1H1"/>
+    <display value="Pracoviště standardní ústavní lůžk. péče interní - H typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="1_1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="1H3"/>
+    <display value="Pracoviště standard. úst. lůžk. péče diabetologické - H typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="1_1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="1H4"/>
+    <display value="Pracoviště stand. úst. lůžk. péče endokrinologické - H typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="1_1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="1H5"/>
+    <display value="Prac. stand. úst. lůžk. péče gastroent. a hepatol. - H typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="1_1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="1H6"/>
+    <display value="Pracoviště standardní ústav. lůžk. péče geriatrické - H typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="1_6"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="1H7"/>
+    <display value="Pracoviště standard. úst. lůžk. péče kardiologické - H typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="1_7"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="1H8"/>
+    <display value="Pracoviště standardní ústav. lůžk.péče nefrologické - H typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="1_1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="1H9"/>
+    <display value="Pracoviště standard. úst. lůžk. péče revmatologické - H typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="1_9"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="1I1"/>
+    <display value="Prac. resusc. a intenziv. ústavní lůž. péče interní - I typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="1_1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="1I3"/>
+    <display value="Pracoviště intenzivní ústavní lůž.péče diabetolog.- I typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="1_1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="1I5"/>
+    <display value="Pracoviště intenzivní ústavní lůž. péče hepatolog. - I typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="1_1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="1I6"/>
+    <display value="Pracov.resusc. a intenziv.úst. lůž. péče geriatric. - I typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="1_6"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="1I7"/>
+    <display value="Pracov.resusc.a intenziv.úst. lůž. péče kardiologic.- I typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="1_7"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="1I8"/>
+    <display value="Pracoviště intenziv. úst. lůž. péče nefrologic. - I typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="1_1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="1R7"/>
+    <display value="Pracoviště - operační sály kardiologie"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="1_7"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="1T1"/>
+    <display value="Pracov. resusc. a intenziv. úst. lůž. péče interní - T typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="1_1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="1T3"/>
+    <display value="Pracoviště intenziv. ústav. lůž. péče  diabetolog. - T typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="1_1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="1T5"/>
+    <display value="Pracoviště intenziv. ústavní lůž. péče  hepatolog. - T typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="1_1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="1T6"/>
+    <display value="Pracov. resusc.a intenziv.úst.lůž. péče geriatric. - T typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="1_6"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="1T7"/>
+    <display value="Pracov. resusc.a intenziv.ústav.lůž. péče kardiolog.- T typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="1_7"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="1T8"/>
+    <display value="Pracoviště intenziv. úst. lůž. péče nefrologic. - T typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="1_1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="1U1"/>
+    <display value="Pracoviště dlouhodobé (chronické) interní lůž.péče - U typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="1_1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="1U6"/>
+    <display value="Pracov. dlouhodobé (chronické) geriatrické lůž.péče - U typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="1_6"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="1U9"/>
+    <display value="Pracov.dlouhodobé (chronické) revmatolog. lůž. péče - U typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="1_9"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="201"/>
+    <display value="Pracoviště fyziatrie a rehabilitačního lékařství"/>
+  </concept>
+  <concept>
+    <code value="202"/>
+    <display value="Pracoviště klinické hematologie"/>
+  </concept>
+  <concept>
+    <code value="203"/>
+    <display value="Pracoviště přenosných nemocí"/>
+  </concept>
+  <concept>
+    <code value="204"/>
+    <display value="Pracoviště tělovýchovného lékařství"/>
+  </concept>
+  <concept>
+    <code value="205"/>
+    <display value="Pracoviště tuberkulózy a respiračních nemocí"/>
+  </concept>
+  <concept>
+    <code value="206"/>
+    <display value="Pracoviště klinické farmakologie (mimo laboratorní činnosti)"/>
+  </concept>
+  <concept>
+    <code value="207"/>
+    <display value="Pracoviště alergologie a klinické imunologie"/>
+  </concept>
+  <concept>
+    <code value="208"/>
+    <display value="Pracoviště lékařské genetiky"/>
+  </concept>
+  <concept>
+    <code value="209"/>
+    <display value="Pracoviště neurologie"/>
+  </concept>
+  <concept>
+    <code value="222"/>
+    <display value="Pracoviště transfúzní služby"/>
+  </concept>
+  <concept>
+    <code value="2F1"/>
+    <display value="Pracov. standardní ústav. lůž. péče rehabilitační - F typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="2_1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="2F2"/>
+    <display value="Pracov. standard.úst.lůž. péče klinické hematologie - F typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="2_2"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="2F3"/>
+    <display value="Pracov. standard. úst. lůž. péče přenosných nemocí - F typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="2_3"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="2F5"/>
+    <display value="Pracov. standard. ústav. lůž. péče TRN a pneumolog. - F typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="2_5"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="2F6"/>
+    <display value="Pracov. standard.úst.lůž.péče klinické farmakologie - F typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="2_6"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="2F7"/>
+    <display value="Prac.stand.úst.lůžk.péče klin.imunolog.a alergolog. - F typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="2_7"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="2F9"/>
+    <display value="Pracov. standardní ústavní lůžk. péče neurologické - F typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="2_9"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="2H1"/>
+    <display value="Pracov. standardní ústavní lůžk. péče rehabilitační - H typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="2_1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="2H2"/>
+    <display value="Prac.standard.ústav.lůžk. péče klinické hematologie - H typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="2_2"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="2H3"/>
+    <display value="Pracov. standard. úst. lůž. péče přenosných nemocí - H typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="2_3"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="2H5"/>
+    <display value="Pracov. standard.ústav. lůžk. péče TRN a pneumolog. - H typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="2_5"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="2H7"/>
+    <display value="Prac. stand.úst.lůž.péče klin.imunolog.a alergolog. - H typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="2_7"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="2H9"/>
+    <display value="Pracov.standardní ústavní lůžkové péče neurologické - H typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="2_9"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="2I2"/>
+    <display value="Prac. resusc. a intenz. úst.lůž.péče klin.hematolog.- I typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="2_2"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="2I3"/>
+    <display value="Prac. resusc. a intenz. úst. lůž.péče přenos.nemocí - I typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="2_3"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="2I5"/>
+    <display value="Prac.resusc. a intenz.úst.lůž.péče TRN a pneumolog. - I typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="2_5"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="2I9"/>
+    <display value="Pracov. resusc. a intenz.úst.lůž. péče neurologické - I typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="2_9"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="2S1"/>
+    <display value="Prac. poskyt.péči na spinálních rehabil.jednotkách"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="2_1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="2T2"/>
+    <display value="Prac. resusc. a intenz. úst.lůž.péče klin.hematolog.- T typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="2_2"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="2T3"/>
+    <display value="Prac. resusc. a intenz. úst. lůž.péče přenos.nemocí - T typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="2_3"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="2T5"/>
+    <display value="Prac.resusc. a intenz.úst.lůž.péče TRN a pneumolog. - T typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="2_5"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="2T9"/>
+    <display value="Prac. resusc. a intenz. úst. lůž. péče neurologické - T typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="2_9"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="2U1"/>
+    <display value="Pracov. dlouhodobé ústav. lůž. rehabilitační péče - U typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="2_1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="2U5"/>
+    <display value="Pracov. dlouhodobé ústav.lůž.TRN a pneumolog.péče - U typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="2_5"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="2U9"/>
+    <display value="Pracov. dlouhodobé (chronické) úst.neurolog. péče - U typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="2_9"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="301"/>
+    <display value="Pracoviště pediatrie"/>
+  </concept>
+  <concept>
+    <code value="302"/>
+    <display value="Pracoviště dětské kardiologie"/>
+  </concept>
+  <concept>
+    <code value="303"/>
+    <display value="Pracoviště dorostového lékařství"/>
+  </concept>
+  <concept>
+    <code value="304"/>
+    <display value="Pracoviště neonatologie"/>
+  </concept>
+  <concept>
+    <code value="305"/>
+    <display value="Pracoviště psychiatrie"/>
+  </concept>
+  <concept>
+    <code value="306"/>
+    <display value="Pracoviště dětské psychiatrie"/>
+  </concept>
+  <concept>
+    <code value="307"/>
+    <display value="Pracoviště gerontopsychiatrie"/>
+  </concept>
+  <concept>
+    <code value="308"/>
+    <display value="Pracoviště léčby alkoholismu a jiných toxikomanií"/>
+  </concept>
+  <concept>
+    <code value="309"/>
+    <display value="Pracoviště sexuologie"/>
+  </concept>
+  <concept>
+    <code value="3F1"/>
+    <display value="Pracov. standardní ústavní lůžkové péče pediatrické - F typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="3_1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="3F2"/>
+    <display value="Pracov. standard. úst. lůž. péče dětské kardiologie - F typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="1_7"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="3F3"/>
+    <display value="Prac. standard.úst.lůžk. péče dorostového lékařství - F typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="1_1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="3F4"/>
+    <display value="Pracov. standard. úst. lůžk. péče o novorozence - F typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="3_4"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="3F5"/>
+    <display value="Pracov. standard. úst. lůž. péče psychiatrické - F typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="3_5"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="3F6"/>
+    <display value="Prac. standard. úst. lůž. péče dětské psychiatrie - F typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="3_5"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="3F7"/>
+    <display value="Prac. standard. úst. lůž. péče gerontopsychiatric. - F typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="3_5"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="3H1"/>
+    <display value="Pracov. standard. úst. lůž. péče pediatrické - H typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="3_1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="3H2"/>
+    <display value="Pracov. standard. úst. lůž. péče dětské kardiologie - H typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="1_7"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="3H3"/>
+    <display value="Prac.standard. úst. lůž. péče dorostového lékařství - H typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="1_1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="3H4"/>
+    <display value="Pracov. standard. úst. lůž. péče o novorozence - H typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="3_4"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="3H5"/>
+    <display value="Pracov. standard. ústav. lůžk. péče psychiatrické - H typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="3_5"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="3H6"/>
+    <display value="Pracov. standard. úst. lůž. péče dětské psychiatrie - H typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="3_5"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="3H7"/>
+    <display value="Pracov.standard. úst. lůž. péče gerontopsychiatric. - H typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="3_5"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="3I1"/>
+    <display value="Pracov.resusc. a intenz. úst. lůž. péče pediatrické - I typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="3_1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="3I2"/>
+    <display value="Prac. resusc.a intenz.úst.lůž.péče dětské kardiolog - I typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="1_7"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="3I4"/>
+    <display value="Prac.resuscit.a intenziv. ústav.lůž. péče neonatol. - I typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="3_4"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="3I5"/>
+    <display value="Prac.resusc. a intenz. úst. lůž. péče psychiatrické - I typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="3_5"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="3I6"/>
+    <display value="Prac. resusc. a intenz. úst. lůž. péče dět.psychiatr. I typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="3_5"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="3T1"/>
+    <display value="Prac. resusc. a intenz. úst. lůž. péče pediatrické - T typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="3_1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="3T2"/>
+    <display value="Prac.resusc. a intenz.úst.lůž.péče dětské kardiolog - T typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="1_7"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="3T4"/>
+    <display value="Prac. resusc. a intenz. úst. lůž. péče neonatol. - T typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="3_4"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="3T5"/>
+    <display value="Prac.resusc. a intenz. úst. lůž. péče psychiatrické - T typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="3_5"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="3T6"/>
+    <display value="Prac. resusc. a intenz. úst.lůž.péče dět.psychiatr. - T typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="3_5"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="3U1"/>
+    <display value="Prac.dlouhodobé (chronic.) úst.lůž.péče pediatrické - U typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="3_1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="3U5"/>
+    <display value="Prac. dlouhodobé (chronic.) úst.lůž.péče psychiatr. - U typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="3_5"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="3U6"/>
+    <display value="Prac. dlouhod.(chronic.) úst.lůž.péče dět.psychiatr.- U typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="3_5"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="3U7"/>
+    <display value="Prac.dlouhod.(chronic.)úst.lůž.péče gerontopsychiatr.-U typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="3_5"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="3U8"/>
+    <display value="Prac. dlouhod.(chronic.) léčba alkohol.a j. toxikom. -U typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="3_5"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="401"/>
+    <display value="Pracoviště pracovního lékařství"/>
+  </concept>
+  <concept>
+    <code value="402"/>
+    <display value="Pracoviště klinické onkologie (bez radiační onkologie)"/>
+  </concept>
+  <concept>
+    <code value="403"/>
+    <display value="Pracoviště radioterapie a radiační onkologie"/>
+  </concept>
+  <concept>
+    <code value="404"/>
+    <display value="Pracoviště dermatovenerologie"/>
+  </concept>
+  <concept>
+    <code value="405"/>
+    <display value="Pracoviště dětské dermatologie"/>
+  </concept>
+  <concept>
+    <code value="406"/>
+    <display value="Pracoviště korektivní dermatologie"/>
+  </concept>
+  <concept>
+    <code value="407"/>
+    <display value="Pracoviště nukleární medicíny"/>
+  </concept>
+  <concept>
+    <code value="409"/>
+    <display value="Pracoviště dětské neurologie"/>
+  </concept>
+  <concept>
+    <code value="4F1"/>
+    <display value="Pracov. standard. úst. lůž. péče nemocí z povolání - F typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="4_1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="4F2"/>
+    <display value="Pracov. standard. úst. lůž. péče onkologické - F typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="4_2"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="4F3"/>
+    <display value="Pracov. standard. úst. lůž. péče radioterapeutické - F typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="4_3"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="4F4"/>
+    <display value="Pracov. standard. úst.lůž.péče dermatovenerologické - F typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="4_4"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="4F5"/>
+    <display value="Pracov. standard. úst.lůž. péče dětské dermatologie - F typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="4_4"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="4F7"/>
+    <display value="Pracov. standard. úst. lůž. péče nukleární medicíny - F typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="4_7"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="4F9"/>
+    <display value="Pracov. standard. úst. lůž. péče dětské neurologie - F typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="2_9"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="4H1"/>
+    <display value="Pracov. standard. úst. lůž. péče nemocí z povolání - H typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="4_1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="4H2"/>
+    <display value="Pracov. standardní ústavní lůžkové péče onkologické - H typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="4_2"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="4H3"/>
+    <display value="Pracov. standard. úst. lůž. péče radioterapeutické - H typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="4_3"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="4H4"/>
+    <display value="Prac. standard. úst. lůž. péče dermatovenerologické - H typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="4_4"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="4H5"/>
+    <display value="Pracov.standard. úst. lůž. péče dětské dermatologie - H typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="4_4"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="4H7"/>
+    <display value="Pracov. standard. úst. lůž. péče nukleární medicíny - H typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="4_7"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="4H9"/>
+    <display value="Pracov. standard. úst. lůž. péče dětské neurologie - H typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="2_9"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="4I2"/>
+    <display value="Pracov. resusc. a intenz. úst. lůž.péče onkologické - I typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="4_2"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="4I3"/>
+    <display value="Pracov.resusc. a intenz. úst. lůž. péče radioterap. - I typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="4_3"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="4I9"/>
+    <display value="Pracov.resusc. a intenz.úst.lůž.péče dětské neurol. - I typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="2_9"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="4T2"/>
+    <display value="Pracov. resusc. a intenz. úst. lůž.péče onkologické - T typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="4_2"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="4T3"/>
+    <display value="Pracov.resusc. a intenz. úst. lůž. péče radioterap. - T typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="4_3"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="4T9"/>
+    <display value="Prac. resusc. a intenz. úst.lůž.péče dětské neurol. - T typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="2_9"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="4U5"/>
+    <display value="Prac.dlouhod.(chronic.) úst.lůž.péče dětské dermatol.-U typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="4_4"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="4U9"/>
+    <display value="Prac.dlouhod.(chronic.) úst.lůž.péče dětské neurolog.-U typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="2_9"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="501"/>
+    <display value="Pracoviště chirurgie"/>
+  </concept>
+  <concept>
+    <code value="502"/>
+    <display value="Pracoviště dětské chirurgie"/>
+  </concept>
+  <concept>
+    <code value="503"/>
+    <display value="Pracoviště úrazové chirurgie"/>
+  </concept>
+  <concept>
+    <code value="504"/>
+    <display value="Pracoviště cévní chirurgie"/>
+  </concept>
+  <concept>
+    <code value="505"/>
+    <display value="Pracoviště kardiochirurgie"/>
+  </concept>
+  <concept>
+    <code value="506"/>
+    <display value="Pracoviště neurochirurgie"/>
+  </concept>
+  <concept>
+    <code value="507"/>
+    <display value="Pracoviště hrudní chirurgie"/>
+  </concept>
+  <concept>
+    <code value="5F1"/>
+    <display value="Pracov. standard. úst. lůž. péče chirurgické - F typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="5_1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="5F2"/>
+    <display value="Pracov. standard. úst. lůž. péče dětské chirurgie - F typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="5_1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="5F3"/>
+    <display value="Pracov. standard. úst. lůž. péče úrazové chirurgie - F typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="5_3"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="5F4"/>
+    <display value="Pracov. standard. úst. lůž. péče cévní chirurgie - F typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="5_1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="5F5"/>
+    <display value="Pracov. standard. úst. lůž. péče kardiochirurgické - F typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="5_5"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="5F6"/>
+    <display value="Pracov. standard. úst. lůž. péče neurochirurgické - F typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="5_6"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="5F7"/>
+    <display value="Pracov. standard. úst. lůž. péče hrudní chirurgie - F typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="5_1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="5H1"/>
+    <display value="Pracov. standard. úst. lůž. péče chirurgické - H typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="5_1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="5H2"/>
+    <display value="Pracov. standard. úst. lůž. péče dětské chirurgie - H typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="5_1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="5H3"/>
+    <display value="Pracov. standard. úst. lůž. péče úrazové chirurgie - H typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="5_3"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="5H4"/>
+    <display value="Pracov. standard. úst. lůž. péče cévní chirurgie - H typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="5_1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="5H5"/>
+    <display value="Pracov. standard. úst. lůž. péče kardiochirurgické - H typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="5_5"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="5H6"/>
+    <display value="Pracov. standard. úst. lůž. péče neurochirurgické - H typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="5_6"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="5H7"/>
+    <display value="Pracov. standard. úst. lůž. péče hrudní chirurgie - H typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="5_1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="5I1"/>
+    <display value="Pracov. resusc. a intenz. úst. lůž.péče chirurgické - I typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="5_1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="5I2"/>
+    <display value="Prac. resusc. a intenz. úst.lůž. péče dět.chirurgie - I typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="5_1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="5I3"/>
+    <display value="Pracov. resusc. a intenz.úst.lůž.péče úraz. chirur. - I typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="5_3"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="5I4"/>
+    <display value="Prac.resusc. a intenz. úst. lůž.péče cévní chirurgie- I typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="5_1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="5I5"/>
+    <display value="Pracov.resusc. a intenz. úst. lůž. péče kardiochir. - I typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="5_5"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="5I6"/>
+    <display value="Pracov. resusc. a intenz. úst. lůž. péče neurochir. - I typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="5_6"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="5I7"/>
+    <display value="Prac. resusc. a intenz. úst. lůž. péče hrudní chir. - I typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="5_1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="5J1"/>
+    <display value="Pracoviště jednodenní péče v oboru chirurgie"/>
+  </concept>
+  <concept>
+    <code value="5R1"/>
+    <display value="Pracoviště-operační sály chirurgie"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="5_1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="5R2"/>
+    <display value="Pracoviště-operační sály dětské chirurgie"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="5_1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="5R3"/>
+    <display value="Pracoviště-operační sály úrazové chirurgie"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="5_3"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="5R4"/>
+    <display value="Pracoviště-operační sály cévní chirurgie"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="5_1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="5R5"/>
+    <display value="Pracoviště-operační sály kardiochirurgie"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="5_5"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="5R6"/>
+    <display value="Pracoviště-operační sály neurochirurgie"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="5_6"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="5R7"/>
+    <display value="Pracoviště-operační sály hrudní chirurgie"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="5_1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="5S9"/>
+    <display value="Pracov. poskytující péči na spinálních jednotkách"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="5_1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="5T1"/>
+    <display value="Pracov.resusc. a intenz. úst. lůž. péče chirurgické - T typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="5_1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="5T2"/>
+    <display value="Prac.resusc. a intenz. úst. lůž. péče dět.chirurgie - T typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="5_1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="5T3"/>
+    <display value="Pracov. resusc. a intenz.úst.lůž.péče úraz. chirur. - T typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="5_3"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="5T4"/>
+    <display value="Prac.resusc. a intenz. úst. lůž.péče cévní chirurgie- T typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="5_1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="5T5"/>
+    <display value="Pracov.resusc. a intenz. úst. lůž. péče kardiochir. - T typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="5_5"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="5T6"/>
+    <display value="Pracov. resusc. a intenz. úst. lůž. péče neurochir. - T typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="5_6"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="5T7"/>
+    <display value="Pracov. resusc. a intenz. úst. lůž.péče hrudní chir.- T typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="5_1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="601"/>
+    <display value="Pracoviště plastické chirurgie"/>
+  </concept>
+  <concept>
+    <code value="602"/>
+    <display value="Pracoviště popáleninové medicíny"/>
+  </concept>
+  <concept>
+    <code value="603"/>
+    <display value="Pracoviště gynekologie a porodnictví"/>
+  </concept>
+  <concept>
+    <code value="604"/>
+    <display value="Pracoviště dětské gynekologie"/>
+  </concept>
+  <concept>
+    <code value="605"/>
+    <display value="Pracoviště čelistní a obličejové chirurgie"/>
+  </concept>
+  <concept>
+    <code value="606"/>
+    <display value="Pracoviště ortopedie"/>
+  </concept>
+  <concept>
+    <code value="607"/>
+    <display value="Pracoviště ortopedické protetiky"/>
+  </concept>
+  <concept>
+    <code value="613"/>
+    <display value="Pracoviště akreditovaného centra asistované reprodukce"/>
+  </concept>
+  <concept>
+    <code value="6F1"/>
+    <display value="Pracov. standard. úst. lůž.péče plastické chirurgie - F typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="6_1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="6F2"/>
+    <display value="Prac. standard. úst. lůž.péče popáleninové medicíny - F typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="6_2"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="6F3"/>
+    <display value="Pracov. standard. úst. lůž. péče gynekologické - F typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="6_3"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="6F4"/>
+    <display value="Pracov. standard. úst. lůž. péče dětské gynekologie - F typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="6_3"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="6F5"/>
+    <display value="Prac.stand.úst.lůž.péče stomatochir.a čelist.ortop. - F typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="6_5"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="6F6"/>
+    <display value="Pracov. standardní ústavní lůž. péče ortopedické - F typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="6_6"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="6F7"/>
+    <display value="Prac.standard. úst. lůž. péče ortopedické protetiky - F typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="6_7"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="6H1"/>
+    <display value="Prac. standard. úst. lůž. péče plastické chirurgie - H typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="6_1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="6H2"/>
+    <display value="Prac.standard. úst. lůž. péče popáleninové medicíny - H typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="6_2"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="6H3"/>
+    <display value="Pracov. standard. úst. lůž. péče gynekologické - H typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="6_3"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="6H4"/>
+    <display value="Pracov. standard. úst. lůž. péče dětské gynekologie - H typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="6_3"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="6H6"/>
+    <display value="Pracov. standardní ústavní lůžkové péče ortopedické - H typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="6_6"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="6H7"/>
+    <display value="Prac.standard. úst. lůž. péče ortopedické protetiky - H typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="6_7"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="6I1"/>
+    <display value="Prac. resusc. a intenz.úst.lůž.péče plastic.chirur. - I typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="6_1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="6I2"/>
+    <display value="Prac.resusc. a intenz.úst.lůž.péče popálen.medicín. - I typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="6_2"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="6I3"/>
+    <display value="Prac. resusc. a intenz. úst.lůž. péče gynekologické - I typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="6_3"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="6I4"/>
+    <display value="Prac.resusc. a intenz.úst.lůž. péče dětské gynekol. - I typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="6_3"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="6I5"/>
+    <display value="Prac. intenz.úst.lůž. péče stomatoch.a čelis.ortop.-I typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="6_5"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="6I6"/>
+    <display value="Prac. resusc. a intenz. úst. lůž. péče ortopedické - I typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="6_6"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="6J1"/>
+    <display value="Pracoviště jednodenní péče v oboru plastické chirurgie"/>
+  </concept>
+  <concept>
+    <code value="6J3"/>
+    <display value="Pracoviště jednodenní péče v oboru gynekologie"/>
+  </concept>
+  <concept>
+    <code value="6J6"/>
+    <display value="Pracoviště jednodenní péče v oboru ortopedie"/>
+  </concept>
+  <concept>
+    <code value="6P3"/>
+    <display value="Pracoviště intenz. a intermediární úst.lůž. porodnické péče"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="6_3"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="6R1"/>
+    <display value="Pracovište-operační sály plastické chirurgie"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="6_1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="6R2"/>
+    <display value="Pracovište-operační sály popáleninové medicíny"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="6_2"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="6R3"/>
+    <display value="Pracovište-operační sály gynekologie"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="6_3"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="6R4"/>
+    <display value="Pracovište-operační sály dětské gynekologie"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="6_3"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="6R5"/>
+    <display value="Pracovište-operační sály stomatochirurgie a čelist.ortopedie"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="6_5"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="6R6"/>
+    <display value="Pracovište-operační sály ortopedie"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="6_6"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="6T1"/>
+    <display value="Prac.resusc. a intenz. úst.lůž.péče plastic.chirur. - T typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="6_1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="6T2"/>
+    <display value="Prac.resusc. a intenz.úst.lůž.péče popálen.medicín. - T typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="6_2"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="6T3"/>
+    <display value="Prac. resusc. a intenz. úst.lůž. péče gynekologické - T typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="6_3"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="6T4"/>
+    <display value="Prac.resusc. a intenz. úst.lůž.péče dětské gynekol. - T typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="6_3"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="6T5"/>
+    <display value="Prac. res.a inten.úst.lůž.péče stomatoch.a čelis.ortop.-T t."/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="6_5"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="6T6"/>
+    <display value="Pracov. resusc. a intenz. úst.lůž. péče ortopedické - T typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="6_6"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="6Z1"/>
+    <display value="Pracoviště-péče na zákrokovém sálku v oboru plastic.chirurg"/>
+  </concept>
+  <concept>
+    <code value="6Z3"/>
+    <display value="Pracoviště-péče na zákrokovém sálku v oboru gynekologie"/>
+  </concept>
+  <concept>
+    <code value="6Z6"/>
+    <display value="Pracoviště-péče na zákrokovém sálku v oboru ortopedie"/>
+  </concept>
+  <concept>
+    <code value="701"/>
+    <display value="Pracoviště otorinolaryngologie"/>
+  </concept>
+  <concept>
+    <code value="702"/>
+    <display value="Pracoviště foniatrie"/>
+  </concept>
+  <concept>
+    <code value="703"/>
+    <display value="Pracoviště audiologie"/>
+  </concept>
+  <concept>
+    <code value="704"/>
+    <display value="Pracoviště dětské otorinolaryngologie"/>
+  </concept>
+  <concept>
+    <code value="705"/>
+    <display value="Pracoviště oftalmologie"/>
+  </concept>
+  <concept>
+    <code value="706"/>
+    <display value="Pracoviště urologie"/>
+  </concept>
+  <concept>
+    <code value="707"/>
+    <display value="Pracoviště dětské urologie"/>
+  </concept>
+  <concept>
+    <code value="708"/>
+    <display value="Pracoviště anesteziologicko - resuscitační"/>
+  </concept>
+  <concept>
+    <code value="709"/>
+    <display value="Pracoviště zdravotnické záchranné služby (RZP+RLP)"/>
+  </concept>
+  <concept>
+    <code value="7D8"/>
+    <display value="Pracoviště dlouhodobé intenzivní péče (DIP)"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="7_8"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="7F1"/>
+    <display value="Pracoviště standardní ústavní lůžkové péče ORL - F typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="7_1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="7F2"/>
+    <display value="Pracov. standardní ústavní lůžkové péče foniatrické - F typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="7_2"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="7F4"/>
+    <display value="Pracov. standardní ústavní lůžkové péče dětské ORL - F typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="7_1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="7F5"/>
+    <display value="Prac. standard. ústavní lůžkové péče oftalmologické - F typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="7_5"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="7F6"/>
+    <display value="Pracov. standardní ústavní lůžkové péče urologické - F typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="7_6"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="7F7"/>
+    <display value="Prac. standard. ústav. lůžkové péče dětské urologie - F typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="7_6"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="7H1"/>
+    <display value="Pracov. standardní ústavní lůžkové péče ORL - H typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="7_1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="7H2"/>
+    <display value="Pracov. standardní ústavní lůžkové péče foniatrické - H typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="7_2"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="7H4"/>
+    <display value="Pracov. standardní ústavní lůžkové péče dětské ORL - H typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="7_1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="7H5"/>
+    <display value="Prac. standard. ústavní lůžkové péče oftalmologické - H typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="7_5"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="7H6"/>
+    <display value="Pracov. standardní ústavní lůžkové péče urologické - H typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="7_6"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="7H7"/>
+    <display value="Pracov. standard. ústav. lůž. péče dětské urologie - H typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="7_6"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="7I1"/>
+    <display value="Pracov. resusc. a intenz. ústav. lůžkové péče ORL - I typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="7_1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="7I4"/>
+    <display value="Pracov. resusc. a intenz. úst. lůž. péče dětské ORL - I typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="7_1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="7I6"/>
+    <display value="Pracov.resusc. a intenz. ústav. lůž.péče urologické - I typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="7_6"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="7I7"/>
+    <display value="Pracov.resusc. a intenz. úst. lůž.péče dět.urologie - I typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="7_6"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="7I8"/>
+    <display value="Pracov. resuscitační ústavní lůžkové péče - ARO - I typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="7_8"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="7J1"/>
+    <display value="Pracoviště jednodenní péče v oboru ORL"/>
+  </concept>
+  <concept>
+    <code value="7J6"/>
+    <display value="Pracoviště jednodenní péče v oboru urologie"/>
+  </concept>
+  <concept>
+    <code value="7R1"/>
+    <display value="Pracoviště-operační sály ORL"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="7_1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="7R5"/>
+    <display value="Pracoviště-operační sály oftalmologie"/>
+  </concept>
+  <concept>
+    <code value="7R6"/>
+    <display value="Pracoviště-operační sály urologie"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="7_6"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="7R7"/>
+    <display value="Pracoviště-operační sály dětské urologie"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="7_6"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="7T1"/>
+    <display value="Pracov. resusc. a intenz. ústav. lůžkové péče ORL - T typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="7_1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="7T4"/>
+    <display value="Pracov. resusc. a intenz. úst. lůž. péče dětské ORL - T typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="7_1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="7T6"/>
+    <display value="Pracov. resusc. a intenz. úst. lůž. péče urologické - T typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="7_6"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="7T7"/>
+    <display value="Pracov.resusc. a intenz. úst. lůž.péče dět.urologie - T typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="7_6"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="7T8"/>
+    <display value="Pracov. resuscitační ústavní lůžkové péče - ARO - T typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="7_8"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="7U4"/>
+    <display value="Pracov. dlouhod. (chronic.) úst.lůž.péče dětské ORL - U typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="7_1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="7U5"/>
+    <display value="Pracov. dlouhod.(chronic.) úst.lůž.péče oftalmolog. - U typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="7_5"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="7U8"/>
+    <display value="Pracoviště dlouhodobé intenzivní ošetřovatelské péče (DIOP)"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="7_8"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="801"/>
+    <display value="Pracoviště klinické biochemie"/>
+  </concept>
+  <concept>
+    <code value="802"/>
+    <display value="Pracoviště lékařské mikrobiologie"/>
+  </concept>
+  <concept>
+    <code value="803"/>
+    <display value="Pracoviště lékařské bakteriologie"/>
+  </concept>
+  <concept>
+    <code value="804"/>
+    <display value="Pracoviště lékařské parazitologie"/>
+  </concept>
+  <concept>
+    <code value="805"/>
+    <display value="Pracoviště lékařské virologie"/>
+  </concept>
+  <concept>
+    <code value="806"/>
+    <display value="Pracoviště s osvědčením pro provádění screeningu nádoru prsu"/>
+  </concept>
+  <concept>
+    <code value="807"/>
+    <display value="Pracoviště patologické anatomie"/>
+  </concept>
+  <concept>
+    <code value="808"/>
+    <display value="Pracoviště soudního lékařství"/>
+  </concept>
+  <concept>
+    <code value="809"/>
+    <display value="Pracoviště radiodiagnostiky"/>
+  </concept>
+  <concept>
+    <code value="810"/>
+    <display value="Pracoviště magnetické rezonance"/>
+  </concept>
+  <concept>
+    <code value="812"/>
+    <display value="Pracoviště jiného laboratorního oboru"/>
+  </concept>
+  <concept>
+    <code value="813"/>
+    <display value="Laboratoř alergologická a imunologická"/>
+  </concept>
+  <concept>
+    <code value="814"/>
+    <display value="Laboratoř toxikologická"/>
+  </concept>
+  <concept>
+    <code value="815"/>
+    <display value="Laboratoř nukleární mediciny"/>
+  </concept>
+  <concept>
+    <code value="816"/>
+    <display value="Laboratoř lékařské genetiky"/>
+  </concept>
+  <concept>
+    <code value="817"/>
+    <display value="Laboratoř klinické cytologie"/>
+  </concept>
+  <concept>
+    <code value="818"/>
+    <display value="Laboratoř hematologická"/>
+  </concept>
+  <concept>
+    <code value="820"/>
+    <display value="Laboratoř provádějící screening karcinomu děložního hrdla"/>
+  </concept>
+  <concept>
+    <code value="822"/>
+    <display value="Laboratoř mykologická"/>
+  </concept>
+  <concept>
+    <code value="881"/>
+    <display value="Ambulance klinické biochemie"/>
+  </concept>
+  <concept>
+    <code value="901"/>
+    <display value="Pracoviště klinické psychologie"/>
+  </concept>
+  <concept>
+    <code value="902"/>
+    <display value="Samostatné pracoviště fyzioterapeutů"/>
+  </concept>
+  <concept>
+    <code value="903"/>
+    <display value="Pracoviště klinické logopedie"/>
+  </concept>
+  <concept>
+    <code value="904"/>
+    <display value="Samostatné prac. jiných zdrav. pracovníků - vysokoškoláků"/>
+  </concept>
+  <concept>
+    <code value="913"/>
+    <display value="Prac.ošetřovat. a rehabilit.péče v pobyt.zaříz.sociál.služeb"/>
+  </concept>
+  <concept>
+    <code value="914"/>
+    <display value="Samostatné pracoviště psychiatrických sester"/>
+  </concept>
+  <concept>
+    <code value="917"/>
+    <display value="Samostatné pracoviště ergoterapeutů"/>
+  </concept>
+  <concept>
+    <code value="921"/>
+    <display value="Samostatné pracoviště porodních asistentek"/>
+  </concept>
+  <concept>
+    <code value="925"/>
+    <display value="Pracoviště domácí péče - SZP"/>
+  </concept>
+  <concept>
+    <code value="927"/>
+    <display value="Samostatné prac. ortoptických sester"/>
+  </concept>
+  <concept>
+    <code value="989"/>
+    <display value="Pracoviště dopravy raněných, nemocných a rodiček"/>
+  </concept>
+  <concept>
+    <code value="994"/>
+    <display value="Odb.pouze pro indik.péče komplementu (lékař.zaměstn.koj.úst)"/>
+  </concept>
+  <concept>
+    <code value="995"/>
+    <display value="Odbornost pouze pro indikaci dopravy zpět do místa bydliště"/>
+  </concept>
+  <concept>
+    <code value="996"/>
+    <display value="Odbornost pouze pro úhradu cestovného pacientům"/>
+  </concept>
+  <concept>
+    <code value="9F8"/>
+    <display value="Pracoviště neúplné ústavní péče - F typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="9_8"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="9F9"/>
+    <display value="Pracov. ústavní péče na ošetřovatelském lůžku - F typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="9_9"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="9H8"/>
+    <display value="Pracoviště neúplné ústavní péče - H typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="9_8"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="9H9"/>
+    <display value="Pracov. ústavní péče na ošetřovatelském lůžku - H typu"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="9_9"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="9U7"/>
+    <display value="Pracov. ústavní následné péče v LDN"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="9_7"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="9U9"/>
+    <display value="Pracov. ústavní následné ošetřovatelské péče v hospici"/>
+    <property>
+      <code value="SODB"/>
+      <valueString value="9_9"/>
+    </property>
+  </concept>
+</CodeSystem>

@@ -15,7 +15,7 @@
     "valueCode" : "trial-use"
   }],
   "url" : "https://sukl.cz/terminology/ValueSet/dlp-lecivepripravky",
-  "version" : "0.2.0",
+  "version" : "1.0.0",
   "name" : "DLP_lecivepripravky",
   "title" : "Léčivé přípravky",
   "status" : "active",

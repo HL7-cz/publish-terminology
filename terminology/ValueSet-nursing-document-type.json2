@@ -7,10 +7,10 @@
     "div" : "<div xml:lang=\"cs\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"cs\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet nursing-document-type</b></p><a name=\"nursing-document-type\"> </a><a name=\"hcnursing-document-type\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: cs</p></div><ul><li>Include these codes as defined in <a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"https://loinc.org/34746-8/\">34746-8</a></td><td>Ošetřovatelský záznam</td></tr><tr><td><a href=\"https://loinc.org/97681-1/\">97681-1</a></td><td>Ošetřovatelská anamnéza</td></tr><tr><td><a href=\"https://loinc.org/64295-9/\">64295-9</a></td><td>Ošetřovatelský plán péče</td></tr><tr><td><a href=\"https://loinc.org/28623-7/\">28623-7</a></td><td>Ošetřovatelské hodnocení</td></tr><tr><td><a href=\"https://loinc.org/34745-0/\">34745-0</a></td><td>Ošetřovatelská propouštěcí zpráva</td></tr></table></li></ul></div>"
   },
   "url" : "https://ncez.mzcr.cz/terminology/ValueSet/nursing-document-type",
-  "version" : "0.2.0",
+  "version" : "1.0.0",
   "name" : "NursingDocumentType",
   "title" : "Typ ošetřovatelské dokumentace",
-  "status" : "draft",
+  "status" : "active",
   "experimental" : false,
   "date" : "2025-11-19T15:47:12.482345Z",
   "publisher" : "HL7 Czech Republic",

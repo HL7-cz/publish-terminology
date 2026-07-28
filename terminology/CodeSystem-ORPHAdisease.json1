@@ -1,0 +1,39 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "ORPHAdisease",
+  "language" : "cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"cs\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"cs\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem ORPHAdisease</b></p><a name=\"ORPHAdisease\"> </a><a name=\"hcORPHAdisease\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: cs</p></div><p>This case-insensitive code system <code>https://www.orpha.net</code> defines codes in a Is-A hierarchy, but no codes are represented here</p></div>"
+  },
+  "url" : "https://www.orpha.net",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.44.5"
+  }],
+  "version" : "2026",
+  "name" : "ORPHADisease",
+  "title" : "ORPHA vzácná onemocnění",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2026-04-16T12:39:37.905826Z",
+  "publisher" : "HL7 Czech Republic",
+  "contact" : [{
+    "name" : "HL7 Czech Republic",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.hl7.cz/"
+    }]
+  }],
+  "description" : "Nomenklatura vzácných onemocnění ORPHAcode, která je nezbytná pro zlepšení viditelnosti vzácných onemocnění ve zdravotnických a výzkumných informačních systémech.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CZ",
+      "display" : "Czechia"
+    }]
+  }],
+  "caseSensitive" : false,
+  "hierarchyMeaning" : "is-a",
+  "content" : "not-present"
+}

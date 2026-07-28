@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="vzp-smluvni-odbornost"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/>
+  </text>
+  <url value="https://ncez.mzcr.cz/terminology/ValueSet/vzp-smluvni-odbornost"/>
+  <version value="770"/>
+  <name value="VZPSmluvniOdbornost"/>
+  <title value="Číselník VZP - smluvní odbornost pracovišť"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-07-27T08:52:28.170257Z"/>
+  <publisher value="HL7 Czech Republic"/>
+  <contact>
+    <name value="HL7 Czech Republic"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hl7.cz/"/>
+    </telecom>
+  </contact>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CZ"/>
+      <display value="Czechia"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="https://ncez.mzcr.cz/terminology/CodeSystem/vzp-smluvni-odbornost"/>
+      <version value="770"/>
+    </include>
+  </compose>
+</ValueSet>

@@ -1,0 +1,33 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "NCLPPOL",
+  "language" : "en",
+  "text" : {
+    "status" : "generated"
+  },
+  "url" : "https://ncez.mzcr.cz/nclp/CodeSystem/nclppol",
+  "version" : "02.97.01",
+  "name" : "CS_NCLPPOL",
+  "title" : "NCLPPOL Code System",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-06-02T14:38:49Z",
+  "publisher" : "HL7 Czech Republic",
+  "contact" : [{
+    "name" : "HL7 Czech Republic",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.hl7.cz/"
+    }]
+  }],
+  "description" : "Národní číselník laboratorních položek",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CZ",
+      "display" : "Czechia"
+    }]
+  }],
+  "caseSensitive" : false,
+  "content" : "not-present"
+}

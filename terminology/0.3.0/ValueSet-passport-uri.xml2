@@ -1,0 +1,1039 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="passport-uri"/>
+  <language value="cs"/>
+  <text>
+    <status value="generated"/><div xml:lang="cs" xmlns="http://www.w3.org/1999/xhtml" lang="cs"><p class="res-header-id"><b>Generated Narrative: ValueSet passport-uri</b></p><a name="passport-uri"> </a><a name="hcpassport-uri"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: cs</p></div><ul><li>Include these codes as defined in <code>urn:ietf:rfc:3986</code><span title="Version is not explicitly stated. No matching Code System found"> version Not Stated (use latest from terminology server)</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>http://hl7.org/fhir/sid/passport-AFG</td><td>Afghánistán</td></tr><tr><td>http://hl7.org/fhir/sid/passport-ALB</td><td>Albánie</td></tr><tr><td>http://hl7.org/fhir/sid/passport-DZA</td><td>Alžírsko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-ASM</td><td>Americká Samoa</td></tr><tr><td>http://hl7.org/fhir/sid/passport-AND</td><td>Andorra</td></tr><tr><td>http://hl7.org/fhir/sid/passport-AGO</td><td>Angola</td></tr><tr><td>http://hl7.org/fhir/sid/passport-AIA</td><td>Anguilla</td></tr><tr><td>http://hl7.org/fhir/sid/passport-ATA</td><td>Antarktida</td></tr><tr><td>http://hl7.org/fhir/sid/passport-ATG</td><td>Antigua a Barbuda</td></tr><tr><td>http://hl7.org/fhir/sid/passport-ARG</td><td>Argentina</td></tr><tr><td>http://hl7.org/fhir/sid/passport-ARM</td><td>Arménie</td></tr><tr><td>http://hl7.org/fhir/sid/passport-ABW</td><td>Aruba</td></tr><tr><td>http://hl7.org/fhir/sid/passport-AUS</td><td>Austrálie</td></tr><tr><td>http://hl7.org/fhir/sid/passport-AUT</td><td>Rakousko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-AZE</td><td>Ázerbájdžán</td></tr><tr><td>http://hl7.org/fhir/sid/passport-BHS</td><td>Bahamy</td></tr><tr><td>http://hl7.org/fhir/sid/passport-BHR</td><td>Bahrajn</td></tr><tr><td>http://hl7.org/fhir/sid/passport-BGD</td><td>Bangladéš</td></tr><tr><td>http://hl7.org/fhir/sid/passport-BRB</td><td>Barbados</td></tr><tr><td>http://hl7.org/fhir/sid/passport-BLR</td><td>Bělorusko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-BEL</td><td>Belgie</td></tr><tr><td>http://hl7.org/fhir/sid/passport-BLZ</td><td>Belize</td></tr><tr><td>http://hl7.org/fhir/sid/passport-BEN</td><td>Benin</td></tr><tr><td>http://hl7.org/fhir/sid/passport-BMU</td><td>Bermudy</td></tr><tr><td>http://hl7.org/fhir/sid/passport-BTN</td><td>Bhútán</td></tr><tr><td>http://hl7.org/fhir/sid/passport-BOL</td><td>Bolívie</td></tr><tr><td>http://hl7.org/fhir/sid/passport-BES</td><td>Bonaire, Svatý Eustach a Saba</td></tr><tr><td>http://hl7.org/fhir/sid/passport-BIH</td><td>Bosna a Hercegovina</td></tr><tr><td>http://hl7.org/fhir/sid/passport-BWA</td><td>Botswana</td></tr><tr><td>http://hl7.org/fhir/sid/passport-BVT</td><td>Bouvetův ostrov</td></tr><tr><td>http://hl7.org/fhir/sid/passport-BRA</td><td>Brazílie</td></tr><tr><td>http://hl7.org/fhir/sid/passport-IOT</td><td>Britské indickooceánské území</td></tr><tr><td>http://hl7.org/fhir/sid/passport-BRN</td><td>Brunej</td></tr><tr><td>http://hl7.org/fhir/sid/passport-BGR</td><td>Bulharsko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-BFA</td><td>Burkina Faso</td></tr><tr><td>http://hl7.org/fhir/sid/passport-BDI</td><td>Burundi</td></tr><tr><td>http://hl7.org/fhir/sid/passport-CPV</td><td>Burundi</td></tr><tr><td>http://hl7.org/fhir/sid/passport-KHM</td><td>Kambodža</td></tr><tr><td>http://hl7.org/fhir/sid/passport-CMR</td><td>Kamerun</td></tr><tr><td>http://hl7.org/fhir/sid/passport-CAN</td><td>Kanada</td></tr><tr><td>http://hl7.org/fhir/sid/passport-CYM</td><td>Kajmanské ostrovy</td></tr><tr><td>http://hl7.org/fhir/sid/passport-CAF</td><td>Středoafrická republika</td></tr><tr><td>http://hl7.org/fhir/sid/passport-TCD</td><td>Čad</td></tr><tr><td>http://hl7.org/fhir/sid/passport-CHL</td><td>Chile</td></tr><tr><td>http://hl7.org/fhir/sid/passport-CHN</td><td>Čína</td></tr><tr><td>http://hl7.org/fhir/sid/passport-CXR</td><td>Vánoční ostrov</td></tr><tr><td>http://hl7.org/fhir/sid/passport-CCK</td><td>Kokosové (Keelingovy) ostrovy</td></tr><tr><td>http://hl7.org/fhir/sid/passport-COL</td><td>Kolumbie</td></tr><tr><td>http://hl7.org/fhir/sid/passport-COM</td><td>Komory</td></tr><tr><td>http://hl7.org/fhir/sid/passport-COD</td><td>Konžská republika</td></tr><tr><td>http://hl7.org/fhir/sid/passport-COG</td><td>Konžská republika</td></tr><tr><td>http://hl7.org/fhir/sid/passport-COK</td><td>Cookovy ostrovy</td></tr><tr><td>http://hl7.org/fhir/sid/passport-CRI</td><td>Kostarika</td></tr><tr><td>http://hl7.org/fhir/sid/passport-HRV</td><td>Chorvatsko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-CUB</td><td>Kuba</td></tr><tr><td>http://hl7.org/fhir/sid/passport-CUW</td><td>Curaçao</td></tr><tr><td>http://hl7.org/fhir/sid/passport-CYP</td><td>Kypr</td></tr><tr><td>http://hl7.org/fhir/sid/passport-CZE</td><td>Česko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-CIV</td><td>Pobřeží slonoviny</td></tr><tr><td>http://hl7.org/fhir/sid/passport-DNK</td><td>Dánsko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-DJI</td><td>Džibutsko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-DMA</td><td>Dominika</td></tr><tr><td>http://hl7.org/fhir/sid/passport-DOM</td><td>Dominikánská republika</td></tr><tr><td>http://hl7.org/fhir/sid/passport-ECU</td><td>Ekvádor</td></tr><tr><td>http://hl7.org/fhir/sid/passport-EGY</td><td>Egypt</td></tr><tr><td>http://hl7.org/fhir/sid/passport-SLV</td><td>Salvador</td></tr><tr><td>http://hl7.org/fhir/sid/passport-GNQ</td><td>Rovníková Guinea</td></tr><tr><td>http://hl7.org/fhir/sid/passport-ERI</td><td>Eritrea</td></tr><tr><td>http://hl7.org/fhir/sid/passport-EST</td><td>Estonsko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-SWZ</td><td>Estonsko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-ETH</td><td>Etiopie</td></tr><tr><td>http://hl7.org/fhir/sid/passport-FLK</td><td>Falklandy</td></tr><tr><td>http://hl7.org/fhir/sid/passport-FRO</td><td>Faerské ostrovy</td></tr><tr><td>http://hl7.org/fhir/sid/passport-FJI</td><td>Fidži</td></tr><tr><td>http://hl7.org/fhir/sid/passport-FIN</td><td>Finsko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-FRA</td><td>Francie</td></tr><tr><td>http://hl7.org/fhir/sid/passport-GUF</td><td>Francouzská Guyana</td></tr><tr><td>http://hl7.org/fhir/sid/passport-PYF</td><td>Francouzská Polynésie</td></tr><tr><td>http://hl7.org/fhir/sid/passport-ATF</td><td>Francouzská jižní a antarktická území</td></tr><tr><td>http://hl7.org/fhir/sid/passport-GAB</td><td>Gabon</td></tr><tr><td>http://hl7.org/fhir/sid/passport-GMB</td><td>Gambie</td></tr><tr><td>http://hl7.org/fhir/sid/passport-GEO</td><td>Gruzie</td></tr><tr><td>http://hl7.org/fhir/sid/passport-DEU</td><td>Německo</td></tr><tr><td>http://hl7.org/fhir/sid/passport-GHA</td><td>Ghana</td></tr><tr><td>http://hl7.org/fhir/sid/passport-GIB</td><td>Gibraltar</td></tr><tr><td>http://hl7.org/fhir/sid/passport-GRC</td><td>Řecko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-GRL</td><td>Grónsko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-GRD</td><td>Grenada</td></tr><tr><td>http://hl7.org/fhir/sid/passport-GLP</td><td>Guadeloupe</td></tr><tr><td>http://hl7.org/fhir/sid/passport-GUM</td><td>Guam</td></tr><tr><td>http://hl7.org/fhir/sid/passport-GTM</td><td>Guatemala</td></tr><tr><td>http://hl7.org/fhir/sid/passport-GGY</td><td>Guernsey</td></tr><tr><td>http://hl7.org/fhir/sid/passport-GIN</td><td>Guinea</td></tr><tr><td>http://hl7.org/fhir/sid/passport-GNB</td><td>Guinea-Bissau</td></tr><tr><td>http://hl7.org/fhir/sid/passport-GUY</td><td>Guyana</td></tr><tr><td>http://hl7.org/fhir/sid/passport-HTI</td><td>Haiti</td></tr><tr><td>http://hl7.org/fhir/sid/passport-HMD</td><td>Heardův ostrov a MacDonaldovy ostrovy</td></tr><tr><td>http://hl7.org/fhir/sid/passport-VAT</td><td>Vatikán</td></tr><tr><td>http://hl7.org/fhir/sid/passport-HND</td><td>Honduras</td></tr><tr><td>http://hl7.org/fhir/sid/passport-HKG</td><td>Hongkong</td></tr><tr><td>http://hl7.org/fhir/sid/passport-HUN</td><td>Maďarsko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-ISL</td><td>Island</td></tr><tr><td>http://hl7.org/fhir/sid/passport-IND</td><td>Indie</td></tr><tr><td>http://hl7.org/fhir/sid/passport-IDN</td><td>Indonésie</td></tr><tr><td>http://hl7.org/fhir/sid/passport-IRN</td><td>Írán</td></tr><tr><td>http://hl7.org/fhir/sid/passport-IRQ</td><td>Irák</td></tr><tr><td>http://hl7.org/fhir/sid/passport-IRL</td><td>Irsko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-IMN</td><td>Man</td></tr><tr><td>http://hl7.org/fhir/sid/passport-ISR</td><td>Izrael</td></tr><tr><td>http://hl7.org/fhir/sid/passport-ITA</td><td>Itálie</td></tr><tr><td>http://hl7.org/fhir/sid/passport-JAM</td><td>Jamajka</td></tr><tr><td>http://hl7.org/fhir/sid/passport-JPN</td><td>Japonsko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-JEY</td><td>Jersey</td></tr><tr><td>http://hl7.org/fhir/sid/passport-JOR</td><td>Jordánsko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-KAZ</td><td>Kazachstán</td></tr><tr><td>http://hl7.org/fhir/sid/passport-KEN</td><td>Keňa</td></tr><tr><td>http://hl7.org/fhir/sid/passport-KIR</td><td>Kiribati</td></tr><tr><td>http://hl7.org/fhir/sid/passport-PRK</td><td>Korejská lidově demokratická republika</td></tr><tr><td>http://hl7.org/fhir/sid/passport-KOR</td><td>Korejská lidově demokratická republika</td></tr><tr><td>http://hl7.org/fhir/sid/passport-KWT</td><td>Kuvajt</td></tr><tr><td>http://hl7.org/fhir/sid/passport-KGZ</td><td>Kyrgyzstán</td></tr><tr><td>http://hl7.org/fhir/sid/passport-LAO</td><td>Laos</td></tr><tr><td>http://hl7.org/fhir/sid/passport-LVA</td><td>Lotyšsko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-LBN</td><td>Libanon</td></tr><tr><td>http://hl7.org/fhir/sid/passport-LSO</td><td>Lesotho</td></tr><tr><td>http://hl7.org/fhir/sid/passport-LBR</td><td>Libérie</td></tr><tr><td>http://hl7.org/fhir/sid/passport-LBY</td><td>Libye</td></tr><tr><td>http://hl7.org/fhir/sid/passport-LIE</td><td>Lichtenštejnsko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-LTU</td><td>Litva</td></tr><tr><td>http://hl7.org/fhir/sid/passport-LUX</td><td>Lucembursko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-MAC</td><td>Macao</td></tr><tr><td>http://hl7.org/fhir/sid/passport-MDG</td><td>Madagaskar</td></tr><tr><td>http://hl7.org/fhir/sid/passport-MWI</td><td>Malawi</td></tr><tr><td>http://hl7.org/fhir/sid/passport-MYS</td><td>Malajsie</td></tr><tr><td>http://hl7.org/fhir/sid/passport-MDV</td><td>Maledivy</td></tr><tr><td>http://hl7.org/fhir/sid/passport-MLI</td><td>Mali</td></tr><tr><td>http://hl7.org/fhir/sid/passport-MLT</td><td>Malta</td></tr><tr><td>http://hl7.org/fhir/sid/passport-MHL</td><td>Marshallovy ostrovy</td></tr><tr><td>http://hl7.org/fhir/sid/passport-MTQ</td><td>Martinik</td></tr><tr><td>http://hl7.org/fhir/sid/passport-MRT</td><td>Mauritánie</td></tr><tr><td>http://hl7.org/fhir/sid/passport-MUS</td><td>Mauricius</td></tr><tr><td>http://hl7.org/fhir/sid/passport-MYT</td><td>Mayotte</td></tr><tr><td>http://hl7.org/fhir/sid/passport-MEX</td><td>Mexiko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-FSM</td><td>Mikronésie</td></tr><tr><td>http://hl7.org/fhir/sid/passport-MDA</td><td>Mikronésie</td></tr><tr><td>http://hl7.org/fhir/sid/passport-MCO</td><td>Monako</td></tr><tr><td>http://hl7.org/fhir/sid/passport-MNG</td><td>Mongolsko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-MNE</td><td>Černá Hora</td></tr><tr><td>http://hl7.org/fhir/sid/passport-MSR</td><td>Montserrat</td></tr><tr><td>http://hl7.org/fhir/sid/passport-MAR</td><td>Maroko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-MOZ</td><td>Mosambik</td></tr><tr><td>http://hl7.org/fhir/sid/passport-MMR</td><td>Myanmar</td></tr><tr><td>http://hl7.org/fhir/sid/passport-NAM</td><td>Namibie</td></tr><tr><td>http://hl7.org/fhir/sid/passport-NRU</td><td>Nauru</td></tr><tr><td>http://hl7.org/fhir/sid/passport-NPL</td><td>Nepál</td></tr><tr><td>http://hl7.org/fhir/sid/passport-NLD</td><td>Nizozemsko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-NCL</td><td>Nová Kaledonie</td></tr><tr><td>http://hl7.org/fhir/sid/passport-NZL</td><td>Nový Zéland</td></tr><tr><td>http://hl7.org/fhir/sid/passport-NIC</td><td>Nikaragua</td></tr><tr><td>http://hl7.org/fhir/sid/passport-NER</td><td>Niger</td></tr><tr><td>http://hl7.org/fhir/sid/passport-NGA</td><td>Nigérie</td></tr><tr><td>http://hl7.org/fhir/sid/passport-NIU</td><td>Niue</td></tr><tr><td>http://hl7.org/fhir/sid/passport-NFK</td><td>Norfolk</td></tr><tr><td>http://hl7.org/fhir/sid/passport-MKD</td><td>Norfolk</td></tr><tr><td>http://hl7.org/fhir/sid/passport-MNP</td><td>Severní Mariany</td></tr><tr><td>http://hl7.org/fhir/sid/passport-NOR</td><td>Norsko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-OMN</td><td>Omán</td></tr><tr><td>http://hl7.org/fhir/sid/passport-PAK</td><td>Pákistán</td></tr><tr><td>http://hl7.org/fhir/sid/passport-PLW</td><td>Palau</td></tr><tr><td>http://hl7.org/fhir/sid/passport-PSE</td><td>Palestina</td></tr><tr><td>http://hl7.org/fhir/sid/passport-PAN</td><td>Panama</td></tr><tr><td>http://hl7.org/fhir/sid/passport-PNG</td><td>Papua Nová Guinea</td></tr><tr><td>http://hl7.org/fhir/sid/passport-PRY</td><td>Paraguay</td></tr><tr><td>http://hl7.org/fhir/sid/passport-PER</td><td>Peru</td></tr><tr><td>http://hl7.org/fhir/sid/passport-PHL</td><td>Filipíny</td></tr><tr><td>http://hl7.org/fhir/sid/passport-PCN</td><td>Pitcairn</td></tr><tr><td>http://hl7.org/fhir/sid/passport-POL</td><td>Polsko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-PRT</td><td>Portugalsko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-PRI</td><td>Portoriko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-QAT</td><td>Katar</td></tr><tr><td>http://hl7.org/fhir/sid/passport-ROU</td><td>Rumunsko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-RUS</td><td>Rusko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-RWA</td><td>Rwanda</td></tr><tr><td>http://hl7.org/fhir/sid/passport-REU</td><td>Réunion</td></tr><tr><td>http://hl7.org/fhir/sid/passport-BLM</td><td>Svatý Bartoloměj</td></tr><tr><td>http://hl7.org/fhir/sid/passport-SHN</td><td>Svatá Helena</td></tr><tr><td>http://hl7.org/fhir/sid/passport-KNA</td><td>Svatý Kryštof a Nevis</td></tr><tr><td>http://hl7.org/fhir/sid/passport-LCA</td><td>Svatá Lucie</td></tr><tr><td>http://hl7.org/fhir/sid/passport-MAF</td><td>Svatý Martin (FR)</td></tr><tr><td>http://hl7.org/fhir/sid/passport-SPM</td><td>Saint Pierre a Miquelon</td></tr><tr><td>http://hl7.org/fhir/sid/passport-VCT</td><td>Svatý Vincenc a Grenadiny</td></tr><tr><td>http://hl7.org/fhir/sid/passport-WSM</td><td>Samoa</td></tr><tr><td>http://hl7.org/fhir/sid/passport-SMR</td><td>San Marino</td></tr><tr><td>http://hl7.org/fhir/sid/passport-STP</td><td>Svatý Tomáš a Princův ostrov</td></tr><tr><td>http://hl7.org/fhir/sid/passport-SAU</td><td>Saúdská Arábie</td></tr><tr><td>http://hl7.org/fhir/sid/passport-SEN</td><td>Senegal</td></tr><tr><td>http://hl7.org/fhir/sid/passport-SRB</td><td>Srbsko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-SYC</td><td>Seychely</td></tr><tr><td>http://hl7.org/fhir/sid/passport-SLE</td><td>Sierra Leone</td></tr><tr><td>http://hl7.org/fhir/sid/passport-SGP</td><td>Singapur</td></tr><tr><td>http://hl7.org/fhir/sid/passport-SXM</td><td>Svatý Martin (NL)</td></tr><tr><td>http://hl7.org/fhir/sid/passport-SVK</td><td>Slovensko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-SVN</td><td>Slovinsko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-SLB</td><td>Šalomounovy ostrovy</td></tr><tr><td>http://hl7.org/fhir/sid/passport-SOM</td><td>Somálsko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-ZAF</td><td>Jižní Afrika</td></tr><tr><td>http://hl7.org/fhir/sid/passport-SGS</td><td>Jižní Georgie a Jižní Sandwichovy ostrovy</td></tr><tr><td>http://hl7.org/fhir/sid/passport-SSD</td><td>Jižní Súdán</td></tr><tr><td>http://hl7.org/fhir/sid/passport-ESP</td><td>Španělsko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-LKA</td><td>Šrí Lanka</td></tr><tr><td>http://hl7.org/fhir/sid/passport-SDN</td><td>Súdán</td></tr><tr><td>http://hl7.org/fhir/sid/passport-SUR</td><td>Surinam</td></tr><tr><td>http://hl7.org/fhir/sid/passport-SJM</td><td>Špicberky a Jan Mayen</td></tr><tr><td>http://hl7.org/fhir/sid/passport-SWE</td><td>Švédsko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-CHE</td><td>Švýcarsko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-SYR</td><td>Sýrie</td></tr><tr><td>http://hl7.org/fhir/sid/passport-TWN</td><td>Sýrie</td></tr><tr><td>http://hl7.org/fhir/sid/passport-TJK</td><td>Tádžikistán</td></tr><tr><td>http://hl7.org/fhir/sid/passport-TZA</td><td>Tádžikistán</td></tr><tr><td>http://hl7.org/fhir/sid/passport-THA</td><td>Thajsko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-TLS</td><td>Východní Timor</td></tr><tr><td>http://hl7.org/fhir/sid/passport-TGO</td><td>Togo</td></tr><tr><td>http://hl7.org/fhir/sid/passport-TKL</td><td>Tokelau</td></tr><tr><td>http://hl7.org/fhir/sid/passport-TON</td><td>Tonga</td></tr><tr><td>http://hl7.org/fhir/sid/passport-TTO</td><td>Trinidad a Tobago</td></tr><tr><td>http://hl7.org/fhir/sid/passport-TUN</td><td>Tunisko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-TKM</td><td>Turkmenistán</td></tr><tr><td>http://hl7.org/fhir/sid/passport-TCA</td><td>Turks a Caicos</td></tr><tr><td>http://hl7.org/fhir/sid/passport-TUV</td><td>Tuvalu</td></tr><tr><td>http://hl7.org/fhir/sid/passport-TUR</td><td>Turecko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-UGA</td><td>Uganda</td></tr><tr><td>http://hl7.org/fhir/sid/passport-UKR</td><td>Ukrajina</td></tr><tr><td>http://hl7.org/fhir/sid/passport-ARE</td><td>Spojené arabské emiráty</td></tr><tr><td>http://hl7.org/fhir/sid/passport-GBR</td><td>Velká Británie</td></tr><tr><td>http://hl7.org/fhir/sid/passport-UMI</td><td>Menší odlehlé ostrovy USA</td></tr><tr><td>http://hl7.org/fhir/sid/passport-USA</td><td>Spojené státy</td></tr><tr><td>http://hl7.org/fhir/sid/passport-URY</td><td>Uruguay</td></tr><tr><td>http://hl7.org/fhir/sid/passport-UZB</td><td>Uzbekistán</td></tr><tr><td>http://hl7.org/fhir/sid/passport-VUT</td><td>Vanuatu</td></tr><tr><td>http://hl7.org/fhir/sid/passport-VEN</td><td>Venezuela</td></tr><tr><td>http://hl7.org/fhir/sid/passport-VNM</td><td>Vietnam</td></tr><tr><td>http://hl7.org/fhir/sid/passport-VGB</td><td>Vietnam</td></tr><tr><td>http://hl7.org/fhir/sid/passport-VIR</td><td>Vietnam</td></tr><tr><td>http://hl7.org/fhir/sid/passport-WLF</td><td>Wallis a Futuna</td></tr><tr><td>http://hl7.org/fhir/sid/passport-ESH</td><td>Západní Sahara</td></tr><tr><td>http://hl7.org/fhir/sid/passport-YEM</td><td>Jemen</td></tr><tr><td>http://hl7.org/fhir/sid/passport-ZMB</td><td>Zambie</td></tr><tr><td>http://hl7.org/fhir/sid/passport-ZWE</td><td>Zimbabwe</td></tr><tr><td>http://hl7.org/fhir/sid/passport-ALA</td><td>Alandy</td></tr></table></li></ul></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="2"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use"/>
+  </extension>
+  <url value="https://hl7.cz/terminology/ValueSet/passport-uri"/>
+  <version value="1.0.0"/>
+  <name value="PassportUri"/>
+  <title value="Passport URIs"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-01-01"/>
+  <publisher value="HL7 Czech Republic"/>
+  <contact>
+    <name value="HL7 Czech Republic"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hl7.cz/"/>
+    </telecom>
+  </contact>
+  <description value="A country specific URI for passport numbers"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CZ"/>
+      <display value="Czechia"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="urn:ietf:rfc:3986"/>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-AFG"/>
+        <display value="Afghánistán"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-ALB"/>
+        <display value="Albánie"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-DZA"/>
+        <display value="Alžírsko"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-ASM"/>
+        <display value="Americká Samoa"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-AND"/>
+        <display value="Andorra"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-AGO"/>
+        <display value="Angola"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-AIA"/>
+        <display value="Anguilla"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-ATA"/>
+        <display value="Antarktida"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-ATG"/>
+        <display value="Antigua a Barbuda"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-ARG"/>
+        <display value="Argentina"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-ARM"/>
+        <display value="Arménie"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-ABW"/>
+        <display value="Aruba"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-AUS"/>
+        <display value="Austrálie"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-AUT"/>
+        <display value="Rakousko"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-AZE"/>
+        <display value="Ázerbájdžán"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-BHS"/>
+        <display value="Bahamy"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-BHR"/>
+        <display value="Bahrajn"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-BGD"/>
+        <display value="Bangladéš"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-BRB"/>
+        <display value="Barbados"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-BLR"/>
+        <display value="Bělorusko"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-BEL"/>
+        <display value="Belgie"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-BLZ"/>
+        <display value="Belize"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-BEN"/>
+        <display value="Benin"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-BMU"/>
+        <display value="Bermudy"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-BTN"/>
+        <display value="Bhútán"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-BOL"/>
+        <display value="Bolívie"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-BES"/>
+        <display value="Bonaire, Svatý Eustach a Saba"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-BIH"/>
+        <display value="Bosna a Hercegovina"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-BWA"/>
+        <display value="Botswana"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-BVT"/>
+        <display value="Bouvetův ostrov"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-BRA"/>
+        <display value="Brazílie"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-IOT"/>
+        <display value="Britské indickooceánské území"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-BRN"/>
+        <display value="Brunej"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-BGR"/>
+        <display value="Bulharsko"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-BFA"/>
+        <display value="Burkina Faso"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-BDI"/>
+        <display value="Burundi"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-CPV"/>
+        <display value="Burundi"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-KHM"/>
+        <display value="Kambodža"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-CMR"/>
+        <display value="Kamerun"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-CAN"/>
+        <display value="Kanada"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-CYM"/>
+        <display value="Kajmanské ostrovy"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-CAF"/>
+        <display value="Středoafrická republika"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-TCD"/>
+        <display value="Čad"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-CHL"/>
+        <display value="Chile"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-CHN"/>
+        <display value="Čína"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-CXR"/>
+        <display value="Vánoční ostrov"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-CCK"/>
+        <display value="Kokosové (Keelingovy) ostrovy"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-COL"/>
+        <display value="Kolumbie"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-COM"/>
+        <display value="Komory"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-COD"/>
+        <display value="Konžská republika"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-COG"/>
+        <display value="Konžská republika"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-COK"/>
+        <display value="Cookovy ostrovy"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-CRI"/>
+        <display value="Kostarika"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-HRV"/>
+        <display value="Chorvatsko"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-CUB"/>
+        <display value="Kuba"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-CUW"/>
+        <display value="Curaçao"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-CYP"/>
+        <display value="Kypr"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-CZE"/>
+        <display value="Česko"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-CIV"/>
+        <display value="Pobřeží slonoviny"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-DNK"/>
+        <display value="Dánsko"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-DJI"/>
+        <display value="Džibutsko"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-DMA"/>
+        <display value="Dominika"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-DOM"/>
+        <display value="Dominikánská republika"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-ECU"/>
+        <display value="Ekvádor"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-EGY"/>
+        <display value="Egypt"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-SLV"/>
+        <display value="Salvador"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-GNQ"/>
+        <display value="Rovníková Guinea"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-ERI"/>
+        <display value="Eritrea"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-EST"/>
+        <display value="Estonsko"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-SWZ"/>
+        <display value="Estonsko"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-ETH"/>
+        <display value="Etiopie"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-FLK"/>
+        <display value="Falklandy"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-FRO"/>
+        <display value="Faerské ostrovy"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-FJI"/>
+        <display value="Fidži"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-FIN"/>
+        <display value="Finsko"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-FRA"/>
+        <display value="Francie"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-GUF"/>
+        <display value="Francouzská Guyana"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-PYF"/>
+        <display value="Francouzská Polynésie"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-ATF"/>
+        <display value="Francouzská jižní a antarktická území"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-GAB"/>
+        <display value="Gabon"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-GMB"/>
+        <display value="Gambie"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-GEO"/>
+        <display value="Gruzie"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-DEU"/>
+        <display value="Německo"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-GHA"/>
+        <display value="Ghana"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-GIB"/>
+        <display value="Gibraltar"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-GRC"/>
+        <display value="Řecko"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-GRL"/>
+        <display value="Grónsko"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-GRD"/>
+        <display value="Grenada"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-GLP"/>
+        <display value="Guadeloupe"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-GUM"/>
+        <display value="Guam"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-GTM"/>
+        <display value="Guatemala"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-GGY"/>
+        <display value="Guernsey"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-GIN"/>
+        <display value="Guinea"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-GNB"/>
+        <display value="Guinea-Bissau"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-GUY"/>
+        <display value="Guyana"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-HTI"/>
+        <display value="Haiti"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-HMD"/>
+        <display value="Heardův ostrov a MacDonaldovy ostrovy"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-VAT"/>
+        <display value="Vatikán"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-HND"/>
+        <display value="Honduras"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-HKG"/>
+        <display value="Hongkong"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-HUN"/>
+        <display value="Maďarsko"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-ISL"/>
+        <display value="Island"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-IND"/>
+        <display value="Indie"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-IDN"/>
+        <display value="Indonésie"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-IRN"/>
+        <display value="Írán"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-IRQ"/>
+        <display value="Irák"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-IRL"/>
+        <display value="Irsko"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-IMN"/>
+        <display value="Man"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-ISR"/>
+        <display value="Izrael"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-ITA"/>
+        <display value="Itálie"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-JAM"/>
+        <display value="Jamajka"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-JPN"/>
+        <display value="Japonsko"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-JEY"/>
+        <display value="Jersey"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-JOR"/>
+        <display value="Jordánsko"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-KAZ"/>
+        <display value="Kazachstán"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-KEN"/>
+        <display value="Keňa"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-KIR"/>
+        <display value="Kiribati"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-PRK"/>
+        <display value="Korejská lidově demokratická republika"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-KOR"/>
+        <display value="Korejská lidově demokratická republika"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-KWT"/>
+        <display value="Kuvajt"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-KGZ"/>
+        <display value="Kyrgyzstán"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-LAO"/>
+        <display value="Laos"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-LVA"/>
+        <display value="Lotyšsko"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-LBN"/>
+        <display value="Libanon"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-LSO"/>
+        <display value="Lesotho"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-LBR"/>
+        <display value="Libérie"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-LBY"/>
+        <display value="Libye"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-LIE"/>
+        <display value="Lichtenštejnsko"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-LTU"/>
+        <display value="Litva"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-LUX"/>
+        <display value="Lucembursko"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-MAC"/>
+        <display value="Macao"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-MDG"/>
+        <display value="Madagaskar"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-MWI"/>
+        <display value="Malawi"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-MYS"/>
+        <display value="Malajsie"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-MDV"/>
+        <display value="Maledivy"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-MLI"/>
+        <display value="Mali"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-MLT"/>
+        <display value="Malta"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-MHL"/>
+        <display value="Marshallovy ostrovy"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-MTQ"/>
+        <display value="Martinik"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-MRT"/>
+        <display value="Mauritánie"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-MUS"/>
+        <display value="Mauricius"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-MYT"/>
+        <display value="Mayotte"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-MEX"/>
+        <display value="Mexiko"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-FSM"/>
+        <display value="Mikronésie"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-MDA"/>
+        <display value="Mikronésie"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-MCO"/>
+        <display value="Monako"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-MNG"/>
+        <display value="Mongolsko"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-MNE"/>
+        <display value="Černá Hora"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-MSR"/>
+        <display value="Montserrat"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-MAR"/>
+        <display value="Maroko"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-MOZ"/>
+        <display value="Mosambik"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-MMR"/>
+        <display value="Myanmar"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-NAM"/>
+        <display value="Namibie"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-NRU"/>
+        <display value="Nauru"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-NPL"/>
+        <display value="Nepál"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-NLD"/>
+        <display value="Nizozemsko"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-NCL"/>
+        <display value="Nová Kaledonie"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-NZL"/>
+        <display value="Nový Zéland"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-NIC"/>
+        <display value="Nikaragua"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-NER"/>
+        <display value="Niger"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-NGA"/>
+        <display value="Nigérie"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-NIU"/>
+        <display value="Niue"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-NFK"/>
+        <display value="Norfolk"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-MKD"/>
+        <display value="Norfolk"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-MNP"/>
+        <display value="Severní Mariany"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-NOR"/>
+        <display value="Norsko"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-OMN"/>
+        <display value="Omán"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-PAK"/>
+        <display value="Pákistán"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-PLW"/>
+        <display value="Palau"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-PSE"/>
+        <display value="Palestina"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-PAN"/>
+        <display value="Panama"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-PNG"/>
+        <display value="Papua Nová Guinea"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-PRY"/>
+        <display value="Paraguay"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-PER"/>
+        <display value="Peru"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-PHL"/>
+        <display value="Filipíny"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-PCN"/>
+        <display value="Pitcairn"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-POL"/>
+        <display value="Polsko"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-PRT"/>
+        <display value="Portugalsko"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-PRI"/>
+        <display value="Portoriko"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-QAT"/>
+        <display value="Katar"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-ROU"/>
+        <display value="Rumunsko"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-RUS"/>
+        <display value="Rusko"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-RWA"/>
+        <display value="Rwanda"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-REU"/>
+        <display value="Réunion"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-BLM"/>
+        <display value="Svatý Bartoloměj"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-SHN"/>
+        <display value="Svatá Helena"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-KNA"/>
+        <display value="Svatý Kryštof a Nevis"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-LCA"/>
+        <display value="Svatá Lucie"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-MAF"/>
+        <display value="Svatý Martin (FR)"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-SPM"/>
+        <display value="Saint Pierre a Miquelon"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-VCT"/>
+        <display value="Svatý Vincenc a Grenadiny"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-WSM"/>
+        <display value="Samoa"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-SMR"/>
+        <display value="San Marino"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-STP"/>
+        <display value="Svatý Tomáš a Princův ostrov"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-SAU"/>
+        <display value="Saúdská Arábie"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-SEN"/>
+        <display value="Senegal"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-SRB"/>
+        <display value="Srbsko"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-SYC"/>
+        <display value="Seychely"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-SLE"/>
+        <display value="Sierra Leone"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-SGP"/>
+        <display value="Singapur"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-SXM"/>
+        <display value="Svatý Martin (NL)"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-SVK"/>
+        <display value="Slovensko"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-SVN"/>
+        <display value="Slovinsko"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-SLB"/>
+        <display value="Šalomounovy ostrovy"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-SOM"/>
+        <display value="Somálsko"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-ZAF"/>
+        <display value="Jižní Afrika"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-SGS"/>
+        <display value="Jižní Georgie a Jižní Sandwichovy ostrovy"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-SSD"/>
+        <display value="Jižní Súdán"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-ESP"/>
+        <display value="Španělsko"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-LKA"/>
+        <display value="Šrí Lanka"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-SDN"/>
+        <display value="Súdán"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-SUR"/>
+        <display value="Surinam"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-SJM"/>
+        <display value="Špicberky a Jan Mayen"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-SWE"/>
+        <display value="Švédsko"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-CHE"/>
+        <display value="Švýcarsko"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-SYR"/>
+        <display value="Sýrie"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-TWN"/>
+        <display value="Sýrie"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-TJK"/>
+        <display value="Tádžikistán"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-TZA"/>
+        <display value="Tádžikistán"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-THA"/>
+        <display value="Thajsko"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-TLS"/>
+        <display value="Východní Timor"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-TGO"/>
+        <display value="Togo"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-TKL"/>
+        <display value="Tokelau"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-TON"/>
+        <display value="Tonga"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-TTO"/>
+        <display value="Trinidad a Tobago"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-TUN"/>
+        <display value="Tunisko"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-TKM"/>
+        <display value="Turkmenistán"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-TCA"/>
+        <display value="Turks a Caicos"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-TUV"/>
+        <display value="Tuvalu"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-TUR"/>
+        <display value="Turecko"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-UGA"/>
+        <display value="Uganda"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-UKR"/>
+        <display value="Ukrajina"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-ARE"/>
+        <display value="Spojené arabské emiráty"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-GBR"/>
+        <display value="Velká Británie"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-UMI"/>
+        <display value="Menší odlehlé ostrovy USA"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-USA"/>
+        <display value="Spojené státy"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-URY"/>
+        <display value="Uruguay"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-UZB"/>
+        <display value="Uzbekistán"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-VUT"/>
+        <display value="Vanuatu"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-VEN"/>
+        <display value="Venezuela"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-VNM"/>
+        <display value="Vietnam"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-VGB"/>
+        <display value="Vietnam"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-VIR"/>
+        <display value="Vietnam"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-WLF"/>
+        <display value="Wallis a Futuna"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-ESH"/>
+        <display value="Západní Sahara"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-YEM"/>
+        <display value="Jemen"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-ZMB"/>
+        <display value="Zambie"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-ZWE"/>
+        <display value="Zimbabwe"/>
+      </concept>
+      <concept>
+        <code value="http://hl7.org/fhir/sid/passport-ALA"/>
+        <display value="Alandy"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

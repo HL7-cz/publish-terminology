@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="nzis-nahradyzazdravotnipeci"/>
+  <language value="cs"/>
+  <text>
+    <status value="generated"/><div xml:lang="cs" xmlns="http://www.w3.org/1999/xhtml" lang="cs"><p class="res-header-id"><b>Generated Narrative: ValueSet nzis-nahradyzazdravotnipeci</b></p><a name="nzis-nahradyzazdravotnipeci"> </a><a name="hcnzis-nahradyzazdravotnipeci"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: cs</p></div><ul><li>Include all codes defined in <a href="CodeSystem-nzis-NahradyZaZdravotniPeci.html"><code>https://uzis.cz/terminology/CodeSystem/nzis-NahradyZaZdravotniPeci</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> version &#x1F4E6;1.0.0</span></li></ul></div>
+  </text>
+  <url value="https://uzis.cz/terminology/ValueSet/nzis-nahradyzazdravotnipeci"/>
+  <version value="1.0.0"/>
+  <name value="NahradyZaZdravotniPeci"/>
+  <title value="Číselník NahradyZaZdravotniPeci"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-02-11T11:59:29.782157Z"/>
+  <publisher value="HL7 Czech Republic"/>
+  <contact>
+    <name value="HL7 Czech Republic"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hl7.cz/"/>
+    </telecom>
+  </contact>
+  <description value="Číselník obsahující koncepty z kódového systému NahradyZaZdravotniPeci. Číselník použitý v NRHOSP"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CZ"/>
+      <display value="Czechia"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="https://uzis.cz/terminology/CodeSystem/nzis-NahradyZaZdravotniPeci"/>
+    </include>
+  </compose>
+</ValueSet>

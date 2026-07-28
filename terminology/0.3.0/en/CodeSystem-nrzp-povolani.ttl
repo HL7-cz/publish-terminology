@@ -1,0 +1,270 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hl7.cz/terminology/CodeSystem/nrzp-povolani> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "nrzp-povolani"] ;
+  fhir:Resource.language [ fhir:value "en"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ]
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://ncez.mzcr.cz/terminology/CodeSystem/nrzp-povolani"] ;
+  fhir:CodeSystem.identifier [
+     fhir:index -1 ;
+     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ] ;
+     fhir:Identifier.value [ fhir:value "urn:oid:1.2.203.24341.11.2.10.2.1" ]
+  ] ;
+  fhir:CodeSystem.version [ fhir:value "1.0.0"] ;
+  fhir:CodeSystem.name [ fhir:value "NRZP_Povolani"] ;
+  fhir:CodeSystem.title [ fhir:value "NRZP - Czech health professional occupation"] ;
+  fhir:CodeSystem.status [ fhir:value "active"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "1980-01-01"^^xsd:date] ;
+  fhir:CodeSystem.publisher [ fhir:value "HL7 Czech Republic"] ;
+  fhir:CodeSystem.contact [
+     fhir:index -1 ;
+     fhir:ContactDetail.name [ fhir:value "HL7 Czech Republic" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index -1 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://www.hl7.cz/" ]
+     ]
+  ] ;
+  fhir:CodeSystem.description [ fhir:value "Czech national code system for health professional occupation used in the national registry of healthcare practicioners."] ;
+  fhir:CodeSystem.jurisdiction [
+     fhir:index -1 ;
+     fhir:CodeableConcept.coding [
+       fhir:index -1 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "CZ" ] ;
+       fhir:Coding.display [ fhir:value "Czechia" ]
+     ]
+  ] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.count [ fhir:value "53"^^xsd:nonNegativeInteger] ;
+  fhir:CodeSystem.concept [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "L1" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Lékař po absolvování odborné způsobilosti (L1)" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "L2" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Lékař po absolvování základního kmene (L2)" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "L3" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Lékař po absolvování specializačního vzdělání (L3)" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Z00" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Zubní lékař" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "F00" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Farmaceut" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "NL01" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Všeobecná sestra" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "NL013" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Dětská sestra" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "NL02" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Porodní asistentka" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "NL03" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Ergoterapeut" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "NL04" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Radiologický asistent" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "NL05" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Zdravotní laborant" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "NL06" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Zdravotně-sociální pracovník" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "NL07" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Optometrista" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "NL08" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Ortoptista" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "NL09" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Asistent ochrany a podpory veřejného zdraví" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "NL10" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Ortotik-protetik" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "NL11" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Nutriční terapeut" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "NL12" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Zubní technik" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "NL13" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Dentální hygienistka" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "NL14" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Zdravotnický záchranář" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "NL15" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Farmaceutický asistent" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "NL16" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Biomedicínský technik" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "NL24" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Radiologický fyzik" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "NL19" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Adiktolog" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "NL20" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Psycholog ve zdravotnictví" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "NL21" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Logoped ve zdravotnictví" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "NL22" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Zrakový terapeut" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "NL23" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Fyzioterapeut" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "NL18" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Radiologický technik" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "NL25" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Odborný pracovník v laboratorních metodách a v přípravě léčivých přípravků" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "NL26" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Biomedicínský inženýr" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "NL27" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Odborný pracovník v ochraně a podpoře veřejného zdraví" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "NL28" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Praktická sestra" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "NL29" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Behaviorální analytik" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "NL31" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Specialista tradiční čínské medicíny" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "NL30" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Terapeut tradiční čínské medicíny" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "NL60" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Asistent behaviorálního analytika" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "NL61" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Behaviorální technik" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "NL63" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Laboratorní asistent" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "NL64" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Ortoticko-protetický technik" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "NL65" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Nutriční asistent" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "NL66" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Asistent zubního technika" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "NL68" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Řidič vozidla zdravotnické záchranné služby" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "NL69" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Ošetřovatel" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "NL70" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Masér ve zdravotnictví, nevidomý a slabozraký masér ve zdravotnictví" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "NL73" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Zubní instrumentářka" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "NL74" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Řidič zdravotnické dopravní služby" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "NL75" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Autoptický laborant" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "NL76" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Sanitář" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "L00" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Lékař" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "LA" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Lékař po absolvování studijního oboru v anglickém jazyce" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "FA" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Farmaceut po absolvování studijního oboru v anglickém jazyce" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "ZA" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Zubní lékař po absolvování studijního oboru v anglickém jazyce" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://hl7.cz/terminology/CodeSystem/nrzp-povolani.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

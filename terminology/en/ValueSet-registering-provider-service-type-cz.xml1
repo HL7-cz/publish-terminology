@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="registering-provider-service-type-cz"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="2"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use"/>
+  </extension>
+  <url value="https://ncez.mzcr.cz/terminology/ValueSet/registering-provider-service-type-cz"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:1.2.203.24341.11.1.10"/>
+  </identifier>
+  <version value="1.0.0"/>
+  <name value="RegisteringProviderServiceTypeCz"/>
+  <title value="Registering Provider Service Type (CZ)"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-03-10T12:47:28.893239Z"/>
+  <publisher value="HL7 Czech Republic"/>
+  <contact>
+    <name value="HL7 Czech Republic"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hl7.cz/"/>
+    </telecom>
+  </contact>
+  <description value="Typ registrujícího lékaře. (Registering healthcare provider service type value set.)"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CZ"/>
+      <display value="Czechia"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"/>
+  <compose>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <concept>
+        <code value="310061009"/>
+      </concept>
+      <concept>
+        <code value="700232004"/>
+      </concept>
+      <concept>
+        <code value="722176000"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

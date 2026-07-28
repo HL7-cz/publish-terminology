@@ -1,0 +1,52 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "cz-logo-mime-types",
+  "language" : "en",
+  "text" : {
+    "status" : "generated"
+  },
+  "url" : "https://hl7.cz/terminology/ValueSet/cz-logo-mime-types",
+  "version" : "1.0.0",
+  "name" : "CZ_LogoMimeTypesVs",
+  "title" : "Mime types permissible for logo attachment",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2022-12-26",
+  "publisher" : "HL7 Czech Republic",
+  "contact" : [{
+    "name" : "HL7 Czech Republic",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.hl7.cz/"
+    }]
+  }],
+  "description" : "Mime types for logo attachment. It is used in OrganizationLogo extension to restrict the mime type of the logo image.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CZ",
+      "display" : "Czechia"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "urn:ietf:bcp:13",
+      "concept" : [{
+        "code" : "image/png",
+        "display" : "PNG image"
+      },
+      {
+        "code" : "image/jpeg",
+        "display" : "JPEG image"
+      },
+      {
+        "code" : "image/gif",
+        "display" : "GIF image"
+      },
+      {
+        "code" : "image/svg+xml",
+        "display" : "SVG image"
+      }]
+    }]
+  }
+}

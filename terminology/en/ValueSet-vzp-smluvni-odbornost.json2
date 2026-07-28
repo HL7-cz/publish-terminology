@@ -1,0 +1,36 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "vzp-smluvni-odbornost",
+  "language" : "en",
+  "text" : {
+    "status" : "generated"
+  },
+  "url" : "https://ncez.mzcr.cz/terminology/ValueSet/vzp-smluvni-odbornost",
+  "version" : "770",
+  "name" : "VZPSmluvniOdbornost",
+  "title" : "Číselník VZP - smluvní odbornost pracovišť",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-07-27T08:52:28.170257Z",
+  "publisher" : "HL7 Czech Republic",
+  "contact" : [{
+    "name" : "HL7 Czech Republic",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.hl7.cz/"
+    }]
+  }],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CZ",
+      "display" : "Czechia"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://ncez.mzcr.cz/terminology/CodeSystem/vzp-smluvni-odbornost",
+      "version" : "770"
+    }]
+  }
+}

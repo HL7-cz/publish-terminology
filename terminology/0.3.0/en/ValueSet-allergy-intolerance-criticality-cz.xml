@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="allergy-intolerance-criticality-cz"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/valueset-supplement">
+    <valueCanonical value="https://hl7.cz/terminology/CodeSystem/allergy-intolerance-criticality-cz"/>
+  </extension>
+  <url value="https://hl7.cz/terminology/ValueSet/allergy-intolerance-criticality-cz"/>
+  <version value="1.0.0"/>
+  <name value="AllergyIntoleranceCriticality"/>
+  <title value="AllergyIntoleranceCriticality (CZ supplement value set)"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-12-15T12:08:45.155576Z"/>
+  <publisher value="HL7 Czech Republic"/>
+  <contact>
+    <name value="HL7 Czech Republic"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hl7.cz/"/>
+    </telecom>
+  </contact>
+  <description value="Estimate of the potential clinical harm, or seriousness, of a reaction to an identified substance."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CZ"/>
+      <display value="Czechia"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/allergy-intolerance-criticality"/>
+      <version value="4.0.1"/>
+    </include>
+  </compose>
+</ValueSet>

@@ -1,0 +1,1967 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="eHDSIDoseForm"/>
+  <language value="en"/>
+  <text>
+    <status value="extensions"/>
+  </text>
+  <url value="https://ncez.mzcr.cz/terminology/ValueSet/eHDSIDoseForm"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.2"/>
+  </identifier>
+  <version value="8.1.0"/>
+  <name value="EHDSIDoseForm"/>
+  <title value="eHDSI Dose Form"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-06-16T16:17:34.94475Z"/>
+  <publisher value="HL7 Czech Republic"/>
+  <contact>
+    <name value="HL7 Czech Republic"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hl7.cz/"/>
+    </telecom>
+  </contact>
+  <description value="eHDSIDoseForm"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CZ"/>
+      <display value="Czechia"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://standardterms.edqm.eu"/>
+      <concept>
+        <code value="10114000"/>
+      </concept>
+      <concept>
+        <code value="10115500"/>
+      </concept>
+      <concept>
+        <code value="10412000"/>
+      </concept>
+      <concept>
+        <code value="10606000"/>
+      </concept>
+      <concept>
+        <code value="10607000"/>
+      </concept>
+      <concept>
+        <code value="11207000"/>
+      </concept>
+      <concept>
+        <code value="11208000"/>
+      </concept>
+      <concept>
+        <code value="11214000"/>
+      </concept>
+      <concept>
+        <code value="11304000"/>
+      </concept>
+      <concept>
+        <code value="11604000"/>
+      </concept>
+      <concept>
+        <code value="11605000"/>
+      </concept>
+      <concept>
+        <code value="11702000"/>
+      </concept>
+      <concept>
+        <code value="13062000"/>
+      </concept>
+      <concept>
+        <code value="13119000"/>
+      </concept>
+      <concept>
+        <code value="13121000"/>
+      </concept>
+      <concept>
+        <code value="13143000"/>
+      </concept>
+      <concept>
+        <code value="13144000"/>
+      </concept>
+      <concept>
+        <code value="13150000"/>
+      </concept>
+      <concept>
+        <code value="13153000"/>
+      </concept>
+      <concept>
+        <code value="13157000"/>
+      </concept>
+      <concept>
+        <code value="13166000"/>
+      </concept>
+      <concept>
+        <code value="13170000"/>
+      </concept>
+      <concept>
+        <code value="13171000"/>
+      </concept>
+      <concept>
+        <code value="13172000"/>
+      </concept>
+      <concept>
+        <code value="13173000"/>
+      </concept>
+      <concept>
+        <code value="13181000"/>
+      </concept>
+      <concept>
+        <code value="13185000"/>
+      </concept>
+      <concept>
+        <code value="13189000"/>
+      </concept>
+      <concept>
+        <code value="50002000"/>
+      </concept>
+      <concept>
+        <code value="50003000"/>
+      </concept>
+      <concept>
+        <code value="50006000"/>
+      </concept>
+      <concept>
+        <code value="50007000"/>
+      </concept>
+      <concept>
+        <code value="50007500"/>
+      </concept>
+      <concept>
+        <code value="50008000"/>
+      </concept>
+      <concept>
+        <code value="50021500"/>
+      </concept>
+      <concept>
+        <code value="50026500"/>
+      </concept>
+      <concept>
+        <code value="50027000"/>
+      </concept>
+      <concept>
+        <code value="50041200"/>
+      </concept>
+      <concept>
+        <code value="50041500"/>
+      </concept>
+      <concept>
+        <code value="50042000"/>
+      </concept>
+      <concept>
+        <code value="50044000"/>
+      </concept>
+      <concept>
+        <code value="50044500"/>
+      </concept>
+      <concept>
+        <code value="50045000"/>
+      </concept>
+      <concept>
+        <code value="50045500"/>
+      </concept>
+      <concept>
+        <code value="50046000"/>
+      </concept>
+      <concept>
+        <code value="50047500"/>
+      </concept>
+      <concept>
+        <code value="50047650"/>
+      </concept>
+      <concept>
+        <code value="50047700"/>
+      </concept>
+      <concept>
+        <code value="50048000"/>
+      </concept>
+      <concept>
+        <code value="50048270"/>
+      </concept>
+      <concept>
+        <code value="50048500"/>
+      </concept>
+      <concept>
+        <code value="50055350"/>
+      </concept>
+      <concept>
+        <code value="50062000"/>
+      </concept>
+      <concept>
+        <code value="50064000"/>
+      </concept>
+      <concept>
+        <code value="50065000"/>
+      </concept>
+      <concept>
+        <code value="50071000"/>
+      </concept>
+      <concept>
+        <code value="50078000"/>
+      </concept>
+      <concept>
+        <code value="50080000"/>
+      </concept>
+      <concept>
+        <code value="14001000"/>
+      </concept>
+      <concept>
+        <code value="14003000"/>
+      </concept>
+      <concept>
+        <code value="14004000"/>
+      </concept>
+      <concept>
+        <code value="14005000"/>
+      </concept>
+      <concept>
+        <code value="14006000"/>
+      </concept>
+      <concept>
+        <code value="14008000"/>
+      </concept>
+      <concept>
+        <code value="14009000"/>
+      </concept>
+      <concept>
+        <code value="14010000"/>
+      </concept>
+      <concept>
+        <code value="14011000"/>
+      </concept>
+      <concept>
+        <code value="14012000"/>
+      </concept>
+      <concept>
+        <code value="14013000"/>
+      </concept>
+      <concept>
+        <code value="14014000"/>
+      </concept>
+      <concept>
+        <code value="14015000"/>
+      </concept>
+      <concept>
+        <code value="14016000"/>
+      </concept>
+      <concept>
+        <code value="14017000"/>
+      </concept>
+      <concept>
+        <code value="11210500"/>
+      </concept>
+      <concept>
+        <code value="13053000"/>
+      </concept>
+      <concept>
+        <code value="13057000"/>
+      </concept>
+      <concept>
+        <code value="13060000"/>
+      </concept>
+      <concept>
+        <code value="13064000"/>
+      </concept>
+      <concept>
+        <code value="13068000"/>
+      </concept>
+      <concept>
+        <code value="13069000"/>
+      </concept>
+      <concept>
+        <code value="13071000"/>
+      </concept>
+      <concept>
+        <code value="13075000"/>
+      </concept>
+      <concept>
+        <code value="13090000"/>
+      </concept>
+      <concept>
+        <code value="13094000"/>
+      </concept>
+      <concept>
+        <code value="13095000"/>
+      </concept>
+      <concept>
+        <code value="13103000"/>
+      </concept>
+      <concept>
+        <code value="13108000"/>
+      </concept>
+      <concept>
+        <code value="13109000"/>
+      </concept>
+      <concept>
+        <code value="13110000"/>
+      </concept>
+      <concept>
+        <code value="13112000"/>
+      </concept>
+      <concept>
+        <code value="13120000"/>
+      </concept>
+      <concept>
+        <code value="13122000"/>
+      </concept>
+      <concept>
+        <code value="13130000"/>
+      </concept>
+      <concept>
+        <code value="13137000"/>
+      </concept>
+      <concept>
+        <code value="13146000"/>
+      </concept>
+      <concept>
+        <code value="13147000"/>
+      </concept>
+      <concept>
+        <code value="13155000"/>
+      </concept>
+      <concept>
+        <code value="13161000"/>
+      </concept>
+      <concept>
+        <code value="13182000"/>
+      </concept>
+      <concept>
+        <code value="13183000"/>
+      </concept>
+      <concept>
+        <code value="13192000"/>
+      </concept>
+      <concept>
+        <code value="13194000"/>
+      </concept>
+      <concept>
+        <code value="13195000"/>
+      </concept>
+      <concept>
+        <code value="50001250"/>
+      </concept>
+      <concept>
+        <code value="50017200"/>
+      </concept>
+      <concept>
+        <code value="50017550"/>
+      </concept>
+      <concept>
+        <code value="50021250"/>
+      </concept>
+      <concept>
+        <code value="50022500"/>
+      </concept>
+      <concept>
+        <code value="50023000"/>
+      </concept>
+      <concept>
+        <code value="50023100"/>
+      </concept>
+      <concept>
+        <code value="50023300"/>
+      </concept>
+      <concept>
+        <code value="50023400"/>
+      </concept>
+      <concept>
+        <code value="50023700"/>
+      </concept>
+      <concept>
+        <code value="50026400"/>
+      </concept>
+      <concept>
+        <code value="50029170"/>
+      </concept>
+      <concept>
+        <code value="50029200"/>
+      </concept>
+      <concept>
+        <code value="50029550"/>
+      </concept>
+      <concept>
+        <code value="50029700"/>
+      </concept>
+      <concept>
+        <code value="50029750"/>
+      </concept>
+      <concept>
+        <code value="50033500"/>
+      </concept>
+      <concept>
+        <code value="50036200"/>
+      </concept>
+      <concept>
+        <code value="50037250"/>
+      </concept>
+      <concept>
+        <code value="50037600"/>
+      </concept>
+      <concept>
+        <code value="50037700"/>
+      </concept>
+      <concept>
+        <code value="50037800"/>
+      </concept>
+      <concept>
+        <code value="50038600"/>
+      </concept>
+      <concept>
+        <code value="50038650"/>
+      </concept>
+      <concept>
+        <code value="50038700"/>
+      </concept>
+      <concept>
+        <code value="50041000"/>
+      </concept>
+      <concept>
+        <code value="50048010"/>
+      </concept>
+      <concept>
+        <code value="50048150"/>
+      </concept>
+      <concept>
+        <code value="50048250"/>
+      </concept>
+      <concept>
+        <code value="50048300"/>
+      </concept>
+      <concept>
+        <code value="50052500"/>
+      </concept>
+      <concept>
+        <code value="50056200"/>
+      </concept>
+      <concept>
+        <code value="50056250"/>
+      </concept>
+      <concept>
+        <code value="50056600"/>
+      </concept>
+      <concept>
+        <code value="50058500"/>
+      </concept>
+      <concept>
+        <code value="50060100"/>
+      </concept>
+      <concept>
+        <code value="50060150"/>
+      </concept>
+      <concept>
+        <code value="50060200"/>
+      </concept>
+      <concept>
+        <code value="50060300"/>
+      </concept>
+      <concept>
+        <code value="50060500"/>
+      </concept>
+      <concept>
+        <code value="50063100"/>
+      </concept>
+      <concept>
+        <code value="50063200"/>
+      </concept>
+      <concept>
+        <code value="50063300"/>
+      </concept>
+      <concept>
+        <code value="10100500"/>
+      </concept>
+      <concept>
+        <code value="10101000"/>
+      </concept>
+      <concept>
+        <code value="10102000"/>
+      </concept>
+      <concept>
+        <code value="10103000"/>
+      </concept>
+      <concept>
+        <code value="10104000"/>
+      </concept>
+      <concept>
+        <code value="10105000"/>
+      </concept>
+      <concept>
+        <code value="10106000"/>
+      </concept>
+      <concept>
+        <code value="10107000"/>
+      </concept>
+      <concept>
+        <code value="10108000"/>
+      </concept>
+      <concept>
+        <code value="10109000"/>
+      </concept>
+      <concept>
+        <code value="10110000"/>
+      </concept>
+      <concept>
+        <code value="10111000"/>
+      </concept>
+      <concept>
+        <code value="10113000"/>
+      </concept>
+      <concept>
+        <code value="10117000"/>
+      </concept>
+      <concept>
+        <code value="10118000"/>
+      </concept>
+      <concept>
+        <code value="10119000"/>
+      </concept>
+      <concept>
+        <code value="10120000"/>
+      </concept>
+      <concept>
+        <code value="10121000"/>
+      </concept>
+      <concept>
+        <code value="10121500"/>
+      </concept>
+      <concept>
+        <code value="10122000"/>
+      </concept>
+      <concept>
+        <code value="10202000"/>
+      </concept>
+      <concept>
+        <code value="10203000"/>
+      </concept>
+      <concept>
+        <code value="10205000"/>
+      </concept>
+      <concept>
+        <code value="10206000"/>
+      </concept>
+      <concept>
+        <code value="10207000"/>
+      </concept>
+      <concept>
+        <code value="10208000"/>
+      </concept>
+      <concept>
+        <code value="10209000"/>
+      </concept>
+      <concept>
+        <code value="10210000"/>
+      </concept>
+      <concept>
+        <code value="10212000"/>
+      </concept>
+      <concept>
+        <code value="10213000"/>
+      </concept>
+      <concept>
+        <code value="10214000"/>
+      </concept>
+      <concept>
+        <code value="10215000"/>
+      </concept>
+      <concept>
+        <code value="10216000"/>
+      </concept>
+      <concept>
+        <code value="10217000"/>
+      </concept>
+      <concept>
+        <code value="10218000"/>
+      </concept>
+      <concept>
+        <code value="10219000"/>
+      </concept>
+      <concept>
+        <code value="10222000"/>
+      </concept>
+      <concept>
+        <code value="10224000"/>
+      </concept>
+      <concept>
+        <code value="10225000"/>
+      </concept>
+      <concept>
+        <code value="10226000"/>
+      </concept>
+      <concept>
+        <code value="10227000"/>
+      </concept>
+      <concept>
+        <code value="10228000"/>
+      </concept>
+      <concept>
+        <code value="10229000"/>
+      </concept>
+      <concept>
+        <code value="10230000"/>
+      </concept>
+      <concept>
+        <code value="10231000"/>
+      </concept>
+      <concept>
+        <code value="10301000"/>
+      </concept>
+      <concept>
+        <code value="10302000"/>
+      </concept>
+      <concept>
+        <code value="10303000"/>
+      </concept>
+      <concept>
+        <code value="10304000"/>
+      </concept>
+      <concept>
+        <code value="10305000"/>
+      </concept>
+      <concept>
+        <code value="10308100"/>
+      </concept>
+      <concept>
+        <code value="10308200"/>
+      </concept>
+      <concept>
+        <code value="10308300"/>
+      </concept>
+      <concept>
+        <code value="10309100"/>
+      </concept>
+      <concept>
+        <code value="10309300"/>
+      </concept>
+      <concept>
+        <code value="10310000"/>
+      </concept>
+      <concept>
+        <code value="10311000"/>
+      </concept>
+      <concept>
+        <code value="10312000"/>
+      </concept>
+      <concept>
+        <code value="10314000"/>
+      </concept>
+      <concept>
+        <code value="10314010"/>
+      </concept>
+      <concept>
+        <code value="10314011"/>
+      </concept>
+      <concept>
+        <code value="10315000"/>
+      </concept>
+      <concept>
+        <code value="10316000"/>
+      </concept>
+      <concept>
+        <code value="10317000"/>
+      </concept>
+      <concept>
+        <code value="10317500"/>
+      </concept>
+      <concept>
+        <code value="10318000"/>
+      </concept>
+      <concept>
+        <code value="10319000"/>
+      </concept>
+      <concept>
+        <code value="10320000"/>
+      </concept>
+      <concept>
+        <code value="10321000"/>
+      </concept>
+      <concept>
+        <code value="10322000"/>
+      </concept>
+      <concept>
+        <code value="10323000"/>
+      </concept>
+      <concept>
+        <code value="10401000"/>
+      </concept>
+      <concept>
+        <code value="10401500"/>
+      </concept>
+      <concept>
+        <code value="10402000"/>
+      </concept>
+      <concept>
+        <code value="10405000"/>
+      </concept>
+      <concept>
+        <code value="10406000"/>
+      </concept>
+      <concept>
+        <code value="10407000"/>
+      </concept>
+      <concept>
+        <code value="10409000"/>
+      </concept>
+      <concept>
+        <code value="10410000"/>
+      </concept>
+      <concept>
+        <code value="10411000"/>
+      </concept>
+      <concept>
+        <code value="10413000"/>
+      </concept>
+      <concept>
+        <code value="10414000"/>
+      </concept>
+      <concept>
+        <code value="10501000"/>
+      </concept>
+      <concept>
+        <code value="10503000"/>
+      </concept>
+      <concept>
+        <code value="10504000"/>
+      </concept>
+      <concept>
+        <code value="10505000"/>
+      </concept>
+      <concept>
+        <code value="10506000"/>
+      </concept>
+      <concept>
+        <code value="10507000"/>
+      </concept>
+      <concept>
+        <code value="10508000"/>
+      </concept>
+      <concept>
+        <code value="10509000"/>
+      </concept>
+      <concept>
+        <code value="10510000"/>
+      </concept>
+      <concept>
+        <code value="10511000"/>
+      </concept>
+      <concept>
+        <code value="10513000"/>
+      </concept>
+      <concept>
+        <code value="10514000"/>
+      </concept>
+      <concept>
+        <code value="10514500"/>
+      </concept>
+      <concept>
+        <code value="10515000"/>
+      </concept>
+      <concept>
+        <code value="10516000"/>
+      </concept>
+      <concept>
+        <code value="10517500"/>
+      </concept>
+      <concept>
+        <code value="10518000"/>
+      </concept>
+      <concept>
+        <code value="10518500"/>
+      </concept>
+      <concept>
+        <code value="10519000"/>
+      </concept>
+      <concept>
+        <code value="10520000"/>
+      </concept>
+      <concept>
+        <code value="10521000"/>
+      </concept>
+      <concept>
+        <code value="10522000"/>
+      </concept>
+      <concept>
+        <code value="10523000"/>
+      </concept>
+      <concept>
+        <code value="10525000"/>
+      </concept>
+      <concept>
+        <code value="10546250"/>
+      </concept>
+      <concept>
+        <code value="10546400"/>
+      </concept>
+      <concept>
+        <code value="10546500"/>
+      </concept>
+      <concept>
+        <code value="10547000"/>
+      </concept>
+      <concept>
+        <code value="10548000"/>
+      </concept>
+      <concept>
+        <code value="10549000"/>
+      </concept>
+      <concept>
+        <code value="10550000"/>
+      </concept>
+      <concept>
+        <code value="10600500"/>
+      </concept>
+      <concept>
+        <code value="10602000"/>
+      </concept>
+      <concept>
+        <code value="10604500"/>
+      </concept>
+      <concept>
+        <code value="10605000"/>
+      </concept>
+      <concept>
+        <code value="10608000"/>
+      </concept>
+      <concept>
+        <code value="10610000"/>
+      </concept>
+      <concept>
+        <code value="10611000"/>
+      </concept>
+      <concept>
+        <code value="10612000"/>
+      </concept>
+      <concept>
+        <code value="10701000"/>
+      </concept>
+      <concept>
+        <code value="10702000"/>
+      </concept>
+      <concept>
+        <code value="10704000"/>
+      </concept>
+      <concept>
+        <code value="10705000"/>
+      </concept>
+      <concept>
+        <code value="10706000"/>
+      </concept>
+      <concept>
+        <code value="10708000"/>
+      </concept>
+      <concept>
+        <code value="10709000"/>
+      </concept>
+      <concept>
+        <code value="10710000"/>
+      </concept>
+      <concept>
+        <code value="10711000"/>
+      </concept>
+      <concept>
+        <code value="10712000"/>
+      </concept>
+      <concept>
+        <code value="10713000"/>
+      </concept>
+      <concept>
+        <code value="10714000"/>
+      </concept>
+      <concept>
+        <code value="10715000"/>
+      </concept>
+      <concept>
+        <code value="10802000"/>
+      </concept>
+      <concept>
+        <code value="10803000"/>
+      </concept>
+      <concept>
+        <code value="10804000"/>
+      </concept>
+      <concept>
+        <code value="10806000"/>
+      </concept>
+      <concept>
+        <code value="10807000"/>
+      </concept>
+      <concept>
+        <code value="10808000"/>
+      </concept>
+      <concept>
+        <code value="10809000"/>
+      </concept>
+      <concept>
+        <code value="10810000"/>
+      </concept>
+      <concept>
+        <code value="10811000"/>
+      </concept>
+      <concept>
+        <code value="10812000"/>
+      </concept>
+      <concept>
+        <code value="10901000"/>
+      </concept>
+      <concept>
+        <code value="10902000"/>
+      </concept>
+      <concept>
+        <code value="10903000"/>
+      </concept>
+      <concept>
+        <code value="10904000"/>
+      </concept>
+      <concept>
+        <code value="10905000"/>
+      </concept>
+      <concept>
+        <code value="10907000"/>
+      </concept>
+      <concept>
+        <code value="10908000"/>
+      </concept>
+      <concept>
+        <code value="10909000"/>
+      </concept>
+      <concept>
+        <code value="10910000"/>
+      </concept>
+      <concept>
+        <code value="10911000"/>
+      </concept>
+      <concept>
+        <code value="10912000"/>
+      </concept>
+      <concept>
+        <code value="10914000"/>
+      </concept>
+      <concept>
+        <code value="10915000"/>
+      </concept>
+      <concept>
+        <code value="11001000"/>
+      </concept>
+      <concept>
+        <code value="11002000"/>
+      </concept>
+      <concept>
+        <code value="11003000"/>
+      </concept>
+      <concept>
+        <code value="11004000"/>
+      </concept>
+      <concept>
+        <code value="11006000"/>
+      </concept>
+      <concept>
+        <code value="11009000"/>
+      </concept>
+      <concept>
+        <code value="11010000"/>
+      </concept>
+      <concept>
+        <code value="11011000"/>
+      </concept>
+      <concept>
+        <code value="11012000"/>
+      </concept>
+      <concept>
+        <code value="11013000"/>
+      </concept>
+      <concept>
+        <code value="11014000"/>
+      </concept>
+      <concept>
+        <code value="11015000"/>
+      </concept>
+      <concept>
+        <code value="11102000"/>
+      </concept>
+      <concept>
+        <code value="11105000"/>
+      </concept>
+      <concept>
+        <code value="11106000"/>
+      </concept>
+      <concept>
+        <code value="11108000"/>
+      </concept>
+      <concept>
+        <code value="11110000"/>
+      </concept>
+      <concept>
+        <code value="11112000"/>
+      </concept>
+      <concept>
+        <code value="11114000"/>
+      </concept>
+      <concept>
+        <code value="11115000"/>
+      </concept>
+      <concept>
+        <code value="11116000"/>
+      </concept>
+      <concept>
+        <code value="11117000"/>
+      </concept>
+      <concept>
+        <code value="11202000"/>
+      </concept>
+      <concept>
+        <code value="11203000"/>
+      </concept>
+      <concept>
+        <code value="11204000"/>
+      </concept>
+      <concept>
+        <code value="11205000"/>
+      </concept>
+      <concept>
+        <code value="11206000"/>
+      </concept>
+      <concept>
+        <code value="11208400"/>
+      </concept>
+      <concept>
+        <code value="11208500"/>
+      </concept>
+      <concept>
+        <code value="11209000"/>
+      </concept>
+      <concept>
+        <code value="11209500"/>
+      </concept>
+      <concept>
+        <code value="11211000"/>
+      </concept>
+      <concept>
+        <code value="11211500"/>
+      </concept>
+      <concept>
+        <code value="11212000"/>
+      </concept>
+      <concept>
+        <code value="11213000"/>
+      </concept>
+      <concept>
+        <code value="11216000"/>
+      </concept>
+      <concept>
+        <code value="11301000"/>
+      </concept>
+      <concept>
+        <code value="11303000"/>
+      </concept>
+      <concept>
+        <code value="11303300"/>
+      </concept>
+      <concept>
+        <code value="11401000"/>
+      </concept>
+      <concept>
+        <code value="11402000"/>
+      </concept>
+      <concept>
+        <code value="11404000"/>
+      </concept>
+      <concept>
+        <code value="11405000"/>
+      </concept>
+      <concept>
+        <code value="11503000"/>
+      </concept>
+      <concept>
+        <code value="11504000"/>
+      </concept>
+      <concept>
+        <code value="11505000"/>
+      </concept>
+      <concept>
+        <code value="11601000"/>
+      </concept>
+      <concept>
+        <code value="11602000"/>
+      </concept>
+      <concept>
+        <code value="11603000"/>
+      </concept>
+      <concept>
+        <code value="11701000"/>
+      </concept>
+      <concept>
+        <code value="11901000"/>
+      </concept>
+      <concept>
+        <code value="12101000"/>
+      </concept>
+      <concept>
+        <code value="12102000"/>
+      </concept>
+      <concept>
+        <code value="12103000"/>
+      </concept>
+      <concept>
+        <code value="12104000"/>
+      </concept>
+      <concept>
+        <code value="12105000"/>
+      </concept>
+      <concept>
+        <code value="12106000"/>
+      </concept>
+      <concept>
+        <code value="12107000"/>
+      </concept>
+      <concept>
+        <code value="12108000"/>
+      </concept>
+      <concept>
+        <code value="12110000"/>
+      </concept>
+      <concept>
+        <code value="12111000"/>
+      </concept>
+      <concept>
+        <code value="12111500"/>
+      </concept>
+      <concept>
+        <code value="12112000"/>
+      </concept>
+      <concept>
+        <code value="12114000"/>
+      </concept>
+      <concept>
+        <code value="12115000"/>
+      </concept>
+      <concept>
+        <code value="12115100"/>
+      </concept>
+      <concept>
+        <code value="12115200"/>
+      </concept>
+      <concept>
+        <code value="12117500"/>
+      </concept>
+      <concept>
+        <code value="12118000"/>
+      </concept>
+      <concept>
+        <code value="12119000"/>
+      </concept>
+      <concept>
+        <code value="12130000"/>
+      </concept>
+      <concept>
+        <code value="12131000"/>
+      </concept>
+      <concept>
+        <code value="12301000"/>
+      </concept>
+      <concept>
+        <code value="12303000"/>
+      </concept>
+      <concept>
+        <code value="13001000"/>
+      </concept>
+      <concept>
+        <code value="13002000"/>
+      </concept>
+      <concept>
+        <code value="13003000"/>
+      </concept>
+      <concept>
+        <code value="13004000"/>
+      </concept>
+      <concept>
+        <code value="13005000"/>
+      </concept>
+      <concept>
+        <code value="13006000"/>
+      </concept>
+      <concept>
+        <code value="13008000"/>
+      </concept>
+      <concept>
+        <code value="13009000"/>
+      </concept>
+      <concept>
+        <code value="13010000"/>
+      </concept>
+      <concept>
+        <code value="13011000"/>
+      </concept>
+      <concept>
+        <code value="13012000"/>
+      </concept>
+      <concept>
+        <code value="13013000"/>
+      </concept>
+      <concept>
+        <code value="13014000"/>
+      </concept>
+      <concept>
+        <code value="13015000"/>
+      </concept>
+      <concept>
+        <code value="13016000"/>
+      </concept>
+      <concept>
+        <code value="13017000"/>
+      </concept>
+      <concept>
+        <code value="13018000"/>
+      </concept>
+      <concept>
+        <code value="13020000"/>
+      </concept>
+      <concept>
+        <code value="13021000"/>
+      </concept>
+      <concept>
+        <code value="13022000"/>
+      </concept>
+      <concept>
+        <code value="13023000"/>
+      </concept>
+      <concept>
+        <code value="13024000"/>
+      </concept>
+      <concept>
+        <code value="13025000"/>
+      </concept>
+      <concept>
+        <code value="13026000"/>
+      </concept>
+      <concept>
+        <code value="13028000"/>
+      </concept>
+      <concept>
+        <code value="13031000"/>
+      </concept>
+      <concept>
+        <code value="13032000"/>
+      </concept>
+      <concept>
+        <code value="13033000"/>
+      </concept>
+      <concept>
+        <code value="13036000"/>
+      </concept>
+      <concept>
+        <code value="13037000"/>
+      </concept>
+      <concept>
+        <code value="13040000"/>
+      </concept>
+      <concept>
+        <code value="13041000"/>
+      </concept>
+      <concept>
+        <code value="13042000"/>
+      </concept>
+      <concept>
+        <code value="13043000"/>
+      </concept>
+      <concept>
+        <code value="13044000"/>
+      </concept>
+      <concept>
+        <code value="13045000"/>
+      </concept>
+      <concept>
+        <code value="13046000"/>
+      </concept>
+      <concept>
+        <code value="13047000"/>
+      </concept>
+      <concept>
+        <code value="13048000"/>
+      </concept>
+      <concept>
+        <code value="13049000"/>
+      </concept>
+      <concept>
+        <code value="13050000"/>
+      </concept>
+      <concept>
+        <code value="13051000"/>
+      </concept>
+      <concept>
+        <code value="13052000"/>
+      </concept>
+      <concept>
+        <code value="13061000"/>
+      </concept>
+      <concept>
+        <code value="13066000"/>
+      </concept>
+      <concept>
+        <code value="13076000"/>
+      </concept>
+      <concept>
+        <code value="13091000"/>
+      </concept>
+      <concept>
+        <code value="13102000"/>
+      </concept>
+      <concept>
+        <code value="13105000"/>
+      </concept>
+      <concept>
+        <code value="13106000"/>
+      </concept>
+      <concept>
+        <code value="13111000"/>
+      </concept>
+      <concept>
+        <code value="13113000"/>
+      </concept>
+      <concept>
+        <code value="13115000"/>
+      </concept>
+      <concept>
+        <code value="13123000"/>
+      </concept>
+      <concept>
+        <code value="13124000"/>
+      </concept>
+      <concept>
+        <code value="13127000"/>
+      </concept>
+      <concept>
+        <code value="13128000"/>
+      </concept>
+      <concept>
+        <code value="13129000"/>
+      </concept>
+      <concept>
+        <code value="13133000"/>
+      </concept>
+      <concept>
+        <code value="13134000"/>
+      </concept>
+      <concept>
+        <code value="13135000"/>
+      </concept>
+      <concept>
+        <code value="13139000"/>
+      </concept>
+      <concept>
+        <code value="13140000"/>
+      </concept>
+      <concept>
+        <code value="13141000"/>
+      </concept>
+      <concept>
+        <code value="13145000"/>
+      </concept>
+      <concept>
+        <code value="13148000"/>
+      </concept>
+      <concept>
+        <code value="13149000"/>
+      </concept>
+      <concept>
+        <code value="13152000"/>
+      </concept>
+      <concept>
+        <code value="13154000"/>
+      </concept>
+      <concept>
+        <code value="13159000"/>
+      </concept>
+      <concept>
+        <code value="13162000"/>
+      </concept>
+      <concept>
+        <code value="13165000"/>
+      </concept>
+      <concept>
+        <code value="13167000"/>
+      </concept>
+      <concept>
+        <code value="13168000"/>
+      </concept>
+      <concept>
+        <code value="13169000"/>
+      </concept>
+      <concept>
+        <code value="13175000"/>
+      </concept>
+      <concept>
+        <code value="13177000"/>
+      </concept>
+      <concept>
+        <code value="13178000"/>
+      </concept>
+      <concept>
+        <code value="13179000"/>
+      </concept>
+      <concept>
+        <code value="13180000"/>
+      </concept>
+      <concept>
+        <code value="13184000"/>
+      </concept>
+      <concept>
+        <code value="13186000"/>
+      </concept>
+      <concept>
+        <code value="13187000"/>
+      </concept>
+      <concept>
+        <code value="13188000"/>
+      </concept>
+      <concept>
+        <code value="13190000"/>
+      </concept>
+      <concept>
+        <code value="13191000"/>
+      </concept>
+      <concept>
+        <code value="13198000"/>
+      </concept>
+      <concept>
+        <code value="50001000"/>
+      </concept>
+      <concept>
+        <code value="50009000"/>
+      </concept>
+      <concept>
+        <code value="50009300"/>
+      </concept>
+      <concept>
+        <code value="50009500"/>
+      </concept>
+      <concept>
+        <code value="50009750"/>
+      </concept>
+      <concept>
+        <code value="50010000"/>
+      </concept>
+      <concept>
+        <code value="50011000"/>
+      </concept>
+      <concept>
+        <code value="50013250"/>
+      </concept>
+      <concept>
+        <code value="50015200"/>
+      </concept>
+      <concept>
+        <code value="50015450"/>
+      </concept>
+      <concept>
+        <code value="50015500"/>
+      </concept>
+      <concept>
+        <code value="50016000"/>
+      </concept>
+      <concept>
+        <code value="50017000"/>
+      </concept>
+      <concept>
+        <code value="50017500"/>
+      </concept>
+      <concept>
+        <code value="50018000"/>
+      </concept>
+      <concept>
+        <code value="50018500"/>
+      </concept>
+      <concept>
+        <code value="50019000"/>
+      </concept>
+      <concept>
+        <code value="50019500"/>
+      </concept>
+      <concept>
+        <code value="50021000"/>
+      </concept>
+      <concept>
+        <code value="50022000"/>
+      </concept>
+      <concept>
+        <code value="50024000"/>
+      </concept>
+      <concept>
+        <code value="50024500"/>
+      </concept>
+      <concept>
+        <code value="50029150"/>
+      </concept>
+      <concept>
+        <code value="50029500"/>
+      </concept>
+      <concept>
+        <code value="50030000"/>
+      </concept>
+      <concept>
+        <code value="50031000"/>
+      </concept>
+      <concept>
+        <code value="50032000"/>
+      </concept>
+      <concept>
+        <code value="50033000"/>
+      </concept>
+      <concept>
+        <code value="50033100"/>
+      </concept>
+      <concept>
+        <code value="50036050"/>
+      </concept>
+      <concept>
+        <code value="50036500"/>
+      </concept>
+      <concept>
+        <code value="50036700"/>
+      </concept>
+      <concept>
+        <code value="50037100"/>
+      </concept>
+      <concept>
+        <code value="50037500"/>
+      </concept>
+      <concept>
+        <code value="50037900"/>
+      </concept>
+      <concept>
+        <code value="50038000"/>
+      </concept>
+      <concept>
+        <code value="50038500"/>
+      </concept>
+      <concept>
+        <code value="50039000"/>
+      </concept>
+      <concept>
+        <code value="50040500"/>
+      </concept>
+      <concept>
+        <code value="50043000"/>
+      </concept>
+      <concept>
+        <code value="50048750"/>
+      </concept>
+      <concept>
+        <code value="50049100"/>
+      </concept>
+      <concept>
+        <code value="50049200"/>
+      </concept>
+      <concept>
+        <code value="50049250"/>
+      </concept>
+      <concept>
+        <code value="50049270"/>
+      </concept>
+      <concept>
+        <code value="50049300"/>
+      </concept>
+      <concept>
+        <code value="50049500"/>
+      </concept>
+      <concept>
+        <code value="50050000"/>
+      </concept>
+      <concept>
+        <code value="50050500"/>
+      </concept>
+      <concept>
+        <code value="50051000"/>
+      </concept>
+      <concept>
+        <code value="50053500"/>
+      </concept>
+      <concept>
+        <code value="50056500"/>
+      </concept>
+      <concept>
+        <code value="50060000"/>
+      </concept>
+      <concept>
+        <code value="50061500"/>
+      </concept>
+      <concept>
+        <code value="50073000"/>
+      </concept>
+      <concept>
+        <code value="50073500"/>
+      </concept>
+      <concept>
+        <code value="50074000"/>
+      </concept>
+      <concept>
+        <code value="50076000"/>
+      </concept>
+      <concept>
+        <code value="50077000"/>
+      </concept>
+      <concept>
+        <code value="50081000"/>
+      </concept>
+      <concept>
+        <code value="50082000"/>
+      </concept>
+      <concept>
+        <code value="11010"/>
+      </concept>
+      <concept>
+        <code value="11050"/>
+      </concept>
+      <concept>
+        <code value="12100"/>
+      </concept>
+      <concept>
+        <code value="12120"/>
+      </concept>
+      <concept>
+        <code value="12150"/>
+      </concept>
+      <concept>
+        <code value="12200"/>
+      </concept>
+      <concept>
+        <code value="13050"/>
+      </concept>
+      <concept>
+        <code value="13100"/>
+      </concept>
+      <concept>
+        <code value="13150"/>
+      </concept>
+      <concept>
+        <code value="13220"/>
+      </concept>
+      <concept>
+        <code value="14050"/>
+      </concept>
+      <concept>
+        <code value="15090"/>
+      </concept>
+      <concept>
+        <code value="15130"/>
+      </concept>
+      <concept>
+        <code value="16040"/>
+      </concept>
+      <concept>
+        <code value="17040"/>
+      </concept>
+      <concept>
+        <code value="17090"/>
+      </concept>
+      <concept>
+        <code value="17120"/>
+      </concept>
+      <concept>
+        <code value="18040"/>
+      </concept>
+      <concept>
+        <code value="18080"/>
+      </concept>
+      <concept>
+        <code value="19050"/>
+      </concept>
+      <concept>
+        <code value="19100"/>
+      </concept>
+      <concept>
+        <code value="20050"/>
+      </concept>
+      <concept>
+        <code value="21010"/>
+      </concept>
+      <concept>
+        <code value="21060"/>
+      </concept>
+      <concept>
+        <code value="21100"/>
+      </concept>
+      <concept>
+        <code value="21140"/>
+      </concept>
+      <concept>
+        <code value="22010"/>
+      </concept>
+      <concept>
+        <code value="22030"/>
+      </concept>
+      <concept>
+        <code value="22050"/>
+      </concept>
+      <concept>
+        <code value="22090"/>
+      </concept>
+      <concept>
+        <code value="22100"/>
+      </concept>
+      <concept>
+        <code value="22120"/>
+      </concept>
+      <concept>
+        <code value="26010"/>
+      </concept>
+      <concept>
+        <code value="31030"/>
+      </concept>
+      <concept>
+        <code value="31080"/>
+      </concept>
+      <concept>
+        <code value="31100"/>
+      </concept>
+      <concept>
+        <code value="31120"/>
+      </concept>
+      <concept>
+        <code value="10115000"/>
+      </concept>
+      <concept>
+        <code value="10707000"/>
+      </concept>
+      <concept>
+        <code value="12116000"/>
+      </concept>
+      <concept>
+        <code value="13160000"/>
+      </concept>
+      <concept>
+        <code value="50044700"/>
+      </concept>
+      <concept>
+        <code value="50047000"/>
+      </concept>
+      <concept>
+        <code value="50047600"/>
+      </concept>
+      <concept>
+        <code value="50062500"/>
+      </concept>
+      <concept>
+        <code value="14002000"/>
+      </concept>
+      <concept>
+        <code value="14007000"/>
+      </concept>
+      <concept>
+        <code value="13104000"/>
+      </concept>
+      <concept>
+        <code value="50048050"/>
+      </concept>
+      <concept>
+        <code value="10112000"/>
+      </concept>
+      <concept>
+        <code value="10201000"/>
+      </concept>
+      <concept>
+        <code value="10204000"/>
+      </concept>
+      <concept>
+        <code value="10211000"/>
+      </concept>
+      <concept>
+        <code value="10220000"/>
+      </concept>
+      <concept>
+        <code value="10221000"/>
+      </concept>
+      <concept>
+        <code value="10223000"/>
+      </concept>
+      <concept>
+        <code value="10236100"/>
+      </concept>
+      <concept>
+        <code value="10306000"/>
+      </concept>
+      <concept>
+        <code value="10313000"/>
+      </concept>
+      <concept>
+        <code value="10314005"/>
+      </concept>
+      <concept>
+        <code value="10403000"/>
+      </concept>
+      <concept>
+        <code value="10408000"/>
+      </concept>
+      <concept>
+        <code value="10502000"/>
+      </concept>
+      <concept>
+        <code value="10512000"/>
+      </concept>
+      <concept>
+        <code value="10517000"/>
+      </concept>
+      <concept>
+        <code value="10603000"/>
+      </concept>
+      <concept>
+        <code value="10604000"/>
+      </concept>
+      <concept>
+        <code value="10613000"/>
+      </concept>
+      <concept>
+        <code value="10703000"/>
+      </concept>
+      <concept>
+        <code value="10801000"/>
+      </concept>
+      <concept>
+        <code value="10805000"/>
+      </concept>
+      <concept>
+        <code value="10906000"/>
+      </concept>
+      <concept>
+        <code value="10913000"/>
+      </concept>
+      <concept>
+        <code value="11005000"/>
+      </concept>
+      <concept>
+        <code value="11007000"/>
+      </concept>
+      <concept>
+        <code value="11008000"/>
+      </concept>
+      <concept>
+        <code value="11101000"/>
+      </concept>
+      <concept>
+        <code value="11103000"/>
+      </concept>
+      <concept>
+        <code value="11107000"/>
+      </concept>
+      <concept>
+        <code value="11109000"/>
+      </concept>
+      <concept>
+        <code value="11111000"/>
+      </concept>
+      <concept>
+        <code value="11113000"/>
+      </concept>
+      <concept>
+        <code value="11210000"/>
+      </concept>
+      <concept>
+        <code value="11302000"/>
+      </concept>
+      <concept>
+        <code value="11403000"/>
+      </concept>
+      <concept>
+        <code value="11502000"/>
+      </concept>
+      <concept>
+        <code value="11502500"/>
+      </concept>
+      <concept>
+        <code value="12113000"/>
+      </concept>
+      <concept>
+        <code value="12117000"/>
+      </concept>
+      <concept>
+        <code value="12120000"/>
+      </concept>
+      <concept>
+        <code value="12302000"/>
+      </concept>
+      <concept>
+        <code value="13007000"/>
+      </concept>
+      <concept>
+        <code value="13027000"/>
+      </concept>
+      <concept>
+        <code value="13035000"/>
+      </concept>
+      <concept>
+        <code value="13039000"/>
+      </concept>
+      <concept>
+        <code value="13077000"/>
+      </concept>
+      <concept>
+        <code value="13107000"/>
+      </concept>
+      <concept>
+        <code value="13118000"/>
+      </concept>
+      <concept>
+        <code value="13126000"/>
+      </concept>
+      <concept>
+        <code value="13176000"/>
+      </concept>
+      <concept>
+        <code value="13196000"/>
+      </concept>
+      <concept>
+        <code value="13197000"/>
+      </concept>
+      <concept>
+        <code value="50020200"/>
+      </concept>
+      <concept>
+        <code value="50033400"/>
+      </concept>
+      <concept>
+        <code value="50037400"/>
+      </concept>
+      <concept>
+        <code value="50037750"/>
+      </concept>
+      <concept>
+        <code value="50039500"/>
+      </concept>
+      <concept>
+        <code value="50052000"/>
+      </concept>
+      <concept>
+        <code value="50057000"/>
+      </concept>
+      <concept>
+        <code value="50079000"/>
+      </concept>
+      <concept>
+        <code value="10309200"/>
+      </concept>
+      <concept>
+        <code value="10601000"/>
+      </concept>
+      <concept>
+        <code value="11104000"/>
+      </concept>
+      <concept>
+        <code value="11201000"/>
+      </concept>
+      <concept>
+        <code value="11303500"/>
+      </concept>
+      <concept>
+        <code value="22060"/>
+      </concept>
+      <concept>
+        <code value="13029000"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

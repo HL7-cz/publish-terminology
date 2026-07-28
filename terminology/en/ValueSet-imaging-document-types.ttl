@@ -1,0 +1,308 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hl7.cz/terminology/ValueSet/imaging-document-types> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "imaging-document-types"] ;
+  fhir:Resource.language [ fhir:value "en"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ]
+  ] ;
+  fhir:ValueSet.url [ fhir:value "https://ncez.mzcr.cz/terminology/ValueSet/imaging-document-types"] ;
+  fhir:ValueSet.version [ fhir:value "1.0.0"] ;
+  fhir:ValueSet.name [ fhir:value "ImagingDocumentTypes"] ;
+  fhir:ValueSet.title [ fhir:value "Typy dokumentů obrazového komplementu"] ;
+  fhir:ValueSet.status [ fhir:value "active"] ;
+  fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:ValueSet.date [ fhir:value "2025-11-19T17:50:08.889549Z"^^xsd:dateTime] ;
+  fhir:ValueSet.publisher [ fhir:value "HL7 Czech Republic"] ;
+  fhir:ValueSet.contact [
+     fhir:index -1 ;
+     fhir:ContactDetail.name [ fhir:value "HL7 Czech Republic" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index -1 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://www.hl7.cz/" ]
+     ]
+  ] ;
+  fhir:ValueSet.description [ fhir:value "Typy dokumentů obrazového komplementu"] ;
+  fhir:ValueSet.jurisdiction [
+     fhir:index -1 ;
+     fhir:CodeableConcept.coding [
+       fhir:index -1 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "CZ" ] ;
+       fhir:Coding.display [ fhir:value "Czechia" ]
+     ]
+  ] ;
+  fhir:ValueSet.copyright [ fhir:value "This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc"] ;
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index -1 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://loinc.org" ] ;
+       fhir:ValueSet.compose.include.filter [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "CLASS" ] ;
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "=" ] ;
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "LP29684-5" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "SCALE_TYP" ] ;
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "=" ] ;
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "LP32888-7" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "STATUS" ] ;
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "=" ] ;
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "ACTIVE" ]
+       ]
+     ], [
+       fhir:index -1 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://loinc.org" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "41806-1" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CT břicha" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "24627-2" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CT hrudníku" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "24690-0" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CT končetiny" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "25043-1" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CT-řízená aspirace tekutin" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "25044-9" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CT-řízená biopsie" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "24725-4" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CT hlavy" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "24866-6" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CT pánve s IV kontrastem" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "106848-5" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CT páteře" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "24932-6" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CT krční páteře" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "24963-1" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CT bederní páteře" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "24978-9" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CT hrudní páteře" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "25045-6" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CT neupřesněné oblasti těla" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "18748-4" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Zobrazovací vyšetření" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "25069-6" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "RF-řízená biopsie – lokalita neupřesněna" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "24605-8" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Diagnostická mamografie" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "24606-6" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Screeningová mamografie" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "24590-2" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "MR mozku" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "25056-3" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "MR neupřesněné oblasti těla" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "24556-3" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "MR břicha" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "24629-8" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "MR hrudníku" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "24707-2" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "MR nohy" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "24710-6" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "MR předloktí" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "24720-5" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "MR ruky" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "28576-7" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "MR kloubu" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "24872-4" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "MR pánve a kyčle" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "24935-9" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "MR krční páteře" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "24968-0" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "MR bederní páteře" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "42698-1" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "MR krční, hrudní a bederní páteře" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "24980-5" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "MR hrudní páteře" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "24888-0" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "NM plicního systému – ventilace a perfuze s Xe-133 IH a s Tc-99m MAA IV" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "30695-1" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "NM štítné žlázy – projekce" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "44136-0" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PET neupřesněné tělové oblasti" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "25059-7" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "UZ vedení biopsie neupřesněné tělové oblasti" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "24558-9" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "UZ břicha" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "24601-7" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "UZ prsu" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "24731-2" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "UZ hlavy" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "28614-6" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "UZ jater" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "24842-7" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "UZ krku" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "24869-0" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "UZ pánve" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "25061-3" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "UZ neupřesněné tělové oblasti" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "24541-5" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "RTG hlezna – projekce" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "24676-9" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "RTG lokte – projekce" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "24704-9" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "RTG femuru (stehenní kosti) – projekce" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "24709-8" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "RTG nohy – projekce" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "28582-5" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "RTG ruky – projekce" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "28564-3" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "RTG lebky – projekce" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "24762-7" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "RTG kyčle – projekce" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "28567-6" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "RTG humeru (pažní kosti) – projekce" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "28565-0" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "RTG kolene – projekce" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "28561-9" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "RTG pánve – projekce" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "24891-4" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "RTG předloktí (radius + ulna) – projekce" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "24909-4" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "RTG ramene – projekce" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "24946-6" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "RTG krční páteře – projekce" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "24972-2" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "RTG bederní páteře – projekce" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "24983-9" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "RTG hrudní páteře – projekce" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "25011-8" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "RTG bérce (tibia + fibula) – projekce" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "18782-3" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Popis nálezu zobrazovacího vyšetření (narrativní)" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "24619-9" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "RTG zápěstí – projekce" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://hl7.cz/terminology/ValueSet/imaging-document-types.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

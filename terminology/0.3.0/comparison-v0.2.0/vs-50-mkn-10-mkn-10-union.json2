@@ -1,0 +1,16 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "5bc82b81-07ce-410b-8d29-8298f2cfafcb-137",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/5bc82b81-07ce-410b-8d29-8298f2cfafcb-137",
+  "name" : "UnionMkn105AndMkn105",
+  "title" : "Union of Mkn10_5 And Mkn10_5",
+  "status" : "active",
+  "date" : "2026-07-27T16:47:06+02:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CZ",
+      "display" : "Czechia"
+    }]
+  }]
+}

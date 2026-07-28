@@ -1,23 +1,30 @@
 {
-  "list" : [
-    {
-      "version" : "current",
-      "path" : "https://build.fhir.org/ig/HL7-cz/terminology",
-      "status" : "ci-build",
-      "sequence" : "ci-build",
-      "desc" : "Continuous Integration Build (latest in version control) - Content subject to frequent changes"
-    },
-    {
-      "version" : "0.2.0",
-      "path" : "https://hl7.cz/terminology/0.2.0",
-      "status" : "release",
-      "sequence" : "Release 1",
-      "fhirversion" : "4.0.1",
-      "date" : "2026-02-02",
-      "current" : true,
-      "desc" : "This is a first release of the Czech FHIR Terminology package."
-    }
-  ],
+  "list" : [{
+    "version" : "current",
+    "path" : "https://build.fhir.org/ig/HL7-cz/terminology",
+    "status" : "ci-build",
+    "sequence" : "ci-build",
+    "desc" : "Continuous Integration Build (latest in version control) - Content subject to frequent changes"
+  },
+  {
+    "version" : "0.3.0",
+    "path" : "https://hl7.cz/terminology/0.3.0",
+    "status" : "release",
+    "sequence" : "Release 1",
+    "fhirversion" : "4.0.1",
+    "date" : "2026-07-27",
+    "current" : true,
+    "desc" : "This is a first updated release of the Czech FHIR Terminology package."
+  },
+  {
+    "version" : "0.2.0",
+    "path" : "https://hl7.cz/terminology/0.2.0",
+    "status" : "release",
+    "sequence" : "Release 1",
+    "fhirversion" : "4.0.1",
+    "date" : "2026-02-02",
+    "desc" : "This is a first release of the Czech FHIR Terminology package."
+  }],
   "package-id" : "hl7.fhir.cz.terminology",
   "canonical" : "https://hl7.cz/terminology",
   "title" : "Czech FHIR Terminology Package",

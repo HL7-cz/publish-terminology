@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="administrative-gender-cz"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/valueset-supplement">
+    <valueCanonical value="https://hl7.cz/terminology/CodeSystem/administrative-gender-cz|4.0.1"/>
+  </extension>
+  <url value="https://hl7.cz/terminology/ValueSet/administrative-gender-cz"/>
+  <version value="1.0.0"/>
+  <name value="AdministrativeGenderCzVs"/>
+  <title value="Gender for administrative purposes"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2022-12-26"/>
+  <publisher value="HL7 Czech Republic"/>
+  <contact>
+    <name value="HL7 Czech Republic"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hl7.cz/"/>
+    </telecom>
+  </contact>
+  <description value="Pohlaví pro administrativní účely. (Gender for administrative purposes)"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CZ"/>
+      <display value="Czechia"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/administrative-gender"/>
+      <version value="4.0.1"/>
+    </include>
+  </compose>
+</ValueSet>

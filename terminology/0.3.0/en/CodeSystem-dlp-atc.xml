@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="dlp-atc"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/>
+  </text>
+  <url value="https://sukl.cz/terminology/CodeSystem/dlp-atc"/>
+  <version value="1.0.0"/>
+  <name value="CS_DLP_atc"/>
+  <title value="ATC CZ"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-07-27T16:44:21+02:00"/>
+  <publisher value="HL7 Czech Republic"/>
+  <contact>
+    <name value="HL7 Czech Republic"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hl7.cz/"/>
+    </telecom>
+  </contact>
+  <description value="Czech national version of the Anatomical Therapeutical Chemical (ATC) code system."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CZ"/>
+      <display value="Czechia"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <hierarchyMeaning value="grouped-by"/>
+  <content value="not-present"/>
+</CodeSystem>

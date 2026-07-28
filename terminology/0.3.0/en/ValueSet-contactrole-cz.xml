@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="contactrole-cz"/>
+  <language value="en"/>
+  <text>
+    <status value="extensions"/>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/valueset-supplement">
+    <valueCanonical value="https://hl7.cz/terminology/CodeSystem/v2-0131-cz"/>
+  </extension>
+  <url value="https://hl7.cz/terminology/ValueSet/contactrole-cz"/>
+  <version value="1.0.0"/>
+  <name value="Hl7vs_contactrole_cz"/>
+  <title value="Contact Role (CZ)"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-04-03T08:19:42.070148Z"/>
+  <publisher value="HL7 Czech Republic"/>
+  <contact>
+    <name value="HL7 Czech Republic"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hl7.cz/"/>
+    </telecom>
+  </contact>
+  <description value="Číselník rolí kontaktních osob ve vztahu k pacientovi. (Concepts specifying role of contact person.)"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CZ"/>
+      <display value="Czechia"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="HL7 International"/>
+  <compose>
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/v2-0131"/>
+      <version value="3.0.0"/>
+    </include>
+    <exclude>
+      <system value="http://terminology.hl7.org/CodeSystem/v2-0131"/>
+      <version value="3.0.0"/>
+      <concept>
+        <code value="O"/>
+      </concept>
+      <concept>
+        <code value="BP"/>
+      </concept>
+      <concept>
+        <code value="EP"/>
+      </concept>
+      <concept>
+        <code value="PR"/>
+      </concept>
+      <concept>
+        <code value="CP"/>
+      </concept>
+    </exclude>
+  </compose>
+</ValueSet>

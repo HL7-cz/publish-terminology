@@ -1,0 +1,38 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "nzis-odbornostvzp",
+  "language" : "cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"cs\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"cs\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet nzis-odbornostvzp</b></p><a name=\"nzis-odbornostvzp\"> </a><a name=\"hcnzis-odbornostvzp\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: cs</p></div><ul><li>Include all codes defined in <a href=\"CodeSystem-nzis-OdbornostVZP.html\"><code>https://uzis.cz/terminology/CodeSystem/OdbornostVZP</code></a><span title=\"Version is explicitly stated to be 1.0.0\"> version &#x1F4CD;1.0.0</span></li></ul></div>"
+  },
+  "url" : "https://uzis.cz/terminology/ValueSet/OdbornostVZP",
+  "version" : "1.0.0",
+  "name" : "OdbornostVZP",
+  "title" : "Číselník OdbornostVZP",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-07-27T16:44:21+02:00",
+  "publisher" : "HL7 Czech Republic",
+  "contact" : [{
+    "name" : "HL7 Czech Republic",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.hl7.cz/"
+    }]
+  }],
+  "description" : "Číselník obsahující koncepty z kódového systému OdbornostVZP. Číselník použitý v elektronických žádankách a NSHNU.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CZ",
+      "display" : "Czechia"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://uzis.cz/terminology/CodeSystem/OdbornostVZP",
+      "version" : "1.0.0"
+    }]
+  }
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="medical-test-code"/>
+  <language value="cs"/>
+  <text>
+    <status value="generated"/><div xml:lang="cs" xmlns="http://www.w3.org/1999/xhtml" lang="cs"><p class="res-header-id"><b>Generated Narrative: ValueSet medical-test-code</b></p><a name="medical-test-code"> </a><a name="hcmedical-test-code"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: cs</p></div><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href="CodeSystem-NCLPPOL.html"><code>https://ncez.mzcr.cz/nclp/CodeSystem/nclppol</code></a><span title="Version is not explicitly stated. No matching Code System found"> version Not Stated (use latest from terminology server)</span></li><li>Include codes from<a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a><span title="Version is not explicitly stated. No matching Code System found"> version Not Stated (use latest from terminology server)</span> where concept  is-a 363787002 (Observable entity)</li></ul></div>
+  </text>
+  <url value="https://ncez.mzcr.cz/terminology/ValueSet/medical-test-code"/>
+  <version value="1.0.0"/>
+  <name value="MedicalTestCodeVs"/>
+  <title value="Medical Test Result Code"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-01-01"/>
+  <publisher value="HL7 Czech Republic"/>
+  <contact>
+    <name value="HL7 Czech Republic"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hl7.cz/"/>
+    </telecom>
+  </contact>
+  <description value="Medical test result codes. List of Medical test result codes containing LOINC, NCLP and Snomed CT."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CZ"/>
+      <display value="Czechia"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"/>
+  <compose>
+    <include>
+      <system value="https://ncez.mzcr.cz/nclp/CodeSystem/nclppol"/>
+    </include>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <filter>
+        <property value="concept"/>
+        <op value="is-a"/>
+        <value value="363787002"/>
+      </filter>
+    </include>
+  </compose>
+</ValueSet>

@@ -1,0 +1,32 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "5bc82b81-07ce-410b-8d29-8298f2cfafcb-158",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/5bc82b81-07ce-410b-8d29-8298f2cfafcb-158",
+  "name" : "UnionRegisteringProviderServiceTypeCzAndRegisteringProviderServiceTypeCz",
+  "title" : "Union of Registering Provider Service Type (CZ) And Registering Provider Service Type (CZ)",
+  "status" : "active",
+  "date" : "2026-07-27T16:47:06+02:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CZ",
+      "display" : "Czechia"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "310061009",
+        "display" : "gynekologické služby"
+      },
+      {
+        "code" : "700232004",
+        "display" : "všeobecné lékařské služby"
+      },
+      {
+        "code" : "722176000",
+        "display" : "stomatologické služby"
+      }]
+    }]
+  }
+}

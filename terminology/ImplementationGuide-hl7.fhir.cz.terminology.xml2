@@ -2,16 +2,17 @@
 
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="hl7.fhir.cz.terminology"/>
+  <language value="en"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ImplementationGuide hl7.fhir.cz.terminology</b></p><a name="hl7.fhir.cz.terminology"> </a><a name="hchl7.fhir.cz.terminology"> </a><h2>HL7CzTerminologyImplementationGuide</h2><p>The official URL for this implementation guide is: </p><pre>https://hl7.cz/terminology/ImplementationGuide/hl7.fhir.cz.terminology</pre><div><p>HL7 Czech Terminology Implementation Guide</p>
+    <status value="generated"/><div xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en"><p class="res-header-id"><b>Generated Narrative: ImplementationGuide hl7.fhir.cz.terminology</b></p><a name="hl7.fhir.cz.terminology"> </a><a name="hchl7.fhir.cz.terminology"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: en</p></div><h2>HL7CzTerminologyImplementationGuide</h2><p>The official URL for this implementation guide is: </p><pre>https://hl7.cz/terminology/ImplementationGuide/hl7.fhir.cz.terminology</pre><div><p>HL7 Czech Terminology Implementation Guide</p>
 </div></div>
   </text>
   <url value="https://hl7.cz/terminology/ImplementationGuide/hl7.fhir.cz.terminology"/>
-  <version value="0.2.0"/>
+  <version value="0.3.0"/>
   <name value="HL7CzTerminologyImplementationGuide"/>
   <title value="HL7 Czech Terminology Implementation Guide"/>
-  <status value="active"/>
-  <date value="2026-02-02T08:04:31+01:00"/>
+  <status value="draft"/>
+  <date value="2026-07-27T16:55:21+02:00"/>
   <publisher value="HL7 Czech Republic"/>
   <contact>
     <name value="HL7 Czech Republic"/>
@@ -37,7 +38,7 @@
     </extension>
     <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
     <packageId value="hl7.terminology.r4"/>
-    <version value="7.0.1"/>
+    <version value="7.3.0"/>
   </dependsOn>
   <dependsOn id="hl7ext">
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">
@@ -45,12 +46,7 @@
     </extension>
     <uri value="http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"/>
     <packageId value="hl7.fhir.uv.extensions.r4"/>
-    <version value="5.2.0"/>
-  </dependsOn>
-  <dependsOn id="hl7_fhir_uv_ips">
-    <uri value="http://hl7.org/fhir/uv/ips/ImplementationGuide/hl7.fhir.uv.ips"/>
-    <packageId value="hl7.fhir.uv.ips"/>
-    <version value="1.1.0"/>
+    <version value="5.3.0"/>
   </dependsOn>
   <definition>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -67,6 +63,22 @@
       </extension>
       <extension url="value">
         <valueString value="release"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="http://standardterms.edqm.eu"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://www.orpha.net"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -114,7 +126,175 @@
         <valueString value="special-url"/>
       </extension>
       <extension url="value">
+        <valueString value="https://ncez.mzcr.cz/nclp/CodeSystem/nclppol"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://ncez.mzcr.cz/nclp/CodeSystem/nclp-aktualnost"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://ncez.mzcr.cz/nclp/CodeSystem/nclpfh"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://ncez.mzcr.cz/nclp/CodeSystem/nclpfrm"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://ncez.mzcr.cz/nclp/CodeSystem/nclptng"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://ncez.mzcr.cz/nclp/CodeSystem/nclptk"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://ncez.mzcr.cz/nclp/CodeSystem/nclpdrvl"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://ncez.mzcr.cz/nclp/CodeSystem/nclpjedn"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://ncez.mzcr.cz/nclp/CodeSystem/nclpkomp"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://ncez.mzcr.cz/nclp/CodeSystem/nclpmat"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://ncez.mzcr.cz/nclp/CodeSystem/nclponp"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://ncez.mzcr.cz/nclp/CodeSystem/nclpproc"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://ncez.mzcr.cz/nclp/CodeSystem/nclpsyst"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://ncez.mzcr.cz/nclp/CodeSystem/nclpmtv"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://ncez.mzcr.cz/nclp/CodeSystem/nclpskal"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://ncez.mzcr.cz/nclp/CodeSystem/nclpaz"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://ncez.mzcr.cz/nclp/CodeSystem/nclptypd"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://ncez.mzcr.cz/nclp/CodeSystem/nclpvznk"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://ncez.mzcr.cz/nclp/CodeSystem/ncmpagtk"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
         <valueString value="https://uzis.cz/terminology/CodeSystem/mkn-10"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://uzis.cz/terminology/CodeSystem/nzis-NahradyZaZdravotniPeci"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://uzis.cz/terminology/CodeSystem/OdbornostVZP"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -159,6 +339,30 @@
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://uzis.cz/terminology/ValueSet/nzis-nahradyzazdravotnipeci"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://uzis.cz/terminology/ValueSet/OdbornostVZP"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://ncez.mzcr.cz/nclp/ValueSet/nclppol"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
         <valueString value="special-url-base"/>
       </extension>
       <extension url="value">
@@ -170,7 +374,7 @@
         <valueString value="path-expansion-params"/>
       </extension>
       <extension url="value">
-        <valueString value="../../input/tx-params.json"/>
+        <valueString value="../../expansion-params.json"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -202,7 +406,7 @@
         <valueString value="apply-version"/>
       </extension>
       <extension url="value">
-        <valueString value="true"/>
+        <valueString value="false"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -373,13 +577,21 @@
         <valueString value="true"/>
       </extension>
     </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="i18n-default-lang"/>
+      </extension>
+      <extension url="value">
+        <valueString value="en"/>
+      </extension>
+    </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/expansion-parameters">
       <valueReference>
         <reference value="Parameters/expansion-parameters"/>
       </valueReference>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency">
-      <valueCode value="hl7.fhir.uv.tools.r4#0.9.0"/>
+      <valueCode value="hl7.fhir.uv.tools.r4#1.1.2"/>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
@@ -395,6 +607,22 @@
       </extension>
       <extension url="value">
         <valueString value="release"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="http://standardterms.edqm.eu"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://www.orpha.net"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -442,7 +670,175 @@
         <valueCode value="special-url"/>
       </extension>
       <extension url="value">
+        <valueString value="https://ncez.mzcr.cz/nclp/CodeSystem/nclppol"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://ncez.mzcr.cz/nclp/CodeSystem/nclp-aktualnost"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://ncez.mzcr.cz/nclp/CodeSystem/nclpfh"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://ncez.mzcr.cz/nclp/CodeSystem/nclpfrm"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://ncez.mzcr.cz/nclp/CodeSystem/nclptng"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://ncez.mzcr.cz/nclp/CodeSystem/nclptk"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://ncez.mzcr.cz/nclp/CodeSystem/nclpdrvl"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://ncez.mzcr.cz/nclp/CodeSystem/nclpjedn"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://ncez.mzcr.cz/nclp/CodeSystem/nclpkomp"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://ncez.mzcr.cz/nclp/CodeSystem/nclpmat"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://ncez.mzcr.cz/nclp/CodeSystem/nclponp"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://ncez.mzcr.cz/nclp/CodeSystem/nclpproc"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://ncez.mzcr.cz/nclp/CodeSystem/nclpsyst"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://ncez.mzcr.cz/nclp/CodeSystem/nclpmtv"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://ncez.mzcr.cz/nclp/CodeSystem/nclpskal"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://ncez.mzcr.cz/nclp/CodeSystem/nclpaz"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://ncez.mzcr.cz/nclp/CodeSystem/nclptypd"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://ncez.mzcr.cz/nclp/CodeSystem/nclpvznk"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://ncez.mzcr.cz/nclp/CodeSystem/ncmpagtk"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
         <valueString value="https://uzis.cz/terminology/CodeSystem/mkn-10"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://uzis.cz/terminology/CodeSystem/nzis-NahradyZaZdravotniPeci"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://uzis.cz/terminology/CodeSystem/OdbornostVZP"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -487,6 +883,30 @@
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://uzis.cz/terminology/ValueSet/nzis-nahradyzazdravotnipeci"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://uzis.cz/terminology/ValueSet/OdbornostVZP"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://ncez.mzcr.cz/nclp/ValueSet/nclppol"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
         <valueCode value="special-url-base"/>
       </extension>
       <extension url="value">
@@ -498,7 +918,7 @@
         <valueCode value="path-expansion-params"/>
       </extension>
       <extension url="value">
-        <valueString value="../../input/tx-params.json"/>
+        <valueString value="../../expansion-params.json"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -530,7 +950,7 @@
         <valueCode value="apply-version"/>
       </extension>
       <extension url="value">
-        <valueString value="true"/>
+        <valueString value="false"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -701,6 +1121,14 @@
         <valueString value="true"/>
       </extension>
     </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="i18n-default-lang"/>
+      </extension>
+      <extension url="value">
+        <valueString value="en"/>
+      </extension>
+    </extension>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="CodeSystem"/>
@@ -710,6 +1138,17 @@
       </reference>
       <name value="Absent a Unknown Data - IPS"/>
       <description value="Kódový systém pro označení nepřítomnosti nebo neznalosti údajů. Doplněk kódového systému hl7-IPS (International patient Summary)."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/v3-ActCode-cz"/>
+      </reference>
+      <name value="ActCode (CZ supplement)"/>
+      <description value="This code system supplements v3 ActCode."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -730,7 +1169,7 @@
       <reference>
         <reference value="ValueSet/allergy-intolerance-category-cz"/>
       </reference>
-      <name value="Allergy Intolerance Category (CZ supplement)"/>
+      <name value="Allergy Intolerance Category (CZ supplement value set)"/>
       <description value="Category of an identified substance associated with allergies or intolerances."/>
       <exampleBoolean value="false"/>
     </resource>
@@ -752,7 +1191,7 @@
       <reference>
         <reference value="ValueSet/allergy-intolerance-criticality-cz"/>
       </reference>
-      <name value="AllergyIntoleranceCriticality (CZ supplement)"/>
+      <name value="AllergyIntoleranceCriticality (CZ supplement value set)"/>
       <description value="Estimate of the potential clinical harm, or seriousness, of a reaction to an identified substance."/>
       <exampleBoolean value="false"/>
     </resource>
@@ -798,28 +1237,6 @@
       </reference>
       <name value="Body Structure Qualifier"/>
       <description value="Body Structure site qualifier. It indicates the body site qualifier from which a specimen is collected. (based on SNOMED CT)"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/dlp-lecivelatky"/>
-      </reference>
-      <name value="Codesystem of DLP Lecive latky"/>
-      <description value="Codesystem of DLP Lecive latky. Identification ingredient."/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/dlp-lecivepripravky"/>
-      </reference>
-      <name value="Codesystem of DLP Lecive pripravky"/>
-      <description value="Codesystem of DLP Lecive pripravky. Identification medication."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -901,6 +1318,28 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/dlp-lecivelatky"/>
+      </reference>
+      <name value="DLP Lecive latky"/>
+      <description value="DLP Lecive latky - Czech national code system for active drug substances."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/dlp-lecivepripravky"/>
+      </reference>
+      <name value="DLP Lecive pripravky"/>
+      <description value="DLP Lecive pripravky - Czech national registry of the pharmaceutical products."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
@@ -915,7 +1354,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/eHDSIAbsentOrUnknownAllergy-cz"/>
+        <reference value="ValueSet/eHDSIAbsentOrUnknownAllergy"/>
       </reference>
       <name value="eHDSI Absent Or Unknown Allergy"/>
       <description value="The Value set is used to encode absent or unknown medical allergies."/>
@@ -926,7 +1365,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/eHDSIAbsentOrUnknownDevice-cz"/>
+        <reference value="ValueSet/eHDSIAbsentOrUnknownDevice"/>
       </reference>
       <name value="eHDSI Absent Or Unknown Device"/>
       <description value="The Value set is used to encode absent or unknown medical devices."/>
@@ -948,7 +1387,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/eHDSIAllergenNoDrug-cz"/>
+        <reference value="ValueSet/eHDSIAllergenNoDrug"/>
       </reference>
       <name value="eHDSI Allergen No Drug"/>
       <description value="The value set is used to code the patient's kind of adverse reactions against substance, food or drugs"/>
@@ -959,10 +1398,43 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/eHDSIExceptionalValue-cz"/>
+        <reference value="ValueSet/eHDSIDoseForm"/>
+      </reference>
+      <name value="eHDSI Dose Form"/>
+      <description value="eHDSIDoseForm"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/eHDSIExceptionalValue"/>
       </reference>
       <name value="eHDSI Exceptional Value"/>
       <description value="The Value Set is used to code exceptional values for the required binding in FHIR IGs"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/eHDSIReactionAllergy"/>
+      </reference>
+      <name value="eHDSI Reaction Allergy"/>
+      <description value="Value Set is used to encode clinical manifestation of the allergic reaction."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/eHDSIRouteofAdministration"/>
+      </reference>
+      <name value="eHDSI Route of Administration"/>
+      <description value="eHDSIRouteofAdministration"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -974,6 +1446,17 @@
       </reference>
       <name value="Gender for administrative purposes"/>
       <description value="Pohlaví pro administrativní účely. (Gender for administrative purposes)"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/idcard-uri"/>
+      </reference>
+      <name value="ID Card URIs"/>
+      <description value="A country specific URI for personal Id card numbers"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -995,7 +1478,18 @@
         <reference value="CodeSystem/mkn-10"/>
       </reference>
       <name value="Kódový systém MKN-10"/>
-      <description value="Národní systém pro kódování diagnóz a zdravotních problémů."/>
+      <description value="Národní systém pro kódování diagnóz a zdravotních problémů odvozený od ICD-10 WHO."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/nzis-NahradyZaZdravotniPeci"/>
+      </reference>
+      <name value="Kódový systém NahradyZaZdravotniPeci"/>
+      <description value="Kódový systém použitý v Národním registru hospitalizovaných (NRHOSP) pro kódování důvodů náhrady za zdravotní péči."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1058,6 +1552,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/medical-test-code"/>
+      </reference>
+      <name value="Medical Test Result Code"/>
+      <description value="Medical test result codes. List of Medical test result codes containing LOINC, NCLP and Snomed CT."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/cz-logo-mime-types"/>
       </reference>
       <name value="Mime types permissible for logo attachment"/>
@@ -1080,10 +1585,32 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/nclp-NCLPMAT"/>
+        <reference value="CodeSystem/NCLPMAT"/>
       </reference>
       <name value="NCLPMAT"/>
-      <description value="NCLP - Číselník materiálů pro laboratoře."/>
+      <description value="Číselník materiálů pro laboratoře"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/NCLPPOL"/>
+      </reference>
+      <name value="NCLPPOL Code System"/>
+      <description value="Národní číselník laboratorních položek"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/nclppol"/>
+      </reference>
+      <name value="NCLPPOL Value Set"/>
+      <description value="Číselník obsahující koncepty z kódového systému NCLPPOL. Národní číselník laboratorních položek"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1117,6 +1644,39 @@
       </reference>
       <name value="Occupation of healthcare practitioner (CZ)"/>
       <description value="Povolání zdravotnických pracovníků dle registru NRZP. (Occupation of health practitioner registered in the national register of health practitioners (NRZP).)"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/nzis-OdbornostVZP"/>
+      </reference>
+      <name value="OdbornostVZP"/>
+      <description value="Kódový systém smluvních odborností poskytovatele (VZP)"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/ORPHAdisease"/>
+      </reference>
+      <name value="ORPHA vzácná onemocnění"/>
+      <description value="Nomenklatura vzácných onemocnění ORPHAcode, která je nezbytná pro zlepšení viditelnosti vzácných onemocnění ve zdravotnických a výzkumných informačních systémech."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/passport-uri"/>
+      </reference>
+      <name value="Passport URIs"/>
+      <description value="A country specific URI for passport numbers"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1223,6 +1783,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/cz-lab-species-type"/>
+      </reference>
+      <name value="Types of species"/>
+      <description value="Types of animal species for non-human subjects"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/imaging-document-types"/>
       </reference>
       <name value="Typy dokumentů obrazového komplementu"/>
@@ -1264,17 +1835,6 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/v3-ActCode-cz"/>
-      </reference>
-      <name value="v3 Code System ActCode"/>
-      <description value="This code system supplements v3 ActCode."/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
@@ -1293,6 +1853,17 @@
       </reference>
       <name value="ValueSet of Health Insurance Company Code"/>
       <description value="Číselník kódů zdravotních pojišťoven."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/vzp-smluvni-odbornost"/>
+      </reference>
+      <name value="VZP - smluvní odbornost pracovišť"/>
+      <description value="Kódový systém VZP - smluvní odbornost pracovišť je využíván pro objednávání a vykazování/vyúčtování zdravotních služeb."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1322,6 +1893,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/nzis-nahradyzazdravotnipeci"/>
+      </reference>
+      <name value="Číselník NahradyZaZdravotniPeci"/>
+      <description value="Číselník obsahující koncepty z kódového systému NahradyZaZdravotniPeci. Číselník použitý v NRHOSP"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/nclpmat"/>
       </reference>
       <name value="Číselník NCLPMAT"/>
@@ -1333,10 +1915,42 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/nzis-odbornostvzp"/>
+      </reference>
+      <name value="Číselník OdbornostVZP"/>
+      <description value="Číselník obsahující koncepty z kódového systému OdbornostVZP. Číselník použitý v elektronických žádankách a NSHNU."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/orphanet-rare-diseases"/>
+      </reference>
+      <name value="Číselník ORPHAcode vzácná onemocnění"/>
+      <description value="Číselník vzácných onemocnění ORPHACode"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/cz-coverage-type"/>
       </reference>
       <name value="Číselník typů úhrady"/>
       <description value="Číselník typů úhrady zdravotní péče."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vzp-smluvni-odbornost"/>
+      </reference>
+      <name value="Číselník VZP - smluvní odbornost pracovišť"/>
       <exampleBoolean value="false"/>
     </resource>
     <page>
@@ -1430,6 +2044,10 @@
     <parameter>
       <code value="path-pages"/>
       <value value="template/config"/>
+    </parameter>
+    <parameter>
+      <code value="path-pages"/>
+      <value value="input/assets"/>
     </parameter>
     <parameter>
       <code value="path-pages"/>

@@ -1,0 +1,37 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "orphanet-rare-diseases",
+  "language" : "en",
+  "text" : {
+    "status" : "generated"
+  },
+  "url" : "https://ncez.mzcr.cz/terminology/ValueSet/orphanet-rare-diseases",
+  "version" : "1.0.0",
+  "name" : "OrphanetRareDiseasesVs",
+  "title" : "Číselník ORPHAcode vzácná onemocnění",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-04-16T13:28:36.879248Z",
+  "publisher" : "HL7 Czech Republic",
+  "contact" : [{
+    "name" : "HL7 Czech Republic",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.hl7.cz/"
+    }]
+  }],
+  "description" : "Číselník vzácných onemocnění ORPHACode",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CZ",
+      "display" : "Czechia"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://www.orpha.net",
+      "version" : "2024-07"
+    }]
+  }
+}

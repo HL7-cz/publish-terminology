@@ -4,7 +4,7 @@
   "language" : "cs",
   "text" : {
     "status" : "generated",
-    "div" : "<div xml:lang=\"cs\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"cs\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet AllergenWithExceptions</b></p><a name=\"AllergenWithExceptions\"> </a><a name=\"hcAllergenWithExceptions\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: cs</p></div><p>This value set includes codes based on the following rules:</p><ul><li>Import all the codes that are contained in <a href=\"ValueSet-eHDSIAllergenNoDrug-cz.html\">eHDSI Allergen No Drug</a></li><li>Import all the codes that are contained in <a href=\"ValueSet-dlp-lecivepripravky.html\">Léčivé přípravky</a></li><li>Import all the codes that are contained in <a href=\"ValueSet-dlp-atc.html\">Český číselník ATC skupin</a></li><li>Import all the codes that are contained in <a href=\"ValueSet-eHDSIAbsentOrUnknownAllergy-cz.html\">eHDSI Absent Or Unknown Allergy</a></li><li>Import all the codes that are contained in <a href=\"ValueSet-eHDSIExceptionalValue-cz.html\">eHDSI Exceptional Value</a></li></ul></div>"
+    "div" : "<div xml:lang=\"cs\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"cs\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet AllergenWithExceptions</b></p><a name=\"AllergenWithExceptions\"> </a><a name=\"hcAllergenWithExceptions\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: cs</p></div><p>This value set includes codes based on the following rules:</p><ul><li>Import all the codes that are contained in <a href=\"ValueSet-eHDSIAllergenNoDrug.html\">eHDSI Allergen No Drug</a></li><li>Import all the codes that are contained in <a href=\"ValueSet-dlp-lecivepripravky.html\">Léčivé přípravky</a></li><li>Import all the codes that are contained in <a href=\"ValueSet-dlp-atc.html\">Český číselník ATC skupin</a></li><li>Import all the codes that are contained in <a href=\"ValueSet-eHDSIAbsentOrUnknownAllergy.html\">eHDSI Absent Or Unknown Allergy</a></li><li>Import all the codes that are contained in <a href=\"ValueSet-eHDSIExceptionalValue.html\">eHDSI Exceptional Value</a></li></ul></div>"
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
@@ -15,7 +15,7 @@
     "valueCode" : "trial-use"
   }],
   "url" : "https://ncez.mzcr.cz/terminology/ValueSet/AllergenWithExceptions",
-  "version" : "0.2.0",
+  "version" : "1.0.0",
   "name" : "AllergenWithExceptions",
   "title" : "eHDSI Agent or Allergen With Exceptions",
   "status" : "active",
@@ -40,7 +40,7 @@
   "copyright" : "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement",
   "compose" : {
     "include" : [{
-      "valueSet" : ["https://ncez.mzcr.cz/terminology/ValueSet/eHDSIAllergenNoDrug-cz"]
+      "valueSet" : ["https://ncez.mzcr.cz/terminology/ValueSet/eHDSIAllergenNoDrug"]
     },
     {
       "valueSet" : ["https://sukl.cz/terminology/ValueSet/dlp-lecivepripravky"]
@@ -49,10 +49,10 @@
       "valueSet" : ["https://sukl.cz/terminology/ValueSet/dlp-atc"]
     },
     {
-      "valueSet" : ["https://ncez.mzcr.cz/terminology/ValueSet/eHDSIAbsentOrUnknownAllergy-cz"]
+      "valueSet" : ["https://ncez.mzcr.cz/terminology/ValueSet/eHDSIAbsentOrUnknownAllergy"]
     },
     {
-      "valueSet" : ["https://ncez.mzcr.cz/terminology/ValueSet/eHDSIExceptionalValue-cz"]
+      "valueSet" : ["https://ncez.mzcr.cz/terminology/ValueSet/eHDSIExceptionalValue"]
     }]
   }
 }

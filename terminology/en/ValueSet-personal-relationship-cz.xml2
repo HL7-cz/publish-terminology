@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="personal-relationship-cz"/>
+  <language value="en"/>
+  <text>
+    <status value="extensions"/>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/valueset-supplement">
+    <valueCanonical value="https://hl7.cz/terminology/CodeSystem/v3-RoleCode-cz"/>
+  </extension>
+  <url value="https://hl7.cz/terminology/ValueSet/personal-relationship-cz"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:1.2.203.24341.11.1.8"/>
+  </identifier>
+  <version value="1.0.0"/>
+  <name value="PersonalRelationshipCzVS"/>
+  <title value="Role code (CZ)"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-03-03T12:31:40.515581Z"/>
+  <publisher value="HL7 Czech Republic"/>
+  <contact>
+    <name value="HL7 Czech Republic"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hl7.cz/"/>
+    </telecom>
+  </contact>
+  <description value="Vztah kontaktní osoby k subjektu. (Relationship between subject and contact person.)"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CZ"/>
+      <display value="Czechia"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="HL7"/>
+  <compose>
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+      <version value="4.0.0"/>
+      <concept>
+        <code value="NOK"/>
+      </concept>
+      <concept>
+        <code value="FAMMEMB"/>
+      </concept>
+      <concept>
+        <code value="FRND"/>
+      </concept>
+      <concept>
+        <code value="NBOR"/>
+      </concept>
+      <concept>
+        <code value="DAUFOST"/>
+      </concept>
+      <concept>
+        <code value="AUNT"/>
+      </concept>
+      <concept>
+        <code value="GRNDSON"/>
+      </concept>
+      <concept>
+        <code value="GRMTH"/>
+      </concept>
+      <concept>
+        <code value="DOMPART"/>
+      </concept>
+      <concept>
+        <code value="DAUADOPT"/>
+      </concept>
+      <concept>
+        <code value="SONINLAW"/>
+      </concept>
+      <concept>
+        <code value="NIENEPH"/>
+      </concept>
+      <concept>
+        <code value="UNCLE"/>
+      </concept>
+      <concept>
+        <code value="GGRFTH"/>
+      </concept>
+      <concept>
+        <code value="BROINLAW"/>
+      </concept>
+      <concept>
+        <code value="CHLDFOST"/>
+      </concept>
+      <concept>
+        <code value="DAUC"/>
+      </concept>
+      <concept>
+        <code value="SONC"/>
+      </concept>
+      <concept>
+        <code value="STPCHLD"/>
+      </concept>
+      <concept>
+        <code value="DAUINLAW"/>
+      </concept>
+      <concept>
+        <code value="COUSN"/>
+      </concept>
+      <concept>
+        <code value="SON"/>
+      </concept>
+      <concept>
+        <code value="SPS"/>
+      </concept>
+      <concept>
+        <code value="CHLDADOPT"/>
+      </concept>
+      <concept>
+        <code value="NCHILD"/>
+      </concept>
+      <concept>
+        <code value="SIGOTHR"/>
+      </concept>
+      <concept>
+        <code value="GGRMTH"/>
+      </concept>
+      <concept>
+        <code value="MTH"/>
+      </concept>
+      <concept>
+        <code value="MTHINLAW"/>
+      </concept>
+      <concept>
+        <code value="BRO"/>
+      </concept>
+      <concept>
+        <code value="HUSB"/>
+      </concept>
+      <concept>
+        <code value="PRN"/>
+      </concept>
+      <concept>
+        <code value="SIB"/>
+      </concept>
+      <concept>
+        <code value="NIECE"/>
+      </concept>
+      <concept>
+        <code value="FTH"/>
+      </concept>
+      <concept>
+        <code value="FTHINLAW"/>
+      </concept>
+      <concept>
+        <code value="STPSON"/>
+      </concept>
+      <concept>
+        <code value="SONFOST"/>
+      </concept>
+      <concept>
+        <code value="GGRPRN"/>
+      </concept>
+      <concept>
+        <code value="GRNDCHILD"/>
+      </concept>
+      <concept>
+        <code value="EXT"/>
+      </concept>
+      <concept>
+        <code value="SISINLAW"/>
+      </concept>
+      <concept>
+        <code value="WIFE"/>
+      </concept>
+      <concept>
+        <code value="DAU"/>
+      </concept>
+      <concept>
+        <code value="GRPRN"/>
+      </concept>
+      <concept>
+        <code value="CHILD"/>
+      </concept>
+      <concept>
+        <code value="GRNDDAU"/>
+      </concept>
+      <concept>
+        <code value="GRFTH"/>
+      </concept>
+      <concept>
+        <code value="PRNINLAW"/>
+      </concept>
+      <concept>
+        <code value="ROOM"/>
+      </concept>
+      <concept>
+        <code value="CHLDINLAW"/>
+      </concept>
+      <concept>
+        <code value="SONADOPT"/>
+      </concept>
+      <concept>
+        <code value="STPDAU"/>
+      </concept>
+      <concept>
+        <code value="NEPHEW"/>
+      </concept>
+      <concept>
+        <code value="SIS"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

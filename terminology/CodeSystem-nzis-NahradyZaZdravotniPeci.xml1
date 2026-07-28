@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="nzis-NahradyZaZdravotniPeci"/>
+  <language value="cs"/>
+  <text>
+    <status value="generated"/><div xml:lang="cs" xmlns="http://www.w3.org/1999/xhtml" lang="cs"><p class="res-header-id"><b>Generated Narrative: CodeSystem nzis-NahradyZaZdravotniPeci</b></p><a name="nzis-NahradyZaZdravotniPeci"> </a><a name="hcnzis-NahradyZaZdravotniPeci"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: cs</p></div><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class="grid"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>definition</td><td>definition</td><td>string</td><td>Definition</td></tr><tr><td>kod</td><td>kod</td><td>string</td><td/></tr><tr><td>plati_do</td><td>plati_do</td><td>dateTime</td><td/></tr><tr><td>plati_od</td><td>plati_od</td><td>dateTime</td><td/></tr><tr><td>popis</td><td>popis</td><td>string</td><td/></tr><tr><td>poradi</td><td>poradi</td><td>string</td><td/></tr><tr><td>skupina_platnosti_01</td><td>skupina_platnosti_01</td><td>boolean</td><td/></tr><tr><td>skupina_platnosti_02</td><td>skupina_platnosti_02</td><td>boolean</td><td/></tr><tr><td>skupina_platnosti_03</td><td>skupina_platnosti_03</td><td>boolean</td><td/></tr><tr><td>skupina_platnosti_04</td><td>skupina_platnosti_04</td><td>boolean</td><td/></tr><tr><td>skupina_platnosti_05</td><td>skupina_platnosti_05</td><td>boolean</td><td/></tr><tr><td>skupina_platnosti_06</td><td>skupina_platnosti_06</td><td>boolean</td><td/></tr><tr><td>skupina_platnosti_07</td><td>skupina_platnosti_07</td><td>boolean</td><td/></tr><tr><td>skupina_platnosti_08</td><td>skupina_platnosti_08</td><td>boolean</td><td/></tr><tr><td>skupina_platnosti_09</td><td>skupina_platnosti_09</td><td>boolean</td><td/></tr><tr><td>skupina_platnosti_10</td><td>skupina_platnosti_10</td><td>boolean</td><td/></tr><tr><td>skupina_platnosti_11</td><td>skupina_platnosti_11</td><td>boolean</td><td/></tr><tr><td>skupina_platnosti_12</td><td>skupina_platnosti_12</td><td>boolean</td><td/></tr><tr><td>skupina_platnosti_13</td><td>skupina_platnosti_13</td><td>boolean</td><td/></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://uzis.cz/terminology/CodeSystem/nzis-NahradyZaZdravotniPeci</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>kod</b></td><td><b>plati_od</b></td><td><b>popis</b></td></tr><tr><td style="white-space:nowrap">3<a name="nzis-NahradyZaZdravotniPeci-3"> </a></td><td>Úraz zaviněný jinou osobou</td><td>3</td><td>2015-01-01T00:00:00Z</td><td>Úraz zaviněný jinou osobou</td></tr><tr><td style="white-space:nowrap">4<a name="nzis-NahradyZaZdravotniPeci-4"> </a></td><td>Alkohol, omamné látky</td><td>4</td><td>2015-01-01T00:00:00Z</td><td>Alkohol, omamné látky</td></tr><tr><td style="white-space:nowrap">5<a name="nzis-NahradyZaZdravotniPeci-5"> </a></td><td>Pracovní úraz</td><td>5</td><td>2015-01-01T00:00:00Z</td><td>Pracovní úraz</td></tr><tr><td style="white-space:nowrap">6<a name="nzis-NahradyZaZdravotniPeci-6"> </a></td><td>Sociální důvod hospitalizace</td><td>6</td><td>2015-01-01T00:00:00Z</td><td>Sociální důvod hospitalizace</td></tr><tr><td style="white-space:nowrap">7<a name="nzis-NahradyZaZdravotniPeci-7"> </a></td><td>Porušení léčebného režimu</td><td>7</td><td>2015-01-01T00:00:00Z</td><td>Porušení léčebného režimu</td></tr><tr><td style="white-space:nowrap">9<a name="nzis-NahradyZaZdravotniPeci-9"> </a></td><td>Nemoc z povolání</td><td>9</td><td>2015-01-01T00:00:00Z</td><td>Nemoc z povolání</td></tr></table></div>
+  </text>
+  <url value="https://uzis.cz/terminology/CodeSystem/nzis-NahradyZaZdravotniPeci"/>
+  <version value="1.0.0"/>
+  <name value="CS_NahradyZaZdravotniPeci"/>
+  <title value="Kódový systém NahradyZaZdravotniPeci"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-07-27T16:55:21+02:00"/>
+  <publisher value="HL7 Czech Republic"/>
+  <contact>
+    <name value="HL7 Czech Republic"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hl7.cz/"/>
+    </telecom>
+  </contact>
+  <description value="Kódový systém použitý v Národním registru hospitalizovaných (NRHOSP) pro kódování důvodů náhrady za zdravotní péči."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CZ"/>
+      <display value="Czechia"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="false"/>
+  <content value="complete"/>
+  <count value="6"/>
+  <property>
+    <code value="definition"/>
+    <description value="Definition"/>
+    <type value="string"/>
+  </property>
+  <property>
+    <code value="kod"/>
+    <type value="string"/>
+  </property>
+  <property>
+    <code value="plati_do"/>
+    <type value="dateTime"/>
+  </property>
+  <property>
+    <code value="plati_od"/>
+    <type value="dateTime"/>
+  </property>
+  <property>
+    <code value="popis"/>
+    <type value="string"/>
+  </property>
+  <property>
+    <code value="poradi"/>
+    <type value="string"/>
+  </property>
+  <property>
+    <code value="skupina_platnosti_01"/>
+    <type value="boolean"/>
+  </property>
+  <property>
+    <code value="skupina_platnosti_02"/>
+    <type value="boolean"/>
+  </property>
+  <property>
+    <code value="skupina_platnosti_03"/>
+    <type value="boolean"/>
+  </property>
+  <property>
+    <code value="skupina_platnosti_04"/>
+    <type value="boolean"/>
+  </property>
+  <property>
+    <code value="skupina_platnosti_05"/>
+    <type value="boolean"/>
+  </property>
+  <property>
+    <code value="skupina_platnosti_06"/>
+    <type value="boolean"/>
+  </property>
+  <property>
+    <code value="skupina_platnosti_07"/>
+    <type value="boolean"/>
+  </property>
+  <property>
+    <code value="skupina_platnosti_08"/>
+    <type value="boolean"/>
+  </property>
+  <property>
+    <code value="skupina_platnosti_09"/>
+    <type value="boolean"/>
+  </property>
+  <property>
+    <code value="skupina_platnosti_10"/>
+    <type value="boolean"/>
+  </property>
+  <property>
+    <code value="skupina_platnosti_11"/>
+    <type value="boolean"/>
+  </property>
+  <property>
+    <code value="skupina_platnosti_12"/>
+    <type value="boolean"/>
+  </property>
+  <property>
+    <code value="skupina_platnosti_13"/>
+    <type value="boolean"/>
+  </property>
+  <concept>
+    <code value="3"/>
+    <display value="Úraz zaviněný jinou osobou"/>
+    <property>
+      <code value="kod"/>
+      <valueString value="3"/>
+    </property>
+    <property>
+      <code value="plati_od"/>
+      <valueDateTime value="2015-01-01T00:00:00Z"/>
+    </property>
+    <property>
+      <code value="popis"/>
+      <valueString value="Úraz zaviněný jinou osobou"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="4"/>
+    <display value="Alkohol, omamné látky"/>
+    <property>
+      <code value="kod"/>
+      <valueString value="4"/>
+    </property>
+    <property>
+      <code value="plati_od"/>
+      <valueDateTime value="2015-01-01T00:00:00Z"/>
+    </property>
+    <property>
+      <code value="popis"/>
+      <valueString value="Alkohol, omamné látky"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="5"/>
+    <display value="Pracovní úraz"/>
+    <property>
+      <code value="kod"/>
+      <valueString value="5"/>
+    </property>
+    <property>
+      <code value="plati_od"/>
+      <valueDateTime value="2015-01-01T00:00:00Z"/>
+    </property>
+    <property>
+      <code value="popis"/>
+      <valueString value="Pracovní úraz"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="6"/>
+    <display value="Sociální důvod hospitalizace"/>
+    <property>
+      <code value="kod"/>
+      <valueString value="6"/>
+    </property>
+    <property>
+      <code value="plati_od"/>
+      <valueDateTime value="2015-01-01T00:00:00Z"/>
+    </property>
+    <property>
+      <code value="popis"/>
+      <valueString value="Sociální důvod hospitalizace"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="7"/>
+    <display value="Porušení léčebného režimu"/>
+    <property>
+      <code value="kod"/>
+      <valueString value="7"/>
+    </property>
+    <property>
+      <code value="plati_od"/>
+      <valueDateTime value="2015-01-01T00:00:00Z"/>
+    </property>
+    <property>
+      <code value="popis"/>
+      <valueString value="Porušení léčebného režimu"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="9"/>
+    <display value="Nemoc z povolání"/>
+    <property>
+      <code value="kod"/>
+      <valueString value="9"/>
+    </property>
+    <property>
+      <code value="plati_od"/>
+      <valueDateTime value="2015-01-01T00:00:00Z"/>
+    </property>
+    <property>
+      <code value="popis"/>
+      <valueString value="Nemoc z povolání"/>
+    </property>
+  </concept>
+</CodeSystem>

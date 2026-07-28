@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="cz-logo-mime-types"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/>
+  </text>
+  <url value="https://hl7.cz/terminology/ValueSet/cz-logo-mime-types"/>
+  <version value="1.0.0"/>
+  <name value="CZ_LogoMimeTypesVs"/>
+  <title value="Mime types permissible for logo attachment"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2022-12-26"/>
+  <publisher value="HL7 Czech Republic"/>
+  <contact>
+    <name value="HL7 Czech Republic"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hl7.cz/"/>
+    </telecom>
+  </contact>
+  <description value="Mime types for logo attachment. It is used in OrganizationLogo extension to restrict the mime type of the logo image."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CZ"/>
+      <display value="Czechia"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="urn:ietf:bcp:13"/>
+      <concept>
+        <code value="image/png"/>
+        <display value="PNG image"/>
+      </concept>
+      <concept>
+        <code value="image/jpeg"/>
+        <display value="JPEG image"/>
+      </concept>
+      <concept>
+        <code value="image/gif"/>
+        <display value="GIF image"/>
+      </concept>
+      <concept>
+        <code value="image/svg+xml"/>
+        <display value="SVG image"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

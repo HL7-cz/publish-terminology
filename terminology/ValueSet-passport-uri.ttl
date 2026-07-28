@@ -1,0 +1,1062 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hl7.cz/terminology/ValueSet/passport-uri> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "passport-uri"] ;
+  fhir:Resource.language [ fhir:value "cs"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xml:lang=\"cs\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"cs\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet passport-uri</b></p><a name=\"passport-uri\"> </a><a name=\"hcpassport-uri\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: cs</p></div><ul><li>Include these codes as defined in <code>urn:ietf:rfc:3986</code><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>http://hl7.org/fhir/sid/passport-AFG</td><td>Afghánistán</td></tr><tr><td>http://hl7.org/fhir/sid/passport-ALB</td><td>Albánie</td></tr><tr><td>http://hl7.org/fhir/sid/passport-DZA</td><td>Alžírsko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-ASM</td><td>Americká Samoa</td></tr><tr><td>http://hl7.org/fhir/sid/passport-AND</td><td>Andorra</td></tr><tr><td>http://hl7.org/fhir/sid/passport-AGO</td><td>Angola</td></tr><tr><td>http://hl7.org/fhir/sid/passport-AIA</td><td>Anguilla</td></tr><tr><td>http://hl7.org/fhir/sid/passport-ATA</td><td>Antarktida</td></tr><tr><td>http://hl7.org/fhir/sid/passport-ATG</td><td>Antigua a Barbuda</td></tr><tr><td>http://hl7.org/fhir/sid/passport-ARG</td><td>Argentina</td></tr><tr><td>http://hl7.org/fhir/sid/passport-ARM</td><td>Arménie</td></tr><tr><td>http://hl7.org/fhir/sid/passport-ABW</td><td>Aruba</td></tr><tr><td>http://hl7.org/fhir/sid/passport-AUS</td><td>Austrálie</td></tr><tr><td>http://hl7.org/fhir/sid/passport-AUT</td><td>Rakousko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-AZE</td><td>Ázerbájdžán</td></tr><tr><td>http://hl7.org/fhir/sid/passport-BHS</td><td>Bahamy</td></tr><tr><td>http://hl7.org/fhir/sid/passport-BHR</td><td>Bahrajn</td></tr><tr><td>http://hl7.org/fhir/sid/passport-BGD</td><td>Bangladéš</td></tr><tr><td>http://hl7.org/fhir/sid/passport-BRB</td><td>Barbados</td></tr><tr><td>http://hl7.org/fhir/sid/passport-BLR</td><td>Bělorusko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-BEL</td><td>Belgie</td></tr><tr><td>http://hl7.org/fhir/sid/passport-BLZ</td><td>Belize</td></tr><tr><td>http://hl7.org/fhir/sid/passport-BEN</td><td>Benin</td></tr><tr><td>http://hl7.org/fhir/sid/passport-BMU</td><td>Bermudy</td></tr><tr><td>http://hl7.org/fhir/sid/passport-BTN</td><td>Bhútán</td></tr><tr><td>http://hl7.org/fhir/sid/passport-BOL</td><td>Bolívie</td></tr><tr><td>http://hl7.org/fhir/sid/passport-BES</td><td>Bonaire, Svatý Eustach a Saba</td></tr><tr><td>http://hl7.org/fhir/sid/passport-BIH</td><td>Bosna a Hercegovina</td></tr><tr><td>http://hl7.org/fhir/sid/passport-BWA</td><td>Botswana</td></tr><tr><td>http://hl7.org/fhir/sid/passport-BVT</td><td>Bouvetův ostrov</td></tr><tr><td>http://hl7.org/fhir/sid/passport-BRA</td><td>Brazílie</td></tr><tr><td>http://hl7.org/fhir/sid/passport-IOT</td><td>Britské indickooceánské území</td></tr><tr><td>http://hl7.org/fhir/sid/passport-BRN</td><td>Brunej</td></tr><tr><td>http://hl7.org/fhir/sid/passport-BGR</td><td>Bulharsko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-BFA</td><td>Burkina Faso</td></tr><tr><td>http://hl7.org/fhir/sid/passport-BDI</td><td>Burundi</td></tr><tr><td>http://hl7.org/fhir/sid/passport-CPV</td><td>Burundi</td></tr><tr><td>http://hl7.org/fhir/sid/passport-KHM</td><td>Kambodža</td></tr><tr><td>http://hl7.org/fhir/sid/passport-CMR</td><td>Kamerun</td></tr><tr><td>http://hl7.org/fhir/sid/passport-CAN</td><td>Kanada</td></tr><tr><td>http://hl7.org/fhir/sid/passport-CYM</td><td>Kajmanské ostrovy</td></tr><tr><td>http://hl7.org/fhir/sid/passport-CAF</td><td>Středoafrická republika</td></tr><tr><td>http://hl7.org/fhir/sid/passport-TCD</td><td>Čad</td></tr><tr><td>http://hl7.org/fhir/sid/passport-CHL</td><td>Chile</td></tr><tr><td>http://hl7.org/fhir/sid/passport-CHN</td><td>Čína</td></tr><tr><td>http://hl7.org/fhir/sid/passport-CXR</td><td>Vánoční ostrov</td></tr><tr><td>http://hl7.org/fhir/sid/passport-CCK</td><td>Kokosové (Keelingovy) ostrovy</td></tr><tr><td>http://hl7.org/fhir/sid/passport-COL</td><td>Kolumbie</td></tr><tr><td>http://hl7.org/fhir/sid/passport-COM</td><td>Komory</td></tr><tr><td>http://hl7.org/fhir/sid/passport-COD</td><td>Konžská republika</td></tr><tr><td>http://hl7.org/fhir/sid/passport-COG</td><td>Konžská republika</td></tr><tr><td>http://hl7.org/fhir/sid/passport-COK</td><td>Cookovy ostrovy</td></tr><tr><td>http://hl7.org/fhir/sid/passport-CRI</td><td>Kostarika</td></tr><tr><td>http://hl7.org/fhir/sid/passport-HRV</td><td>Chorvatsko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-CUB</td><td>Kuba</td></tr><tr><td>http://hl7.org/fhir/sid/passport-CUW</td><td>Curaçao</td></tr><tr><td>http://hl7.org/fhir/sid/passport-CYP</td><td>Kypr</td></tr><tr><td>http://hl7.org/fhir/sid/passport-CZE</td><td>Česko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-CIV</td><td>Pobřeží slonoviny</td></tr><tr><td>http://hl7.org/fhir/sid/passport-DNK</td><td>Dánsko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-DJI</td><td>Džibutsko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-DMA</td><td>Dominika</td></tr><tr><td>http://hl7.org/fhir/sid/passport-DOM</td><td>Dominikánská republika</td></tr><tr><td>http://hl7.org/fhir/sid/passport-ECU</td><td>Ekvádor</td></tr><tr><td>http://hl7.org/fhir/sid/passport-EGY</td><td>Egypt</td></tr><tr><td>http://hl7.org/fhir/sid/passport-SLV</td><td>Salvador</td></tr><tr><td>http://hl7.org/fhir/sid/passport-GNQ</td><td>Rovníková Guinea</td></tr><tr><td>http://hl7.org/fhir/sid/passport-ERI</td><td>Eritrea</td></tr><tr><td>http://hl7.org/fhir/sid/passport-EST</td><td>Estonsko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-SWZ</td><td>Estonsko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-ETH</td><td>Etiopie</td></tr><tr><td>http://hl7.org/fhir/sid/passport-FLK</td><td>Falklandy</td></tr><tr><td>http://hl7.org/fhir/sid/passport-FRO</td><td>Faerské ostrovy</td></tr><tr><td>http://hl7.org/fhir/sid/passport-FJI</td><td>Fidži</td></tr><tr><td>http://hl7.org/fhir/sid/passport-FIN</td><td>Finsko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-FRA</td><td>Francie</td></tr><tr><td>http://hl7.org/fhir/sid/passport-GUF</td><td>Francouzská Guyana</td></tr><tr><td>http://hl7.org/fhir/sid/passport-PYF</td><td>Francouzská Polynésie</td></tr><tr><td>http://hl7.org/fhir/sid/passport-ATF</td><td>Francouzská jižní a antarktická území</td></tr><tr><td>http://hl7.org/fhir/sid/passport-GAB</td><td>Gabon</td></tr><tr><td>http://hl7.org/fhir/sid/passport-GMB</td><td>Gambie</td></tr><tr><td>http://hl7.org/fhir/sid/passport-GEO</td><td>Gruzie</td></tr><tr><td>http://hl7.org/fhir/sid/passport-DEU</td><td>Německo</td></tr><tr><td>http://hl7.org/fhir/sid/passport-GHA</td><td>Ghana</td></tr><tr><td>http://hl7.org/fhir/sid/passport-GIB</td><td>Gibraltar</td></tr><tr><td>http://hl7.org/fhir/sid/passport-GRC</td><td>Řecko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-GRL</td><td>Grónsko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-GRD</td><td>Grenada</td></tr><tr><td>http://hl7.org/fhir/sid/passport-GLP</td><td>Guadeloupe</td></tr><tr><td>http://hl7.org/fhir/sid/passport-GUM</td><td>Guam</td></tr><tr><td>http://hl7.org/fhir/sid/passport-GTM</td><td>Guatemala</td></tr><tr><td>http://hl7.org/fhir/sid/passport-GGY</td><td>Guernsey</td></tr><tr><td>http://hl7.org/fhir/sid/passport-GIN</td><td>Guinea</td></tr><tr><td>http://hl7.org/fhir/sid/passport-GNB</td><td>Guinea-Bissau</td></tr><tr><td>http://hl7.org/fhir/sid/passport-GUY</td><td>Guyana</td></tr><tr><td>http://hl7.org/fhir/sid/passport-HTI</td><td>Haiti</td></tr><tr><td>http://hl7.org/fhir/sid/passport-HMD</td><td>Heardův ostrov a MacDonaldovy ostrovy</td></tr><tr><td>http://hl7.org/fhir/sid/passport-VAT</td><td>Vatikán</td></tr><tr><td>http://hl7.org/fhir/sid/passport-HND</td><td>Honduras</td></tr><tr><td>http://hl7.org/fhir/sid/passport-HKG</td><td>Hongkong</td></tr><tr><td>http://hl7.org/fhir/sid/passport-HUN</td><td>Maďarsko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-ISL</td><td>Island</td></tr><tr><td>http://hl7.org/fhir/sid/passport-IND</td><td>Indie</td></tr><tr><td>http://hl7.org/fhir/sid/passport-IDN</td><td>Indonésie</td></tr><tr><td>http://hl7.org/fhir/sid/passport-IRN</td><td>Írán</td></tr><tr><td>http://hl7.org/fhir/sid/passport-IRQ</td><td>Irák</td></tr><tr><td>http://hl7.org/fhir/sid/passport-IRL</td><td>Irsko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-IMN</td><td>Man</td></tr><tr><td>http://hl7.org/fhir/sid/passport-ISR</td><td>Izrael</td></tr><tr><td>http://hl7.org/fhir/sid/passport-ITA</td><td>Itálie</td></tr><tr><td>http://hl7.org/fhir/sid/passport-JAM</td><td>Jamajka</td></tr><tr><td>http://hl7.org/fhir/sid/passport-JPN</td><td>Japonsko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-JEY</td><td>Jersey</td></tr><tr><td>http://hl7.org/fhir/sid/passport-JOR</td><td>Jordánsko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-KAZ</td><td>Kazachstán</td></tr><tr><td>http://hl7.org/fhir/sid/passport-KEN</td><td>Keňa</td></tr><tr><td>http://hl7.org/fhir/sid/passport-KIR</td><td>Kiribati</td></tr><tr><td>http://hl7.org/fhir/sid/passport-PRK</td><td>Korejská lidově demokratická republika</td></tr><tr><td>http://hl7.org/fhir/sid/passport-KOR</td><td>Korejská lidově demokratická republika</td></tr><tr><td>http://hl7.org/fhir/sid/passport-KWT</td><td>Kuvajt</td></tr><tr><td>http://hl7.org/fhir/sid/passport-KGZ</td><td>Kyrgyzstán</td></tr><tr><td>http://hl7.org/fhir/sid/passport-LAO</td><td>Laos</td></tr><tr><td>http://hl7.org/fhir/sid/passport-LVA</td><td>Lotyšsko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-LBN</td><td>Libanon</td></tr><tr><td>http://hl7.org/fhir/sid/passport-LSO</td><td>Lesotho</td></tr><tr><td>http://hl7.org/fhir/sid/passport-LBR</td><td>Libérie</td></tr><tr><td>http://hl7.org/fhir/sid/passport-LBY</td><td>Libye</td></tr><tr><td>http://hl7.org/fhir/sid/passport-LIE</td><td>Lichtenštejnsko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-LTU</td><td>Litva</td></tr><tr><td>http://hl7.org/fhir/sid/passport-LUX</td><td>Lucembursko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-MAC</td><td>Macao</td></tr><tr><td>http://hl7.org/fhir/sid/passport-MDG</td><td>Madagaskar</td></tr><tr><td>http://hl7.org/fhir/sid/passport-MWI</td><td>Malawi</td></tr><tr><td>http://hl7.org/fhir/sid/passport-MYS</td><td>Malajsie</td></tr><tr><td>http://hl7.org/fhir/sid/passport-MDV</td><td>Maledivy</td></tr><tr><td>http://hl7.org/fhir/sid/passport-MLI</td><td>Mali</td></tr><tr><td>http://hl7.org/fhir/sid/passport-MLT</td><td>Malta</td></tr><tr><td>http://hl7.org/fhir/sid/passport-MHL</td><td>Marshallovy ostrovy</td></tr><tr><td>http://hl7.org/fhir/sid/passport-MTQ</td><td>Martinik</td></tr><tr><td>http://hl7.org/fhir/sid/passport-MRT</td><td>Mauritánie</td></tr><tr><td>http://hl7.org/fhir/sid/passport-MUS</td><td>Mauricius</td></tr><tr><td>http://hl7.org/fhir/sid/passport-MYT</td><td>Mayotte</td></tr><tr><td>http://hl7.org/fhir/sid/passport-MEX</td><td>Mexiko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-FSM</td><td>Mikronésie</td></tr><tr><td>http://hl7.org/fhir/sid/passport-MDA</td><td>Mikronésie</td></tr><tr><td>http://hl7.org/fhir/sid/passport-MCO</td><td>Monako</td></tr><tr><td>http://hl7.org/fhir/sid/passport-MNG</td><td>Mongolsko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-MNE</td><td>Černá Hora</td></tr><tr><td>http://hl7.org/fhir/sid/passport-MSR</td><td>Montserrat</td></tr><tr><td>http://hl7.org/fhir/sid/passport-MAR</td><td>Maroko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-MOZ</td><td>Mosambik</td></tr><tr><td>http://hl7.org/fhir/sid/passport-MMR</td><td>Myanmar</td></tr><tr><td>http://hl7.org/fhir/sid/passport-NAM</td><td>Namibie</td></tr><tr><td>http://hl7.org/fhir/sid/passport-NRU</td><td>Nauru</td></tr><tr><td>http://hl7.org/fhir/sid/passport-NPL</td><td>Nepál</td></tr><tr><td>http://hl7.org/fhir/sid/passport-NLD</td><td>Nizozemsko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-NCL</td><td>Nová Kaledonie</td></tr><tr><td>http://hl7.org/fhir/sid/passport-NZL</td><td>Nový Zéland</td></tr><tr><td>http://hl7.org/fhir/sid/passport-NIC</td><td>Nikaragua</td></tr><tr><td>http://hl7.org/fhir/sid/passport-NER</td><td>Niger</td></tr><tr><td>http://hl7.org/fhir/sid/passport-NGA</td><td>Nigérie</td></tr><tr><td>http://hl7.org/fhir/sid/passport-NIU</td><td>Niue</td></tr><tr><td>http://hl7.org/fhir/sid/passport-NFK</td><td>Norfolk</td></tr><tr><td>http://hl7.org/fhir/sid/passport-MKD</td><td>Norfolk</td></tr><tr><td>http://hl7.org/fhir/sid/passport-MNP</td><td>Severní Mariany</td></tr><tr><td>http://hl7.org/fhir/sid/passport-NOR</td><td>Norsko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-OMN</td><td>Omán</td></tr><tr><td>http://hl7.org/fhir/sid/passport-PAK</td><td>Pákistán</td></tr><tr><td>http://hl7.org/fhir/sid/passport-PLW</td><td>Palau</td></tr><tr><td>http://hl7.org/fhir/sid/passport-PSE</td><td>Palestina</td></tr><tr><td>http://hl7.org/fhir/sid/passport-PAN</td><td>Panama</td></tr><tr><td>http://hl7.org/fhir/sid/passport-PNG</td><td>Papua Nová Guinea</td></tr><tr><td>http://hl7.org/fhir/sid/passport-PRY</td><td>Paraguay</td></tr><tr><td>http://hl7.org/fhir/sid/passport-PER</td><td>Peru</td></tr><tr><td>http://hl7.org/fhir/sid/passport-PHL</td><td>Filipíny</td></tr><tr><td>http://hl7.org/fhir/sid/passport-PCN</td><td>Pitcairn</td></tr><tr><td>http://hl7.org/fhir/sid/passport-POL</td><td>Polsko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-PRT</td><td>Portugalsko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-PRI</td><td>Portoriko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-QAT</td><td>Katar</td></tr><tr><td>http://hl7.org/fhir/sid/passport-ROU</td><td>Rumunsko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-RUS</td><td>Rusko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-RWA</td><td>Rwanda</td></tr><tr><td>http://hl7.org/fhir/sid/passport-REU</td><td>Réunion</td></tr><tr><td>http://hl7.org/fhir/sid/passport-BLM</td><td>Svatý Bartoloměj</td></tr><tr><td>http://hl7.org/fhir/sid/passport-SHN</td><td>Svatá Helena</td></tr><tr><td>http://hl7.org/fhir/sid/passport-KNA</td><td>Svatý Kryštof a Nevis</td></tr><tr><td>http://hl7.org/fhir/sid/passport-LCA</td><td>Svatá Lucie</td></tr><tr><td>http://hl7.org/fhir/sid/passport-MAF</td><td>Svatý Martin (FR)</td></tr><tr><td>http://hl7.org/fhir/sid/passport-SPM</td><td>Saint Pierre a Miquelon</td></tr><tr><td>http://hl7.org/fhir/sid/passport-VCT</td><td>Svatý Vincenc a Grenadiny</td></tr><tr><td>http://hl7.org/fhir/sid/passport-WSM</td><td>Samoa</td></tr><tr><td>http://hl7.org/fhir/sid/passport-SMR</td><td>San Marino</td></tr><tr><td>http://hl7.org/fhir/sid/passport-STP</td><td>Svatý Tomáš a Princův ostrov</td></tr><tr><td>http://hl7.org/fhir/sid/passport-SAU</td><td>Saúdská Arábie</td></tr><tr><td>http://hl7.org/fhir/sid/passport-SEN</td><td>Senegal</td></tr><tr><td>http://hl7.org/fhir/sid/passport-SRB</td><td>Srbsko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-SYC</td><td>Seychely</td></tr><tr><td>http://hl7.org/fhir/sid/passport-SLE</td><td>Sierra Leone</td></tr><tr><td>http://hl7.org/fhir/sid/passport-SGP</td><td>Singapur</td></tr><tr><td>http://hl7.org/fhir/sid/passport-SXM</td><td>Svatý Martin (NL)</td></tr><tr><td>http://hl7.org/fhir/sid/passport-SVK</td><td>Slovensko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-SVN</td><td>Slovinsko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-SLB</td><td>Šalomounovy ostrovy</td></tr><tr><td>http://hl7.org/fhir/sid/passport-SOM</td><td>Somálsko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-ZAF</td><td>Jižní Afrika</td></tr><tr><td>http://hl7.org/fhir/sid/passport-SGS</td><td>Jižní Georgie a Jižní Sandwichovy ostrovy</td></tr><tr><td>http://hl7.org/fhir/sid/passport-SSD</td><td>Jižní Súdán</td></tr><tr><td>http://hl7.org/fhir/sid/passport-ESP</td><td>Španělsko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-LKA</td><td>Šrí Lanka</td></tr><tr><td>http://hl7.org/fhir/sid/passport-SDN</td><td>Súdán</td></tr><tr><td>http://hl7.org/fhir/sid/passport-SUR</td><td>Surinam</td></tr><tr><td>http://hl7.org/fhir/sid/passport-SJM</td><td>Špicberky a Jan Mayen</td></tr><tr><td>http://hl7.org/fhir/sid/passport-SWE</td><td>Švédsko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-CHE</td><td>Švýcarsko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-SYR</td><td>Sýrie</td></tr><tr><td>http://hl7.org/fhir/sid/passport-TWN</td><td>Sýrie</td></tr><tr><td>http://hl7.org/fhir/sid/passport-TJK</td><td>Tádžikistán</td></tr><tr><td>http://hl7.org/fhir/sid/passport-TZA</td><td>Tádžikistán</td></tr><tr><td>http://hl7.org/fhir/sid/passport-THA</td><td>Thajsko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-TLS</td><td>Východní Timor</td></tr><tr><td>http://hl7.org/fhir/sid/passport-TGO</td><td>Togo</td></tr><tr><td>http://hl7.org/fhir/sid/passport-TKL</td><td>Tokelau</td></tr><tr><td>http://hl7.org/fhir/sid/passport-TON</td><td>Tonga</td></tr><tr><td>http://hl7.org/fhir/sid/passport-TTO</td><td>Trinidad a Tobago</td></tr><tr><td>http://hl7.org/fhir/sid/passport-TUN</td><td>Tunisko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-TKM</td><td>Turkmenistán</td></tr><tr><td>http://hl7.org/fhir/sid/passport-TCA</td><td>Turks a Caicos</td></tr><tr><td>http://hl7.org/fhir/sid/passport-TUV</td><td>Tuvalu</td></tr><tr><td>http://hl7.org/fhir/sid/passport-TUR</td><td>Turecko</td></tr><tr><td>http://hl7.org/fhir/sid/passport-UGA</td><td>Uganda</td></tr><tr><td>http://hl7.org/fhir/sid/passport-UKR</td><td>Ukrajina</td></tr><tr><td>http://hl7.org/fhir/sid/passport-ARE</td><td>Spojené arabské emiráty</td></tr><tr><td>http://hl7.org/fhir/sid/passport-GBR</td><td>Velká Británie</td></tr><tr><td>http://hl7.org/fhir/sid/passport-UMI</td><td>Menší odlehlé ostrovy USA</td></tr><tr><td>http://hl7.org/fhir/sid/passport-USA</td><td>Spojené státy</td></tr><tr><td>http://hl7.org/fhir/sid/passport-URY</td><td>Uruguay</td></tr><tr><td>http://hl7.org/fhir/sid/passport-UZB</td><td>Uzbekistán</td></tr><tr><td>http://hl7.org/fhir/sid/passport-VUT</td><td>Vanuatu</td></tr><tr><td>http://hl7.org/fhir/sid/passport-VEN</td><td>Venezuela</td></tr><tr><td>http://hl7.org/fhir/sid/passport-VNM</td><td>Vietnam</td></tr><tr><td>http://hl7.org/fhir/sid/passport-VGB</td><td>Vietnam</td></tr><tr><td>http://hl7.org/fhir/sid/passport-VIR</td><td>Vietnam</td></tr><tr><td>http://hl7.org/fhir/sid/passport-WLF</td><td>Wallis a Futuna</td></tr><tr><td>http://hl7.org/fhir/sid/passport-ESH</td><td>Západní Sahara</td></tr><tr><td>http://hl7.org/fhir/sid/passport-YEM</td><td>Jemen</td></tr><tr><td>http://hl7.org/fhir/sid/passport-ZMB</td><td>Zambie</td></tr><tr><td>http://hl7.org/fhir/sid/passport-ZWE</td><td>Zimbabwe</td></tr><tr><td>http://hl7.org/fhir/sid/passport-ALA</td><td>Alandy</td></tr></table></li></ul></div>"
+  ] ;
+  fhir:DomainResource.extension [
+     fhir:index 0 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm" ] ;
+     fhir:Extension.valueInteger [ fhir:value "2"^^xsd:integer ]
+  ], [
+     fhir:index 1 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status" ] ;
+     fhir:Extension.valueCode [ fhir:value "trial-use" ]
+  ] ;
+  fhir:ValueSet.url [ fhir:value "https://hl7.cz/terminology/ValueSet/passport-uri"] ;
+  fhir:ValueSet.version [ fhir:value "1.0.0"] ;
+  fhir:ValueSet.name [ fhir:value "PassportUri"] ;
+  fhir:ValueSet.title [ fhir:value "Passport URIs"] ;
+  fhir:ValueSet.status [ fhir:value "active"] ;
+  fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:ValueSet.date [ fhir:value "2026-01-01"^^xsd:date] ;
+  fhir:ValueSet.publisher [ fhir:value "HL7 Czech Republic"] ;
+  fhir:ValueSet.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.name [ fhir:value "HL7 Czech Republic" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://www.hl7.cz/" ]
+     ]
+  ] ;
+  fhir:ValueSet.description [ fhir:value "A country specific URI for passport numbers"] ;
+  fhir:ValueSet.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "CZ" ] ;
+       fhir:Coding.display [ fhir:value "Czechia" ]
+     ]
+  ] ;
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "urn:ietf:rfc:3986" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-AFG" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Afghánistán" ]
+       ], [
+         fhir:index 1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-ALB" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Albánie" ]
+       ], [
+         fhir:index 2 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-DZA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Alžírsko" ]
+       ], [
+         fhir:index 3 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-ASM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Americká Samoa" ]
+       ], [
+         fhir:index 4 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-AND" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Andorra" ]
+       ], [
+         fhir:index 5 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-AGO" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Angola" ]
+       ], [
+         fhir:index 6 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-AIA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Anguilla" ]
+       ], [
+         fhir:index 7 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-ATA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Antarktida" ]
+       ], [
+         fhir:index 8 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-ATG" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Antigua a Barbuda" ]
+       ], [
+         fhir:index 9 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-ARG" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Argentina" ]
+       ], [
+         fhir:index 10 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-ARM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Arménie" ]
+       ], [
+         fhir:index 11 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-ABW" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Aruba" ]
+       ], [
+         fhir:index 12 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-AUS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Austrálie" ]
+       ], [
+         fhir:index 13 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-AUT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Rakousko" ]
+       ], [
+         fhir:index 14 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-AZE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ázerbájdžán" ]
+       ], [
+         fhir:index 15 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-BHS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Bahamy" ]
+       ], [
+         fhir:index 16 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-BHR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Bahrajn" ]
+       ], [
+         fhir:index 17 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-BGD" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Bangladéš" ]
+       ], [
+         fhir:index 18 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-BRB" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Barbados" ]
+       ], [
+         fhir:index 19 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-BLR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Bělorusko" ]
+       ], [
+         fhir:index 20 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-BEL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Belgie" ]
+       ], [
+         fhir:index 21 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-BLZ" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Belize" ]
+       ], [
+         fhir:index 22 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-BEN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Benin" ]
+       ], [
+         fhir:index 23 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-BMU" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Bermudy" ]
+       ], [
+         fhir:index 24 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-BTN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Bhútán" ]
+       ], [
+         fhir:index 25 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-BOL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Bolívie" ]
+       ], [
+         fhir:index 26 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-BES" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Bonaire, Svatý Eustach a Saba" ]
+       ], [
+         fhir:index 27 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-BIH" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Bosna a Hercegovina" ]
+       ], [
+         fhir:index 28 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-BWA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Botswana" ]
+       ], [
+         fhir:index 29 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-BVT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Bouvetův ostrov" ]
+       ], [
+         fhir:index 30 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-BRA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Brazílie" ]
+       ], [
+         fhir:index 31 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-IOT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Britské indickooceánské území" ]
+       ], [
+         fhir:index 32 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-BRN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Brunej" ]
+       ], [
+         fhir:index 33 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-BGR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Bulharsko" ]
+       ], [
+         fhir:index 34 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-BFA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Burkina Faso" ]
+       ], [
+         fhir:index 35 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-BDI" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Burundi" ]
+       ], [
+         fhir:index 36 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-CPV" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Burundi" ]
+       ], [
+         fhir:index 37 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-KHM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Kambodža" ]
+       ], [
+         fhir:index 38 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-CMR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Kamerun" ]
+       ], [
+         fhir:index 39 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-CAN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Kanada" ]
+       ], [
+         fhir:index 40 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-CYM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Kajmanské ostrovy" ]
+       ], [
+         fhir:index 41 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-CAF" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Středoafrická republika" ]
+       ], [
+         fhir:index 42 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-TCD" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Čad" ]
+       ], [
+         fhir:index 43 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-CHL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chile" ]
+       ], [
+         fhir:index 44 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-CHN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Čína" ]
+       ], [
+         fhir:index 45 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-CXR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Vánoční ostrov" ]
+       ], [
+         fhir:index 46 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-CCK" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Kokosové (Keelingovy) ostrovy" ]
+       ], [
+         fhir:index 47 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-COL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Kolumbie" ]
+       ], [
+         fhir:index 48 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-COM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Komory" ]
+       ], [
+         fhir:index 49 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-COD" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Konžská republika" ]
+       ], [
+         fhir:index 50 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-COG" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Konžská republika" ]
+       ], [
+         fhir:index 51 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-COK" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cookovy ostrovy" ]
+       ], [
+         fhir:index 52 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-CRI" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Kostarika" ]
+       ], [
+         fhir:index 53 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-HRV" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chorvatsko" ]
+       ], [
+         fhir:index 54 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-CUB" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Kuba" ]
+       ], [
+         fhir:index 55 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-CUW" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Curaçao" ]
+       ], [
+         fhir:index 56 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-CYP" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Kypr" ]
+       ], [
+         fhir:index 57 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-CZE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Česko" ]
+       ], [
+         fhir:index 58 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-CIV" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pobřeží slonoviny" ]
+       ], [
+         fhir:index 59 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-DNK" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Dánsko" ]
+       ], [
+         fhir:index 60 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-DJI" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Džibutsko" ]
+       ], [
+         fhir:index 61 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-DMA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Dominika" ]
+       ], [
+         fhir:index 62 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-DOM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Dominikánská republika" ]
+       ], [
+         fhir:index 63 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-ECU" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ekvádor" ]
+       ], [
+         fhir:index 64 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-EGY" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Egypt" ]
+       ], [
+         fhir:index 65 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-SLV" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Salvador" ]
+       ], [
+         fhir:index 66 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-GNQ" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Rovníková Guinea" ]
+       ], [
+         fhir:index 67 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-ERI" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Eritrea" ]
+       ], [
+         fhir:index 68 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-EST" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Estonsko" ]
+       ], [
+         fhir:index 69 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-SWZ" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Estonsko" ]
+       ], [
+         fhir:index 70 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-ETH" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Etiopie" ]
+       ], [
+         fhir:index 71 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-FLK" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Falklandy" ]
+       ], [
+         fhir:index 72 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-FRO" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Faerské ostrovy" ]
+       ], [
+         fhir:index 73 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-FJI" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Fidži" ]
+       ], [
+         fhir:index 74 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-FIN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Finsko" ]
+       ], [
+         fhir:index 75 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-FRA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Francie" ]
+       ], [
+         fhir:index 76 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-GUF" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Francouzská Guyana" ]
+       ], [
+         fhir:index 77 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-PYF" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Francouzská Polynésie" ]
+       ], [
+         fhir:index 78 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-ATF" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Francouzská jižní a antarktická území" ]
+       ], [
+         fhir:index 79 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-GAB" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Gabon" ]
+       ], [
+         fhir:index 80 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-GMB" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Gambie" ]
+       ], [
+         fhir:index 81 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-GEO" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Gruzie" ]
+       ], [
+         fhir:index 82 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-DEU" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Německo" ]
+       ], [
+         fhir:index 83 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-GHA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ghana" ]
+       ], [
+         fhir:index 84 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-GIB" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Gibraltar" ]
+       ], [
+         fhir:index 85 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-GRC" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Řecko" ]
+       ], [
+         fhir:index 86 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-GRL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Grónsko" ]
+       ], [
+         fhir:index 87 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-GRD" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Grenada" ]
+       ], [
+         fhir:index 88 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-GLP" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Guadeloupe" ]
+       ], [
+         fhir:index 89 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-GUM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Guam" ]
+       ], [
+         fhir:index 90 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-GTM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Guatemala" ]
+       ], [
+         fhir:index 91 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-GGY" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Guernsey" ]
+       ], [
+         fhir:index 92 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-GIN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Guinea" ]
+       ], [
+         fhir:index 93 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-GNB" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Guinea-Bissau" ]
+       ], [
+         fhir:index 94 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-GUY" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Guyana" ]
+       ], [
+         fhir:index 95 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-HTI" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Haiti" ]
+       ], [
+         fhir:index 96 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-HMD" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Heardův ostrov a MacDonaldovy ostrovy" ]
+       ], [
+         fhir:index 97 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-VAT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Vatikán" ]
+       ], [
+         fhir:index 98 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-HND" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Honduras" ]
+       ], [
+         fhir:index 99 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-HKG" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Hongkong" ]
+       ], [
+         fhir:index 100 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-HUN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Maďarsko" ]
+       ], [
+         fhir:index 101 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-ISL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Island" ]
+       ], [
+         fhir:index 102 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-IND" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Indie" ]
+       ], [
+         fhir:index 103 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-IDN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Indonésie" ]
+       ], [
+         fhir:index 104 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-IRN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Írán" ]
+       ], [
+         fhir:index 105 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-IRQ" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Irák" ]
+       ], [
+         fhir:index 106 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-IRL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Irsko" ]
+       ], [
+         fhir:index 107 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-IMN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Man" ]
+       ], [
+         fhir:index 108 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-ISR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Izrael" ]
+       ], [
+         fhir:index 109 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-ITA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Itálie" ]
+       ], [
+         fhir:index 110 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-JAM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Jamajka" ]
+       ], [
+         fhir:index 111 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-JPN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Japonsko" ]
+       ], [
+         fhir:index 112 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-JEY" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Jersey" ]
+       ], [
+         fhir:index 113 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-JOR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Jordánsko" ]
+       ], [
+         fhir:index 114 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-KAZ" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Kazachstán" ]
+       ], [
+         fhir:index 115 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-KEN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Keňa" ]
+       ], [
+         fhir:index 116 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-KIR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Kiribati" ]
+       ], [
+         fhir:index 117 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-PRK" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Korejská lidově demokratická republika" ]
+       ], [
+         fhir:index 118 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-KOR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Korejská lidově demokratická republika" ]
+       ], [
+         fhir:index 119 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-KWT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Kuvajt" ]
+       ], [
+         fhir:index 120 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-KGZ" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Kyrgyzstán" ]
+       ], [
+         fhir:index 121 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-LAO" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Laos" ]
+       ], [
+         fhir:index 122 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-LVA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Lotyšsko" ]
+       ], [
+         fhir:index 123 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-LBN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Libanon" ]
+       ], [
+         fhir:index 124 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-LSO" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Lesotho" ]
+       ], [
+         fhir:index 125 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-LBR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Libérie" ]
+       ], [
+         fhir:index 126 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-LBY" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Libye" ]
+       ], [
+         fhir:index 127 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-LIE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Lichtenštejnsko" ]
+       ], [
+         fhir:index 128 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-LTU" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Litva" ]
+       ], [
+         fhir:index 129 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-LUX" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Lucembursko" ]
+       ], [
+         fhir:index 130 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-MAC" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Macao" ]
+       ], [
+         fhir:index 131 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-MDG" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Madagaskar" ]
+       ], [
+         fhir:index 132 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-MWI" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Malawi" ]
+       ], [
+         fhir:index 133 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-MYS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Malajsie" ]
+       ], [
+         fhir:index 134 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-MDV" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Maledivy" ]
+       ], [
+         fhir:index 135 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-MLI" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Mali" ]
+       ], [
+         fhir:index 136 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-MLT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Malta" ]
+       ], [
+         fhir:index 137 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-MHL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Marshallovy ostrovy" ]
+       ], [
+         fhir:index 138 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-MTQ" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Martinik" ]
+       ], [
+         fhir:index 139 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-MRT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Mauritánie" ]
+       ], [
+         fhir:index 140 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-MUS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Mauricius" ]
+       ], [
+         fhir:index 141 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-MYT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Mayotte" ]
+       ], [
+         fhir:index 142 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-MEX" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Mexiko" ]
+       ], [
+         fhir:index 143 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-FSM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Mikronésie" ]
+       ], [
+         fhir:index 144 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-MDA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Mikronésie" ]
+       ], [
+         fhir:index 145 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-MCO" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Monako" ]
+       ], [
+         fhir:index 146 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-MNG" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Mongolsko" ]
+       ], [
+         fhir:index 147 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-MNE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Černá Hora" ]
+       ], [
+         fhir:index 148 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-MSR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Montserrat" ]
+       ], [
+         fhir:index 149 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-MAR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Maroko" ]
+       ], [
+         fhir:index 150 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-MOZ" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Mosambik" ]
+       ], [
+         fhir:index 151 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-MMR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Myanmar" ]
+       ], [
+         fhir:index 152 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-NAM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Namibie" ]
+       ], [
+         fhir:index 153 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-NRU" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Nauru" ]
+       ], [
+         fhir:index 154 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-NPL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Nepál" ]
+       ], [
+         fhir:index 155 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-NLD" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Nizozemsko" ]
+       ], [
+         fhir:index 156 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-NCL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Nová Kaledonie" ]
+       ], [
+         fhir:index 157 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-NZL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Nový Zéland" ]
+       ], [
+         fhir:index 158 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-NIC" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Nikaragua" ]
+       ], [
+         fhir:index 159 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-NER" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Niger" ]
+       ], [
+         fhir:index 160 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-NGA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Nigérie" ]
+       ], [
+         fhir:index 161 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-NIU" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Niue" ]
+       ], [
+         fhir:index 162 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-NFK" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Norfolk" ]
+       ], [
+         fhir:index 163 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-MKD" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Norfolk" ]
+       ], [
+         fhir:index 164 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-MNP" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Severní Mariany" ]
+       ], [
+         fhir:index 165 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-NOR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Norsko" ]
+       ], [
+         fhir:index 166 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-OMN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Omán" ]
+       ], [
+         fhir:index 167 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-PAK" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pákistán" ]
+       ], [
+         fhir:index 168 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-PLW" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Palau" ]
+       ], [
+         fhir:index 169 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-PSE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Palestina" ]
+       ], [
+         fhir:index 170 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-PAN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Panama" ]
+       ], [
+         fhir:index 171 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-PNG" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Papua Nová Guinea" ]
+       ], [
+         fhir:index 172 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-PRY" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Paraguay" ]
+       ], [
+         fhir:index 173 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-PER" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Peru" ]
+       ], [
+         fhir:index 174 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-PHL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Filipíny" ]
+       ], [
+         fhir:index 175 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-PCN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pitcairn" ]
+       ], [
+         fhir:index 176 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-POL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Polsko" ]
+       ], [
+         fhir:index 177 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-PRT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Portugalsko" ]
+       ], [
+         fhir:index 178 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-PRI" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Portoriko" ]
+       ], [
+         fhir:index 179 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-QAT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Katar" ]
+       ], [
+         fhir:index 180 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-ROU" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Rumunsko" ]
+       ], [
+         fhir:index 181 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-RUS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Rusko" ]
+       ], [
+         fhir:index 182 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-RWA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Rwanda" ]
+       ], [
+         fhir:index 183 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-REU" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Réunion" ]
+       ], [
+         fhir:index 184 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-BLM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Svatý Bartoloměj" ]
+       ], [
+         fhir:index 185 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-SHN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Svatá Helena" ]
+       ], [
+         fhir:index 186 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-KNA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Svatý Kryštof a Nevis" ]
+       ], [
+         fhir:index 187 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-LCA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Svatá Lucie" ]
+       ], [
+         fhir:index 188 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-MAF" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Svatý Martin (FR)" ]
+       ], [
+         fhir:index 189 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-SPM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Saint Pierre a Miquelon" ]
+       ], [
+         fhir:index 190 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-VCT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Svatý Vincenc a Grenadiny" ]
+       ], [
+         fhir:index 191 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-WSM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Samoa" ]
+       ], [
+         fhir:index 192 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-SMR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "San Marino" ]
+       ], [
+         fhir:index 193 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-STP" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Svatý Tomáš a Princův ostrov" ]
+       ], [
+         fhir:index 194 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-SAU" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Saúdská Arábie" ]
+       ], [
+         fhir:index 195 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-SEN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Senegal" ]
+       ], [
+         fhir:index 196 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-SRB" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Srbsko" ]
+       ], [
+         fhir:index 197 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-SYC" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Seychely" ]
+       ], [
+         fhir:index 198 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-SLE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Sierra Leone" ]
+       ], [
+         fhir:index 199 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-SGP" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Singapur" ]
+       ], [
+         fhir:index 200 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-SXM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Svatý Martin (NL)" ]
+       ], [
+         fhir:index 201 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-SVK" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Slovensko" ]
+       ], [
+         fhir:index 202 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-SVN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Slovinsko" ]
+       ], [
+         fhir:index 203 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-SLB" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Šalomounovy ostrovy" ]
+       ], [
+         fhir:index 204 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-SOM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Somálsko" ]
+       ], [
+         fhir:index 205 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-ZAF" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Jižní Afrika" ]
+       ], [
+         fhir:index 206 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-SGS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Jižní Georgie a Jižní Sandwichovy ostrovy" ]
+       ], [
+         fhir:index 207 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-SSD" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Jižní Súdán" ]
+       ], [
+         fhir:index 208 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-ESP" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Španělsko" ]
+       ], [
+         fhir:index 209 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-LKA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Šrí Lanka" ]
+       ], [
+         fhir:index 210 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-SDN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Súdán" ]
+       ], [
+         fhir:index 211 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-SUR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Surinam" ]
+       ], [
+         fhir:index 212 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-SJM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Špicberky a Jan Mayen" ]
+       ], [
+         fhir:index 213 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-SWE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Švédsko" ]
+       ], [
+         fhir:index 214 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-CHE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Švýcarsko" ]
+       ], [
+         fhir:index 215 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-SYR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Sýrie" ]
+       ], [
+         fhir:index 216 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-TWN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Sýrie" ]
+       ], [
+         fhir:index 217 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-TJK" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Tádžikistán" ]
+       ], [
+         fhir:index 218 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-TZA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Tádžikistán" ]
+       ], [
+         fhir:index 219 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-THA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Thajsko" ]
+       ], [
+         fhir:index 220 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-TLS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Východní Timor" ]
+       ], [
+         fhir:index 221 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-TGO" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Togo" ]
+       ], [
+         fhir:index 222 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-TKL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Tokelau" ]
+       ], [
+         fhir:index 223 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-TON" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Tonga" ]
+       ], [
+         fhir:index 224 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-TTO" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Trinidad a Tobago" ]
+       ], [
+         fhir:index 225 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-TUN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Tunisko" ]
+       ], [
+         fhir:index 226 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-TKM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Turkmenistán" ]
+       ], [
+         fhir:index 227 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-TCA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Turks a Caicos" ]
+       ], [
+         fhir:index 228 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-TUV" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Tuvalu" ]
+       ], [
+         fhir:index 229 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-TUR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Turecko" ]
+       ], [
+         fhir:index 230 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-UGA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Uganda" ]
+       ], [
+         fhir:index 231 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-UKR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ukrajina" ]
+       ], [
+         fhir:index 232 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-ARE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Spojené arabské emiráty" ]
+       ], [
+         fhir:index 233 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-GBR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Velká Británie" ]
+       ], [
+         fhir:index 234 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-UMI" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Menší odlehlé ostrovy USA" ]
+       ], [
+         fhir:index 235 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-USA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Spojené státy" ]
+       ], [
+         fhir:index 236 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-URY" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Uruguay" ]
+       ], [
+         fhir:index 237 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-UZB" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Uzbekistán" ]
+       ], [
+         fhir:index 238 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-VUT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Vanuatu" ]
+       ], [
+         fhir:index 239 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-VEN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Venezuela" ]
+       ], [
+         fhir:index 240 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-VNM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Vietnam" ]
+       ], [
+         fhir:index 241 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-VGB" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Vietnam" ]
+       ], [
+         fhir:index 242 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-VIR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Vietnam" ]
+       ], [
+         fhir:index 243 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-WLF" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Wallis a Futuna" ]
+       ], [
+         fhir:index 244 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-ESH" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Západní Sahara" ]
+       ], [
+         fhir:index 245 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-YEM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Jemen" ]
+       ], [
+         fhir:index 246 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-ZMB" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Zambie" ]
+       ], [
+         fhir:index 247 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-ZWE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Zimbabwe" ]
+       ], [
+         fhir:index 248 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://hl7.org/fhir/sid/passport-ALA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Alandy" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://hl7.cz/terminology/ValueSet/passport-uri.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

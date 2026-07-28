@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="lab-document-types"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/>
+  </text>
+  <url value="https://ncez.mzcr.cz/terminology/ValueSet/lab-document-types"/>
+  <version value="1.0.0"/>
+  <name value="LabDocumentTypes"/>
+  <title value="Typy laboratorních dokumentů"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-11-19T13:46:00.42162Z"/>
+  <publisher value="HL7 Czech Republic"/>
+  <contact>
+    <name value="HL7 Czech Republic"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hl7.cz/"/>
+    </telecom>
+  </contact>
+  <description value="Číselník typů laboratorních dokumentů."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CZ"/>
+      <display value="Czechia"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc"/>
+  <compose>
+    <include>
+      <system value="http://loinc.org"/>
+      <concept>
+        <code value="18716-1"/>
+        <display value="Laboratorní zpráva alergologická"/>
+      </concept>
+      <concept>
+        <code value="18717-9"/>
+        <display value="Laboratorní zpráva transfůzní"/>
+      </concept>
+      <concept>
+        <code value="18719-5"/>
+        <display value="Laboratorní zpráva biochemická"/>
+      </concept>
+      <concept>
+        <code value="18722-9"/>
+        <display value="Laboratorní zpráva reprodukční"/>
+      </concept>
+      <concept>
+        <code value="18723-7"/>
+        <display value="Laboratorní zpráva hematologická"/>
+      </concept>
+      <concept>
+        <code value="18725-2"/>
+        <display value="Laboratorní zpráva mikrobiologická"/>
+      </concept>
+      <concept>
+        <code value="18728-6"/>
+        <display value="Laboratorní zpráva toxikologická"/>
+      </concept>
+      <concept>
+        <code value="26436-6"/>
+        <display value="Laboratorní zpráva"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

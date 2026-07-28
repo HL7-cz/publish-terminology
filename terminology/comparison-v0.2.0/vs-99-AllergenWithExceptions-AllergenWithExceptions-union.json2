@@ -1,0 +1,42 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "3be28065-604a-49db-82ac-da3be23fd237-56",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/3be28065-604a-49db-82ac-da3be23fd237-56",
+  "name" : "UnionAllergenWithExceptionsAndAllergenWithExceptions",
+  "title" : "Union of eHDSI Agent or Allergen With Exceptions And eHDSI Agent or Allergen With Exceptions",
+  "status" : "active",
+  "date" : "2026-07-27T16:56:47+02:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CZ",
+      "display" : "Czechia"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "valueSet" : ["https://ncez.mzcr.cz/terminology/ValueSet/eHDSIAllergenNoDrug-cz"]
+    },
+    {
+      "valueSet" : ["https://sukl.cz/terminology/ValueSet/dlp-lecivepripravky"]
+    },
+    {
+      "valueSet" : ["https://sukl.cz/terminology/ValueSet/dlp-atc"]
+    },
+    {
+      "valueSet" : ["https://ncez.mzcr.cz/terminology/ValueSet/eHDSIAbsentOrUnknownAllergy-cz"]
+    },
+    {
+      "valueSet" : ["https://ncez.mzcr.cz/terminology/ValueSet/eHDSIExceptionalValue-cz"]
+    },
+    {
+      "valueSet" : ["https://ncez.mzcr.cz/terminology/ValueSet/eHDSIAllergenNoDrug"]
+    },
+    {
+      "valueSet" : ["https://ncez.mzcr.cz/terminology/ValueSet/eHDSIAbsentOrUnknownAllergy"]
+    },
+    {
+      "valueSet" : ["https://ncez.mzcr.cz/terminology/ValueSet/eHDSIExceptionalValue"]
+    }]
+  }
+}

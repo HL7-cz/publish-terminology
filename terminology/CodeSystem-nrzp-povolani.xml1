@@ -11,7 +11,7 @@
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:1.2.203.24341.11.2.10.2.1"/>
   </identifier>
-  <version value="0.2.0"/>
+  <version value="1.0.0"/>
   <name value="NRZP_Povolani"/>
   <title value="NRZP - Czech health professional occupation"/>
   <status value="active"/>

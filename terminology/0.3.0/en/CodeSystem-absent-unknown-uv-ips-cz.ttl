@@ -1,0 +1,130 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hl7.cz/terminology/CodeSystem/absent-unknown-uv-ips-cz> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "absent-unknown-uv-ips-cz"] ;
+  fhir:Resource.language [ fhir:value "en"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ]
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://ncez.mzcr.cz/terminology/CodeSystem/absent-unknown-uv-ips-cz"] ;
+  fhir:CodeSystem.version [ fhir:value "1.1.0"] ;
+  fhir:CodeSystem.name [ fhir:value "AbsentAndUnknownDataUvIps"] ;
+  fhir:CodeSystem.title [ fhir:value "Absent a Unknown Data - IPS"] ;
+  fhir:CodeSystem.status [ fhir:value "active"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2025-11-26T13:38:57.738896Z"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "HL7 Czech Republic"] ;
+  fhir:CodeSystem.contact [
+     fhir:index -1 ;
+     fhir:ContactDetail.name [ fhir:value "HL7 Czech Republic" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index -1 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://www.hl7.cz/" ]
+     ]
+  ] ;
+  fhir:CodeSystem.description [ fhir:value "Kódový systém pro označení nepřítomnosti nebo neznalosti údajů. Doplněk kódového systému hl7-IPS (International patient Summary)."] ;
+  fhir:CodeSystem.jurisdiction [
+     fhir:index -1 ;
+     fhir:CodeableConcept.coding [
+       fhir:index -1 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "CZ" ] ;
+       fhir:Coding.display [ fhir:value "Czechia" ]
+     ]
+  ] ;
+  fhir:CodeSystem.content [ fhir:value "supplement"] ;
+  fhir:CodeSystem.supplements [
+     fhir:value "http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips|1.1.0" ;
+     fhir:link <http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips|1.1.0>
+  ] ;
+  fhir:CodeSystem.concept [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "no-allergy-info" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "žádné informace o alergiích" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Nejsou známy žádné informace o alergiích pacienta." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "no-device-info" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "žádné informace o používaných zdravotnických prostředcích a implantátech" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Nejsou k dispozici žádné informace o implantátech nebo externích zdravotnických prostředcích používaných pacientem." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "no-immunization-info" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "žádné informace o očkování" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Historie očkování není známa." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "no-known-allergies" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "žádné známé alergie" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Nejsou známy žádné alergie pacienta." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "no-known-devices" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "žádné implantáty ani jiné zdravotnické prostředky" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Nejsou známy žádné významné implantáty či externí zdravotnické prostředky které pacient používá. To znamená, že pacient žádné zdravotnické prostředky nepoužívá nebo že nejsou pro účel tohoto záznamu relevantní." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "no-known-environmental-allergies" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "žádné známé alergie na vnější prostředí" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Pacient nemá žádné známé alergie na vnější prostředí." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "no-known-food-allergies" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "žádné známé alergie na potraviny" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Pacient nemá žádné známé alergie na potraviny." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "no-known-immunizations" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "žádné známé očkování" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Historie očkování neobsahuje žádné záznamy. To znamená, že pacient buď nebyl v minulosti očkován nebo údaje o provedeném očkování nejsou pro účely tohoto záznamu relevantní." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "no-known-medication-allergies" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "žádné známé alergie na léky" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Pacient nemá žádné známé alergie na léky." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "no-known-medications" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "žádná známá medikace" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Žádná známá medikace. To znamená, že pacient buď nemá žádnou medikaci, či medikace není pro účely tohoto záznamu relevantní." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "no-known-problems" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "žádné známé zdravotní problémy" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Pacient nemá žádné známé zdravotní problémy či onemocnění, která by byla relevantní pro účely tohoto záznamu." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "no-known-procedures" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "žádné provedené výkony" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Pacientovy nebyly provedeny žádné zdravotní výkony relevantní pro účely tohoto záznamu." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "no-medication-info" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "žádné informace o medikaci" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Nejsou k dispozici žádné informace o medikaci či o podávání léků pacientovi." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "no-problem-info" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "žádné informace o zdravotních problémech" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Nejsou k dispozici žádné informace o zdravotních problémech či onemocněních pacienta." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "no-procedure-info" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "žádné informace o provedených výkonech" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Nejsou k dispozici žádné informace o provedených výkonech." ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://hl7.cz/terminology/CodeSystem/absent-unknown-uv-ips-cz.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

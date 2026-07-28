@@ -1,0 +1,82 @@
+# Typ ošetřovatelské dokumentace - HL7 Czech Terminology Implementation Guide v0.3.0
+
+## ValueSet: Typ ošetřovatelské dokumentace 
+
+ 
+Číselník typů ošetřovatelské dokumentace 
+
+ **References** 
+
+* Included into [SearchDocumentTypes](ValueSet-search-document-types.md)
+
+### Logical Definition (CLD)
+
+ 
+
+### Expansion
+
+-------
+
+ [Description of the above table(s)](http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#terminology). 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "ValueSet",
+  "id" : "nursing-document-type",
+  "language" : "cs",
+  "url" : "https://ncez.mzcr.cz/terminology/ValueSet/nursing-document-type",
+  "version" : "1.0.0",
+  "name" : "NursingDocumentType",
+  "title" : "Typ ošetřovatelské dokumentace",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2025-11-19T15:47:12.482345Z",
+  "publisher" : "HL7 Czech Republic",
+  "contact" : [{
+    "name" : "HL7 Czech Republic",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.hl7.cz/"
+    }]
+  }],
+  "description" : "Číselník typů ošetřovatelské dokumentace",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CZ",
+      "display" : "Czechia"
+    }]
+  }],
+  "copyright" : "This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc",
+  "compose" : {
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "34746-8",
+        "display" : "Ošetřovatelský záznam"
+      },
+      {
+        "code" : "97681-1",
+        "display" : "Ošetřovatelská anamnéza"
+      },
+      {
+        "code" : "64295-9",
+        "display" : "Ošetřovatelský plán péče"
+      },
+      {
+        "code" : "28623-7",
+        "display" : "Ošetřovatelské hodnocení"
+      },
+      {
+        "code" : "34745-0",
+        "display" : "Ošetřovatelská propouštěcí zpráva"
+      }]
+    }]
+  }
+}
+
+```

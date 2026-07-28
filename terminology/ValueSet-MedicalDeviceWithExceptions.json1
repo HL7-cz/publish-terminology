@@ -3,18 +3,18 @@
   "id" : "MedicalDeviceWithExceptions",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet MedicalDeviceWithExceptions</b></p><a name=\"MedicalDeviceWithExceptions\"> </a><a name=\"hcMedicalDeviceWithExceptions\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Import all the codes that are contained in <a href=\"ValueSet-medical-device.html\">Medical Device</a></li><li>Import all the codes that are contained in <a href=\"ValueSet-eHDSIAbsentOrUnknownDevice-cz.html\">eHDSI Absent Or Unknown Device</a></li><li>Import all the codes that are contained in <a href=\"ValueSet-eHDSIExceptionalValue-cz.html\">eHDSI Exceptional Value</a></li></ul></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet MedicalDeviceWithExceptions</b></p><a name=\"MedicalDeviceWithExceptions\"> </a><a name=\"hcMedicalDeviceWithExceptions\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Import all the codes that are contained in <a href=\"ValueSet-medical-device.html\">Medical Device</a></li><li>Import all the codes that are contained in <a href=\"ValueSet-eHDSIAbsentOrUnknownDevice.html\">eHDSI Absent Or Unknown Device</a></li><li>Import all the codes that are contained in <a href=\"ValueSet-eHDSIExceptionalValue.html\">eHDSI Exceptional Value</a></li></ul></div>"
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
-    "valueInteger" : 1
+    "valueInteger" : 2
   },
   {
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-    "valueCode" : "draft"
+    "valueCode" : "trial-use"
   }],
   "url" : "https://ncez.mzcr.cz/terminology/ValueSet/MedicalDeviceWithExceptions",
-  "version" : "0.2.0",
+  "version" : "1.0.0",
   "name" : "MedicalDeviceWithExceptionsVS",
   "title" : "Medical Device with exceptions",
   "status" : "active",
@@ -42,10 +42,10 @@
       "valueSet" : ["https://ncez.mzcr.cz/terminology/ValueSet/medical-device"]
     },
     {
-      "valueSet" : ["https://ncez.mzcr.cz/terminology/ValueSet/eHDSIAbsentOrUnknownDevice-cz"]
+      "valueSet" : ["https://ncez.mzcr.cz/terminology/ValueSet/eHDSIAbsentOrUnknownDevice"]
     },
     {
-      "valueSet" : ["https://ncez.mzcr.cz/terminology/ValueSet/eHDSIExceptionalValue-cz"]
+      "valueSet" : ["https://ncez.mzcr.cz/terminology/ValueSet/eHDSIExceptionalValue"]
     }]
   }
 }

@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="imaging-document-types"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/>
+  </text>
+  <url value="https://ncez.mzcr.cz/terminology/ValueSet/imaging-document-types"/>
+  <version value="1.0.0"/>
+  <name value="ImagingDocumentTypes"/>
+  <title value="Typy dokumentů obrazového komplementu"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-11-19T17:50:08.889549Z"/>
+  <publisher value="HL7 Czech Republic"/>
+  <contact>
+    <name value="HL7 Czech Republic"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hl7.cz/"/>
+    </telecom>
+  </contact>
+  <description value="Typy dokumentů obrazového komplementu"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CZ"/>
+      <display value="Czechia"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc"/>
+  <compose>
+    <include>
+      <system value="http://loinc.org"/>
+      <filter>
+        <property value="CLASS"/>
+        <op value="="/>
+        <value value="LP29684-5"/>
+      </filter>
+      <filter>
+        <property value="SCALE_TYP"/>
+        <op value="="/>
+        <value value="LP32888-7"/>
+      </filter>
+      <filter>
+        <property value="STATUS"/>
+        <op value="="/>
+        <value value="ACTIVE"/>
+      </filter>
+    </include>
+    <include>
+      <system value="http://loinc.org"/>
+      <concept>
+        <code value="41806-1"/>
+        <display value="CT břicha"/>
+      </concept>
+      <concept>
+        <code value="24627-2"/>
+        <display value="CT hrudníku"/>
+      </concept>
+      <concept>
+        <code value="24690-0"/>
+        <display value="CT končetiny"/>
+      </concept>
+      <concept>
+        <code value="25043-1"/>
+        <display value="CT-řízená aspirace tekutin"/>
+      </concept>
+      <concept>
+        <code value="25044-9"/>
+        <display value="CT-řízená biopsie"/>
+      </concept>
+      <concept>
+        <code value="24725-4"/>
+        <display value="CT hlavy"/>
+      </concept>
+      <concept>
+        <code value="24866-6"/>
+        <display value="CT pánve s IV kontrastem"/>
+      </concept>
+      <concept>
+        <code value="106848-5"/>
+        <display value="CT páteře"/>
+      </concept>
+      <concept>
+        <code value="24932-6"/>
+        <display value="CT krční páteře"/>
+      </concept>
+      <concept>
+        <code value="24963-1"/>
+        <display value="CT bederní páteře"/>
+      </concept>
+      <concept>
+        <code value="24978-9"/>
+        <display value="CT hrudní páteře"/>
+      </concept>
+      <concept>
+        <code value="25045-6"/>
+        <display value="CT neupřesněné oblasti těla"/>
+      </concept>
+      <concept>
+        <code value="18748-4"/>
+        <display value="Zobrazovací vyšetření"/>
+      </concept>
+      <concept>
+        <code value="25069-6"/>
+        <display value="RF-řízená biopsie – lokalita neupřesněna"/>
+      </concept>
+      <concept>
+        <code value="24605-8"/>
+        <display value="Diagnostická mamografie"/>
+      </concept>
+      <concept>
+        <code value="24606-6"/>
+        <display value="Screeningová mamografie"/>
+      </concept>
+      <concept>
+        <code value="24590-2"/>
+        <display value="MR mozku"/>
+      </concept>
+      <concept>
+        <code value="25056-3"/>
+        <display value="MR neupřesněné oblasti těla"/>
+      </concept>
+      <concept>
+        <code value="24556-3"/>
+        <display value="MR břicha"/>
+      </concept>
+      <concept>
+        <code value="24629-8"/>
+        <display value="MR hrudníku"/>
+      </concept>
+      <concept>
+        <code value="24707-2"/>
+        <display value="MR nohy"/>
+      </concept>
+      <concept>
+        <code value="24710-6"/>
+        <display value="MR předloktí"/>
+      </concept>
+      <concept>
+        <code value="24720-5"/>
+        <display value="MR ruky"/>
+      </concept>
+      <concept>
+        <code value="28576-7"/>
+        <display value="MR kloubu"/>
+      </concept>
+      <concept>
+        <code value="24872-4"/>
+        <display value="MR pánve a kyčle"/>
+      </concept>
+      <concept>
+        <code value="24935-9"/>
+        <display value="MR krční páteře"/>
+      </concept>
+      <concept>
+        <code value="24968-0"/>
+        <display value="MR bederní páteře"/>
+      </concept>
+      <concept>
+        <code value="42698-1"/>
+        <display value="MR krční, hrudní a bederní páteře"/>
+      </concept>
+      <concept>
+        <code value="24980-5"/>
+        <display value="MR hrudní páteře"/>
+      </concept>
+      <concept>
+        <code value="24888-0"/>
+        <display value="NM plicního systému – ventilace a perfuze s Xe-133 IH a s Tc-99m MAA IV"/>
+      </concept>
+      <concept>
+        <code value="30695-1"/>
+        <display value="NM štítné žlázy – projekce"/>
+      </concept>
+      <concept>
+        <code value="44136-0"/>
+        <display value="PET neupřesněné tělové oblasti"/>
+      </concept>
+      <concept>
+        <code value="25059-7"/>
+        <display value="UZ vedení biopsie neupřesněné tělové oblasti"/>
+      </concept>
+      <concept>
+        <code value="24558-9"/>
+        <display value="UZ břicha"/>
+      </concept>
+      <concept>
+        <code value="24601-7"/>
+        <display value="UZ prsu"/>
+      </concept>
+      <concept>
+        <code value="24731-2"/>
+        <display value="UZ hlavy"/>
+      </concept>
+      <concept>
+        <code value="28614-6"/>
+        <display value="UZ jater"/>
+      </concept>
+      <concept>
+        <code value="24842-7"/>
+        <display value="UZ krku"/>
+      </concept>
+      <concept>
+        <code value="24869-0"/>
+        <display value="UZ pánve"/>
+      </concept>
+      <concept>
+        <code value="25061-3"/>
+        <display value="UZ neupřesněné tělové oblasti"/>
+      </concept>
+      <concept>
+        <code value="24541-5"/>
+        <display value="RTG hlezna – projekce"/>
+      </concept>
+      <concept>
+        <code value="24676-9"/>
+        <display value="RTG lokte – projekce"/>
+      </concept>
+      <concept>
+        <code value="24704-9"/>
+        <display value="RTG femuru (stehenní kosti) – projekce"/>
+      </concept>
+      <concept>
+        <code value="24709-8"/>
+        <display value="RTG nohy – projekce"/>
+      </concept>
+      <concept>
+        <code value="28582-5"/>
+        <display value="RTG ruky – projekce"/>
+      </concept>
+      <concept>
+        <code value="28564-3"/>
+        <display value="RTG lebky – projekce"/>
+      </concept>
+      <concept>
+        <code value="24762-7"/>
+        <display value="RTG kyčle – projekce"/>
+      </concept>
+      <concept>
+        <code value="28567-6"/>
+        <display value="RTG humeru (pažní kosti) – projekce"/>
+      </concept>
+      <concept>
+        <code value="28565-0"/>
+        <display value="RTG kolene – projekce"/>
+      </concept>
+      <concept>
+        <code value="28561-9"/>
+        <display value="RTG pánve – projekce"/>
+      </concept>
+      <concept>
+        <code value="24891-4"/>
+        <display value="RTG předloktí (radius + ulna) – projekce"/>
+      </concept>
+      <concept>
+        <code value="24909-4"/>
+        <display value="RTG ramene – projekce"/>
+      </concept>
+      <concept>
+        <code value="24946-6"/>
+        <display value="RTG krční páteře – projekce"/>
+      </concept>
+      <concept>
+        <code value="24972-2"/>
+        <display value="RTG bederní páteře – projekce"/>
+      </concept>
+      <concept>
+        <code value="24983-9"/>
+        <display value="RTG hrudní páteře – projekce"/>
+      </concept>
+      <concept>
+        <code value="25011-8"/>
+        <display value="RTG bérce (tibia + fibula) – projekce"/>
+      </concept>
+      <concept>
+        <code value="18782-3"/>
+        <display value="Popis nálezu zobrazovacího vyšetření (narrativní)"/>
+      </concept>
+      <concept>
+        <code value="24619-9"/>
+        <display value="RTG zápěstí – projekce"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

@@ -4,7 +4,7 @@
   "language" : "cs",
   "text" : {
     "status" : "generated",
-    "div" : "<div xml:lang=\"cs\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"cs\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet drzar</b></p><a name=\"drzar\"> </a><a name=\"hcdrzar\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: cs</p></div><ul><li>Include all codes defined in <a href=\"CodeSystem-drzar.html\"><code>https://ncez.mzcr.cz/terminology/CodeSystem/drzar</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.2.0</span></li></ul></div>"
+    "div" : "<div xml:lang=\"cs\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"cs\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet drzar</b></p><a name=\"drzar\"> </a><a name=\"hcdrzar\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: cs</p></div><ul><li>Include all codes defined in <a href=\"CodeSystem-drzar.html\"><code>https://ncez.mzcr.cz/terminology/CodeSystem/drzar</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;1.0.0</span></li></ul></div>"
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
@@ -19,7 +19,7 @@
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.203.24341.11.1.7"
   }],
-  "version" : "0.2.0",
+  "version" : "1.0.0",
   "name" : "Drzar",
   "title" : "Drzar (CZ)",
   "status" : "active",

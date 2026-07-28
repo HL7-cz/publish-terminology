@@ -1,0 +1,108 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hl7.cz/terminology/CodeSystem/v3-ActCode-cz> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "v3-ActCode-cz"] ;
+  fhir:Resource.language [ fhir:value "en"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ]
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://hl7.cz/terminology/CodeSystem/v3-ActCode-cz"] ;
+  fhir:CodeSystem.version [ fhir:value "11.0.0"] ;
+  fhir:CodeSystem.name [ fhir:value "ActCodeCz"] ;
+  fhir:CodeSystem.title [ fhir:value "ActCode (CZ supplement)"] ;
+  fhir:CodeSystem.status [ fhir:value "active"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2026-03-30T12:44:34.79865Z"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "HL7 Czech Republic"] ;
+  fhir:CodeSystem.contact [
+     fhir:index -1 ;
+     fhir:ContactDetail.name [ fhir:value "HL7 Czech Republic" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index -1 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://www.hl7.cz/" ]
+     ]
+  ] ;
+  fhir:CodeSystem.description [ fhir:value "This code system supplements v3 ActCode."] ;
+  fhir:CodeSystem.jurisdiction [
+     fhir:index -1 ;
+     fhir:CodeableConcept.coding [
+       fhir:index -1 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "CZ" ] ;
+       fhir:Coding.display [ fhir:value "Czechia" ]
+     ]
+  ] ;
+  fhir:CodeSystem.content [ fhir:value "supplement"] ;
+  fhir:CodeSystem.supplements [
+     fhir:value "http://terminology.hl7.org/CodeSystem/v3-ActCode|11.0.0" ;
+     fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActCode|11.0.0>
+  ] ;
+  fhir:CodeSystem.concept [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "HIP" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "zdravotní pojištění" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "_ActEncounterCode" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ActEncounterCode" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Doména poskytuje kódy, které klasifikují ActEncounterClass (ENC)." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "ACUTE" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "akutní hospitalizace" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Akutní hospitalizace." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AMB" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ambulantní" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Souhrnný termín pro zdravotní péči poskytovanou ve zdravotnickém zařízení (např. v ordinaci lékaře, klinice nebo nemocnici) na nerezidentní bázi. Termín ambulantní obvykle znamená, že pacient přišel na dané místo a není mu přiděleno lůžko. Někdy se označuje jako ambulantní vyšetření." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "EMER" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "emergentní" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Kontakt s pacientem, který se odehrává ve specializovaném zdravotnickém zařízení, kde je pacient okamžitě vyšetřen a ošetřen, a to až do okamžiku, kdy může být propuštěn nebo kdy je odpovědnost za jeho péči převedena na jiné zařízení (například může být pacient přijat k hospitalizaci nebo převezen do jiného zařízení)." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "FLD" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "terénní" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Kontakt s pacientem, který se odehrává mimo specializované místo poskytování služeb a mimo bydliště pacienta. Příkladem takových míst může být místo nehody nebo supermarket." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "HH" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "domácí péče" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Zdravotní péče poskytovaná v místě bydliště pacienta nebo jím určeném místě." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "IMP" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "hospitalizace" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Kontakt s pacientem, při kterém je pacient přijat do nemocnice nebo obdobného zařízení, přidělen na místo, kde pacienti obvykle zůstávají alespoň přes noc, a je mu poskytnuto ubytování, stravování a nepřetržitá ošetřovatelská péče." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "NONAC" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "neakutní hospitalizace" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Jakákoli kategorie hospitalizace kromě „akutní“" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "OBSENC" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "pozorování" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Kontakt, při kterém pacient obvykle začíná v jiném kontaktu, například na pohotovosti (EMER), ale poté přechází k tomuto typu kontaktu, protože vyžaduje delší léčbu a sledování, aby bylo možné určit, zda jeho stav vyžaduje hospitalizaci nebo propuštění. Ve většině případů bude rozhodnutí o hospitalizaci nebo propuštění učiněno v časovém období stanoveném místními, regionálními nebo národními předpisy, často mezi 24 a 48 hodinami." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PRENC" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "pre-hospitalizace" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://hl7.cz/terminology/CodeSystem/v3-ActCode-cz.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

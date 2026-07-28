@@ -1,0 +1,36 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "3be28065-604a-49db-82ac-da3be23fd237-114",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/3be28065-604a-49db-82ac-da3be23fd237-114",
+  "name" : "IntersectionDocumentCategoryAndDocumentCategory",
+  "title" : "Intersection of Kategorie dokumentů And Kategorie dokumentů",
+  "status" : "draft",
+  "date" : "2026-07-27T16:56:47+02:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CZ",
+      "display" : "Czechia"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "107904-5",
+        "display" : "Administrativní záznamy"
+      },
+      {
+        "code" : "18682-5",
+        "display" : "Záznamy zdravotnické záchranné služby"
+      },
+      {
+        "code" : "11503-0",
+        "display" : "Lékařské záznamy"
+      },
+      {
+        "code" : "57133-1",
+        "display" : "Žádanky"
+      }]
+    }]
+  }
+}

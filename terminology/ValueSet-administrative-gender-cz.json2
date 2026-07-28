@@ -8,10 +8,10 @@
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/valueset-supplement",
-    "valueCanonical" : "https://hl7.cz/terminology/CodeSystem/administrative-gender-cz"
+    "valueCanonical" : "https://hl7.cz/terminology/CodeSystem/administrative-gender-cz|4.0.1"
   }],
   "url" : "https://hl7.cz/terminology/ValueSet/administrative-gender-cz",
-  "version" : "0.2.0",
+  "version" : "1.0.0",
   "name" : "AdministrativeGenderCzVs",
   "title" : "Gender for administrative purposes",
   "status" : "active",

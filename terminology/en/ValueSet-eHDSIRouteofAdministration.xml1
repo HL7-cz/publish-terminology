@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="eHDSIRouteofAdministration"/>
+  <language value="en"/>
+  <text>
+    <status value="extensions"/>
+  </text>
+  <url value="https://ncez.mzcr.cz/terminology/ValueSet/eHDSIRouteofAdministration"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.12"/>
+  </identifier>
+  <version value="8.1.0"/>
+  <name value="eHDSIRouteofAdministration"/>
+  <title value="eHDSI Route of Administration"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-06-15T15:06:55.238088Z"/>
+  <publisher value="HL7 Czech Republic"/>
+  <contact>
+    <name value="HL7 Czech Republic"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hl7.cz/"/>
+    </telecom>
+  </contact>
+  <description value="eHDSIRouteofAdministration"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CZ"/>
+      <display value="Czechia"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://standardterms.edqm.eu"/>
+      <concept>
+        <code value="20001000"/>
+        <display value="ušní podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Auricular use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20003000"/>
+        <display value="kožní podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Cutaneous use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20004000"/>
+        <display value="dentální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Dental use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20006000"/>
+        <display value="endocervikální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Endocervical use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20007000"/>
+        <display value="endosinusové podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Endosinusial use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20009000"/>
+        <display value="epidurální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Epidural use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20011000"/>
+        <display value="extraamniotické podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Extraamniotic use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20011500"/>
+        <display value="mimotělní podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Extracorporeal use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20013000"/>
+        <display value="gastroenterální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Gastroenteral use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20013500"/>
+        <display value="žaludeční podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Gastric use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20014000"/>
+        <display value="podání na dásně"/>
+        <designation>
+          <language value="en"/>
+          <value value="Gingival use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20015000"/>
+        <display value="hemodialýza"/>
+        <designation>
+          <language value="en"/>
+          <value value="Haemodialysis"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20015500"/>
+        <display value="implantace"/>
+        <designation>
+          <language value="en"/>
+          <value value="Implantation"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20019500"/>
+        <display value="infiltrace"/>
+        <designation>
+          <language value="en"/>
+          <value value="Infiltration"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20020000"/>
+        <display value="inhalační podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Inhalation use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20021000"/>
+        <display value="intestinální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intestinal use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20023000"/>
+        <display value="intraarteriální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intraarterial use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20024000"/>
+        <display value="intraartikulární podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intraarticular use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20025500"/>
+        <display value="podání do přední oční komory"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intracameral use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20026000"/>
+        <display value="intrakardiální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intracardiac use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20026500"/>
+        <display value="intrakartilaginózní podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intracartilaginous use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20027000"/>
+        <display value="intrakavernózní podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intracavernous use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20027010"/>
+        <display value="intracerebrální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intracerebral use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20028000"/>
+        <display value="intracervikální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intracervical use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20028300"/>
+        <display value="intracholangiopankreatické podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intracholangiopancreatic use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20029000"/>
+        <display value="intrakorornární podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intracoronary use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20030000"/>
+        <display value="intradermální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intradermal use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20031000"/>
+        <display value="intradiskální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intradiscal use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20031500"/>
+        <display value="intraepidermální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intraepidermal use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20031700"/>
+        <display value="intraglandulární podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intraglandular use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20032000"/>
+        <display value="intralezionální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intralesional use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20033000"/>
+        <display value="intralymfatické podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intralymphatic use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20035000"/>
+        <display value="intramuskulární podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intramuscular use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20036000"/>
+        <display value="nitrooční podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intraocular use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20036500"/>
+        <display value="intraoseální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intraosseous use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20037000"/>
+        <display value="podání do osrdečníku"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intrapericardial use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20039000"/>
+        <display value="intrapleurální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intrapleural use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20039200"/>
+        <display value="intraportální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intraportal use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20039500"/>
+        <display value="intraprostatické podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intraprostatic use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20041000"/>
+        <display value="intrasternální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intrasternal use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20042000"/>
+        <display value="intratekální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intrathecal use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20045000"/>
+        <display value="intravenózní podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intravenous use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20046000"/>
+        <display value="intravezikální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intravesical use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20047000"/>
+        <display value="intravitreální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intravitreal use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20047500"/>
+        <display value="iontoforéza"/>
+        <designation>
+          <language value="en"/>
+          <value value="Iontophoresis"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20048000"/>
+        <display value="laryngofaryngeální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Laryngopharyngeal use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20051000"/>
+        <display value="oční podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Ocular use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20055000"/>
+        <display value="orofaryngeální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Oropharyngeal use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20057000"/>
+        <display value="periartikulární podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Periarticular use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20058000"/>
+        <display value="perineurální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Perineural use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20059300"/>
+        <display value="perioseální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Periosseous use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20059400"/>
+        <display value="peritumorózní podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Peritumoral use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20059500"/>
+        <display value="zadní juxtasklérální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Posterior juxtascleral use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20061000"/>
+        <display value="rektální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Rectal use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20061500"/>
+        <display value="retrobulbární podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Retrobulbar use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20062000"/>
+        <display value="nespecifikovaný způsob podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Route of administration not applicable"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20063000"/>
+        <display value="kožní skarifikace"/>
+        <designation>
+          <language value="en"/>
+          <value value="Skin scarification"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20065000"/>
+        <display value="subkonjunktivální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Subconjunctival use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20067000"/>
+        <display value="sublingvální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Sublingual use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20067500"/>
+        <display value="submukosální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Submucosal use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20070000"/>
+        <display value="transdermální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Transdermal use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20071000"/>
+        <display value="uretrální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Urethral use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20072000"/>
+        <display value="vaginální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Vaginal use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20080000"/>
+        <display value="intracerebroventrikulární podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intracerebroventricular use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20081000"/>
+        <display value="subretinální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Subretinal use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20084000"/>
+        <display value="intrakorneální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intracorneal use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20086000"/>
+        <display value="intraputaminální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intraputaminal use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20087000"/>
+        <display value="extrapleurální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Extrapleural use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20088000"/>
+        <display value="perilezionální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Perilesional use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20090000"/>
+        <display value="podání do detruzoru"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intradetrusorial use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20002500"/>
+        <display value="bukální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Buccal use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20008000"/>
+        <display value="endotracheopulmonální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Endotracheopulmonary use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20010000"/>
+        <display value="epilezionální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Epilesional use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20022000"/>
+        <display value="intraamniotické podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intraamniotic use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20025000"/>
+        <display value="intraburzální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intrabursal use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20028500"/>
+        <display value="intracisternální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intracisternal use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20038000"/>
+        <display value="intraperitoneální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intraperitoneal use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20043000"/>
+        <display value="intratumorózní podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intratumoral use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20044000"/>
+        <display value="intrauterinní podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intrauterine use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20049000"/>
+        <display value="nosní podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Nasal use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20053000"/>
+        <display value="perorální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Oral use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20054000"/>
+        <display value="orální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Oromucosal use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20059000"/>
+        <display value="periodontální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Periodontal use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20066000"/>
+        <display value="subkutánní podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Subcutaneous use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20089000"/>
+        <display value="kardioplegické podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Cardioplegic use"/>
+        </designation>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

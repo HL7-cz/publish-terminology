@@ -4,10 +4,10 @@
   <id value="nclpmat"/>
   <language value="cs"/>
   <text>
-    <status value="generated"/><div xml:lang="cs" xmlns="http://www.w3.org/1999/xhtml" lang="cs"><p class="res-header-id"><b>Generated Narrative: ValueSet nclpmat</b></p><a name="nclpmat"> </a><a name="hcnclpmat"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: cs</p></div><ul><li>Include all codes defined in <a href="CodeSystem-nclp-NCLPMAT.html"><code>https://ncez.mzcr.cz/nclp/CodeSystem/nclpmat</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> version &#x1F4E6;0.2.0</span></li></ul></div>
+    <status value="generated"/><div xml:lang="cs" xmlns="http://www.w3.org/1999/xhtml" lang="cs"><p class="res-header-id"><b>Generated Narrative: ValueSet nclpmat</b></p><a name="nclpmat"> </a><a name="hcnclpmat"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: cs</p></div><ul><li>Include all codes defined in <a href="CodeSystem-NCLPMAT.html"><code>https://ncez.mzcr.cz/nclp/CodeSystem/nclpmat</code></a><span title="Version is not explicitly stated. No matching Code System found"> version Not Stated (use latest from terminology server)</span></li></ul></div>
   </text>
   <url value="https://ncez.mzcr.cz/terminology/ValueSet/nclpmat"/>
-  <version value="0.2.0"/>
+  <version value="1.0.0"/>
   <name value="NCLPMatVs"/>
   <title value="Číselník NCLPMAT"/>
   <status value="active"/>

@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v3-RoleCode-cz"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/>
+  </text>
+  <url value="https://hl7.cz/terminology/CodeSystem/v3-RoleCode-cz"/>
+  <version value="1.0.0"/>
+  <name value="RoleCodeCz"/>
+  <title value="RoleCode (CZ Supplement)"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-02-09T10:38:00.271394Z"/>
+  <publisher value="HL7 Czech Republic"/>
+  <contact>
+    <name value="HL7 Czech Republic"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hl7.cz/"/>
+    </telecom>
+  </contact>
+  <description value="Český doplněk kódového systému v3-RoleCode, který je souborem kódů blíže specifikujících druh Role; obsahuje specifické klasifikační kódy pro další upřesnění kódů RoleClass. A Czech supplement to the v3-RoleCode code system which is a set of codes further specifying the kind of Role; specific classification codes for further qualifying RoleClass codes."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CZ"/>
+      <display value="Czechia"/>
+    </coding>
+  </jurisdiction>
+  <content value="supplement"/>
+  <supplements value="http://terminology.hl7.org/CodeSystem/v3-RoleCode|4.0.0"/>
+  <concept>
+    <code value="AUNT"/>
+    <display value="teta"/>
+    <definition value="Sestra matky nebo otce dotčené osoby."/>
+  </concept>
+  <concept>
+    <code value="BRO"/>
+    <display value="bratr"/>
+    <definition value="Muž, který sdílí jednoho nebo oba společné rodiče s dotčenou osobou."/>
+  </concept>
+  <concept>
+    <code value="BROINLAW"/>
+    <display value="švagr"/>
+    <definition value="(1) bratr manžela nebo manželky dotčené osoby, nebo (2) manžel sestry dotčené osoby, nebo (3) manžel sestry manžela nebo manželky dotčené osoby."/>
+  </concept>
+  <concept>
+    <code value="CHILD"/>
+    <display value="dítě"/>
+    <definition value="Dítě dotčené osoby."/>
+  </concept>
+  <concept>
+    <code value="CHLDADOPT"/>
+    <display value="osvojené dítě"/>
+    <definition value="Dítě dotčené osoby, které bylo přijato do rodiny prostřednictvím právních prostředků a vychováváno dotčenou osobou (rodičem) jako vlastní dítě."/>
+  </concept>
+  <concept>
+    <code value="CHLDFOST"/>
+    <display value="dítě v náhradní péči (kromě osvojení)"/>
+    <definition value="Dítě dotčené osoby, které přijímá rodičovskou péči a výchovu od dotčené osoby (rodiče), ale není s ním nebo s ní spojeno právními nebo pokrevními vazbami."/>
+  </concept>
+  <concept>
+    <code value="CHLDINLAW"/>
+    <display value="zeť/snacha"/>
+    <definition value="Manžel nebo manželka dítěte dotčené osoby."/>
+  </concept>
+  <concept>
+    <code value="COUSN"/>
+    <display value="sestřenice/bratranec"/>
+    <definition value="Příbuzný dotčené osoby, který pochází ze společného předka, jako je prarodič, po dvou nebo více krocích v rodové linii."/>
+  </concept>
+  <concept>
+    <code value="DAU"/>
+    <display value="vlastní dcera"/>
+    <definition value="Ženský potomek dotčené entity (rodiče)."/>
+  </concept>
+  <concept>
+    <code value="DAUADOPT"/>
+    <display value="osvojená dcera"/>
+    <definition value="Ženský potomek dotčené entity (rodiče), který byl přijat do rodiny prostřednictvím právních prostředků a vychováván dotčenou osobou (rodičem) jako vlastní dítě."/>
+  </concept>
+  <concept>
+    <code value="DAUC"/>
+    <display value="dcera"/>
+    <definition value="**Popis:** Ženský potomek (jakéhokoliv typu) dotčené entity (rodiče)."/>
+  </concept>
+  <concept>
+    <code value="DAUFOST"/>
+    <display value="dcera v náhradní péči (kromě osvojení)"/>
+    <definition value="Ženský potomek dotčené entity (rodiče), který přijímá rodičovskou péči a výchovu od dotčené osoby (rodiče), ale není s ním nebo s ní spojeno právními nebo pokrevními vazbami."/>
+  </concept>
+  <concept>
+    <code value="DAUINLAW"/>
+    <display value="snacha"/>
+    <definition value="Manželka syna dotčené osoby."/>
+  </concept>
+  <concept>
+    <code value="DOMPART"/>
+    <display value="druh/družka"/>
+    <definition value="Osoba žijící s dotčenou osobou, která není manželem nebo manželkou dotčené osoby."/>
+  </concept>
+  <concept>
+    <code value="EXT"/>
+    <display value="člen širší rodiny"/>
+    <definition value="**Popis:** Rodinný příslušník, který není v bezprostředním genetickém nebo právním vztahu k dotčené osobě, např. teta, bratranec, sestřenice, prarodič, vnuk, praprarodič, neteř, synovec nebo strýc."/>
+  </concept>
+  <concept>
+    <code value="FAMMEMB"/>
+    <display value="rodinný příslušník"/>
+    <definition value="Vztah mezi dvěma osobami, který je charakterizován jako vztah \&quot;rodinný\&quot;."/>
+  </concept>
+  <concept>
+    <code value="FRND"/>
+    <display value="přítel/přítelkyně"/>
+    <definition value="Osoba, která je známá, oblíbená a důvěryhodná pro dotčenou osobu."/>
+  </concept>
+  <concept>
+    <code value="FTH"/>
+    <display value="otec"/>
+    <definition value="Muž, který zplodil, vychoval nebo pečuje o dotčenou osobu (dítě)."/>
+  </concept>
+  <concept>
+    <code value="FTHINLAW"/>
+    <display value="tchán"/>
+    <definition value="Muž, který je otcem manžela nebo manželky dotčené osoby."/>
+  </concept>
+  <concept>
+    <code value="GGRFTH"/>
+    <display value="pradědeček"/>
+    <definition value="Muž, který je otcem prarodiče dotčené osoby."/>
+  </concept>
+  <concept>
+    <code value="GGRMTH"/>
+    <display value="prababička"/>
+    <definition value="Žena, která je matkou prarodiče dotčené osoby."/>
+  </concept>
+  <concept>
+    <code value="GGRPRN"/>
+    <display value="praprarodič"/>
+    <definition value="Osoba, která je rodičem prarodiče dotčené osoby."/>
+  </concept>
+  <concept>
+    <code value="GRFTH"/>
+    <display value="dědeček"/>
+    <definition value="Muž, který je otcem rodiče dotčené osoby."/>
+  </concept>
+  <concept>
+    <code value="GRMTH"/>
+    <display value="babička"/>
+    <definition value="Žena, která je matkou rodiče dotčené osoby."/>
+  </concept>
+  <concept>
+    <code value="GRNDCHILD"/>
+    <display value="vnouče"/>
+    <definition value="Potomek, který je dítětem syna nebo dcery dotčené osoby."/>
+  </concept>
+  <concept>
+    <code value="GRNDDAU"/>
+    <display value="vnučka"/>
+    <definition value="Dcera syna nebo dcery dotčené osoby."/>
+  </concept>
+  <concept>
+    <code value="GRNDSON"/>
+    <display value="vnuk"/>
+    <definition value="Syn syna nebo dcery dotčené osoby."/>
+  </concept>
+  <concept>
+    <code value="GRPRN"/>
+    <display value="prarodič"/>
+    <definition value="Osoba, která je rodičem rodiče dotčené osoby."/>
+  </concept>
+  <concept>
+    <code value="HUSB"/>
+    <display value="manžel"/>
+    <definition value="Muž, který je spojen s dotčenou ženou v manželství."/>
+  </concept>
+  <concept>
+    <code value="INLAW"/>
+    <display value="příbuzní ze strany manžela/manželky"/>
+    <definition value="Vztah mezi jednotlivcem a členem nejbližší rodiny jeho manželského partnera."/>
+  </concept>
+  <concept>
+    <code value="MTH"/>
+    <display value="matka"/>
+    <definition value="Žena, která zplodila, porodila nebo vychovala a pečuje o dotčenou osobu (dítě)."/>
+  </concept>
+  <concept>
+    <code value="MTHINLAW"/>
+    <display value="tchýně"/>
+    <definition value="Žena, která je matkou manžela nebo manželky dotčené osoby."/>
+  </concept>
+  <concept>
+    <code value="MTHINLOAW"/>
+    <display value="tchýně"/>
+    <definition value="Žena, která je matkou manžela nebo manželky dotčené osoby."/>
+  </concept>
+  <concept>
+    <code value="NBOR"/>
+    <display value="soused/sousedka"/>
+    <definition value="Osoba, která žije v blízkosti nebo vedle dotčené osoby."/>
+  </concept>
+  <concept>
+    <code value="NCHILD"/>
+    <display value="potomek"/>
+    <definition value="Potomek dotčené entity (rodiče)."/>
+  </concept>
+  <concept>
+    <code value="NEPHEW"/>
+    <display value="synovec"/>
+    <definition value="Syn bratra nebo sestry dotčené osoby."/>
+  </concept>
+  <concept>
+    <code value="NIECE"/>
+    <display value="neteř"/>
+    <definition value="Dcera bratra nebo sestry dotčené osoby."/>
+  </concept>
+  <concept>
+    <code value="NIENEPH"/>
+    <display value="neteř/synovec"/>
+    <definition value="Potomek bratra nebo sestry dotčené osoby nebo bratra nebo sestry manžela/manželky dotčené osoby."/>
+  </concept>
+  <concept>
+    <code value="NOK"/>
+    <display value="příbuzný"/>
+    <definition value="Nejbližší příbuzný dotčené osoby."/>
+  </concept>
+  <concept>
+    <code value="PRN"/>
+    <display value="rodič"/>
+    <definition value="Osoba, která zplodila, porodila nebo vychovala a pečuje o dotčenou osobu (dítě)."/>
+  </concept>
+  <concept>
+    <code value="PRNINLAW"/>
+    <display value="tchyně/tchán"/>
+    <definition value="Rodič manžela nebo manželky dotčené osoby."/>
+  </concept>
+  <concept>
+    <code value="ROOM"/>
+    <display value="spolubydlící"/>
+    <definition value="Osoba, která sdílí obytné prostory s dotčenou osobou."/>
+  </concept>
+  <concept>
+    <code value="SIB"/>
+    <display value="sourozenec"/>
+    <definition value="Osoba, která sdílí jednoho nebo oba rodiče s dotčenou osobou."/>
+  </concept>
+  <concept>
+    <code value="SIBINLAW"/>
+    <display value="švagr/švagrová"/>
+    <definition value="Osoba, která je: (1) sourozencem manžela/manželky dotčené osoby, nebo (2) manželem/manželkou sourozence dotčené osoby, nebo (3) manželem/manželkou sourozence manžela/manželky dotčené osoby."/>
+  </concept>
+  <concept>
+    <code value="SIGOTHR"/>
+    <display value="osoba blízká"/>
+    <definition value="Osoba, která je důležitá pro blaho dotčené osoby; zejména manžel nebo osoba ve obdobném vztahu."/>
+  </concept>
+  <concept>
+    <code value="SIS"/>
+    <display value="sestra"/>
+    <definition value="Žena, která sdílí jednoho nebo oba rodiče s dotčenou osobou."/>
+  </concept>
+  <concept>
+    <code value="SISINLAW"/>
+    <display value="švagrová"/>
+    <definition value="Osoba, která je: (1) sestrou manžela/manželky dotčené osoby, nebo (2) manželkou bratra dotčené osoby, nebo (3) manželkou bratra manžela/manželky dotčené osoby."/>
+  </concept>
+  <concept>
+    <code value="SISLINLAW"/>
+    <display value="švagrová"/>
+    <definition value="Osoba, která je: (1) sestrou manžela/manželky dotčené osoby, nebo (2) manželkou bratra dotčené osoby, nebo (3) manželkou bratra manžela/manželky dotčené osoby."/>
+  </concept>
+  <concept>
+    <code value="SON"/>
+    <display value="vlastní syn"/>
+    <definition value="Mužský potomek dotčené entity (rodiče)."/>
+  </concept>
+  <concept>
+    <code value="SONADOPT"/>
+    <display value="osvojený syn"/>
+    <definition value="Mužský potomek dotčené entity (rodiče), který byl přijat do rodiny prostřednictvím právních prostředků a vychováván dotčenou osobou (rodičem) jako vlastní dítě."/>
+  </concept>
+  <concept>
+    <code value="SONC"/>
+    <display value="syn"/>
+    <definition value="**Popis:** Mužský potomek (jakéhokoli typu) dotčené osoby (rodiče)."/>
+  </concept>
+  <concept>
+    <code value="SONFOST"/>
+    <display value="syn v náhradní péči (kromě osvojení)"/>
+    <definition value="Mužský potomek dotčené entity (rodiče), který je v náhradní péči a výchově dotčené osoby (rodiče), ale není s ní spojen právními nebo biologickými vazbami."/>
+  </concept>
+  <concept>
+    <code value="SONINLAW"/>
+    <display value="zeť"/>
+    <definition value="Manžel dcery dotčené osoby."/>
+  </concept>
+  <concept>
+    <code value="SPS"/>
+    <display value="manžel/maželka"/>
+    <definition value="Osoba, která je manželským partnerem dotčené osoby."/>
+  </concept>
+  <concept>
+    <code value="STPCHLD"/>
+    <display value="nevlastní dítě"/>
+    <definition value="Dítě manžela/manželky dotčené osoby z předchozího manželství."/>
+  </concept>
+  <concept>
+    <code value="STPDAU"/>
+    <display value="nevlastní dcera"/>
+    <definition value="Ženský potomek manžela/manželky dotčené osoby z předchozího manželství."/>
+  </concept>
+  <concept>
+    <code value="STPSON"/>
+    <display value="nevlastní syn"/>
+    <definition value="Mužský potomek manžela/manželky dotčené osoby z předchozího manželství."/>
+  </concept>
+  <concept>
+    <code value="UNCLE"/>
+    <display value="strýc"/>
+    <definition value="Bratr matky nebo otce dotčené osoby."/>
+  </concept>
+  <concept>
+    <code value="WIFE"/>
+    <display value="manželka"/>
+    <definition value="Žena, která je manželským partnerem dotčené osoby."/>
+  </concept>
+  <concept>
+    <code value="_ContactRoleType"/>
+    <display value="ContactRoleType"/>
+    <definition value="Typy kontaktů pro kód role \&quot;CON\“"/>
+  </concept>
+  <concept>
+    <code value="_PersonalRelationshipRoleType"/>
+    <display value="PersonalRelationshipRoleType"/>
+    <definition value="Typy osobních vztahů pro kód role \&quot;PRN\“"/>
+  </concept>
+</CodeSystem>

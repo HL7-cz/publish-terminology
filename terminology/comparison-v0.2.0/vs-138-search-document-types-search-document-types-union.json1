@@ -1,0 +1,33 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "3be28065-604a-49db-82ac-da3be23fd237-161",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/3be28065-604a-49db-82ac-da3be23fd237-161",
+  "name" : "UnionSearchDocumentTypesAndSearchDocumentTypes",
+  "title" : "Union of Všechny typy dokumentů And Všechny typy dokumentů",
+  "status" : "draft",
+  "date" : "2026-07-27T16:56:47+02:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CZ",
+      "display" : "Czechia"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "valueSet" : ["https://ncez.mzcr.cz/terminology/ValueSet/imaging-document-types"]
+    },
+    {
+      "valueSet" : ["https://ncez.mzcr.cz/terminology/ValueSet/nursing-document-type"]
+    },
+    {
+      "valueSet" : ["https://ncez.mzcr.cz/terminology/ValueSet/referralorder-types"]
+    },
+    {
+      "valueSet" : ["https://ncez.mzcr.cz/terminology/ValueSet/lab-document-types"]
+    },
+    {
+      "valueSet" : ["https://ncez.mzcr.cz/terminology/ValueSet/medical-document-type"]
+    }]
+  }
+}

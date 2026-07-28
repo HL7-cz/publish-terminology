@@ -18,9 +18,9 @@
   "identifier" : [{
     "system" : "urn:ietf:rfc:3986"
   }],
-  "version" : "0.2.0",
+  "version" : "1.0.0",
   "name" : "CS_DLP_lecivepripravky",
-  "title" : "Codesystem of DLP Lecive pripravky",
+  "title" : "DLP Lecive pripravky",
   "status" : "active",
   "experimental" : false,
   "date" : "2025-01-17",
@@ -32,7 +32,7 @@
       "value" : "https://www.hl7.cz/"
     }]
   }],
-  "description" : "Codesystem of DLP Lecive pripravky. Identification medication.",
+  "description" : "DLP Lecive pripravky - Czech national registry of the pharmaceutical products.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

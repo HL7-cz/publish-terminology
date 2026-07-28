@@ -1,0 +1,357 @@
+# RoleCode (CZ Supplement) - HL7 Czech Terminology Implementation Guide v0.3.0
+
+## CodeSystem: RoleCode (CZ Supplement) 
+
+ 
+Český doplněk kódového systému v3-RoleCode, který je souborem kódů blíže specifikujících druh Role; obsahuje specifické klasifikační kódy pro další upřesnění kódů RoleClass. A Czech supplement to the v3-RoleCode code system which is a set of codes further specifying the kind of Role; specific classification codes for further qualifying RoleClass codes. 
+
+This Code system is referenced in the definition of the following value sets:
+
+* [PersonalRelationshipCzVS](ValueSet-personal-relationship-cz.md)
+
+-------
+
+ [Description of the above table(s)](http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#terminology). 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "CodeSystem",
+  "id" : "v3-RoleCode-cz",
+  "language" : "cs",
+  "url" : "https://hl7.cz/terminology/CodeSystem/v3-RoleCode-cz",
+  "version" : "1.0.0",
+  "name" : "RoleCodeCz",
+  "title" : "RoleCode (CZ Supplement)",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2025-02-09T10:38:00.271394Z",
+  "publisher" : "HL7 Czech Republic",
+  "contact" : [{
+    "name" : "HL7 Czech Republic",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.hl7.cz/"
+    }]
+  }],
+  "description" : "Český doplněk kódového systému v3-RoleCode, který je souborem kódů blíže specifikujících druh Role; obsahuje specifické klasifikační kódy pro další upřesnění kódů RoleClass. A Czech supplement to the v3-RoleCode code system which is a set of codes further specifying the kind of Role; specific classification codes for further qualifying RoleClass codes.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CZ",
+      "display" : "Czechia"
+    }]
+  }],
+  "content" : "supplement",
+  "supplements" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode|4.0.0",
+  "concept" : [{
+    "code" : "AUNT",
+    "display" : "teta",
+    "definition" : "Sestra matky nebo otce dotčené osoby."
+  },
+  {
+    "code" : "BRO",
+    "display" : "bratr",
+    "definition" : "Muž, který sdílí jednoho nebo oba společné rodiče s dotčenou osobou."
+  },
+  {
+    "code" : "BROINLAW",
+    "display" : "švagr",
+    "definition" : "(1) bratr manžela nebo manželky dotčené osoby, nebo (2) manžel sestry dotčené osoby, nebo (3) manžel sestry manžela nebo manželky dotčené osoby."
+  },
+  {
+    "code" : "CHILD",
+    "display" : "dítě",
+    "definition" : "Dítě dotčené osoby."
+  },
+  {
+    "code" : "CHLDADOPT",
+    "display" : "osvojené dítě",
+    "definition" : "Dítě dotčené osoby, které bylo přijato do rodiny prostřednictvím právních prostředků a vychováváno dotčenou osobou (rodičem) jako vlastní dítě."
+  },
+  {
+    "code" : "CHLDFOST",
+    "display" : "dítě v náhradní péči (kromě osvojení)",
+    "definition" : "Dítě dotčené osoby, které přijímá rodičovskou péči a výchovu od dotčené osoby (rodiče), ale není s ním nebo s ní spojeno právními nebo pokrevními vazbami."
+  },
+  {
+    "code" : "CHLDINLAW",
+    "display" : "zeť/snacha",
+    "definition" : "Manžel nebo manželka dítěte dotčené osoby."
+  },
+  {
+    "code" : "COUSN",
+    "display" : "sestřenice/bratranec",
+    "definition" : "Příbuzný dotčené osoby, který pochází ze společného předka, jako je prarodič, po dvou nebo více krocích v rodové linii."
+  },
+  {
+    "code" : "DAU",
+    "display" : "vlastní dcera",
+    "definition" : "Ženský potomek dotčené entity (rodiče)."
+  },
+  {
+    "code" : "DAUADOPT",
+    "display" : "osvojená dcera",
+    "definition" : "Ženský potomek dotčené entity (rodiče), který byl přijat do rodiny prostřednictvím právních prostředků a vychováván dotčenou osobou (rodičem) jako vlastní dítě."
+  },
+  {
+    "code" : "DAUC",
+    "display" : "dcera",
+    "definition" : "**Popis:** Ženský potomek (jakéhokoliv typu) dotčené entity (rodiče)."
+  },
+  {
+    "code" : "DAUFOST",
+    "display" : "dcera v náhradní péči (kromě osvojení)",
+    "definition" : "Ženský potomek dotčené entity (rodiče), který přijímá rodičovskou péči a výchovu od dotčené osoby (rodiče), ale není s ním nebo s ní spojeno právními nebo pokrevními vazbami."
+  },
+  {
+    "code" : "DAUINLAW",
+    "display" : "snacha",
+    "definition" : "Manželka syna dotčené osoby."
+  },
+  {
+    "code" : "DOMPART",
+    "display" : "druh/družka",
+    "definition" : "Osoba žijící s dotčenou osobou, která není manželem nebo manželkou dotčené osoby."
+  },
+  {
+    "code" : "EXT",
+    "display" : "člen širší rodiny",
+    "definition" : "**Popis:** Rodinný příslušník, který není v bezprostředním genetickém nebo právním vztahu k dotčené osobě, např. teta, bratranec, sestřenice, prarodič, vnuk, praprarodič, neteř, synovec nebo strýc."
+  },
+  {
+    "code" : "FAMMEMB",
+    "display" : "rodinný příslušník",
+    "definition" : "Vztah mezi dvěma osobami, který je charakterizován jako vztah \\\"rodinný\\\"."
+  },
+  {
+    "code" : "FRND",
+    "display" : "přítel/přítelkyně",
+    "definition" : "Osoba, která je známá, oblíbená a důvěryhodná pro dotčenou osobu."
+  },
+  {
+    "code" : "FTH",
+    "display" : "otec",
+    "definition" : "Muž, který zplodil, vychoval nebo pečuje o dotčenou osobu (dítě)."
+  },
+  {
+    "code" : "FTHINLAW",
+    "display" : "tchán",
+    "definition" : "Muž, který je otcem manžela nebo manželky dotčené osoby."
+  },
+  {
+    "code" : "GGRFTH",
+    "display" : "pradědeček",
+    "definition" : "Muž, který je otcem prarodiče dotčené osoby."
+  },
+  {
+    "code" : "GGRMTH",
+    "display" : "prababička",
+    "definition" : "Žena, která je matkou prarodiče dotčené osoby."
+  },
+  {
+    "code" : "GGRPRN",
+    "display" : "praprarodič",
+    "definition" : "Osoba, která je rodičem prarodiče dotčené osoby."
+  },
+  {
+    "code" : "GRFTH",
+    "display" : "dědeček",
+    "definition" : "Muž, který je otcem rodiče dotčené osoby."
+  },
+  {
+    "code" : "GRMTH",
+    "display" : "babička",
+    "definition" : "Žena, která je matkou rodiče dotčené osoby."
+  },
+  {
+    "code" : "GRNDCHILD",
+    "display" : "vnouče",
+    "definition" : "Potomek, který je dítětem syna nebo dcery dotčené osoby."
+  },
+  {
+    "code" : "GRNDDAU",
+    "display" : "vnučka",
+    "definition" : "Dcera syna nebo dcery dotčené osoby."
+  },
+  {
+    "code" : "GRNDSON",
+    "display" : "vnuk",
+    "definition" : "Syn syna nebo dcery dotčené osoby."
+  },
+  {
+    "code" : "GRPRN",
+    "display" : "prarodič",
+    "definition" : "Osoba, která je rodičem rodiče dotčené osoby."
+  },
+  {
+    "code" : "HUSB",
+    "display" : "manžel",
+    "definition" : "Muž, který je spojen s dotčenou ženou v manželství."
+  },
+  {
+    "code" : "INLAW",
+    "display" : "příbuzní ze strany manžela/manželky",
+    "definition" : "Vztah mezi jednotlivcem a členem nejbližší rodiny jeho manželského partnera."
+  },
+  {
+    "code" : "MTH",
+    "display" : "matka",
+    "definition" : "Žena, která zplodila, porodila nebo vychovala a pečuje o dotčenou osobu (dítě)."
+  },
+  {
+    "code" : "MTHINLAW",
+    "display" : "tchýně",
+    "definition" : "Žena, která je matkou manžela nebo manželky dotčené osoby."
+  },
+  {
+    "code" : "MTHINLOAW",
+    "display" : "tchýně",
+    "definition" : "Žena, která je matkou manžela nebo manželky dotčené osoby."
+  },
+  {
+    "code" : "NBOR",
+    "display" : "soused/sousedka",
+    "definition" : "Osoba, která žije v blízkosti nebo vedle dotčené osoby."
+  },
+  {
+    "code" : "NCHILD",
+    "display" : "potomek",
+    "definition" : "Potomek dotčené entity (rodiče)."
+  },
+  {
+    "code" : "NEPHEW",
+    "display" : "synovec",
+    "definition" : "Syn bratra nebo sestry dotčené osoby."
+  },
+  {
+    "code" : "NIECE",
+    "display" : "neteř",
+    "definition" : "Dcera bratra nebo sestry dotčené osoby."
+  },
+  {
+    "code" : "NIENEPH",
+    "display" : "neteř/synovec",
+    "definition" : "Potomek bratra nebo sestry dotčené osoby nebo bratra nebo sestry manžela/manželky dotčené osoby."
+  },
+  {
+    "code" : "NOK",
+    "display" : "příbuzný",
+    "definition" : "Nejbližší příbuzný dotčené osoby."
+  },
+  {
+    "code" : "PRN",
+    "display" : "rodič",
+    "definition" : "Osoba, která zplodila, porodila nebo vychovala a pečuje o dotčenou osobu (dítě)."
+  },
+  {
+    "code" : "PRNINLAW",
+    "display" : "tchyně/tchán",
+    "definition" : "Rodič manžela nebo manželky dotčené osoby."
+  },
+  {
+    "code" : "ROOM",
+    "display" : "spolubydlící",
+    "definition" : "Osoba, která sdílí obytné prostory s dotčenou osobou."
+  },
+  {
+    "code" : "SIB",
+    "display" : "sourozenec",
+    "definition" : "Osoba, která sdílí jednoho nebo oba rodiče s dotčenou osobou."
+  },
+  {
+    "code" : "SIBINLAW",
+    "display" : "švagr/švagrová",
+    "definition" : "Osoba, která je: (1) sourozencem manžela/manželky dotčené osoby, nebo (2) manželem/manželkou sourozence dotčené osoby, nebo (3) manželem/manželkou sourozence manžela/manželky dotčené osoby."
+  },
+  {
+    "code" : "SIGOTHR",
+    "display" : "osoba blízká",
+    "definition" : "Osoba, která je důležitá pro blaho dotčené osoby; zejména manžel nebo osoba ve obdobném vztahu."
+  },
+  {
+    "code" : "SIS",
+    "display" : "sestra",
+    "definition" : "Žena, která sdílí jednoho nebo oba rodiče s dotčenou osobou."
+  },
+  {
+    "code" : "SISINLAW",
+    "display" : "švagrová",
+    "definition" : "Osoba, která je: (1) sestrou manžela/manželky dotčené osoby, nebo (2) manželkou bratra dotčené osoby, nebo (3) manželkou bratra manžela/manželky dotčené osoby."
+  },
+  {
+    "code" : "SISLINLAW",
+    "display" : "švagrová",
+    "definition" : "Osoba, která je: (1) sestrou manžela/manželky dotčené osoby, nebo (2) manželkou bratra dotčené osoby, nebo (3) manželkou bratra manžela/manželky dotčené osoby."
+  },
+  {
+    "code" : "SON",
+    "display" : "vlastní syn",
+    "definition" : "Mužský potomek dotčené entity (rodiče)."
+  },
+  {
+    "code" : "SONADOPT",
+    "display" : "osvojený syn",
+    "definition" : "Mužský potomek dotčené entity (rodiče), který byl přijat do rodiny prostřednictvím právních prostředků a vychováván dotčenou osobou (rodičem) jako vlastní dítě."
+  },
+  {
+    "code" : "SONC",
+    "display" : "syn",
+    "definition" : "**Popis:** Mužský potomek (jakéhokoli typu) dotčené osoby (rodiče)."
+  },
+  {
+    "code" : "SONFOST",
+    "display" : "syn v náhradní péči (kromě osvojení)",
+    "definition" : "Mužský potomek dotčené entity (rodiče), který je v náhradní péči a výchově dotčené osoby (rodiče), ale není s ní spojen právními nebo biologickými vazbami."
+  },
+  {
+    "code" : "SONINLAW",
+    "display" : "zeť",
+    "definition" : "Manžel dcery dotčené osoby."
+  },
+  {
+    "code" : "SPS",
+    "display" : "manžel/maželka",
+    "definition" : "Osoba, která je manželským partnerem dotčené osoby."
+  },
+  {
+    "code" : "STPCHLD",
+    "display" : "nevlastní dítě",
+    "definition" : "Dítě manžela/manželky dotčené osoby z předchozího manželství."
+  },
+  {
+    "code" : "STPDAU",
+    "display" : "nevlastní dcera",
+    "definition" : "Ženský potomek manžela/manželky dotčené osoby z předchozího manželství."
+  },
+  {
+    "code" : "STPSON",
+    "display" : "nevlastní syn",
+    "definition" : "Mužský potomek manžela/manželky dotčené osoby z předchozího manželství."
+  },
+  {
+    "code" : "UNCLE",
+    "display" : "strýc",
+    "definition" : "Bratr matky nebo otce dotčené osoby."
+  },
+  {
+    "code" : "WIFE",
+    "display" : "manželka",
+    "definition" : "Žena, která je manželským partnerem dotčené osoby."
+  },
+  {
+    "code" : "_ContactRoleType",
+    "display" : "ContactRoleType",
+    "definition" : "Typy kontaktů pro kód role \\\"CON\\“"
+  },
+  {
+    "code" : "_PersonalRelationshipRoleType",
+    "display" : "PersonalRelationshipRoleType",
+    "definition" : "Typy osobních vztahů pro kód role \\\"PRN\\“"
+  }]
+}
+
+```

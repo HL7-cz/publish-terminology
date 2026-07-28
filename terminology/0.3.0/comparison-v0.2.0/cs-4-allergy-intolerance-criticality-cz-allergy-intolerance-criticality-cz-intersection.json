@@ -1,0 +1,73 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "5bc82b81-07ce-410b-8d29-8298f2cfafcb-12",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/5bc82b81-07ce-410b-8d29-8298f2cfafcb-12",
+  "name" : "IntersectionAllergyIntoleranceCriticalityAndAllergyIntoleranceCriticalityCz",
+  "title" : "Intersection of AllergyIntoleranceCriticality (CZ supplement) And AllergyIntoleranceCriticality (CZ supplement)",
+  "status" : "active",
+  "date" : "2026-07-27T16:47:06+02:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CZ",
+      "display" : "Czechia"
+    }]
+  }],
+  "concept" : [{
+    "code" : "high",
+    "display" : "vysoké riziko",
+    "definition" : "V nejhorším případě je výsledek budoucí expozice hodnocen jako život ohrožující nebo s vysokým rizikem selhání orgánového systému.",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "Worst case result of a future exposure is assessed to be life-threatening or having high potential for organ system failure."
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "High Risk"
+    }]
+  },
+  {
+    "code" : "low",
+    "display" : "nízké riziko",
+    "definition" : "Nejhorší možný výsledek budoucí expozice není hodnocen jako život ohrožující ani jako vysoce pravděpodobný selhání orgánového systému.",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "Worst case result of a future exposure is not assessed to be life-threatening or having high potential for organ system failure."
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "Low Risk"
+    }]
+  },
+  {
+    "code" : "unable-to-assess",
+    "display" : "riziko nelze posoudit",
+    "definition" : "Není možné odhadnout nejhorší možný výsledek budoucí expozice.",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "Unable to assess the worst case result of a future exposure."
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "Unable to Assess Risk"
+    }]
+  }]
+}

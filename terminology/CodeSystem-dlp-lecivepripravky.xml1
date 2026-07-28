@@ -16,9 +16,9 @@
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
   </identifier>
-  <version value="0.2.0"/>
+  <version value="1.0.0"/>
   <name value="CS_DLP_lecivepripravky"/>
-  <title value="Codesystem of DLP Lecive pripravky"/>
+  <title value="DLP Lecive pripravky"/>
   <status value="active"/>
   <experimental value="false"/>
   <date value="2025-01-17"/>
@@ -30,7 +30,7 @@
       <value value="https://www.hl7.cz/"/>
     </telecom>
   </contact>
-  <description value="Codesystem of DLP Lecive pripravky. Identification medication."/>
+  <description value="DLP Lecive pripravky - Czech national registry of the pharmaceutical products."/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>

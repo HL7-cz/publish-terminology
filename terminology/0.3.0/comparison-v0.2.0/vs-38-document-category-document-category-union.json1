@@ -1,0 +1,60 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "5bc82b81-07ce-410b-8d29-8298f2cfafcb-113",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/5bc82b81-07ce-410b-8d29-8298f2cfafcb-113",
+  "name" : "UnionDocumentCategoryAndDocumentCategory",
+  "title" : "Union of Kategorie dokumentů And Kategorie dokumentů",
+  "status" : "draft",
+  "date" : "2026-07-27T16:47:06+02:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CZ",
+      "display" : "Czechia"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "107904-5",
+        "display" : "Administrativní záznamy"
+      },
+      {
+        "code" : "18682-5",
+        "display" : "Záznamy zdravotnické záchranné služby"
+      },
+      {
+        "code" : "11503-0",
+        "display" : "Lékařské záznamy"
+      },
+      {
+        "code" : "11543-6",
+        "display" : "Ošetřovatelské záznamy"
+      },
+      {
+        "code" : "26436-6",
+        "display" : "Laboratorní nálezy"
+      },
+      {
+        "code" : "18726-0",
+        "display" : "Nálezy zobrazovacího komplementu"
+      },
+      {
+        "code" : "57133-1",
+        "display" : "Žádanky"
+      },
+      {
+        "code" : "34746-8",
+        "display" : "Ošetřovatelské záznamy"
+      },
+      {
+        "code" : "11502-2",
+        "display" : "Laboratorní nálezy"
+      },
+      {
+        "code" : "85430-7",
+        "display" : "Nálezy zobrazovacího komplementu"
+      }]
+    }]
+  }
+}

@@ -12,17 +12,21 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Terminology Server Report for HL7CzTerminologyImplementationGuide</h1>
- <p>Generated Mon Feb 02 08:07:29 CET 2026, FHIR version 4.0.1 for hl7.fhir.cz.terminology#0.2.0 (canonical = <a href="https://hl7.cz/terminology">https://hl7.cz/terminology</a> (<a href="https://hl7.cz/terminology/history.html">history</a>))</p>
+ <p>Generated Mon Jul 27 16:58:00 CEST 2026, FHIR version 4.0.1 for hl7.fhir.cz.terminology#0.3.0 (canonical = <a href="https://hl7.cz/terminology">https://hl7.cz/terminology</a> (<a href="https://hl7.cz/terminology/history.html">history</a>))</p>
 <p>This page provides a report on which terminology servers were used while publishing this IG. Note that terminology caching reduces the server hit count - this page only reports content that wasn't cached</p>
 <h2>Terminology Parameters</h2>
 <ul>
   <li>
-    <b>system-version</b>
-:     <code>http://snomed.info/sct|http://snomed.info/sct/11000279109</code>
+    <b>displayLanguage</b>
+:     <code>cs</code>
   </li>
   <li>
-    <b>defaultDisplayLanguage</b>
-:     <code>cs-CZ</code>
+    <b>includeDesignations</b>
+:     <code>false</code>
+  </li>
+  <li>
+    <b>system-version</b>
+:     <code>http://snomed.info/sct|http://snomed.info/sct/11000279109</code>
   </li>
 </ul>
 <h2>Tx Manager report for 'https://tx.fhir.org/tx-reg'</h2>
@@ -48,198 +52,261 @@
     </td>
   </tr>
   <tr>
-    <td>Found candidate server http://tx.fhir.org/r4</td>
-    <td>http://tx.fhir.org/r4</td>
+    <td>Found authoritative server https://tx.hl7.cz/r4</td>
+    <td>https://tx.hl7.cz/r4</td>
+    <td>null</td>
+    <td>https://uzis.cz/terminology/CodeSystem/mkn-10|2025-01</td>
+    <td>[https://uzis.cz/terminology/CodeSystem/mkn-10|2025-01]: authoritative = https://tx.hl7.cz/r4, candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>https://www.orpha.net|2026</td>
+    <td>[https://www.orpha.net|2026]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>Fallback: primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>https://www.orpha.net|2026</td>
+    <td>[https://www.orpha.net|2026]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server https://tx.hl7.cz/r4</td>
+    <td>https://tx.hl7.cz/r4</td>
+    <td>null</td>
+    <td>https://sukl.cz/terminology/CodeSystem/dlp-atc|1.0.0</td>
+    <td>[https://sukl.cz/terminology/CodeSystem/dlp-atc|1.0.0]: authoritative = https://tx.hl7.cz/r4, candidates=</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server https://tx.hl7.cz/r4</td>
+    <td>https://tx.hl7.cz/r4</td>
+    <td>null</td>
+    <td>https://sukl.cz/terminology/CodeSystem/dlp-formy|1.0.0</td>
+    <td>[https://sukl.cz/terminology/CodeSystem/dlp-formy|1.0.0]: authoritative = https://tx.hl7.cz/r4, candidates=</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server https://tx.hl7.cz/r4</td>
+    <td>https://tx.hl7.cz/r4</td>
+    <td>null</td>
+    <td>https://sukl.cz/terminology/CodeSystem/dlp-lecivelatky|1.0.0</td>
+    <td>[https://sukl.cz/terminology/CodeSystem/dlp-lecivelatky|1.0.0]: authoritative = https://tx.hl7.cz/r4, candidates=</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server https://tx.hl7.cz/r4</td>
+    <td>https://tx.hl7.cz/r4</td>
+    <td>null</td>
+    <td>https://sukl.cz/terminology/CodeSystem/dlp-lecivepripravky|1.0.0</td>
+    <td>[https://sukl.cz/terminology/CodeSystem/dlp-lecivepripravky|1.0.0]: authoritative = https://tx.hl7.cz/r4, candidates=</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server https://tx.hl7.cz/r4</td>
+    <td>https://tx.hl7.cz/r4</td>
+    <td>null</td>
+    <td>https://ncez.mzcr.cz/nclp/CodeSystem/nclppol|02.97.01</td>
+    <td>[https://ncez.mzcr.cz/nclp/CodeSystem/nclppol|02.97.01]: authoritative = https://tx.hl7.cz/r4, candidates=</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server https://tx.hl7.cz/r4</td>
+    <td>https://tx.hl7.cz/r4</td>
+    <td>null</td>
+    <td>https://ncez.mzcr.cz/nclp/CodeSystem/nclpmat|20260214</td>
+    <td>[https://ncez.mzcr.cz/nclp/CodeSystem/nclpmat|20260214]: authoritative = https://tx.hl7.cz/r4, candidates=</td>
+  </tr>
+  <tr>
+    <td>Use primary server for urn:iso:std:iso:3166</td>
+    <td>https://tx.fhir.org/r4</td>
     <td>null</td>
     <td>urn:iso:std:iso:3166</td>
-    <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx-nordics.fhir.org/fhir/r4</td>
+    <td>[urn:iso:std:iso:3166]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://178.104.103.200.sslip.io/tx/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.hl7.cz/r4</td>
   </tr>
   <tr>
-    <td>Found candidate server http://tx.fhir.org/r4</td>
-    <td>http://tx.fhir.org/r4</td>
-    <td>null</td>
-    <td>http://standardterms.edqm.eu</td>
-    <td>auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
-  </tr>
-  <tr>
-    <td>Found candidate server http://tx.fhir.org/r4</td>
-    <td>http://tx.fhir.org/r4</td>
+    <td>Use primary server for urn:ietf:rfc:3986</td>
+    <td>https://tx.fhir.org/r4</td>
     <td>null</td>
     <td>urn:ietf:rfc:3986</td>
-    <td>auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
+    <td>[urn:ietf:rfc:3986]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7chile.cl/r4|https://tx.hl7.cz/r4</td>
   </tr>
   <tr>
-    <td>System not handled by any servers. Using primary server</td>
-    <td>https://tx.fhir.org/r4</td>
-    <td>null</td>
-    <td>https://uzis.cz/terminology/CodeSystem/mkn-10|0.2.0</td>
-    <td>auth = , candidates=</td>
-  </tr>
-  <tr>
-    <td>Fallback: primary server</td>
-    <td>https://tx.fhir.org/r4</td>
-    <td>null</td>
-    <td>https://uzis.cz/terminology/CodeSystem/mkn-10|0.2.0</td>
-    <td>auth = , candidates=</td>
-  </tr>
-  <tr>
-    <td>System not handled by any servers. Using primary server</td>
-    <td>https://tx.fhir.org/r4</td>
+    <td>Found authoritative server https://tx.hl7.cz/r4</td>
+    <td>https://tx.hl7.cz/r4</td>
     <td>null</td>
     <td>https://uzis.cz/terminology/CodeSystem/mkn-10</td>
-    <td>auth = , candidates=</td>
-  </tr>
-  <tr>
-    <td>Fallback: primary server</td>
-    <td>https://tx.fhir.org/r4</td>
-    <td>null</td>
-    <td>https://uzis.cz/terminology/CodeSystem/mkn-10</td>
-    <td>auth = , candidates=</td>
+    <td>[https://uzis.cz/terminology/CodeSystem/mkn-10]: authoritative = https://tx.hl7.cz/r4, candidates=</td>
   </tr>
   <tr>
     <td>System not handled by any servers. Using primary server</td>
     <td>https://tx.fhir.org/r4</td>
     <td>null</td>
-    <td>http://www.orpha.net</td>
-    <td>auth = , candidates=</td>
+    <td>https://www.orpha.net</td>
+    <td>[https://www.orpha.net]: authoritative = , candidates=</td>
   </tr>
   <tr>
     <td>Fallback: primary server</td>
     <td>https://tx.fhir.org/r4</td>
     <td>null</td>
-    <td>http://www.orpha.net</td>
-    <td>auth = , candidates=</td>
+    <td>https://www.orpha.net</td>
+    <td>[https://www.orpha.net]: authoritative = , candidates=</td>
   </tr>
   <tr>
-    <td>Found authoritative server http://tx.hl7europe.eu/r4</td>
-    <td>http://tx.hl7europe.eu/r4</td>
+    <td>Found authoritative server https://tx.hl7.cz/r4</td>
+    <td>https://tx.hl7.cz/r4</td>
     <td>null</td>
     <td>http://snomed.info/sct</td>
-    <td>auth = http://tx.hl7europe.eu/r4, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://smt.esante.gouv.fr/fhir|https://apps.health.belgium.be/ontoserver/fhir|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx-nordics.fhir.org/fhir/r4</td>
+    <td>[http://snomed.info/sct|http://snomed.info/sct/11000279109]: authoritative = https://tx.hl7.cz/r4, candidates=</td>
   </tr>
   <tr>
-    <td>Found candidate server http://tx.fhir.org/r4</td>
-    <td>http://tx.fhir.org/r4</td>
+    <td>Use primary server for urn:ietf:bcp:13</td>
+    <td>https://tx.fhir.org/r4</td>
     <td>null</td>
     <td>urn:ietf:bcp:13</td>
-    <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
+    <td>[urn:ietf:bcp:13]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://178.104.103.200.sslip.io/tx/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx.hl7.cz/r4</td>
   </tr>
   <tr>
-    <td>System not handled by any servers. Using primary server</td>
-    <td>https://tx.fhir.org/r4</td>
+    <td>Found authoritative server https://tx.hl7.cz/r4</td>
+    <td>https://tx.hl7.cz/r4</td>
     <td>null</td>
-    <td>https://sukl.cz/terminology/CodeSystem/dlp-lecivelatky|0.2.0</td>
-    <td>auth = , candidates=</td>
+    <td>https://sukl.cz/terminology/CodeSystem/dlp-atc</td>
+    <td>[https://sukl.cz/terminology/CodeSystem/dlp-atc]: authoritative = https://tx.hl7.cz/r4, candidates=</td>
   </tr>
   <tr>
-    <td>Fallback: primary server</td>
-    <td>https://tx.fhir.org/r4</td>
+    <td>Found authoritative server https://tx.hl7.cz/r4</td>
+    <td>https://tx.hl7.cz/r4</td>
     <td>null</td>
-    <td>https://sukl.cz/terminology/CodeSystem/dlp-lecivelatky|0.2.0</td>
-    <td>auth = , candidates=</td>
+    <td>https://sukl.cz/terminology/CodeSystem/dlp-formy</td>
+    <td>[https://sukl.cz/terminology/CodeSystem/dlp-formy]: authoritative = https://tx.hl7.cz/r4, candidates=</td>
   </tr>
   <tr>
-    <td>System not handled by any servers. Using primary server</td>
-    <td>https://tx.fhir.org/r4</td>
-    <td>null</td>
-    <td>https://sukl.cz/terminology/CodeSystem/dlp-lecivelatky</td>
-    <td>auth = , candidates=</td>
-  </tr>
-  <tr>
-    <td>Fallback: primary server</td>
-    <td>https://tx.fhir.org/r4</td>
+    <td>Found authoritative server https://tx.hl7.cz/r4</td>
+    <td>https://tx.hl7.cz/r4</td>
     <td>null</td>
     <td>https://sukl.cz/terminology/CodeSystem/dlp-lecivelatky</td>
-    <td>auth = , candidates=</td>
+    <td>[https://sukl.cz/terminology/CodeSystem/dlp-lecivelatky]: authoritative = https://tx.hl7.cz/r4, candidates=</td>
   </tr>
   <tr>
-    <td>System not handled by any servers. Using primary server</td>
-    <td>https://tx.fhir.org/r4</td>
-    <td>null</td>
-    <td>https://sukl.cz/terminology/CodeSystem/dlp-lecivepripravky|0.2.0</td>
-    <td>auth = , candidates=</td>
-  </tr>
-  <tr>
-    <td>Fallback: primary server</td>
-    <td>https://tx.fhir.org/r4</td>
-    <td>null</td>
-    <td>https://sukl.cz/terminology/CodeSystem/dlp-lecivepripravky|0.2.0</td>
-    <td>auth = , candidates=</td>
-  </tr>
-  <tr>
-    <td>System not handled by any servers. Using primary server</td>
-    <td>https://tx.fhir.org/r4</td>
+    <td>Found authoritative server https://tx.hl7.cz/r4</td>
+    <td>https://tx.hl7.cz/r4</td>
     <td>null</td>
     <td>https://sukl.cz/terminology/CodeSystem/dlp-lecivepripravky</td>
-    <td>auth = , candidates=</td>
+    <td>[https://sukl.cz/terminology/CodeSystem/dlp-lecivepripravky]: authoritative = https://tx.hl7.cz/r4, candidates=</td>
   </tr>
   <tr>
-    <td>Fallback: primary server</td>
+    <td>Use primary server for http://loinc.org</td>
     <td>https://tx.fhir.org/r4</td>
     <td>null</td>
-    <td>https://sukl.cz/terminology/CodeSystem/dlp-lecivepripravky</td>
-    <td>auth = , candidates=</td>
+    <td>http://loinc.org|2.82</td>
+    <td>[http://loinc.org|2.82]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://178.104.103.200.sslip.io/tx/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4</td>
   </tr>
   <tr>
-    <td>Found candidate server http://tx.fhir.org/r4</td>
-    <td>http://tx.fhir.org/r4</td>
-    <td>null</td>
-    <td>http://loinc.org|3.0.1</td>
-    <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
-  </tr>
-  <tr>
-    <td>Found candidate server http://tx.fhir.org/r4</td>
-    <td>http://tx.fhir.org/r4</td>
+    <td>Use primary server for http://loinc.org</td>
+    <td>https://tx.fhir.org/r4</td>
     <td>null</td>
     <td>http://loinc.org</td>
-    <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
+    <td>[http://loinc.org]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://178.104.103.200.sslip.io/tx/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server https://tx.hl7.cz/r4</td>
+    <td>https://tx.hl7.cz/r4</td>
+    <td>null</td>
+    <td>https://ncez.mzcr.cz/nclp/CodeSystem/nclppol</td>
+    <td>[https://ncez.mzcr.cz/nclp/CodeSystem/nclppol]: authoritative = https://tx.hl7.cz/r4, candidates=</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server https://tx.hl7.cz/r4</td>
+    <td>https://tx.hl7.cz/r4</td>
+    <td>null</td>
+    <td>https://ncez.mzcr.cz/nclp/CodeSystem/nclpmat</td>
+    <td>[https://ncez.mzcr.cz/nclp/CodeSystem/nclpmat]: authoritative = https://tx.hl7.cz/r4, candidates=</td>
   </tr>
   <tr>
     <td>System not handled by any servers. Using primary server</td>
     <td>https://tx.fhir.org/r4</td>
-    <td></td>
-    <td>https://sukl.cz/terminology/CodeSystem/dlp-lecivelatky</td>
-    <td>auth = , candidates=</td>
+    <td>null</td>
+    <td>https://www.orpha.net|2024-07</td>
+    <td>[https://www.orpha.net|2024-07]: authoritative = , candidates=</td>
   </tr>
   <tr>
-    <td>System not handled by any servers. Using primary server</td>
+    <td>Fallback: primary server</td>
     <td>https://tx.fhir.org/r4</td>
-    <td>https://sukl.cz/terminology/ValueSet/dlp-lecivelatky|0.2.0</td>
-    <td>https://sukl.cz/terminology/CodeSystem/dlp-lecivelatky</td>
-    <td>auth = , candidates=</td>
+    <td>null</td>
+    <td>https://www.orpha.net|2024-07</td>
+    <td>[https://www.orpha.net|2024-07]: authoritative = , candidates=</td>
   </tr>
   <tr>
-    <td>System not handled by any servers. Using primary server</td>
-    <td>https://tx.fhir.org/r4</td>
+    <td>Found authoritative server https://tx.hl7.cz/r4</td>
+    <td>https://tx.hl7.cz/r4</td>
     <td></td>
     <td>https://sukl.cz/terminology/CodeSystem/dlp-lecivepripravky</td>
-    <td>auth = , candidates=</td>
+    <td>[https://sukl.cz/terminology/CodeSystem/dlp-lecivepripravky]: authoritative = https://tx.hl7.cz/r4, candidates=</td>
   </tr>
   <tr>
-    <td>System not handled by any servers. Using primary server</td>
-    <td>https://tx.fhir.org/r4</td>
-    <td>https://sukl.cz/terminology/ValueSet/dlp-lecivepripravky|0.2.0</td>
-    <td>https://sukl.cz/terminology/CodeSystem/dlp-lecivepripravky</td>
-    <td>auth = , candidates=</td>
+    <td>Found authoritative server https://tx.hl7.cz/r4</td>
+    <td>https://tx.hl7.cz/r4</td>
+    <td></td>
+    <td>https://sukl.cz/terminology/CodeSystem/dlp-atc</td>
+    <td>[https://sukl.cz/terminology/CodeSystem/dlp-atc]: authoritative = https://tx.hl7.cz/r4, candidates=</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server https://tx.hl7.cz/r4</td>
+    <td>https://tx.hl7.cz/r4</td>
+    <td></td>
+    <td>https://uzis.cz/terminology/CodeSystem/mkn-10</td>
+    <td>[https://uzis.cz/terminology/CodeSystem/mkn-10]: authoritative = https://tx.hl7.cz/r4, candidates=</td>
   </tr>
   <tr>
     <td>System not handled by any servers. Using primary server</td>
     <td>https://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://uzis.cz/terminology/CodeSystem/mkn-10</td>
-    <td>auth = , candidates=</td>
+    <td>https://www.orpha.net</td>
+    <td>[https://www.orpha.net]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server https://tx.hl7.cz/r4</td>
+    <td>https://tx.hl7.cz/r4</td>
+    <td></td>
+    <td>https://sukl.cz/terminology/CodeSystem/dlp-formy</td>
+    <td>[https://sukl.cz/terminology/CodeSystem/dlp-formy]: authoritative = https://tx.hl7.cz/r4, candidates=</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server https://tx.hl7.cz/r4</td>
+    <td>https://tx.hl7.cz/r4</td>
+    <td></td>
+    <td>https://sukl.cz/terminology/CodeSystem/dlp-lecivelatky</td>
+    <td>[https://sukl.cz/terminology/CodeSystem/dlp-lecivelatky]: authoritative = https://tx.hl7.cz/r4, candidates=</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server https://tx.hl7.cz/r4</td>
+    <td>https://tx.hl7.cz/r4</td>
+    <td></td>
+    <td>https://ncez.mzcr.cz/nclp/CodeSystem/nclppol</td>
+    <td>[https://ncez.mzcr.cz/nclp/CodeSystem/nclppol]: authoritative = https://tx.hl7.cz/r4, candidates=</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server https://tx.hl7.cz/r4</td>
+    <td>https://tx.hl7.cz/r4</td>
+    <td></td>
+    <td>https://ncez.mzcr.cz/nclp/CodeSystem/nclpmat</td>
+    <td>[https://ncez.mzcr.cz/nclp/CodeSystem/nclpmat]: authoritative = https://tx.hl7.cz/r4, candidates=</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server https://tx.hl7.cz/r4</td>
+    <td>https://tx.hl7.cz/r4</td>
+    <td></td>
+    <td>https://ncez.mzcr.cz/nclp/CodeSystem/nclppol|02.97.01</td>
+    <td>[https://ncez.mzcr.cz/nclp/CodeSystem/nclppol|02.97.01]: authoritative = https://tx.hl7.cz/r4, candidates=</td>
   </tr>
   <tr>
     <td>System not handled by any servers. Using primary server</td>
     <td>https://tx.fhir.org/r4</td>
-    <td>https://uzis.cz/terminology/ValueSet/mkn-10|0.2.0</td>
-    <td>https://uzis.cz/terminology/CodeSystem/mkn-10</td>
-    <td>auth = , candidates=</td>
+    <td></td>
+    <td>https://www.orpha.net|2024-07</td>
+    <td>[https://www.orpha.net|2024-07]: authoritative = , candidates=</td>
   </tr>
 </table>
 <h2>Primary Server: https://tx.fhir.org/r4</h2>
 <a href="https://tx.fhir.org/r4"></a>
-<p>Use Count: 6. Code Systems used: </p>
+<p>Use Count: 7. Code Systems used: </p>
 <table class="grid">
   <tr>
     <th>
@@ -256,107 +323,31 @@
     </th>
   </tr>
   <tr>
-    <td>http://loinc.org</td>
-    <td>0</td>
+    <td>https://www.orpha.net</td>
+    <td>1</td>
     <td>1</td>
     <td>
-      <a href="http://terminology.hl7.org/5.0.0/CodeSystem-v3-loinc.html">Logical Observation Identifiers, Names and Codes (LOINC)</a>
+      <a href="CodeSystem-ORPHAdisease.html">ORPHA vzácná onemocnění</a>
     </td>
   </tr>
   <tr>
-    <td>http://loinc.org|3.0.1</td>
-    <td>0</td>
+    <td>https://www.orpha.net|2024-07</td>
     <td>1</td>
-    <td>
-      <a href="http://terminology.hl7.org/5.0.0/CodeSystem-v3-loinc.html">Logical Observation Identifiers, Names and Codes (LOINC)</a>
-    </td>
-  </tr>
-  <tr>
-    <td>http://standardterms.edqm.eu</td>
-    <td>0</td>
-    <td>1</td>
-    <td>
-      <a href="http://tx.fhir.org/r4/ValueSet/edqm">EDQM Standard Terms</a>
-    </td>
-  </tr>
-  <tr>
-    <td>http://www.orpha.net</td>
-    <td>0</td>
     <td>1</td>
     <td></td>
   </tr>
   <tr>
-    <td>https://sukl.cz/terminology/CodeSystem/dlp-lecivelatky</td>
-    <td>2</td>
-    <td>1</td>
-    <td>
-      <a href="CodeSystem-dlp-lecivelatky.html">Codesystem of DLP Lecive latky</a>
-    </td>
-  </tr>
-  <tr>
-    <td>https://sukl.cz/terminology/CodeSystem/dlp-lecivelatky|0.2.0</td>
+    <td>https://www.orpha.net|2026</td>
     <td>0</td>
     <td>1</td>
     <td>
-      <a href="CodeSystem-dlp-lecivelatky.html">Codesystem of DLP Lecive latky</a>
-    </td>
-  </tr>
-  <tr>
-    <td>https://sukl.cz/terminology/CodeSystem/dlp-lecivepripravky</td>
-    <td>2</td>
-    <td>1</td>
-    <td>
-      <a href="CodeSystem-dlp-lecivepripravky.html">Codesystem of DLP Lecive pripravky</a>
-    </td>
-  </tr>
-  <tr>
-    <td>https://sukl.cz/terminology/CodeSystem/dlp-lecivepripravky|0.2.0</td>
-    <td>0</td>
-    <td>1</td>
-    <td>
-      <a href="CodeSystem-dlp-lecivepripravky.html">Codesystem of DLP Lecive pripravky</a>
-    </td>
-  </tr>
-  <tr>
-    <td>https://uzis.cz/terminology/CodeSystem/mkn-10</td>
-    <td>2</td>
-    <td>1</td>
-    <td>
-      <a href="CodeSystem-mkn-10.html">Kódový systém MKN-10</a>
-    </td>
-  </tr>
-  <tr>
-    <td>https://uzis.cz/terminology/CodeSystem/mkn-10|0.2.0</td>
-    <td>0</td>
-    <td>1</td>
-    <td>
-      <a href="CodeSystem-mkn-10.html">Kódový systém MKN-10</a>
-    </td>
-  </tr>
-  <tr>
-    <td>urn:ietf:bcp:13</td>
-    <td>0</td>
-    <td>1</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>urn:ietf:rfc:3986</td>
-    <td>0</td>
-    <td>1</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>urn:iso:std:iso:3166</td>
-    <td>0</td>
-    <td>1</td>
-    <td>
-      <a href="http://terminology.hl7.org/5.0.0/CodeSystem-ISO3166Part1.html">ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code</a>
+      <a href="CodeSystem-ORPHAdisease.html">ORPHA vzácná onemocnění</a>
     </td>
   </tr>
 </table>
-<h2>Server: https://tx.hl7europe.eu/r4</h2>
-<a href="https://tx.hl7europe.eu/r4"></a>
-<p>Use Count: 0. Code Systems used: </p>
+<h2>Server: https://tx.hl7.cz/r4</h2>
+<a href="https://tx.hl7.cz/r4"></a>
+<p>Use Count: 10. Code Systems used: </p>
 <table class="grid">
   <tr>
     <th>
@@ -378,6 +369,118 @@
     <td>1</td>
     <td>
       <a href="http://hl7.org/fhir/R4/codesystem-snomedct.html">SNOMED CT (all versions)</a>
+    </td>
+  </tr>
+  <tr>
+    <td>https://ncez.mzcr.cz/nclp/CodeSystem/nclpmat</td>
+    <td>1</td>
+    <td>1</td>
+    <td>
+      <a href="CodeSystem-NCLPMAT.html">NCLPMAT</a>
+    </td>
+  </tr>
+  <tr>
+    <td>https://ncez.mzcr.cz/nclp/CodeSystem/nclpmat|20260214</td>
+    <td>0</td>
+    <td>1</td>
+    <td>
+      <a href="CodeSystem-NCLPMAT.html">NCLPMAT</a>
+    </td>
+  </tr>
+  <tr>
+    <td>https://ncez.mzcr.cz/nclp/CodeSystem/nclppol</td>
+    <td>1</td>
+    <td>1</td>
+    <td>
+      <a href="CodeSystem-NCLPPOL.html">NCLPPOL Code System</a>
+    </td>
+  </tr>
+  <tr>
+    <td>https://ncez.mzcr.cz/nclp/CodeSystem/nclppol|02.97.01</td>
+    <td>1</td>
+    <td>1</td>
+    <td>
+      <a href="CodeSystem-NCLPPOL.html">NCLPPOL Code System</a>
+    </td>
+  </tr>
+  <tr>
+    <td>https://sukl.cz/terminology/CodeSystem/dlp-atc</td>
+    <td>1</td>
+    <td>1</td>
+    <td>
+      <a href="CodeSystem-dlp-atc.html">ATC CZ</a>
+    </td>
+  </tr>
+  <tr>
+    <td>https://sukl.cz/terminology/CodeSystem/dlp-atc|1.0.0</td>
+    <td>0</td>
+    <td>1</td>
+    <td>
+      <a href="CodeSystem-dlp-atc.html">ATC CZ</a>
+    </td>
+  </tr>
+  <tr>
+    <td>https://sukl.cz/terminology/CodeSystem/dlp-formy</td>
+    <td>1</td>
+    <td>1</td>
+    <td>
+      <a href="CodeSystem-dlp-formy.html">DLP formy</a>
+    </td>
+  </tr>
+  <tr>
+    <td>https://sukl.cz/terminology/CodeSystem/dlp-formy|1.0.0</td>
+    <td>0</td>
+    <td>1</td>
+    <td>
+      <a href="CodeSystem-dlp-formy.html">DLP formy</a>
+    </td>
+  </tr>
+  <tr>
+    <td>https://sukl.cz/terminology/CodeSystem/dlp-lecivelatky</td>
+    <td>1</td>
+    <td>1</td>
+    <td>
+      <a href="CodeSystem-dlp-lecivelatky.html">DLP Lecive latky</a>
+    </td>
+  </tr>
+  <tr>
+    <td>https://sukl.cz/terminology/CodeSystem/dlp-lecivelatky|1.0.0</td>
+    <td>0</td>
+    <td>1</td>
+    <td>
+      <a href="CodeSystem-dlp-lecivelatky.html">DLP Lecive latky</a>
+    </td>
+  </tr>
+  <tr>
+    <td>https://sukl.cz/terminology/CodeSystem/dlp-lecivepripravky</td>
+    <td>1</td>
+    <td>1</td>
+    <td>
+      <a href="CodeSystem-dlp-lecivepripravky.html">DLP Lecive pripravky</a>
+    </td>
+  </tr>
+  <tr>
+    <td>https://sukl.cz/terminology/CodeSystem/dlp-lecivepripravky|1.0.0</td>
+    <td>0</td>
+    <td>1</td>
+    <td>
+      <a href="CodeSystem-dlp-lecivepripravky.html">DLP Lecive pripravky</a>
+    </td>
+  </tr>
+  <tr>
+    <td>https://uzis.cz/terminology/CodeSystem/mkn-10</td>
+    <td>1</td>
+    <td>1</td>
+    <td>
+      <a href="CodeSystem-mkn-10.html">Kódový systém MKN-10</a>
+    </td>
+  </tr>
+  <tr>
+    <td>https://uzis.cz/terminology/CodeSystem/mkn-10|2025-01</td>
+    <td>0</td>
+    <td>1</td>
+    <td>
+      <a href="CodeSystem-mkn-10.html">Kódový systém MKN-10</a>
     </td>
   </tr>
 </table>

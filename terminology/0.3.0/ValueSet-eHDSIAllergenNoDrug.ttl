@@ -1,0 +1,1482 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hl7.cz/terminology/ValueSet/eHDSIAllergenNoDrug> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "eHDSIAllergenNoDrug"] ;
+  fhir:Resource.language [ fhir:value "cs"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xml:lang=\"cs\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"cs\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet eHDSIAllergenNoDrug</b></p><a name=\"eHDSIAllergenNoDrug\"> </a><a name=\"hceHDSIAllergenNoDrug\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: cs</p></div><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/432003\">432003</a></td><td style=\"color: #cccccc\">barvivo kyselina karmínová</td></tr><tr><td><a href=\"http://snomed.info/id/2159007\">2159007</a></td><td style=\"color: #cccccc\">barvivo Azorubin S</td></tr><tr><td><a href=\"http://snomed.info/id/2309006\">2309006</a></td><td style=\"color: #cccccc\">zlato</td></tr><tr><td><a href=\"http://snomed.info/id/2799001\">2799001</a></td><td style=\"color: #cccccc\">methylbenzethoniumchlorid</td></tr><tr><td><a href=\"http://snomed.info/id/3718001\">3718001</a></td><td style=\"color: #cccccc\">kravské mléko</td></tr><tr><td><a href=\"http://snomed.info/id/3829006\">3829006</a></td><td style=\"color: #cccccc\">železo</td></tr><tr><td><a href=\"http://snomed.info/id/6725000\">6725000</a></td><td style=\"color: #cccccc\">methylenová modř</td></tr><tr><td><a href=\"http://snomed.info/id/7434003\">7434003</a></td><td style=\"color: #cccccc\">barvivo Erythrosin B</td></tr><tr><td><a href=\"http://snomed.info/id/8204009\">8204009</a></td><td style=\"color: #cccccc\">polyester</td></tr><tr><td><a href=\"http://snomed.info/id/9010006\">9010006</a></td><td style=\"color: #cccccc\">barvivo methylenová modř</td></tr><tr><td><a href=\"http://snomed.info/id/9021002\">9021002</a></td><td style=\"color: #cccccc\">karbaryl</td></tr><tr><td><a href=\"http://snomed.info/id/11526002\">11526002</a></td><td style=\"color: #cccccc\">aspartam</td></tr><tr><td><a href=\"http://snomed.info/id/12503006\">12503006</a></td><td style=\"color: #cccccc\">hliník</td></tr><tr><td><a href=\"http://snomed.info/id/12510000\">12510000</a></td><td style=\"color: #cccccc\">eukalyptový olej</td></tr><tr><td><a href=\"http://snomed.info/id/13577000\">13577000</a></td><td style=\"color: #cccccc\">ořech</td></tr><tr><td><a href=\"http://snomed.info/id/13652007\">13652007</a></td><td style=\"color: #cccccc\">křemík</td></tr><tr><td><a href=\"http://snomed.info/id/14402002\">14402002</a></td><td style=\"color: #cccccc\">dřevo</td></tr><tr><td><a href=\"http://snomed.info/id/16313001\">16313001</a></td><td style=\"color: #cccccc\">čaj</td></tr><tr><td><a href=\"http://snomed.info/id/17172002\">17172002</a></td><td style=\"color: #cccccc\">barvivo dibromofluorescein</td></tr><tr><td><a href=\"http://snomed.info/id/17486007\">17486007</a></td><td style=\"color: #cccccc\">mekrylát</td></tr><tr><td><a href=\"http://snomed.info/id/17693003\">17693003</a></td><td style=\"color: #cccccc\">barvivo akriflavin</td></tr><tr><td><a href=\"http://snomed.info/id/19839007\">19839007</a></td><td style=\"color: #cccccc\">sorbitol</td></tr><tr><td><a href=\"http://snomed.info/id/19893005\">19893005</a></td><td style=\"color: #cccccc\">dichroman draselný</td></tr><tr><td><a href=\"http://snomed.info/id/21592006\">21592006</a></td><td style=\"color: #cccccc\">barvivo Tartrazin</td></tr><tr><td><a href=\"http://snomed.info/id/22242006\">22242006</a></td><td style=\"color: #cccccc\">glutaraldehyd</td></tr><tr><td><a href=\"http://snomed.info/id/22836000\">22836000</a></td><td style=\"color: #cccccc\">zelenina</td></tr><tr><td><a href=\"http://snomed.info/id/22931006\">22931006</a></td><td style=\"color: #cccccc\">Evansova modř</td></tr><tr><td><a href=\"http://snomed.info/id/24102007\">24102007</a></td><td style=\"color: #cccccc\">chlorthalonil</td></tr><tr><td><a href=\"http://snomed.info/id/24215009\">24215009</a></td><td style=\"color: #cccccc\">kyselina pikrová</td></tr><tr><td><a href=\"http://snomed.info/id/25761002\">25761002</a></td><td style=\"color: #cccccc\">glutamin</td></tr><tr><td><a href=\"http://snomed.info/id/27119002\">27119002</a></td><td style=\"color: #cccccc\">anhydrid kyseliny trimellitové</td></tr><tr><td><a href=\"http://snomed.info/id/28230009\">28230009</a></td><td style=\"color: #cccccc\">drůbež</td></tr><tr><td><a href=\"http://snomed.info/id/28421003\">28421003</a></td><td style=\"color: #cccccc\">kyselina sorbová</td></tr><tr><td><a href=\"http://snomed.info/id/28647000\">28647000</a></td><td style=\"color: #cccccc\">maso</td></tr><tr><td><a href=\"http://snomed.info/id/29263009\">29263009</a></td><td style=\"color: #cccccc\">káva</td></tr><tr><td><a href=\"http://snomed.info/id/29522004\">29522004</a></td><td style=\"color: #cccccc\">tolónium-chlorid</td></tr><tr><td><a href=\"http://snomed.info/id/31006001\">31006001</a></td><td style=\"color: #cccccc\">říše rostliny (Plantae)</td></tr><tr><td><a href=\"http://snomed.info/id/31347007\">31347007</a></td><td style=\"color: #cccccc\">lékořice</td></tr><tr><td><a href=\"http://snomed.info/id/33008008\">33008008</a></td><td style=\"color: #cccccc\">prach</td></tr><tr><td><a href=\"http://snomed.info/id/33396006\">33396006</a></td><td style=\"color: #cccccc\">nikl</td></tr><tr><td><a href=\"http://snomed.info/id/35605007\">35605007</a></td><td style=\"color: #cccccc\">lanolin bezvodý</td></tr><tr><td><a href=\"http://snomed.info/id/35609001\">35609001</a></td><td style=\"color: #cccccc\">barvivo Azophloxin</td></tr><tr><td><a href=\"http://snomed.info/id/37017009\">37017009</a></td><td style=\"color: #cccccc\">Helminth</td></tr><tr><td><a href=\"http://snomed.info/id/37575004\">37575004</a></td><td style=\"color: #cccccc\">barvivo karmoisin A</td></tr><tr><td><a href=\"http://snomed.info/id/38271009\">38271009</a></td><td style=\"color: #cccccc\">šafránové barvivo</td></tr><tr><td><a href=\"http://snomed.info/id/41750006\">41750006</a></td><td style=\"color: #cccccc\">barvivo brazilin</td></tr><tr><td><a href=\"http://snomed.info/id/41967008\">41967008</a></td><td style=\"color: #cccccc\">stříbro</td></tr><tr><td><a href=\"http://snomed.info/id/42416001\">42416001</a></td><td style=\"color: #cccccc\">lanolin</td></tr><tr><td><a href=\"http://snomed.info/id/43230003\">43230003</a></td><td style=\"color: #cccccc\">pryž</td></tr><tr><td><a href=\"http://snomed.info/id/43735007\">43735007</a></td><td style=\"color: #cccccc\">síra</td></tr><tr><td><a href=\"http://snomed.info/id/44027008\">44027008</a></td><td style=\"color: #cccccc\">mořské plody</td></tr><tr><td><a href=\"http://snomed.info/id/47703008\">47703008</a></td><td style=\"color: #cccccc\">laktóza</td></tr><tr><td><a href=\"http://snomed.info/id/48540004\">48540004</a></td><td style=\"color: #cccccc\">patentní modř V sodná sůl</td></tr><tr><td><a href=\"http://snomed.info/id/50593009\">50593009</a></td><td style=\"color: #cccccc\">kasein</td></tr><tr><td><a href=\"http://snomed.info/id/51503008\">51503008</a></td><td style=\"color: #cccccc\">růžový olej</td></tr><tr><td><a href=\"http://snomed.info/id/51905005\">51905005</a></td><td style=\"color: #cccccc\">hořčice</td></tr><tr><td><a href=\"http://snomed.info/id/51963001\">51963001</a></td><td style=\"color: #cccccc\">sulfitová sůl</td></tr><tr><td><a href=\"http://snomed.info/id/52454007\">52454007</a></td><td style=\"color: #cccccc\">albumin</td></tr><tr><td><a href=\"http://snomed.info/id/52836003\">52836003</a></td><td style=\"color: #cccccc\">paraformaldehyd</td></tr><tr><td><a href=\"http://snomed.info/id/54041009\">54041009</a></td><td style=\"color: #cccccc\">světlicový olej</td></tr><tr><td><a href=\"http://snomed.info/id/56822005\">56822005</a></td><td style=\"color: #cccccc\">kvartérní amoniová sůl</td></tr><tr><td><a href=\"http://snomed.info/id/57126000\">57126000</a></td><td style=\"color: #cccccc\">lepidlo</td></tr><tr><td><a href=\"http://snomed.info/id/57720001\">57720001</a></td><td style=\"color: #cccccc\">anýzový olej</td></tr><tr><td><a href=\"http://snomed.info/id/59351004\">59351004</a></td><td style=\"color: #cccccc\">citrát</td></tr><tr><td><a href=\"http://snomed.info/id/59533004\">59533004</a></td><td style=\"color: #cccccc\">potravinářská přísada</td></tr><tr><td><a href=\"http://snomed.info/id/59545008\">59545008</a></td><td style=\"color: #cccccc\">pesticidy</td></tr><tr><td><a href=\"http://snomed.info/id/61088005\">61088005</a></td><td style=\"color: #cccccc\">plast</td></tr><tr><td><a href=\"http://snomed.info/id/61789006\">61789006</a></td><td style=\"color: #cccccc\">barvivo</td></tr><tr><td><a href=\"http://snomed.info/id/63338004\">63338004</a></td><td style=\"color: #cccccc\">aromatizující látka v léčivých přípravcích</td></tr><tr><td><a href=\"http://snomed.info/id/64601002\">64601002</a></td><td style=\"color: #cccccc\">dřevný prach</td></tr><tr><td><a href=\"http://snomed.info/id/65123005\">65123005</a></td><td style=\"color: #cccccc\">cholin</td></tr><tr><td><a href=\"http://snomed.info/id/65345002\">65345002</a></td><td style=\"color: #cccccc\">epoxidová pryskyřice</td></tr><tr><td><a href=\"http://snomed.info/id/66562002\">66562002</a></td><td style=\"color: #cccccc\">cigaretový tabák</td></tr><tr><td><a href=\"http://snomed.info/id/66925006\">66925006</a></td><td style=\"color: #cccccc\">měď</td></tr><tr><td><a href=\"http://snomed.info/id/67324005\">67324005</a></td><td style=\"color: #cccccc\">rýže</td></tr><tr><td><a href=\"http://snomed.info/id/68524009\">68524009</a></td><td style=\"color: #cccccc\">tragant</td></tr><tr><td><a href=\"http://snomed.info/id/71463006\">71463006</a></td><td style=\"color: #cccccc\">polyetylen</td></tr><tr><td><a href=\"http://snomed.info/id/72179002\">72179002</a></td><td style=\"color: #cccccc\">oxybenzon</td></tr><tr><td><a href=\"http://snomed.info/id/72511004\">72511004</a></td><td style=\"color: #cccccc\">ovoce</td></tr><tr><td><a href=\"http://snomed.info/id/75044009\">75044009</a></td><td style=\"color: #cccccc\">sisalové vlákno</td></tr><tr><td><a href=\"http://snomed.info/id/75665004\">75665004</a></td><td style=\"color: #cccccc\">glutaman sodný</td></tr><tr><td><a href=\"http://snomed.info/id/80237000\">80237000</a></td><td style=\"color: #cccccc\">kakaové máslo</td></tr><tr><td><a href=\"http://snomed.info/id/81911001\">81911001</a></td><td style=\"color: #cccccc\">žvýkací tabák</td></tr><tr><td><a href=\"http://snomed.info/id/82566005\">82566005</a></td><td style=\"color: #cccccc\">krmivo pro zvířata</td></tr><tr><td><a href=\"http://snomed.info/id/83595008\">83595008</a></td><td style=\"color: #cccccc\">kozí mléko</td></tr><tr><td><a href=\"http://snomed.info/id/83619009\">83619009</a></td><td style=\"color: #cccccc\">polyvinylalkohol</td></tr><tr><td><a href=\"http://snomed.info/id/84212004\">84212004</a></td><td style=\"color: #cccccc\">ethylenimin</td></tr><tr><td><a href=\"http://snomed.info/id/84791008\">84791008</a></td><td style=\"color: #cccccc\">metabisulfit sodný</td></tr><tr><td><a href=\"http://snomed.info/id/89889006\">89889006</a></td><td style=\"color: #cccccc\">bavlněné vlákno</td></tr><tr><td><a href=\"http://snomed.info/id/102259006\">102259006</a></td><td style=\"color: #cccccc\">citrusové plody</td></tr><tr><td><a href=\"http://snomed.info/id/102261002\">102261002</a></td><td style=\"color: #cccccc\">jahoda</td></tr><tr><td><a href=\"http://snomed.info/id/102262009\">102262009</a></td><td style=\"color: #cccccc\">čokoláda</td></tr><tr><td><a href=\"http://snomed.info/id/102263004\">102263004</a></td><td style=\"color: #cccccc\">vejce (jedlá)</td></tr><tr><td><a href=\"http://snomed.info/id/102264005\">102264005</a></td><td style=\"color: #cccccc\">sýr</td></tr><tr><td><a href=\"http://snomed.info/id/102697003\">102697003</a></td><td style=\"color: #cccccc\">laktalbumin</td></tr><tr><td><a href=\"http://snomed.info/id/105590001\">105590001</a></td><td style=\"color: #cccccc\">látka</td></tr><tr><td><a href=\"http://snomed.info/id/111095003\">111095003</a></td><td style=\"color: #cccccc\">formaldehyd</td></tr><tr><td><a href=\"http://snomed.info/id/115589000\">115589000</a></td><td style=\"color: #cccccc\">ethanolamin</td></tr><tr><td><a href=\"http://snomed.info/id/116364004\">116364004</a></td><td style=\"color: #cccccc\">diazoniová sůl</td></tr><tr><td><a href=\"http://snomed.info/id/116549003\">116549003</a></td><td style=\"color: #cccccc\">organochlorový pesticid</td></tr><tr><td><a href=\"http://snomed.info/id/116637007\">116637007</a></td><td style=\"color: #cccccc\">houbový antigen</td></tr><tr><td><a href=\"http://snomed.info/id/119417004\">119417004</a></td><td style=\"color: #cccccc\">organofosfátové insekticidy</td></tr><tr><td><a href=\"http://snomed.info/id/128488006\">128488006</a></td><td style=\"color: #cccccc\">domácí prach</td></tr><tr><td><a href=\"http://snomed.info/id/226491003\">226491003</a></td><td style=\"color: #cccccc\">jablečná šťáva</td></tr><tr><td><a href=\"http://snomed.info/id/226723006\">226723006</a></td><td style=\"color: #cccccc\">pohanka - obilovina</td></tr><tr><td><a href=\"http://snomed.info/id/226776001\">226776001</a></td><td style=\"color: #cccccc\">sušené kravské mléko</td></tr><tr><td><a href=\"http://snomed.info/id/226791004\">226791004</a></td><td style=\"color: #cccccc\">ovčí mléko</td></tr><tr><td><a href=\"http://snomed.info/id/226915003\">226915003</a></td><td style=\"color: #cccccc\">červené maso</td></tr><tr><td><a href=\"http://snomed.info/id/226916002\">226916002</a></td><td style=\"color: #cccccc\">hovězí</td></tr><tr><td><a href=\"http://snomed.info/id/226942002\">226942002</a></td><td style=\"color: #cccccc\">jehně</td></tr><tr><td><a href=\"http://snomed.info/id/226955001\">226955001</a></td><td style=\"color: #cccccc\">kuřecí maso</td></tr><tr><td><a href=\"http://snomed.info/id/226963000\">226963000</a></td><td style=\"color: #cccccc\">kachní maso</td></tr><tr><td><a href=\"http://snomed.info/id/226967004\">226967004</a></td><td style=\"color: #cccccc\">krůta - maso</td></tr><tr><td><a href=\"http://snomed.info/id/227067008\">227067008</a></td><td style=\"color: #cccccc\">halibut</td></tr><tr><td><a href=\"http://snomed.info/id/227072004\">227072004</a></td><td style=\"color: #cccccc\">platýs červený</td></tr><tr><td><a href=\"http://snomed.info/id/227078000\">227078000</a></td><td style=\"color: #cccccc\">ďas mořský</td></tr><tr><td><a href=\"http://snomed.info/id/227083008\">227083008</a></td><td style=\"color: #cccccc\">platýs</td></tr><tr><td><a href=\"http://snomed.info/id/227099002\">227099002</a></td><td style=\"color: #cccccc\">treska tmavá</td></tr><tr><td><a href=\"http://snomed.info/id/227106004\">227106004</a></td><td style=\"color: #cccccc\">treska bělomasá</td></tr><tr><td><a href=\"http://snomed.info/id/227136008\">227136008</a></td><td style=\"color: #cccccc\">sardinka</td></tr><tr><td><a href=\"http://snomed.info/id/227139001\">227139001</a></td><td style=\"color: #cccccc\">šproty</td></tr><tr><td><a href=\"http://snomed.info/id/227151004\">227151004</a></td><td style=\"color: #cccccc\">garnáti</td></tr><tr><td><a href=\"http://snomed.info/id/227156009\">227156009</a></td><td style=\"color: #cccccc\">krevety (scampi)</td></tr><tr><td><a href=\"http://snomed.info/id/227183005\">227183005</a></td><td style=\"color: #cccccc\">rybí jikry</td></tr><tr><td><a href=\"http://snomed.info/id/227215000\">227215000</a></td><td style=\"color: #cccccc\">artyčok</td></tr><tr><td><a href=\"http://snomed.info/id/227219006\">227219006</a></td><td style=\"color: #cccccc\">lilek</td></tr><tr><td><a href=\"http://snomed.info/id/227220000\">227220000</a></td><td style=\"color: #cccccc\">červená řepa</td></tr><tr><td><a href=\"http://snomed.info/id/227227002\">227227002</a></td><td style=\"color: #cccccc\">savojská kapusta</td></tr><tr><td><a href=\"http://snomed.info/id/227229004\">227229004</a></td><td style=\"color: #cccccc\">bílé zelí</td></tr><tr><td><a href=\"http://snomed.info/id/227230009\">227230009</a></td><td style=\"color: #cccccc\">petržel kadeřávek</td></tr><tr><td><a href=\"http://snomed.info/id/227313005\">227313005</a></td><td style=\"color: #cccccc\">suché luštěniny</td></tr><tr><td><a href=\"http://snomed.info/id/227350006\">227350006</a></td><td style=\"color: #cccccc\">čočka</td></tr><tr><td><a href=\"http://snomed.info/id/227362005\">227362005</a></td><td style=\"color: #cccccc\">červené fazole ledvinka</td></tr><tr><td><a href=\"http://snomed.info/id/227376006\">227376006</a></td><td style=\"color: #cccccc\">semeno anýzu</td></tr><tr><td><a href=\"http://snomed.info/id/227379004\">227379004</a></td><td style=\"color: #cccccc\">bobkový list</td></tr><tr><td><a href=\"http://snomed.info/id/227382009\">227382009</a></td><td style=\"color: #cccccc\">kardamon</td></tr><tr><td><a href=\"http://snomed.info/id/227383004\">227383004</a></td><td style=\"color: #cccccc\">semeno celeru</td></tr><tr><td><a href=\"http://snomed.info/id/227385006\">227385006</a></td><td style=\"color: #cccccc\">chilli papričky mleté</td></tr><tr><td><a href=\"http://snomed.info/id/227388008\">227388008</a></td><td style=\"color: #cccccc\">skořice</td></tr><tr><td><a href=\"http://snomed.info/id/227390009\">227390009</a></td><td style=\"color: #cccccc\">list koriandru</td></tr><tr><td><a href=\"http://snomed.info/id/227391008\">227391008</a></td><td style=\"color: #cccccc\">semeno koriandru</td></tr><tr><td><a href=\"http://snomed.info/id/227395004\">227395004</a></td><td style=\"color: #cccccc\">karí koření</td></tr><tr><td><a href=\"http://snomed.info/id/227396003\">227396003</a></td><td style=\"color: #cccccc\">fenykl</td></tr><tr><td><a href=\"http://snomed.info/id/227400003\">227400003</a></td><td style=\"color: #cccccc\">zázvor</td></tr><tr><td><a href=\"http://snomed.info/id/227404007\">227404007</a></td><td style=\"color: #cccccc\">muškátový květ</td></tr><tr><td><a href=\"http://snomed.info/id/227405008\">227405008</a></td><td style=\"color: #cccccc\">majoránka</td></tr><tr><td><a href=\"http://snomed.info/id/227407000\">227407000</a></td><td style=\"color: #cccccc\">oregano</td></tr><tr><td><a href=\"http://snomed.info/id/227408005\">227408005</a></td><td style=\"color: #cccccc\">paprika (paprika)</td></tr><tr><td><a href=\"http://snomed.info/id/227409002\">227409002</a></td><td style=\"color: #cccccc\">maková zrna</td></tr><tr><td><a href=\"http://snomed.info/id/227411006\">227411006</a></td><td style=\"color: #cccccc\">šalvěj</td></tr><tr><td><a href=\"http://snomed.info/id/227413009\">227413009</a></td><td style=\"color: #cccccc\">tymián</td></tr><tr><td><a href=\"http://snomed.info/id/227414003\">227414003</a></td><td style=\"color: #cccccc\">kurkuma</td></tr><tr><td><a href=\"http://snomed.info/id/227425007\">227425007</a></td><td style=\"color: #cccccc\">fíky</td></tr><tr><td><a href=\"http://snomed.info/id/227435001\">227435001</a></td><td style=\"color: #cccccc\">nektarinka</td></tr><tr><td><a href=\"http://snomed.info/id/227444000\">227444000</a></td><td style=\"color: #cccccc\">maliny</td></tr><tr><td><a href=\"http://snomed.info/id/227447007\">227447007</a></td><td style=\"color: #cccccc\">kaki značky Sharon fruit</td></tr><tr><td><a href=\"http://snomed.info/id/227493005\">227493005</a></td><td style=\"color: #cccccc\">kešu ořechy</td></tr><tr><td><a href=\"http://snomed.info/id/227501001\">227501001</a></td><td style=\"color: #cccccc\">makadamový ořech</td></tr><tr><td><a href=\"http://snomed.info/id/227514000\">227514000</a></td><td style=\"color: #cccccc\">dýňové semínko</td></tr><tr><td><a href=\"http://snomed.info/id/227515004\">227515004</a></td><td style=\"color: #cccccc\">quinoa</td></tr><tr><td><a href=\"http://snomed.info/id/227538001\">227538001</a></td><td style=\"color: #cccccc\">marináda</td></tr><tr><td><a href=\"http://snomed.info/id/227598003\">227598003</a></td><td style=\"color: #cccccc\">med</td></tr><tr><td><a href=\"http://snomed.info/id/228104004\">228104004</a></td><td style=\"color: #cccccc\">butylovaný hydroxyanisol</td></tr><tr><td><a href=\"http://snomed.info/id/229934002\">229934002</a></td><td style=\"color: #cccccc\">cizrnová mouka</td></tr><tr><td><a href=\"http://snomed.info/id/229941008\">229941008</a></td><td style=\"color: #cccccc\">sójová mouka</td></tr><tr><td><a href=\"http://snomed.info/id/230034002\">230034002</a></td><td style=\"color: #cccccc\">ořechy a semena</td></tr><tr><td><a href=\"http://snomed.info/id/255640000\">255640000</a></td><td style=\"color: #cccccc\">biocid</td></tr><tr><td><a href=\"http://snomed.info/id/255667006\">255667006</a></td><td style=\"color: #cccccc\">parafín</td></tr><tr><td><a href=\"http://snomed.info/id/255764006\">255764006</a></td><td style=\"color: #cccccc\">freon</td></tr><tr><td><a href=\"http://snomed.info/id/255769001\">255769001</a></td><td style=\"color: #cccccc\">hexahydroftalanhydrid</td></tr><tr><td><a href=\"http://snomed.info/id/255772008\">255772008</a></td><td style=\"color: #cccccc\">difenylmethan-di-isokyanát</td></tr><tr><td><a href=\"http://snomed.info/id/255775005\">255775005</a></td><td style=\"color: #cccccc\">maleinanhydrid</td></tr><tr><td><a href=\"http://snomed.info/id/255842006\">255842006</a></td><td style=\"color: #cccccc\">peruánský balzám</td></tr><tr><td><a href=\"http://snomed.info/id/255859001\">255859001</a></td><td style=\"color: #cccccc\">butylovaný hydroxytoluen</td></tr><tr><td><a href=\"http://snomed.info/id/255864002\">255864002</a></td><td style=\"color: #cccccc\">ethyl-4-hydroxybenzoát</td></tr><tr><td><a href=\"http://snomed.info/id/255868004\">255868004</a></td><td style=\"color: #cccccc\">methyl-4-hydroxybenzoát</td></tr><tr><td><a href=\"http://snomed.info/id/255924000\">255924000</a></td><td style=\"color: #cccccc\">eugenol</td></tr><tr><td><a href=\"http://snomed.info/id/256260009\">256260009</a></td><td style=\"color: #cccccc\">pyl stromů a keřů</td></tr><tr><td><a href=\"http://snomed.info/id/256272003\">256272003</a></td><td style=\"color: #cccccc\">pyl jilmu</td></tr><tr><td><a href=\"http://snomed.info/id/256289006\">256289006</a></td><td style=\"color: #cccccc\">pyl chryzantémy</td></tr><tr><td><a href=\"http://snomed.info/id/256292005\">256292005</a></td><td style=\"color: #cccccc\">pyl květin a plevelů</td></tr><tr><td><a href=\"http://snomed.info/id/256293000\">256293000</a></td><td style=\"color: #cccccc\">pyl pelyňku černobýlu</td></tr><tr><td><a href=\"http://snomed.info/id/256303006\">256303006</a></td><td style=\"color: #cccccc\">pyl ambrózie</td></tr><tr><td><a href=\"http://snomed.info/id/256305004\">256305004</a></td><td style=\"color: #cccccc\">stromová pryskyřice</td></tr><tr><td><a href=\"http://snomed.info/id/256306003\">256306003</a></td><td style=\"color: #cccccc\">pomeranč</td></tr><tr><td><a href=\"http://snomed.info/id/256307007\">256307007</a></td><td style=\"color: #cccccc\">banán</td></tr><tr><td><a href=\"http://snomed.info/id/256313003\">256313003</a></td><td style=\"color: #cccccc\">ananas</td></tr><tr><td><a href=\"http://snomed.info/id/256315005\">256315005</a></td><td style=\"color: #cccccc\">grapefruit</td></tr><tr><td><a href=\"http://snomed.info/id/256316006\">256316006</a></td><td style=\"color: #cccccc\">mandarinka</td></tr><tr><td><a href=\"http://snomed.info/id/256317002\">256317002</a></td><td style=\"color: #cccccc\">hrozny</td></tr><tr><td><a href=\"http://snomed.info/id/256318007\">256318007</a></td><td style=\"color: #cccccc\">zelené fazolky</td></tr><tr><td><a href=\"http://snomed.info/id/256319004\">256319004</a></td><td style=\"color: #cccccc\">mrkev</td></tr><tr><td><a href=\"http://snomed.info/id/256326004\">256326004</a></td><td style=\"color: #cccccc\">řapíkatý celer</td></tr><tr><td><a href=\"http://snomed.info/id/256329006\">256329006</a></td><td style=\"color: #cccccc\">špenát</td></tr><tr><td><a href=\"http://snomed.info/id/256331002\">256331002</a></td><td style=\"color: #cccccc\">kopr</td></tr><tr><td><a href=\"http://snomed.info/id/256350002\">256350002</a></td><td style=\"color: #cccccc\">mandle</td></tr><tr><td><a href=\"http://snomed.info/id/256351003\">256351003</a></td><td style=\"color: #cccccc\">para ořech</td></tr><tr><td><a href=\"http://snomed.info/id/256352005\">256352005</a></td><td style=\"color: #cccccc\">vlašský ořech - ořech</td></tr><tr><td><a href=\"http://snomed.info/id/256353000\">256353000</a></td><td style=\"color: #cccccc\">lískový oříšek</td></tr><tr><td><a href=\"http://snomed.info/id/256354006\">256354006</a></td><td style=\"color: #cccccc\">fazole</td></tr><tr><td><a href=\"http://snomed.info/id/256363008\">256363008</a></td><td style=\"color: #cccccc\">živočišný materiál</td></tr><tr><td><a href=\"http://snomed.info/id/256419000\">256419000</a></td><td style=\"color: #cccccc\">myší epitel</td></tr><tr><td><a href=\"http://snomed.info/id/256435007\">256435007</a></td><td style=\"color: #cccccc\">peří</td></tr><tr><td><a href=\"http://snomed.info/id/256443002\">256443002</a></td><td style=\"color: #cccccc\">vaječný bílek</td></tr><tr><td><a href=\"http://snomed.info/id/256506002\">256506002</a></td><td style=\"color: #cccccc\">materiál z nerezové oceli</td></tr><tr><td><a href=\"http://snomed.info/id/256526003\">256526003</a></td><td style=\"color: #cccccc\">slitina kobaltu a chromu</td></tr><tr><td><a href=\"http://snomed.info/id/256579008\">256579008</a></td><td style=\"color: #cccccc\">durapatit</td></tr><tr><td><a href=\"http://snomed.info/id/256596009\">256596009</a></td><td style=\"color: #cccccc\">zubní pájka zlatá</td></tr><tr><td><a href=\"http://snomed.info/id/256607001\">256607001</a></td><td style=\"color: #cccccc\">skusová šablona - tepelně tvrzená keramika</td></tr><tr><td><a href=\"http://snomed.info/id/256633009\">256633009</a></td><td style=\"color: #cccccc\">polypropylen</td></tr><tr><td><a href=\"http://snomed.info/id/259221006\">259221006</a></td><td style=\"color: #cccccc\">methanol</td></tr><tr><td><a href=\"http://snomed.info/id/260118006\">260118006</a></td><td style=\"color: #cccccc\">pyl drnavce palestinského</td></tr><tr><td><a href=\"http://snomed.info/id/260126003\">260126003</a></td><td style=\"color: #cccccc\">olivový pyl</td></tr><tr><td><a href=\"http://snomed.info/id/260152009\">260152009</a></td><td style=\"color: #cccccc\">kočičí kožní šupiny</td></tr><tr><td><a href=\"http://snomed.info/id/260153004\">260153004</a></td><td style=\"color: #cccccc\">kravské kožní šupiny</td></tr><tr><td><a href=\"http://snomed.info/id/260154005\">260154005</a></td><td style=\"color: #cccccc\">psí kožní šupiny</td></tr><tr><td><a href=\"http://snomed.info/id/260167008\">260167008</a></td><td style=\"color: #cccccc\">sezamová semínka</td></tr><tr><td><a href=\"http://snomed.info/id/260168003\">260168003</a></td><td style=\"color: #cccccc\">bílé fazole</td></tr><tr><td><a href=\"http://snomed.info/id/260176001\">260176001</a></td><td style=\"color: #cccccc\">ovoce kiwi</td></tr><tr><td><a href=\"http://snomed.info/id/260177005\">260177005</a></td><td style=\"color: #cccccc\">meloun</td></tr><tr><td><a href=\"http://snomed.info/id/260179008\">260179008</a></td><td style=\"color: #cccccc\">mango</td></tr><tr><td><a href=\"http://snomed.info/id/260184002\">260184002</a></td><td style=\"color: #cccccc\">hrách</td></tr><tr><td><a href=\"http://snomed.info/id/260189007\">260189007</a></td><td style=\"color: #cccccc\">pekanové ořechy</td></tr><tr><td><a href=\"http://snomed.info/id/260204008\">260204008</a></td><td style=\"color: #cccccc\">semeno bavlníku</td></tr><tr><td><a href=\"http://snomed.info/id/260205009\">260205009</a></td><td style=\"color: #cccccc\">semeno slunečnice</td></tr><tr><td><a href=\"http://snomed.info/id/261249004\">261249004</a></td><td style=\"color: #cccccc\">nikl kobalt chrom</td></tr><tr><td><a href=\"http://snomed.info/id/261712009\">261712009</a></td><td style=\"color: #cccccc\">akrylový polymer</td></tr><tr><td><a href=\"http://snomed.info/id/264287008\">264287008</a></td><td style=\"color: #cccccc\">zvířecí kožní šupiny</td></tr><tr><td><a href=\"http://snomed.info/id/264295007\">264295007</a></td><td style=\"color: #cccccc\">bílkoviny kravského mléka</td></tr><tr><td><a href=\"http://snomed.info/id/264331002\">264331002</a></td><td style=\"color: #cccccc\">obilí</td></tr><tr><td><a href=\"http://snomed.info/id/264337003\">264337003</a></td><td style=\"color: #cccccc\">semeno</td></tr><tr><td><a href=\"http://snomed.info/id/276310004\">276310004</a></td><td style=\"color: #cccccc\">zvířecí chlupy</td></tr><tr><td><a href=\"http://snomed.info/id/277016007\">277016007</a></td><td style=\"color: #cccccc\">alfachloralóza</td></tr><tr><td><a href=\"http://snomed.info/id/278840001\">278840001</a></td><td style=\"color: #cccccc\">krevety</td></tr><tr><td><a href=\"http://snomed.info/id/280939008\">280939008</a></td><td style=\"color: #cccccc\">jed hmyzu</td></tr><tr><td><a href=\"http://snomed.info/id/288326000\">288326000</a></td><td style=\"color: #cccccc\">jed sršně</td></tr><tr><td><a href=\"http://snomed.info/id/288328004\">288328004</a></td><td style=\"color: #cccccc\">včelí jed</td></tr><tr><td><a href=\"http://snomed.info/id/288460008\">288460008</a></td><td style=\"color: #cccccc\">jed čmeláka</td></tr><tr><td><a href=\"http://snomed.info/id/290008007\">290008007</a></td><td style=\"color: #cccccc\">pyl bodláku</td></tr><tr><td><a href=\"http://snomed.info/id/301093003\">301093003</a></td><td style=\"color: #cccccc\">anhydrid organické kyseliny</td></tr><tr><td><a href=\"http://snomed.info/id/303300008\">303300008</a></td><td style=\"color: #cccccc\">vaječný protein</td></tr><tr><td><a href=\"http://snomed.info/id/303314008\">303314008</a></td><td style=\"color: #cccccc\">jed štíra</td></tr><tr><td><a href=\"http://snomed.info/id/303315009\">303315009</a></td><td style=\"color: #cccccc\">pavoučí jed</td></tr><tr><td><a href=\"http://snomed.info/id/311443003\">311443003</a></td><td style=\"color: #cccccc\">prach z kávových zrn</td></tr><tr><td><a href=\"http://snomed.info/id/311731000\">311731000</a></td><td style=\"color: #cccccc\">parafínový vosk</td></tr><tr><td><a href=\"http://snomed.info/id/387293003\">387293003</a></td><td style=\"color: #cccccc\">anthralin</td></tr><tr><td><a href=\"http://snomed.info/id/395734009\">395734009</a></td><td style=\"color: #cccccc\">guarová guma</td></tr><tr><td><a href=\"http://snomed.info/id/396049000\">396049000</a></td><td style=\"color: #cccccc\">ethyl-2-kyanoakrylát</td></tr><tr><td><a href=\"http://snomed.info/id/398705004\">398705004</a></td><td style=\"color: #cccccc\">konopí</td></tr><tr><td><a href=\"http://snomed.info/id/410853002\">410853002</a></td><td style=\"color: #cccccc\">perfluorovaná látka</td></tr><tr><td><a href=\"http://snomed.info/id/412056003\">412056003</a></td><td style=\"color: #cccccc\">fazole Lima</td></tr><tr><td><a href=\"http://snomed.info/id/412060000\">412060000</a></td><td style=\"color: #cccccc\">černý pepř</td></tr><tr><td><a href=\"http://snomed.info/id/412061001\">412061001</a></td><td style=\"color: #cccccc\">borůvky</td></tr><tr><td><a href=\"http://snomed.info/id/412068007\">412068007</a></td><td style=\"color: #cccccc\">žito</td></tr><tr><td><a href=\"http://snomed.info/id/412070003\">412070003</a></td><td style=\"color: #cccccc\">vanilka</td></tr><tr><td><a href=\"http://snomed.info/id/412071004\">412071004</a></td><td style=\"color: #cccccc\">pšenice</td></tr><tr><td><a href=\"http://snomed.info/id/412145001\">412145001</a></td><td style=\"color: #cccccc\">barva na vlasy</td></tr><tr><td><a href=\"http://snomed.info/id/412150007\">412150007</a></td><td style=\"color: #cccccc\">zbytky hmyzu</td></tr><tr><td><a href=\"http://snomed.info/id/412153009\">412153009</a></td><td style=\"color: #cccccc\">králičí srst</td></tr><tr><td><a href=\"http://snomed.info/id/412156001\">412156001</a></td><td style=\"color: #cccccc\">hedvábí</td></tr><tr><td><a href=\"http://snomed.info/id/412357001\">412357001</a></td><td style=\"color: #cccccc\">kukuřice</td></tr><tr><td><a href=\"http://snomed.info/id/415710007\">415710007</a></td><td style=\"color: #cccccc\">terpen</td></tr><tr><td><a href=\"http://snomed.info/id/418266005\">418266005</a></td><td style=\"color: #cccccc\">žlutý parafín</td></tr><tr><td><a href=\"http://snomed.info/id/418785009\">418785009</a></td><td style=\"color: #cccccc\">parfém</td></tr><tr><td><a href=\"http://snomed.info/id/418920007\">418920007</a></td><td style=\"color: #cccccc\">adhezivní přípravek</td></tr><tr><td><a href=\"http://snomed.info/id/419420009\">419420009</a></td><td style=\"color: #cccccc\">vodní meloun</td></tr><tr><td><a href=\"http://snomed.info/id/419604006\">419604006</a></td><td style=\"color: #cccccc\">pyl plevele</td></tr><tr><td><a href=\"http://snomed.info/id/419633007\">419633007</a></td><td style=\"color: #cccccc\">bílý parafín</td></tr><tr><td><a href=\"http://snomed.info/id/421556008\">421556008</a></td><td style=\"color: #cccccc\">kapie (Capsicum)</td></tr><tr><td><a href=\"http://snomed.info/id/425620007\">425620007</a></td><td style=\"color: #cccccc\">kov</td></tr><tr><td><a href=\"http://snomed.info/id/430503006\">430503006</a></td><td style=\"color: #cccccc\">glutamát</td></tr><tr><td><a href=\"http://snomed.info/id/434162003\">434162003</a></td><td style=\"color: #cccccc\">neutrální pufrovaný formalin</td></tr><tr><td><a href=\"http://snomed.info/id/472731004\">472731004</a></td><td style=\"color: #cccccc\">pyl fíkusu</td></tr><tr><td><a href=\"http://snomed.info/id/702730004\">702730004</a></td><td style=\"color: #cccccc\">jed medúzy</td></tr><tr><td><a href=\"http://snomed.info/id/710039005\">710039005</a></td><td style=\"color: #cccccc\">řepkové semeno</td></tr><tr><td><a href=\"http://snomed.info/id/710172008\">710172008</a></td><td style=\"color: #cccccc\">chmel</td></tr><tr><td><a href=\"http://snomed.info/id/710179004\">710179004</a></td><td style=\"color: #cccccc\">semeno vlčího bobu</td></tr><tr><td><a href=\"http://snomed.info/id/710184005\">710184005</a></td><td style=\"color: #cccccc\">skopové</td></tr><tr><td><a href=\"http://snomed.info/id/710900003\">710900003</a></td><td style=\"color: #cccccc\">pyl slunečnice</td></tr><tr><td><a href=\"http://snomed.info/id/710902006\">710902006</a></td><td style=\"color: #cccccc\">pyl heřmánku</td></tr><tr><td><a href=\"http://snomed.info/id/710930006\">710930006</a></td><td style=\"color: #cccccc\">protein rusa domácího</td></tr><tr><td><a href=\"http://snomed.info/id/710937009\">710937009</a></td><td style=\"color: #cccccc\">protein švába amerického</td></tr><tr><td><a href=\"http://snomed.info/id/711088004\">711088004</a></td><td style=\"color: #cccccc\">bílkoviny v moči prasat</td></tr><tr><td><a href=\"http://snomed.info/id/711089007\">711089007</a></td><td style=\"color: #cccccc\">roztočový protein</td></tr><tr><td><a href=\"http://snomed.info/id/711090003\">711090003</a></td><td style=\"color: #cccccc\">protein roztoče Acarus siro</td></tr><tr><td><a href=\"http://snomed.info/id/711092006\">711092006</a></td><td style=\"color: #cccccc\">protein Dermatophagoides farinae</td></tr><tr><td><a href=\"http://snomed.info/id/711096009\">711096009</a></td><td style=\"color: #cccccc\">protein roztoče Glycyphagus domesticus</td></tr><tr><td><a href=\"http://snomed.info/id/711097000\">711097000</a></td><td style=\"color: #cccccc\">protein roztoče Lepidoglyfus destructor</td></tr><tr><td><a href=\"http://snomed.info/id/719108000\">719108000</a></td><td style=\"color: #cccccc\">lupinová mouka</td></tr><tr><td><a href=\"http://snomed.info/id/726758002\">726758002</a></td><td style=\"color: #cccccc\">čekanka</td></tr><tr><td><a href=\"http://snomed.info/id/726759005\">726759005</a></td><td style=\"color: #cccccc\">sépie obecná</td></tr><tr><td><a href=\"http://snomed.info/id/726761001\">726761001</a></td><td style=\"color: #cccccc\">čekanka obecná</td></tr><tr><td><a href=\"http://snomed.info/id/726763003\">726763003</a></td><td style=\"color: #cccccc\">kapr</td></tr><tr><td><a href=\"http://snomed.info/id/734881000\">734881000</a></td><td style=\"color: #cccccc\">rajče</td></tr><tr><td><a href=\"http://snomed.info/id/735004000\">735004000</a></td><td style=\"color: #cccccc\">sladký brambor</td></tr><tr><td><a href=\"http://snomed.info/id/735006003\">735006003</a></td><td style=\"color: #cccccc\">oliheň</td></tr><tr><td><a href=\"http://snomed.info/id/735029006\">735029006</a></td><td style=\"color: #cccccc\">škeble</td></tr><tr><td><a href=\"http://snomed.info/id/735034005\">735034005</a></td><td style=\"color: #cccccc\">pstruh</td></tr><tr><td><a href=\"http://snomed.info/id/735035006\">735035006</a></td><td style=\"color: #cccccc\">sleď</td></tr><tr><td><a href=\"http://snomed.info/id/735042006\">735042006</a></td><td style=\"color: #cccccc\">hlávkový salát (lettuce)</td></tr><tr><td><a href=\"http://snomed.info/id/735043001\">735043001</a></td><td style=\"color: #cccccc\">makrela</td></tr><tr><td><a href=\"http://snomed.info/id/735045008\">735045008</a></td><td style=\"color: #cccccc\">houby</td></tr><tr><td><a href=\"http://snomed.info/id/735047000\">735047000</a></td><td style=\"color: #cccccc\">cibule</td></tr><tr><td><a href=\"http://snomed.info/id/735049002\">735049002</a></td><td style=\"color: #cccccc\">broskev</td></tr><tr><td><a href=\"http://snomed.info/id/735050002\">735050002</a></td><td style=\"color: #cccccc\">hruška</td></tr><tr><td><a href=\"http://snomed.info/id/735051003\">735051003</a></td><td style=\"color: #cccccc\">švestka</td></tr><tr><td><a href=\"http://snomed.info/id/735053000\">735053000</a></td><td style=\"color: #cccccc\">brambory</td></tr><tr><td><a href=\"http://snomed.info/id/735106000\">735106000</a></td><td style=\"color: #cccccc\">bazalka</td></tr><tr><td><a href=\"http://snomed.info/id/735123009\">735123009</a></td><td style=\"color: #cccccc\">brokolice</td></tr><tr><td><a href=\"http://snomed.info/id/735124003\">735124003</a></td><td style=\"color: #cccccc\">ječmen</td></tr><tr><td><a href=\"http://snomed.info/id/735211005\">735211005</a></td><td style=\"color: #cccccc\">kokos</td></tr><tr><td><a href=\"http://snomed.info/id/735212003\">735212003</a></td><td style=\"color: #cccccc\">papája</td></tr><tr><td><a href=\"http://snomed.info/id/735213008\">735213008</a></td><td style=\"color: #cccccc\">okurka</td></tr><tr><td><a href=\"http://snomed.info/id/735245003\">735245003</a></td><td style=\"color: #cccccc\">treska</td></tr><tr><td><a href=\"http://snomed.info/id/735246002\">735246002</a></td><td style=\"color: #cccccc\">úhoř</td></tr><tr><td><a href=\"http://snomed.info/id/735248001\">735248001</a></td><td style=\"color: #cccccc\">třešně</td></tr><tr><td><a href=\"http://snomed.info/id/735249009\">735249009</a></td><td style=\"color: #cccccc\">avokádo</td></tr><tr><td><a href=\"http://snomed.info/id/735336002\">735336002</a></td><td style=\"color: #cccccc\">květák</td></tr><tr><td><a href=\"http://snomed.info/id/735337006\">735337006</a></td><td style=\"color: #cccccc\">sardel</td></tr><tr><td><a href=\"http://snomed.info/id/735340006\">735340006</a></td><td style=\"color: #cccccc\">citron</td></tr><tr><td><a href=\"http://snomed.info/id/735341005\">735341005</a></td><td style=\"color: #cccccc\">rybí tuk</td></tr><tr><td><a href=\"http://snomed.info/id/735959004\">735959004</a></td><td style=\"color: #cccccc\">mořský měkkýš</td></tr><tr><td><a href=\"http://snomed.info/id/735971005\">735971005</a></td><td style=\"color: #cccccc\">ryby</td></tr><tr><td><a href=\"http://snomed.info/id/735972003\">735972003</a></td><td style=\"color: #cccccc\">rak</td></tr><tr><td><a href=\"http://snomed.info/id/735974002\">735974002</a></td><td style=\"color: #cccccc\">úhoř říční</td></tr><tr><td><a href=\"http://snomed.info/id/735977009\">735977009</a></td><td style=\"color: #cccccc\">mořský korýš</td></tr><tr><td><a href=\"http://snomed.info/id/735979007\">735979007</a></td><td style=\"color: #cccccc\">chobotnice</td></tr><tr><td><a href=\"http://snomed.info/id/736027000\">736027000</a></td><td style=\"color: #cccccc\">hřebenatka</td></tr><tr><td><a href=\"http://snomed.info/id/736031006\">736031006</a></td><td style=\"color: #cccccc\">ústřice</td></tr><tr><td><a href=\"http://snomed.info/id/736162008\">736162008</a></td><td style=\"color: #cccccc\">humr</td></tr><tr><td><a href=\"http://snomed.info/id/736258006\">736258006</a></td><td style=\"color: #cccccc\">slinná látka hmyzu</td></tr><tr><td><a href=\"http://snomed.info/id/764166003\">764166003</a></td><td style=\"color: #cccccc\">karbol-fuchsin</td></tr><tr><td><a href=\"http://snomed.info/id/765099008\">765099008</a></td><td style=\"color: #cccccc\">sardinka obecná</td></tr><tr><td><a href=\"http://snomed.info/id/767406000\">767406000</a></td><td style=\"color: #cccccc\">siřičitan nebo jeho derivát</td></tr><tr><td><a href=\"http://snomed.info/id/770326002\">770326002</a></td><td style=\"color: #cccccc\">měkkýš</td></tr><tr><td><a href=\"http://snomed.info/id/771518004\">771518004</a></td><td style=\"color: #cccccc\">peckoviny rodu Prunus</td></tr><tr><td><a href=\"http://snomed.info/id/772245002\">772245002</a></td><td style=\"color: #cccccc\">lanolinový alkohol</td></tr><tr><td><a href=\"http://snomed.info/id/1003736004\">1003736004</a></td><td style=\"color: #cccccc\">potraviny na bázi savčího mléka</td></tr><tr><td><a href=\"http://snomed.info/id/1003752001\">1003752001</a></td><td style=\"color: #cccccc\">latexový protein z Hevea brasiliensis</td></tr><tr><td><a href=\"http://snomed.info/id/1137358000\">1137358000</a></td><td style=\"color: #cccccc\">pepřovník</td></tr><tr><td><a href=\"http://snomed.info/id/24515005\">24515005</a></td><td style=\"color: #cccccc\">koření</td></tr><tr><td><a href=\"http://snomed.info/id/37663002\">37663002</a></td><td style=\"color: #cccccc\">jed</td></tr><tr><td><a href=\"http://snomed.info/id/51386004\">51386004</a></td><td style=\"color: #cccccc\">potravinářský konzervant</td></tr><tr><td><a href=\"http://snomed.info/id/63045006\">63045006</a></td><td style=\"color: #cccccc\">bobule</td></tr><tr><td><a href=\"http://snomed.info/id/70813002\">70813002</a></td><td style=\"color: #cccccc\">mléko</td></tr><tr><td><a href=\"http://snomed.info/id/80259003\">80259003</a></td><td style=\"color: #cccccc\">potravinářské ochucovadlo</td></tr><tr><td><a href=\"http://snomed.info/id/87918000\">87918000</a></td><td style=\"color: #cccccc\">minerál</td></tr><tr><td><a href=\"http://snomed.info/id/116274004\">116274004</a></td><td style=\"color: #cccccc\">umělé sladidlo</td></tr><tr><td><a href=\"http://snomed.info/id/227038007\">227038007</a></td><td style=\"color: #cccccc\">bílá ryba</td></tr><tr><td><a href=\"http://snomed.info/id/227110001\">227110001</a></td><td style=\"color: #cccccc\">tučné ryby</td></tr><tr><td><a href=\"http://snomed.info/id/256248008\">256248008</a></td><td style=\"color: #cccccc\">rostlinný materiál</td></tr><tr><td><a href=\"http://snomed.info/id/256406004\">256406004</a></td><td style=\"color: #cccccc\">živočišný epitel</td></tr><tr><td><a href=\"http://snomed.info/id/289954006\">289954006</a></td><td style=\"color: #cccccc\">houbový materiál</td></tr><tr><td><a href=\"http://snomed.info/id/735108004\">735108004</a></td><td style=\"color: #cccccc\">zelí</td></tr><tr><td><a href=\"http://snomed.info/id/442571000124108\">442571000124108</a></td><td style=\"color: #cccccc\">ořech ze stromu</td></tr><tr><td><a href=\"http://snomed.info/id/3692009\">3692009</a></td><td style=\"color: #cccccc\">siřičitan sodný</td></tr><tr><td><a href=\"http://snomed.info/id/7791007\">7791007</a></td><td style=\"color: #cccccc\">sójový protein</td></tr><tr><td><a href=\"http://snomed.info/id/10827009\">10827009</a></td><td style=\"color: #cccccc\">mléčné bílkoviny</td></tr><tr><td><a href=\"http://snomed.info/id/14006006\">14006006</a></td><td style=\"color: #cccccc\">ethylenoxid</td></tr><tr><td><a href=\"http://snomed.info/id/22968009\">22968009</a></td><td style=\"color: #cccccc\">žluté barvivo Sunset yellow FCF</td></tr><tr><td><a href=\"http://snomed.info/id/23182003\">23182003</a></td><td style=\"color: #cccccc\">obiloviny</td></tr><tr><td><a href=\"http://snomed.info/id/35233000\">35233000</a></td><td style=\"color: #cccccc\">polyvinylchlorid</td></tr><tr><td><a href=\"http://snomed.info/id/55700001\">55700001</a></td><td style=\"color: #cccccc\">nylon</td></tr><tr><td><a href=\"http://snomed.info/id/63766005\">63766005</a></td><td style=\"color: #cccccc\">mouka</td></tr><tr><td><a href=\"http://snomed.info/id/73892005\">73892005</a></td><td style=\"color: #cccccc\">karmínové barvivo</td></tr><tr><td><a href=\"http://snomed.info/id/79549001\">79549001</a></td><td style=\"color: #cccccc\">kyanoakrylát</td></tr><tr><td><a href=\"http://snomed.info/id/85066006\">85066006</a></td><td style=\"color: #cccccc\">černé azobarvivo</td></tr><tr><td><a href=\"http://snomed.info/id/89811004\">89811004</a></td><td style=\"color: #cccccc\">lepek</td></tr><tr><td><a href=\"http://snomed.info/id/111088007\">111088007</a></td><td style=\"color: #cccccc\">latex</td></tr><tr><td><a href=\"http://snomed.info/id/128489003\">128489003</a></td><td style=\"color: #cccccc\">písek</td></tr><tr><td><a href=\"http://snomed.info/id/226934003\">226934003</a></td><td style=\"color: #cccccc\">vepřové maso</td></tr><tr><td><a href=\"http://snomed.info/id/227066004\">227066004</a></td><td style=\"color: #cccccc\">hejk</td></tr><tr><td><a href=\"http://snomed.info/id/227081005\">227081005</a></td><td style=\"color: #cccccc\">parmice nachová</td></tr><tr><td><a href=\"http://snomed.info/id/227131003\">227131003</a></td><td style=\"color: #cccccc\">pangas</td></tr><tr><td><a href=\"http://snomed.info/id/227147001\">227147001</a></td><td style=\"color: #cccccc\">srdcovky</td></tr><tr><td><a href=\"http://snomed.info/id/227150003\">227150003</a></td><td style=\"color: #cccccc\">slávka</td></tr><tr><td><a href=\"http://snomed.info/id/227339008\">227339008</a></td><td style=\"color: #cccccc\">klíčky fazolí</td></tr><tr><td><a href=\"http://snomed.info/id/227346004\">227346004</a></td><td style=\"color: #cccccc\">cizrna</td></tr><tr><td><a href=\"http://snomed.info/id/227374009\">227374009</a></td><td style=\"color: #cccccc\">bylinky a koření</td></tr><tr><td><a href=\"http://snomed.info/id/227387003\">227387003</a></td><td style=\"color: #cccccc\">pažitka</td></tr><tr><td><a href=\"http://snomed.info/id/227389000\">227389000</a></td><td style=\"color: #cccccc\">stroužek</td></tr><tr><td><a href=\"http://snomed.info/id/227398002\">227398002</a></td><td style=\"color: #cccccc\">semeno pískavice</td></tr><tr><td><a href=\"http://snomed.info/id/227410007\">227410007</a></td><td style=\"color: #cccccc\">rozmarýn</td></tr><tr><td><a href=\"http://snomed.info/id/227423000\">227423000</a></td><td style=\"color: #cccccc\">datum</td></tr><tr><td><a href=\"http://snomed.info/id/227511008\">227511008</a></td><td style=\"color: #cccccc\">piniový oříšek</td></tr><tr><td><a href=\"http://snomed.info/id/227512001\">227512001</a></td><td style=\"color: #cccccc\">pistáciový oříšek</td></tr><tr><td><a href=\"http://snomed.info/id/229944000\">229944000</a></td><td style=\"color: #cccccc\">pšeničná mouka</td></tr><tr><td><a href=\"http://snomed.info/id/255620007\">255620007</a></td><td style=\"color: #cccccc\">potraviny</td></tr><tr><td><a href=\"http://snomed.info/id/255786007\">255786007</a></td><td style=\"color: #cccccc\">toluendiisokyanát</td></tr><tr><td><a href=\"http://snomed.info/id/255844007\">255844007</a></td><td style=\"color: #cccccc\">směs parabenů</td></tr><tr><td><a href=\"http://snomed.info/id/255871007\">255871007</a></td><td style=\"color: #cccccc\">propyl-4-hydroxybenzoát</td></tr><tr><td><a href=\"http://snomed.info/id/256186006\">256186006</a></td><td style=\"color: #cccccc\">toluánský balzám</td></tr><tr><td><a href=\"http://snomed.info/id/256218005\">256218005</a></td><td style=\"color: #cccccc\">extrakt z řebříčku obecného</td></tr><tr><td><a href=\"http://snomed.info/id/256262001\">256262001</a></td><td style=\"color: #cccccc\">pyl břízy bělokoré (Betula pendula)</td></tr><tr><td><a href=\"http://snomed.info/id/256267007\">256267007</a></td><td style=\"color: #cccccc\">pyl borovice</td></tr><tr><td><a href=\"http://snomed.info/id/256270006\">256270006</a></td><td style=\"color: #cccccc\">pyl dubu</td></tr><tr><td><a href=\"http://snomed.info/id/256277009\">256277009</a></td><td style=\"color: #cccccc\">pyl trav</td></tr><tr><td><a href=\"http://snomed.info/id/256281009\">256281009</a></td><td style=\"color: #cccccc\">pyl bojínku</td></tr><tr><td><a href=\"http://snomed.info/id/256417003\">256417003</a></td><td style=\"color: #cccccc\">koňské kožní šupiny</td></tr><tr><td><a href=\"http://snomed.info/id/256440004\">256440004</a></td><td style=\"color: #cccccc\">vosí jed</td></tr><tr><td><a href=\"http://snomed.info/id/256496006\">256496006</a></td><td style=\"color: #cccccc\">slitina zlata</td></tr><tr><td><a href=\"http://snomed.info/id/256501007\">256501007</a></td><td style=\"color: #cccccc\">uhlíková vlákna</td></tr><tr><td><a href=\"http://snomed.info/id/256504004\">256504004</a></td><td style=\"color: #cccccc\">polykarbonátový dentální materiál</td></tr><tr><td><a href=\"http://snomed.info/id/260108001\">260108001</a></td><td style=\"color: #cccccc\">pyl pelyňku pravého</td></tr><tr><td><a href=\"http://snomed.info/id/260131001\">260131001</a></td><td style=\"color: #cccccc\">pyl blahovičníku</td></tr><tr><td><a href=\"http://snomed.info/id/260156007\">260156007</a></td><td style=\"color: #cccccc\">proteiny myší moči</td></tr><tr><td><a href=\"http://snomed.info/id/261243003\">261243003</a></td><td style=\"color: #cccccc\">mosaz</td></tr><tr><td><a href=\"http://snomed.info/id/286550009\">286550009</a></td><td style=\"color: #cccccc\">slepičí vejce</td></tr><tr><td><a href=\"http://snomed.info/id/289949002\">289949002</a></td><td style=\"color: #cccccc\">pyl cypřiše</td></tr><tr><td><a href=\"http://snomed.info/id/289955007\">289955007</a></td><td style=\"color: #cccccc\">chmelový pyl</td></tr><tr><td><a href=\"http://snomed.info/id/311846002\">311846002</a></td><td style=\"color: #cccccc\">pyrethroidní insekticidy</td></tr><tr><td><a href=\"http://snomed.info/id/373780001\">373780001</a></td><td style=\"color: #cccccc\">meskalin</td></tr><tr><td><a href=\"http://snomed.info/id/387239001\">387239001</a></td><td style=\"color: #cccccc\">genciánová violeť</td></tr><tr><td><a href=\"http://snomed.info/id/391737006\">391737006</a></td><td style=\"color: #cccccc\">mandlový olej</td></tr><tr><td><a href=\"http://snomed.info/id/409595003\">409595003</a></td><td style=\"color: #cccccc\">biologicky nebezpečný materiál</td></tr><tr><td><a href=\"http://snomed.info/id/412161004\">412161004</a></td><td style=\"color: #cccccc\">vlna</td></tr><tr><td><a href=\"http://snomed.info/id/418504009\">418504009</a></td><td style=\"color: #cccccc\">oves</td></tr><tr><td><a href=\"http://snomed.info/id/431510009\">431510009</a></td><td style=\"color: #cccccc\">formalín</td></tr><tr><td><a href=\"http://snomed.info/id/698730007\">698730007</a></td><td style=\"color: #cccccc\">pyl růží rodu Rosa L.</td></tr><tr><td><a href=\"http://snomed.info/id/710171001\">710171001</a></td><td style=\"color: #cccccc\">koňské maso</td></tr><tr><td><a href=\"http://snomed.info/id/710178007\">710178007</a></td><td style=\"color: #cccccc\">lněné semeno</td></tr><tr><td><a href=\"http://snomed.info/id/710183004\">710183004</a></td><td style=\"color: #cccccc\">králičí maso</td></tr><tr><td><a href=\"http://snomed.info/id/710932003\">710932003</a></td><td style=\"color: #cccccc\">protein můry</td></tr><tr><td><a href=\"http://snomed.info/id/711143002\">711143002</a></td><td style=\"color: #cccccc\">methyl-tetrahydroftalanhydrid</td></tr><tr><td><a href=\"http://snomed.info/id/711316002\">711316002</a></td><td style=\"color: #cccccc\">bílkoviny dafnií</td></tr><tr><td><a href=\"http://snomed.info/id/720687003\">720687003</a></td><td style=\"color: #cccccc\">protein roztočů</td></tr><tr><td><a href=\"http://snomed.info/id/726731009\">726731009</a></td><td style=\"color: #cccccc\">mečoun</td></tr><tr><td><a href=\"http://snomed.info/id/726764009\">726764009</a></td><td style=\"color: #cccccc\">bob obecný</td></tr><tr><td><a href=\"http://snomed.info/id/735030001\">735030001</a></td><td style=\"color: #cccccc\">česnek</td></tr><tr><td><a href=\"http://snomed.info/id/735046009\">735046009</a></td><td style=\"color: #cccccc\">muškátový oříšek</td></tr><tr><td><a href=\"http://snomed.info/id/735214002\">735214002</a></td><td style=\"color: #cccccc\">meruňka</td></tr><tr><td><a href=\"http://snomed.info/id/735215001\">735215001</a></td><td style=\"color: #cccccc\">jablko</td></tr><tr><td><a href=\"http://snomed.info/id/762766007\">762766007</a></td><td style=\"color: #cccccc\">jedlá látka</td></tr><tr><td><a href=\"http://snomed.info/id/782576004\">782576004</a></td><td style=\"color: #cccccc\">pyl stromů</td></tr><tr><td><a href=\"http://snomed.info/id/785344003\">785344003</a></td><td style=\"color: #cccccc\">prach sisalu</td></tr><tr><td><a href=\"http://snomed.info/id/442461000124102\">442461000124102</a></td><td style=\"color: #cccccc\">hikorový ořech</td></tr><tr><td><a href=\"http://snomed.info/id/14321009\">14321009</a></td><td style=\"color: #cccccc\">kaptafol</td></tr><tr><td><a href=\"http://snomed.info/id/15896008\">15896008</a></td><td style=\"color: #cccccc\">methylenová violeť 2B</td></tr><tr><td><a href=\"http://snomed.info/id/77249007\">77249007</a></td><td style=\"color: #cccccc\">ftalanhydrid</td></tr><tr><td><a href=\"http://snomed.info/id/84181009\">84181009</a></td><td style=\"color: #cccccc\">styren</td></tr><tr><td><a href=\"http://snomed.info/id/125706008\">125706008</a></td><td style=\"color: #cccccc\">benzoan sodný</td></tr><tr><td><a href=\"http://snomed.info/id/226793001\">226793001</a></td><td style=\"color: #cccccc\">sójové mléko</td></tr><tr><td><a href=\"http://snomed.info/id/227042005\">227042005</a></td><td style=\"color: #cccccc\">cejn</td></tr><tr><td><a href=\"http://snomed.info/id/227105000\">227105000</a></td><td style=\"color: #cccccc\">kambala</td></tr><tr><td><a href=\"http://snomed.info/id/227144008\">227144008</a></td><td style=\"color: #cccccc\">tuňák</td></tr><tr><td><a href=\"http://snomed.info/id/227392001\">227392001</a></td><td style=\"color: #cccccc\">semeno kmínu</td></tr><tr><td><a href=\"http://snomed.info/id/255814009\">255814009</a></td><td style=\"color: #cccccc\">anhydrid kyseliny tetrachlorftalové</td></tr><tr><td><a href=\"http://snomed.info/id/255840003\">255840003</a></td><td style=\"color: #cccccc\">kolofonii</td></tr><tr><td><a href=\"http://snomed.info/id/256259004\">256259004</a></td><td style=\"color: #cccccc\">pyl</td></tr><tr><td><a href=\"http://snomed.info/id/256290002\">256290002</a></td><td style=\"color: #cccccc\">pyl jiřin</td></tr><tr><td><a href=\"http://snomed.info/id/256330001\">256330001</a></td><td style=\"color: #cccccc\">bylinka</td></tr><tr><td><a href=\"http://snomed.info/id/256355007\">256355007</a></td><td style=\"color: #cccccc\">sójové boby</td></tr><tr><td><a href=\"http://snomed.info/id/261250004\">261250004</a></td><td style=\"color: #cccccc\">nikl-titan</td></tr><tr><td><a href=\"http://snomed.info/id/289122001\">289122001</a></td><td style=\"color: #cccccc\">kosmetický materiál</td></tr><tr><td><a href=\"http://snomed.info/id/301712000\">301712000</a></td><td style=\"color: #cccccc\">kvartérní amoniová sloučenina</td></tr><tr><td><a href=\"http://snomed.info/id/408742009\">408742009</a></td><td style=\"color: #cccccc\">červeň bengálská</td></tr><tr><td><a href=\"http://snomed.info/id/412548006\">412548006</a></td><td style=\"color: #cccccc\">indigotindisulfonát sodný</td></tr><tr><td><a href=\"http://snomed.info/id/710226003\">710226003</a></td><td style=\"color: #cccccc\">šípek</td></tr><tr><td><a href=\"http://snomed.info/id/710943006\">710943006</a></td><td style=\"color: #cccccc\">protein švába</td></tr><tr><td><a href=\"http://snomed.info/id/711094007\">711094007</a></td><td style=\"color: #cccccc\">protein Dermatophagoides pteronyssinus</td></tr><tr><td><a href=\"http://snomed.info/id/711098005\">711098005</a></td><td style=\"color: #cccccc\">protein roztoče Tyrophagus putrescentiae</td></tr><tr><td><a href=\"http://snomed.info/id/726749009\">726749009</a></td><td style=\"color: #cccccc\">mořský okoun</td></tr><tr><td><a href=\"http://snomed.info/id/726755004\">726755004</a></td><td style=\"color: #cccccc\">pórek</td></tr><tr><td><a href=\"http://snomed.info/id/735009005\">735009005</a></td><td style=\"color: #cccccc\">losos</td></tr><tr><td><a href=\"http://snomed.info/id/736030007\">736030007</a></td><td style=\"color: #cccccc\">mušle</td></tr><tr><td><a href=\"http://snomed.info/id/736159005\">736159005</a></td><td style=\"color: #cccccc\">krab</td></tr><tr><td><a href=\"http://snomed.info/id/773757000\">773757000</a></td><td style=\"color: #cccccc\">mravenčí jed</td></tr><tr><td><a href=\"http://snomed.info/id/1137359008\">1137359008</a></td><td style=\"color: #cccccc\">kapie</td></tr><tr><td><a href=\"http://snomed.info/id/711319009\">711319009</a></td><td style=\"color: #cccccc\">protein Tenebrio mollitor</td></tr><tr><td><a href=\"http://snomed.info/id/762952008\">762952008</a></td><td style=\"color: #cccccc\">arašídové oříšky</td></tr></table></li></ul></div>"
+  ] ;
+  fhir:DomainResource.extension [
+     fhir:index 0 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm" ] ;
+     fhir:Extension.valueInteger [ fhir:value "2"^^xsd:integer ]
+  ], [
+     fhir:index 1 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status" ] ;
+     fhir:Extension.valueCode [ fhir:value "trial-use" ]
+  ] ;
+  fhir:ValueSet.url [ fhir:value "https://ncez.mzcr.cz/terminology/ValueSet/eHDSIAllergenNoDrug"] ;
+  fhir:ValueSet.identifier [
+     fhir:index 0 ;
+     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ] ;
+     fhir:Identifier.value [ fhir:value "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.19" ]
+  ] ;
+  fhir:ValueSet.version [ fhir:value "8.1.0"] ;
+  fhir:ValueSet.name [ fhir:value "EHDSIAllergenNoDrug"] ;
+  fhir:ValueSet.title [ fhir:value "eHDSI Allergen No Drug"] ;
+  fhir:ValueSet.status [ fhir:value "active"] ;
+  fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:ValueSet.date [ fhir:value "2026-07-27T16:44:21+02:00"^^xsd:dateTime] ;
+  fhir:ValueSet.publisher [ fhir:value "HL7 Czech Republic"] ;
+  fhir:ValueSet.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.name [ fhir:value "HL7 Czech Republic" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://www.hl7.cz/" ]
+     ]
+  ] ;
+  fhir:ValueSet.description [ fhir:value "The value set is used to code the patient's kind of adverse reactions against substance, food or drugs"] ;
+  fhir:ValueSet.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "CZ" ] ;
+       fhir:Coding.display [ fhir:value "Czechia" ]
+     ]
+  ] ;
+  fhir:ValueSet.copyright [ fhir:value "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"] ;
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://snomed.info/sct" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "432003" ]
+       ], [
+         fhir:index 1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "2159007" ]
+       ], [
+         fhir:index 2 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "2309006" ]
+       ], [
+         fhir:index 3 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "2799001" ]
+       ], [
+         fhir:index 4 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "3718001" ]
+       ], [
+         fhir:index 5 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "3829006" ]
+       ], [
+         fhir:index 6 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "6725000" ]
+       ], [
+         fhir:index 7 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "7434003" ]
+       ], [
+         fhir:index 8 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "8204009" ]
+       ], [
+         fhir:index 9 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "9010006" ]
+       ], [
+         fhir:index 10 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "9021002" ]
+       ], [
+         fhir:index 11 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "11526002" ]
+       ], [
+         fhir:index 12 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12503006" ]
+       ], [
+         fhir:index 13 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12510000" ]
+       ], [
+         fhir:index 14 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "13577000" ]
+       ], [
+         fhir:index 15 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "13652007" ]
+       ], [
+         fhir:index 16 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "14402002" ]
+       ], [
+         fhir:index 17 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "16313001" ]
+       ], [
+         fhir:index 18 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "17172002" ]
+       ], [
+         fhir:index 19 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "17486007" ]
+       ], [
+         fhir:index 20 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "17693003" ]
+       ], [
+         fhir:index 21 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "19839007" ]
+       ], [
+         fhir:index 22 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "19893005" ]
+       ], [
+         fhir:index 23 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "21592006" ]
+       ], [
+         fhir:index 24 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "22242006" ]
+       ], [
+         fhir:index 25 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "22836000" ]
+       ], [
+         fhir:index 26 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "22931006" ]
+       ], [
+         fhir:index 27 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "24102007" ]
+       ], [
+         fhir:index 28 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "24215009" ]
+       ], [
+         fhir:index 29 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "25761002" ]
+       ], [
+         fhir:index 30 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "27119002" ]
+       ], [
+         fhir:index 31 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "28230009" ]
+       ], [
+         fhir:index 32 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "28421003" ]
+       ], [
+         fhir:index 33 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "28647000" ]
+       ], [
+         fhir:index 34 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "29263009" ]
+       ], [
+         fhir:index 35 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "29522004" ]
+       ], [
+         fhir:index 36 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "31006001" ]
+       ], [
+         fhir:index 37 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "31347007" ]
+       ], [
+         fhir:index 38 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "33008008" ]
+       ], [
+         fhir:index 39 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "33396006" ]
+       ], [
+         fhir:index 40 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "35605007" ]
+       ], [
+         fhir:index 41 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "35609001" ]
+       ], [
+         fhir:index 42 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "37017009" ]
+       ], [
+         fhir:index 43 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "37575004" ]
+       ], [
+         fhir:index 44 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "38271009" ]
+       ], [
+         fhir:index 45 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "41750006" ]
+       ], [
+         fhir:index 46 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "41967008" ]
+       ], [
+         fhir:index 47 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "42416001" ]
+       ], [
+         fhir:index 48 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "43230003" ]
+       ], [
+         fhir:index 49 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "43735007" ]
+       ], [
+         fhir:index 50 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "44027008" ]
+       ], [
+         fhir:index 51 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "47703008" ]
+       ], [
+         fhir:index 52 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "48540004" ]
+       ], [
+         fhir:index 53 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "50593009" ]
+       ], [
+         fhir:index 54 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "51503008" ]
+       ], [
+         fhir:index 55 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "51905005" ]
+       ], [
+         fhir:index 56 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "51963001" ]
+       ], [
+         fhir:index 57 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "52454007" ]
+       ], [
+         fhir:index 58 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "52836003" ]
+       ], [
+         fhir:index 59 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "54041009" ]
+       ], [
+         fhir:index 60 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "56822005" ]
+       ], [
+         fhir:index 61 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "57126000" ]
+       ], [
+         fhir:index 62 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "57720001" ]
+       ], [
+         fhir:index 63 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "59351004" ]
+       ], [
+         fhir:index 64 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "59533004" ]
+       ], [
+         fhir:index 65 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "59545008" ]
+       ], [
+         fhir:index 66 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "61088005" ]
+       ], [
+         fhir:index 67 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "61789006" ]
+       ], [
+         fhir:index 68 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "63338004" ]
+       ], [
+         fhir:index 69 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "64601002" ]
+       ], [
+         fhir:index 70 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "65123005" ]
+       ], [
+         fhir:index 71 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "65345002" ]
+       ], [
+         fhir:index 72 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "66562002" ]
+       ], [
+         fhir:index 73 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "66925006" ]
+       ], [
+         fhir:index 74 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "67324005" ]
+       ], [
+         fhir:index 75 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "68524009" ]
+       ], [
+         fhir:index 76 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "71463006" ]
+       ], [
+         fhir:index 77 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "72179002" ]
+       ], [
+         fhir:index 78 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "72511004" ]
+       ], [
+         fhir:index 79 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "75044009" ]
+       ], [
+         fhir:index 80 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "75665004" ]
+       ], [
+         fhir:index 81 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "80237000" ]
+       ], [
+         fhir:index 82 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "81911001" ]
+       ], [
+         fhir:index 83 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "82566005" ]
+       ], [
+         fhir:index 84 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "83595008" ]
+       ], [
+         fhir:index 85 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "83619009" ]
+       ], [
+         fhir:index 86 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "84212004" ]
+       ], [
+         fhir:index 87 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "84791008" ]
+       ], [
+         fhir:index 88 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "89889006" ]
+       ], [
+         fhir:index 89 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "102259006" ]
+       ], [
+         fhir:index 90 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "102261002" ]
+       ], [
+         fhir:index 91 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "102262009" ]
+       ], [
+         fhir:index 92 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "102263004" ]
+       ], [
+         fhir:index 93 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "102264005" ]
+       ], [
+         fhir:index 94 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "102697003" ]
+       ], [
+         fhir:index 95 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "105590001" ]
+       ], [
+         fhir:index 96 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "111095003" ]
+       ], [
+         fhir:index 97 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "115589000" ]
+       ], [
+         fhir:index 98 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "116364004" ]
+       ], [
+         fhir:index 99 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "116549003" ]
+       ], [
+         fhir:index 100 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "116637007" ]
+       ], [
+         fhir:index 101 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "119417004" ]
+       ], [
+         fhir:index 102 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "128488006" ]
+       ], [
+         fhir:index 103 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "226491003" ]
+       ], [
+         fhir:index 104 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "226723006" ]
+       ], [
+         fhir:index 105 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "226776001" ]
+       ], [
+         fhir:index 106 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "226791004" ]
+       ], [
+         fhir:index 107 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "226915003" ]
+       ], [
+         fhir:index 108 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "226916002" ]
+       ], [
+         fhir:index 109 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "226942002" ]
+       ], [
+         fhir:index 110 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "226955001" ]
+       ], [
+         fhir:index 111 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "226963000" ]
+       ], [
+         fhir:index 112 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "226967004" ]
+       ], [
+         fhir:index 113 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "227067008" ]
+       ], [
+         fhir:index 114 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "227072004" ]
+       ], [
+         fhir:index 115 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "227078000" ]
+       ], [
+         fhir:index 116 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "227083008" ]
+       ], [
+         fhir:index 117 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "227099002" ]
+       ], [
+         fhir:index 118 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "227106004" ]
+       ], [
+         fhir:index 119 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "227136008" ]
+       ], [
+         fhir:index 120 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "227139001" ]
+       ], [
+         fhir:index 121 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "227151004" ]
+       ], [
+         fhir:index 122 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "227156009" ]
+       ], [
+         fhir:index 123 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "227183005" ]
+       ], [
+         fhir:index 124 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "227215000" ]
+       ], [
+         fhir:index 125 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "227219006" ]
+       ], [
+         fhir:index 126 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "227220000" ]
+       ], [
+         fhir:index 127 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "227227002" ]
+       ], [
+         fhir:index 128 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "227229004" ]
+       ], [
+         fhir:index 129 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "227230009" ]
+       ], [
+         fhir:index 130 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "227313005" ]
+       ], [
+         fhir:index 131 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "227350006" ]
+       ], [
+         fhir:index 132 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "227362005" ]
+       ], [
+         fhir:index 133 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "227376006" ]
+       ], [
+         fhir:index 134 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "227379004" ]
+       ], [
+         fhir:index 135 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "227382009" ]
+       ], [
+         fhir:index 136 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "227383004" ]
+       ], [
+         fhir:index 137 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "227385006" ]
+       ], [
+         fhir:index 138 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "227388008" ]
+       ], [
+         fhir:index 139 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "227390009" ]
+       ], [
+         fhir:index 140 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "227391008" ]
+       ], [
+         fhir:index 141 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "227395004" ]
+       ], [
+         fhir:index 142 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "227396003" ]
+       ], [
+         fhir:index 143 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "227400003" ]
+       ], [
+         fhir:index 144 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "227404007" ]
+       ], [
+         fhir:index 145 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "227405008" ]
+       ], [
+         fhir:index 146 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "227407000" ]
+       ], [
+         fhir:index 147 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "227408005" ]
+       ], [
+         fhir:index 148 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "227409002" ]
+       ], [
+         fhir:index 149 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "227411006" ]
+       ], [
+         fhir:index 150 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "227413009" ]
+       ], [
+         fhir:index 151 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "227414003" ]
+       ], [
+         fhir:index 152 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "227425007" ]
+       ], [
+         fhir:index 153 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "227435001" ]
+       ], [
+         fhir:index 154 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "227444000" ]
+       ], [
+         fhir:index 155 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "227447007" ]
+       ], [
+         fhir:index 156 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "227493005" ]
+       ], [
+         fhir:index 157 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "227501001" ]
+       ], [
+         fhir:index 158 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "227514000" ]
+       ], [
+         fhir:index 159 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "227515004" ]
+       ], [
+         fhir:index 160 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "227538001" ]
+       ], [
+         fhir:index 161 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "227598003" ]
+       ], [
+         fhir:index 162 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "228104004" ]
+       ], [
+         fhir:index 163 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "229934002" ]
+       ], [
+         fhir:index 164 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "229941008" ]
+       ], [
+         fhir:index 165 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "230034002" ]
+       ], [
+         fhir:index 166 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "255640000" ]
+       ], [
+         fhir:index 167 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "255667006" ]
+       ], [
+         fhir:index 168 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "255764006" ]
+       ], [
+         fhir:index 169 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "255769001" ]
+       ], [
+         fhir:index 170 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "255772008" ]
+       ], [
+         fhir:index 171 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "255775005" ]
+       ], [
+         fhir:index 172 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "255842006" ]
+       ], [
+         fhir:index 173 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "255859001" ]
+       ], [
+         fhir:index 174 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "255864002" ]
+       ], [
+         fhir:index 175 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "255868004" ]
+       ], [
+         fhir:index 176 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "255924000" ]
+       ], [
+         fhir:index 177 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "256260009" ]
+       ], [
+         fhir:index 178 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "256272003" ]
+       ], [
+         fhir:index 179 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "256289006" ]
+       ], [
+         fhir:index 180 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "256292005" ]
+       ], [
+         fhir:index 181 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "256293000" ]
+       ], [
+         fhir:index 182 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "256303006" ]
+       ], [
+         fhir:index 183 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "256305004" ]
+       ], [
+         fhir:index 184 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "256306003" ]
+       ], [
+         fhir:index 185 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "256307007" ]
+       ], [
+         fhir:index 186 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "256313003" ]
+       ], [
+         fhir:index 187 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "256315005" ]
+       ], [
+         fhir:index 188 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "256316006" ]
+       ], [
+         fhir:index 189 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "256317002" ]
+       ], [
+         fhir:index 190 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "256318007" ]
+       ], [
+         fhir:index 191 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "256319004" ]
+       ], [
+         fhir:index 192 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "256326004" ]
+       ], [
+         fhir:index 193 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "256329006" ]
+       ], [
+         fhir:index 194 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "256331002" ]
+       ], [
+         fhir:index 195 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "256350002" ]
+       ], [
+         fhir:index 196 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "256351003" ]
+       ], [
+         fhir:index 197 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "256352005" ]
+       ], [
+         fhir:index 198 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "256353000" ]
+       ], [
+         fhir:index 199 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "256354006" ]
+       ], [
+         fhir:index 200 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "256363008" ]
+       ], [
+         fhir:index 201 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "256419000" ]
+       ], [
+         fhir:index 202 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "256435007" ]
+       ], [
+         fhir:index 203 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "256443002" ]
+       ], [
+         fhir:index 204 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "256506002" ]
+       ], [
+         fhir:index 205 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "256526003" ]
+       ], [
+         fhir:index 206 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "256579008" ]
+       ], [
+         fhir:index 207 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "256596009" ]
+       ], [
+         fhir:index 208 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "256607001" ]
+       ], [
+         fhir:index 209 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "256633009" ]
+       ], [
+         fhir:index 210 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "259221006" ]
+       ], [
+         fhir:index 211 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "260118006" ]
+       ], [
+         fhir:index 212 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "260126003" ]
+       ], [
+         fhir:index 213 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "260152009" ]
+       ], [
+         fhir:index 214 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "260153004" ]
+       ], [
+         fhir:index 215 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "260154005" ]
+       ], [
+         fhir:index 216 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "260167008" ]
+       ], [
+         fhir:index 217 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "260168003" ]
+       ], [
+         fhir:index 218 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "260176001" ]
+       ], [
+         fhir:index 219 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "260177005" ]
+       ], [
+         fhir:index 220 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "260179008" ]
+       ], [
+         fhir:index 221 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "260184002" ]
+       ], [
+         fhir:index 222 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "260189007" ]
+       ], [
+         fhir:index 223 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "260204008" ]
+       ], [
+         fhir:index 224 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "260205009" ]
+       ], [
+         fhir:index 225 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "261249004" ]
+       ], [
+         fhir:index 226 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "261712009" ]
+       ], [
+         fhir:index 227 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "264287008" ]
+       ], [
+         fhir:index 228 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "264295007" ]
+       ], [
+         fhir:index 229 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "264331002" ]
+       ], [
+         fhir:index 230 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "264337003" ]
+       ], [
+         fhir:index 231 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "276310004" ]
+       ], [
+         fhir:index 232 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "277016007" ]
+       ], [
+         fhir:index 233 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "278840001" ]
+       ], [
+         fhir:index 234 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "280939008" ]
+       ], [
+         fhir:index 235 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "288326000" ]
+       ], [
+         fhir:index 236 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "288328004" ]
+       ], [
+         fhir:index 237 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "288460008" ]
+       ], [
+         fhir:index 238 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "290008007" ]
+       ], [
+         fhir:index 239 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "301093003" ]
+       ], [
+         fhir:index 240 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "303300008" ]
+       ], [
+         fhir:index 241 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "303314008" ]
+       ], [
+         fhir:index 242 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "303315009" ]
+       ], [
+         fhir:index 243 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "311443003" ]
+       ], [
+         fhir:index 244 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "311731000" ]
+       ], [
+         fhir:index 245 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "387293003" ]
+       ], [
+         fhir:index 246 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "395734009" ]
+       ], [
+         fhir:index 247 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "396049000" ]
+       ], [
+         fhir:index 248 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "398705004" ]
+       ], [
+         fhir:index 249 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "410853002" ]
+       ], [
+         fhir:index 250 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "412056003" ]
+       ], [
+         fhir:index 251 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "412060000" ]
+       ], [
+         fhir:index 252 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "412061001" ]
+       ], [
+         fhir:index 253 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "412068007" ]
+       ], [
+         fhir:index 254 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "412070003" ]
+       ], [
+         fhir:index 255 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "412071004" ]
+       ], [
+         fhir:index 256 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "412145001" ]
+       ], [
+         fhir:index 257 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "412150007" ]
+       ], [
+         fhir:index 258 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "412153009" ]
+       ], [
+         fhir:index 259 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "412156001" ]
+       ], [
+         fhir:index 260 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "412357001" ]
+       ], [
+         fhir:index 261 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "415710007" ]
+       ], [
+         fhir:index 262 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "418266005" ]
+       ], [
+         fhir:index 263 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "418785009" ]
+       ], [
+         fhir:index 264 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "418920007" ]
+       ], [
+         fhir:index 265 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "419420009" ]
+       ], [
+         fhir:index 266 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "419604006" ]
+       ], [
+         fhir:index 267 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "419633007" ]
+       ], [
+         fhir:index 268 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "421556008" ]
+       ], [
+         fhir:index 269 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "425620007" ]
+       ], [
+         fhir:index 270 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "430503006" ]
+       ], [
+         fhir:index 271 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "434162003" ]
+       ], [
+         fhir:index 272 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "472731004" ]
+       ], [
+         fhir:index 273 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "702730004" ]
+       ], [
+         fhir:index 274 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "710039005" ]
+       ], [
+         fhir:index 275 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "710172008" ]
+       ], [
+         fhir:index 276 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "710179004" ]
+       ], [
+         fhir:index 277 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "710184005" ]
+       ], [
+         fhir:index 278 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "710900003" ]
+       ], [
+         fhir:index 279 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "710902006" ]
+       ], [
+         fhir:index 280 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "710930006" ]
+       ], [
+         fhir:index 281 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "710937009" ]
+       ], [
+         fhir:index 282 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "711088004" ]
+       ], [
+         fhir:index 283 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "711089007" ]
+       ], [
+         fhir:index 284 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "711090003" ]
+       ], [
+         fhir:index 285 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "711092006" ]
+       ], [
+         fhir:index 286 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "711096009" ]
+       ], [
+         fhir:index 287 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "711097000" ]
+       ], [
+         fhir:index 288 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "719108000" ]
+       ], [
+         fhir:index 289 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "726758002" ]
+       ], [
+         fhir:index 290 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "726759005" ]
+       ], [
+         fhir:index 291 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "726761001" ]
+       ], [
+         fhir:index 292 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "726763003" ]
+       ], [
+         fhir:index 293 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "734881000" ]
+       ], [
+         fhir:index 294 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "735004000" ]
+       ], [
+         fhir:index 295 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "735006003" ]
+       ], [
+         fhir:index 296 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "735029006" ]
+       ], [
+         fhir:index 297 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "735034005" ]
+       ], [
+         fhir:index 298 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "735035006" ]
+       ], [
+         fhir:index 299 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "735042006" ]
+       ], [
+         fhir:index 300 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "735043001" ]
+       ], [
+         fhir:index 301 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "735045008" ]
+       ], [
+         fhir:index 302 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "735047000" ]
+       ], [
+         fhir:index 303 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "735049002" ]
+       ], [
+         fhir:index 304 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "735050002" ]
+       ], [
+         fhir:index 305 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "735051003" ]
+       ], [
+         fhir:index 306 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "735053000" ]
+       ], [
+         fhir:index 307 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "735106000" ]
+       ], [
+         fhir:index 308 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "735123009" ]
+       ], [
+         fhir:index 309 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "735124003" ]
+       ], [
+         fhir:index 310 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "735211005" ]
+       ], [
+         fhir:index 311 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "735212003" ]
+       ], [
+         fhir:index 312 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "735213008" ]
+       ], [
+         fhir:index 313 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "735245003" ]
+       ], [
+         fhir:index 314 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "735246002" ]
+       ], [
+         fhir:index 315 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "735248001" ]
+       ], [
+         fhir:index 316 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "735249009" ]
+       ], [
+         fhir:index 317 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "735336002" ]
+       ], [
+         fhir:index 318 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "735337006" ]
+       ], [
+         fhir:index 319 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "735340006" ]
+       ], [
+         fhir:index 320 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "735341005" ]
+       ], [
+         fhir:index 321 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "735959004" ]
+       ], [
+         fhir:index 322 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "735971005" ]
+       ], [
+         fhir:index 323 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "735972003" ]
+       ], [
+         fhir:index 324 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "735974002" ]
+       ], [
+         fhir:index 325 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "735977009" ]
+       ], [
+         fhir:index 326 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "735979007" ]
+       ], [
+         fhir:index 327 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "736027000" ]
+       ], [
+         fhir:index 328 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "736031006" ]
+       ], [
+         fhir:index 329 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "736162008" ]
+       ], [
+         fhir:index 330 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "736258006" ]
+       ], [
+         fhir:index 331 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "764166003" ]
+       ], [
+         fhir:index 332 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "765099008" ]
+       ], [
+         fhir:index 333 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "767406000" ]
+       ], [
+         fhir:index 334 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "770326002" ]
+       ], [
+         fhir:index 335 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "771518004" ]
+       ], [
+         fhir:index 336 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "772245002" ]
+       ], [
+         fhir:index 337 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "1003736004" ]
+       ], [
+         fhir:index 338 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "1003752001" ]
+       ], [
+         fhir:index 339 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "1137358000" ]
+       ], [
+         fhir:index 340 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "24515005" ]
+       ], [
+         fhir:index 341 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "37663002" ]
+       ], [
+         fhir:index 342 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "51386004" ]
+       ], [
+         fhir:index 343 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "63045006" ]
+       ], [
+         fhir:index 344 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "70813002" ]
+       ], [
+         fhir:index 345 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "80259003" ]
+       ], [
+         fhir:index 346 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "87918000" ]
+       ], [
+         fhir:index 347 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "116274004" ]
+       ], [
+         fhir:index 348 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "227038007" ]
+       ], [
+         fhir:index 349 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "227110001" ]
+       ], [
+         fhir:index 350 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "256248008" ]
+       ], [
+         fhir:index 351 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "256406004" ]
+       ], [
+         fhir:index 352 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "289954006" ]
+       ], [
+         fhir:index 353 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "735108004" ]
+       ], [
+         fhir:index 354 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "442571000124108" ]
+       ], [
+         fhir:index 355 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "3692009" ]
+       ], [
+         fhir:index 356 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "7791007" ]
+       ], [
+         fhir:index 357 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "10827009" ]
+       ], [
+         fhir:index 358 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "14006006" ]
+       ], [
+         fhir:index 359 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "22968009" ]
+       ], [
+         fhir:index 360 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "23182003" ]
+       ], [
+         fhir:index 361 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "35233000" ]
+       ], [
+         fhir:index 362 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "55700001" ]
+       ], [
+         fhir:index 363 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "63766005" ]
+       ], [
+         fhir:index 364 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "73892005" ]
+       ], [
+         fhir:index 365 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "79549001" ]
+       ], [
+         fhir:index 366 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "85066006" ]
+       ], [
+         fhir:index 367 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "89811004" ]
+       ], [
+         fhir:index 368 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "111088007" ]
+       ], [
+         fhir:index 369 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "128489003" ]
+       ], [
+         fhir:index 370 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "226934003" ]
+       ], [
+         fhir:index 371 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "227066004" ]
+       ], [
+         fhir:index 372 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "227081005" ]
+       ], [
+         fhir:index 373 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "227131003" ]
+       ], [
+         fhir:index 374 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "227147001" ]
+       ], [
+         fhir:index 375 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "227150003" ]
+       ], [
+         fhir:index 376 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "227339008" ]
+       ], [
+         fhir:index 377 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "227346004" ]
+       ], [
+         fhir:index 378 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "227374009" ]
+       ], [
+         fhir:index 379 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "227387003" ]
+       ], [
+         fhir:index 380 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "227389000" ]
+       ], [
+         fhir:index 381 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "227398002" ]
+       ], [
+         fhir:index 382 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "227410007" ]
+       ], [
+         fhir:index 383 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "227423000" ]
+       ], [
+         fhir:index 384 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "227511008" ]
+       ], [
+         fhir:index 385 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "227512001" ]
+       ], [
+         fhir:index 386 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "229944000" ]
+       ], [
+         fhir:index 387 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "255620007" ]
+       ], [
+         fhir:index 388 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "255786007" ]
+       ], [
+         fhir:index 389 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "255844007" ]
+       ], [
+         fhir:index 390 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "255871007" ]
+       ], [
+         fhir:index 391 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "256186006" ]
+       ], [
+         fhir:index 392 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "256218005" ]
+       ], [
+         fhir:index 393 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "256262001" ]
+       ], [
+         fhir:index 394 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "256267007" ]
+       ], [
+         fhir:index 395 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "256270006" ]
+       ], [
+         fhir:index 396 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "256277009" ]
+       ], [
+         fhir:index 397 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "256281009" ]
+       ], [
+         fhir:index 398 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "256417003" ]
+       ], [
+         fhir:index 399 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "256440004" ]
+       ], [
+         fhir:index 400 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "256496006" ]
+       ], [
+         fhir:index 401 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "256501007" ]
+       ], [
+         fhir:index 402 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "256504004" ]
+       ], [
+         fhir:index 403 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "260108001" ]
+       ], [
+         fhir:index 404 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "260131001" ]
+       ], [
+         fhir:index 405 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "260156007" ]
+       ], [
+         fhir:index 406 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "261243003" ]
+       ], [
+         fhir:index 407 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "286550009" ]
+       ], [
+         fhir:index 408 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "289949002" ]
+       ], [
+         fhir:index 409 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "289955007" ]
+       ], [
+         fhir:index 410 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "311846002" ]
+       ], [
+         fhir:index 411 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "373780001" ]
+       ], [
+         fhir:index 412 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "387239001" ]
+       ], [
+         fhir:index 413 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "391737006" ]
+       ], [
+         fhir:index 414 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "409595003" ]
+       ], [
+         fhir:index 415 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "412161004" ]
+       ], [
+         fhir:index 416 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "418504009" ]
+       ], [
+         fhir:index 417 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "431510009" ]
+       ], [
+         fhir:index 418 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "698730007" ]
+       ], [
+         fhir:index 419 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "710171001" ]
+       ], [
+         fhir:index 420 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "710178007" ]
+       ], [
+         fhir:index 421 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "710183004" ]
+       ], [
+         fhir:index 422 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "710932003" ]
+       ], [
+         fhir:index 423 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "711143002" ]
+       ], [
+         fhir:index 424 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "711316002" ]
+       ], [
+         fhir:index 425 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "720687003" ]
+       ], [
+         fhir:index 426 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "726731009" ]
+       ], [
+         fhir:index 427 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "726764009" ]
+       ], [
+         fhir:index 428 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "735030001" ]
+       ], [
+         fhir:index 429 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "735046009" ]
+       ], [
+         fhir:index 430 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "735214002" ]
+       ], [
+         fhir:index 431 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "735215001" ]
+       ], [
+         fhir:index 432 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "762766007" ]
+       ], [
+         fhir:index 433 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "782576004" ]
+       ], [
+         fhir:index 434 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "785344003" ]
+       ], [
+         fhir:index 435 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "442461000124102" ]
+       ], [
+         fhir:index 436 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "14321009" ]
+       ], [
+         fhir:index 437 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "15896008" ]
+       ], [
+         fhir:index 438 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "77249007" ]
+       ], [
+         fhir:index 439 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "84181009" ]
+       ], [
+         fhir:index 440 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "125706008" ]
+       ], [
+         fhir:index 441 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "226793001" ]
+       ], [
+         fhir:index 442 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "227042005" ]
+       ], [
+         fhir:index 443 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "227105000" ]
+       ], [
+         fhir:index 444 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "227144008" ]
+       ], [
+         fhir:index 445 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "227392001" ]
+       ], [
+         fhir:index 446 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "255814009" ]
+       ], [
+         fhir:index 447 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "255840003" ]
+       ], [
+         fhir:index 448 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "256259004" ]
+       ], [
+         fhir:index 449 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "256290002" ]
+       ], [
+         fhir:index 450 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "256330001" ]
+       ], [
+         fhir:index 451 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "256355007" ]
+       ], [
+         fhir:index 452 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "261250004" ]
+       ], [
+         fhir:index 453 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "289122001" ]
+       ], [
+         fhir:index 454 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "301712000" ]
+       ], [
+         fhir:index 455 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "408742009" ]
+       ], [
+         fhir:index 456 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "412548006" ]
+       ], [
+         fhir:index 457 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "710226003" ]
+       ], [
+         fhir:index 458 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "710943006" ]
+       ], [
+         fhir:index 459 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "711094007" ]
+       ], [
+         fhir:index 460 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "711098005" ]
+       ], [
+         fhir:index 461 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "726749009" ]
+       ], [
+         fhir:index 462 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "726755004" ]
+       ], [
+         fhir:index 463 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "735009005" ]
+       ], [
+         fhir:index 464 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "736030007" ]
+       ], [
+         fhir:index 465 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "736159005" ]
+       ], [
+         fhir:index 466 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "773757000" ]
+       ], [
+         fhir:index 467 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "1137359008" ]
+       ], [
+         fhir:index 468 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "711319009" ]
+       ], [
+         fhir:index 469 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "762952008" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://hl7.cz/terminology/ValueSet/eHDSIAllergenNoDrug.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,96 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "5bc82b81-07ce-410b-8d29-8298f2cfafcb-96",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/5bc82b81-07ce-410b-8d29-8298f2cfafcb-96",
+  "name" : "IntersectionCZ_SpecimenAdditiveAndCZ_SpecimenAdditive",
+  "title" : "Intersection of Specimen Additive And Specimen Additive",
+  "status" : "active",
+  "date" : "2026-07-27T16:47:06+02:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CZ",
+      "display" : "Czechia"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "1259913003",
+        "display" : "Heparin ammonium"
+      },
+      {
+        "code" : "386961008",
+        "display" : "Aprotinin"
+      },
+      {
+        "code" : "29725000",
+        "display" : "Heparin calcium"
+      },
+      {
+        "code" : "21611007",
+        "display" : "Boric acid"
+      },
+      {
+        "code" : "30531001",
+        "display" : "Calcium oxalate"
+      },
+      {
+        "code" : "69519002",
+        "display" : "Edetic acid"
+      },
+      {
+        "code" : "372628006",
+        "display" : "Edetate"
+      },
+      {
+        "code" : "27763000",
+        "display" : "Hydrochloric acid"
+      },
+      {
+        "code" : "414407009",
+        "display" : "Hirudin"
+      },
+      {
+        "code" : "1256100007",
+        "display" : "Edetate dipotassium"
+      },
+      {
+        "code" : "1256101006",
+        "display" : "Edetate tripotassium"
+      },
+      {
+        "code" : "1256102004",
+        "display" : "Heparin lithium"
+      },
+      {
+        "code" : "387418006",
+        "display" : "Edetate disodium"
+      },
+      {
+        "code" : "412546005",
+        "display" : "Sodium citrate"
+      },
+      {
+        "code" : "50045009",
+        "display" : "Heparin sodium"
+      },
+      {
+        "code" : "6910009",
+        "display" : "Sodium fluoride"
+      },
+      {
+        "code" : "50306007",
+        "display" : "Sodium tetraborate"
+      },
+      {
+        "code" : "387168006",
+        "display" : "Mannitol"
+      },
+      {
+        "code" : "115281000146102",
+        "display" : "Sodium formate"
+      }]
+    }]
+  }
+}

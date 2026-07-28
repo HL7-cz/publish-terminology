@@ -1,0 +1,1039 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="idcard-uri"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="2"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use"/>
+  </extension>
+  <url value="https://hl7.cz/terminology/ValueSet/idcard-uri"/>
+  <version value="1.0.0"/>
+  <name value="IdCardUri"/>
+  <title value="ID Card URIs"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-01-01"/>
+  <publisher value="HL7 Czech Republic"/>
+  <contact>
+    <name value="HL7 Czech Republic"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hl7.cz/"/>
+    </telecom>
+  </contact>
+  <description value="A country specific URI for personal Id card numbers"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CZ"/>
+      <display value="Czechia"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="urn:ietf:rfc:3986"/>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-AFG"/>
+        <display value="Afghánistán"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-ALB"/>
+        <display value="Albánie"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-DZA"/>
+        <display value="Alžírsko"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-ASM"/>
+        <display value="Americká Samoa"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-AND"/>
+        <display value="Andorra"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-AGO"/>
+        <display value="Angola"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-AIA"/>
+        <display value="Anguilla"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-ATA"/>
+        <display value="Antarktida"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-ATG"/>
+        <display value="Antigua a Barbuda"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-ARG"/>
+        <display value="Argentina"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-ARM"/>
+        <display value="Arménie"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-ABW"/>
+        <display value="Aruba"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-AUS"/>
+        <display value="Austrálie"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-AUT"/>
+        <display value="Rakousko"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-AZE"/>
+        <display value="Ázerbájdžán"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-BHS"/>
+        <display value="Bahamy"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-BHR"/>
+        <display value="Bahrajn"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-BGD"/>
+        <display value="Bangladéš"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-BRB"/>
+        <display value="Barbados"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-BLR"/>
+        <display value="Bělorusko"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-BEL"/>
+        <display value="Belgie"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-BLZ"/>
+        <display value="Belize"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-BEN"/>
+        <display value="Benin"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-BMU"/>
+        <display value="Bermudy"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-BTN"/>
+        <display value="Bhútán"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-BOL"/>
+        <display value="Bolívie"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-BES"/>
+        <display value="Bonaire, Svatý Eustach a Saba"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-BIH"/>
+        <display value="Bosna a Hercegovina"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-BWA"/>
+        <display value="Botswana"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-BVT"/>
+        <display value="Bouvetův ostrov"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-BRA"/>
+        <display value="Brazílie"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-IOT"/>
+        <display value="Britské indickooceánské území"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-BRN"/>
+        <display value="Brunej"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-BGR"/>
+        <display value="Bulharsko"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-BFA"/>
+        <display value="Burkina Faso"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-BDI"/>
+        <display value="Burundi"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-CPV"/>
+        <display value="Burundi"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-KHM"/>
+        <display value="Kambodža"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-CMR"/>
+        <display value="Kamerun"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-CAN"/>
+        <display value="Kanada"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-CYM"/>
+        <display value="Kajmanské ostrovy"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-CAF"/>
+        <display value="Středoafrická republika"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-TCD"/>
+        <display value="Čad"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-CHL"/>
+        <display value="Chile"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-CHN"/>
+        <display value="Čína"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-CXR"/>
+        <display value="Vánoční ostrov"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-CCK"/>
+        <display value="Kokosové (Keelingovy) ostrovy"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-COL"/>
+        <display value="Kolumbie"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-COM"/>
+        <display value="Komory"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-COD"/>
+        <display value="Konžská republika"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-COG"/>
+        <display value="Konžská republika"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-COK"/>
+        <display value="Cookovy ostrovy"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-CRI"/>
+        <display value="Kostarika"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-HRV"/>
+        <display value="Chorvatsko"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-CUB"/>
+        <display value="Kuba"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-CUW"/>
+        <display value="Curaçao"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-CYP"/>
+        <display value="Kypr"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-CZE"/>
+        <display value="Česko"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-CIV"/>
+        <display value="Pobřeží slonoviny"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-DNK"/>
+        <display value="Dánsko"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-DJI"/>
+        <display value="Džibutsko"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-DMA"/>
+        <display value="Dominika"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-DOM"/>
+        <display value="Dominikánská republika"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-ECU"/>
+        <display value="Ekvádor"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-EGY"/>
+        <display value="Egypt"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-SLV"/>
+        <display value="Salvador"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-GNQ"/>
+        <display value="Rovníková Guinea"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-ERI"/>
+        <display value="Eritrea"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-EST"/>
+        <display value="Estonsko"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-SWZ"/>
+        <display value="Estonsko"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-ETH"/>
+        <display value="Etiopie"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-FLK"/>
+        <display value="Falklandy"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-FRO"/>
+        <display value="Faerské ostrovy"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-FJI"/>
+        <display value="Fidži"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-FIN"/>
+        <display value="Finsko"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-FRA"/>
+        <display value="Francie"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-GUF"/>
+        <display value="Francouzská Guyana"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-PYF"/>
+        <display value="Francouzská Polynésie"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-ATF"/>
+        <display value="Francouzská jižní a antarktická území"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-GAB"/>
+        <display value="Gabon"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-GMB"/>
+        <display value="Gambie"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-GEO"/>
+        <display value="Gruzie"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-DEU"/>
+        <display value="Německo"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-GHA"/>
+        <display value="Ghana"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-GIB"/>
+        <display value="Gibraltar"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-GRC"/>
+        <display value="Řecko"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-GRL"/>
+        <display value="Grónsko"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-GRD"/>
+        <display value="Grenada"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-GLP"/>
+        <display value="Guadeloupe"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-GUM"/>
+        <display value="Guam"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-GTM"/>
+        <display value="Guatemala"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-GGY"/>
+        <display value="Guernsey"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-GIN"/>
+        <display value="Guinea"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-GNB"/>
+        <display value="Guinea-Bissau"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-GUY"/>
+        <display value="Guyana"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-HTI"/>
+        <display value="Haiti"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-HMD"/>
+        <display value="Heardův ostrov a MacDonaldovy ostrovy"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-VAT"/>
+        <display value="Vatikán"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-HND"/>
+        <display value="Honduras"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-HKG"/>
+        <display value="Hongkong"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-HUN"/>
+        <display value="Maďarsko"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-ISL"/>
+        <display value="Island"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-IND"/>
+        <display value="Indie"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-IDN"/>
+        <display value="Indonésie"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-IRN"/>
+        <display value="Írán"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-IRQ"/>
+        <display value="Irák"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-IRL"/>
+        <display value="Irsko"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-IMN"/>
+        <display value="Man"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-ISR"/>
+        <display value="Izrael"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-ITA"/>
+        <display value="Itálie"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-JAM"/>
+        <display value="Jamajka"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-JPN"/>
+        <display value="Japonsko"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-JEY"/>
+        <display value="Jersey"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-JOR"/>
+        <display value="Jordánsko"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-KAZ"/>
+        <display value="Kazachstán"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-KEN"/>
+        <display value="Keňa"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-KIR"/>
+        <display value="Kiribati"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-PRK"/>
+        <display value="Korejská lidově demokratická republika"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-KOR"/>
+        <display value="Korejská lidově demokratická republika"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-KWT"/>
+        <display value="Kuvajt"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-KGZ"/>
+        <display value="Kyrgyzstán"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-LAO"/>
+        <display value="Laos"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-LVA"/>
+        <display value="Lotyšsko"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-LBN"/>
+        <display value="Libanon"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-LSO"/>
+        <display value="Lesotho"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-LBR"/>
+        <display value="Libérie"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-LBY"/>
+        <display value="Libye"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-LIE"/>
+        <display value="Lichtenštejnsko"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-LTU"/>
+        <display value="Litva"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-LUX"/>
+        <display value="Lucembursko"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-MAC"/>
+        <display value="Macao"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-MDG"/>
+        <display value="Madagaskar"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-MWI"/>
+        <display value="Malawi"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-MYS"/>
+        <display value="Malajsie"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-MDV"/>
+        <display value="Maledivy"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-MLI"/>
+        <display value="Mali"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-MLT"/>
+        <display value="Malta"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-MHL"/>
+        <display value="Marshallovy ostrovy"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-MTQ"/>
+        <display value="Martinik"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-MRT"/>
+        <display value="Mauritánie"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-MUS"/>
+        <display value="Mauricius"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-MYT"/>
+        <display value="Mayotte"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-MEX"/>
+        <display value="Mexiko"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-FSM"/>
+        <display value="Mikronésie"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-MDA"/>
+        <display value="Mikronésie"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-MCO"/>
+        <display value="Monako"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-MNG"/>
+        <display value="Mongolsko"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-MNE"/>
+        <display value="Černá Hora"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-MSR"/>
+        <display value="Montserrat"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-MAR"/>
+        <display value="Maroko"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-MOZ"/>
+        <display value="Mosambik"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-MMR"/>
+        <display value="Myanmar"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-NAM"/>
+        <display value="Namibie"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-NRU"/>
+        <display value="Nauru"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-NPL"/>
+        <display value="Nepál"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-NLD"/>
+        <display value="Nizozemsko"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-NCL"/>
+        <display value="Nová Kaledonie"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-NZL"/>
+        <display value="Nový Zéland"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-NIC"/>
+        <display value="Nikaragua"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-NER"/>
+        <display value="Niger"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-NGA"/>
+        <display value="Nigérie"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-NIU"/>
+        <display value="Niue"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-NFK"/>
+        <display value="Norfolk"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-MKD"/>
+        <display value="Norfolk"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-MNP"/>
+        <display value="Severní Mariany"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-NOR"/>
+        <display value="Norsko"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-OMN"/>
+        <display value="Omán"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-PAK"/>
+        <display value="Pákistán"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-PLW"/>
+        <display value="Palau"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-PSE"/>
+        <display value="Palestina"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-PAN"/>
+        <display value="Panama"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-PNG"/>
+        <display value="Papua Nová Guinea"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-PRY"/>
+        <display value="Paraguay"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-PER"/>
+        <display value="Peru"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-PHL"/>
+        <display value="Filipíny"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-PCN"/>
+        <display value="Pitcairn"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-POL"/>
+        <display value="Polsko"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-PRT"/>
+        <display value="Portugalsko"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-PRI"/>
+        <display value="Portoriko"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-QAT"/>
+        <display value="Katar"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-ROU"/>
+        <display value="Rumunsko"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-RUS"/>
+        <display value="Rusko"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-RWA"/>
+        <display value="Rwanda"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-REU"/>
+        <display value="Réunion"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-BLM"/>
+        <display value="Svatý Bartoloměj"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-SHN"/>
+        <display value="Svatá Helena"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-KNA"/>
+        <display value="Svatý Kryštof a Nevis"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-LCA"/>
+        <display value="Svatá Lucie"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-MAF"/>
+        <display value="Svatý Martin (FR)"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-SPM"/>
+        <display value="Saint Pierre a Miquelon"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-VCT"/>
+        <display value="Svatý Vincenc a Grenadiny"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-WSM"/>
+        <display value="Samoa"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-SMR"/>
+        <display value="San Marino"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-STP"/>
+        <display value="Svatý Tomáš a Princův ostrov"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-SAU"/>
+        <display value="Saúdská Arábie"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-SEN"/>
+        <display value="Senegal"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-SRB"/>
+        <display value="Srbsko"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-SYC"/>
+        <display value="Seychely"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-SLE"/>
+        <display value="Sierra Leone"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-SGP"/>
+        <display value="Singapur"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-SXM"/>
+        <display value="Svatý Martin (NL)"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-SVK"/>
+        <display value="Slovensko"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-SVN"/>
+        <display value="Slovinsko"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-SLB"/>
+        <display value="Šalomounovy ostrovy"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-SOM"/>
+        <display value="Somálsko"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-ZAF"/>
+        <display value="Jižní Afrika"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-SGS"/>
+        <display value="Jižní Georgie a Jižní Sandwichovy ostrovy"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-SSD"/>
+        <display value="Jižní Súdán"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-ESP"/>
+        <display value="Španělsko"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-LKA"/>
+        <display value="Šrí Lanka"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-SDN"/>
+        <display value="Súdán"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-SUR"/>
+        <display value="Surinam"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-SJM"/>
+        <display value="Špicberky a Jan Mayen"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-SWE"/>
+        <display value="Švédsko"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-CHE"/>
+        <display value="Švýcarsko"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-SYR"/>
+        <display value="Sýrie"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-TWN"/>
+        <display value="Sýrie"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-TJK"/>
+        <display value="Tádžikistán"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-TZA"/>
+        <display value="Tádžikistán"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-THA"/>
+        <display value="Thajsko"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-TLS"/>
+        <display value="Východní Timor"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-TGO"/>
+        <display value="Togo"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-TKL"/>
+        <display value="Tokelau"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-TON"/>
+        <display value="Tonga"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-TTO"/>
+        <display value="Trinidad a Tobago"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-TUN"/>
+        <display value="Tunisko"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-TKM"/>
+        <display value="Turkmenistán"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-TCA"/>
+        <display value="Turks a Caicos"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-TUV"/>
+        <display value="Tuvalu"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-TUR"/>
+        <display value="Turecko"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-UGA"/>
+        <display value="Uganda"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-UKR"/>
+        <display value="Ukrajina"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-ARE"/>
+        <display value="Spojené arabské emiráty"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-GBR"/>
+        <display value="Velká Británie"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-UMI"/>
+        <display value="Menší odlehlé ostrovy USA"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-USA"/>
+        <display value="Spojené státy"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-URY"/>
+        <display value="Uruguay"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-UZB"/>
+        <display value="Uzbekistán"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-VUT"/>
+        <display value="Vanuatu"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-VEN"/>
+        <display value="Venezuela"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-VNM"/>
+        <display value="Vietnam"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-VGB"/>
+        <display value="Vietnam"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-VIR"/>
+        <display value="Vietnam"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-WLF"/>
+        <display value="Wallis a Futuna"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-ESH"/>
+        <display value="Západní Sahara"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-YEM"/>
+        <display value="Jemen"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-ZMB"/>
+        <display value="Zambie"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-ZWE"/>
+        <display value="Zimbabwe"/>
+      </concept>
+      <concept>
+        <code value="https://hl7.cz/fhir/sid/idcard-ALA"/>
+        <display value="Alandy"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

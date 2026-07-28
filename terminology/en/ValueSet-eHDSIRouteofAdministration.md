@@ -1,0 +1,745 @@
+# eHDSI Route of Administration - HL7 Czech Terminology Implementation Guide v0.3.0
+
+## ValueSet: eHDSI Route of Administration 
+
+ 
+eHDSIRouteofAdministration 
+
+ **References** 
+
+This value set is not used here; it may be used elsewhere (e.g. specifications and/or implementations that use this content)
+
+### Logical Definition (CLD)
+
+ 
+
+### Expansion
+
+-------
+
+ [Description of the above table(s)](http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#terminology). 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "ValueSet",
+  "id" : "eHDSIRouteofAdministration",
+  "language" : "cs",
+  "url" : "https://ncez.mzcr.cz/terminology/ValueSet/eHDSIRouteofAdministration",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.12"
+  }],
+  "version" : "8.1.0",
+  "name" : "eHDSIRouteofAdministration",
+  "title" : "eHDSI Route of Administration",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-06-15T15:06:55.238088Z",
+  "publisher" : "HL7 Czech Republic",
+  "contact" : [{
+    "name" : "HL7 Czech Republic",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.hl7.cz/"
+    }]
+  }],
+  "description" : "eHDSIRouteofAdministration",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CZ",
+      "display" : "Czechia"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://standardterms.edqm.eu",
+      "concept" : [{
+        "code" : "20001000",
+        "display" : "ušní podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Auricular use"
+        }]
+      },
+      {
+        "code" : "20003000",
+        "display" : "kožní podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Cutaneous use"
+        }]
+      },
+      {
+        "code" : "20004000",
+        "display" : "dentální podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Dental use"
+        }]
+      },
+      {
+        "code" : "20006000",
+        "display" : "endocervikální podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Endocervical use"
+        }]
+      },
+      {
+        "code" : "20007000",
+        "display" : "endosinusové podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Endosinusial use"
+        }]
+      },
+      {
+        "code" : "20009000",
+        "display" : "epidurální podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Epidural use"
+        }]
+      },
+      {
+        "code" : "20011000",
+        "display" : "extraamniotické podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Extraamniotic use"
+        }]
+      },
+      {
+        "code" : "20011500",
+        "display" : "mimotělní podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Extracorporeal use"
+        }]
+      },
+      {
+        "code" : "20013000",
+        "display" : "gastroenterální podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Gastroenteral use"
+        }]
+      },
+      {
+        "code" : "20013500",
+        "display" : "žaludeční podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Gastric use"
+        }]
+      },
+      {
+        "code" : "20014000",
+        "display" : "podání na dásně",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Gingival use"
+        }]
+      },
+      {
+        "code" : "20015000",
+        "display" : "hemodialýza",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Haemodialysis"
+        }]
+      },
+      {
+        "code" : "20015500",
+        "display" : "implantace",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Implantation"
+        }]
+      },
+      {
+        "code" : "20019500",
+        "display" : "infiltrace",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Infiltration"
+        }]
+      },
+      {
+        "code" : "20020000",
+        "display" : "inhalační podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Inhalation use"
+        }]
+      },
+      {
+        "code" : "20021000",
+        "display" : "intestinální podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Intestinal use"
+        }]
+      },
+      {
+        "code" : "20023000",
+        "display" : "intraarteriální podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Intraarterial use"
+        }]
+      },
+      {
+        "code" : "20024000",
+        "display" : "intraartikulární podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Intraarticular use"
+        }]
+      },
+      {
+        "code" : "20025500",
+        "display" : "podání do přední oční komory",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Intracameral use"
+        }]
+      },
+      {
+        "code" : "20026000",
+        "display" : "intrakardiální podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Intracardiac use"
+        }]
+      },
+      {
+        "code" : "20026500",
+        "display" : "intrakartilaginózní podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Intracartilaginous use"
+        }]
+      },
+      {
+        "code" : "20027000",
+        "display" : "intrakavernózní podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Intracavernous use"
+        }]
+      },
+      {
+        "code" : "20027010",
+        "display" : "intracerebrální podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Intracerebral use"
+        }]
+      },
+      {
+        "code" : "20028000",
+        "display" : "intracervikální podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Intracervical use"
+        }]
+      },
+      {
+        "code" : "20028300",
+        "display" : "intracholangiopankreatické podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Intracholangiopancreatic use"
+        }]
+      },
+      {
+        "code" : "20029000",
+        "display" : "intrakorornární podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Intracoronary use"
+        }]
+      },
+      {
+        "code" : "20030000",
+        "display" : "intradermální podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Intradermal use"
+        }]
+      },
+      {
+        "code" : "20031000",
+        "display" : "intradiskální podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Intradiscal use"
+        }]
+      },
+      {
+        "code" : "20031500",
+        "display" : "intraepidermální podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Intraepidermal use"
+        }]
+      },
+      {
+        "code" : "20031700",
+        "display" : "intraglandulární podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Intraglandular use"
+        }]
+      },
+      {
+        "code" : "20032000",
+        "display" : "intralezionální podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Intralesional use"
+        }]
+      },
+      {
+        "code" : "20033000",
+        "display" : "intralymfatické podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Intralymphatic use"
+        }]
+      },
+      {
+        "code" : "20035000",
+        "display" : "intramuskulární podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Intramuscular use"
+        }]
+      },
+      {
+        "code" : "20036000",
+        "display" : "nitrooční podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Intraocular use"
+        }]
+      },
+      {
+        "code" : "20036500",
+        "display" : "intraoseální podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Intraosseous use"
+        }]
+      },
+      {
+        "code" : "20037000",
+        "display" : "podání do osrdečníku",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Intrapericardial use"
+        }]
+      },
+      {
+        "code" : "20039000",
+        "display" : "intrapleurální podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Intrapleural use"
+        }]
+      },
+      {
+        "code" : "20039200",
+        "display" : "intraportální podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Intraportal use"
+        }]
+      },
+      {
+        "code" : "20039500",
+        "display" : "intraprostatické podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Intraprostatic use"
+        }]
+      },
+      {
+        "code" : "20041000",
+        "display" : "intrasternální podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Intrasternal use"
+        }]
+      },
+      {
+        "code" : "20042000",
+        "display" : "intratekální podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Intrathecal use"
+        }]
+      },
+      {
+        "code" : "20045000",
+        "display" : "intravenózní podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Intravenous use"
+        }]
+      },
+      {
+        "code" : "20046000",
+        "display" : "intravezikální podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Intravesical use"
+        }]
+      },
+      {
+        "code" : "20047000",
+        "display" : "intravitreální podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Intravitreal use"
+        }]
+      },
+      {
+        "code" : "20047500",
+        "display" : "iontoforéza",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Iontophoresis"
+        }]
+      },
+      {
+        "code" : "20048000",
+        "display" : "laryngofaryngeální podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Laryngopharyngeal use"
+        }]
+      },
+      {
+        "code" : "20051000",
+        "display" : "oční podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Ocular use"
+        }]
+      },
+      {
+        "code" : "20055000",
+        "display" : "orofaryngeální podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Oropharyngeal use"
+        }]
+      },
+      {
+        "code" : "20057000",
+        "display" : "periartikulární podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Periarticular use"
+        }]
+      },
+      {
+        "code" : "20058000",
+        "display" : "perineurální podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Perineural use"
+        }]
+      },
+      {
+        "code" : "20059300",
+        "display" : "perioseální podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Periosseous use"
+        }]
+      },
+      {
+        "code" : "20059400",
+        "display" : "peritumorózní podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Peritumoral use"
+        }]
+      },
+      {
+        "code" : "20059500",
+        "display" : "zadní juxtasklérální podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Posterior juxtascleral use"
+        }]
+      },
+      {
+        "code" : "20061000",
+        "display" : "rektální podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Rectal use"
+        }]
+      },
+      {
+        "code" : "20061500",
+        "display" : "retrobulbární podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Retrobulbar use"
+        }]
+      },
+      {
+        "code" : "20062000",
+        "display" : "nespecifikovaný způsob podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Route of administration not applicable"
+        }]
+      },
+      {
+        "code" : "20063000",
+        "display" : "kožní skarifikace",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Skin scarification"
+        }]
+      },
+      {
+        "code" : "20065000",
+        "display" : "subkonjunktivální podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Subconjunctival use"
+        }]
+      },
+      {
+        "code" : "20067000",
+        "display" : "sublingvální podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Sublingual use"
+        }]
+      },
+      {
+        "code" : "20067500",
+        "display" : "submukosální podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Submucosal use"
+        }]
+      },
+      {
+        "code" : "20070000",
+        "display" : "transdermální podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Transdermal use"
+        }]
+      },
+      {
+        "code" : "20071000",
+        "display" : "uretrální podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Urethral use"
+        }]
+      },
+      {
+        "code" : "20072000",
+        "display" : "vaginální podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Vaginal use"
+        }]
+      },
+      {
+        "code" : "20080000",
+        "display" : "intracerebroventrikulární podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Intracerebroventricular use"
+        }]
+      },
+      {
+        "code" : "20081000",
+        "display" : "subretinální podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Subretinal use"
+        }]
+      },
+      {
+        "code" : "20084000",
+        "display" : "intrakorneální podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Intracorneal use"
+        }]
+      },
+      {
+        "code" : "20086000",
+        "display" : "intraputaminální podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Intraputaminal use"
+        }]
+      },
+      {
+        "code" : "20087000",
+        "display" : "extrapleurální podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Extrapleural use"
+        }]
+      },
+      {
+        "code" : "20088000",
+        "display" : "perilezionální podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Perilesional use"
+        }]
+      },
+      {
+        "code" : "20090000",
+        "display" : "podání do detruzoru",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Intradetrusorial use"
+        }]
+      },
+      {
+        "code" : "20002500",
+        "display" : "bukální podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Buccal use"
+        }]
+      },
+      {
+        "code" : "20008000",
+        "display" : "endotracheopulmonální podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Endotracheopulmonary use"
+        }]
+      },
+      {
+        "code" : "20010000",
+        "display" : "epilezionální podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Epilesional use"
+        }]
+      },
+      {
+        "code" : "20022000",
+        "display" : "intraamniotické podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Intraamniotic use"
+        }]
+      },
+      {
+        "code" : "20025000",
+        "display" : "intraburzální podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Intrabursal use"
+        }]
+      },
+      {
+        "code" : "20028500",
+        "display" : "intracisternální podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Intracisternal use"
+        }]
+      },
+      {
+        "code" : "20038000",
+        "display" : "intraperitoneální podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Intraperitoneal use"
+        }]
+      },
+      {
+        "code" : "20043000",
+        "display" : "intratumorózní podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Intratumoral use"
+        }]
+      },
+      {
+        "code" : "20044000",
+        "display" : "intrauterinní podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Intrauterine use"
+        }]
+      },
+      {
+        "code" : "20049000",
+        "display" : "nosní podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Nasal use"
+        }]
+      },
+      {
+        "code" : "20053000",
+        "display" : "perorální podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Oral use"
+        }]
+      },
+      {
+        "code" : "20054000",
+        "display" : "orální podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Oromucosal use"
+        }]
+      },
+      {
+        "code" : "20059000",
+        "display" : "periodontální podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Periodontal use"
+        }]
+      },
+      {
+        "code" : "20066000",
+        "display" : "subkutánní podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Subcutaneous use"
+        }]
+      },
+      {
+        "code" : "20089000",
+        "display" : "kardioplegické podání",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Cardioplegic use"
+        }]
+      }]
+    }]
+  }
+}
+
+```

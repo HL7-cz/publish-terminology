@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="eHDSIRouteofAdministration"/>
+  <language value="cs"/>
+  <text>
+    <status value="extensions"/><div xml:lang="cs" xmlns="http://www.w3.org/1999/xhtml" lang="cs"><p class="res-header-id"><b>Generated Narrative: ValueSet eHDSIRouteofAdministration</b></p><a name="eHDSIRouteofAdministration"> </a><a name="hceHDSIRouteofAdministration"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: cs</p></div><ul><li>Include these codes as defined in <a href="http://tx.fhir.org/r4"><code>http://standardterms.edqm.eu</code></a><span style="opacity: 0.5" title="Version is not explicitly stated. When building this specification, the most recent version 5 February 2025 has been used"> version ⏿5 February 2025</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>English (English, en)</b></td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20001000">20001000</a></td><td>ušní podání</td><td>Administration of a medicinal product to the ear.</td><td>Auricular use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20003000">20003000</a></td><td>kožní podání</td><td>Administration of a medicinal product to the skin and/or cutaneous wounds and/or nails and/or hair in order to obtain a local effect.</td><td>Cutaneous use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20004000">20004000</a></td><td>dentální podání</td><td>Administration of a medicinal product to and/or in the teeth or, on and/or around the nerves supplying the teeth.</td><td>Dental use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20006000">20006000</a></td><td>endocervikální podání</td><td>Administration of a medicinal product to the cervix uteri.</td><td>Endocervical use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20007000">20007000</a></td><td>endosinusové podání</td><td>Administration of a medicinal product to the sinuses to obtain a local effect.</td><td>Endosinusial use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20009000">20009000</a></td><td>epidurální podání</td><td>Injection of a medicinal product into the epidural space.</td><td>Epidural use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20011000">20011000</a></td><td>extraamniotické podání</td><td>Injection of a medicinal product between chorion and amnion.</td><td>Extraamniotic use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20011500">20011500</a></td><td>mimotělní podání</td><td>Use of a medicinal product outside the body</td><td>Extracorporeal use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20013000">20013000</a></td><td>gastroenterální podání</td><td>Administration of a medicinal product to the gastroenteral tract by means of an appropriate device. For use only when gastric use and intestinal use do not apply.</td><td>Gastroenteral use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20013500">20013500</a></td><td>žaludeční podání</td><td>Administration of a medicinal product to the stomach by means of an appropriate device</td><td>Gastric use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20014000">20014000</a></td><td>podání na dásně</td><td>Administration of a medicinal product to the gingivae.</td><td>Gingival use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20015000">20015000</a></td><td>hemodialýza</td><td>Clearance of the blood by means of a semipermeable membrane. [Previous English term 'Hemodialysis' corrected 04/07/11.]</td><td>Haemodialysis</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20015500">20015500</a></td><td>implantace</td><td>Insertion of an implant or living tissue equivalent into living tissue.</td><td>Implantation</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20019500">20019500</a></td><td>infiltrace</td><td>Method of administration, usually by injection, whereby a fluid passes into a target tissue (e.g. anaesthetic infiltration)</td><td>Infiltration</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20020000">20020000</a></td><td>inhalační podání</td><td>Administration of a medicinal product to the respiratory system by inhalation to obtain a systemic or a local effect in the lower respiratory tract. Nasal use and endotracheopulmonary use are excluded</td><td>Inhalation use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20021000">20021000</a></td><td>intestinální podání</td><td>Administration of a medicinal product to the intestine (duodenum, jejunum, ileum and colon) by means of an appropriate device. Gastroenteral use is excluded </td><td>Intestinal use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20023000">20023000</a></td><td>intraarteriální podání</td><td>Injection of a medicinal product into an artery.</td><td>Intraarterial use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20024000">20024000</a></td><td>intraartikulární podání</td><td>Injection of a medicinal product into an articular cavity.</td><td>Intraarticular use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20025500">20025500</a></td><td>podání do přední oční komory</td><td>Administration of a medicinal product directly into the anterior chamber of the eye</td><td>Intracameral use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20026000">20026000</a></td><td>intrakardiální podání</td><td>Injection of a medicinal product into the cardiac muscle and/or cardiac cavity. Cardioplegic use is excluded.</td><td>Intracardiac use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20026500">20026500</a></td><td>intrakartilaginózní podání</td><td>Administration of a medicinal product into the cartilage</td><td>Intracartilaginous use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20027000">20027000</a></td><td>intrakavernózní podání</td><td>Injection of a medicinal product into the corpus cavernosum.</td><td>Intracavernous use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20027010">20027010</a></td><td>intracerebrální podání</td><td>Administration of a medicinal product directly to the brain tissue. This term is only for use when a more-specific term (e.g. 'Intraputaminal use') is not applicable.</td><td>Intracerebral use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20028000">20028000</a></td><td>intracervikální podání</td><td>Injection of a medicinal product into the cervix uteri.</td><td>Intracervical use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20028300">20028300</a></td><td>intracholangiopankreatické podání</td><td>Injection of a medicinal product into the bile duct and the pancreatic duct, for example via a cannula introduced into the ampulla of Vater (the common opening of the ducts), usually for the administration of a contrast medium for techniques such as endoscopic retrograde cholangiopancreatography (ERCP).</td><td>Intracholangiopancreatic use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20029000">20029000</a></td><td>intrakorornární podání</td><td>Injection of a medicinal product into the coronary artery. Cardioplegic use is excluded.</td><td>Intracoronary use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20030000">20030000</a></td><td>intradermální podání</td><td>Injection of a medicinal product into the dermis.</td><td>Intradermal use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20031000">20031000</a></td><td>intradiskální podání</td><td>Injection of a medicinal product into the nucleus pulposus of an intervertebral disc.</td><td>Intradiscal use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20031500">20031500</a></td><td>intraepidermální podání</td><td>Administration of a medicinal product into the epidermis</td><td>Intraepidermal use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20031700">20031700</a></td><td>intraglandulární podání</td><td>Administration of a medicinal product directly into a gland, usually by injection. Only to be used where more-specific terms such as 'Intraprostatic use' and 'Intramammary use' do not apply.</td><td>Intraglandular use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20032000">20032000</a></td><td>intralezionální podání</td><td>Administration by injection or any other means of a medicinal product directly to a lesion.</td><td>Intralesional use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20033000">20033000</a></td><td>intralymfatické podání</td><td>Injection of a medicinal product into a lymphatic vessel.</td><td>Intralymphatic use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20035000">20035000</a></td><td>intramuskulární podání</td><td>Injection of a medicinal product into skeletal muscle tissue.</td><td>Intramuscular use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20036000">20036000</a></td><td>nitrooční podání</td><td>Administration of a medicinal product into the eye. The term 'intraocular use' is only for use when a more specific term (e.g. 'intracameral use', 'intravitreal use') does not apply. Ocular use and subconjunctival use are excluded.</td><td>Intraocular use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20036500">20036500</a></td><td>intraoseální podání</td><td>Administration of a medicinal product into the bone marrow. Intrasternal use is excluded.</td><td>Intraosseous use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20037000">20037000</a></td><td>podání do osrdečníku</td><td>Injection of a medicinal product to the pericardium.</td><td>Intrapericardial use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20039000">20039000</a></td><td>intrapleurální podání</td><td>Injection of a medicinal product into the pleural cavity.</td><td>Intrapleural use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20039200">20039200</a></td><td>intraportální podání</td><td>Injection/infusion of a medicinal product into the hepatic portal vein for local delivery to the liver.</td><td>Intraportal use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20039500">20039500</a></td><td>intraprostatické podání</td><td>Administration of a medicinal product into the prostate</td><td>Intraprostatic use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20041000">20041000</a></td><td>intrasternální podání</td><td>Injection of a medicinal product into the bone marrow of the sternum.</td><td>Intrasternal use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20042000">20042000</a></td><td>intratekální podání</td><td>Injection of a medicinal product through the dura to the subarachnoid cavity.</td><td>Intrathecal use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20045000">20045000</a></td><td>intravenózní podání</td><td>Injection of a medicinal product into a vein.</td><td>Intravenous use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20046000">20046000</a></td><td>intravezikální podání</td><td>Administration of a medicinal product to the urinary bladder.</td><td>Intravesical use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20047000">20047000</a></td><td>intravitreální podání</td><td>Administration of a medicinal product into the rear chamber of the eye.</td><td>Intravitreal use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20047500">20047500</a></td><td>iontoforéza</td><td>Introduction of (an) ionised active substance(s) through the intact skin by application of a direct electric current</td><td>Iontophoresis</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20048000">20048000</a></td><td>laryngofaryngeální podání</td><td>Administration of a medicinal product to the laryngopharynx for a local effect (anaesthetics).</td><td>Laryngopharyngeal use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20051000">20051000</a></td><td>oční podání</td><td>Administration of a medicinal product upon the eyeball and/or conjunctiva.</td><td>Ocular use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20055000">20055000</a></td><td>orofaryngeální podání</td><td>Administration of a medicinal product to the oropharynx (throat) to obtain a local effect.</td><td>Oropharyngeal use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20057000">20057000</a></td><td>periartikulární podání</td><td>Injection of a medicinal product around a joint.</td><td>Periarticular use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20058000">20058000</a></td><td>perineurální podání</td><td>Injection of a medicinal product into the direct surroundings of one or more nerves.</td><td>Perineural use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20059300">20059300</a></td><td>perioseální podání</td><td>Administration of a medicinal product on or around the bone</td><td>Periosseous use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20059400">20059400</a></td><td>peritumorózní podání</td><td>Administration of a medicinal product directly into the region surrounding a tumour.</td><td>Peritumoral use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20059500">20059500</a></td><td>zadní juxtasklérální podání</td><td>Administration of a medicinal product beneath the sub-tenon membrane of the sclera (i.e. in the episcleral space), adjacent to the macula.</td><td>Posterior juxtascleral use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20061000">20061000</a></td><td>rektální podání</td><td>Administration of a medicinal product to the rectum in order to obtain a local or systemic effect.</td><td>Rectal use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20061500">20061500</a></td><td>retrobulbární podání</td><td>Administration of a medicinal product behind the eyeball</td><td>Retrobulbar use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20062000">20062000</a></td><td>nespecifikovaný způsob podání</td><td>Applies to medicinal products not directly coming into contact with the body of the patient, or administration to various or non-specified anatomical sites.</td><td>Route of administration not applicable</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20063000">20063000</a></td><td>kožní skarifikace</td><td>Administration of a medicinal product by scratching the skin.</td><td>Skin scarification</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20065000">20065000</a></td><td>subkonjunktivální podání</td><td>Injection of a medicinal product underneath the conjunctiva.</td><td>Subconjunctival use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20067000">20067000</a></td><td>sublingvální podání</td><td>Administration of a medicinal product under the tongue to obtain a systemic effect.</td><td>Sublingual use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20067500">20067500</a></td><td>submukosální podání</td><td>Injection of a medicinal product directly underneath a mucosa</td><td>Submucosal use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20070000">20070000</a></td><td>transdermální podání</td><td>Administration of a medicinal product to the skin in order to obtain a systemic effect after passing through the skin barrier.</td><td>Transdermal use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20071000">20071000</a></td><td>uretrální podání</td><td>Administration of a medicinal product to the urethra.</td><td>Urethral use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20072000">20072000</a></td><td>vaginální podání</td><td>Administration of a medicinal product to the vagina.</td><td>Vaginal use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20080000">20080000</a></td><td>intracerebroventrikulární podání</td><td>Administration of a medicinal product into the cerebral ventricles (cerebral ventricular system) of the brain.</td><td>Intracerebroventricular use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20081000">20081000</a></td><td>subretinální podání</td><td>Administration of a medicinal product between the sensory retina (neural retina) and the retinal pigment epithelium of the eye.</td><td>Subretinal use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20084000">20084000</a></td><td>intrakorneální podání</td><td>Administration of a medicinal product into the cornea of the eye.</td><td>Intracorneal use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20086000">20086000</a></td><td>intraputaminální podání</td><td>Administration of a medicinal product into one or both of the putamen of the brain.</td><td>Intraputaminal use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20087000">20087000</a></td><td>extrapleurální podání</td><td>Injection of a medicinal product directly outside the pleural cavity, between the parietal pleura and the endothoracic fascia.</td><td>Extrapleural use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20088000">20088000</a></td><td>perilezionální podání</td><td>Administration, usually by injection, of a medicinal product into the tissue surrounding a lesion.</td><td>Perilesional use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20090000">20090000</a></td><td>podání do detruzoru</td><td>Injection of a medicinal product into the detrusor muscle of the bladder.</td><td>Intradetrusorial use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20002500">20002500</a></td><td>bukální podání</td><td>Administration of a medicinal product to the buccal cavity (pouch located between the cheek and the gum) to obtain a systemic effect</td><td>Buccal use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20008000">20008000</a></td><td>endotracheopulmonální podání</td><td>Administration of a medicinal product to the trachea and/or bronchi by instillation (preparations for inhalation are excluded; see inhalation use).</td><td>Endotracheopulmonary use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20010000">20010000</a></td><td>epilezionální podání</td><td>Administration of a medicinal product onto a lesion.</td><td>Epilesional use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20022000">20022000</a></td><td>intraamniotické podání</td><td>Injection of a medicinal product into the amniotic cavity.</td><td>Intraamniotic use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20025000">20025000</a></td><td>intraburzální podání</td><td>Injection of a medicinal product into bursae and tendons.</td><td>Intrabursal use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20028500">20028500</a></td><td>intracisternální podání</td><td>Administration of a medicinal product into the cisterna magna.</td><td>Intracisternal use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20038000">20038000</a></td><td>intraperitoneální podání</td><td>Injection of a medicinal product into the peritoneal cavity.</td><td>Intraperitoneal use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20043000">20043000</a></td><td>intratumorózní podání</td><td>Injection of a medicinal product into a tumor.</td><td>Intratumoral use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20044000">20044000</a></td><td>intrauterinní podání</td><td>Administration of a medicinal product to the cavity of the uterus.</td><td>Intrauterine use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20049000">20049000</a></td><td>nosní podání</td><td>Administration of a medicinal product to the nose to obtain a systemic or local effect. Inhalation therapy intended for the lower respiratory tract is excluded; see inhalation use.</td><td>Nasal use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20053000">20053000</a></td><td>perorální podání</td><td>Taking a medicinal product by means of swallowing.</td><td>Oral use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20054000">20054000</a></td><td>orální podání</td><td>Administration of a medicinal product to the oral cavity to obtain either a systemic or a local effect. The term oromucosal is only for use when a more specific term (e.g. buccal, gingival, sublingual...) does not apply. Oral use is excluded.</td><td>Oromucosal use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20059000">20059000</a></td><td>periodontální podání</td><td>Administration to the pouch between the tooth and the gingiva.</td><td>Periodontal use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20066000">20066000</a></td><td>subkutánní podání</td><td>Injection of a medicinal product directly underneath the skin, i.e. subdermally</td><td>Subcutaneous use</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/edqm#edqm-20089000">20089000</a></td><td>kardioplegické podání</td><td>Administration of a medicinal product, for example by infusion into the aortic root (antegrade cardioplegia) or coronary sinus (retrograde cardioplegia) of the isolated heart, to induce cardiac arrest during heart surgery.</td><td>Cardioplegic use</td></tr></table></li></ul></div>
+  </text>
+  <url value="https://ncez.mzcr.cz/terminology/ValueSet/eHDSIRouteofAdministration"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.12"/>
+  </identifier>
+  <version value="8.1.0"/>
+  <name value="eHDSIRouteofAdministration"/>
+  <title value="eHDSI Route of Administration"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-06-15T15:06:55.238088Z"/>
+  <publisher value="HL7 Czech Republic"/>
+  <contact>
+    <name value="HL7 Czech Republic"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hl7.cz/"/>
+    </telecom>
+  </contact>
+  <description value="eHDSIRouteofAdministration"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CZ"/>
+      <display value="Czechia"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://standardterms.edqm.eu"/>
+      <concept>
+        <code value="20001000"/>
+        <display value="ušní podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Auricular use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20003000"/>
+        <display value="kožní podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Cutaneous use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20004000"/>
+        <display value="dentální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Dental use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20006000"/>
+        <display value="endocervikální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Endocervical use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20007000"/>
+        <display value="endosinusové podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Endosinusial use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20009000"/>
+        <display value="epidurální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Epidural use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20011000"/>
+        <display value="extraamniotické podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Extraamniotic use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20011500"/>
+        <display value="mimotělní podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Extracorporeal use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20013000"/>
+        <display value="gastroenterální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Gastroenteral use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20013500"/>
+        <display value="žaludeční podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Gastric use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20014000"/>
+        <display value="podání na dásně"/>
+        <designation>
+          <language value="en"/>
+          <value value="Gingival use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20015000"/>
+        <display value="hemodialýza"/>
+        <designation>
+          <language value="en"/>
+          <value value="Haemodialysis"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20015500"/>
+        <display value="implantace"/>
+        <designation>
+          <language value="en"/>
+          <value value="Implantation"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20019500"/>
+        <display value="infiltrace"/>
+        <designation>
+          <language value="en"/>
+          <value value="Infiltration"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20020000"/>
+        <display value="inhalační podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Inhalation use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20021000"/>
+        <display value="intestinální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intestinal use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20023000"/>
+        <display value="intraarteriální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intraarterial use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20024000"/>
+        <display value="intraartikulární podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intraarticular use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20025500"/>
+        <display value="podání do přední oční komory"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intracameral use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20026000"/>
+        <display value="intrakardiální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intracardiac use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20026500"/>
+        <display value="intrakartilaginózní podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intracartilaginous use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20027000"/>
+        <display value="intrakavernózní podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intracavernous use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20027010"/>
+        <display value="intracerebrální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intracerebral use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20028000"/>
+        <display value="intracervikální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intracervical use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20028300"/>
+        <display value="intracholangiopankreatické podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intracholangiopancreatic use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20029000"/>
+        <display value="intrakorornární podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intracoronary use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20030000"/>
+        <display value="intradermální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intradermal use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20031000"/>
+        <display value="intradiskální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intradiscal use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20031500"/>
+        <display value="intraepidermální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intraepidermal use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20031700"/>
+        <display value="intraglandulární podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intraglandular use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20032000"/>
+        <display value="intralezionální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intralesional use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20033000"/>
+        <display value="intralymfatické podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intralymphatic use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20035000"/>
+        <display value="intramuskulární podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intramuscular use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20036000"/>
+        <display value="nitrooční podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intraocular use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20036500"/>
+        <display value="intraoseální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intraosseous use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20037000"/>
+        <display value="podání do osrdečníku"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intrapericardial use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20039000"/>
+        <display value="intrapleurální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intrapleural use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20039200"/>
+        <display value="intraportální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intraportal use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20039500"/>
+        <display value="intraprostatické podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intraprostatic use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20041000"/>
+        <display value="intrasternální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intrasternal use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20042000"/>
+        <display value="intratekální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intrathecal use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20045000"/>
+        <display value="intravenózní podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intravenous use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20046000"/>
+        <display value="intravezikální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intravesical use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20047000"/>
+        <display value="intravitreální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intravitreal use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20047500"/>
+        <display value="iontoforéza"/>
+        <designation>
+          <language value="en"/>
+          <value value="Iontophoresis"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20048000"/>
+        <display value="laryngofaryngeální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Laryngopharyngeal use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20051000"/>
+        <display value="oční podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Ocular use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20055000"/>
+        <display value="orofaryngeální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Oropharyngeal use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20057000"/>
+        <display value="periartikulární podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Periarticular use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20058000"/>
+        <display value="perineurální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Perineural use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20059300"/>
+        <display value="perioseální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Periosseous use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20059400"/>
+        <display value="peritumorózní podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Peritumoral use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20059500"/>
+        <display value="zadní juxtasklérální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Posterior juxtascleral use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20061000"/>
+        <display value="rektální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Rectal use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20061500"/>
+        <display value="retrobulbární podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Retrobulbar use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20062000"/>
+        <display value="nespecifikovaný způsob podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Route of administration not applicable"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20063000"/>
+        <display value="kožní skarifikace"/>
+        <designation>
+          <language value="en"/>
+          <value value="Skin scarification"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20065000"/>
+        <display value="subkonjunktivální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Subconjunctival use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20067000"/>
+        <display value="sublingvální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Sublingual use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20067500"/>
+        <display value="submukosální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Submucosal use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20070000"/>
+        <display value="transdermální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Transdermal use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20071000"/>
+        <display value="uretrální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Urethral use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20072000"/>
+        <display value="vaginální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Vaginal use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20080000"/>
+        <display value="intracerebroventrikulární podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intracerebroventricular use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20081000"/>
+        <display value="subretinální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Subretinal use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20084000"/>
+        <display value="intrakorneální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intracorneal use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20086000"/>
+        <display value="intraputaminální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intraputaminal use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20087000"/>
+        <display value="extrapleurální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Extrapleural use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20088000"/>
+        <display value="perilezionální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Perilesional use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20090000"/>
+        <display value="podání do detruzoru"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intradetrusorial use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20002500"/>
+        <display value="bukální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Buccal use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20008000"/>
+        <display value="endotracheopulmonální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Endotracheopulmonary use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20010000"/>
+        <display value="epilezionální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Epilesional use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20022000"/>
+        <display value="intraamniotické podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intraamniotic use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20025000"/>
+        <display value="intraburzální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intrabursal use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20028500"/>
+        <display value="intracisternální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intracisternal use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20038000"/>
+        <display value="intraperitoneální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intraperitoneal use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20043000"/>
+        <display value="intratumorózní podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intratumoral use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20044000"/>
+        <display value="intrauterinní podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Intrauterine use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20049000"/>
+        <display value="nosní podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Nasal use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20053000"/>
+        <display value="perorální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Oral use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20054000"/>
+        <display value="orální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Oromucosal use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20059000"/>
+        <display value="periodontální podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Periodontal use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20066000"/>
+        <display value="subkutánní podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Subcutaneous use"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="20089000"/>
+        <display value="kardioplegické podání"/>
+        <designation>
+          <language value="en"/>
+          <value value="Cardioplegic use"/>
+        </designation>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

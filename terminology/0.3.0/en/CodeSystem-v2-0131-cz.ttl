@@ -1,0 +1,146 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hl7.cz/terminology/CodeSystem/v2-0131-cz> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "v2-0131-cz"] ;
+  fhir:Resource.language [ fhir:value "en"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ]
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://hl7.cz/terminology/CodeSystem/v2-0131-cz"] ;
+  fhir:CodeSystem.version [ fhir:value "3.0.0"] ;
+  fhir:CodeSystem.name [ fhir:value "ContactRole2Cz"] ;
+  fhir:CodeSystem.title [ fhir:value "Contact Role (CZ supplement)"] ;
+  fhir:CodeSystem.status [ fhir:value "active"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2025-03-03T10:36:45.465879Z"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "HL7 Czech Republic"] ;
+  fhir:CodeSystem.contact [
+     fhir:index -1 ;
+     fhir:ContactDetail.name [ fhir:value "HL7 Czech Republic" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index -1 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://www.hl7.cz/" ]
+     ]
+  ] ;
+  fhir:CodeSystem.description [ fhir:value "Role kontaktní osoby. FHIR Code system definition for HL7 v2 table 0131 (Contact Role)."] ;
+  fhir:CodeSystem.jurisdiction [
+     fhir:index -1 ;
+     fhir:CodeableConcept.coding [
+       fhir:index -1 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "CZ" ] ;
+       fhir:Coding.display [ fhir:value "Czechia" ]
+     ]
+  ] ;
+  fhir:CodeSystem.content [ fhir:value "supplement"] ;
+  fhir:CodeSystem.supplements [
+     fhir:value "http://terminology.hl7.org/CodeSystem/v2-0131|3.0.0" ;
+     fhir:link <http://terminology.hl7.org/CodeSystem/v2-0131|3.0.0>
+  ] ;
+  fhir:CodeSystem.property [
+     fhir:index -1 ;
+     fhir:CodeSystem.property.code [ fhir:value "preferredForLanguage" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "string" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.property.code [ fhir:value "status" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://hl7.org/fhir/concept-properties#status" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "Status" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "code" ]
+  ] ;
+  fhir:CodeSystem.concept [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "C" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "emergentní kontakt" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Emergentní kontakt" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "E" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "zaměstnavatel" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Zaměstnavatel" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "F" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "federální orgán" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Federální orgán" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "I" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "pojišťovna" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Pojišťovna" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "N" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "příbuzný" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Příbuzný" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "O" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ostatní" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Ostatní" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "S" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "státní orgán" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Státní orgán" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "U" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "neznámý" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Neznámý" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://hl7.cz/terminology/CodeSystem/v2-0131-cz.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

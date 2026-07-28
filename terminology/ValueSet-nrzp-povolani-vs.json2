@@ -4,7 +4,7 @@
   "language" : "cs",
   "text" : {
     "status" : "generated",
-    "div" : "<div xml:lang=\"cs\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"cs\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet nrzp-povolani-vs</b></p><a name=\"nrzp-povolani-vs\"> </a><a name=\"hcnrzp-povolani-vs\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: cs</p></div><ul><li>Include all codes defined in <a href=\"CodeSystem-nrzp-povolani.html\"><code>https://ncez.mzcr.cz/terminology/CodeSystem/nrzp-povolani</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.2.0</span></li></ul></div>"
+    "div" : "<div xml:lang=\"cs\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"cs\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet nrzp-povolani-vs</b></p><a name=\"nrzp-povolani-vs\"> </a><a name=\"hcnrzp-povolani-vs\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: cs</p></div><ul><li>Include all codes defined in <a href=\"CodeSystem-nrzp-povolani.html\"><code>https://ncez.mzcr.cz/terminology/CodeSystem/nrzp-povolani</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;1.0.0</span></li></ul></div>"
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
@@ -15,7 +15,7 @@
     "valueCode" : "trial-use"
   }],
   "url" : "https://ncez.mzcr.cz/terminology/ValueSet/nrzp-povolani-vs",
-  "version" : "0.2.0",
+  "version" : "1.0.0",
   "name" : "NRZP_PovolaniVS",
   "title" : "Occupation of healthcare practitioner (CZ)",
   "status" : "active",

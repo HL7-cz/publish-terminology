@@ -1,0 +1,24 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "5bc82b81-07ce-410b-8d29-8298f2cfafcb-57",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/5bc82b81-07ce-410b-8d29-8298f2cfafcb-57",
+  "name" : "IntersectionAllergenWithExceptionsAndAllergenWithExceptions",
+  "title" : "Intersection of eHDSI Agent or Allergen With Exceptions And eHDSI Agent or Allergen With Exceptions",
+  "status" : "active",
+  "date" : "2026-07-27T16:47:06+02:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CZ",
+      "display" : "Czechia"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "valueSet" : ["https://sukl.cz/terminology/ValueSet/dlp-lecivepripravky"]
+    },
+    {
+      "valueSet" : ["https://sukl.cz/terminology/ValueSet/dlp-atc"]
+    }]
+  }
+}

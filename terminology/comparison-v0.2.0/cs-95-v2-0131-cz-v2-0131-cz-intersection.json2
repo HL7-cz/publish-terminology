@@ -1,0 +1,178 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "3be28065-604a-49db-82ac-da3be23fd237-45",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/3be28065-604a-49db-82ac-da3be23fd237-45",
+  "name" : "IntersectionContactRole2CzAndContactRole2Cz",
+  "title" : "Intersection of Contact Role (CZ supplement) And Contact Role (CZ supplement)",
+  "status" : "draft",
+  "date" : "2026-07-27T16:56:47+02:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CZ",
+      "display" : "Czechia"
+    }]
+  }],
+  "property" : [{
+    "code" : "notSelectable",
+    "uri" : "http://hl7.org/fhir/concept-properties#notSelectable",
+    "description" : "Not Selectable",
+    "type" : "boolean"
+  }],
+  "concept" : [{
+    "code" : "C",
+    "display" : "emergentní kontakt",
+    "definition" : "Emergentní kontakt",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "Emergency Contact"
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "Emergency Contact"
+    }]
+  },
+  {
+    "code" : "E",
+    "display" : "zaměstnavatel",
+    "definition" : "Zaměstnavatel",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "Employer"
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "Employer"
+    }]
+  },
+  {
+    "code" : "F",
+    "display" : "federální orgán",
+    "definition" : "Federální orgán",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "Federal Agency"
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "Federal Agency"
+    }],
+    "property" : [{
+      "code" : "notSelectable",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "I",
+    "display" : "pojišťovna",
+    "definition" : "Pojišťovna",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "Insurance Company"
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "Insurance Company"
+    }]
+  },
+  {
+    "code" : "N",
+    "display" : "příbuzný",
+    "definition" : "Příbuzný",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "Next-of-Kin"
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "Next-of-Kin"
+    }]
+  },
+  {
+    "code" : "O",
+    "display" : "ostatní",
+    "definition" : "Ostatní",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "Other"
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "Other"
+    }]
+  },
+  {
+    "code" : "S",
+    "display" : "státní orgán",
+    "definition" : "Státní orgán",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "State Agency"
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "State Agency"
+    }]
+  },
+  {
+    "code" : "U",
+    "display" : "neznámý",
+    "definition" : "Neznámý",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "code" : "definition"
+      },
+      "value" : "Unknown"
+    },
+    {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "Unknown"
+    }]
+  }]
+}

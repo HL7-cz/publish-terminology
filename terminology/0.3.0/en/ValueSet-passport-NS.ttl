@@ -1,0 +1,1061 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hl7.cz/terminology/ValueSet/passport-NS> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "passport-NS"] ;
+  fhir:Resource.language [ fhir:value "en"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ]
+  ] ;
+  fhir:DomainResource.extension [
+     fhir:index -1 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm" ] ;
+     fhir:Extension.valueInteger [ fhir:value "2"^^xsd:integer ]
+  ], [
+     fhir:index -1 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status" ] ;
+     fhir:Extension.valueCode [ fhir:value "trial-use" ]
+  ] ;
+  fhir:ValueSet.url [ fhir:value "https://hl7.cz/terminology/ValueSet/passport-NS"] ;
+  fhir:ValueSet.version [ fhir:value "1.0.0"] ;
+  fhir:ValueSet.name [ fhir:value "PassportNSVS"] ;
+  fhir:ValueSet.title [ fhir:value "Standard namespaces for passports"] ;
+  fhir:ValueSet.status [ fhir:value "active"] ;
+  fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:ValueSet.date [ fhir:value "2023-01-01"^^xsd:date] ;
+  fhir:ValueSet.publisher [ fhir:value "HL7 Czech Republic"] ;
+  fhir:ValueSet.contact [
+     fhir:index -1 ;
+     fhir:ContactDetail.name [ fhir:value "HL7 Czech Republic" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index -1 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://www.hl7.cz/" ]
+     ]
+  ] ;
+  fhir:ValueSet.description [ fhir:value "Číselník jmenných prostorů pro pasy. (Passport namespaces.)"] ;
+  fhir:ValueSet.jurisdiction [
+     fhir:index -1 ;
+     fhir:CodeableConcept.coding [
+       fhir:index -1 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "CZ" ] ;
+       fhir:Coding.display [ fhir:value "Czechia" ]
+     ]
+  ] ;
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index -1 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "urn:ietf:rfc:3986" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-AFG" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Afghánistán" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-ALB" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Albánie" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-DZA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Alžírsko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-ASM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Americká Samoa" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-AND" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Andorra" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-AGO" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Angola" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-AIA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Anguilla" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-ATA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Antarktida" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-ATG" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Antigua a Barbuda" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-ARG" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Argentina" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-ARM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Arménie" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-ABW" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Aruba" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-AUS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Austrálie" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-AUT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Rakousko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-AZE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Ázerbájdžán" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-BHS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Bahamy" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-BHR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Bahrajn" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-BGD" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Bangladéš" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-BRB" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Barbados" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-BLR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Bělorusko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-BEL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Belgie" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-BLZ" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Belize" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-BEN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Benin" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-BMU" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Bermudy" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-BTN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Bhútán" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-BOL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Bolívie" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-BES" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Bonaire, Svatý Eustach a Saba" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-BIH" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Bosna a Hercegovina" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-BWA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Botswana" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-BVT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Bouvetův ostrov" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-BRA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Brazílie" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-IOT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Britské indickooceánské území" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-BRN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Brunej" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-BGR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Bulharsko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-BFA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Burkina Faso" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-BDI" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Burundi" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-CPV" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Burundi" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-KHM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Kambodža" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-CMR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Kamerun" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-CAN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Kanada" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-CYM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Kajmanské ostrovy" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-CAF" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Středoafrická republika" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-TCD" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Čad" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-CHL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Chile" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-CHN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Čína" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-CXR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Vánoční ostrov" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-CCK" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Kokosové (Keelingovy) ostrovy" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-COL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Kolumbie" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-COM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Komory" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-COD" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Konžská republika" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-COG" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Konžská republika" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-COK" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Cookovy ostrovy" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-CRI" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Kostarika" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-HRV" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Chorvatsko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-CUB" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Kuba" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-CUW" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Curaçao" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-CYP" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Kypr" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-CZE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Česko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-CIV" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Pobřeží slonoviny" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-DNK" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Dánsko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-DJI" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Džibutsko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-DMA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Dominika" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-DOM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Dominikánská republika" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-ECU" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Ekvádor" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-EGY" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Egypt" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-SLV" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Salvador" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-GNQ" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Rovníková Guinea" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-ERI" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Eritrea" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-EST" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Estonsko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-SWZ" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Estonsko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-ETH" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Etiopie" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-FLK" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Falklandy" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-FRO" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Faerské ostrovy" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-FJI" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Fidži" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-FIN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Finsko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-FRA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Francie" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-GUF" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Francouzská Guyana" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-PYF" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Francouzská Polynésie" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-ATF" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Francouzská jižní a antarktická území" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-GAB" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Gabon" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-GMB" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Gambie" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-GEO" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Gruzie" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-DEU" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Německo" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-GHA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Ghana" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-GIB" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Gibraltar" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-GRC" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Řecko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-GRL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Grónsko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-GRD" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Grenada" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-GLP" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Guadeloupe" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-GUM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Guam" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-GTM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Guatemala" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-GGY" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Guernsey" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-GIN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Guinea" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-GNB" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Guinea-Bissau" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-GUY" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Guyana" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-HTI" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Haiti" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-HMD" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Heardův ostrov a MacDonaldovy ostrovy" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-VAT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Vatikán" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-HND" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Honduras" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-HKG" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Hongkong" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-HUN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Maďarsko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-ISL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Island" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-IND" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Indie" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-IDN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Indonésie" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-IRN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Írán" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-IRQ" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Irák" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-IRL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Irsko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-IMN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Man" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-ISR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Izrael" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-ITA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Itálie" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-JAM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Jamajka" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-JPN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Japonsko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-JEY" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Jersey" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-JOR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Jordánsko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-KAZ" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Kazachstán" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-KEN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Keňa" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-KIR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Kiribati" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-PRK" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Korejská lidově demokratická republika" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-KOR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Korejská lidově demokratická republika" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-KWT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Kuvajt" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-KGZ" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Kyrgyzstán" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-LAO" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Laos" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-LVA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Lotyšsko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-LBN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Libanon" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-LSO" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Lesotho" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-LBR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Libérie" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-LBY" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Libye" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-LIE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Lichtenštejnsko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-LTU" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Litva" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-LUX" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Lucembursko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-MAC" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Macao" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-MDG" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Madagaskar" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-MWI" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Malawi" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-MYS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Malajsie" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-MDV" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Maledivy" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-MLI" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Mali" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-MLT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Malta" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-MHL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Marshallovy ostrovy" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-MTQ" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Martinik" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-MRT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Mauritánie" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-MUS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Mauricius" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-MYT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Mayotte" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-MEX" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Mexiko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-FSM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Mikronésie" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-MDA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Mikronésie" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-MCO" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Monako" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-MNG" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Mongolsko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-MNE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Černá Hora" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-MSR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Montserrat" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-MAR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Maroko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-MOZ" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Mosambik" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-MMR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Myanmar" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-NAM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Namibie" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-NRU" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Nauru" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-NPL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Nepál" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-NLD" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Nizozemsko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-NCL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Nová Kaledonie" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-NZL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Nový Zéland" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-NIC" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Nikaragua" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-NER" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Niger" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-NGA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Nigérie" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-NIU" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Niue" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-NFK" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Norfolk" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-MKD" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Norfolk" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-MNP" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Severní Mariany" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-NOR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Norsko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-OMN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Omán" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-PAK" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Pákistán" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-PLW" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Palau" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-PSE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Palestina" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-PAN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Panama" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-PNG" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Papua Nová Guinea" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-PRY" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Paraguay" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-PER" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Peru" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-PHL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Filipíny" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-PCN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Pitcairn" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-POL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Polsko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-PRT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Portugalsko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-PRI" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Portoriko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-QAT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Katar" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-ROU" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Rumunsko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-RUS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Rusko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-RWA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Rwanda" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-REU" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Réunion" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-BLM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Svatý Bartoloměj" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-SHN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Svatá Helena" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-KNA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Svatý Kryštof a Nevis" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-LCA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Svatá Lucie" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-MAF" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Svatý Martin (FR)" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-SPM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Saint Pierre a Miquelon" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-VCT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Svatý Vincenc a Grenadiny" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-WSM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Samoa" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-SMR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: San Marino" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-STP" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Svatý Tomáš a Princův ostrov" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-SAU" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Saúdská Arábie" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-SEN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Senegal" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-SRB" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Srbsko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-SYC" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Seychely" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-SLE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Sierra Leone" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-SGP" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Singapur" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-SXM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Svatý Martin (NL)" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-SVK" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Slovensko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-SVN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Slovinsko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-SLB" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Šalomounovy ostrovy" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-SOM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Somálsko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-ZAF" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Jižní Afrika" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-SGS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Jižní Georgie a Jižní Sandwichovy ostrovy" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-SSD" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Jižní Súdán" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-ESP" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Španělsko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-LKA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Šrí Lanka" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-SDN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Súdán" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-SUR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Surinam" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-SJM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Špicberky a Jan Mayen" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-SWE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Švédsko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-CHE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Švýcarsko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-SYR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Sýrie" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-TWN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Sýrie" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-TJK" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Tádžikistán" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-TZA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Tádžikistán" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-THA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Thajsko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-TLS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Východní Timor" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-TGO" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Togo" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-TKL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Tokelau" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-TON" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Tonga" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-TTO" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Trinidad a Tobago" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-TUN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Tunisko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-TKM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Turkmenistán" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-TCA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Turks a Caicos" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-TUV" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Tuvalu" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-TUR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Turecko" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-UGA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Uganda" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-UKR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Ukrajina" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-ARE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Spojené arabské emiráty" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-GBR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Velká Británie" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-UMI" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Menší odlehlé ostrovy USA" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-USA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Spojené státy" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-URY" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Uruguay" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-UZB" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Uzbekistán" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-VUT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Vanuatu" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-VEN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Venezuela" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-VNM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Vietnam" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-VGB" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Vietnam" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-VIR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Vietnam" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-WLF" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Wallis a Futuna" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-ESH" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Západní Sahara" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-YEM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Jemen" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-ZMB" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Zambie" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-ZWE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Zimbabwe" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "http://terminology.hl7.org/NamingSystem/passportNumNS-ALA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas: Alandy" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://hl7.cz/terminology/ValueSet/passport-NS.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

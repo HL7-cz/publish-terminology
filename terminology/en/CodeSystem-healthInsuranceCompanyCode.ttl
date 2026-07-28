@@ -1,0 +1,190 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hl7.cz/terminology/CodeSystem/healthInsuranceCompanyCode> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "healthInsuranceCompanyCode"] ;
+  fhir:Resource.language [ fhir:value "en"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ]
+  ] ;
+  fhir:DomainResource.extension [
+     fhir:index -1 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm" ] ;
+     fhir:Extension.valueInteger [ fhir:value "2"^^xsd:integer ]
+  ], [
+     fhir:index -1 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status" ] ;
+     fhir:Extension.valueCode [ fhir:value "trial-use" ]
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://ncez.mzcr.cz/terminology/CodeSystem/healthInsuranceCompanyCode"] ;
+  fhir:CodeSystem.version [ fhir:value "1.0.0"] ;
+  fhir:CodeSystem.name [ fhir:value "CS_HealthInsuranceCompanyCode"] ;
+  fhir:CodeSystem.title [ fhir:value "Codesystem of Health Insurance Companies"] ;
+  fhir:CodeSystem.status [ fhir:value "active"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2025-01-17"^^xsd:date] ;
+  fhir:CodeSystem.publisher [ fhir:value "HL7 Czech Republic"] ;
+  fhir:CodeSystem.contact [
+     fhir:index -1 ;
+     fhir:ContactDetail.name [ fhir:value "HL7 Czech Republic" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index -1 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://www.hl7.cz/" ]
+     ]
+  ] ;
+  fhir:CodeSystem.description [ fhir:value "National codes of health insurance companies."] ;
+  fhir:CodeSystem.jurisdiction [
+     fhir:index -1 ;
+     fhir:CodeableConcept.coding [
+       fhir:index -1 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "CZ" ] ;
+       fhir:Coding.display [ fhir:value "Czechia" ]
+     ]
+  ] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.count [ fhir:value "32"^^xsd:nonNegativeInteger] ;
+  fhir:CodeSystem.concept [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "111" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Všeobecná zdravotní pojišťovna ČR" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "201" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Vojenská zdravotní pojišťovna ČR" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "202" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Hornická zaměstnanecká zdrav.pojišťovna" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "203" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "GRÁL-Železniční zdravotní pojišťovna" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "204" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pojišťovna GARANT-HOSPITAL" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "205" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Česká průmyslová zdravotní pojišťovna" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "206" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Moravská zdravotní pojišťovna" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "207" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Obor.zdravot.poj.zam.bank,pojiš. a stav." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "208" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Zaměstnanecká zdravotní pojišťov.ATLAS" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "209" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Zaměstnanecká pojišťovna ŠKODA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "210" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Zdravotní pokladna škodováků" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "211" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Zdravotní pojišťovna minister.vnitra ČR" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "212" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "STAZPO - Stavební zdravotní pojišťovna" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "213" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Revírní bratrská pokladna, zdravot.poj." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "214" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Regionální zdravotní pojišťovna REZAPO" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "215" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "IMPULS-Moravskoslezská zdravotní pojišť." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "216" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Sdruž.dopr.a zem.-podnik.zdr.poj.SALVUS" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "217" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Zdravotní pojišťovna METAL-ALIANCE" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "218" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Zdravotní pojišťovna CRYSTAL" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "219" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Prostějovská zdravotní pojišťovna" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "220" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Zaměstnanecká zdravot.pojišťovna PRIMA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "221" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Mendlova zdravotní pojišťovna" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "222" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Česká národní zdravotní pojišťovna" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "223" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Zemědělsko-potravinářská zdrav.pojišť." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "224" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Zaměstnanecká zdravotní pojišťovna RADIX" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "225" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Zdravotní pojišťovna SPORT" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "226" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Zdrav.pojišť.chemie,zdravot. a farmacie" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "227" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Zdravotní pojišťovna AGEL" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "228" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Zdravotní pojišťovna Média" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "333" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Všeobecná zdravotní pojišťovna - pojištění cizinců" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "800" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Vládní stipendista - hradí MZ ČR" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Bez smlouvy se zdravotní pojišťovnou" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://hl7.cz/terminology/CodeSystem/healthInsuranceCompanyCode.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="medical-document-type"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/>
+  </text>
+  <url value="https://ncez.mzcr.cz/terminology/ValueSet/medical-document-type"/>
+  <version value="1.0.0"/>
+  <name value="MedicalDocumentType"/>
+  <title value="Typy lékařské dokumentace"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-11-19T19:13:45.314486Z"/>
+  <publisher value="HL7 Czech Republic"/>
+  <contact>
+    <name value="HL7 Czech Republic"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hl7.cz/"/>
+    </telecom>
+  </contact>
+  <description value="Číselník typů medicínských dokumentů."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CZ"/>
+      <display value="Czechia"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc"/>
+  <compose>
+    <include>
+      <system value="http://loinc.org"/>
+      <concept>
+        <code value="18842-5"/>
+        <display value="Propouštěcí zpráva"/>
+      </concept>
+      <concept>
+        <code value="11488-4"/>
+        <display value="Konsiliární zpráva"/>
+      </concept>
+      <concept>
+        <code value="11506-3"/>
+        <display value="Průběžná zpráva"/>
+      </concept>
+      <concept>
+        <code value="67851-6"/>
+        <display value="Vstupní vyšetření"/>
+      </concept>
+      <concept>
+        <code value="11504-8"/>
+        <display value="Operační protokol"/>
+      </concept>
+      <concept>
+        <code value="60591-5"/>
+        <display value="Pacientský souhrn"/>
+      </concept>
+      <concept>
+        <code value="67781-5"/>
+        <display value="Zpráva o vyšetření či ošetření"/>
+      </concept>
+      <concept>
+        <code value="34133-9"/>
+        <display value="Souhrn poskytnuté péče"/>
+      </concept>
+      <concept>
+        <code value="51848-0"/>
+        <display value="Lékařský posudek"/>
+      </concept>
+      <concept>
+        <code value="67796-3"/>
+        <display value="Záznam o výjezdu"/>
+      </concept>
+      <concept>
+        <code value="18743-5"/>
+        <display value="Pitevní protokol"/>
+      </concept>
+      <concept>
+        <code value="34748-4"/>
+        <display value="Zpráva o telekonzultaci"/>
+      </concept>
+      <concept>
+        <code value="74207-2"/>
+        <display value="Souhrn pre-hospitalizační péče"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>
